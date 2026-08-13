@@ -116,36 +116,40 @@ Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each mus
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
-For EACH word, output ALL of these fields (every field is required):
-{{
-  "w": "word (base form)",
-  "ph": "/IPA pronunciation/",
-  "m": "concise Chinese meaning",
-  "c": "econ | news | work",
-  "pos": "part of speech (e.g. v. / n. / adj.)",
-  "en": "English definition in plain English, 5-12 words",
-  "col": "2-3 common collocations/patterns separated by center dot, e.g. escalate tensions/conflict · rapidly escalating · an escalation of prices",
-  "ex": "English example sentence (1 sentence, natural, uses the word, ideally reflecting a real current event)",
-  "exZh": "Chinese translation of the example",
-  "t": "Memory tip in Chinese. MUST reference a REAL specific current news/economy event (e.g. '美国7月CPI低于预期后，市场开始 temper 对美联储降息的押注'), not a generic sentence. 15-40 Chinese characters.",
-  "root": "Affix breakdown in Chinese (e.g. 前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义 爬上去 → 升级). If no clear affix, briefly explain origin in Chinese."
-}}
+For EACH word, output ALL of these fields (every field is required). Use the "STYLE GUIDE" below to match the expected depth and length:
+
+  w: word (base form)
+  ph: /IPA pronunciation/
+  m: 10-30 Chinese chars. Concise multi-sense Chinese meaning, with part-of-speech hint in front if multiple senses, e.g. "(冲突)升级; 逐步扩大"
+  c: econ | news | work
+  pos: v. / n. / adj. / adv.
+  en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
+  col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"
+  ex: 60-130 English chars. ONE natural English sentence that uses the word (inflected ok), and reflects a real current news/economic event or plausible scenario
+  exZh: 14-50 Chinese chars. Natural Chinese translation of the example
+  t: 90-140 Chinese chars, in TWO paragraphs separated by a newline. Paragraph 1 (50-80 chars): tie the word to a SPECIFIC real current news/economy event, with names, numbers, and the word used in context. Paragraph 2 (40-60 chars): give a workplace/daily-life example sentence, OR contrast with a related word (e.g. antonym, near-synonym, noun/verb form), OR a memorable image/association to lock the word in memory. Both paragraphs required.
+  root: 60-100 Chinese chars. Full affix breakdown with: prefix/root/suffix separated by " + ", each component's source language (拉丁/希腊/古英语/法语/阿拉伯语 etc.), at least one cognate word per component, then a short arrow showing etymology-to-modern-meaning evolution. Example format: "前缀 bene-(好, 拉丁, 同源 benefit/benevolent) + 词根 gn(=gen 生, 同源 genus) → 天性是好的 → 温和无害、良性". If the word has no clear affixes, briefly explain its etymology origin in Chinese.
+
+STYLE GUIDE - match this level of detail (these are real examples from this app's history, do not copy, just match the depth):
+
+  t example A (109 chars): "高盛押注今晚"鸽派惊喜"、汇丰预判数据"温和"，一旦成真就是市场最爱的 Goldilocks 行情，几乎所有资产普涨。医院报告里的"良性"也是这个词：benign 良性 ↔ malignant 恶性，成对记。"
+  t example B (135 chars): "今日盘面注解：CTA 仍在"大举做空"短端美债、主动型基金低配，一旦数据不配合，这批极度拥挤的空头就得被迫 recalibrate。职场高频：数据一变就 recalibrate your expectations（把预期重新标定），比 change 显得有依据、有分寸。"
+  root example (97 chars): "前缀 bene-(好，拉丁 bene，同源 benefit 好处、benevolent 仁慈的) + 词根 gn(=gen 生、天性，同源 genus 属类) → 天性是好的 → 温和无害、良性"
 
 Then output these three objects:
-{{
-  "story": {{
+
+  story: {{
     "en": "English short paragraph (200 words max) weaving together MOST of today's 8 words (5-8 of them) into ONE coherent story about today's real economic/news events. Use [display text|base form] markers for the words (display can be inflected, base form is the dictionary form). Each word appears at most once.",
     "cn": "Chinese translation of the story"
-  }},
-  "quote": {{
+  }}
+  quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
     "zh": "Chinese translation"
-  }},
-  "preview": {{
+  }}
+  preview: {{
     "hook": "Chinese hook paragraph (60-120 chars) that weaves MOST of today's 8 words (5-8 of them) into today's hot-news storyline, using [display|base] markers. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
     "impact": "One Chinese sentence (20-40 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
   }}
-}}
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}

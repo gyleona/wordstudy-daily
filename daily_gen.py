@@ -210,7 +210,7 @@ def generate_content(recent_set, quote_history=None):
         quote_instruction = "No prior quotes to avoid; just make it fresh and original."
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
-Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}. PRIMARY sources (at least 6 of the 8 words): economy, finance, news, workplace. SECONDARY sources (optional, at most 2 of the 8 words): politics, entertainment, sports. Mix should feel diverse, not monotonous.
+Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}. PRIMARY sources (5-6 of the 8 words): economy, finance, news, workplace. SECONDARY sources (2-3 of the 8 words): politics, entertainment, sports — whenever today's headlines contain a political/entertainment/sports hot topic that yields a good IELTS word, USE it; only skip secondary if nothing fits. Mix should feel diverse, not monotonous.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
@@ -219,7 +219,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
   w: word (base form)
   ph: /IPA pronunciation/
   m: 10-30 Chinese chars. Concise multi-sense Chinese meaning, with part-of-speech hint in front if multiple senses, e.g. "(冲突)升级; 逐步扩大"
-  c: econ | news | work | politics | entertainment | sports  (PRIMARY: econ/news/work for at least 6 words; SECONDARY: politics/entertainment/sports for the rest)
+  c: econ | news | work | politics | entertainment | sports  (aim: 5-6 of 8 words in econ/news/work; 2-3 words from politics/entertainment/sports when current headlines fit)
   pos: v. / n. / adj. / adv.
   en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
   col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"

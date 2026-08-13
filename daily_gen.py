@@ -69,6 +69,44 @@ def get_recent_words(words, days=DEDUP_DAYS):
     return set(recent)
 
 
+QUOTE_HISTORY_KEY = "quote-history.jsonl"
+
+
+def get_quote_history(client):
+    """Fetch quote history from COS. Returns list of {date, en, zh} dicts."""
+    raw = fetch_remote_json(client, QUOTE_HISTORY_KEY)
+    history = []
+    if raw:
+        for line in raw.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                history.append(json.loads(line))
+            except Exception:
+                continue
+    log(f"Quote history: {len(history)} entries")
+    return history
+
+
+def append_quote_history(client, entry):
+    """Append today's quote to quote-history.jsonl on COS. Keeps last 60 entries."""
+    raw = fetch_remote_json(client, QUOTE_HISTORY_KEY)
+    lines = []
+    if raw:
+        lines = [l for l in raw.splitlines() if l.strip()]
+    lines.append(json.dumps(entry, ensure_ascii=False))
+    if len(lines) > 60:
+        lines = lines[-60:]
+    payload = ("\n".join(lines) + "\n").encode("utf-8")
+    log("Uploading updated quote-history.jsonl...")
+    try:
+        client.put_object(Bucket=HOSTING_BUCKET, Key=QUOTE_HISTORY_KEY, Body=payload)
+        log("quote-history.jsonl updated")
+    except Exception as e:
+        log(f"quote-history.jsonl upload failed: {e}")
+
+
 def ensure_markers(text, words):
     """Fallback: wrap any today's words that appear bare in text with [word|word] markers.
     Handles both the English base form AND the Chinese gloss (first sense of m).
@@ -144,8 +182,16 @@ def call_deepseek(prompt, max_retries=3):
     return None
 
 
-def generate_content(recent_set):
+def generate_content(recent_set, quote_history=None):
     avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
+    quote_history = quote_history or []
+    # Build quote dedup text
+    if quote_history:
+        recent_quotes = [q.get("en", "") for q in quote_history[-60:]]
+        quote_avoid = "\n".join("  - " + q for q in recent_quotes[-15:])
+        quote_instruction = f"Your quote.en MUST NOT be similar to any of these recent quotes (avoid same sentence structure, keywords, and meaning):\n{quote_avoid}"
+    else:
+        quote_instruction = "No prior quotes to avoid; just make it fresh and original."
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
 Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics in economy, finance, news, or workplace as of {TODAY}.
@@ -189,6 +235,9 @@ Then output these three objects:
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
     impact example: "今天的头条就串成了一句话：'数据定门槛，谈判在降温，承诺被反悔'——覆盖通胀博弈、地缘缓和、科技监管三条主线。"
 
+QUOTE DEDUP RULE:
+{quote_instruction}
+
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}
 """
@@ -226,7 +275,9 @@ def main():
 
     recent_set = get_recent_words(existing_words)
 
-    result = generate_content(recent_set)
+    quote_history = get_quote_history(client)
+
+    result = generate_content(recent_set, quote_history)
     if not result:
         log("ERROR: Failed to generate content")
         sys.exit(1)
@@ -258,6 +309,11 @@ def main():
 
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
     success = upload_to_cos(client, content_bytes, "words-data.json")
+
+    # Record today's quote for future dedup
+    new_quote = result.get("quote", {})
+    if new_quote and new_quote.get("en"):
+        append_quote_history(client, {"date": TODAY, "en": new_quote["en"], "zh": new_quote.get("zh", "")})
 
     if success:
         log("=== DONE ===")

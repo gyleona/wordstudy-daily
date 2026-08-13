@@ -210,7 +210,7 @@ def generate_content(recent_set, quote_history=None):
         quote_instruction = "No prior quotes to avoid; just make it fresh and original."
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
-Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics in economy, finance, news, or workplace as of {TODAY}.
+Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}. PRIMARY sources (at least 6 of the 8 words): economy, finance, news, workplace. SECONDARY sources (optional, at most 2 of the 8 words): politics, entertainment, sports. Mix should feel diverse, not monotonous.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
@@ -219,13 +219,13 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
   w: word (base form)
   ph: /IPA pronunciation/
   m: 10-30 Chinese chars. Concise multi-sense Chinese meaning, with part-of-speech hint in front if multiple senses, e.g. "(冲突)升级; 逐步扩大"
-  c: econ | news | work
+  c: econ | news | work | politics | entertainment | sports  (PRIMARY: econ/news/work for at least 6 words; SECONDARY: politics/entertainment/sports for the rest)
   pos: v. / n. / adj. / adv.
   en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
   col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"
   ex: 60-130 English chars. ONE natural English sentence that uses the word (inflected ok), and reflects a real current news/economic event or plausible scenario
   exZh: 14-50 Chinese chars. Natural Chinese translation of the example
-  t: 90-140 Chinese chars, in TWO paragraphs separated by a newline. Paragraph 1 (50-80 chars): tie the word to a SPECIFIC real current news/economy event, with names, numbers, and the word used in context. Paragraph 2 (40-60 chars): give a workplace/daily-life example sentence, OR contrast with a related word (e.g. antonym, near-synonym, noun/verb form), OR a memorable image/association to lock the word in memory. Both paragraphs required.
+  t: 90-140 Chinese chars, in TWO paragraphs separated by a newline. Paragraph 1 (50-80 chars): tie the word to a SPECIFIC real current event (economy/news/workplace/politics/entertainment/sports), with names, numbers, and the word used in context. Paragraph 2 (40-60 chars): give a workplace/daily-life example sentence, OR contrast with a related word (e.g. antonym, near-synonym, noun/verb form), OR a memorable image/association to lock the word in memory. Both paragraphs required.
   root: 60-100 Chinese chars. Full affix breakdown with: prefix/root/suffix separated by " + ", each component's source language (拉丁/希腊/古英语/法语/阿拉伯语 etc.), at least one cognate word per component, then a short arrow showing etymology-to-modern-meaning evolution. Example format: "前缀 bene-(好, 拉丁, 同源 benefit/benevolent) + 词根 gn(=gen 生, 同源 genus) → 天性是好的 → 温和无害、良性". If the word has no clear affixes, briefly explain its etymology origin in Chinese.
 
 STYLE GUIDE - match this level of detail (these are real examples from this app's history, do not copy, just match the depth):

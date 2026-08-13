@@ -139,7 +139,7 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English short paragraph (200 words max) weaving together MOST of today's 8 words (5-8 of them) into ONE coherent story about today's real economic/news events. Use [display text|base form] markers for the words (display can be inflected, base form is the dictionary form). Each word appears at most once.",
+    "en": "English short paragraph (180-240 words) weaving together ALL 8 of today's words (EVERY word must appear, each exactly once, using [display text|base form] markers) into ONE coherent story about today's real economic/news events. The story must feel like a real news article: start with a hook, have a middle that connects 2-3 real sub-events, and end with a forward-looking conclusion. 8 markers minimum.",
     "cn": "Chinese translation of the story"
   }}
   quote: {{
@@ -147,8 +147,8 @@ Then output these three objects:
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "Chinese hook paragraph (60-120 chars) that weaves MOST of today's 8 words (5-8 of them) into today's hot-news storyline, using [display|base] markers. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
-    "impact": "One Chinese sentence (20-40 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
+    "hook": "Chinese hook paragraph (100-180 chars) that weaves ALL 8 of today's words (EVERY word must appear, each exactly once, using [display|base] markers) into today's hot-news storyline. Structure like a news lede: 2-3 real sub-events connected by transitions. 8 markers minimum. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
+    "impact": "One Chinese sentence (30-50 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
   }}
 
 Output STRICT JSON only, no markdown, exactly this shape:

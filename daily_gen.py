@@ -306,4 +306,68 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()   sys.exit(1)
+
+
+# 1. Retrieve existing data
+existing = fetch_cos_data()
+recent_words = build_recent_words(existing)
+log(f"当前存在的单词总数：{len(existing.get('words', []))}，近期不重复出现的单词数：{len(recent_words)}")
+
+
+# 2. Retrieving the quote history
+history = fetch_quote_history()
+quote_hist_text = build_quote_history_text(history)
+
+
+# 3. Using DeepSeek to generate results
+try:
+new_data = generate_daily_words(recent_words, quote_hist_text)
+Except for exceptions like the Exception class, as e:
+log(f"❌ DeepSeek generation failed: {e}")
+sys.exit(1)
+
+
+# Verifying the number of words
+words = new_data.get("words", [])
+if len(words) != 8:
+log(f"⚠️ The number of words is not 8 (actually {len(words)}), but we will continue saving the data")
+
+
+# 4. Combining data
+merged = merge_data(existing, new_data)
+data_json = json.dumps(merged, ensure_ascii=False, indent=2)
+
+
+# 5. Uploading words-data.json file
+try:
+upload_to_cos(DATA_KEY, data_json)
+Except for exceptions like the Exception class, e:
+log(f)“COS 签名上传失败: {e”，尝试备用方法……”)
+if not upload_simple(DATA_KEY, data_json):
+log("❌ All upload methods have failed!")
+sys.exit(1)
+
+
+# 6. Additional quote history
+quote = new_data.get("quote", {})
+if quote.get("en"):
+history_entry = json.dumps({"date": TODAY, "en": quote["en"], "zh": quote.get("zh", "")}, ensure_ascii=False)
+history.append(history_entry)
+history_text = "\n".join(history[-80:])  # Keep the last 80 items in the history list
+try:
+upload_to_cos(HISTORY_KEY, history_text, "text/plain; charset=utf-8")
+Except Exception as e:
+log(f"⚠️ Uploading the quote history failed (does not affect the main process): {e}")
+
+
+# 7. Completed
+log(f"✅ Completed! Today, {len(words)} words have been launched.)")
+log(f"Access: https://wordstudy-d1gh0i7r67e8a64e8-1463809286.tcloudbaseapp.com")
+print(json.dumps({“ok”: True, “date”: TODAY, “words”: len(words)}))
+
+
+
+
+if __name__ == "__main__":
+main()

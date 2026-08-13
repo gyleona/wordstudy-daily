@@ -15,6 +15,7 @@ import json
 import time
 import re
 import requests
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from qcloud_cos import CosConfig, CosS3Client
 
@@ -32,6 +33,39 @@ TODAY = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 def log(msg):
     ts = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
     print(f"[{ts}] {msg}", flush=True)
+
+
+# RSS 源：用于抓取当天真实新闻标题，喂给 DeepSeek 作为创作素材
+NEWS_FEEDS = [
+    "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+]
+
+
+def fetch_today_news(max_items=25):
+    """Fetch today's real news headlines from RSS feeds (GitHub Actions runs on overseas servers,
+    these feeds are reachable). Returns a dedup list of headlines."""
+    titles = []
+    for url in NEWS_FEEDS:
+        try:
+            r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            if r.status_code != 200:
+                continue
+            root = ET.fromstring(r.content)
+            for item in root.iter("item"):
+                title = (item.findtext("title") or "").strip()
+                if title and title not in titles:
+                    titles.append(title)
+        except Exception as e:
+            log(f"RSS fetch failed {url}: {e}")
+            continue
+        if len(titles) >= max_items:
+            break
+    log(f"Fetched {len(titles)} real news headlines")
+    return titles[:max_items]
 
 
 def get_cos_client():
@@ -198,7 +232,7 @@ def call_deepseek(prompt, max_retries=3):
     return None
 
 
-def generate_content(recent_set, quote_history=None):
+def generate_content(recent_set, quote_history=None, news_headlines=None):
     avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
     quote_history = quote_history or []
     # Build quote dedup text
@@ -208,11 +242,22 @@ def generate_content(recent_set, quote_history=None):
         quote_instruction = f"Your quote.en MUST NOT be similar to any of these recent quotes (avoid same sentence structure, keywords, and meaning):\n{quote_avoid}"
     else:
         quote_instruction = "No prior quotes to avoid; just make it fresh and original."
+
+    # Build today's real news context
+    news_headlines = news_headlines or []
+    if news_headlines:
+        news_block = "\n".join("  - " + h for h in news_headlines)
+        news_instruction = f"""The following are REAL news headlines from TODAY (fetched live). Use them as your ONLY source of facts for t/story/hook/impact. Pick the most relevant 2-4 for each word. NEVER invent events, names, numbers, or dates that are not in these headlines. If a fact is not in the headlines, do not claim it.\n\nTODAY'S REAL NEWS HEADLINES:\n{news_block}"""
+    else:
+        news_instruction = "No live news could be fetched today. In that case: DO NOT invent fake specific events (fake company names, fake numbers, fake dated events like '2026年8月希腊'). Instead use generic current-topic references WITHOUT specific fabricated facts (e.g. '全球通胀降温的背景下'), and never write a fake dated news item."
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
 Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}. PRIMARY sources (5-6 of the 8 words): economy, finance, news, workplace. SECONDARY sources (2-3 of the 8 words): politics, entertainment, sports — whenever today's headlines contain a political/entertainment/sports hot topic that yields a good IELTS word, USE it; only skip secondary if nothing fits. Mix should feel diverse, not monotonous.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
+
+IMPORTANT FACTUALITY RULE (highest priority):
+{news_instruction}
 
 For EACH word, output ALL of these fields (every field is required). Use the "STYLE GUIDE" below to match the expected depth and length:
 
@@ -293,7 +338,9 @@ def main():
 
     quote_history = get_quote_history(client)
 
-    result = generate_content(recent_set, quote_history)
+    news_headlines = fetch_today_news()
+
+    result = generate_content(recent_set, quote_history, news_headlines)
     if not result:
         log("ERROR: Failed to generate content")
         sys.exit(1)

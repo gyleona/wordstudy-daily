@@ -3,7 +3,7 @@ name: Daily Word Generation
 on:
   schedule:
     # 北京时间每天 09:30 = UTC 01:30
-    - cron: '30 1 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch: # 支持手动触发（方便测试）
 
 permissions:

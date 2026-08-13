@@ -1,308 +1,262 @@
 #!/usr/bin/env python3
 """
-每日单词生成脚本（GitHub Actions 用）
-1. 调 DeepSeek API 生成 8 个雅思单词 + story + quote + preview
-2. 上传 words-data.json 到 CloudBase 静态托管（COS）
-3. 维护去重历史（quote-history.jsonl 存在 COS 上）
+Daily Word Generation Script
+Generates 8 new words + story + quote via DeepSeek API,
+avoids duplication with last 30 days, uploads to CloudBase COS.
 """
 
-import os, json, time, hashlib, re, sys
-from datetime import datetime, timezone, timedelta
+import os
+import sys
+import json
+import time
+import hmac
+import hashlib
 import requests
+from datetime import datetime, timedelta, timezone
 
-# ── 环境变量 ──────────────────────────────────────────────
+# Configuration
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 COS_SECRET_ID = os.environ.get("COS_SECRET_ID", "")
 COS_SECRET_KEY = os.environ.get("COS_SECRET_KEY", "")
-BUCKET = os.environ.get("HOSTING_BUCKET", "")       # 0313-static-wordstudy-xxx
-REGION = os.environ.get("HOSTING_REGION", "ap-shanghai")
+HOSTING_BUCKET = os.environ.get("HOSTING_BUCKET", "")
+HOSTING_REGION = os.environ.get("HOSTING_REGION", "")
 
-# ── 常量 ───────────────────────────────────────────────────
-DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
-COS_HOST = f"{BUCKET}.cos.{REGION}.myqcloud.com"
-DATA_KEY = "words-data.json"          # 静态托管上的数据文件
-HISTORY_KEY = "quote-history.jsonl"   # quote 去重历史
-
-BJ_TZ = timezone(timedelta(hours=8))
-TODAY = datetime.now(BJ_TZ).strftime("%Y-%m-%d")
+DEDUP_DAYS = 30
+TODAY = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 
 
 def log(msg):
-    print(f"[{TODAY}] {msg}", flush=True)
+    ts = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
+    print(f"[{ts}] {msg}", flush=True)
 
 
-# ── 1. 获取现有数据（用于去重 & 追加）──────────────────────
-def fetch_cos_data():
-    """从 COS 获取现有的 words-data.json，失败返回空 dict"""
-    # 简单 GET 请求（公开读的静态托管桶不需要签名）
-    url = f"https://{COS_HOST}/{DATA_KEY}"
+def http_get(url, timeout=15):
     try:
-        r = requests.get(url, timeout=15)
-        if r.status_code == 200:
-            return r.json()
+        r = requests.get(url, timeout=timeout)
+        r.raise_for_status()
+        return r.text
     except Exception as e:
-        log(f"获取现有数据失败（将新建）: {e}")
-    return {"words": [], "updated_on": TODAY}
+        log(f"GET failed: {e}")
+        return None
 
 
-def fetch_quote_history():
-    """从 COS 获取 quote 去重历史"""
-    url = f"https://{COS_HOST}/{HISTORY_KEY}"
+def http_post(url, data, headers=None, timeout=90):
     try:
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200:
-            lines = [l for l in r.text.strip().split("\n") if l.strip()]
-            return lines[-60:]  # 只保留最近 60 条去重
-    except:
-        pass
-    return []
+        r = requests.post(url, json=data, headers=headers or {}, timeout=timeout)
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:
+        log(f"POST failed: {e}")
+        return None
 
 
-# ── 2. 构建最近单词列表（给 DeepSeek 做去重参考）───────────
-def build_recent_words(existing_data):
-    """提取最近 30 天的单词列表"""
-    words = existing_data.get("words", [])
-    recent = []
-    seen = set()
-    # 按日期倒序，取最近的不重复词
-    for w in reversed(words):
-        wd = w.get("w", "")
-        if wd and wd not in seen:
-            recent.append(wd)
-            seen.add(wd)
-        if len(recent) >= 50:
-            break
-    return recent[:30]  # 给 DeepSeek 最近 30 个做参考
+def get_cos_host():
+    # Bucket format: 0313-static-wordstudy-d1gh0i7r67e8a64e8-1463809286
+    # COS host: <bucket>.cos.<region>.myqcloud.com
+    return f"{HOSTING_BUCKET}.cos.{HOSTING_REGION}.myqcloud.com"
 
 
-def build_quote_history_text(history_lines):
-    """把 quote 历史变成文本供 DeepSeek 参考"""
-    entries = []
-    for line in history_lines[-40:]:
-        try:
-            entry = json.loads(line)
-            entries.append(entry.get("en", ""))
-        except:
-            pass
-    return "\n".join(entries) if entries else "(无历史)"
+def fetch_remote_json(key):
+    host = get_cos_host()
+    url = f"https://{host}/{key}"
+    log(f"Fetching {key} from {host}...")
+    return http_get(url)
 
 
-# ── 3. 调 DeepSeek 生成 ───────────────────────────────────
-def call_deepseek(prompt, max_tokens=4000):
-    """调用 DeepSeek API"""
-    headers = {
-        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    body = {
+def get_existing_words():
+    raw = fetch_remote_json("words-data.json")
+    if not raw:
+        return [], {}
+    try:
+        d = json.loads(raw)
+        return d.get("words", []), d
+    except Exception as e:
+        log(f"Parse JSON failed: {e}")
+        return [], {}
+
+
+def get_recent_words(words, days=DEDUP_DAYS):
+    cutoff = (datetime.now(timezone(timedelta(hours=8))) - timedelta(days=days)).strftime("%Y-%m-%d")
+    recent = [w.get("w", "").lower() for w in words if w.get("d", "") >= cutoff]
+    log(f"Last {days} days: {len(recent)} words to avoid")
+    return set(recent)
+
+
+def call_deepseek(prompt, max_retries=3):
+    url = "https://api.deepseek.com/chat/completions"
+    headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+    payload = {
         "model": "deepseek-chat",
         "messages": [
-            {"role": "system", "content": "你是一个专业的英语词汇教学助手。输出必须严格符合要求的 JSON 格式，不要输出任何其他文字。"},
+            {"role": "system", "content": "You are an expert IELTS vocabulary tutor. Always respond with strict JSON only, no markdown, no extra text."},
             {"role": "user", "content": prompt}
         ],
-        "max_tokens": max_tokens,
-        "temperature": 0.85
+        "temperature": 0.7,
+        "max_tokens": 4000
     }
-    r = requests.post(DEEPSEEK_URL, headers=headers, json=body, timeout=120)
-    r.raise_for_status()
-    data = r.json()
-    content = data["choices"][0]["message"]["content"]
-    # 提取 JSON（可能被 markdown 包裹）
-    match = re.search(r'\{[\s\S]*\}', content)
-    if match:
-        return json.loads(match.group())
-    raise ValueError(f"DeepSeek 返回的不是有效 JSON: {content[:200]}")
+    for attempt in range(max_retries):
+        log(f"DeepSeek call attempt {attempt+1}...")
+        result = http_post(url, payload, headers=headers, timeout=90)
+        if result and "choices" in result:
+            content = result["choices"][0]["message"]["content"].strip()
+            if content.startswith("```"):
+                lines = content.split("\n")
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                content = "\n".join(lines)
+            try:
+                return json.loads(content)
+            except json.JSONDecodeError as e:
+                log(f"JSON parse failed: {e}")
+                log(f"Content preview: {content[:200]}")
+        time.sleep(2)
+    return None
 
 
-def generate_daily_words(recent_words, quote_history_text):
-    """构建 prompt 并调用 DeepSeek 生成当日数据"""
-    recent_str = ", ".join(recent_words) if recent_words else "(无历史)"
+def generate_content(recent_set):
+    avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
+    prompt = f"""Today is {TODAY}. Generate EXACTLY 8 new English words for IELTS prep (CEFR C1 level, not below CET-6), themed around current hot topics in economy, news, or workplace.
 
-    prompt = f"""请为「每日雅思单词」应用生成今天({TODAY})的数据。要求：
+IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
-## 1. 单词（固定 8 个，恰好 8 个）
-生成 8 个实用英语单词，难度雅思 6.5+ (CEFR C1)，涉及经济/新闻/职场。
-- 近期已学过的词不要重复：{recent_str}
-- 若候选不足，优先选更早学过的词，务必凑满恰好 8 个。
-
-每个单词格式：
-{{"w":"单词","ph":"/音标/","m":"中文词义","c":"主题(econ/news/work)","d":"{TODAY}","ex":"英文例句(含该词变形)","exZh":"中文翻译","t":"贴合热点的记忆小提示(一句话)","root":"词根词缀拆解"}}
-
-## 2. 今日热点串讲 story
-{{"en":"英文短文(200字内)，用[显示文本|原形]标记2-4个当天单词","cn":"中文翻译"}}
-
-## 3. 每日励志语 quote
-- 主题：学习/成长/坚持，雅思水平，6-12 词
-- 不要和以下历史重复（句式和用词都要不同）：
-{quote_history_text}
-
-## 4. preview 预览对象
-{{"hook":"一小段话把当天单词串进热点语境(不要出现'这8个词''记住这8个词'等说法，用'今天的故事''今天的头条')","impact":"一句话总结与新闻主线的关联"}}
-
-## 输出格式（严格 JSON，不要其他文字）：
-{{"words":[...8个单词对象...],"story":{{...}},"quote":{{"en":"...","zh":"..."}},"preview":{{...}}}}"""
-
-    log("正在调用 DeepSeek 生成...")
-    result = call_deepseek(prompt)
-    log(f"DeepSeek 返回成功，words 数量: {len(result.get('words', []))}")
-    return result
-
-
-# ── 4. 合并数据 ───────────────────────────────────────────
-def merge_data(existing_data, new_data):
-    """把新生成的数据合并到现有数据中"""
-    existing_data["updated_on"] = TODAY
-
-    # 追加新单词到 words 数组
-    new_words = new_data.get("words", [])
-    existing_data.setdefault("words", []).extend(new_words)
-
-    # 更新 story / quote / preview
-    if new_data.get("story"):
-        existing_data["story"] = new_data["story"]
-    if new_data.get("quote"):
-        existing_data["quote"] = new_data["quote"]
-    if new_data.get("preview"):
-        existing_data["preview"] = new_data["preview"]
-
-    return existing_data
+Output STRICT JSON (no markdown):
+{{
+  "words": [
+    {{
+      "w": "word",
+      "ph": "/IPA/",
+      "m": "Chinese meaning",
+      "c": "econ|news|work",
+      "ex": "English example",
+      "exZh": "Chinese translation",
+      "t": "Memory tip tied to news/hot topic",
+      "root": "Affix breakdown (e.g. dis- + rupt + -ion)"
+    }}
+  ],
+  "story": {{
+    "en": "English paragraph with [display|original] markers for 2-4 of the words",
+    "cn": "Chinese translation"
+  }},
+  "quote": {{
+    "en": "An English inspirational sentence, 6-12 words, about learning/growth/persistence",
+    "zh": "Chinese translation"
+  }},
+  "preview": {{
+    "hook": "Hook paragraph (must NOT contain '8 words' or 'these 8 words'. Use today's story instead). Can use [display|original] markers.",
+    "impact": "One-sentence impact. Must NOT contain '8 words'."
+  }}
+}}"""
+    return call_deepseek(prompt)
 
 
-# ── 5. 上传到 COS（CloudBase 静态托管）───────────────────
-def upload_to_cos(key, data_str, content_type="application/json"):
-    """通过 COS REST API 上传文件（简单 PUT）"""
-    url = f"https://{COS_HOST}/{key}"
+def hmac_sha1(key, msg):
+    return hmac.new(key.encode("utf-8"), msg.encode("utf-8"), hashlib.sha1).hexdigest()
 
-    # 计算 Authorization（HMAC-SHA1 签名）
-    now = int(time.time())
-    # 简化签名（实际生产应使用 SDK 或完整签名逻辑）
-    # 这里用预签名 URL 方式或直接 SDK 更安全
-    # 但 GitHub Actions 环境没有 cos-sdk，我们用 requests 直接签
-    import hmac, hashlib
 
-    # COS 签名 v5 太复杂，改用临时密钥方式或简化方案
-    # 实际上对于公开写桶，我们可以用更简单的方式
-    # 这里改用腾讯云 STS 临时凭证方式太复杂
-    # 改用最简方案：直接用 SecretId/SecretKey 做 HMAC-SHA1 签名
+def upload_to_cos(content_bytes, key):
+    host = get_cos_host()
+    url = f"https://{host}/{key}"
+    log(f"Uploading {key} ({len(content_bytes)} bytes) to {host}...")
+
+    now = datetime.now(timezone(timedelta(hours=0)))
+    timestamp = int(now.timestamp())
+    date_str = now.strftime("%Y%m%d")
+    short_date = now.strftime("%a, %d %b %Y %H:%M:%S GMT")
 
     http_method = "put"
-    path = f"/{key}"
-    sign_time = f"{now};{now + 3600}"
-    key_time = f"{now - 86400 * 180};{now + 86400 * 180}"
+    canonical_uri = f"/{key}"
+    canonical_querystring = ""
+    payload_hash = hashlib.sha1(content_bytes).hexdigest().lower()
 
-    # SignKey
-    sign_key = hmac.new(
-        ("TC3" + COS_SECRET_KEY).encode(),
-        key_time.encode(),
-        hashlib.sha256
-    ).hexdigest()
-
-    # HttpString
-    http_string = f"{http_method}\n{path}\n\n\ncontent-type={content_type}\n"
-    string_to_sign = f"sha256\n{sign_time}\n{hashlib.sha256(http_string.encode()).hexdigest()}"
-
-    # Signature
-    signature = hmac.new(
-        sign_key.encode(),
-        string_to_sign.encode(),
-        hashlib.sha256
-    ).hexdigest()
-
-    authorization = (
-        f"q-sign-algorithm=sha1&q-ak={COS_SECRET_ID}&q-sign-time={sign_time}"
-        f"&q-key-time={key_time}&q-header-list=&q-url-param-list="
-        f"&q-signature={signature}"
-    )
-
-    headers = {
-        "Authorization": authorization,
-        "Content-Type": content_type,
-        "Host": COS_HOST,
-        "x-cos-security-token": "",
+    headers_to_sign = {
+        "host": host,
+        "date": short_date,
+        "content-type": "application/json",
+        "x-cos-content-sha1": payload_hash
     }
 
-    r = requests.put(url, headers=headers, data=data_str.encode(), timeout=30)
-    r.raise_for_status()
-    log(f"上传 {key} 成功 ({len(data_str)} bytes)")
+    canonical_headers = "\n".join(f"{k}:{v.strip()}" for k, v in sorted(headers_to_sign.items()))
+    signed_headers = ";".join(sorted(headers_to_sign.keys()))
 
+    canonical_request = f"{http_method}\n{canonical_uri}\n{canonical_querystring}\n{canonical_headers}\n\n{signed_headers}\n{payload_hash}"
 
-def upload_simple(key, data_str, content_type="application/json"):
-    """备用上传方法：如果 COS 签名失败，尝试用更简单的方式"""
-    url = f"https://{COS_HOST}/{key}"
-    # 尝试匿名 PUT（某些配置允许）
+    algorithm = "sha1"
+    hashed_canonical_request = hashlib.sha1(canonical_request.encode("utf-8")).hexdigest().lower()
+    credential_scope = f"{date_str}/{HOSTING_REGION}/cos/request"
+    string_to_sign = f"{algorithm}\n{timestamp}\n{credential_scope}\n{hashed_canonical_request}"
+
+    secret_date = hmac_sha1(f"TC3{COS_SECRET_KEY}", date_str)
+    secret_service = hmac_sha1(secret_date, HOSTING_REGION)
+    secret_signing = hmac_sha1(secret_service, "cos/request")
+    signature = hmac_sha1(secret_signing, string_to_sign)
+
+    authorization = (
+        f"{algorithm} Credential={COS_SECRET_ID}/{credential_scope}, "
+        f"SignedHeaders={signed_headers}, Signature={signature}"
+    )
+
+    full_headers = {
+        "Authorization": authorization,
+        "Date": short_date,
+        "Host": host,
+        "Content-Type": "application/json",
+        "Content-Length": str(len(content_bytes)),
+        "x-cos-content-sha1": payload_hash,
+    }
+
     try:
-        r = requests.put(url, data=data_str.encode(), headers={
-            "Content-Type": content_type
-        }, timeout=30)
+        r = requests.put(url, data=content_bytes, headers=full_headers, timeout=30)
         if r.status_code in (200, 204):
-            log(f"上传 {key} 成功")
+            log("Upload success")
             return True
-    except:
-        pass
-    return False
+        else:
+            log(f"COS upload failed: {r.status_code} {r.text[:200]}")
+            return False
+    except Exception as e:
+        log(f"COS upload error: {e}")
+        return False
 
 
-# ── 主流程 ─────────────────────────────────────────────────
 def main():
-    log("=" * 50)
-    log("开始每日单词生成")
+    log(f"=== Daily Word Generation {TODAY} ===")
 
-    # 校验环境变量
-    missing = [k for k in ["DEEPSEEK_API_KEY", "COS_SECRET_ID", "COS_SECRET_KEY", "BUCKET"] if not globals().get(k.replace("BUCKET", "BUCKET").replace("DEEPSEEK_API_KEY", "DEEPSEEK_API_KEY"))]
-    # 简化校验
-    if not all([DEEPSEEK_API_KEY, COS_SECRET_ID, COS_SECRET_KEY, BUCKET]):
-        log("❌ 缺少必要的环境变量！")
+    if not all([DEEPSEEK_API_KEY, COS_SECRET_ID, COS_SECRET_KEY, HOSTING_BUCKET, HOSTING_REGION]):
+        log("ERROR: Missing required environment variables")
         sys.exit(1)
 
-    # 1. 获取现有数据
-    existing = fetch_cos_data()
-    recent_words = build_recent_words(existing)
-    log(f"现有单词总数: {len(existing.get('words', []))}, 近期不重复: {len(recent_words)}")
+    existing_words, existing_data = get_existing_words()
+    log(f"Existing words: {len(existing_words)}")
 
-    # 2. 获取 quote 历史
-    history = fetch_quote_history()
-    quote_hist_text = build_quote_history_text(history)
+    recent_set = get_recent_words(existing_words)
 
-    # 3. 调 DeepSeek 生成
-    try:
-        new_data = generate_daily_words(recent_words, quote_hist_text)
-    except Exception as e:
-        log(f"❌ DeepSeek 生成失败: {e}")
+    result = generate_content(recent_set)
+    if not result:
+        log("ERROR: Failed to generate content")
         sys.exit(1)
 
-    # 校验单词数量
-    words = new_data.get("words", [])
-    if len(words) != 8:
-        log(f"⚠️ 单词数量不是 8（实际 {len(words)}），但继续保存")
+    new_words = result.get("words", [])
+    log(f"Generated {len(new_words)} new words")
+    if len(new_words) != 8:
+        log(f"WARNING: Got {len(new_words)} words, expected 8")
 
-    # 4. 合并数据
-    merged = merge_data(existing, new_data)
-    data_json = json.dumps(merged, ensure_ascii=False, indent=2)
+    output = dict(existing_data) if existing_data else {"words": [], "preview": {}, "story": {}, "quote": {}}
+    output["updated_on"] = TODAY
+    output["words"] = existing_words + [{**w, "d": TODAY} for w in new_words]
+    output["story"] = result.get("story", output.get("story", {}))
+    output["quote"] = result.get("quote", output.get("quote", {}))
+    output["preview"] = result.get("preview", output.get("preview", {}))
 
-    # 5. 上传 words-data.json
-    try:
-        upload_to_cos(DATA_KEY, data_json)
-    except Exception as e:
-        log(f"COS 签名上传失败: {e}，尝试备用方式...")
-        if not upload_simple(DATA_KEY, data_json):
-            log("❌ 所有上传方式都失败了！")
-            sys.exit(1)
+    content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
+    success = upload_to_cos(content_bytes, "words-data.json")
 
-    # 6. 追加 quote 历史
-    quote = new_data.get("quote", {})
-    if quote.get("en"):
-        history_entry = json.dumps({"date": TODAY, "en": quote["en"], "zh": quote.get("zh", "")}, ensure_ascii=False)
-        history.append(history_entry)
-        history_text = "\n".join(history[-80:])  # 保留最近 80 条
-        try:
-            upload_to_cos(HISTORY_KEY, history_text, "text/plain; charset=utf-8")
-        except Exception as e:
-            log(f"⚠️ 上传 quote 历史失败（不影响主流程）: {e}")
-
-    # 7. 完成
-    log(f"✅ 完成！今日 {len(words)} 个词已上线")
-    log(f"   访问: https://wordstudy-d1gh0i7r67e8a64e8-1463809286.tcloudbaseapp.com")
-    print(json.dumps({"ok": True, "date": TODAY, "words": len(words)}))
+    if success:
+        log("=== DONE ===")
+        sys.exit(0)
+    else:
+        log("=== FAILED (upload) ===")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

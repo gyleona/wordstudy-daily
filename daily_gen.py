@@ -178,7 +178,9 @@ def main():
 
     output = dict(existing_data) if existing_data else {"words": [], "preview": {}, "story": {}, "quote": {}}
     output["updated_on"] = TODAY
-    output["words"] = existing_words + [{**w, "d": TODAY} for w in new_words]
+    # Replace today's existing words (avoid duplicates when re-running same day)
+    prev_words = [w for w in existing_words if w.get("d") != TODAY]
+    output["words"] = prev_words + [{**w, "d": TODAY} for w in new_words]
     output["story"] = result.get("story", output.get("story", {}))
     output["quote"] = result.get("quote", output.get("quote", {}))
     output["preview"] = result.get("preview", output.get("preview", {}))

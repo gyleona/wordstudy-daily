@@ -2,17 +2,17 @@
 """
 Daily Word Generation Script
 Generates 8 new words + story + quote via DeepSeek API,
-avoids duplication with last 30 days, uploads to CloudBase COS.
+avoids duplication with last 30 days, uploads to CloudBase COS (static hosting).
+Uses official Tencent COS Python SDK.
 """
 
 import os
 import sys
 import json
 import time
-import hmac
-import hashlib
 import requests
 from datetime import datetime, timedelta, timezone
+from qcloud_cos import CosConfig, CosS3Client
 
 # Configuration
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
@@ -30,41 +30,24 @@ def log(msg):
     print(f"[{ts}] {msg}", flush=True)
 
 
-def http_get(url, timeout=15):
+def get_cos_client():
+    config = CosConfig(Region=HOSTING_REGION, SecretId=COS_SECRET_ID, SecretKey=COS_SECRET_KEY)
+    return CosS3Client(config)
+
+
+def fetch_remote_json(client, key):
+    log(f"Fetching {key} from bucket {HOSTING_BUCKET}...")
     try:
-        r = requests.get(url, timeout=timeout)
-        r.raise_for_status()
-        return r.text
+        resp = client.get_object(Bucket=HOSTING_BUCKET, Key=key)
+        body = resp["Body"].get_raw_stream().read().decode("utf-8")
+        return body
     except Exception as e:
-        log(f"GET failed: {e}")
+        log(f"Fetch failed: {e}")
         return None
 
 
-def http_post(url, data, headers=None, timeout=90):
-    try:
-        r = requests.post(url, json=data, headers=headers or {}, timeout=timeout)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        log(f"POST failed: {e}")
-        return None
-
-
-def get_cos_host():
-    # Bucket format: 0313-static-wordstudy-d1gh0i7r67e8a64e8-1463809286
-    # COS host: <bucket>.cos.<region>.myqcloud.com
-    return f"{HOSTING_BUCKET}.cos.{HOSTING_REGION}.myqcloud.com"
-
-
-def fetch_remote_json(key):
-    host = get_cos_host()
-    url = f"https://{host}/{key}"
-    log(f"Fetching {key} from {host}...")
-    return http_get(url)
-
-
-def get_existing_words():
-    raw = fetch_remote_json("words-data.json")
+def get_existing_words(client):
+    raw = fetch_remote_json(client, "words-data.json")
     if not raw:
         return [], {}
     try:
@@ -96,7 +79,14 @@ def call_deepseek(prompt, max_retries=3):
     }
     for attempt in range(max_retries):
         log(f"DeepSeek call attempt {attempt+1}...")
-        result = http_post(url, payload, headers=headers, timeout=90)
+        try:
+            r = requests.post(url, json=payload, headers=headers, timeout=90)
+            r.raise_for_status()
+            result = r.json()
+        except Exception as e:
+            log(f"POST failed: {e}")
+            time.sleep(2)
+            continue
         if result and "choices" in result:
             content = result["choices"][0]["message"]["content"].strip()
             if content.startswith("```"):
@@ -151,71 +141,14 @@ Output STRICT JSON (no markdown):
     return call_deepseek(prompt)
 
 
-def hmac_sha1(key, msg):
-    return hmac.new(key.encode("utf-8"), msg.encode("utf-8"), hashlib.sha1).hexdigest()
-
-
-def upload_to_cos(content_bytes, key):
-    host = get_cos_host()
-    url = f"https://{host}/{key}"
-    log(f"Uploading {key} ({len(content_bytes)} bytes) to {host}...")
-
-    now = datetime.now(timezone(timedelta(hours=0)))
-    timestamp = int(now.timestamp())
-    date_str = now.strftime("%Y%m%d")
-    short_date = now.strftime("%a, %d %b %Y %H:%M:%S GMT")
-
-    http_method = "put"
-    canonical_uri = f"/{key}"
-    canonical_querystring = ""
-    payload_hash = hashlib.sha1(content_bytes).hexdigest().lower()
-
-    headers_to_sign = {
-        "host": host,
-        "date": short_date,
-        "content-type": "application/json",
-        "x-cos-content-sha1": payload_hash
-    }
-
-    canonical_headers = "\n".join(f"{k}:{v.strip()}" for k, v in sorted(headers_to_sign.items()))
-    signed_headers = ";".join(sorted(headers_to_sign.keys()))
-
-    canonical_request = f"{http_method}\n{canonical_uri}\n{canonical_querystring}\n{canonical_headers}\n\n{signed_headers}\n{payload_hash}"
-
-    algorithm = "sha1"
-    hashed_canonical_request = hashlib.sha1(canonical_request.encode("utf-8")).hexdigest().lower()
-    credential_scope = f"{date_str}/{HOSTING_REGION}/cos/request"
-    string_to_sign = f"{algorithm}\n{timestamp}\n{credential_scope}\n{hashed_canonical_request}"
-
-    secret_date = hmac_sha1(f"TC3{COS_SECRET_KEY}", date_str)
-    secret_service = hmac_sha1(secret_date, HOSTING_REGION)
-    secret_signing = hmac_sha1(secret_service, "cos/request")
-    signature = hmac_sha1(secret_signing, string_to_sign)
-
-    authorization = (
-        f"{algorithm} Credential={COS_SECRET_ID}/{credential_scope}, "
-        f"SignedHeaders={signed_headers}, Signature={signature}"
-    )
-
-    full_headers = {
-        "Authorization": authorization,
-        "Date": short_date,
-        "Host": host,
-        "Content-Type": "application/json",
-        "Content-Length": str(len(content_bytes)),
-        "x-cos-content-sha1": payload_hash,
-    }
-
+def upload_to_cos(client, content_bytes, key):
+    log(f"Uploading {key} ({len(content_bytes)} bytes) to bucket {HOSTING_BUCKET}...")
     try:
-        r = requests.put(url, data=content_bytes, headers=full_headers, timeout=30)
-        if r.status_code in (200, 204):
-            log("Upload success")
-            return True
-        else:
-            log(f"COS upload failed: {r.status_code} {r.text[:200]}")
-            return False
+        resp = client.put_object(Bucket=HOSTING_BUCKET, Key=key, Body=content_bytes)
+        log(f"Upload success ETag: {resp.get('ETag')}")
+        return True
     except Exception as e:
-        log(f"COS upload error: {e}")
+        log(f"COS upload failed: {e}")
         return False
 
 
@@ -226,7 +159,9 @@ def main():
         log("ERROR: Missing required environment variables")
         sys.exit(1)
 
-    existing_words, existing_data = get_existing_words()
+    client = get_cos_client()
+
+    existing_words, existing_data = get_existing_words(client)
     log(f"Existing words: {len(existing_words)}")
 
     recent_set = get_recent_words(existing_words)
@@ -249,7 +184,7 @@ def main():
     output["preview"] = result.get("preview", output.get("preview", {}))
 
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
-    success = upload_to_cos(content_bytes, "words-data.json")
+    success = upload_to_cos(client, content_bytes, "words-data.json")
 
     if success:
         log("=== DONE ===")

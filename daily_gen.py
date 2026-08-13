@@ -252,7 +252,13 @@ def generate_content(recent_set, quote_history=None, news_headlines=None):
         news_instruction = "No live news could be fetched today. In that case: DO NOT invent fake specific events (fake company names, fake numbers, fake dated events like '2026年8月希腊'). Instead use generic current-topic references WITHOUT specific fabricated facts (e.g. '全球通胀降温的背景下'), and never write a fake dated news item."
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
-Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}. PRIMARY sources (5-6 of the 8 words): economy, finance, news, workplace. SECONDARY sources (2-3 of the 8 words): politics, entertainment, sports — whenever today's headlines contain a political/entertainment/sports hot topic that yields a good IELTS word, USE it; only skip secondary if nothing fits. Mix should feel diverse, not monotonous.
+Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}.
+
+DOMAIN MIX (re-balanced per user request):
+- PRIMARY (6-8 of the 8 words, the default): economy, finance, news/politics, workplace. Today's daily words MUST draw mainly from these.
+- SECONDARY (at most 1 of the 8 words, only if today's headlines really have a fitting word): entertainment, sports — use SPARINGLY, not as filler. Most days there will be 0 entertainment/sports words; that's fine.
+
+GEOGRAPHY: Prefer real stories from the US, EU, Japan/Korea, and China. Mix them naturally based on what's actually in today's headlines; don't force one region.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
@@ -264,7 +270,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
   w: word (base form)
   ph: /IPA pronunciation/
   m: 10-30 Chinese chars. Concise multi-sense Chinese meaning, with part-of-speech hint in front if multiple senses, e.g. "(冲突)升级; 逐步扩大"
-  c: econ | news | work | politics | entertainment | sports  (aim: 5-6 of 8 words in econ/news/work; 2-3 words from politics/entertainment/sports when current headlines fit)
+  c: econ | news | work | politics | entertainment | sports  (PRIMARY: econ/news/work/politics for 6-8 words; SECONDARY: entertainment/sports at most 1, only if today's headline really fits)
   pos: v. / n. / adj. / adv.
   en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
   col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"
@@ -282,8 +288,8 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English short paragraph (180-240 words) weaving together ALL 8 of today's words into ONE coherent story about today's real economic/news events. HARD RULE: every one of the 8 words MUST appear inside a [display text|base form] marker (e.g. [surged|surge]); bare words without markers are not allowed. Each word appears exactly once. The story must feel like a real news article: start with a hook, have a middle that connects 2-3 real sub-events, end with a forward-looking conclusion. Exactly 8 markers required.",
-    "cn": "Chinese translation of the story"
+    "en": "English FULL-LENGTH news dispatch (280-360 words) in real newsroom style. This is NOT a rephrase of the hook — it's a proper article body with full depth: opening lede with the lead event, a middle body covering 3-4 real sub-events with specific names, numbers, and institutions (banks, ministries, agencies, companies, central banks, indices, currencies), short quotes from named analysts or officials if relevant to today's headlines, and a forward-looking closing paragraph with the market/policy implication. Cover ALL 8 of today's words using [display|base] markers (each word appears exactly once), AND weave in extra real-world terminology and named entities from today's headlines for color. Bare words are not allowed. This should read like a Bloomberg/Reuters dispatch, not a vocabulary list.",
+    "cn": "Chinese translation of the story (faithful, journalistic tone, 350-450 chars)"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",

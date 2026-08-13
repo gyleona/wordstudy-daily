@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-Daily Word Generation Script
-Generates 8 new words + story + quote via DeepSeek API,
-avoids duplication with last 30 days, uploads to CloudBase COS (static hosting).
-Uses official Tencent COS Python SDK.
+Daily Word Generation Script (full-version prompt)
+Generates 8 words + story + quote + preview via DeepSeek API with FULL fields:
+w, ph, m, c, d, ex, exZh, t, root, pos, en, col
+- t (memory tip) must tie to real current news/economy events
+- story/preview must weave most of the 8 words into one coherent news narrative
+- avoids duplication with last 30 days
+- uploads to CloudBase COS (static hosting) with no-cache header
 """
 
 import os
@@ -71,16 +74,16 @@ def call_deepseek(prompt, max_retries=3):
     payload = {
         "model": "deepseek-chat",
         "messages": [
-            {"role": "system", "content": "You are an expert IELTS vocabulary tutor. Always respond with strict JSON only, no markdown, no extra text."},
+            {"role": "system", "content": "You are an expert IELTS vocabulary tutor and a financial/economy news editor. Always respond with strict JSON only, no markdown, no extra text."},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.7,
-        "max_tokens": 4000
+        "max_tokens": 5000
     }
     for attempt in range(max_retries):
         log(f"DeepSeek call attempt {attempt+1}...")
         try:
-            r = requests.post(url, json=payload, headers=headers, timeout=90)
+            r = requests.post(url, json=payload, headers=headers, timeout=120)
             r.raise_for_status()
             result = r.json()
         except Exception as e:
@@ -100,51 +103,66 @@ def call_deepseek(prompt, max_retries=3):
                 return json.loads(content)
             except json.JSONDecodeError as e:
                 log(f"JSON parse failed: {e}")
-                log(f"Content preview: {content[:200]}")
+                log(f"Content preview: {content[:300]}")
         time.sleep(2)
     return None
 
 
 def generate_content(recent_set):
     avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
-    prompt = f"""Today is {TODAY}. Generate EXACTLY 8 new English words for IELTS prep (CEFR C1 level, not below CET-6), themed around current hot topics in economy, news, or workplace.
+    prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
+
+Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics in economy, finance, news, or workplace as of {TODAY}.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
-Output STRICT JSON (no markdown):
+For EACH word, output ALL of these fields (every field is required):
 {{
-  "words": [
-    {{
-      "w": "word",
-      "ph": "/IPA/",
-      "m": "Chinese meaning",
-      "c": "econ|news|work",
-      "ex": "English example",
-      "exZh": "Chinese translation",
-      "t": "Memory tip tied to news/hot topic",
-      "root": "Affix breakdown (e.g. dis- + rupt + -ion)"
-    }}
-  ],
+  "w": "word (base form)",
+  "ph": "/IPA pronunciation/",
+  "m": "concise Chinese meaning",
+  "c": "econ | news | work",
+  "pos": "part of speech (e.g. v. / n. / adj.)",
+  "en": "English definition in plain English, 5-12 words",
+  "col": "2-3 common collocations/patterns separated by center dot, e.g. escalate tensions/conflict · rapidly escalating · an escalation of prices",
+  "ex": "English example sentence (1 sentence, natural, uses the word, ideally reflecting a real current event)",
+  "exZh": "Chinese translation of the example",
+  "t": "Memory tip in Chinese. MUST reference a REAL specific current news/economy event (e.g. '美国7月CPI低于预期后，市场开始 temper 对美联储降息的押注'), not a generic sentence. 15-40 Chinese characters.",
+  "root": "Affix breakdown in Chinese (e.g. 前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义 爬上去 → 升级). If no clear affix, briefly explain origin in Chinese."
+}}
+
+Then output these three objects:
+{{
   "story": {{
-    "en": "English paragraph with [display|original] markers for 2-4 of the words",
-    "cn": "Chinese translation"
+    "en": "English short paragraph (200 words max) weaving together MOST of today's 8 words (5-8 of them) into ONE coherent story about today's real economic/news events. Use [display text|base form] markers for the words (display can be inflected, base form is the dictionary form). Each word appears at most once.",
+    "cn": "Chinese translation of the story"
   }},
   "quote": {{
-    "en": "An English inspirational sentence, 6-12 words, about learning/growth/persistence",
+    "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
     "zh": "Chinese translation"
   }},
   "preview": {{
-    "hook": "Hook paragraph (must NOT contain '8 words' or 'these 8 words'. Use today's story instead). Can use [display|original] markers.",
-    "impact": "One-sentence impact. Must NOT contain '8 words'."
+    "hook": "Chinese hook paragraph (60-120 chars) that weaves MOST of today's 8 words (5-8 of them) into today's hot-news storyline, using [display|base] markers. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
+    "impact": "One Chinese sentence (20-40 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
   }}
-}}"""
+}}
+
+Output STRICT JSON only, no markdown, exactly this shape:
+{{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}
+"""
     return call_deepseek(prompt)
 
 
 def upload_to_cos(client, content_bytes, key):
     log(f"Uploading {key} ({len(content_bytes)} bytes) to bucket {HOSTING_BUCKET}...")
     try:
-        resp = client.put_object(Bucket=HOSTING_BUCKET, Key=key, Body=content_bytes)
+        # CacheControl no-cache so CDN always fetches fresh data
+        resp = client.put_object(
+            Bucket=HOSTING_BUCKET,
+            Key=key,
+            Body=content_bytes,
+            CacheControl="no-cache, max-age=0"
+        )
         log(f"Upload success ETag: {resp.get('ETag')}")
         return True
     except Exception as e:

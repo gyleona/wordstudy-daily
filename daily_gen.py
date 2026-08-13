@@ -172,9 +172,11 @@ Then output these three objects:
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "Chinese hook paragraph (100-180 chars) weaving ALL 8 of today's words into today's hot-news storyline. HARD RULE: every one of the 8 words MUST appear inside a [display|base] marker, e.g. '市场陷入[动荡|turmoil]' — bare English words are not allowed. Each word exactly once, 8 markers minimum. Structure like a news lede: 2-3 real sub-events connected by transitions. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
-    "impact": "One Chinese sentence (30-50 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
+    "hook": "Chinese hook paragraph (100-180 chars) weaving ALL 8 of today's words into today's hot-news storyline. HARD RULE: every one of the 8 words MUST appear inside a [display|base] marker, e.g. '市场陷入[动荡|turmoil]' — bare English words are not allowed. Each word exactly once, 8 markers minimum. Structure like a news lede with REAL substance: name the actual event, the actual numbers, the actual institutions (e.g. '今晚20:30美国7月CPI揭晓，0.2%就是[门槛|threshold]'). 2-3 real sub-events connected by causal transitions (一边…另一边…顺带…). Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
+    "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
   }}
+  IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
+    impact example: "今天的头条就串成了一句话：'数据定门槛，谈判在降温，承诺被反悔'——覆盖通胀博弈、地缘缓和、科技监管三条主线。"
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}

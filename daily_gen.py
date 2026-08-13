@@ -71,6 +71,7 @@ def get_recent_words(words, days=DEDUP_DAYS):
 
 def ensure_markers(text, words):
     """Fallback: wrap any today's words that appear bare in text with [word|word] markers.
+    Handles both the English base form AND the Chinese gloss (first sense of m).
     Protects existing [display|base] markers so we don't double-wrap."""
     if not text:
         return text
@@ -84,10 +85,20 @@ def ensure_markers(text, words):
         base = (w.get("w") or "").strip()
         if not base:
             continue
+        # English base form
         pattern = r"\b" + re.escape(base) + r"\b"
         def wrap(m):
             return f"[{m.group(0)}|{base}]"
         text2 = re.sub(pattern, wrap, text2, flags=re.IGNORECASE)
+        # Chinese gloss: first sense from m, e.g. "通胀的；引起通胀的" -> "通胀"
+        gloss = (w.get("m") or "").strip()
+        if gloss:
+            first_sense = gloss.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip()
+            if len(first_sense) >= 2:
+                gpattern = re.escape(first_sense)
+                def gwrap(m):
+                    return f"[{m.group(0)}|{base}]"
+                text2 = re.sub(gpattern, gwrap, text2)
     for ph, orig in placeholders.items():
         text2 = text2.replace(ph, orig)
     return text2

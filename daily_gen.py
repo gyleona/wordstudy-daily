@@ -142,6 +142,22 @@ def ensure_markers(text, words):
     return text2
 
 
+SECOND_PART_KEYWORDS = ["对比词", "职场中", "职场版", "记忆", "联想", "同根词", "形近词", "反义词", "近义词", "顺口溜", "助记"]
+
+
+def ensure_t_two_paragraphs(t):
+    """Fallback: if the t field is a single paragraph but contains a second-part keyword
+    (对比词/职场中/记忆/联想...), insert a newline before it so the card shows two paragraphs
+    like the original version."""
+    if not t or "\n" in t:
+        return t
+    for kw in SECOND_PART_KEYWORDS:
+        idx = t.find(kw)
+        if idx > 10:
+            return t[:idx].rstrip() + "\n" + t[idx:].lstrip()
+    return t
+
+
 def call_deepseek(prompt, max_retries=3):
     url = "https://api.deepseek.com/chat/completions"
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
@@ -305,7 +321,11 @@ def main():
     if hook:
         fixed_hook = ensure_markers(hook, new_words)
         output["preview"]["hook"] = fixed_hook
-    log("Markers ensured for story.en and preview.hook")
+    # Ensure each word's t field renders as two paragraphs
+    for w in output["words"]:
+        if w.get("d") == TODAY and w.get("t"):
+            w["t"] = ensure_t_two_paragraphs(w["t"])
+    log("Markers ensured for story.en and preview.hook; t two-paragraph ensured")
 
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
     success = upload_to_cos(client, content_bytes, "words-data.json")

@@ -176,6 +176,24 @@ def ensure_markers(text, words):
     return text2
 
 
+def ensure_all_words_in_hook(hook, words):
+    """Fallback for the hook: if any today's word is missing entirely from the hook text,
+    append '；此外，[中文释义|英文原形]' fragments at the end so all 8 words are covered."""
+    if not hook:
+        return hook
+    present = set(re.findall(r"\[[^\]|]+\|([^\]]+)\]", hook))
+    missing = [w for w in words if (w.get("w") or "").strip() and w["w"] not in present]
+    if not missing:
+        return hook
+    append_parts = []
+    for w in missing:
+        base = w["w"]
+        gloss = (w.get("m") or "").strip()
+        first_sense = gloss.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip() if gloss else base
+        append_parts.append(f"{first_sense}[{base}|{base}]")
+    return hook.rstrip("。；；,， ") + "；此外，" + "、".join(append_parts) + "也值得关注。"
+
+
 SECOND_PART_KEYWORDS = ["对比词", "职场中", "职场版", "记忆", "联想", "同根词", "形近词", "反义词", "近义词", "顺口溜", "助记"]
 
 
@@ -373,6 +391,7 @@ def main():
         output["story"]["en"] = fixed_story
     if hook:
         fixed_hook = ensure_markers(hook, new_words)
+        fixed_hook = ensure_all_words_in_hook(fixed_hook, new_words)
         output["preview"]["hook"] = fixed_hook
     # Ensure each word's t field renders as two paragraphs
     for w in output["words"]:

@@ -288,15 +288,15 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English FULL-LENGTH news dispatch (280-360 words) in real newsroom style. This is NOT a rephrase of the hook — it's a proper article body with full depth: opening lede with the lead event, a middle body covering 3-4 real sub-events with specific names, numbers, and institutions (banks, ministries, agencies, companies, central banks, indices, currencies), short quotes from named analysts or officials if relevant to today's headlines, and a forward-looking closing paragraph with the market/policy implication. Cover ALL 8 of today's words using [display|base] markers (each word appears exactly once), AND weave in extra real-world terminology and named entities from today's headlines for color. Bare words are not allowed. This should read like a Bloomberg/Reuters dispatch, not a vocabulary list.",
-    "cn": "Chinese translation of the story (faithful, journalistic tone, 350-450 chars)"
+    "en": "English news dispatch, 500-800 CHARACTERS (roughly 90-130 words, concise). This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers (each word appears exactly once); you may also weave in one or two extra named entities from today's headlines for color. Bare words are not allowed. Keep it compact — 500-800 characters, no longer.",
+    "cn": "Chinese translation of the story (faithful, journalistic tone, 500-900 chars)"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "Chinese hook paragraph (100-180 chars) weaving ALL 8 of today's words into today's hot-news storyline. HARD RULE: every one of the 8 words MUST appear inside a [display|base] marker, e.g. '市场陷入[动荡|turmoil]' — bare English words are not allowed. Each word exactly once, 8 markers minimum. Structure like a news lede with REAL substance: name the actual event, the actual numbers, the actual institutions (e.g. '今晚20:30美国7月CPI揭晓，0.2%就是[门槛|threshold]'). 2-3 real sub-events connected by causal transitions (一边…另一边…顺带…). Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
+    "hook": "Chinese hook sentence (140-220 chars), ONE logically coherent sentence that weaves in ALL 8 of today's words using [display|base] markers (every word exactly once, 8 markers total — this is a HARD RULE, do not omit any). Timeliness is flexible: it does NOT need to cite the freshest minute-by-minute news; it should tell a coherent mini-narrative around today's general themes (e.g. trade, inflation, geopolitics, corporate earnings) that naturally carries all 8 words. Structure: start with '今天的故事' or '今天的头条', connect the 8 concepts with logical transitions (一边…另一边…而…随之…), end with a short outcome. It must read as one smooth sentence, not a list. Must NOT contain phrases like '8个词' or '记住这8个词'.",
     "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
   }}
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):

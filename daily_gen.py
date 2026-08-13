@@ -13,6 +13,7 @@ import os
 import sys
 import json
 import time
+import re
 import requests
 from datetime import datetime, timedelta, timezone
 from qcloud_cos import CosConfig, CosS3Client
@@ -66,6 +67,30 @@ def get_recent_words(words, days=DEDUP_DAYS):
     recent = [w.get("w", "").lower() for w in words if w.get("d", "") >= cutoff]
     log(f"Last {days} days: {len(recent)} words to avoid")
     return set(recent)
+
+
+def ensure_markers(text, words):
+    """Fallback: wrap any today's words that appear bare in text with [word|word] markers.
+    Protects existing [display|base] markers so we don't double-wrap."""
+    if not text:
+        return text
+    placeholders = {}
+    def protect(m):
+        ph = f"\x00{len(placeholders)}\x00"
+        placeholders[ph] = m.group(0)
+        return ph
+    text2 = re.sub(r"\[[^\]|]+\|[^\]]+\]", protect, text)
+    for w in words:
+        base = (w.get("w") or "").strip()
+        if not base:
+            continue
+        pattern = r"\b" + re.escape(base) + r"\b"
+        def wrap(m):
+            return f"[{m.group(0)}|{base}]"
+        text2 = re.sub(pattern, wrap, text2, flags=re.IGNORECASE)
+    for ph, orig in placeholders.items():
+        text2 = text2.replace(ph, orig)
+    return text2
 
 
 def call_deepseek(prompt, max_retries=3):
@@ -139,7 +164,7 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English short paragraph (180-240 words) weaving together ALL 8 of today's words (EVERY word must appear, each exactly once, using [display text|base form] markers) into ONE coherent story about today's real economic/news events. The story must feel like a real news article: start with a hook, have a middle that connects 2-3 real sub-events, and end with a forward-looking conclusion. 8 markers minimum.",
+    "en": "English short paragraph (180-240 words) weaving together ALL 8 of today's words into ONE coherent story about today's real economic/news events. HARD RULE: every one of the 8 words MUST appear inside a [display text|base form] marker (e.g. [surged|surge]); bare words without markers are not allowed. Each word appears exactly once. The story must feel like a real news article: start with a hook, have a middle that connects 2-3 real sub-events, end with a forward-looking conclusion. Exactly 8 markers required.",
     "cn": "Chinese translation of the story"
   }}
   quote: {{
@@ -147,7 +172,7 @@ Then output these three objects:
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "Chinese hook paragraph (100-180 chars) that weaves ALL 8 of today's words (EVERY word must appear, each exactly once, using [display|base] markers) into today's hot-news storyline. Structure like a news lede: 2-3 real sub-events connected by transitions. 8 markers minimum. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
+    "hook": "Chinese hook paragraph (100-180 chars) weaving ALL 8 of today's words into today's hot-news storyline. HARD RULE: every one of the 8 words MUST appear inside a [display|base] marker, e.g. '市场陷入[动荡|turmoil]' — bare English words are not allowed. Each word exactly once, 8 markers minimum. Structure like a news lede: 2-3 real sub-events connected by transitions. Must NOT contain phrases like '8个词' or '记住这8个词'. Start with '今天的故事' or '今天的头条'.",
     "impact": "One Chinese sentence (30-50 chars) summarizing how today's words connect to the news mainline. Must NOT contain '8个词'."
   }}
 
@@ -206,6 +231,17 @@ def main():
     output["story"] = result.get("story", output.get("story", {}))
     output["quote"] = result.get("quote", output.get("quote", {}))
     output["preview"] = result.get("preview", output.get("preview", {}))
+
+    # Ensure every today's word appears with [display|base] markers in story.en and preview.hook
+    story_en = (output["story"] or {}).get("en", "")
+    hook = (output["preview"] or {}).get("hook", "")
+    if story_en:
+        fixed_story = ensure_markers(story_en, new_words)
+        output["story"]["en"] = fixed_story
+    if hook:
+        fixed_hook = ensure_markers(hook, new_words)
+        output["preview"]["hook"] = fixed_hook
+    log("Markers ensured for story.en and preview.hook")
 
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
     success = upload_to_cos(client, content_bytes, "words-data.json")

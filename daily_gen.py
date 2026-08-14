@@ -203,6 +203,21 @@ def _find_occurrences(clean, words):
     return chosen
 
 
+def _mark_text(text, words):
+    """Deterministically wrap every today's word that appears in text as [中文|英文原形].
+    Used by both build_clean_hook (preview) and story-en marking.
+    Returns (marked_text, marked_count).
+    """
+    if not text:
+        return text, 0
+    clean = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", r"\1", text)
+    chosen = _find_occurrences(clean, words)
+    result = clean
+    for (s, e, disp, base) in sorted(chosen, reverse=True):
+        result = result[:s] + f"[{disp}|{base}]" + result[e:]
+    return result, len(chosen)
+
+
 def build_clean_hook(hook, words):
     """Deterministically rebuild the hook so each today's word that appears in the prose is
     wrapped exactly once as a clean [中文|英文原形] marker. Words absent from the prose are
@@ -214,14 +229,18 @@ def build_clean_hook(hook, words):
     2. For each word present in the prose, find its FIRST occurrence (English base/inflection or
        Chinese gloss) and wrap it as [cleanChineseDisplay|base].
     """
-    if not hook:
-        return hook
-    clean = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", r"\1", hook)
-    chosen = _find_occurrences(clean, words)
-    new_hook = clean
-    for (s, e, disp, base) in sorted(chosen, reverse=True):
-        new_hook = new_hook[:s] + f"[{disp}|{base}]" + new_hook[e:]
-    return new_hook
+    marked, _ = _mark_text(hook, words)
+    return marked
+
+
+def build_clean_story_en(story_en, words):
+    """Mark all today's words that appear in the English story dispatch with [中文|英文原形]
+    markers, so users can tap each word to hear pronunciation. Unlike the hook (which is one
+    flowing sentence), story.en is a longer article — we mark every occurrence we can find.
+    Words absent from the text are left unmarked (DeepSeek prompt already asks to cover all 8).
+    """
+    marked, count = _mark_text(story_en, words)
+    return marked, count
 
 
 FORBIDDEN_HOOK_PHRASES = ["也值得关注", "收进你的词表", "今天的财经职场里", "记住这8个词"]
@@ -545,17 +564,23 @@ def main():
     output["quote"] = result.get("quote", output.get("quote", {}))
     output["preview"] = result.get("preview", output.get("preview", {}))
 
-    # Deterministically rebuild the hook so every today's word appears exactly once as a clean
-    # [中文|英文] marker. story.en is an English dispatch — keep as-is (whole-paragraph TTS).
+    # Deterministically rebuild hook and story.en so every today's word that appears in the
+    # prose is wrapped as a clean [中文|英文原形] marker (tap to hear pronunciation).
     hook = (output["preview"] or {}).get("hook", "")
     if hook:
         output["preview"]["hook"] = build_clean_hook(hook, new_words)
+    story_en = ((output.get("story") or {}).get("en") or "")
+    if story_en:
+        marked_en, en_count = build_clean_story_en(story_en, new_words)
+        output["story"]["en"] = marked_en
+        log(f"  story.en markers={en_count}")
     # Ensure each word's t field renders as two paragraphs
     for w in output["words"]:
         if w.get("d") == TODAY and w.get("t"):
             w["t"] = ensure_t_two_paragraphs(w["t"])
     hb = re.findall(r"\[[^\]|]+\|([^\]]+)\]", (output.get("preview") or {}).get("hook", "") or "")
-    log(f"Post-build hook markers={len(hb)} unique={len(set(hb))}; story.cn len={len((output.get('story') or {}).get('cn') or '')}")
+    eb = re.findall(r"\[[^\]|]+\|([^\]]+)\]", (output.get("story") or {}).get("en", "") or "")
+    log(f"Post-build hook markers={len(hb)} unique={len(set(hb))}; story.en markers={len(eb)} unique={len(set(eb))}; story.cn len={len((output.get('story') or {}).get('cn') or '')}")
     if len(hb) != 8 or len(set(hb)) != 8:
         log("WARNING: hook marker count is not exactly 8 unique — review build_clean_hook")
     log("Hook rebuilt deterministically; t two-paragraph ensured")

@@ -231,10 +231,9 @@ def build_clean_hook(hook, words):
 
     Strategy:
     1. Unwrap any pre-existing [display|base] markers to plain text -> clean prose.
-    2. For each word present in the prose, find its FIRST occurrence (English base/inflection or
-       Chinese gloss) and wrap it as [cleanChineseDisplay|base].
+    2. For each word present in the prose, find its FIRST occurrence and wrap as [英文|中文].
     """
-    marked, _ = _mark_text(hook, words)
+    marked, _ = _mark_text(hook, words, use_english_display=True)
     return marked
 
 
@@ -247,6 +246,12 @@ def build_clean_story_en(story_en, words):
     """
     marked, count = _mark_text(story_en, words, use_english_display=True)
     return marked, count
+
+
+def build_clean_impact(impact, words):
+    """Mark today's words in the impact summary as [英文|中文] (English display default)."""
+    marked, _ = _mark_text(impact, words, use_english_display=True)
+    return marked
 
 
 FORBIDDEN_HOOK_PHRASES = [
@@ -501,7 +506,7 @@ Then output these three objects:
   }}
   preview: {{
     "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话。**必须中英夹杂写**——英文原词直接嵌入中文句子里（如『市场的 volatility 让人紧张』『资金 influx 持续』『票房 surge』『企业加速 deploy AI』『lucrative 岗位 outperform 传统岗』），不要全翻译成中文。以『今天的故事』或『今天的头条』开头，像讲故事一样有起承转合：先说一个具体场景/事件（带数字或名字更好），再展开关联动向，最后给一个贴切的判断或启示。词要散落在句子各处，绝对禁止在句尾用顿号/逗号罗列词汇（如禁止『这些关键词——A、B、C——串起了…』『关键词A、B、C涵盖了今天…』『提醒我们…』这类清单式结尾）。结尾的判断/总结句也必须是中英夹杂、继续把今天这批词嵌进叙事（可复用前句已出现的词，比如把『复苏/部署/胜过』之一写进收尾），绝对禁止出现纯中文、不带任何新词的收尾升华句。不要自己加 [中文|英文] 标记（生成后自动添加）。",
-    "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
+    "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway. **必须中英夹杂**——把今天这批词里的若干个英文原词直接嵌入中文句子里（如『市场volatility放大』『资本influx涌动』『行业resurgence复兴』），不要全翻译成中文。FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says 'help you understand'. Must NOT contain '8个词'. 不要自己加标记（生成后自动添加）。"
   }}
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
     impact example: "今天的头条就串成了一句话：'数据定门槛，谈判在降温，承诺被反悔'——覆盖通胀博弈、地缘缓和、科技监管三条主线。"
@@ -588,6 +593,9 @@ def main():
     hook = (output["preview"] or {}).get("hook", "")
     if hook:
         output["preview"]["hook"] = build_clean_hook(hook, new_words)
+    impact = (output["preview"] or {}).get("impact", "")
+    if impact:
+        output["preview"]["impact"] = build_clean_impact(impact, new_words)
     story_en = ((output.get("story") or {}).get("en") or "")
     if story_en:
         marked_en, en_count = build_clean_story_en(story_en, new_words)

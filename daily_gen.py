@@ -265,7 +265,7 @@ def ensure_t_two_paragraphs(t):
     return t
 
 
-def validate_core(result, min_cn=470, max_cn=820):
+def validate_core(result, min_cn=470, max_cn=560):
     """Quality gate for the core call (words + story + quote)."""
     if not result:
         return False
@@ -315,7 +315,7 @@ def validate_hook(preview, words, min_len=140, max_len=320, min_words=6):
     return True
 
 
-def validate_quality(result, min_cn=470, max_cn=820):
+def validate_quality(result, min_cn=470, max_cn=560):
     """Final combined quality gate (core + hook)."""
     if not result:
         return False
@@ -454,8 +454,8 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English news dispatch, 500-800 CHARACTERS (roughly 90-130 words). This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 500-800 characters.",
-    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格 500-800 字（不足 500 字视为不合格，请务必写满）。结构：①导语 1 句约 80 字，总起今日财经/职场主线；②主体 3 段，每段 130-170 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/就业趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『职场』『胜过』）；③收束 1 句约 80 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 480 字，仅学长度与结构，勿抄内容）：今天的市场被三条线索牵住。其一是『某行业』产能『激增』，龙头季度出货『胜过』预期，板块情绪回暖；其二是就业端，企业招聘节奏『稳健』，但岗位向『职场』新技能倾斜，应届生『部署』转型培训意愿上升。其三是宏观，政策窗口临近，资金对利率路径的博弈『升级』，避险与风险资产波动并存。细分看，科技制造侧供应链重构让国产替代『势头』延续，设备更新补贴落地后订单可见度改善；消费侧暑期出行与『电影+』联动推高票房，但耐用品复苏温和。海外欧美央行表态分化，贸易摩擦『边缘』风险未被定价，出口链警惕关税反复。职场维度，AI 提效从概念走向考核，企业把『能否用工具放大产出』写进晋升标准，自由职业者接单结构随之调整。招聘平台显示带『数据分析』『跨域协作』标签岗位薪资溢价扩大。总体看主题是『景气修复但分化加剧』：主线资产有『动量』，但边际变化快，仓位管理比方向判断更关键。"
+    "en": "English news dispatch, 约 500 字符（480-560，roughly 90-130 words）。This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 480-560 characters.",
+    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。结构：①导语 1 句约 80 字，总起今日财经/职场主线；②主体 3 段，每段 130-170 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/就业趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『职场』『胜过』）；③收束 1 句约 80 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 500 字，仅学长度与结构，勿抄内容）：今天的市场被三条线索牵住。其一是『某行业』产能『激增』，龙头季度出货『胜过』预期，板块情绪回暖；其二是就业端，企业招聘节奏『稳健』，但岗位向『职场』新技能倾斜，应届生『部署』转型培训意愿上升。其三是宏观，政策窗口临近，资金对利率路径的博弈『升级』，避险与风险资产波动并存。细分看，科技制造侧供应链重构让国产替代『势头』延续，设备更新补贴落地后订单可见度改善；消费侧暑期出行与『电影+』联动推高票房，但耐用品复苏温和。海外欧美央行表态分化，贸易摩擦『边缘』风险未被定价，出口链警惕关税反复。职场维度，AI 提效从概念走向考核，企业把『能否用工具放大产出』写进晋升标准，自由职业者接单结构随之调整。招聘平台显示带『数据分析』『跨域协作』标签岗位薪资溢价扩大。总体看主题是『景气修复但分化加剧』：主线资产有『动量』，但边际变化快，仓位管理比方向判断更关键。"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
@@ -471,7 +471,7 @@ Then output these three objects:
 QUOTE DEDUP RULE:
 {quote_instruction}
 
-FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、自然融入今天这批词中的若干个（不要求凑齐 8 个，禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须 500-800 字（不足 500 不合格）。
+FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、自然融入今天这批词中的若干个（不要求凑齐 8 个，禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}

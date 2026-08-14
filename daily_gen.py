@@ -249,7 +249,11 @@ def build_clean_story_en(story_en, words):
     return marked, count
 
 
-FORBIDDEN_HOOK_PHRASES = ["也值得关注", "收进你的词表", "今天的财经职场里", "记住这8个词"]
+FORBIDDEN_HOOK_PHRASES = [
+    "也值得关注", "收进你的词表", "今天的财经职场里", "记住这8个词",
+    "串起了今天", "串起今天的", "关键词——", "关键词——", "这些关键词",
+    "提醒我们", "以上就是", "涵盖了今天",
+]
 
 
 def hook_covers_words(hook, words, min_count=6):
@@ -334,6 +338,15 @@ def validate_hook(preview, words, min_len=140, max_len=320, min_words=6):
     if len(hook) < min_len or len(hook) > max_len:
         return False
     if any(p in hook for p in FORBIDDEN_HOOK_PHRASES):
+        return False
+    # Detect trailing marker LIST: 3+ [..|..] markers separated ONLY by 、/， (no other words between) —
+    # this is a comma-separated word dump like [A|a]、[B|b]、[C|c]
+    pure_list = re.search(r'\[[^\]|]+\|[^\]]+\][、，]\s*\[[^\]|]+\|[^\]]+\][、，]\s*\[[^\]|]+\|[^\]]+\]', hook)
+    if pure_list:
+        return False
+    # Also reject if the last 50 chars contain 4+ markers (words dumped at tail)
+    tail = hook[-50:] if len(hook) > 50 else hook
+    if len(re.findall(r'\[[^\]|]+\|[^\]]+\]', tail)) >= 4:
         return False
     if not hook_covers_words(hook, words, min_count=min_words):
         return False
@@ -487,7 +500,7 @@ Then output these three objects:
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话（尽量多用，但不要堆在句尾列清单）。词可以用中文也可以英文写。不要自己加 [中文|英文] 标记（生成后自动添加）。以『今天的故事』或『今天的头条』开头，逻辑连贯，结尾给一个简短结果。禁止以『此外…也值得关注』『今天的财经职场里…也值得关注』『收进你的词表』这类清单式结尾；禁止出现『8个词』『记住这8个词』。",
+    "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话。**必须中英夹杂写**——英文原词直接嵌入中文句子里（如『市场的 volatility 让人紧张』『资金 influx 持续』『票房 surge』『企业加速 deploy AI』『lucrative 岗位 outperform 传统岗』），不要全翻译成中文。以『今天的故事』或『今天的头条』开头，像讲故事一样有起承转合：先说一个具体场景/事件（带数字或名字更好），再展开关联动向，最后给一个贴切的判断或启示。词要散落在句子各处，绝对禁止在句尾用顿号/逗号罗列词汇（如禁止『这些关键词——A、B、C——串起了…』『关键词A、B、C涵盖了今天…』『提醒我们…』这类清单式结尾）。不要自己加 [中文|英文] 标记（生成后自动添加）。",
     "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
   }}
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):

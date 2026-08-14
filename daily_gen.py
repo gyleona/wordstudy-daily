@@ -175,15 +175,18 @@ def _inflection_pattern(base):
     return re.compile(pat, re.IGNORECASE)
 
 
-def _find_occurrences(clean, words):
+def _find_occurrences(clean, words, use_english_display=False):
     """Return first non-overlapping occurrence of each word in clean prose.
-    Matches the English base/inflection OR the Chinese gloss (first sense)."""
+    Matches the English base/inflection OR the Chinese gloss (first sense).
+    When use_english_display is True, the visible text of the marker is the English
+    base itself (for the English story); otherwise it is the Chinese gloss (for the
+    Chinese preview/hook)."""
     cands = []
     for w in words:
         base = (w.get("w") or "").strip()
         if not base:
             continue
-        disp = _clean_display(w.get("m")) or base
+        disp = base if use_english_display else (_clean_display(w.get("m")) or base)
         em = _inflection_pattern(base).search(clean)
         if em:
             cands.append((em.start(), em.end(), disp, base))
@@ -203,15 +206,17 @@ def _find_occurrences(clean, words):
     return chosen
 
 
-def _mark_text(text, words):
-    """Deterministically wrap every today's word that appears in text as [中文|英文原形].
+def _mark_text(text, words, use_english_display=False):
+    """Deterministically wrap every today's word that appears in text as [display|英文原形].
     Used by both build_clean_hook (preview) and story-en marking.
+    For the Chinese preview/hook the display is the Chinese gloss; for the English story
+    the display is the English base itself (so the English article stays English).
     Returns (marked_text, marked_count).
     """
     if not text:
         return text, 0
     clean = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", r"\1", text)
-    chosen = _find_occurrences(clean, words)
+    chosen = _find_occurrences(clean, words, use_english_display=use_english_display)
     result = clean
     for (s, e, disp, base) in sorted(chosen, reverse=True):
         result = result[:s] + f"[{disp}|{base}]" + result[e:]
@@ -234,12 +239,13 @@ def build_clean_hook(hook, words):
 
 
 def build_clean_story_en(story_en, words):
-    """Mark all today's words that appear in the English story dispatch with [中文|英文原形]
-    markers, so users can tap each word to hear pronunciation. Unlike the hook (which is one
-    flowing sentence), story.en is a longer article — we mark every occurrence we can find.
-    Words absent from the text are left unmarked (DeepSeek prompt already asks to cover all 8).
+    """Mark all today's words that appear in the English story dispatch with [英文原形|英文原形]
+    markers, so users can tap each English word to hear pronunciation while the article stays
+    English (the visible token is the English word, not a Chinese gloss). story.en is a longer
+    article — we mark every occurrence we can find. Words absent from the text are left unmarked
+    (DeepSeek prompt already asks to cover all 8).
     """
-    marked, count = _mark_text(story_en, words)
+    marked, count = _mark_text(story_en, words, use_english_display=True)
     return marked, count
 
 

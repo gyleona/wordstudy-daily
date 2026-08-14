@@ -500,7 +500,7 @@ Then output these three objects:
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话。**必须中英夹杂写**——英文原词直接嵌入中文句子里（如『市场的 volatility 让人紧张』『资金 influx 持续』『票房 surge』『企业加速 deploy AI』『lucrative 岗位 outperform 传统岗』），不要全翻译成中文。以『今天的故事』或『今天的头条』开头，像讲故事一样有起承转合：先说一个具体场景/事件（带数字或名字更好），再展开关联动向，最后给一个贴切的判断或启示。词要散落在句子各处，绝对禁止在句尾用顿号/逗号罗列词汇（如禁止『这些关键词——A、B、C——串起了…』『关键词A、B、C涵盖了今天…』『提醒我们…』这类清单式结尾）。不要自己加 [中文|英文] 标记（生成后自动添加）。",
+    "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话。**必须中英夹杂写**——英文原词直接嵌入中文句子里（如『市场的 volatility 让人紧张』『资金 influx 持续』『票房 surge』『企业加速 deploy AI』『lucrative 岗位 outperform 传统岗』），不要全翻译成中文。以『今天的故事』或『今天的头条』开头，像讲故事一样有起承转合：先说一个具体场景/事件（带数字或名字更好），再展开关联动向，最后给一个贴切的判断或启示。词要散落在句子各处，绝对禁止在句尾用顿号/逗号罗列词汇（如禁止『这些关键词——A、B、C——串起了…』『关键词A、B、C涵盖了今天…』『提醒我们…』这类清单式结尾）。结尾的判断/总结句也必须是中英夹杂、继续把今天这批词嵌进叙事（可复用前句已出现的词，比如把『复苏/部署/胜过』之一写进收尾），绝对禁止出现纯中文、不带任何新词的收尾升华句。不要自己加 [中文|英文] 标记（生成后自动添加）。",
     "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
   }}
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
@@ -509,7 +509,7 @@ Then output these three objects:
 QUOTE DEDUP RULE:
 {quote_instruction}
 
-FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、自然融入今天这批词中的若干个（不要求凑齐 8 个，禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。
+FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词尽量都自然融入叙事（结尾总结句也要嵌词，禁止纯中文无词的收尾、禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}

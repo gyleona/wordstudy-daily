@@ -19,14 +19,14 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from qcloud_cos import CosConfig, CosS3Client
 
-# Configuration
+# Configuration (GitHub Actions supplies these via secrets)
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 COS_SECRET_ID = os.environ.get("COS_SECRET_ID", "")
 COS_SECRET_KEY = os.environ.get("COS_SECRET_KEY", "")
 HOSTING_BUCKET = os.environ.get("HOSTING_BUCKET", "")
 HOSTING_REGION = os.environ.get("HOSTING_REGION", "")
 
-DEDUP_DAYS = 30
+DEDUP_DAYS = 14
 TODAY = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 
 
@@ -141,57 +141,112 @@ def append_quote_history(client, entry):
         log(f"quote-history.jsonl upload failed: {e}")
 
 
-def ensure_markers(text, words):
-    """Fallback: wrap any today's words that appear bare in text with [word|word] markers.
-    Handles both the English base form AND the Chinese gloss (first sense of m).
-    Protects existing [display|base] markers so we don't double-wrap."""
-    if not text:
-        return text
-    placeholders = {}
-    def protect(m):
-        ph = f"\x00{len(placeholders)}\x00"
-        placeholders[ph] = m.group(0)
-        return ph
-    text2 = re.sub(r"\[[^\]|]+\|[^\]]+\]", protect, text)
+def _clean_display(m):
+    """Turn a word's Chinese meaning into a short tap-friendly display.
+    e.g. '(在业绩/表现上)胜过; 超越' -> '胜过'; 'n./v. 激增；汹涌' -> '激增'."""
+    if not m:
+        return ""
+    g = str(m).strip()
+    # strip a leading (...) annotation like '(在业绩/表现上)'
+    mm = re.match(r"^\([^()]*\)\s*(.*)$", g)
+    if mm:
+        g = mm.group(1).strip()
+    # strip a leading part-of-speech tag like 'n./v.' 'v.' 'adj.'
+    mm = re.match(r"^(?:[a-z]{1,5}\.?/?)+\s*", g, re.IGNORECASE)
+    if mm:
+        g = g[mm.end():].strip()
+    g = g.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip()
+    return g
+
+
+def _inflection_pattern(base):
+    """Regex matching a word's base + common English inflections.
+    Uses explicit ASCII boundaries (not \\b) because CJK chars ARE word chars in Python 3,
+    so \\b fails when an English word sits next to Chinese text.
+    Multi-word entries (e.g. 'central bank') are matched literally (no inflections)."""
+    if " " in base:
+        return re.compile(r"(?<![A-Za-z])" + re.escape(base) + r"(?![A-Za-z])", re.IGNORECASE)
+    low = base.lower()
+    suffixes = [s for s in ("ing", "ed", "es", "s") if not low.endswith(s)]
+    pat = r"(?<![A-Za-z])" + re.escape(base)
+    if suffixes:
+        pat += r"(?:" + "|".join(suffixes) + r")?"
+    pat += r"(?![A-Za-z])"
+    return re.compile(pat, re.IGNORECASE)
+
+
+def _find_occurrences(clean, words):
+    """Return first non-overlapping occurrence of each word in clean prose.
+    Matches the English base/inflection OR the Chinese gloss (first sense)."""
+    cands = []
     for w in words:
         base = (w.get("w") or "").strip()
         if not base:
             continue
-        # English base form
-        pattern = r"\b" + re.escape(base) + r"\b"
-        def wrap(m):
-            return f"[{m.group(0)}|{base}]"
-        text2 = re.sub(pattern, wrap, text2, flags=re.IGNORECASE)
-        # Chinese gloss: first sense from m, e.g. "通胀的；引起通胀的" -> "通胀"
-        gloss = (w.get("m") or "").strip()
-        if gloss:
-            first_sense = gloss.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip()
-            if len(first_sense) >= 2:
-                gpattern = re.escape(first_sense)
-                def gwrap(m):
-                    return f"[{m.group(0)}|{base}]"
-                text2 = re.sub(gpattern, gwrap, text2)
-    for ph, orig in placeholders.items():
-        text2 = text2.replace(ph, orig)
-    return text2
+        disp = _clean_display(w.get("m")) or base
+        em = _inflection_pattern(base).search(clean)
+        if em:
+            cands.append((em.start(), em.end(), disp, base))
+            continue
+        gloss = _clean_display(w.get("m"))
+        if len(gloss) >= 2:
+            gm = re.search(re.escape(gloss), clean)
+            if gm:
+                cands.append((gm.start(), gm.end(), disp, base))
+    cands.sort()
+    chosen, occupied = [], []
+    for (s, e, disp, base) in cands:
+        if any(not (e <= os or s >= oe) for (os, oe, _, _) in occupied):
+            continue
+        chosen.append((s, e, disp, base))
+        occupied.append((s, e, disp, base))
+    return chosen
 
 
-def ensure_all_words_in_hook(hook, words):
-    """Fallback for the hook: if any today's word is missing entirely from the hook text,
-    append '；此外，[中文释义|英文原形]' fragments at the end so all 8 words are covered."""
+def build_clean_hook(hook, words):
+    """Deterministically rebuild the hook so each today's word that appears in the prose is
+    wrapped exactly once as a clean [中文|英文原形] marker. Words absent from the prose are
+    simply left out (they still appear on their own card) — NO trailing list is ever appended,
+    so the hook stays a clean flowing sentence.
+
+    Strategy:
+    1. Unwrap any pre-existing [display|base] markers to plain text -> clean prose.
+    2. For each word present in the prose, find its FIRST occurrence (English base/inflection or
+       Chinese gloss) and wrap it as [cleanChineseDisplay|base].
+    """
     if not hook:
         return hook
-    present = set(re.findall(r"\[[^\]|]+\|([^\]]+)\]", hook))
-    missing = [w for w in words if (w.get("w") or "").strip() and w["w"] not in present]
-    if not missing:
-        return hook
-    append_parts = []
-    for w in missing:
-        base = w["w"]
-        gloss = (w.get("m") or "").strip()
-        first_sense = gloss.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip() if gloss else base
-        append_parts.append(f"{first_sense}[{base}|{base}]")
-    return hook.rstrip("。；；,， ") + "；此外，" + "、".join(append_parts) + "也值得关注。"
+    clean = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", r"\1", hook)
+    chosen = _find_occurrences(clean, words)
+    new_hook = clean
+    for (s, e, disp, base) in sorted(chosen, reverse=True):
+        new_hook = new_hook[:s] + f"[{disp}|{base}]" + new_hook[e:]
+    return new_hook
+
+
+FORBIDDEN_HOOK_PHRASES = ["也值得关注", "收进你的词表", "今天的财经职场里", "记住这8个词"]
+
+
+def hook_covers_words(hook, words, min_count=6):
+    """True if the hook prose naturally contains at least min_count of today's words
+    (by English base/inflection or Chinese gloss). We do NOT force all 8 — requiring every
+    word appeared caused the model to tack on a messy trailing list; a clean flowing sentence
+    that covers most words is the goal."""
+    if not hook:
+        return False
+    text = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+    covered = 0
+    for w in words:
+        base = (w.get("w") or "").strip()
+        if not base:
+            continue
+        if _inflection_pattern(base).search(text):
+            covered += 1
+            continue
+        gloss = _clean_display(w.get("m"))
+        if len(gloss) >= 2 and gloss in text:
+            covered += 1
+    return covered >= min_count
 
 
 SECOND_PART_KEYWORDS = ["对比词", "职场中", "职场版", "记忆", "联想", "同根词", "形近词", "反义词", "近义词", "顺口溜", "助记"]
@@ -210,7 +265,92 @@ def ensure_t_two_paragraphs(t):
     return t
 
 
-def call_deepseek(prompt, max_retries=3):
+def validate_core(result, min_cn=470, max_cn=820):
+    """Quality gate for the core call (words + story + quote)."""
+    if not result:
+        return False
+    words = result.get("words", [])
+    if len(words) != 8:
+        return False
+    # Every word must have a non-empty ASCII base form, a non-empty Chinese meaning, and a valid domain
+    for w in words:
+        base = (w.get("w") or "").strip()
+        if not base:
+            return False
+        if not re.match(r"^[A-Za-z-]+$", base):
+            return False
+        if not (w.get("m") or "").strip():
+            return False
+        if w.get("c") not in ("econ", "work", "news", "politics"):
+            return False
+    from collections import Counter
+    cnt = Counter(w.get("c") for w in words)
+    work = cnt.get("work", 0)
+    econ = cnt.get("econ", 0)
+    politics = cnt.get("politics", 0)
+    if work < 2:
+        return False
+    if econ + work < 5:
+        return False
+    if politics > 1:
+        return False
+    story = result.get("story", {})
+    cn = (story.get("cn") or "").strip()
+    if len(cn) < min_cn or len(cn) > max_cn:
+        return False
+    return True
+
+
+def validate_hook(preview, words, min_len=140, max_len=320, min_words=6):
+    """Quality gate for the hook: clean flowing sentence, no canned list, covers >= min_words."""
+    if not preview:
+        return False
+    hook = (preview.get("hook") or "").strip()
+    if len(hook) < min_len or len(hook) > max_len:
+        return False
+    if any(p in hook for p in FORBIDDEN_HOOK_PHRASES):
+        return False
+    if not hook_covers_words(hook, words, min_count=min_words):
+        return False
+    return True
+
+
+def validate_quality(result, min_cn=470, max_cn=820):
+    """Final combined quality gate (core + hook)."""
+    if not result:
+        return False
+    if not validate_core(result, min_cn, max_cn):
+        return False
+    if not validate_hook(result.get("preview"), result.get("words")):
+        return False
+    return True
+
+
+def explain_quality(result):
+    """Print why a generation failed the quality gate (for debugging)."""
+    if not result:
+        log("  reason: result is None/empty")
+        return
+    words = result.get("words", [])
+    from collections import Counter
+    cnt = Counter(w.get("c") for w in words)
+    log(f"  words={len(words)} domain={dict(cnt)} work={cnt.get('work',0)} econ+work={cnt.get('econ',0)+cnt.get('work',0)} politics={cnt.get('politics',0)}")
+    cn = (result.get("story") or {}).get("cn") or ""
+    log(f"  story.cn len={len(cn)} (want 450-820)")
+    hook = (result.get("preview", {}) or {}).get("hook") or ""
+    forbidden = [p for p in FORBIDDEN_HOOK_PHRASES if p in hook]
+    if forbidden:
+        log(f"  hook forbidden phrases: {forbidden}")
+    if not hook_covers_words(hook, words, min_count=6):
+        log(f"  hook covers fewer than 6 of the 8 words")
+    en = (result.get("story") or {}).get("en") or ""
+    for name, text in (("hook", hook), ("story.en", en)):
+        bases = re.findall(r"\[[^\]|]+\|([^\]]+)\]", text)
+        dup = len(bases) - len(set(bases))
+        log(f"  {name} markers={len(bases)} unique={len(set(bases))} duplicates={dup}")
+
+
+def call_deepseek(prompt, max_retries=3, max_tokens=6000):
     url = "https://api.deepseek.com/chat/completions"
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
     payload = {
@@ -220,7 +360,7 @@ def call_deepseek(prompt, max_retries=3):
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.7,
-        "max_tokens": 5000
+        "max_tokens": max_tokens
     }
     for attempt in range(max_retries):
         log(f"DeepSeek call attempt {attempt+1}...")
@@ -250,10 +390,10 @@ def call_deepseek(prompt, max_retries=3):
     return None
 
 
-def generate_content(recent_set, quote_history=None, news_headlines=None):
+def _build_context(recent_set, quote_history, news_headlines):
+    """Shared context builders for both generation calls."""
     avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
     quote_history = quote_history or []
-    # Build quote dedup text
     if quote_history:
         recent_quotes = [q.get("en", "") for q in quote_history[-60:]]
         quote_avoid = "\n".join("  - " + q for q in recent_quotes[-15:])
@@ -261,22 +401,30 @@ def generate_content(recent_set, quote_history=None, news_headlines=None):
     else:
         quote_instruction = "No prior quotes to avoid; just make it fresh and original."
 
-    # Build today's real news context
     news_headlines = news_headlines or []
     if news_headlines:
         news_block = "\n".join("  - " + h for h in news_headlines)
         news_instruction = f"""The following are REAL news headlines from TODAY (fetched live). Use them as your ONLY source of facts for t/story/hook/impact. Pick the most relevant 2-4 for each word. NEVER invent events, names, numbers, or dates that are not in these headlines. If a fact is not in the headlines, do not claim it.\n\nTODAY'S REAL NEWS HEADLINES:\n{news_block}"""
     else:
         news_instruction = "No live news could be fetched today. In that case: DO NOT invent fake specific events (fake company names, fake numbers, fake dated events like '2026年8月希腊'). Instead use generic current-topic references WITHOUT specific fabricated facts (e.g. '全球通胀降温的背景下'), and never write a fake dated news item."
+    return avoid, quote_instruction, news_instruction
+
+
+def generate_content(recent_set, quote_history=None, news_headlines=None):
+    """Single call: generate the 8 words + story + quote + preview (hook/impact).
+    The hook is written as a clean flowing sentence; markers are inserted deterministically afterwards."""
+    avoid, quote_instruction, news_instruction = _build_context(recent_set, quote_history, news_headlines)
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
 
 Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}.
 
-DOMAIN MIX (re-balanced per user request):
-- PRIMARY (6-8 of the 8 words, the default): economy, finance, news/politics, workplace. Today's daily words MUST draw mainly from these.
-- SECONDARY (at most 1 of the 8 words, only if today's headlines really have a fitting word): entertainment, sports — use SPARINGLY, not as filler. Most days there will be 0 entertainment/sports words; that's fine.
+DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
+- PRIMARY — must be 6-8 of the 8 words: econ (财经/商业/市场) and work (职场/就业/办公) TOGETHER at least 5 (suggest econ 3-4, work 2-3). The day's words should orbit "财经、商业、市场、职场、贸易、科技商业、就业".
+- ALLOWED but limited: news (经济/商业相关新闻) at most 2.
+- RESTRICTED: politics at most 1, and ONLY if it is economy/trade/tariff/central-bank related (e.g. trade talks, sanctions, rate decisions). FORBIDDEN: pure military conflict, geopolitics-for-its-own-sake, social-livelihood, entertainment, sports soft news.
+- FORBIDDEN filler: entertainment, sports, pure social-livelihood, pure military-conflict words — do NOT pick them just to fill the 8.
 
-GEOGRAPHY: Prefer real stories from the US, EU, Japan/Korea, and China. Mix them naturally based on what's actually in today's headlines; don't force one region.
+GEOGRAPHY: Prefer real stories from the US, EU, Japan/Korea, and China, especially business/market/workplace angles.
 
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
 
@@ -285,10 +433,10 @@ IMPORTANT FACTUALITY RULE (highest priority):
 
 For EACH word, output ALL of these fields (every field is required). Use the "STYLE GUIDE" below to match the expected depth and length:
 
-  w: word (base form)
+  w: word (base form, ASCII only, no spaces — use a single base word)
   ph: /IPA pronunciation/
-  m: 10-30 Chinese chars. Concise multi-sense Chinese meaning, with part-of-speech hint in front if multiple senses, e.g. "(冲突)升级; 逐步扩大"
-  c: econ | news | work | politics | entertainment | sports  (PRIMARY: econ/news/work/politics for 6-8 words; SECONDARY: entertainment/sports at most 1, only if today's headline really fits)
+  m: 8-24 Chinese chars. Concise Chinese meaning with a part-of-speech hint if multiple senses, e.g. "(冲突)升级；逐步扩大". MUST be non-empty.
+  c: econ | work | news | politics  (财经/职场主导：econ+work 合计 5-7 个; news 经济商业相关最多 2; politics 经济贸易相关最多 1; 禁止 entertainment/sports/纯社会民生)
   pos: v. / n. / adj. / adv.
   en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
   col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"
@@ -306,15 +454,15 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 Then output these three objects:
 
   story: {{
-    "en": "English news dispatch, 500-800 CHARACTERS (roughly 90-130 words, concise). This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers (each word appears exactly once); you may also weave in one or two extra named entities from today's headlines for color. Bare words are not allowed. Keep it compact — 500-800 characters, no longer.",
-    "cn": "Chinese translation of the story (faithful, journalistic tone, 500-900 chars)"
+    "en": "English news dispatch, 500-800 CHARACTERS (roughly 90-130 words). This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 500-800 characters.",
+    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格 500-800 字（不足 500 字视为不合格，请务必写满）。结构：①导语 1 句约 80 字，总起今日财经/职场主线；②主体 3 段，每段 130-170 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/就业趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『职场』『胜过』）；③收束 1 句约 80 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 480 字，仅学长度与结构，勿抄内容）：今天的市场被三条线索牵住。其一是『某行业』产能『激增』，龙头季度出货『胜过』预期，板块情绪回暖；其二是就业端，企业招聘节奏『稳健』，但岗位向『职场』新技能倾斜，应届生『部署』转型培训意愿上升。其三是宏观，政策窗口临近，资金对利率路径的博弈『升级』，避险与风险资产波动并存。细分看，科技制造侧供应链重构让国产替代『势头』延续，设备更新补贴落地后订单可见度改善；消费侧暑期出行与『电影+』联动推高票房，但耐用品复苏温和。海外欧美央行表态分化，贸易摩擦『边缘』风险未被定价，出口链警惕关税反复。职场维度，AI 提效从概念走向考核，企业把『能否用工具放大产出』写进晋升标准，自由职业者接单结构随之调整。招聘平台显示带『数据分析』『跨域协作』标签岗位薪资溢价扩大。总体看主题是『景气修复但分化加剧』：主线资产有『动量』，但边际变化快，仓位管理比方向判断更关键。"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
     "zh": "Chinese translation"
   }}
   preview: {{
-    "hook": "Chinese hook sentence (140-220 chars), ONE logically coherent sentence that weaves in ALL 8 of today's words using [display|base] markers (every word exactly once, 8 markers total — this is a HARD RULE, do not omit any). Timeliness is flexible: it does NOT need to cite the freshest minute-by-minute news; it should tell a coherent mini-narrative around today's general themes (e.g. trade, inflation, geopolitics, corporate earnings) that naturally carries all 8 words. Structure: start with '今天的故事' or '今天的头条', connect the 8 concepts with logical transitions (一边…另一边…而…随之…), end with a short outcome. It must read as one smooth sentence, not a list. Must NOT contain phrases like '8个词' or '记住这8个词'.",
+    "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话（尽量多用，但不要堆在句尾列清单）。词可以用中文也可以英文写。不要自己加 [中文|英文] 标记（生成后自动添加）。以『今天的故事』或『今天的头条』开头，逻辑连贯，结尾给一个简短结果。禁止以『此外…也值得关注』『今天的财经职场里…也值得关注』『收进你的词表』这类清单式结尾；禁止出现『8个词』『记住这8个词』。",
     "impact": "One Chinese sentence (30-55 chars) that DISTILLS today's real news essence — the actual core takeaway, what is actually at stake today. It must name the concrete substance (e.g. '数据定门槛，谈判在降温，承诺被反悔'). FORBIDDEN empty filler: '直击/助力读懂/解读/见证/背后的关键词/走向/聚焦' and any sentence that says the words 'help you understand' the news. The impact must be readable standalone as a news summary even without the words. Must NOT contain '8个词'."
   }}
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
@@ -323,10 +471,12 @@ Then output these three objects:
 QUOTE DEDUP RULE:
 {quote_instruction}
 
+FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、自然融入今天这批词中的若干个（不要求凑齐 8 个，禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须 500-800 字（不足 500 不合格）。
+
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}
 """
-    return call_deepseek(prompt)
+    return call_deepseek(prompt, max_tokens=6000)
 
 
 def upload_to_cos(client, content_bytes, key):
@@ -364,8 +514,20 @@ def main():
 
     news_headlines = fetch_today_news()
 
-    result = generate_content(recent_set, quote_history, news_headlines)
+    result = None
+    for attempt in range(4):
+        r = generate_content(recent_set, quote_history, news_headlines)
+        if validate_quality(r):
+            result = r
+            log(f"Quality check passed on attempt {attempt+1}")
+            break
+        else:
+            log(f"Quality check FAILED on attempt {attempt+1}, regenerating...")
+            explain_quality(r)
     if not result:
+        log("WARNING: quality not met after 4 retries, using last generation anyway")
+        result = generate_content(recent_set, quote_history, news_headlines)
+    if not result or not result.get("words"):
         log("ERROR: Failed to generate content")
         sys.exit(1)
 
@@ -383,21 +545,20 @@ def main():
     output["quote"] = result.get("quote", output.get("quote", {}))
     output["preview"] = result.get("preview", output.get("preview", {}))
 
-    # Ensure every today's word appears with [display|base] markers in story.en and preview.hook
-    story_en = (output["story"] or {}).get("en", "")
+    # Deterministically rebuild the hook so every today's word appears exactly once as a clean
+    # [中文|英文] marker. story.en is an English dispatch — keep as-is (whole-paragraph TTS).
     hook = (output["preview"] or {}).get("hook", "")
-    if story_en:
-        fixed_story = ensure_markers(story_en, new_words)
-        output["story"]["en"] = fixed_story
     if hook:
-        fixed_hook = ensure_markers(hook, new_words)
-        fixed_hook = ensure_all_words_in_hook(fixed_hook, new_words)
-        output["preview"]["hook"] = fixed_hook
+        output["preview"]["hook"] = build_clean_hook(hook, new_words)
     # Ensure each word's t field renders as two paragraphs
     for w in output["words"]:
         if w.get("d") == TODAY and w.get("t"):
             w["t"] = ensure_t_two_paragraphs(w["t"])
-    log("Markers ensured for story.en and preview.hook; t two-paragraph ensured")
+    hb = re.findall(r"\[[^\]|]+\|([^\]]+)\]", (output.get("preview") or {}).get("hook", "") or "")
+    log(f"Post-build hook markers={len(hb)} unique={len(set(hb))}; story.cn len={len((output.get('story') or {}).get('cn') or '')}")
+    if len(hb) != 8 or len(set(hb)) != 8:
+        log("WARNING: hook marker count is not exactly 8 unique — review build_clean_hook")
+    log("Hook rebuilt deterministically; t two-paragraph ensured")
 
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
     success = upload_to_cos(client, content_bytes, "words-data.json")

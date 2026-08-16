@@ -375,7 +375,10 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
     if not preview:
         return False
     hook = (preview.get("hook") or "").strip()
-    if len(hook) < min_len or len(hook) > max_len:
+    # Length is measured on the PLAIN text (markers stripped) — markers are a display-layer
+    # decoration added by build_clean_hook and must not count toward the word budget.
+    hook_plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+    if len(hook_plain) < min_len or len(hook_plain) > max_len:
         return False
     if any(p in hook for p in FORBIDDEN_HOOK_PHRASES):
         return False

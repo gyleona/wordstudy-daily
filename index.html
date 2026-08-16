@@ -1683,6 +1683,7 @@
     document.getElementById('wdHard').dataset.w=w.w;
     refreshMarks();
     markStudied(w.w);
+    collapseCalPopup(); // 打开单词详情时收起日历框，避免返回后悬浮
     wdetail.hidden=false;
     document.getElementById('wdScroll').scrollTop=0;
   }
@@ -2016,6 +2017,11 @@
   const navHint = document.getElementById('navHint');
   if(navHint) navHint.addEventListener('click', openSidebar);
   scrim.addEventListener('click', closeSidebar);
+  // 点 logo / 品牌标记 = 回到首页（彻底重置日历筛选）
+  const logoEl = document.querySelector('.logo');
+  if(logoEl) logoEl.addEventListener('click', ()=> switchView('today'));
+  const brandEl = document.querySelector('.brand-mark');
+  if(brandEl) brandEl.addEventListener('click', ()=> switchView('today'));
   document.querySelectorAll('.nav-item').forEach(n=>{
     n.addEventListener('click', ()=>{
       switchView(n.dataset.view);
@@ -2033,11 +2039,15 @@
     window.scrollTo({top:0, behavior:'smooth'});
   }
 
-  // 日历弹出层辅助关闭函数（同时重置选中提示）
-  function closeCalPopup(){
+  // 仅收起日历框（保留已选筛选，不重置）
+  function collapseCalPopup(){
     if(calWrap) { calWrap.classList.add('collapsed'); calToggle.classList.remove('open'); }
+  }
+  // 完全重置日历（清空筛选 + 收起），用于离开筛选上下文（切换视图 / 回到首页）
+  function closeCalPopup(){
+    collapseCalPopup();
     // 重置日历选择提示，避免回首页后仍显示"已选 N 天"
-    if(typeof bankDates!=='undefined' && calToggleText){
+    if(calToggleText){
       bankDates.clear();
       calToggleText.textContent = '选日期';
       // 同步清空底部提示
@@ -2045,9 +2055,9 @@
       // 清除所有日期的 .on 选中态
       const onDays = calWrap.querySelectorAll('.cal-day.on');
       onDays.forEach(d => d.classList.remove('on'));
+      renderBank(currentTab, bankDate);
     }
   }
-  // 日历仅在「确定 / × / 切换视图」时关闭，避免多选过程中误触消失
 
   // ===== 顶部搜索（全局搜全部单词：词面 / 词义 / 词根 / 例句）=====
   const searchInput = document.getElementById('searchInput');
@@ -2408,12 +2418,14 @@
       bankDates.clear();
       bankPage = 1;
       updateCalToggleText();
+      collapseCalPopup();
       renderBank(currentTab, bankDate);
     });
   }
   if(tabsEl){
     tabsEl.addEventListener('click', e=>{
       const t = e.target.closest('.tab'); if(!t) return;
+      collapseCalPopup();
       // 点击已选中项 → 取消选中（回到全类别）
       if(t.classList.contains('on')){
         t.classList.remove('on');
@@ -2511,10 +2523,10 @@
     const n=new Date(); calYm={y:n.getFullYear(),m:n.getMonth()}; renderCal();
   });
   document.getElementById('calClose').addEventListener('click', ()=>{
-    calWrap.classList.add('collapsed'); calToggle.classList.remove('open');
+    collapseCalPopup();
   });
   const calOk=document.getElementById('calOk');
-  if(calOk) calOk.addEventListener('click', ()=>{ closeCalPopup(); });
+  if(calOk) calOk.addEventListener('click', ()=>{ collapseCalPopup(); });
 
   // 词库分页：上一页 / 下一页
   const pgPrev=document.getElementById('pgPrev');

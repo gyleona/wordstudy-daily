@@ -1396,6 +1396,9 @@
   function saveRollover(){ localStorage.setItem('wstudy_rollover', JSON.stringify([...rolloverSet])); }
 
   let words = [];
+  // 分享模式：普通链接只显示最新一批（当天）单词，历史不暴露；
+  // 带 ?all=1 的链接显示全部累积单词（给本人用）。
+  const SHOW_ALL = new URLSearchParams(location.search).get('all') === '1';
   let currentView = 'today';
   let currentTab = 'all';
 
@@ -1776,7 +1779,14 @@
   // 渲染全部内容
   function init(data){
     try{
-    words = data.words || [];
+    let raw = data.words || [];
+    if(!SHOW_ALL){
+      // 仅展示最新一批（当天生成）的单词，避免暴露历史累积
+      const dates = [...new Set(raw.map(w=>w.d).filter(Boolean))].sort();
+      const latest = dates.length ? dates[dates.length-1] : null;
+      raw = latest ? raw.filter(w=>w.d===latest) : raw;
+    }
+    words = raw;
     byW = {}; words.forEach(w=> byW[w.w]=w);
     loadSR(); loadStreak(); updateStreak(); loadDashLog();
     renderDashboard(); renderRevEntry();

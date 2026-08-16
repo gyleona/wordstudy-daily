@@ -64,7 +64,7 @@
     padding-top:calc(10px + env(safe-area-inset-top));
   }
   .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:none;background:transparent;border-radius:var(--r-sm);cursor:pointer;flex-shrink:0;}
-  .menu-btn svg{width:22px;height:22px;stroke:var(--ink);fill:none;}
+  .menu-btn svg{width:26px;height:26px;stroke:var(--pink);fill:none;stroke-width:2.8;stroke-linecap:round;}
   .logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:18px;color:var(--pink);white-space:nowrap;}
   .logo-img{height:38px;width:auto;display:block;}
   .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 4px rgba(251,114,153,.18);}
@@ -86,9 +86,9 @@
     .topbar{gap:10px;padding-left:12px;padding-right:12px;}
     .brand-mark{margin-left:auto;}
     .logo{flex:1;justify-content:center;}
-    .nav-hint{display:inline-flex;}
+    .nav-hint{display:none;}
     .hero{flex-direction:column;align-items:stretch;margin:14px 8px 0;padding:22px 12px;}
-    .hero-mission{text-align:left;margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.25);max-width:none;font-family:"STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:15px;line-height:1.45;}
+    .hero-mission{text-align:left;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.25);max-width:none;font-family:"STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:12px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   }
 
   /* 左侧导航抽屉 */
@@ -138,7 +138,7 @@
   .hero .quote .qz{font-size:12px;opacity:.82;margin-top:3px;line-height:1.4;}
   .hero .quote .speaker{background:rgba(255,255,255,.22);margin-top:1px;flex-shrink:0;}
   .hero .quote .speaker svg{stroke:#fff;}
-  .hero-mission{flex-shrink:0;max-width:230px;font-family:"STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:17px;line-height:1.6;opacity:.95;position:relative;z-index:1;}
+  .hero-mission{flex-shrink:0;max-width:230px;font-family:"STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:13px;line-height:1.5;opacity:.95;position:relative;z-index:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
   .hm-img{display:none}
   .hm-text{display:block}
   @media(max-width:768px){
@@ -197,8 +197,8 @@
   @keyframes rise{to{opacity:1;transform:translateY(0);}}
 
   .wchev{
-    position:absolute;right:14px;bottom:12px;
-    color:var(--sub);font-size:18px;font-weight:700;line-height:1;pointer-events:none;
+    position:absolute;right:10px;bottom:10px;
+    color:var(--sub);font-size:14px;font-weight:700;line-height:1;pointer-events:none;
     transition:color .2s, transform .2s;
   }
   .wcard:hover .wchev{color:var(--cat);transform:translateX(2px);}
@@ -603,6 +603,8 @@
   /* 品牌主角（小肥羊超人，页面居中 + 升起 + 浮动） */
   .splash .splash-hero{position:absolute;left:0;right:0;top:52%;transform:translateY(-50%);display:flex;justify-content:center;z-index:2;}
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;}
+  /* 遮住图片右下角 AI生成 水印 */
+  .splash .splash-hero::after{content:"";position:absolute;bottom:4%;right:6%;width:22%;height:14%;background:linear-gradient(135deg,transparent 40%,rgba(255,120,160,.25) 70%,rgba(255,120,160,.55) 100%);border-radius:40% 0 12px 8px;pointer-events:none;z-index:3;}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
   @keyframes spin{to{transform:rotate(360deg);}}
@@ -621,7 +623,7 @@
   .wdetail{position:fixed;inset:0;z-index:90;display:flex;align-items:flex-end;justify-content:center;}
   .wdetail[hidden]{display:none;}
   .wd-mask{position:absolute;inset:0;background:rgba(24,25,28,.5);backdrop-filter:blur(3px);}
-  .wd-sheet{position:relative;width:100%;max-width:540px;background:#fff;border-radius:var(--r-xl) var(--r-xl) 0 0;max-height:90vh;display:flex;flex-direction:column;animation:slideUp .3s ease;box-shadow:var(--shadow-lg);}
+  .wd-sheet{position:relative;width:calc(100% - 28px);max-width:480px;background:#fff;border-radius:var(--r-xl) var(--r-xl) 0 0;max-height:90vh;display:flex;flex-direction:column;animation:slideUp .3s ease;box-shadow:var(--shadow-lg);}
   .wd-grab{width:38px;height:4px;border-radius:3px;background:#e3e5e7;margin:8px auto 2px;}
   .wd-head{display:flex;align-items:center;gap:12px;padding:6px 16px 14px;position:relative;}
   .wd-head::after{content:"";position:absolute;left:16px;right:16px;bottom:0;height:1.5px;background:linear-gradient(90deg,var(--pink),var(--blue));border-radius:1px;}
@@ -680,7 +682,7 @@
     /* 开屏引语 */
     .hero .quote .qe{font-size:16px;line-height:1.65;}
     .hero p{font-size:16px;}
-    .hero-mission{font-size:16px;line-height:1.6;}
+    .hero-mission{font-size:13px;line-height:1.5;}
     /* 版块标题：一级标题 > 二级标题 > 正文的层级 */
     .sec-head h2{font-size:22px;}                 /* 一级标题：版块大标题 */
     .sec-head .more .lbl{font-size:14px;}
@@ -709,7 +711,7 @@
     .ob-replay{font-size:15px;height:44px;}
   }
 
-  @media(min-width:860px){ .wdetail{align-items:center;} .wd-sheet{border-radius:var(--r-xl);max-height:86vh;} }
+  @media(min-width:860px){ .wdetail{align-items:center;} .wd-sheet{border-radius:var(--r-xl);max-height:86vh;width:calc(100% - 40px);} }
 
   /* 学习看板 */
   .dash{margin:14px 16px 4px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
@@ -2021,8 +2023,20 @@
     else if(v==='fav') renderFav();
     else if(v==='hard') renderHard();
     closeSidebar();
+    closeCalPopup();
     window.scrollTo({top:0, behavior:'smooth'});
   }
+
+  // 日历弹出层辅助关闭函数
+  function closeCalPopup(){
+    if(calWrap) { calWrap.classList.add('collapsed'); calToggle.classList.remove('open'); }
+  }
+  // 点击日历外部区域自动关闭
+  document.addEventListener('click', e=>{
+    if(calWrap && !calWrap.classList.contains('collapsed') && !calWrap.contains(e.target) && !calToggle.contains(e.target)){
+      closeCalPopup();
+    }
+  });
 
   // ===== 顶部搜索（全局搜全部单词：词面 / 词义 / 词根 / 例句）=====
   const searchInput = document.getElementById('searchInput');

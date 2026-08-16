@@ -314,11 +314,11 @@
   .cal-toggle svg{width:14px;height:14px;flex-shrink:0;fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:.15s;}
   .cal-toggle.open{background:rgba(0,174,236,.08);border-color:var(--blue);color:var(--blue);}
   .cal-toggle.open svg{stroke:var(--blue);}
-  .cal-top{display:flex;align-items:center;gap:2px;margin-bottom:3px;flex-wrap:nowrap;overflow:hidden;}
-  .cal-nav{width:24px;height:24px;flex-shrink:0;border:1px solid var(--line);background:#fff;border-radius:4px;color:var(--sub);font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.15s;margin:0 2px;}
+  .cal-top{display:flex;align-items:center;gap:2px;margin-bottom:3px;flex-wrap:nowrap;}
+  .cal-nav{width:22px;height:22px;flex-shrink:0;border:1px solid var(--line);background:#fff;border-radius:4px;color:var(--sub);font-size:11px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.15s;margin:0 1px;}
   .cal-nav:hover{border-color:var(--blue);color:var(--blue);}
   .cal-nav:disabled{display:none;}
-  .cal-title{flex:1;min-width:0;text-align:center;font-size:13px;font-weight:800;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .cal-title{flex:1;min-width:0;text-align:center;font-size:13px;font-weight:800;color:var(--ink);white-space:nowrap;}
   .cal-today{flex-shrink:0;font-size:10px;font-weight:700;padding:2px 6px;border-radius:999px;background:rgba(0,174,236,.1);color:var(--blue);border:1px solid rgba(0,174,236,.3);cursor:pointer;transition:.15s;margin-left:2px;}
   .cal-today:active{transform:scale(.94);}
   .cal-today:hover{background:rgba(0,174,236,.18);}
@@ -336,12 +336,12 @@
   .cal-day.has{color:var(--ink);cursor:pointer;background:#d9f0fb;font-weight:800;border:1px solid rgba(0,174,236,.45);}
   .cal-day.has:hover{background:#bce6fa;border-color:rgba(0,174,236,.65);}
   .cal-day.has .cnt{font-size:6.5px;font-weight:700;color:var(--blue);line-height:1;}
-  /* 已选中的日期 */
-  .cal-day.on{background:var(--blue);color:#fff;border-color:var(--blue);}
-  .cal-day.on .cnt{color:#fff;opacity:.9;}
+  /* 已选中的日期 — 加深边框+背景，区别于普通有词日期 */
+  .cal-day.on{background:#7ec8f0;border:2px solid var(--blue);color:var(--ink);font-weight:900;box-shadow:0 0 0 1px rgba(0,174,236,.25);}
+  .cal-day.on .cnt{color:var(--blue);font-weight:800;}
   /* 今天 */
   .cal-day.today{box-shadow:inset 0 0 0 1.5px var(--pink);}
-  .cal-day.today.on{box-shadow:inset 0 0 0 1.5px #fff;}
+  .cal-day.today.on{box-shadow:inset 0 0 0 1.5px var(--pink),0 0 0 1px rgba(0,174,236,.25);}
   /* 过去无词 — 灰色不可点 */
   .cal-day.past-empty{color:#d0d3d9;background:rgba(0,0,0,.02);cursor:not-allowed;}
   /* 未来日期 — 更浅灰不可点 */

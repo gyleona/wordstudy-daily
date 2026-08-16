@@ -63,8 +63,10 @@
     display:flex;align-items:center;gap:12px;padding:10px 16px;
     padding-top:calc(10px + env(safe-area-inset-top));
   }
-  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:none;background:transparent;border-radius:var(--r-sm);cursor:pointer;flex-shrink:0;}
-  .menu-btn svg{width:26px;height:26px;stroke:var(--pink);fill:none;stroke-width:2.8;stroke-linecap:round;}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:none;background:rgba(251,114,153,.14);border-radius:12px;cursor:pointer;flex-shrink:0;box-shadow:0 2px 8px rgba(251,114,153,.2);animation:navBounce 1.5s ease-in-out infinite;}
+  .menu-btn:active{background:rgba(251,114,153,.28);}
+  .menu-btn svg{width:26px;height:26px;stroke:var(--pink);fill:none;stroke-width:3.4;stroke-linecap:round;}
+  @keyframes navBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
   .logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:18px;color:var(--pink);white-space:nowrap;}
   .logo-img{height:38px;width:auto;display:block;}
   .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 4px rgba(251,114,153,.18);}
@@ -197,11 +199,11 @@
   @keyframes rise{to{opacity:1;transform:translateY(0);}}
 
   .wchev{
-    position:absolute;right:10px;bottom:10px;
-    color:var(--sub);font-size:14px;font-weight:700;line-height:1;pointer-events:none;
+    position:absolute;right:9px;bottom:9px;
+    color:var(--pink);font-size:18px;font-weight:900;line-height:1;pointer-events:none;
     transition:color .2s, transform .2s;
   }
-  .wcard:hover .wchev{color:var(--cat);transform:translateX(2px);}
+  .wcard:hover .wchev{color:var(--pink);transform:translateX(3px);}
 
   .wcard .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:6px;}
   .tag{font-size:12px;font-weight:800;padding:4px 10px;border-radius:999px;display:inline-flex;align-items:center;gap:4px;letter-spacing:.3px;}
@@ -327,6 +329,8 @@
   .cal-clear:hover{background:rgba(251,114,153,.18);}
   .cal-close{width:22px;height:22px;flex-shrink:0;border:1px solid var(--line);background:#fff;border-radius:4px;color:var(--sub);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.15s;line-height:1;margin-left:2px;}
   .cal-close:hover{background:#f5f5f5;color:var(--ink);}
+  .cal-ok{margin:4px 0 2px;width:100%;height:34px;border:none;border-radius:999px;background:linear-gradient(135deg,var(--pink),var(--blue));color:#fff;font-size:14px;font-weight:800;cursor:pointer;box-shadow:0 4px 12px rgba(0,174,236,.25);}
+  .cal-ok:active{transform:scale(.97);}
   .cal-week{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;margin-bottom:1px;}
   .cal-week span{text-align:center;font-size:8.5px;color:var(--sub);font-weight:700;padding:0;}
   .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;}
@@ -603,8 +607,9 @@
   /* 品牌主角（小肥羊超人，页面居中 + 升起 + 浮动） */
   .splash .splash-hero{position:absolute;left:0;right:0;top:52%;transform:translateY(-50%);display:flex;justify-content:center;z-index:2;}
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;}
-  /* 遮住图片右下角 AI生成 水印 */
-  .splash .splash-hero::after{content:"";position:absolute;bottom:4%;right:6%;width:22%;height:14%;background:linear-gradient(135deg,transparent 40%,rgba(255,120,160,.25) 70%,rgba(255,120,160,.55) 100%);border-radius:40% 0 12px 8px;pointer-events:none;z-index:3;}
+  /* 遮住图片右下角 AI生成 水印（按图片定位，避免随屏宽错位；不透明色块确保遮住深色文字） */
+  .splash .hero-img{position:relative;display:inline-block;line-height:0;}
+  .splash .hero-img::after{content:"";position:absolute;right:1%;bottom:2%;width:30%;height:24%;background:radial-gradient(circle at 58% 42%, #4CC2EC 0 52%, rgba(76,194,236,.92) 70%, rgba(76,194,236,0) 100%);border-radius:0 0 16px 12px;pointer-events:none;z-index:3;}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
   @keyframes spin{to{transform:rotate(360deg);}}
@@ -672,6 +677,9 @@
     .wd-tip{font-size:16px;line-height:1.85;padding:13px 15px;}
     .wd-lab{font-size:13px;}
     .wd-chip{font-size:16px;padding:9px 16px;}
+    /* 详情弹层在手机上改为居中悬浮卡片，四周留白，体现卡片感 */
+    .wdetail{align-items:center;padding:14px;}
+    .wd-sheet{width:100%;max-width:520px;border-radius:var(--r-xl);max-height:84vh;}
     /* 情景阅读 story / 今日钩子 */
     .story{padding:20px 18px;}
     .story .en{font-size:16px;line-height:2.1;}
@@ -845,7 +853,7 @@
     <div class="tri" style="right:15%;top:34%;transform:scale(.8);"></div>
     <div class="tri" style="right:9%;top:42%;transform:scale(.55);"></div>
     <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
-    <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
+    <div class="splash-hero"><span class="hero-img"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></span></div>
   </div>
 
   <!-- 左侧导航抽屉 -->
@@ -1007,6 +1015,7 @@
               <div class="cal-week"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
               <div class="cal-grid" id="calGrid"></div>
               <div class="cal-foot" id="calFoot"></div>
+              <button class="cal-ok" id="calOk">确定</button>
               <div class="cal-tip">蓝底=有单词可点选 · 灰底不可选</div>
             </div>
           </div>
@@ -2031,12 +2040,7 @@
   function closeCalPopup(){
     if(calWrap) { calWrap.classList.add('collapsed'); calToggle.classList.remove('open'); }
   }
-  // 点击日历外部区域自动关闭
-  document.addEventListener('click', e=>{
-    if(calWrap && !calWrap.classList.contains('collapsed') && !calWrap.contains(e.target) && !calToggle.contains(e.target)){
-      closeCalPopup();
-    }
-  });
+  // 日历仅在「确定 / × / 切换视图」时关闭，避免多选过程中误触消失
 
   // ===== 顶部搜索（全局搜全部单词：词面 / 词义 / 词根 / 例句）=====
   const searchInput = document.getElementById('searchInput');
@@ -2502,6 +2506,8 @@
   document.getElementById('calClose').addEventListener('click', ()=>{
     calWrap.classList.add('collapsed'); calToggle.classList.remove('open');
   });
+  const calOk=document.getElementById('calOk');
+  if(calOk) calOk.addEventListener('click', ()=>{ closeCalPopup(); });
 
   // 词库分页：上一页 / 下一页
   const pgPrev=document.getElementById('pgPrev');

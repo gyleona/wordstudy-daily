@@ -339,7 +339,7 @@
   .cal-day{position:relative;aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:5px;font-size:9.5px;font-weight:600;color:#c3c8d0;cursor:default;transition:.15s;}
   .cal-day.pad{visibility:hidden;}
   /* 有词日期 — 蓝底可点 */
-  .cal-day.has{color:var(--ink);cursor:pointer;background:#d9f0fb;font-weight:800;border:1px solid rgba(0,174,236,.45);}
+  .cal-day.has{color:var(--ink);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;background:#d9f0fb;font-weight:800;border:1px solid rgba(0,174,236,.45);}
   .cal-day.has:hover{background:#bce6fa;border-color:rgba(0,174,236,.65);}
   .cal-day.has .cnt{font-size:6.5px;font-weight:700;color:var(--blue);line-height:1;}
   /* 已选中的日期 — 加深边框+背景，区别于普通有词日期 */
@@ -706,8 +706,8 @@
     .cal-toggle{font-size:15px;padding:8px 15px;}
     /* 日历在手机端改为底部弹出面板（不再悬浮小下拉） */
     .cal-host{position:static;}
-    .cal-scrim{z-index:79;}
-    .cal-wrap{position:fixed;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;z-index:80;background:var(--card);border-radius:20px 20px 0 0;padding:14px 16px 22px;box-shadow:0 -8px 32px rgba(0,0,0,.18);margin:0;animation:slideUp .25s ease both;max-height:85vh;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+    .cal-scrim{z-index:999;}
+    .cal-wrap{position:fixed;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;z-index:1000;background:var(--card);border-radius:20px 20px 0 0;padding:14px 16px 22px;box-shadow:0 -8px 32px rgba(0,0,0,.18);margin:0;animation:slideUp .25s ease both;max-height:85vh;overflow-y:auto;-webkit-overflow-scrolling:touch;}
     .cal-wrap.collapsed{display:none;}
     .cal-wrap .cal-top{gap:6px;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line);}
     .cal-wrap .cal-title{font-size:16px;}
@@ -2517,6 +2517,20 @@
     const sel=[...bankDates].sort();
     calFoot.textContent = sel.length ? ('已选 '+sel.length+' 天') : '点蓝底日子可多选';
   }
+  // 选中/取消某天：直接切换该格子 .on 类（即时反馈，不整页重渲染），同步筛选列表
+  function pickDay(cell){
+    if(!cell || !cell.dataset.d) return;
+    if(!cell.classList.contains('has')) return; // 只可选有单词的日期
+    const ds=cell.dataset.d;
+    if(bankDates.has(ds)){ bankDates.delete(ds); cell.classList.remove('on'); }
+    else { bankDates.add(ds); cell.classList.add('on'); }
+    dateChipsEl.querySelectorAll('.dchip').forEach(x=>x.classList.remove('on'));
+    bankPage = 1;
+    updateCalToggleText();
+    const sel=[...bankDates].sort();
+    calFoot.textContent = sel.length ? ('已选 '+sel.length+' 天') : '点蓝底日子可多选';
+    renderBank(currentTab, bankDate);
+  }
   if(calToggle){
     calToggle.addEventListener('click', ()=>{
       const open = calWrap.classList.toggle('collapsed')===false;
@@ -2531,14 +2545,15 @@
   }
   if(calGrid){
     calGrid.addEventListener('click', e=>{
-      const cell=e.target.closest('.cal-day'); if(!cell || !cell.dataset.d) return;
-      if(!cell.classList.contains('has')) return; // 只可选有单词的日期
-      const ds=cell.dataset.d;
-      if(bankDates.has(ds)) bankDates.delete(ds); else bankDates.add(ds);
-      dateChipsEl.querySelectorAll('.dchip').forEach(x=>x.classList.remove('on'));
-      bankPage = 1;
-      renderCal(); updateCalToggleText(); renderBank(currentTab, bankDate);
+      const cell=e.target.closest('.cal-day'); if(!cell) return;
+      pickDay(cell);
     });
+    // 移动端：fixed 面板内 overflow 滚动容器，click 委托经常不触发，补 touchend
+    calGrid.addEventListener('touchend', e=>{
+      const cell=e.target.closest('.cal-day'); if(!cell) return;
+      e.preventDefault(); // 阻止随后重复 click，避免二次切换
+      pickDay(cell);
+    }, {passive:false});
   }
   const calClear=document.getElementById('calClear');
   if(calClear){

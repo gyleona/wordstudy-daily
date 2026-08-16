@@ -599,7 +599,7 @@
   /* 跳过按钮 */
   .splash .splash-skip{position:absolute;right:18px;top:calc(18px + env(safe-area-inset-top));z-index:4;border:none;background:rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:700;padding:7px 14px;border-radius:999px;cursor:pointer;backdrop-filter:blur(4px);}
   .splash .splash-skip:active{background:rgba(255,255,255,.32);}
-  .splash .splash-skip #splashCount{display:inline-block;min-width:16px;text-align:center;font-weight:800;background:rgba(255,255,255,.28);border-radius:999px;padding:0 5px;margin-right:3px;}
+  .splash .splash-skip #splashCount{display:inline-block;min-width:14px;text-align:center;font-weight:700;font-size:12px;opacity:.9;margin-left:2px;}
   /* 品牌主角（小肥羊超人，页面居中 + 升起 + 浮动） */
   .splash .splash-hero{position:absolute;left:0;right:0;top:52%;transform:translateY(-50%);display:flex;justify-content:center;z-index:2;}
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;}
@@ -842,7 +842,7 @@
     <div class="tri" style="right:22%;top:26%;"></div>
     <div class="tri" style="right:15%;top:34%;transform:scale(.8);"></div>
     <div class="tri" style="right:9%;top:42%;transform:scale(.55);"></div>
-    <button class="splash-skip" id="splashSkip"><span id="splashCount">10</span>s 跳过 ›</button>
+    <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
     <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
   </div>
 

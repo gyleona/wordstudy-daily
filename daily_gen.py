@@ -684,6 +684,21 @@ def main():
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
     success = upload_to_cos(client, content_bytes, "words-data.json")
 
+    # Upload the static frontend (index.html) so edits to the UI go live via GitHub push.
+    # Safe: only uploads if the file exists locally (it does in the repo checkout).
+    _fe_dir = os.path.dirname(os.path.abspath(__file__))
+    _fe_path = os.path.join(_fe_dir, "index.html")
+    if os.path.exists(_fe_path):
+        try:
+            with open(_fe_path, "rb") as _f:
+                _fe_bytes = _f.read()
+            upload_to_cos(client, _fe_bytes, "index.html")
+            log("Frontend index.html uploaded to hosting bucket")
+        except Exception as _e:
+            log(f"Frontend upload skipped: {_e}")
+    else:
+        log("index.html not found in repo; skipping frontend upload")
+
     # Record today's quote for future dedup
     new_quote = result.get("quote", {})
     if new_quote and new_quote.get("en"):

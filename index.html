@@ -63,10 +63,10 @@
     display:flex;align-items:center;gap:12px;padding:10px 16px;
     padding-top:calc(10px + env(safe-area-inset-top));
   }
-  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:none;background:rgba(251,114,153,.14);border-radius:12px;cursor:pointer;flex-shrink:0;box-shadow:0 2px 8px rgba(251,114,153,.2);animation:navBounce 1.5s ease-in-out infinite;}
-  .menu-btn:active{background:rgba(251,114,153,.28);}
-  .menu-btn svg{width:26px;height:26px;stroke:var(--pink);fill:none;stroke-width:3.4;stroke-linecap:round;}
-  @keyframes navBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-4px);}}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:none;background:rgba(0,174,236,.1);border-radius:12px;cursor:pointer;flex-shrink:0;animation:navGlow 2s ease-in-out infinite;}
+  .menu-btn:active{background:rgba(0,174,236,.22);}
+  .menu-btn svg{width:26px;height:26px;stroke:var(--blue);fill:none;stroke-width:3.2;stroke-linecap:round;}
+  @keyframes navGlow{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(0,174,236,.35);}50%{opacity:.7;box-shadow:0 0 8px 2px rgba(0,174,236,.25);}}
   .logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:18px;color:var(--pink);white-space:nowrap;}
   .logo-img{height:38px;width:auto;display:block;}
   .logo .dot{width:10px;height:10px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 4px rgba(251,114,153,.18);}
@@ -606,10 +606,7 @@
   .splash .splash-skip #splashCount{display:inline-block;min-width:14px;text-align:center;font-weight:700;font-size:12px;opacity:.9;margin-left:2px;}
   /* 品牌主角（小肥羊超人，页面居中 + 升起 + 浮动） */
   .splash .splash-hero{position:absolute;left:0;right:0;top:52%;transform:translateY(-50%);display:flex;justify-content:center;z-index:2;}
-  .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;}
-  /* 遮住图片右下角 AI生成 水印（按图片定位，避免随屏宽错位；不透明色块确保遮住深色文字） */
-  .splash .hero-img{position:relative;display:inline-block;line-height:0;}
-  .splash .hero-img::after{content:"";position:absolute;right:1%;bottom:2%;width:30%;height:24%;background:radial-gradient(circle at 58% 42%, #4CC2EC 0 52%, rgba(76,194,236,.92) 70%, rgba(76,194,236,0) 100%);border-radius:0 0 16px 12px;pointer-events:none;z-index:3;}
+  .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% calc(100% - 22%),calc(100% - 18%) 100%,0 100%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
   @keyframes spin{to{transform:rotate(360deg);}}
@@ -853,7 +850,7 @@
     <div class="tri" style="right:15%;top:34%;transform:scale(.8);"></div>
     <div class="tri" style="right:9%;top:42%;transform:scale(.55);"></div>
     <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
-    <div class="splash-hero"><span class="hero-img"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></span></div>
+    <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
   </div>
 
   <!-- 左侧导航抽屉 -->
@@ -2036,9 +2033,19 @@
     window.scrollTo({top:0, behavior:'smooth'});
   }
 
-  // 日历弹出层辅助关闭函数
+  // 日历弹出层辅助关闭函数（同时重置选中提示）
   function closeCalPopup(){
     if(calWrap) { calWrap.classList.add('collapsed'); calToggle.classList.remove('open'); }
+    // 重置日历选择提示，避免回首页后仍显示"已选 N 天"
+    if(typeof bankDates!=='undefined' && calToggleText){
+      bankDates.clear();
+      calToggleText.textContent = '选日期';
+      // 同步清空底部提示
+      if(calFoot) calFoot.textContent = '点蓝底日子可多选';
+      // 清除所有日期的 .on 选中态
+      const onDays = calWrap.querySelectorAll('.cal-day.on');
+      onDays.forEach(d => d.classList.remove('on'));
+    }
   }
   // 日历仅在「确定 / × / 切换视图」时关闭，避免多选过程中误触消失
 

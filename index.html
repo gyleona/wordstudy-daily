@@ -356,6 +356,7 @@
   .cal-tip{margin-top:2px;font-size:8.5px;color:var(--sub);font-weight:700;text-align:center;}
   /* 词库分页 */
   .pager{display:flex;align-items:center;justify-content:center;gap:14px;margin:14px 16px 22px;}
+  .pager[hidden]{display:none;}  /* 修复 author display:flex 覆盖 [hidden] 默认样式的 bug */
   .pg-btn{font-size:14px;font-weight:700;padding:9px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;transition:.18s;}
   .pg-btn:active{transform:scale(.96);}
   .pg-btn:disabled{opacity:.4;cursor:not-allowed;}
@@ -1489,6 +1490,7 @@
     const pgNext = document.getElementById('pgNext');
     if(total <= BANK_PAGE_SIZE){
       pager.hidden = true;
+      pgInfo.textContent = `共 ${total} 词`;  // 同步刷新文本，避免隐藏后残留旧值
     } else {
       pager.hidden = false;
       pgInfo.textContent = `第 ${bankPage}/${pages} 页 · 共 ${total} 词`;

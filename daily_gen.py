@@ -266,7 +266,7 @@ def build_clean_impact(impact, words):
 FORBIDDEN_HOOK_PHRASES = [
     "也值得关注", "收进你的词表", "今天的财经职场里", "记住这8个词",
     "串起了今天", "串起今天的", "关键词——", "关键词——", "这些关键词",
-    "提醒我们", "以上就是", "涵盖了今天",
+    "提醒我们", "以上就是", "涵盖了今天", "总体看", "总体而言",
 ]
 
 
@@ -548,7 +548,9 @@ Then output these three objects:
 
   story: {{
     "en": "English news dispatch, 约 500 字符（480-560，roughly 90-130 words）。This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 480-560 characters.",
-    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格）。结构：①导语 1 句约 50 字总起今日财经/职场主线；②主体 3 段，每段 80-110 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/科技趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『权衡』『韧性』『颠覆性的』）；③收束 1 句约 40 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 340 字，仅学长度与结构，勿抄内容）：今日市场被三条线索牵动。其一是地缘与能源：某海峡通航新模式公布，国际油价变得『不稳定』，投资者在回报与安全间做『权衡』。其二是企业基本面：某龙头净利下滑，但子业务『激增』成新增长极；某地调高经济预期，尽显『韧性』底色。其三是职场与科技：AI 『颠覆性』浪潮持续，企业加速『部署』工具以『优化』流程，员工被迫升级技能；央行在通胀与增长间『授权』权衡，政策空间受限。总体看，波动之中见韧性，主动求变者方能胜出。"
+    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格）。结构：①导语 1 句约 50 字总起今日财经/职场主线；②主体 3 段，每段 80-110 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/科技趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『权衡』『韧性』『颠覆性的』）；③收束 1 句约 40 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n重要：正文结尾不要写『总体看/总体而言』之类的总结句——串讲本身就是叙事，自然收束即可；统一的总结由 preview.impact 承担，不要在这里重复。
+
+长度结构参考样例（约 340 字，仅学长度与结构，勿抄内容）：今日市场被三条线索牵动。其一是地缘与能源：某海峡通航新模式公布，国际油价变得『不稳定』，投资者在回报与安全间做『权衡』。其二是企业基本面：某龙头净利下滑，但子业务『激增』成新增长极；某地调高经济预期，尽显『韧性』底色。其三是职场与科技：AI 『颠覆性』浪潮持续，企业加速『部署』工具以『优化』流程，员工被迫升级技能；央行在通胀与增长间『授权』权衡，政策空间受限，三条主线交织，机会藏在分化里。"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
@@ -564,7 +566,7 @@ Then output these three objects:
 QUOTE DEDUP RULE:
 {quote_instruction}
 
-FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词尽量都自然融入叙事（结尾总结句也要嵌词，禁止纯中文无词的收尾、禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格）。
+FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词尽量都自然融入叙事，不要以『总体看/总体而言』这类总结句收尾（统一总结由 preview.impact 承担），禁止句尾清单式罗列；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格），且结尾不要写『总体看/总体而言』总结句（总结由 impact 承担）。
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}

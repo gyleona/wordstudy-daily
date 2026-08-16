@@ -248,6 +248,15 @@ def build_clean_story_en(story_en, words):
     return marked, count
 
 
+def build_clean_story_cn(story_cn, words):
+    """Mark today's words in the Chinese serial (热点串讲) as [中文释义|英文原形] markers so the
+    Chinese story reads cleanly in Chinese and each vocab word is tap-to-speak (English). Default
+    display is the Chinese gloss; the front-end renders group1 and speaks group2 (English).
+    """
+    marked, count = _mark_text(story_cn, words, use_english_display=False)
+    return marked, count
+
+
 def build_clean_impact(impact, words):
     """Mark today's words in the impact summary as [英文|中文] (English display default)."""
     marked, _ = _mark_text(impact, words, use_english_display=True)
@@ -334,7 +343,7 @@ def ensure_t_two_paragraphs(t):
     return t
 
 
-def validate_core(result, min_cn=470, max_cn=560):
+def validate_core(result, min_cn=310, max_cn=400):
     """Quality gate for the core call (words + story + quote)."""
     if not result:
         return False
@@ -365,7 +374,10 @@ def validate_core(result, min_cn=470, max_cn=560):
         return False
     story = result.get("story", {})
     cn = (story.get("cn") or "").strip()
-    if len(cn) < min_cn or len(cn) > max_cn:
+    # Length measured on PLAIN text (markers stripped) so build_clean's [中文|英文] wrappers
+    # don't inflate the count; target ~350, hard cap 400.
+    cn_plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", cn)
+    if len(cn_plain) < min_cn or len(cn_plain) > max_cn:
         return False
     return True
 
@@ -396,7 +408,7 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
     return True
 
 
-def validate_quality(result, min_cn=470, max_cn=560):
+def validate_quality(result, min_cn=310, max_cn=400):
     """Final combined quality gate (core + hook)."""
     if not result:
         return False
@@ -417,7 +429,7 @@ def explain_quality(result):
     cnt = Counter(w.get("c") for w in words)
     log(f"  words={len(words)} domain={dict(cnt)} work={cnt.get('work',0)} econ+work={cnt.get('econ',0)+cnt.get('work',0)} politics={cnt.get('politics',0)}")
     cn = (result.get("story") or {}).get("cn") or ""
-    log(f"  story.cn len={len(cn)} (want 450-820)")
+    log(f"  story.cn len={len(cn)} (want 310-400)")
     hook = (result.get("preview", {}) or {}).get("hook") or ""
     forbidden = [p for p in FORBIDDEN_HOOK_PHRASES if p in hook]
     if forbidden:
@@ -536,7 +548,7 @@ Then output these three objects:
 
   story: {{
     "en": "English news dispatch, 约 500 字符（480-560，roughly 90-130 words）。This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 480-560 characters.",
-    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。结构：①导语 1 句约 80 字，总起今日财经/职场主线；②主体 3 段，每段 130-170 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/就业趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『职场』『胜过』）；③收束 1 句约 80 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 500 字，仅学长度与结构，勿抄内容）：今天的市场被三条线索牵住。其一是『某行业』产能『激增』，龙头季度出货『胜过』预期，板块情绪回暖；其二是就业端，企业招聘节奏『稳健』，但岗位向『职场』新技能倾斜，应届生『部署』转型培训意愿上升。其三是宏观，政策窗口临近，资金对利率路径的博弈『升级』，避险与风险资产波动并存。细分看，科技制造侧供应链重构让国产替代『势头』延续，设备更新补贴落地后订单可见度改善；消费侧暑期出行与『电影+』联动推高票房，但耐用品复苏温和。海外欧美央行表态分化，贸易摩擦『边缘』风险未被定价，出口链警惕关税反复。职场维度，AI 提效从概念走向考核，企业把『能否用工具放大产出』写进晋升标准，自由职业者接单结构随之调整。招聘平台显示带『数据分析』『跨域协作』标签岗位薪资溢价扩大。总体看主题是『景气修复但分化加剧』：主线资产有『动量』，但边际变化快，仓位管理比方向判断更关键。"
+    "cn": "中文热点综述（『热点串讲』板块主体），独立成篇，严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格）。结构：①导语 1 句约 50 字总起今日财经/职场主线；②主体 3 段，每段 80-110 字，分别展开一条具体主线（如某市场/资产动向、某行业或公司进展、职场/科技趋势），并把今日 8 个词自然写入叙述（中文显示即可，如『激增』『部署』『权衡』『韧性』『颠覆性的』）；③收束 1 句约 40 字收尾。这是中文原创综述，不是英文的翻译，不要逐词对应英文。\n\n长度结构参考样例（约 340 字，仅学长度与结构，勿抄内容）：今日市场被三条线索牵动。其一是地缘与能源：某海峡通航新模式公布，国际油价变得『不稳定』，投资者在回报与安全间做『权衡』。其二是企业基本面：某龙头净利下滑，但子业务『激增』成新增长极；某地调高经济预期，尽显『韧性』底色。其三是职场与科技：AI 『颠覆性』浪潮持续，企业加速『部署』工具以『优化』流程，员工被迫升级技能；央行在通胀与增长间『授权』权衡，政策空间受限。总体看，波动之中见韧性，主动求变者方能胜出。"
   }}
   quote: {{
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
@@ -552,7 +564,7 @@ Then output these three objects:
 QUOTE DEDUP RULE:
 {quote_instruction}
 
-FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词尽量都自然融入叙事（结尾总结句也要嵌词，禁止纯中文无词的收尾、禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 500 字（480-540 字为佳，不足 470 或超 560 不合格）。
+FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词尽量都自然融入叙事（结尾总结句也要嵌词，禁止纯中文无词的收尾、禁止句尾清单式罗列）；不要写任何 [..|..] 标记（自动添加）。story.cn 必须严格约 350 字（320-380 字为佳，不足 310 或超 400 不合格）。
 
 Output STRICT JSON only, no markdown, exactly this shape:
 {{"words":[8 word objects],"story":{{"en":"...","cn":"..."}},"quote":{{"en":"...","zh":"..."}},"preview":{{"hook":"...","impact":"..."}}}}
@@ -651,6 +663,11 @@ def main():
         marked_en, en_count = build_clean_story_en(story_en, new_words)
         output["story"]["en"] = marked_en
         log(f"  story.en markers={en_count}")
+    story_cn = ((output.get("story") or {}).get("cn") or "")
+    if story_cn:
+        marked_cn, cn_count = build_clean_story_cn(story_cn, new_words)
+        output["story"]["cn"] = marked_cn
+        log(f"  story.cn markers={cn_count}")
     # Ensure each word's t field renders as two paragraphs
     for w in output["words"]:
         if w.get("d") == TODAY and w.get("t"):

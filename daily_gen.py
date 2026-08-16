@@ -261,11 +261,11 @@ FORBIDDEN_HOOK_PHRASES = [
 ]
 
 
-def hook_covers_words(hook, words, min_count=6):
+def hook_covers_words(hook, words, min_count=8):
     """True if the hook prose naturally contains at least min_count of today's words
-    (by English base/inflection or Chinese gloss). We do NOT force all 8 — requiring every
-    word appeared caused the model to tack on a messy trailing list; a clean flowing sentence
-    that covers most words is the goal."""
+    (by English base/inflection or Chinese gloss). We require ALL 8 today's words to be woven
+    into the flowing sentence (no trailing list — that is caught separately by validate_hook),
+    so every word shows up in the headline lead-in."""
     if not hook:
         return False
     text = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
@@ -281,6 +281,41 @@ def hook_covers_words(hook, words, min_count=6):
         if len(gloss) >= 2 and gloss in text:
             covered += 1
     return covered >= min_count
+
+
+def _hook_cover_count(result):
+    """How many of today's words appear in the hook prose (used to pick the best candidate)."""
+    if not result:
+        return -1
+    hook = (result.get("preview") or {}).get("hook") or ""
+    words = result.get("words") or []
+    text = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+    c = 0
+    for w in words:
+        base = (w.get("w") or "").strip()
+        if base and _inflection_pattern(base).search(text):
+            c += 1
+            continue
+        gloss = _clean_display(w.get("m"))
+        if len(gloss) >= 2 and gloss in text:
+            c += 1
+    return c
+
+
+def _strip_forbidden(hook):
+    """Fallback sanitizer: when even retries can't pass the quality gate, cut the cliché summary
+    (the forbidden canned phrase and everything after it up to the sentence end) so the deployed
+    hook at least has no '这些关键词串起今天…' style trailing list."""
+    if not hook:
+        return hook
+    positions = [hook.find(p) for p in FORBIDDEN_HOOK_PHRASES if p in hook]
+    worst = max(positions) if positions else -1
+    if worst >= 0:
+        end = re.search(r"[。！？]", hook[worst:])
+        hook = hook[:worst] + (hook[worst + end.end():] if end else "")
+    hook = re.sub(r"[：:]\s*$", "", hook)
+    hook = re.sub(r"[，,、]{2,}", "，", hook)
+    return hook.strip()
 
 
 SECOND_PART_KEYWORDS = ["对比词", "职场中", "职场版", "记忆", "联想", "同根词", "形近词", "反义词", "近义词", "顺口溜", "助记"]
@@ -335,7 +370,7 @@ def validate_core(result, min_cn=470, max_cn=560):
     return True
 
 
-def validate_hook(preview, words, min_len=140, max_len=320, min_words=6):
+def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
     """Quality gate for the hook: clean flowing sentence, no canned list, covers >= min_words."""
     if not preview:
         return False
@@ -384,7 +419,7 @@ def explain_quality(result):
     forbidden = [p for p in FORBIDDEN_HOOK_PHRASES if p in hook]
     if forbidden:
         log(f"  hook forbidden phrases: {forbidden}")
-    if not hook_covers_words(hook, words, min_count=6):
+    if not hook_covers_words(hook, words, min_count=8):
         log(f"  hook covers fewer than 6 of the 8 words")
     en = (result.get("story") or {}).get("en") or ""
     for name, text in (("hook", hook), ("story.en", en)):
@@ -558,7 +593,9 @@ def main():
     news_headlines = fetch_today_news()
 
     result = None
-    for attempt in range(4):
+    best = None          # best-effort candidate kept across retries (most words covered)
+    best_score = -1
+    for attempt in range(8):
         r = generate_content(recent_set, quote_history, news_headlines)
         if validate_quality(r):
             result = r
@@ -567,9 +604,19 @@ def main():
         else:
             log(f"Quality check FAILED on attempt {attempt+1}, regenerating...")
             explain_quality(r)
+            score = _hook_cover_count(r)
+            if score > best_score:
+                best_score = score
+                best = r
     if not result:
-        log("WARNING: quality not met after 4 retries, using last generation anyway")
-        result = generate_content(recent_set, quote_history, news_headlines)
+        log("WARNING: quality not met after 8 retries; deploying best-effort (forbidden stripped)")
+        if best:
+            hook = (best.get("preview") or {}).get("hook") or ""
+            best["preview"]["hook"] = _strip_forbidden(hook)
+            result = best
+        else:
+            log("ERROR: no generation produced at all")
+            sys.exit(1)
     if not result or not result.get("words"):
         log("ERROR: Failed to generate content")
         sys.exit(1)

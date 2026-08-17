@@ -1066,11 +1066,17 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
   en: 30-70 English chars. Plain-English definition, can include multiple senses joined by semicolons, and the typical context (e.g. "in medical/economic contexts")
 
+  defs: array of 2-3 sense objects, each {{"cn": "Chinese sense, 6-18 chars", "en": "English gloss, 20-50 chars", "pos": "v./n./adj."}}. Cover the word's DISTINCT senses (literal, figurative, common collocation) — do NOT just repeat m. The FIRST object's cn MUST equal or start with m. Example for "escalate": [{{"cn":"(冲突)升级","en":"to increase in intensity, esp. conflict","pos":"v."}},{{"cn":"逐步扩大","en":"to grow or expand step by step","pos":"v."}},{{"cn":"使(武器/冲突)升级","en":"to escalate weapons or a dispute","pos":"v."}}]
+
   col: 40-90 chars total. 3-4 common collocations separated by " · ", each ideally with Chinese gloss in parentheses, e.g. "cross a threshold 越过临界点 · pain threshold 痛感阈值 · threshold for action 行动门槛"
 
   ex: 60-130 English chars. ONE natural English sentence that uses the word (inflected ok), and reflects a real current news/economic event or plausible scenario
 
   exZh: 14-50 Chinese chars. Natural Chinese translation of the example
+
+  ex2: 60-130 English chars. A SECOND natural sentence using the word in a DIFFERENT context than ex.
+
+  ex2Zh: 14-50 Chinese chars. Chinese translation of ex2.
 
   t: 90-140 Chinese chars, in TWO paragraphs separated by a newline. Paragraph 1 (50-80 chars): tie the word to a SPECIFIC real current event (economy/news/workplace/politics/entertainment/sports), with names, numbers, and the word used in context. Paragraph 2 (40-60 chars): give a workplace/daily-life example sentence, OR contrast with a related word (e.g. antonym, near-synonym, noun/verb form), OR a memorable image/association to lock the word in memory. Both paragraphs required.
 
@@ -1144,7 +1150,7 @@ Output STRICT JSON only, no markdown, exactly this shape:
 
 """
 
-    return call_deepseek(prompt, max_tokens=6000)
+    return call_deepseek(prompt, max_tokens=8000)
 
 
 

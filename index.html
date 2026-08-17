@@ -599,7 +599,7 @@
   .splash .splash-title{position:absolute;top:14%;left:0;right:0;text-align:center;z-index:3;animation:pop .7s cubic-bezier(.3,1.35,.4,1) .6s both;}
   .splash .st-main{display:block;font-size:42px;font-weight:700;color:#fff;letter-spacing:3px;transform:rotate(-4deg);text-shadow:-2px -2px 0 #0C447C,2px -2px 0 #0C447C,-2px 2px 0 #0C447C,2px 2px 0 #0C447C,0 4px 0 rgba(12,68,124,.55);white-space:nowrap;}
   .splash .st-main em{font-style:normal;font-size:60px;color:#FB7299;}
-  .splash .splash-foot{position:absolute;left:0;right:0;bottom:calc(8% + env(safe-area-inset-bottom));text-align:center;z-index:3;font-size:21px;font-weight:800;letter-spacing:4px;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:pop .7s cubic-bezier(.3,1.35,.4,1) .6s both;}
+  .splash .st-sub{display:inline-block;position:relative;z-index:6;margin-top:20px;font-size:21px;font-weight:800;letter-spacing:4px;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);}
   @keyframes pop{from{transform:translateY(26px) scale(.82);opacity:0;}to{transform:translateY(0) scale(1);opacity:1;}}
   /* 冲刺三角 */
   .splash .tri{position:absolute;z-index:3;width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-bottom:20px solid rgba(255,255,255,.9);opacity:0;animation:triPop .6s ease 1.15s both;}
@@ -885,6 +885,7 @@
     <div class="line" style="left:78%;animation-delay:.9s;"></div>
     <div class="splash-title">
       <span class="st-main">一起冲 <em>IELTS</em>！</span>
+      <span class="st-sub">每天 8 个词 · 轻松掌握最新热点</span>
     </div>
     <div class="tri" style="right:22%;top:26%;"></div>
     <div class="tri" style="right:15%;top:34%;transform:scale(.8);"></div>
@@ -892,7 +893,6 @@
     <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
     <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
     <div class="splash-slogan">不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒——慢慢来，反而比较快。</div>
-    <div class="splash-foot">每天 8 个词 · 轻松掌握最新热点</div>
   </div>
 
   <!-- 左侧导航抽屉 -->

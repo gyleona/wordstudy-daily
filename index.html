@@ -614,12 +614,11 @@
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
   .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
-  /* 自测练习区：按钮与励志语图同行（图在右），说明文字保持原位 */
-  .review-cta{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;}
-  .quiz-slogan{max-width:300px;height:auto;display:block;}
+  /* 自测练习区：励志语图放在说明文字下方，按钮与说明保持原位 */
+  .quiz-slogan{display:block;max-width:340px;height:auto;margin:14px auto 0;}
   @media (max-width:768px){
     .splash .splash-hero{top:52%;}
-    .quiz-slogan{max-width:240px;}
+    .quiz-slogan{max-width:100%;}
   }
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}
@@ -1023,11 +1022,9 @@
       <div class="block">
         <div class="bhead"><span class="bnum n4">4</span><span class="bt">自测练习</span><span class="bsub b-blue">学没学会，测了才算</span></div>
         <div class="review">
-          <div class="review-cta">
-            <button class="startbtn" id="startQuiz">开始测试</button>
-            <img class="quiz-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
-          </div>
+          <button class="startbtn" id="startQuiz">开始测试</button>
           <p class="hint">试题来自「当日推送 + 收藏 + 标难」（随机 20–30 题），题型随机混测，答错的词自动滚动到下次再测。</p>
+          <img class="quiz-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
         </div>
       </div>
     </section>

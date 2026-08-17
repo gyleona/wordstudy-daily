@@ -613,8 +613,11 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 开屏：标题与超人之间的励志语（与副标题同字体，字号略小，渐入浮现） */
-  .splash .splash-slogan{position:absolute;left:0;right:0;top:34%;text-align:center;z-index:3;padding:0 32px;font-size:17px;font-weight:800;letter-spacing:1px;line-height:1.7;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
+  /* 开屏：标题与超人之间的励志语（手写艺术体 + B站粉蓝渐变，渐入浮现） */
+  .splash .splash-slogan{position:absolute;left:0;right:0;top:33%;text-align:center;z-index:3;padding:0 30px;font-family:"Xingkai SC","STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:20px;font-weight:700;letter-spacing:2px;line-height:1.7;background:linear-gradient(100deg,#FFD86B 0%,#FF9EC4 52%,#7FD8F5 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;filter:drop-shadow(0 2px 5px rgba(124,15,80,.35));animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
+  @media (max-width:768px){
+    .splash .splash-slogan{top:26%;font-size:18px;padding:0 22px;}
+  }
   @keyframes sloganIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}

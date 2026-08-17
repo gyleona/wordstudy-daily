@@ -1741,7 +1741,7 @@
     markStudied(w.w);
     collapseCalPopup(); // 打开单词详情时收起日历框，避免返回后悬浮
     wdetail.hidden=false;
-    document.getElementById('wdScroll').scrollTop=0;
+    const _wdSc = document.getElementById('wdScroll'); if(_wdSc) _wdSc.scrollTop=0;
   }
   function closeWordDetail(){ wdetail.hidden=true; }
   document.getElementById('wdClose').addEventListener('click', closeWordDetail);

@@ -1396,9 +1396,6 @@
   function saveRollover(){ localStorage.setItem('wstudy_rollover', JSON.stringify([...rolloverSet])); }
 
   let words = [];
-  // 分享模式：普通链接只显示最新一批（当天）单词，历史不暴露；
-  // 带 ?all=1 的链接显示全部累积单词（给本人用）。
-  const SHOW_ALL = new URLSearchParams(location.search).get('all') === '1';
   let currentView = 'today';
   let currentTab = 'all';
 
@@ -1453,9 +1450,9 @@
     const nw=document.getElementById('navWeakN'); if(nw) nw.textContent=(hardSet.size+rolloverSet.size);
   }
 
-  function renderBars(list, containerId){
+  function renderBars(list, containerId, emptyMsg){
     const el = document.getElementById(containerId);
-    if(!list.length){ el.innerHTML = '<div class="empty">这里还没有单词～<br>在词条里点「收藏 / 标难」就会自动出现在这里。</div>'; return; }
+    if(!list.length){ el.innerHTML = '<div class="empty">'+(emptyMsg||'这里还没有单词～<br>在词条里点「收藏 / 标难」就会自动出现在这里。')+'</div>'; return; }
     el.innerHTML = list.map(bar).join('');
     refreshMarks();
   }
@@ -1487,7 +1484,7 @@
     if(bankPage < 1) bankPage = 1;
     const start = (bankPage - 1) * BANK_PAGE_SIZE;
     const pageList = list.slice(start, start + BANK_PAGE_SIZE);
-    renderBars(pageList, 'grid2');
+    renderBars(pageList, 'grid2', '这里还没有单词～<br>打开「今日学习」点开任意词卡，它就会累计进来 📚');
     // 分页控件
     const pager = document.getElementById('pager');
     const pgInfo = document.getElementById('pgInfo');
@@ -1503,8 +1500,8 @@
       pgNext.disabled = bankPage >= pages;
     }
   }
-  function renderFav(){ renderBars([...words].filter(w=>favSet.has(w.w)), 'gridFav'); }
-  function renderHard(){ renderBars([...words].filter(w=>hardSet.has(w.w)), 'gridHard'); }
+  function renderFav(){ renderBars([...words].filter(w=>favSet.has(w.w)), 'gridFav', '点词条里的 ★ 收藏，这里就会累计出现～'); }
+  function renderHard(){ renderBars([...words].filter(w=>hardSet.has(w.w)), 'gridHard', '点词条里的 ⚑ 标难，这里就会累计出现～'); }
 
   // 今日推送顶部「新词预览」：列出今日新词 + 中英夹杂串联 + 初步影响
   function renderPreview(data){
@@ -1664,7 +1661,6 @@
   // 导出收藏词
   function exportFav(){
     if(!favSet.size){ toast('还没有收藏的词，点词条里的 ★ 收藏吧～'); return; }
-    const byW={}; words.forEach(w=> byW[w.w]=w);
     const lines=[...favSet].map(w=>{ const x=byW[w]; return x?`${x.w}  ${x.ph||''}  ${x.m||''}`:w; });
     const text=lines.join('\n');
     const done=()=> toast('已复制 '+favSet.size+' 个收藏词到剪贴板');
@@ -1779,14 +1775,7 @@
   // 渲染全部内容
   function init(data){
     try{
-    let raw = data.words || [];
-    if(!SHOW_ALL){
-      // 仅展示最新一批（当天生成）的单词，避免暴露历史累积
-      const dates = [...new Set(raw.map(w=>w.d).filter(Boolean))].sort();
-      const latest = dates.length ? dates[dates.length-1] : null;
-      raw = latest ? raw.filter(w=>w.d===latest) : raw;
-    }
-    words = raw;
+    words = data.words || [];
     byW = {}; words.forEach(w=> byW[w.w]=w);
     loadSR(); loadStreak(); updateStreak(); loadDashLog();
     renderDashboard(); renderRevEntry();

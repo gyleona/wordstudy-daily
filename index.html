@@ -298,8 +298,8 @@
   }
   .tab svg{width:13px;height:13px;}
   .tab.on{background:linear-gradient(120deg,var(--pink),var(--blue));color:#fff;border-color:transparent;}
-  .tab[data-f="politics"]{background:rgba(156,99,166,.1);color:#8E4A9C;border-color:rgba(156,99,166,.25);}
-  .tab[data-f="politics"].on{background:linear-gradient(120deg,#9C63A6,#7B3F8E);color:#fff;border-color:transparent;}
+  .tab[data-f="politics"]{background:var(--card);color:var(--sub);border-color:var(--line);}
+  .tab[data-f="politics"].on{background:linear-gradient(120deg,var(--pink),var(--blue));color:#fff;border-color:transparent;}
   .date-chips{display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
   .dchip{font-size:13px;padding:4px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);font-weight:600;cursor:pointer;transition:.18s;}
   .dchip.on{background:linear-gradient(120deg,var(--pink),var(--blue));color:#fff;border-color:transparent;}
@@ -313,9 +313,9 @@
   .cal-scrim.show{opacity:1;pointer-events:auto;}
   .cal-wrap{position:absolute;top:calc(100% + 8px);left:0;width:230px;max-width:calc(100vw - 32px);z-index:60;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:5px 6px 4px;box-shadow:var(--shadow-md);}
   .cal-wrap.collapsed{display:none;}
-  .cal-toggle{position:relative;z-index:62;display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:14px;font-weight:700;cursor:pointer;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04);}
-  .cal-toggle:active{transform:scale(.97);}
-  .cal-toggle svg{width:14px;height:14px;flex-shrink:0;fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:.15s;}
+  .cal-toggle{position:relative;z-index:62;display:inline-flex;align-items:center;gap:4px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:13px;font-weight:600;cursor:pointer;transition:.15s;}
+  .cal-toggle:active{transform:.97);}
+  .cal-toggle svg{width:13px;height:13px;flex-shrink:0;fill:none;stroke:var(--sub);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:.15s;}
   .cal-toggle.open{background:rgba(0,174,236,.08);border-color:var(--blue);color:var(--blue);}
   .cal-toggle.open svg{stroke:var(--blue);}
   .cal-top{display:flex;align-items:center;gap:2px;margin-bottom:3px;flex-wrap:nowrap;}

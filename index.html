@@ -667,6 +667,8 @@
   /* ===== 手机端阅读增强：正文字号提到主流阅读档位（16–18px） ===== */
   @media(max-width:768px){
     body{font-size:16px;}
+    /* 手机端：一排只显示一个单词卡，长词完整显示不截断 */
+    .grid{grid-template-columns:1fr;}
     /* 列表卡片 — 紧凑适配窄屏 */
     .wcard{padding:14px 12px 12px;}
     .wcard .top{gap:4px;margin-bottom:6px;flex-wrap:nowrap;min-width:0;}

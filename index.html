@@ -613,8 +613,8 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 开屏：超人下方的励志语（与底部副标题同字体，字号略小，渐入浮现） */
-  .splash .splash-slogan{position:absolute;left:0;right:0;bottom:calc(17% + env(safe-area-inset-bottom));text-align:center;z-index:3;padding:0 32px;font-size:17px;font-weight:800;letter-spacing:1px;line-height:1.7;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
+  /* 开屏：标题与超人之间的励志语（与副标题同字体，字号略小，渐入浮现） */
+  .splash .splash-slogan{position:absolute;left:0;right:0;top:34%;text-align:center;z-index:3;padding:0 32px;font-size:17px;font-weight:800;letter-spacing:1px;line-height:1.7;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
   @keyframes sloganIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}

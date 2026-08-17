@@ -599,7 +599,7 @@
   .splash .splash-title{position:absolute;top:14%;left:0;right:0;text-align:center;z-index:3;animation:pop .7s cubic-bezier(.3,1.35,.4,1) .6s both;}
   .splash .st-main{display:block;font-size:42px;font-weight:700;color:#fff;letter-spacing:3px;transform:rotate(-4deg);text-shadow:-2px -2px 0 #0C447C,2px -2px 0 #0C447C,-2px 2px 0 #0C447C,2px 2px 0 #0C447C,0 4px 0 rgba(12,68,124,.55);white-space:nowrap;}
   .splash .st-main em{font-style:normal;font-size:60px;color:#FB7299;}
-  .splash .st-sub{display:inline-block;position:relative;z-index:6;margin-top:20px;font-size:21px;font-weight:800;letter-spacing:4px;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);}
+  .splash .splash-foot{position:absolute;left:0;right:0;bottom:calc(8% + env(safe-area-inset-bottom));text-align:center;z-index:3;font-size:21px;font-weight:800;letter-spacing:4px;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:pop .7s cubic-bezier(.3,1.35,.4,1) .6s both;}
   @keyframes pop{from{transform:translateY(26px) scale(.82);opacity:0;}to{transform:translateY(0) scale(1);opacity:1;}}
   /* 冲刺三角 */
   .splash .tri{position:absolute;z-index:3;width:0;height:0;border-left:11px solid transparent;border-right:11px solid transparent;border-bottom:20px solid rgba(255,255,255,.9);opacity:0;animation:triPop .6s ease 1.15s both;}
@@ -613,12 +613,8 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 开屏底部励志语 */
-  .splash .splash-slogan{position:absolute;left:0;right:0;bottom:calc(12% + env(safe-area-inset-bottom));text-align:center;z-index:3;padding:0 28px;animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
-  .splash .ss-line{display:block;font-family:"STXingkai","华文行楷","KaiTi","楷体","Ma Shan Zheng",cursive;color:#fff;line-height:1.6;text-shadow:0 2px 10px rgba(12,68,124,.45);}
-  .splash .ss-l1{font-size:18px;font-weight:700;letter-spacing:2px;}
-  .splash .ss-l2{font-size:16px;font-weight:600;margin-top:4px;letter-spacing:1px;}
-  .splash .ss-l3{font-size:14px;font-weight:500;margin-top:4px;opacity:.9;letter-spacing:.5px;}
+  /* 开屏：超人下方的励志语（与底部副标题同字体，字号略小，渐入浮现） */
+  .splash .splash-slogan{position:absolute;left:0;right:0;bottom:calc(17% + env(safe-area-inset-bottom));text-align:center;z-index:3;padding:0 32px;font-size:17px;font-weight:800;letter-spacing:1px;line-height:1.7;color:#fff;-webkit-text-fill-color:#fff;text-shadow:0 2px 8px rgba(12,68,124,.55);animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
   @keyframes sloganIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}
@@ -889,18 +885,14 @@
     <div class="line" style="left:78%;animation-delay:.9s;"></div>
     <div class="splash-title">
       <span class="st-main">一起冲 <em>IELTS</em>！</span>
-      <span class="st-sub">每天 8 个词 · 轻松掌握最新热点</span>
     </div>
     <div class="tri" style="right:22%;top:26%;"></div>
     <div class="tri" style="right:15%;top:34%;transform:scale(.8);"></div>
     <div class="tri" style="right:9%;top:42%;transform:scale(.55);"></div>
     <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
     <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
-    <div class="splash-slogan">
-      <span class="ss-line ss-l1">原来不年轻了又怎样？</span>
-      <span class="ss-line ss-l2">每天学一点，日子就亮一点。</span>
-      <span class="ss-line ss-l3">把英语融进生活里，日拱一卒——慢慢来，反而比较快。</span>
-    </div>
+    <div class="splash-slogan">不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒——慢慢来，反而比较快。</div>
+    <div class="splash-foot">每天 8 个词 · 轻松掌握最新热点</div>
   </div>
 
   <!-- 左侧导航抽屉 -->

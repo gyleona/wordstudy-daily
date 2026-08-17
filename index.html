@@ -1400,6 +1400,8 @@
   let currentTab = 'all';
 
   function renderStoryEn(en){
+    // 去掉数据生成器误加的 CJK 引号 『』「」
+    en = en.replace(/[『「]/g, '').replace(/[』」]/g, '');
     return en.replace(/\[([^\]|]+)\|([^\]]+)\]/g, (m, disp, spk) =>
       `<span class="kw" data-w="${spk.replace(/"/g,'')}" data-disp="${disp.replace(/"/g,'')}">${disp}</span>`);
   }

@@ -1423,8 +1423,11 @@
   function renderStoryEn(en){
     // 去掉数据生成器误加的 CJK 引号 『』「」
     en = en.replace(/[『「]/g, '').replace(/[』」]/g, '');
-    return en.replace(/\[([^\]|]+)\|([^\]]+)\]/g, (m, disp, spk) =>
+    let html = en.replace(/\[([^\]|]+)\|([^\]]+)\]/g, (m, disp, spk) =>
       `<span class="kw" data-w="${spk.replace(/"/g,'')}" data-disp="${disp.replace(/"/g,'')}">${disp}</span>`);
+    // 防止两个单词紧挨着粘连（如 automate+procurement），在相邻 kw span 间插入空格
+    html = html.replace(/<\/span><span class="kw"/g, '</span> <span class="kw"');
+    return html;
   }
 
   // 今日推送用卡片（首屏，词少）：只做快速预览，深入内容收进详情

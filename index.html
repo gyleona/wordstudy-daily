@@ -509,7 +509,7 @@
   .card-hint .ch-tx b{color:var(--pink);font-weight:800;}
   .card-hint .ch-close{font-size:13px;font-weight:700;color:var(--blue);flex-shrink:0;cursor:pointer;padding:5px 9px;border-radius:var(--r-sm);background:#fff;}
 
-  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
+  .foot{display:flex;flex-direction:column;align-items:flex-start;gap:8px;text-align:left;color:var(--sub);font-size:13px;padding:24px 16px 0;}
 
   /* 可展开条形列表（词库 / 历史 / 收藏 / 标难） */
   .bars{padding:2px 0 8px;}
@@ -613,9 +613,8 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
-  /* 自测练习区：励志语图放在说明文字下方，按钮与说明保持原位 */
-  .quiz-slogan{display:block;max-width:340px;height:auto;margin:14px auto 0;}
+  /* 页脚励志语（手写体粉蓝交替图，与“单词研究所”左对齐） */
+  .quiz-slogan{display:block;max-width:340px;height:auto;margin:0;}
   @media (max-width:768px){
     .splash .splash-hero{top:52%;}
     .quiz-slogan{max-width:100%;}
@@ -1024,7 +1023,6 @@
         <div class="review">
           <button class="startbtn" id="startQuiz">开始测试</button>
           <p class="hint">试题来自「当日推送 + 收藏 + 标难」（随机 20–30 题），题型随机混测，答错的词自动滚动到下次再测。</p>
-          <img class="quiz-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
         </div>
       </div>
     </section>
@@ -1261,7 +1259,10 @@
       <div id="searchResult"></div>
     </section>
 
-    <div class="foot"><span>单词研究所 · 每天陪你持续精进</span></div>
+    <div class="foot">
+      <img class="quiz-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
+      <span>单词研究所 · 每天陪你持续精进</span>
+    </div>
     <div class="toast" id="toast"></div>
 
     <!-- 添加到主屏幕引导（一次性，手机浏览器可见） -->

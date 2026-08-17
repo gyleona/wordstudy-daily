@@ -216,7 +216,7 @@
   .tag.news{background:rgba(0,174,236,.14);color:#0090c4;}
   .tag.work{background:rgba(43,182,115,.14);color:#1F9558;}
   .tag.politics{background:rgba(156,99,166,.14);color:#8E4A9C;}
-  .phon{font-size:13px;color:var(--sub);flex-shrink:0;font-family:Georgia,serif;letter-spacing:.2px;}
+  .phon{font-size:15px;color:var(--sub);flex-shrink:0;font-family:Georgia,serif;letter-spacing:.2px;}
 
   .wordline{display:flex;align-items:center;gap:8px;margin-bottom:2px;}
   .wcard .word{
@@ -558,7 +558,7 @@
   .qnext.ghost{background:var(--bg);color:var(--sub);margin-top:10px;}
 
   /* —— 听音选词 / 拼写填空 新题型 —— */
-  .q-phon{font-size:14px;color:var(--sub);margin:-8px 0 14px;font-weight:600;}
+  .q-phon{font-size:16px;color:var(--sub);margin:-8px 0 14px;font-weight:600;}
   .q-listen{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:6px;}
   .q-speak{
     width:72px;height:72px;border:none;border-radius:50%;cursor:pointer;
@@ -644,7 +644,7 @@
   .wd-close{width:34px;height:34px;border:none;background:var(--bg);border-radius:50%;font-size:18px;line-height:1;color:var(--sub);cursor:pointer;flex-shrink:0;}
   .wd-scroll{overflow:auto;padding:6px 16px 6px;-webkit-overflow-scrolling:touch;}
   .wd-row{display:flex;align-items:center;gap:10px;padding:14px 0;background:rgba(0,174,236,.05);border-radius:var(--r-md);margin-bottom:18px;}
-  .wd-phon{font-size:15px;color:var(--ink);font-weight:600;font-family:Georgia,serif;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .wd-phon{font-size:17px;color:var(--ink);font-weight:600;font-family:Georgia,serif;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .wd-row .speaker{background:rgba(251,114,153,.14);color:var(--pink);}
   .wd-row .speaker.speaking{background:var(--pink);color:#fff;}
   .wd-block{margin-bottom:18px;}
@@ -652,6 +652,12 @@
   .wd-lab::before{content:"";width:3px;height:13px;border-radius:2px;background:linear-gradient(180deg,var(--pink),var(--blue));}
   .wd-zh{font-size:15px;font-weight:700;color:var(--ink);line-height:1.5;letter-spacing:.3px;}
   .wd-en{font-size:13px;color:var(--sub);margin-top:6px;line-height:1.6;font-style:italic;}
+  .wd-defs{list-style:none;margin:0;padding:0;}
+  .wd-def{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px;padding:9px 0;border-top:1px dashed var(--line);}
+  .wd-def:first-child{border-top:none;padding-top:2px;}
+  .wd-def-pos{font-size:11px;font-weight:800;color:#fff;background:var(--blue);border-radius:5px;padding:1px 6px;flex-shrink:0;}
+  .wd-def-cn{font-size:15px;font-weight:700;color:var(--ink);}
+  .wd-def-en{font-size:13px;color:var(--sub);font-style:italic;flex:1;min-width:120px;}
   .wd-col{display:flex;flex-wrap:wrap;gap:8px;}
   .wd-chip{font-size:13px;font-weight:700;color:#2b2f33;background:#fff;border:1.5px solid rgba(0,174,236,.35);border-radius:var(--r-sm);padding:8px 15px;transition:.15s;}
   .wd-chip:active{background:rgba(0,174,236,.1);border-color:var(--blue);transform:scale(.97);}
@@ -673,7 +679,7 @@
     .wcard{padding:14px 12px 12px;}
     .wcard .top{gap:4px;margin-bottom:6px;flex-wrap:nowrap;min-width:0;}
     .wcard .top .tag{flex-shrink:0;font-size:11px;padding:3px 7px;white-space:nowrap;}
-    .wcard .top .phon{font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
+    .wcard .top .phon{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
     .wcard .wordline{gap:5px;min-width:0;}
     .wcard .word{font-size:21px;line-height:1.2;word-break:break-word;overflow-wrap:anywhere;min-width:0;}
     .wcard .mean{font-size:17px;line-height:1.5;margin-top:4px;}
@@ -686,7 +692,7 @@
     .etym{font-size:14px;line-height:1.7;padding:11px 13px;}
     .wcard .tip{font-size:14px;line-height:1.65;}
     /* 详情弹层 */
-    .wd-phon{font-size:17px;}
+    .wd-phon{font-size:19px;}
     .wd-zh{font-size:16px;line-height:1.65;}
     .wd-en{font-size:16px;line-height:1.8;}
     .wd-root{font-size:16px;line-height:1.9;padding:13px 15px;}
@@ -804,7 +810,7 @@
   .rev-sheet{position:relative;width:100%;max-width:540px;background:#fff;border-radius:var(--r-xl) var(--r-xl) 0 0;max-height:90vh;display:flex;flex-direction:column;animation:slideUp .3s ease;padding:18px 18px calc(18px + env(safe-area-inset-bottom));box-shadow:var(--shadow-lg);}
   .rev-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
   .rev-word{font-size:30px;font-weight:800;text-align:center;margin-top:6px;color:var(--ink);}
-  .rev-phon{text-align:center;font-size:14px;color:var(--sub);margin:6px 0 18px;}
+  .rev-phon{text-align:center;font-size:16px;color:var(--sub);margin:6px 0 18px;}
   .rev-show{width:100%;padding:13px;border:1px solid var(--line);background:#fff;border-radius:var(--r-md);font-size:15px;font-weight:700;color:var(--ink);cursor:pointer;}
   .rev-detail{margin-top:14px;background:var(--bg);border-radius:var(--r-md);padding:14px;}
   .rev-m{font-size:16px;font-weight:600;color:#2b2f33;}
@@ -1287,6 +1293,7 @@
         <div class="wd-scroll">
           <div class="wd-row"><span class="wd-phon" id="wdPhon"></span><button class="speaker" id="wdSpk" aria-label="朗读"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M11 5L6 9H3v6h3l5 4V5z"/><path d="M15 8a5 5 0 0 1 0 8M18 5a9 9 0 0 1 0 14"/></svg></button></div>
           <div class="wd-block"><div class="wd-lab">释义</div><div class="wd-zh" id="wdZh"></div><div class="wd-en" id="wdEn"></div></div>
+          <div class="wd-block" id="wdDefsBlock" style="display:none"><div class="wd-lab">更多义项</div><ul class="wd-defs" id="wdDefs"></ul></div>
           <div class="wd-block" id="wdExBlock"><div class="wd-lab">例句</div><div id="wdEx"></div></div>
           <div class="wd-block" id="wdColBlock"><div class="wd-lab">常见搭配</div><div class="wd-col" id="wdCol"></div></div>
           <div class="wd-block" id="wdRootBlock"><div class="wd-lab">词根词源</div><div class="wd-root" id="wdRoot"></div></div>
@@ -1711,6 +1718,14 @@
     document.getElementById('wdSpk').dataset.spk=w.w;
     document.getElementById('wdZh').textContent=w.m||'';
     const en=document.getElementById('wdEn'); en.textContent=w.en||''; en.style.display=w.en?'block':'none';
+    const defsEl=document.getElementById('wdDefs'); defsEl.innerHTML='';
+    const defs=Array.isArray(w.defs)?w.defs:[];
+    if(defs.length){
+      defs.forEach(d=>{ const li=document.createElement('li'); li.className='wd-def';
+        li.innerHTML=`<span class="wd-def-pos">${d.pos||''}</span><span class="wd-def-cn">${d.cn||''}</span><span class="wd-def-en">${d.en||''}</span>`;
+        defsEl.appendChild(li); });
+      document.getElementById('wdDefsBlock').style.display='block';
+    } else { document.getElementById('wdDefsBlock').style.display='none'; }
     const exWrap=document.getElementById('wdEx'); exWrap.innerHTML='';
     const exs=[]; if(w.ex) exs.push([w.ex,w.exZh]); if(w.ex2) exs.push([w.ex2,w.ex2Zh]);
     exs.forEach(([e,z])=>{ const d=document.createElement('div'); d.className='example'; d.innerHTML=`<span class="el">例</span>${e}<span class="zh">${z||''}</span>`; exWrap.appendChild(d); });

@@ -667,10 +667,18 @@
   /* ===== 手机端阅读增强：正文字号提到主流阅读档位（16–18px） ===== */
   @media(max-width:768px){
     body{font-size:16px;}
-    /* 列表卡片 */
-    .wcard{padding:18px 16px;}
-    .wcard .word{font-size:27px;}
-    .wcard .mean{font-size:16px;line-height:1.65;}
+    /* 列表卡片 — 紧凑适配窄屏 */
+    .wcard{padding:14px 12px 12px;}
+    .wcard .top{gap:4px;margin-bottom:6px;flex-wrap:nowrap;min-width:0;}
+    .wcard .top .tag{flex-shrink:0;font-size:11px;padding:3px 7px;white-space:nowrap;}
+    .wcard .top .phon{font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;}
+    .wcard .wordline{gap:5px;min-width:0;}
+    .wcard .word{font-size:21px;line-height:1.2;word-break:break-word;overflow-wrap:anywhere;min-width:0;}
+    .wcard .mean{font-size:13px;line-height:1.5;margin-top:4px;}
+    .wcard .speaker{width:30px;height:30px;flex-shrink:0;}
+    .wcard .speaker svg{width:13px;height:13px;}
+    .wcard .acts{gap:6px;padding-top:8px;}
+    .wcard .act{height:28px;font-size:11px;padding:0 10px;}
     .example{font-size:16px;line-height:1.75;margin-top:14px;}
     .example .zh{font-size:15px;line-height:1.75;}
     .etym{font-size:14px;line-height:1.7;padding:11px 13px;}
@@ -704,12 +712,12 @@
     .block .bt{font-size:18px;}                    /* 二级标题：卡片/计划子标题 */
     .rev-title{font-size:17px;}                    /* 二级标题：复习子标题 */
     .mh-main{font-size:20px;}                      /* 头条主标题（一级半） */
-    /* 标签 / 筛选 */
-    .tag{font-size:14px;padding:5px 12px;}
-    .tab{font-size:14px;padding:6px 15px;}
-    .dchip{font-size:14px;padding:5px 13px;}
-    .filter-label{font-size:15px;}
-    .cal-toggle{font-size:15px;padding:8px 15px;}
+    /* 标签 / 筛选 — 紧凑适配 */
+    .tag{font-size:12px;padding:4px 9px;}
+    .tab{font-size:13px;padding:5px 12px;}
+    .dchip{font-size:13px;padding:4px 11px;}
+    .filter-label{font-size:14px;}
+    .cal-toggle{font-size:13px;padding:5px 11px;}
     /* 日历在手机端改为底部弹出面板（不再悬浮小下拉） */
     .cal-host{position:static;}
     .cal-scrim{z-index:999;}

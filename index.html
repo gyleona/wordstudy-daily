@@ -613,12 +613,12 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 底部励志语（手写体图片，粉蓝交替） */
-  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;display:flex;flex-direction:column;align-items:center;gap:6px;}
-  .foot-slogan{max-width:360px;height:auto;display:block;}
+  /* 自测练习区励志语（手写体图片，粉蓝交替） */
+  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
+  .quiz-slogan{display:block;max-width:420px;height:auto;margin:14px auto 6px;}
   @media (max-width:768px){
     .splash .splash-hero{top:52%;}
-    .foot-slogan{max-width:100%;max-height:110px;}
+    .quiz-slogan{max-width:100%;max-height:130px;}
   }
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}
@@ -1023,6 +1023,7 @@
         <div class="bhead"><span class="bnum n4">4</span><span class="bt">自测练习</span><span class="bsub b-blue">学没学会，测了才算</span></div>
         <div class="review">
           <button class="startbtn" id="startQuiz">开始测试</button>
+          <img class="quiz-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
           <p class="hint">试题来自「当日推送 + 收藏 + 标难」（随机 20–30 题），题型随机混测，答错的词自动滚动到下次再测。</p>
         </div>
       </div>
@@ -1260,10 +1261,7 @@
       <div id="searchResult"></div>
     </section>
 
-    <div class="foot">
-      <img class="foot-slogan" src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
-      <span>单词研究所 · 每天陪你持续精进</span>
-    </div>
+    <div class="foot"><span>单词研究所 · 每天陪你持续精进</span></div>
     <div class="toast" id="toast"></div>
 
     <!-- 添加到主屏幕引导（一次性，手机浏览器可见） -->

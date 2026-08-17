@@ -116,6 +116,10 @@
     .scrim{display:none !important;}
     .main{margin-left:230px;}
   }
+  /* 手机端：侧边栏打开时隐藏筛选栏，防止高z元素穿透浮在抽屉上 */
+  @media(max-width:859px){
+    .sidebar.show ~ .main .filter-bar{ visibility:hidden; pointer-events:none; }
+  }
 
   .view{display:none;}
   .view.on{display:block;animation:fade .3s ease;}
@@ -313,7 +317,7 @@
   .cal-scrim.show{opacity:1;pointer-events:auto;}
   .cal-wrap{position:absolute;top:calc(100% + 8px);left:0;width:230px;max-width:calc(100vw - 32px);z-index:60;background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:5px 6px 4px;box-shadow:var(--shadow-md);}
   .cal-wrap.collapsed{display:none;}
-  .cal-toggle{position:relative;z-index:62;display:inline-flex;align-items:center;gap:4px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:13px;font-weight:600;cursor:pointer;transition:.15s;}
+  .cal-toggle{position:relative;display:inline-flex;align-items:center;gap:4px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:13px;font-weight:600;cursor:pointer;transition:.15s;}
   .cal-toggle:active{transform:.97);}
   .cal-toggle svg{width:13px;height:13px;flex-shrink:0;fill:none;stroke:var(--sub);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:.15s;}
   .cal-toggle.open{background:rgba(0,174,236,.08);border-color:var(--blue);color:var(--blue);}

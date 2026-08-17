@@ -509,7 +509,7 @@
   .card-hint .ch-tx b{color:var(--pink);font-weight:800;}
   .card-hint .ch-close{font-size:13px;font-weight:700;color:var(--blue);flex-shrink:0;cursor:pointer;padding:5px 9px;border-radius:var(--r-sm);background:#fff;}
 
-  .foot{display:flex;flex-direction:column;align-items:flex-start;gap:8px;text-align:left;color:var(--sub);font-size:13px;padding:24px 16px 0;}
+  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
 
   /* 可展开条形列表（词库 / 历史 / 收藏 / 标难） */
   .bars{padding:2px 0 8px;}
@@ -614,7 +614,7 @@
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
   /* 页脚励志语（手写体粉蓝交替图，与“单词研究所”左对齐） */
-  .quiz-slogan{display:block;max-width:340px;height:auto;margin:0;}
+  .quiz-slogan{display:block;max-width:340px;height:auto;margin:0 auto;}
   @media (max-width:768px){
     .splash .splash-hero{top:52%;}
     .quiz-slogan{max-width:100%;}

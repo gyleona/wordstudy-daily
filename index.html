@@ -613,12 +613,13 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 开屏：标题与超人之间的励志语（手写体 + 单色暖金，渐入浮现） */
-  .splash .splash-slogan{position:absolute;left:0;right:0;top:31%;text-align:center;z-index:3;padding:0 28px;font-family:"Xingkai SC","STXingkai","华文行楷","STKaiti","KaiTi","楷体","Ma Shan Zheng",cursive;font-size:21px;font-weight:700;letter-spacing:1px;line-height:1.85;color:#FFE6B0;-webkit-text-fill-color:#FFE6B0;text-shadow:0 2px 7px rgba(120,15,75,.45);animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
-  .splash .splash-slogan span{display:block;}
+  /* 开屏：标题与超人之间的励志语（手写体图片，白色，渐入浮现） */
+  .splash .splash-slogan{position:absolute;left:0;right:0;top:36%;text-align:center;z-index:3;padding:0 28px;animation:sloganIn .8s cubic-bezier(.2,.8,.2,1) 1.6s both;}
+  .splash .splash-slogan img{width:auto;height:auto;max-width:100%;max-height:220px;display:inline-block;}
   @media (max-width:768px){
     .splash .splash-hero{top:56%;}
-    .splash .splash-slogan{top:23%;font-size:16px;line-height:1.7;padding:0 20px;}
+    .splash .splash-slogan{top:28%;padding:0 16px;}
+    .splash .splash-slogan img{max-height:180px;}
   }
   @keyframes sloganIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
   @keyframes spin{to{transform:rotate(360deg);}}
@@ -897,12 +898,7 @@
     <div class="tri" style="right:9%;top:42%;transform:scale(.55);"></div>
     <button class="splash-skip" id="splashSkip">跳过 › <span id="splashCount">10</span>s</button>
     <div class="splash-hero"><img src="xiaofeiyang_superhero_transparent.png" alt="小肥羊超人"></div>
-    <div class="splash-slogan">
-      <span>不年轻了又怎样？</span>
-      <span>每天学一点，日子就亮一点。</span>
-      <span>把英语融进生活里，日拱一卒。</span>
-      <span>慢慢来，反而比较快。</span>
-    </div>
+    <div class="splash-slogan"><img src="splash-slogan.png" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。"></div>
   </div>
 
   <!-- 左侧导航抽屉 -->

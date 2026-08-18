@@ -300,7 +300,7 @@
   .tab[data-f="politics"]{background:var(--card);color:var(--sub);border-color:var(--line);}
   .tab[data-f="politics"].on{background:linear-gradient(120deg,var(--pink),var(--blue));color:#fff;border-color:transparent;}
   .date-chips{display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
-  .dchip{font-size:15px;padding:4px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);font-weight:600;cursor:pointer;transition:.18s;}
+  .dchip{font-size:13px;padding:4px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--sub);font-weight:600;cursor:pointer;transition:.18s;}
   .dchip.on{background:linear-gradient(120deg,var(--pink),var(--blue));color:#fff;border-color:transparent;}
   .dchip:active,.tab:active{transform:scale(.95);}
 
@@ -479,11 +479,13 @@
   .story{padding:14px 16px;}
   .story .en{font-size:15px;line-height:1.85;color:#2b2f33;}
   .story .en .kw{color:var(--pink);font-weight:800;cursor:pointer;border-bottom:1px dashed var(--pink);}
+  .story .en .kw.speaking, .story .zh .kw.speaking{background:rgba(251,114,153,.18);border-radius:3px;box-shadow:0 0 0 2px rgba(251,114,153,.35);}
   .story .zh{margin-top:12px;font-size:14px;line-height:1.8;color:var(--sub);display:none;}
   .story.show-zh .zh{display:block;}
   .story .zh .kw{color:var(--pink);font-weight:800;cursor:pointer;border-bottom:1px dashed var(--pink);}
   .zh-toggle{font-size:13px;font-weight:700;color:var(--pink);background:rgba(251,114,153,.1);border:1px solid rgba(251,114,153,.3);border-radius:999px;padding:4px 12px;cursor:pointer;transition:transform .12s;}
   .zh-toggle:active{transform:scale(.94);}
+  @keyframes kwTipIn{from{opacity:0;margin-top:4px}to{opacity:1;margin-top:0}}
 
   /* 今日新词预览 */
   .preview{position:relative;overflow:hidden;padding:14px 16px;}
@@ -497,6 +499,8 @@
   .pv-tip{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--sub);background:rgba(251,114,153,.06);border:1px dashed rgba(251,114,153,.35);border-radius:var(--r-sm);padding:6px 10px;margin-bottom:9px;}
   .pv-hook{font-size:15px;line-height:1.75;color:#2b2f33;margin-bottom:11px;}
   .pv-hook .kw{color:var(--pink);font-weight:800;cursor:pointer;border-bottom:1px dashed var(--pink);}
+  .pv-hook .kw.speaking, .pv-impact .kw.speaking{background:rgba(251,114,153,.18);border-radius:3px;box-shadow:0 0 0 2px rgba(251,114,153,.35);}
+  .kw-cn-tip{position:fixed;background:#fff;color:#2b2f33;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:8px;padding:5px 11px;box-shadow:0 4px 16px rgba(0,0,0,.12);white-space:nowrap;z-index:999;pointer-events:none;animation:kwTipIn .18s ease;}
   .pv-impact{display:flex;gap:8px;align-items:flex-start;font-size:13px;line-height:1.65;color:#5a5a5a;background:rgba(0,174,236,.07);border-radius:var(--r-sm);padding:9px 11px;}
   #pvImpact{font-weight:700;font-size:14px;line-height:1.7;background:linear-gradient(120deg,#FB7299,#00AEEC);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
   #pvImpact .kw{-webkit-text-fill-color:var(--pink);color:var(--pink);font-weight:800;cursor:pointer;border-bottom:1px dashed var(--pink);}
@@ -509,7 +513,8 @@
   .card-hint .ch-tx b{color:var(--pink);font-weight:800;}
   .card-hint .ch-close{font-size:13px;font-weight:700;color:var(--blue);flex-shrink:0;cursor:pointer;padding:5px 9px;border-radius:var(--r-sm);background:#fff;}
 
-  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px 0;}
+  .foot{text-align:center;color:var(--sub);font-size:13px;padding:24px 16px;margin-top:28px;position:relative;}
+.foot::before{content:"";position:absolute;top:0;left:16px;right:16px;height:2px;border-radius:2px;background:linear-gradient(to right,var(--pink),var(--blue));}
 
   /* 可展开条形列表（词库 / 历史 / 收藏 / 标难） */
   .bars{padding:2px 0 8px;}
@@ -982,7 +987,7 @@
         <div class="bhead"><span class="bnum n1">1</span><span class="bt">新词快闪</span><span class="bsub b-pink">先混个眼熟</span></div>
         <div class="preview" id="preview">
         <div class="pv-words" id="pvWords"></div>
-        <div class="pv-tip" id="pvTip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex:none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z"/></svg><span>点击下方彩色中文词，可切换显示对应英文并朗读</span></div>
+        <div class="pv-tip" id="pvTip"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex:none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z"/></svg><span>点击显示中文并朗读</span></div>
         <div class="pv-hook" id="pvHook"></div>
         <div class="pv-impact"><span id="pvImpact"></span></div>
       </div>
@@ -1887,24 +1892,13 @@
   function speak(txt, btn){
     // 即时视觉反馈：点了立刻亮起，避免用户以为没点中
     if(btn){
-      document.querySelectorAll('.speaker.speaking').forEach(b=>b.classList.remove('speaking'));
+      document.querySelectorAll('.speaker.speaking, .q-speak.speaking, .kw.speaking').forEach(b=>b.classList.remove('speaking'));
       btn.classList.add('speaking');
     }
-    // 短文本（单词/短语 < 100 字符）优先用 HTML5 audio + 有道词典 TTS
-    // 优势：页面加载时已预下载音频，点击瞬间 play() 秒出，不受 Chrome TTS 引擎启动延迟影响
+    // 短文本（单词/短语 < 100 字符）优先用浏览器原生 Web Speech TTS：
+    // 离线可用、发音永远准确，且不依赖外部音频文件（有道 dictvoice 接口当前返回空音频）。
     if(txt.length < 100){
-      let audio = _audioCache[txt];
-      if(!audio){
-        audio = new Audio(_audioUrl(txt));
-        audio.preload = 'auto';
-        _audioCache[txt] = audio;
-      }
-      try{ audio.pause(); }catch(_){}
-      audio.currentTime = 0;
-      audio.onended = ()=>{ if(btn) btn.classList.remove('speaking'); };
-      audio.onerror = ()=>{ _speakWeb(txt, btn); };
-      const p = audio.play();
-      if(p && p.catch) p.catch(()=>{ _speakWeb(txt, btn); });
+      speakWord(txt, btn);
       return;
     }
     // 长文本（故事/例句段落）用 Web Speech API
@@ -1913,7 +1907,7 @@
 
   // 预加载今日所有单词的音频（页面加载时自动后台下载，点喇叭秒出）
   function preloadAudio(){
-    if(!window.words) return;
+    if(!words.length) return;
     words.forEach(w=>{
       if(w.w && !_audioCache[w.w]){
         const a = new Audio(_audioUrl(w.w));
@@ -1956,7 +1950,7 @@
   // 单词发音（测试/详情通用）：优先用浏览器原生 TTS（离线可用、发音永远准确），不可用时回退有道音频
   function speakWord(word, btn){
     if(btn){
-      document.querySelectorAll('.q-speak.speaking, .speaker.speaking').forEach(b=>b.classList.remove('speaking'));
+      document.querySelectorAll('.q-speak.speaking, .speaker.speaking, .kw.speaking').forEach(b=>b.classList.remove('speaking'));
       btn.classList.add('speaking');
     }
     const clear = ()=>{ if(btn) btn.classList.remove('speaking'); };
@@ -2011,19 +2005,46 @@
     else if(b.dataset.spk === 'quote'){ speak(document.getElementById('quoteEn').textContent, b); }
     else { speak(b.dataset.spk, b); }
   });
-  document.getElementById('storyEn').addEventListener('click', e=>{
-    const k = e.target.closest('.kw'); if(k){ speak(k.dataset.w); }
-  });
-  document.getElementById('storyCn').addEventListener('click', e=>{
-    const k = e.target.closest('.kw'); if(k){ speak(k.dataset.w); }
-  });
-  document.getElementById('pvHook').addEventListener('click', e=>{
+  // 热点串讲：点击关键词 → 发音 + 自动展开中文译文
+  document.querySelector('.story')?.addEventListener('click', e=>{
     const k = e.target.closest('.kw'); if(!k) return;
-    const w = k.dataset.w, disp = k.dataset.disp;
-    // 当前显示中文 → 点击切换为英文并朗读；再点切回中文
-    if(k.textContent === disp && disp !== w){ k.textContent = w; speak(w); }
-    else { k.textContent = disp; }
+    const w = k.dataset.w; if(!w) return;
+    // 发音（原生 TTS 为主，带点击高亮反馈）
+    speak(w, k);
+    // 自动展开中文
+    const storyEl = k.closest('.story');
+    if(storyEl && !storyEl.classList.contains('show-zh')){
+      storyEl.classList.add('show-zh');
+      const tc = document.getElementById('toggleCn');
+      if(tc) tc.textContent = '隐藏中文';
+    }
   });
+  // 新词快闪预览：点击关键词 → 朗读英文 + 在词上方弹出中文释义气泡
+  document.getElementById('preview').addEventListener('click', e=>{
+    const k = e.target.closest('.kw'); if(!k) return;
+    const w = k.dataset.w; if(!w) return;
+    speak(w, k);
+    const word = words.find(o=>o.w===w);
+    showKwTip(k, (word && word.m) || w);
+  });
+  // 预览区点击词：在词上方弹中文释义气泡，3 秒后自动消失
+  let _kwTipTimer;
+  function showKwTip(k, cn){
+    document.querySelectorAll('.kw-cn-tip').forEach(t=>t.remove());
+    clearTimeout(_kwTipTimer);
+    const tip = document.createElement('span');
+    tip.className = 'kw-cn-tip';
+    tip.textContent = cn;
+    document.body.appendChild(tip);
+    const rk = k.getBoundingClientRect();
+    const tw = Math.min(Math.max(rk.width + 80, 140), 220);
+    let left = rk.left + rk.width/2;
+    left = Math.max(tw/2 + 8, Math.min(left, window.innerWidth - tw/2 - 8));
+    tip.style.left = left + 'px';
+    tip.style.top = Math.max(rk.top - 36, 8) + 'px';
+    tip.style.maxWidth = tw + 'px';
+    _kwTipTimer = setTimeout(()=>tip.remove(), 3000);
+  }
   // 今日热点串讲：中文释义默认隐藏，点「显示中文」才展开（绑定一次）
   const toggleCn = document.getElementById('toggleCn');
   const storyEl = document.querySelector('.story');

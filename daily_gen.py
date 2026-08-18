@@ -2600,6 +2600,18 @@ def _strip_forbidden(hook):
 
     hook = re.sub(r"[，,、]{2,}", "，", hook)
 
+    # 兜底：若裁剪后 hook 变成半截句（不以句号/叹号/问号/省略号收尾），
+    # 裁掉最后一个终止标点之后的内容，保证上线文案永远是一个完整句。
+    plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+    if plain and not re.search(r'[。！？…][」』”’）)]*\s*$', plain):
+        raw_ends = [i for i, ch in enumerate(hook) if ch in "。！？…"]
+        if raw_ends:
+            hook = hook[: raw_ends[-1] + 1]
+        else:
+            hook = re.sub(r"[——\-—\s]*$", "", hook)
+
+    return hook.strip()
+
 
 
 
@@ -3127,6 +3139,12 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
     hook_plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+
+    # 完整句校验：hook 必须以句号/叹号/问号/省略号等终止标点收尾（允许带闭合引号/括号）。
+    # 防止 AI 输出半截句（如 "……今天的头条，正是" 无下文）被当作合格内容上线——
+    # 残缺句会让前端文案看起来被截断，必须在这里拦截并触发重试。
+    if not re.search(r'[。！？…][」』”’）)]*\s*$', hook_plain):
+        return False
 
 
 

@@ -613,11 +613,8 @@
   .splash .splash-hero img{width:min(76%,360px);display:block;filter:drop-shadow(0 14px 30px rgba(0,60,120,.35));animation:riseHero 1.3s cubic-bezier(.22,.9,.35,1) both,floaty 2.6s ease-in-out 1.5s infinite alternate;clip-path:polygon(0 0,100% 0,100% 95%,0 95%);}
   @keyframes riseHero{from{transform:translate(-70%, 45%) rotate(-28deg) scale(.4); opacity:0;}40%{opacity:1;}to{transform:translate(0,0) rotate(0deg) scale(1); opacity:1;}}
   @keyframes floaty{from{transform:translateY(0) scale(1);}to{transform:translateY(-12px) scale(1.015);}}
-  /* 页脚励志语（手写体粉蓝交替图，与“单词研究所”左对齐） */
-  .quiz-slogan{display:block;max-width:340px;height:auto;margin:0 auto;}
   @media (max-width:768px){
     .splash .splash-hero{top:52%;}
-    .quiz-slogan{max-width:100%;}
   }
   @keyframes spin{to{transform:rotate(360deg);}}
   .q-result{font-size:18px;font-weight:800;text-align:center;margin:8px 0 14px;}
@@ -1260,8 +1257,11 @@
     </section>
 
     <div class="foot">
-      <img class="quiz-slogan" src="splash-slogan.png?v=5" alt="不年轻了又怎样？每天学一点，日子就亮一点。把英语融进生活里，日拱一卒。慢慢来，反而比较快。">
-      <span>单词研究所 · 每天陪你持续精进</span>
+      不年轻了又怎样？<br>
+      每天学一点，日子就亮一点。<br>
+      把英语融进生活里，日拱一卒。<br>
+      慢慢来，反而比较快。<br>
+      单词研究所 · 每天陪你持续精进
     </div>
     <div class="toast" id="toast"></div>
 

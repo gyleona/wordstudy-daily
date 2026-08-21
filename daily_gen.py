@@ -1374,6 +1374,43 @@ def fetch_remote_json(client, key):
 
 
 
+# ===== 内置真实词池（财经/职场/新闻为主，IELTS C1）=====
+# 仅在“去重后今日词不足 8 个”时，取未出现过的词补足到 8。
+# 运行期会被 _hist_set / _seen 双重过滤，保证绝不和历史或当日重复。
+FALLBACK_WORDS = [
+  {"w":"allocate","ph":"/ˈæləkeɪt/","m":"分配；配给（资源、资金）","c":"econ","ex":"The fund allocates capital to green-energy startups.","exZh":"该基金把资金分配给绿色能源初创企业。","t":"钱怎么分，基金配置时天天说。","root":"al-(to, 朝向) + loc(place, 放置) + -ate(动词) → 放到指定位置 → 分配","pos":"v.","en":"to distribute or assign for a particular purpose","col":"allocate resources/funds · allocate shares · allocate time"},
+  {"w":"dividend","ph":"/ˈdɪvɪdend/","m":"股息；红利","c":"econ","ex":"The company raised its annual dividend by 10%.","exZh":"公司将年度股息提高了10%。","t":"炒股的人最关心年底分多少红。","root":"di-(apart, 分开) + vid(divide, 分) + -end(名词) → 分掉的部分","pos":"n.","en":"a payment made by a company to its shareholders","col":"pay a dividend · dividend yield · declare a dividend"},
+  {"w":"commodity","ph":"/kəˈmɒdəti/","m":"大宗商品；原料","c":"econ","ex":"Oil is the most traded global commodity.","exZh":"石油是交易最活跃的全球大宗商品。","t":"新闻里说的大宗商品就是这个。","root":"commod(方便/适用) + -ity → 可交易之物","pos":"n.","en":"a raw material or primary product traded in bulk","col":"commodity prices · commodity market · a key commodity"},
+  {"w":"subsidy","ph":"/ˈsʌbsədi/","m":"补贴；津贴","c":"econ","ex":"Farmers received a government subsidy during the drought.","exZh":"旱灾期间农民获得了政府补贴。","t":"政府给的钱，新闻里常提新能源补贴。","root":"sub-(under) + sid(sit, 坐) + -y → 在底下支撑","pos":"n.","en":"financial assistance granted by the government","col":"government subsidy · remove subsidies · agricultural subsidy"},
+  {"w":"procurement","ph":"/prəˈkjʊəmənt/","m":"采购；获取","c":"work","ex":"The procurement team negotiated better supplier terms.","exZh":"采购团队谈下了更优的供应商条款。","t":"公司买东西的流程就叫 procurement。","root":"pro-(forward) + cure(get, 获取) + -ment → 取得","pos":"n.","en":"the process of obtaining goods or services","col":"public procurement · procurement process · procurement cost"},
+  {"w":"benchmark","ph":"/ˈbentʃmɑːk/","m":"基准；参照标准","c":"econ","ex":"Inflation stayed above the 2% benchmark.","exZh":"通胀率仍高于2%的基准。","t":"衡量好坏的标尺，财报里常见。","root":"bench(长凳) + mark(标记) → 基准标记","pos":"n.","en":"a standard used for comparison","col":"benchmark rate · set a benchmark · benchmark index"},
+  {"w":"overhead","ph":"/ˈəʊvəhed/","m":"间接成本；日常开支","c":"work","ex":"The startup cut overhead to stay alive.","exZh":"这家初创公司削减开支以求生存。","t":"公司不为赚钱直接产生的花销。","root":"over-(above) + head(顶) → 头顶上的常驻成本","pos":"n.","en":"ongoing business costs not tied to production","col":"overhead costs · reduce overhead · high overhead"},
+  {"w":"merger","ph":"/ˈmɜːdʒə/","m":"合并；兼并","c":"econ","ex":"The merger created a telecom giant.","exZh":"这次合并造就了一家电信巨头。","t":"两家公司合一家，财经头条常客。","root":"merge(合并) + -er(名词) → 合并事件","pos":"n.","en":"the combination of two companies into one","col":"a merger deal · approve a merger · cross-border merger"},
+  {"w":"layoff","ph":"/ˈleɪɒf/","m":"裁员；解雇","c":"work","ex":"The firm announced 200 layoffs this quarter.","exZh":"公司本季度宣布裁员200人。","t":"经济不好时公司会说 layoff。","root":"lay(放) + off(离开) → 让离开岗位","pos":"n.","en":"the dismissal of employees for economic reasons","col":"mass layoffs · avoid layoffs · announce layoffs"},
+  {"w":"onboarding","ph":"/ˈɒnbɔːdɪŋ/","m":"入职；新人培训","c":"work","ex":"Onboarding for new hires takes two weeks.","exZh":"新员工的入职培训要两周。","t":"新人进公司那套流程。","root":"on-(上) + board(入职) + -ing → 上船","pos":"n.","en":"the process of integrating a new employee","col":"employee onboarding · onboarding process"},
+  {"w":"workflow","ph":"/ˈwɜːkfləʊ/","m":"工作流；业务流程","c":"work","ex":"We automated the approval workflow.","exZh":"我们把审批工作流自动化了。","t":"活儿怎么一步步走，就是 workflow。","root":"work(工作) + flow(流) → 工作流","pos":"n.","en":"the sequence of processes in a work activity","col":"streamline workflow · workflow automation"},
+  {"w":"backlog","ph":"/ˈbæklɒɡ/","m":"积压；未完成任务","c":"work","ex":"Support cleared a huge ticket backlog.","exZh":"客服清理了大量积压工单。","t":"堆着没做完的活儿。","root":"back(后) + log(堆积) → 堆积在后","pos":"n.","en":"an accumulation of uncompleted work","col":"clear the backlog · a backlog of orders"},
+  {"w":"freelance","ph":"/ˈfriːlɑːns/","m":"自由职业（者）","c":"work","ex":"She works freelance as a UX designer.","exZh":"她做自由职业的 UX 设计师。","t":"不绑定一家公司的打工人。","root":"free(自由) + lance(长矛, 自由佣兵) → 自由长矛客","pos":"adj./n.","en":"self-employed, not committed to one employer","col":"freelance work · go freelance"},
+  {"w":"inflationary","ph":"/ɪnˈfleɪʃənri/","m":"通胀性的；引起通胀的","c":"econ","ex":"Inflationary pressure is building in the economy.","exZh":"经济中的通胀压力正在积聚。","t":"东西越来越贵的那股劲儿。","root":"inflate(膨胀) + -ory(形容词) → 通胀性的","pos":"adj.","en":"tending to cause or related to inflation","col":"inflationary pressure · inflationary spiral"},
+  {"w":"aggregate","ph":"/ˈæɡrɪɡət/","m":"总计的；合计","c":"econ","ex":"Aggregate demand fell for a second month.","exZh":"总需求连续第二个月下降。","t":"加总起来算大数。","root":"ag-(to) + greg(flock, 群) + -ate → 聚成一群 → 合计","pos":"adj./n.","en":"total, formed by combining several parts","col":"in aggregate · aggregate demand · aggregate data"},
+  {"w":"discretionary","ph":"/dɪˈskreʃənri/","m":"自由裁量的；可自由支配的","c":"econ","ex":"Discretionary spending dipped as households saved more.","exZh":"随着家庭储蓄增加，自由支配支出下降。","t":"可花可不花的钱。","root":"discret(判断) + -ionary → 由判断决定的","pos":"adj.","en":"available for use at one's own choice","col":"discretionary spending · discretionary income"},
+  {"w":"covenant","ph":"/ˈkʌvənənt/","m":"契约；（贷款）条款","c":"econ","ex":"The borrower breached a loan covenant.","exZh":"借款人违反了贷款契约条款。","t":"合同里白纸黑字的那条约定。","root":"cov(en)-(约定) + -ant → 约定","pos":"n.","en":"a formal agreement or promise in a contract","col":"debt covenant · loan covenant"},
+  {"w":"austerity","ph":"/ɔːˈsterəti/","m":"财政紧缩；节约","c":"econ","ex":"The government pushed austerity to cut the deficit.","exZh":"政府推行紧缩以削减赤字。","t":"政府勒紧裤腰带。","root":"austere(严厉/朴素) + -ity → 紧缩","pos":"n.","en":"strict reduction of public spending","col":"austerity measures · fiscal austerity"},
+  {"w":"collateral","ph":"/kəˈlætərəl/","m":"抵押品；担保物","c":"econ","ex":"The loan required property as collateral.","exZh":"这笔贷款需要房产作为抵押品。","t":"借钱押在那儿的东西。","root":"col-(together) + lateral(侧) → 并排担保","pos":"n.","en":"an asset pledged to secure a loan","col":"post collateral · seize collateral"},
+  {"w":"default","ph":"/dɪˈfɔːlt/","m":"违约（未偿还）","c":"econ","ex":"The borrower defaulted on the mortgage.","exZh":"借款人违约未能偿还按揭。","t":"该还钱却没还。","root":"de-(down) + fault(fail, 失败) → 失败履行","pos":"n./v.","en":"failure to fulfill a financial obligation","col":"in default · default risk · default on a loan"},
+  {"w":"foreclose","ph":"/fɔːˈkləʊz/","m":"取消（抵押品）赎回权","c":"econ","ex":"The bank foreclosed on the delinquent mortgage.","exZh":"银行对逾期按揭取消了赎回权。","t":"还不上房贷，房子被银行收走。","root":"fore-(before) + close(关闭) → 提前关闭权利","pos":"v.","en":"to take possession of property on non-payment","col":"foreclose on a mortgage · foreclosure proceeding"},
+  {"w":"throughput","ph":"/ˈθruːpʊt/","m":"吞吐量；处理能力","c":"work","ex":"Server throughput doubled after the upgrade.","exZh":"升级后服务器吞吐量翻了一倍。","t":"单位时间能干多少活。","root":"through(通过) + put(放置) → 通过量","pos":"n.","en":"the rate at which work is processed","col":"increase throughput · system throughput"},
+  {"w":"kpi","ph":"/ˌkeɪ piː ˈaɪ/","m":"关键绩效指标（KPI）","c":"work","ex":"We review KPIs with the client every month.","exZh":"我们每月和客户复盘 KPI。","t":"考核你干得好不好的那几个数。","root":"缩写：Key Performance Indicator","pos":"n.","en":"a measurable value showing performance","col":"track KPIs · meet KPIs · KPI dashboard"},
+  {"w":"agile","ph":"/ˈædʒaɪl/","m":"敏捷的（开发/管理）","c":"work","ex":"The team adopted agile delivery methods.","exZh":"团队采用了敏捷交付方法。","t":"小步快跑、快速迭代那种。","root":"ag(驱动/行动) + -ile → 易动的","pos":"adj.","en":"able to move or adapt quickly","col":"agile development · agile team"},
+  {"w":"deliverable","ph":"/dɪˈlɪvərəbl/","m":"交付成果；可交付物","c":"work","ex":"List the deliverables due this sprint.","exZh":"列出本迭代要交付的成果。","t":"项目里承诺交出来的东西。","root":"deliver(交付) + -able(可…的) → 可交付物","pos":"n.","en":"a tangible output to be delivered","col":"key deliverables · project deliverables"},
+  {"w":"bandwidth","ph":"/ˈbændwɪdθ/","m":"带宽；（引申）精力/容量","c":"work","ex":"I don't have the bandwidth for a new project.","exZh":"我目前没有精力接新项目。","t":"你还能不能扛住更多活儿。","root":"band(带) + width(宽度) → 带宽","pos":"n.","en":"capacity or available effort","col":"limited bandwidth · spare bandwidth"},
+  {"w":"derivative","ph":"/dɪˈrɪvətɪv/","m":"金融衍生品","c":"econ","ex":"Banks trade interest-rate derivatives daily.","exZh":"银行每天交易利率衍生品。","t":"从别的资产派生出来的金融工具。","root":"de-(from) + riv(river, 流) + -ative → 派生","pos":"n.","en":"a financial instrument derived from an underlying asset","col":"derivatives market · trade derivatives"},
+  {"w":"refinance","ph":"/riːˈfaɪnæns/","m":"再融资；转按揭","c":"econ","ex":"Homeowners refinance to lock in lower rates.","exZh":"房主再融资以锁定更低利率。","t":"重新借一笔把旧的换了。","root":"re-(again) + finance(融资) → 再融资","pos":"v.","en":"to reorganize a debt on new terms","col":"refinance a loan · refinance the mortgage"},
+  {"w":"symposium","ph":"/sɪmˈpəʊziəm/","m":"研讨会；论坛","c":"work","ex":"A symposium on AI ethics was held downtown.","exZh":"市中心举办了一场关于 AI 伦理的研讨会。","t":"一群人坐下来专门聊一个主题。","root":"sym-(together) + pos(drink, 古时宴饮论道) + -ium → 共饮论道 → 研讨会","pos":"n.","en":"a conference or meeting on a specific topic","col":"hold a symposium · a symposium on"},
+  {"w":"telecommute","ph":"/ˈtelikəmjuːt/","m":"远程办公；居家办公","c":"work","ex":"Staff may telecommute two days a week.","exZh":"员工每周可远程办公两天。","t":"不用去公司，线上干活。","root":"tele-(far, 远) + commute(通勤) → 远程通勤","pos":"v.","en":"to work from a remote location","col":"telecommute to work · allow telecommuting"}
+]
+
+
 def get_existing_words(client):
 
 
@@ -10839,6 +10876,27 @@ def main():
     if _dropped:
         log(f"Dedup guard: dropped {_dropped} word(s) conflicting with history/duplicate; final today count={len(_deduped)}")
     new_words = _deduped
+    # ===== 补足到 8 个：去重后若不足 8，用内置真实词池补足，绝不重复 =====
+    if len(new_words) < 8:
+        _need = 8 - len(new_words)
+        _fb_pool = [w for w in FALLBACK_WORDS
+                    if w.get("w", "").lower() not in _hist_set
+                    and w.get("w", "").lower() not in _seen]
+        _added = 0
+        for _fw in _fb_pool:
+            if _added >= _need:
+                break
+            _k = (_fw.get("w") or "").lower()
+            if not _k:
+                continue
+            _word = dict(_fw)
+            _word["d"] = TODAY
+            new_words.append(_word)
+            _seen.add(_k)
+            _added += 1
+        if _added:
+            log(f"Fallback: added {_added} word(s) from backup pool to reach 8; final today count={len(new_words)}")
+
 
 
 

@@ -6,7 +6,23 @@
 
 
 
+
+
+
+
+
+
+
+
 """
+
+
+
+
+
+
+
+
 
 
 
@@ -22,7 +38,23 @@ Daily Word Generation Script (full-version prompt)
 
 
 
+
+
+
+
+
+
+
+
 Generates 8 words + story + quote + preview via DeepSeek API with FULL fields:
+
+
+
+
+
+
+
+
 
 
 
@@ -38,7 +70,23 @@ w, ph, m, c, d, ex, exZh, t, root, pos, en, col
 
 
 
+
+
+
+
+
+
+
+
 - t (memory tip) must tie to real current news/economy events
+
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +102,23 @@ w, ph, m, c, d, ex, exZh, t, root, pos, en, col
 
 
 
+
+
+
+
+
+
+
+
 - avoids duplication with last 30 days
+
+
+
+
+
+
+
+
 
 
 
@@ -70,7 +134,31 @@ w, ph, m, c, d, ex, exZh, t, root, pos, en, col
 
 
 
+
+
+
+
+
+
+
+
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,7 +182,23 @@ import os
 
 
 
+
+
+
+
+
+
+
+
 import sys
+
+
+
+
+
+
+
+
 
 
 
@@ -110,7 +214,23 @@ import json
 
 
 
+
+
+
+
+
+
+
+
 import time
+
+
+
+
+
+
+
+
 
 
 
@@ -126,7 +246,23 @@ import re
 
 
 
+
+
+
+
+
+
+
+
 import requests
+
+
+
+
+
+
+
+
 
 
 
@@ -142,7 +278,23 @@ import xml.etree.ElementTree as ET
 
 
 
+
+
+
+
+
+
+
+
 from datetime import datetime, timedelta, timezone
+
+
+
+
+
+
+
+
 
 
 
@@ -166,7 +318,31 @@ from qcloud_cos import CosConfig, CosS3Client
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Configuration (GitHub Actions supplies these via secrets)
+
+
+
+
+
+
+
+
 
 
 
@@ -182,7 +358,23 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 
 
+
+
+
+
+
+
+
+
 COS_SECRET_ID = os.environ.get("COS_SECRET_ID", "")
+
+
+
+
+
+
+
+
 
 
 
@@ -198,7 +390,23 @@ COS_SECRET_KEY = os.environ.get("COS_SECRET_KEY", "")
 
 
 
+
+
+
+
+
+
+
+
 HOSTING_BUCKET = os.environ.get("HOSTING_BUCKET", "")
+
+
+
+
+
+
+
+
 
 
 
@@ -222,7 +430,31 @@ HOSTING_REGION = os.environ.get("HOSTING_REGION", "")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DEDUP_DAYS = 14
+
+
+
+
+
+
+
+
 
 
 
@@ -254,6 +486,30 @@ TODAY = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def log(msg):
 
 
@@ -262,7 +518,23 @@ def log(msg):
 
 
 
+
+
+
+
+
+
+
+
     ts = datetime.now(timezone(timedelta(hours=8))).strftime("%H:%M:%S")
+
+
+
+
+
+
+
+
 
 
 
@@ -294,7 +566,39 @@ def log(msg):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # RSS 源：用于抓取当天真实新闻标题，喂给 DeepSeek 作为创作素材
+
+
+
+
+
+
+
+
 
 
 
@@ -310,7 +614,23 @@ NEWS_FEEDS = [
 
 
 
+
+
+
+
+
+
+
+
     "https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+
+
+
+
+
+
+
+
 
 
 
@@ -326,7 +646,23 @@ NEWS_FEEDS = [
 
 
 
+
+
+
+
+
+
+
+
     "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+
+
+
+
+
+
+
+
 
 
 
@@ -342,7 +678,23 @@ NEWS_FEEDS = [
 
 
 
+
+
+
+
+
+
+
+
     "https://feeds.bbci.co.uk/news/world/rss.xml",
+
+
+
+
+
+
+
+
 
 
 
@@ -374,7 +726,39 @@ NEWS_FEEDS = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def fetch_today_news(max_items=25):
+
+
+
+
+
+
+
+
 
 
 
@@ -390,7 +774,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
     these feeds are reachable). Returns a dedup list of headlines."""
+
+
+
+
+
+
+
+
 
 
 
@@ -406,7 +806,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
     for url in NEWS_FEEDS:
+
+
+
+
+
+
+
+
 
 
 
@@ -422,7 +838,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
             r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+
+
+
+
+
+
+
+
 
 
 
@@ -438,7 +870,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
                 continue
+
+
+
+
+
+
+
+
 
 
 
@@ -454,7 +902,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
             for item in root.iter("item"):
+
+
+
+
+
+
+
+
 
 
 
@@ -470,7 +934,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
                 if title and title not in titles:
+
+
+
+
+
+
+
+
 
 
 
@@ -486,7 +966,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
         except Exception as e:
+
+
+
+
+
+
+
+
 
 
 
@@ -502,7 +998,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
             continue
+
+
+
+
+
+
+
+
 
 
 
@@ -518,6 +1030,14 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
             break
 
 
@@ -526,7 +1046,23 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
     log(f"Fetched {len(titles)} real news headlines")
+
+
+
+
+
+
+
+
 
 
 
@@ -558,6 +1094,30 @@ def fetch_today_news(max_items=25):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def get_cos_client():
 
 
@@ -566,7 +1126,23 @@ def get_cos_client():
 
 
 
+
+
+
+
+
+
+
+
     config = CosConfig(Region=HOSTING_REGION, SecretId=COS_SECRET_ID, SecretKey=COS_SECRET_KEY)
+
+
+
+
+
+
+
+
 
 
 
@@ -598,7 +1174,39 @@ def get_cos_client():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def fetch_remote_json(client, key):
+
+
+
+
+
+
+
+
 
 
 
@@ -614,7 +1222,23 @@ def fetch_remote_json(client, key):
 
 
 
+
+
+
+
+
+
+
+
     try:
+
+
+
+
+
+
+
+
 
 
 
@@ -630,7 +1254,23 @@ def fetch_remote_json(client, key):
 
 
 
+
+
+
+
+
+
+
+
         body = resp["Body"].get_raw_stream().read().decode("utf-8")
+
+
+
+
+
+
+
+
 
 
 
@@ -646,6 +1286,14 @@ def fetch_remote_json(client, key):
 
 
 
+
+
+
+
+
+
+
+
     except Exception as e:
 
 
@@ -654,7 +1302,23 @@ def fetch_remote_json(client, key):
 
 
 
+
+
+
+
+
+
+
+
         log(f"Fetch failed: {e}")
+
+
+
+
+
+
+
+
 
 
 
@@ -686,7 +1350,39 @@ def fetch_remote_json(client, key):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def get_existing_words(client):
+
+
+
+
+
+
+
+
 
 
 
@@ -702,6 +1398,14 @@ def get_existing_words(client):
 
 
 
+
+
+
+
+
+
+
+
     if not raw:
 
 
@@ -710,7 +1414,23 @@ def get_existing_words(client):
 
 
 
+
+
+
+
+
+
+
+
         return [], {}
+
+
+
+
+
+
+
+
 
 
 
@@ -726,7 +1446,23 @@ def get_existing_words(client):
 
 
 
+
+
+
+
+
+
+
+
         d = json.loads(raw)
+
+
+
+
+
+
+
+
 
 
 
@@ -742,7 +1478,23 @@ def get_existing_words(client):
 
 
 
+
+
+
+
+
+
+
+
     except Exception as e:
+
+
+
+
+
+
+
+
 
 
 
@@ -758,7 +1510,39 @@ def get_existing_words(client):
 
 
 
+
+
+
+
+
+
+
+
         return [], {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -790,7 +1574,23 @@ def get_recent_words(words, days=DEDUP_DAYS):
 
 
 
+
+
+
+
+
+
+
+
     cutoff = (datetime.now(timezone(timedelta(hours=8))) - timedelta(days=days)).strftime("%Y-%m-%d")
+
+
+
+
+
+
+
+
 
 
 
@@ -806,6 +1606,14 @@ def get_recent_words(words, days=DEDUP_DAYS):
 
 
 
+
+
+
+
+
+
+
+
     log(f"Last {days} days: {len(recent)} words to avoid")
 
 
@@ -814,7 +1622,39 @@ def get_recent_words(words, days=DEDUP_DAYS):
 
 
 
+
+
+
+
+
+
+
+
     return set(recent)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -862,7 +1702,39 @@ QUOTE_HISTORY_KEY = "quote-history.jsonl"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def get_quote_history(client):
+
+
+
+
+
+
+
+
 
 
 
@@ -878,7 +1750,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
     raw = fetch_remote_json(client, QUOTE_HISTORY_KEY)
+
+
+
+
+
+
+
+
 
 
 
@@ -894,7 +1782,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
     if raw:
+
+
+
+
+
+
+
+
 
 
 
@@ -910,7 +1814,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
             line = line.strip()
+
+
+
+
+
+
+
+
 
 
 
@@ -926,7 +1846,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
                 continue
+
+
+
+
+
+
+
+
 
 
 
@@ -942,7 +1878,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
                 history.append(json.loads(line))
+
+
+
+
+
+
+
+
 
 
 
@@ -958,6 +1910,14 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
                 continue
 
 
@@ -966,7 +1926,23 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
     log(f"Quote history: {len(history)} entries")
+
+
+
+
+
+
+
+
 
 
 
@@ -998,7 +1974,39 @@ def get_quote_history(client):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def append_quote_history(client, entry):
+
+
+
+
+
+
+
+
 
 
 
@@ -1014,7 +2022,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
     raw = fetch_remote_json(client, QUOTE_HISTORY_KEY)
+
+
+
+
+
+
+
+
 
 
 
@@ -1030,7 +2054,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
     if raw:
+
+
+
+
+
+
+
+
 
 
 
@@ -1046,7 +2086,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
     lines.append(json.dumps(entry, ensure_ascii=False))
+
+
+
+
+
+
+
+
 
 
 
@@ -1062,7 +2118,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
         lines = lines[-60:]
+
+
+
+
+
+
+
+
 
 
 
@@ -1078,7 +2150,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
     log("Uploading updated quote-history.jsonl...")
+
+
+
+
+
+
+
+
 
 
 
@@ -1094,7 +2182,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
         client.put_object(Bucket=HOSTING_BUCKET, Key=QUOTE_HISTORY_KEY, Body=payload)
+
+
+
+
+
+
+
+
 
 
 
@@ -1110,7 +2214,23 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
     except Exception as e:
+
+
+
+
+
+
+
+
 
 
 
@@ -1142,7 +2262,39 @@ def append_quote_history(client, entry):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _clean_display(m):
+
+
+
+
+
+
+
+
 
 
 
@@ -1158,7 +2310,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     e.g. '(在业绩/表现上)胜过; 超越' -> '胜过'; 'n./v. 激增；汹涌' -> '激增'."""
+
+
+
+
+
+
+
+
 
 
 
@@ -1174,7 +2342,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
         return ""
+
+
+
+
+
+
+
+
 
 
 
@@ -1190,7 +2374,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     # strip a leading (...) annotation like '(在业绩/表现上)'
+
+
+
+
+
+
+
+
 
 
 
@@ -1206,7 +2406,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     if mm:
+
+
+
+
+
+
+
+
 
 
 
@@ -1222,7 +2438,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     # strip a leading part-of-speech tag like 'n./v.' 'v.' 'adj.'
+
+
+
+
+
+
+
+
 
 
 
@@ -1238,7 +2470,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     if mm:
+
+
+
+
+
+
+
+
 
 
 
@@ -1254,7 +2502,23 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
     g = g.split("；")[0].split(";")[0].split("，")[0].split(",")[0].strip()
+
+
+
+
+
+
+
+
 
 
 
@@ -1286,7 +2550,39 @@ def _clean_display(m):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _inflection_pattern(base):
+
+
+
+
+
+
+
+
 
 
 
@@ -1302,7 +2598,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
     Uses explicit ASCII boundaries (not \\b) because CJK chars ARE word chars in Python 3,
+
+
+
+
+
+
+
+
 
 
 
@@ -1318,7 +2630,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
     Multi-word entries (e.g. 'central bank') are matched literally (no inflections)."""
+
+
+
+
+
+
+
+
 
 
 
@@ -1334,7 +2662,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
         return re.compile(r"(?<![A-Za-z])" + re.escape(base) + r"(?![A-Za-z])", re.IGNORECASE)
+
+
+
+
+
+
+
+
 
 
 
@@ -1350,7 +2694,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
     suffixes = [s for s in ("ing", "ed", "es", "s") if not low.endswith(s)]
+
+
+
+
+
+
+
+
 
 
 
@@ -1366,7 +2726,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
     if suffixes:
+
+
+
+
+
+
+
+
 
 
 
@@ -1382,7 +2758,23 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
     pat += r"(?![A-Za-z])"
+
+
+
+
+
+
+
+
 
 
 
@@ -1414,7 +2806,39 @@ def _inflection_pattern(base):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _find_occurrences(clean, words, use_english_display=False):
+
+
+
+
+
+
+
+
 
 
 
@@ -1430,7 +2854,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     Matches the English base/inflection OR the Chinese gloss (first sense).
+
+
+
+
+
+
+
+
 
 
 
@@ -1446,7 +2886,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     base itself (for the English story); otherwise it is the Chinese gloss (for the
+
+
+
+
+
+
+
+
 
 
 
@@ -1462,7 +2918,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     cands = []
+
+
+
+
+
+
+
+
 
 
 
@@ -1478,7 +2950,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         base = (w.get("w") or "").strip()
+
+
+
+
+
+
+
+
 
 
 
@@ -1494,7 +2982,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
             continue
+
+
+
+
+
+
+
+
 
 
 
@@ -1510,7 +3014,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         em = _inflection_pattern(base).search(clean)
+
+
+
+
+
+
+
+
 
 
 
@@ -1526,6 +3046,14 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
             cands.append((em.start(), em.end(), disp, base))
 
 
@@ -1534,7 +3062,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
             continue
+
+
+
+
+
+
+
+
 
 
 
@@ -1550,7 +3094,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         if len(gloss) >= 2:
+
+
+
+
+
+
+
+
 
 
 
@@ -1566,7 +3126,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
             if gm:
+
+
+
+
+
+
+
+
 
 
 
@@ -1582,7 +3158,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     cands.sort()
+
+
+
+
+
+
+
+
 
 
 
@@ -1598,7 +3190,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     for (s, e, disp, base) in cands:
+
+
+
+
+
+
+
+
 
 
 
@@ -1614,7 +3222,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
             continue
+
+
+
+
+
+
+
+
 
 
 
@@ -1630,7 +3254,23 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         occupied.append((s, e, disp, base))
+
+
+
+
+
+
+
+
 
 
 
@@ -1662,7 +3302,39 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _mark_text(text, words, use_english_display=False):
+
+
+
+
+
+
+
+
 
 
 
@@ -1678,7 +3350,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     Used by both build_clean_hook (preview) and story-en marking.
+
+
+
+
+
+
+
+
 
 
 
@@ -1694,7 +3382,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     the display is the English base itself (so the English article stays English).
+
+
+
+
+
+
+
+
 
 
 
@@ -1710,7 +3414,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     """
+
+
+
+
+
+
+
+
 
 
 
@@ -1726,7 +3446,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         return text, 0
+
+
+
+
+
+
+
+
 
 
 
@@ -1742,7 +3478,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     chosen = _find_occurrences(clean, words, use_english_display=use_english_display)
+
+
+
+
+
+
+
+
 
 
 
@@ -1758,6 +3510,14 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
     for (s, e, disp, base) in sorted(chosen, reverse=True):
 
 
@@ -1766,7 +3526,23 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
         result = result[:s] + f"[{disp}|{base}]" + result[e:]
+
+
+
+
+
+
+
+
 
 
 
@@ -1798,7 +3574,39 @@ def _mark_text(text, words, use_english_display=False):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def build_clean_hook(hook, words):
+
+
+
+
+
+
+
+
 
 
 
@@ -1814,6 +3622,14 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
     wrapped exactly once as a clean [中文|英文原形] marker. Words absent from the prose are
 
 
@@ -1822,7 +3638,23 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
     simply left out (they still appear on their own card) — NO trailing list is ever appended,
+
+
+
+
+
+
+
+
 
 
 
@@ -1846,7 +3678,31 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     Strategy:
+
+
+
+
+
+
+
+
 
 
 
@@ -1862,7 +3718,23 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
     2. For each word present in the prose, find its FIRST occurrence and wrap as [英文|中文].
+
+
+
+
+
+
+
+
 
 
 
@@ -1878,6 +3750,14 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
     marked, _ = _mark_text(hook, words, use_english_display=True)
 
 
@@ -1886,7 +3766,39 @@ def build_clean_hook(hook, words):
 
 
 
+
+
+
+
+
+
+
+
     return marked
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1918,7 +3830,23 @@ def build_clean_story_en(story_en, words):
 
 
 
+
+
+
+
+
+
+
+
     """Mark all today's words that appear in the English story dispatch with [英文原形|英文原形]
+
+
+
+
+
+
+
+
 
 
 
@@ -1934,7 +3862,23 @@ def build_clean_story_en(story_en, words):
 
 
 
+
+
+
+
+
+
+
+
     English (the visible token is the English word, not a Chinese gloss). story.en is a longer
+
+
+
+
+
+
+
+
 
 
 
@@ -1950,7 +3894,23 @@ def build_clean_story_en(story_en, words):
 
 
 
+
+
+
+
+
+
+
+
     (DeepSeek prompt already asks to cover all 8).
+
+
+
+
+
+
+
+
 
 
 
@@ -1966,6 +3926,14 @@ def build_clean_story_en(story_en, words):
 
 
 
+
+
+
+
+
+
+
+
     marked, count = _mark_text(story_en, words, use_english_display=True)
 
 
@@ -1974,7 +3942,39 @@ def build_clean_story_en(story_en, words):
 
 
 
+
+
+
+
+
+
+
+
     return marked, count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2006,7 +4006,23 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+
+
+
+
+
+
+
+
     """Mark today's words in the Chinese serial (热点串讲) as [中文释义|英文原形] markers so the
+
+
+
+
+
+
+
+
 
 
 
@@ -2022,7 +4038,23 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+
+
+
+
+
+
+
+
     display is the Chinese gloss; the front-end renders group1 and speaks group2 (English).
+
+
+
+
+
+
+
+
 
 
 
@@ -2038,11 +4070,27 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+
+
+
+
+
+
+
+
     # 清洗：去掉中文故事中 DeepSeek 偶尔加的括号英文注释，如 "套利者（arbitrage）"、"关税（tariff）"
     # 保持和其他词一致——只显示中文，不额外带英文括号
     story_cn = re.sub(r'([一-鿿]+)\s*[（(]\s*([A-Za-z][A-Za-z-]*)\s*[）)]', r'', story_cn)
 
     marked, count = _mark_text(story_cn, words, use_english_display=False)
+
+
+
+
+
+
+
+
 
 
 
@@ -2074,7 +4122,39 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def build_clean_impact(impact, words):
+
+
+
+
+
+
+
+
 
 
 
@@ -2090,7 +4170,23 @@ def build_clean_impact(impact, words):
 
 
 
+
+
+
+
+
+
+
+
     marked, _ = _mark_text(impact, words, use_english_display=True)
+
+
+
+
+
+
+
+
 
 
 
@@ -2122,7 +4218,39 @@ def build_clean_impact(impact, words):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 FORBIDDEN_HOOK_PHRASES = [
+
+
+
+
+
+
+
+
 
 
 
@@ -2138,6 +4266,14 @@ FORBIDDEN_HOOK_PHRASES = [
 
 
 
+
+
+
+
+
+
+
+
     "串起了今天", "串起今天的", "关键词——", "关键词——", "这些关键词",
 
 
@@ -2146,7 +4282,23 @@ FORBIDDEN_HOOK_PHRASES = [
 
 
 
+
+
+
+
+
+
+
+
     "提醒我们", "以上就是", "涵盖了今天", "总体看", "总体而言",
+
+
+
+
+
+
+
+
 
 
 
@@ -2178,7 +4330,39 @@ FORBIDDEN_HOOK_PHRASES = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def hook_covers_words(hook, words, min_count=8):
+
+
+
+
+
+
+
+
 
 
 
@@ -2194,7 +4378,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
     (by English base/inflection or Chinese gloss). We require ALL 8 today's words to be woven
+
+
+
+
+
+
+
+
 
 
 
@@ -2210,7 +4410,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
     so every word shows up in the headline lead-in."""
+
+
+
+
+
+
+
+
 
 
 
@@ -2226,7 +4442,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2242,7 +4474,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
     covered = 0
+
+
+
+
+
+
+
+
 
 
 
@@ -2258,7 +4506,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
         base = (w.get("w") or "").strip()
+
+
+
+
+
+
+
+
 
 
 
@@ -2274,7 +4538,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
             continue
+
+
+
+
+
+
+
+
 
 
 
@@ -2290,7 +4570,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
             covered += 1
+
+
+
+
+
+
+
+
 
 
 
@@ -2306,7 +4602,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
         gloss = _clean_display(w.get("m"))
+
+
+
+
+
+
+
+
 
 
 
@@ -2322,7 +4634,23 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
             covered += 1
+
+
+
+
+
+
+
+
 
 
 
@@ -2354,7 +4682,39 @@ def hook_covers_words(hook, words, min_count=8):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _hook_cover_count(result):
+
+
+
+
+
+
+
+
 
 
 
@@ -2370,7 +4730,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
     if not result:
+
+
+
+
+
+
+
+
 
 
 
@@ -2386,7 +4762,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
     hook = (result.get("preview") or {}).get("hook") or ""
+
+
+
+
+
+
+
+
 
 
 
@@ -2402,7 +4794,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
     text = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+
+
+
+
+
+
+
+
 
 
 
@@ -2418,7 +4826,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
     for w in words:
+
+
+
+
+
+
+
+
 
 
 
@@ -2434,6 +4858,14 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
         if base and _inflection_pattern(base).search(text):
 
 
@@ -2442,7 +4874,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
             c += 1
+
+
+
+
+
+
+
+
 
 
 
@@ -2458,7 +4906,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
         gloss = _clean_display(w.get("m"))
+
+
+
+
+
+
+
+
 
 
 
@@ -2474,7 +4938,23 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
             c += 1
+
+
+
+
+
+
+
+
 
 
 
@@ -2506,7 +4986,39 @@ def _hook_cover_count(result):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _strip_forbidden(hook):
+
+
+
+
+
+
+
+
 
 
 
@@ -2522,7 +5034,23 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
     (the forbidden canned phrase and everything after it up to the sentence end) so the deployed
+
+
+
+
+
+
+
+
 
 
 
@@ -2538,7 +5066,23 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
     if not hook:
+
+
+
+
+
+
+
+
 
 
 
@@ -2554,7 +5098,23 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
     positions = [hook.find(p) for p in FORBIDDEN_HOOK_PHRASES if p in hook]
+
+
+
+
+
+
+
+
 
 
 
@@ -2570,7 +5130,23 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
     if worst >= 0:
+
+
+
+
+
+
+
+
 
 
 
@@ -2586,7 +5162,23 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
         hook = hook[:worst] + (hook[worst + end.end():] if end else "")
+
+
+
+
+
+
+
+
 
 
 
@@ -2602,18 +5194,54 @@ def _strip_forbidden(hook):
 
 
 
+
+
+
+
+
+
+
+
     hook = re.sub(r"[，,、]{2,}", "，", hook)
 
+
+
     # 兜底：若裁剪后 hook 变成半截句（不以句号/叹号/问号/省略号收尾），
+
     # 裁掉最后一个终止标点之后的内容，保证上线文案永远是一个完整句。
+
     plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
+
     if plain and not re.search(r'[。！？…][」』”’）)]*\s*$', plain):
+
         raw_ends = [i for i, ch in enumerate(hook) if ch in "。！？…"]
+
         if raw_ends:
+
             hook = hook[: raw_ends[-1] + 1]
+
         else:
+
             hook = re.sub(r"[——\-—\s]*$", "", hook)
 
+
+
+    return hook.strip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return hook.strip()
 
 
@@ -2622,7 +5250,23 @@ def _strip_forbidden(hook):
 
 
 
-    return hook.strip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2670,7 +5314,39 @@ SECOND_PART_KEYWORDS = ["对比词", "职场中", "职场版", "记忆", "联想
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def ensure_t_two_paragraphs(t):
+
+
+
+
+
+
+
+
 
 
 
@@ -2686,7 +5362,23 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
     (对比词/职场中/记忆/联想...), insert a newline before it so the card shows two paragraphs
+
+
+
+
+
+
+
+
 
 
 
@@ -2702,7 +5394,23 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
     if not t or "\n" in t:
+
+
+
+
+
+
+
+
 
 
 
@@ -2718,7 +5426,23 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
     for kw in SECOND_PART_KEYWORDS:
+
+
+
+
+
+
+
+
 
 
 
@@ -2734,6 +5458,14 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
         if idx > 10:
 
 
@@ -2742,7 +5474,23 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
             return t[:idx].rstrip() + "\n" + t[idx:].lstrip()
+
+
+
+
+
+
+
+
 
 
 
@@ -2774,7 +5522,39 @@ def ensure_t_two_paragraphs(t):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def validate_core(result, min_cn=310, max_cn=400):
+
+
+
+
+
+
+
+
 
 
 
@@ -2790,6 +5570,14 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     if not result:
 
 
@@ -2798,7 +5586,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2814,6 +5618,14 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     if len(words) != 8:
 
 
@@ -2822,7 +5634,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2838,7 +5666,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     for w in words:
+
+
+
+
+
+
+
+
 
 
 
@@ -2854,6 +5698,14 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         if not base:
 
 
@@ -2862,7 +5714,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
             return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2878,7 +5746,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
             return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2894,7 +5778,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
             return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2910,7 +5810,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
             return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2926,7 +5842,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     cnt = Counter(w.get("c") for w in words)
+
+
+
+
+
+
+
+
 
 
 
@@ -2942,7 +5874,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     econ = cnt.get("econ", 0)
+
+
+
+
+
+
+
+
 
 
 
@@ -2958,6 +5906,14 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     if work < 2:
 
 
@@ -2966,7 +5922,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2982,7 +5954,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -2998,7 +5986,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3014,7 +6018,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     cn = (story.get("cn") or "").strip()
+
+
+
+
+
+
+
+
 
 
 
@@ -3030,7 +6050,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     # don't inflate the count; target ~350, hard cap 400.
+
+
+
+
+
+
+
+
 
 
 
@@ -3046,7 +6082,23 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     if len(cn_plain) < min_cn or len(cn_plain) > max_cn:
+
+
+
+
+
+
+
+
 
 
 
@@ -3062,7 +6114,39 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3094,7 +6178,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     """Quality gate for the hook: clean flowing sentence, no canned list, covers >= min_words."""
+
+
+
+
+
+
+
+
 
 
 
@@ -3110,7 +6210,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3126,7 +6242,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     # Length is measured on the PLAIN text (markers stripped) — markers are a display-layer
+
+
+
+
+
+
+
+
 
 
 
@@ -3142,13 +6274,35 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     hook_plain = re.sub(r"\[[^\]|]+\|([^\]]+)\]", r"\1", hook)
 
+
+
     # 完整句校验：hook 必须以句号/叹号/问号/省略号等终止标点收尾（允许带闭合引号/括号）。
+
     # 防止 AI 输出半截句（如 "……今天的头条，正是" 无下文）被当作合格内容上线——
+
     # 残缺句会让前端文案看起来被截断，必须在这里拦截并触发重试。
+
     if not re.search(r'[。！？…][」』”’）)]*\s*$', hook_plain):
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3164,7 +6318,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3180,7 +6350,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3196,7 +6382,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     # this is a comma-separated word dump like [A|a]、[B|b]、[C|c]
+
+
+
+
+
+
+
+
 
 
 
@@ -3212,6 +6414,14 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     if pure_list:
 
 
@@ -3220,7 +6430,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3236,7 +6462,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     tail = hook[-50:] if len(hook) > 50 else hook
+
+
+
+
+
+
+
+
 
 
 
@@ -3252,7 +6494,23 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3268,6 +6526,14 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
         return False
 
 
@@ -3276,7 +6542,39 @@ def validate_hook(preview, words, min_len=140, max_len=340, min_words=8):
 
 
 
+
+
+
+
+
+
+
+
     return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3308,7 +6606,23 @@ def validate_quality(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
     """Final combined quality gate (core + hook)."""
+
+
+
+
+
+
+
+
 
 
 
@@ -3324,7 +6638,23 @@ def validate_quality(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3340,7 +6670,23 @@ def validate_quality(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3356,7 +6702,23 @@ def validate_quality(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
         return False
+
+
+
+
+
+
+
+
 
 
 
@@ -3388,7 +6750,39 @@ def validate_quality(result, min_cn=310, max_cn=400):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def explain_quality(result):
+
+
+
+
+
+
+
+
 
 
 
@@ -3404,7 +6798,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     if not result:
+
+
+
+
+
+
+
+
 
 
 
@@ -3420,7 +6830,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
         return
+
+
+
+
+
+
+
+
 
 
 
@@ -3436,7 +6862,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     from collections import Counter
+
+
+
+
+
+
+
+
 
 
 
@@ -3452,7 +6894,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     log(f"  words={len(words)} domain={dict(cnt)} work={cnt.get('work',0)} econ+work={cnt.get('econ',0)+cnt.get('work',0)} politics={cnt.get('politics',0)}")
+
+
+
+
+
+
+
+
 
 
 
@@ -3468,7 +6926,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     log(f"  story.cn len={len(cn)} (want 310-400)")
+
+
+
+
+
+
+
+
 
 
 
@@ -3484,7 +6958,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     forbidden = [p for p in FORBIDDEN_HOOK_PHRASES if p in hook]
+
+
+
+
+
+
+
+
 
 
 
@@ -3500,7 +6990,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
         log(f"  hook forbidden phrases: {forbidden}")
+
+
+
+
+
+
+
+
 
 
 
@@ -3516,7 +7022,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
         log(f"  hook covers fewer than 6 of the 8 words")
+
+
+
+
+
+
+
+
 
 
 
@@ -3532,7 +7054,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
     for name, text in (("hook", hook), ("story.en", en)):
+
+
+
+
+
+
+
+
 
 
 
@@ -3548,7 +7086,23 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
         dup = len(bases) - len(set(bases))
+
+
+
+
+
+
+
+
 
 
 
@@ -3580,7 +7134,39 @@ def explain_quality(result):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def call_deepseek(prompt, max_retries=3, max_tokens=6000):
+
+
+
+
+
+
+
+
 
 
 
@@ -3596,7 +7182,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
     headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+
+
+
+
+
+
+
+
 
 
 
@@ -3612,7 +7214,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         "model": "deepseek-chat",
+
+
+
+
+
+
+
+
 
 
 
@@ -3628,7 +7246,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
             {"role": "system", "content": "You are an expert IELTS vocabulary tutor and a financial/economy news editor. Always respond with strict JSON only, no markdown, no extra text."},
+
+
+
+
+
+
+
+
 
 
 
@@ -3644,7 +7278,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         ],
+
+
+
+
+
+
+
+
 
 
 
@@ -3660,7 +7310,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         "max_tokens": max_tokens
+
+
+
+
+
+
+
+
 
 
 
@@ -3676,7 +7342,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
     for attempt in range(max_retries):
+
+
+
+
+
+
+
+
 
 
 
@@ -3692,7 +7374,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         try:
+
+
+
+
+
+
+
+
 
 
 
@@ -3708,7 +7406,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
             r.raise_for_status()
+
+
+
+
+
+
+
+
 
 
 
@@ -3724,7 +7438,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         except Exception as e:
+
+
+
+
+
+
+
+
 
 
 
@@ -3740,7 +7470,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
             time.sleep(2)
+
+
+
+
+
+
+
+
 
 
 
@@ -3756,7 +7502,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         if result and "choices" in result:
+
+
+
+
+
+
+
+
 
 
 
@@ -3772,7 +7534,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
             if content.startswith("```"):
+
+
+
+
+
+
+
+
 
 
 
@@ -3788,7 +7566,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
                 if lines[0].startswith("```"):
+
+
+
+
+
+
+
+
 
 
 
@@ -3804,7 +7598,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
                 if lines and lines[-1].startswith("```"):
+
+
+
+
+
+
+
+
 
 
 
@@ -3820,7 +7630,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
                 content = "\n".join(lines)
+
+
+
+
+
+
+
+
 
 
 
@@ -3836,7 +7662,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
                 return json.loads(content)
+
+
+
+
+
+
+
+
 
 
 
@@ -3852,7 +7694,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
                 log(f"JSON parse failed: {e}")
+
+
+
+
+
+
+
+
 
 
 
@@ -3868,7 +7726,23 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
         time.sleep(2)
+
+
+
+
+
+
+
+
 
 
 
@@ -3900,7 +7774,39 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def _build_context(recent_set, quote_history, news_headlines):
+
+
+
+
+
+
+
+
 
 
 
@@ -3916,7 +7822,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
     avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
+
+
+
+
+
+
+
+
 
 
 
@@ -3932,7 +7854,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
     if quote_history:
+
+
+
+
+
+
+
+
 
 
 
@@ -3948,7 +7886,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
         quote_avoid = "\n".join("  - " + q for q in recent_quotes[-15:])
+
+
+
+
+
+
+
+
 
 
 
@@ -3964,7 +7918,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
     else:
+
+
+
+
+
+
+
+
 
 
 
@@ -3988,7 +7958,31 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     news_headlines = news_headlines or []
+
+
+
+
+
+
+
+
 
 
 
@@ -4004,7 +7998,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
         news_block = "\n".join("  - " + h for h in news_headlines)
+
+
+
+
+
+
+
+
 
 
 
@@ -4020,6 +8030,14 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
     else:
 
 
@@ -4028,7 +8046,23 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
         news_instruction = "No live news could be fetched today. In that case: DO NOT invent fake specific events (fake company names, fake numbers, fake dated events like '2026年8月希腊'). Instead use generic current-topic references WITHOUT specific fabricated facts (e.g. '全球通胀降温的背景下'), and never write a fake dated news item."
+
+
+
+
+
+
+
+
 
 
 
@@ -4060,7 +8094,39 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def generate_content(recent_set, quote_history=None, news_headlines=None):
+
+
+
+
+
+
+
+
 
 
 
@@ -4076,7 +8142,23 @@ def generate_content(recent_set, quote_history=None, news_headlines=None):
 
 
 
+
+
+
+
+
+
+
+
     The hook is written as a clean flowing sentence; markers are inserted deterministically afterwards."""
+
+
+
+
+
+
+
+
 
 
 
@@ -4092,7 +8174,31 @@ def generate_content(recent_set, quote_history=None, news_headlines=None):
 
 
 
+
+
+
+
+
+
+
+
     prompt = f"""Today is {TODAY}. Your job: act as both an IELTS vocabulary editor AND a financial news writer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4124,7 +8230,31 @@ Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each mus
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
+
+
+
+
+
+
+
+
 
 
 
@@ -4140,7 +8270,23 @@ DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
 
 
 
+
+
+
+
+
+
+
+
 - ALLOWED but limited: news (经济/商业相关新闻) at most 2.
+
+
+
+
+
+
+
+
 
 
 
@@ -4156,7 +8302,31 @@ DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
 
 
 
+
+
+
+
+
+
+
+
 - FORBIDDEN filler: entertainment, sports, pure social-livelihood, pure military-conflict words — do NOT pick them just to fill the 8.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4188,7 +8358,39 @@ GEOGRAPHY: Prefer real stories from the US, EU, Japan/Korea, and China, especial
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IMPORTANT: Do NOT use these words that were learned recently: {avoid}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4212,7 +8414,31 @@ IMPORTANT FACTUALITY RULE (highest priority):
 
 
 
+
+
+
+
+
+
+
+
 {news_instruction}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4244,7 +8470,31 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   w: word (base form, ASCII only, no spaces — use a single base word)
+
+
+
+
+
+
+
+
 
 
 
@@ -4260,7 +8510,23 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   m: 8-24 Chinese chars. Concise Chinese meaning with a part-of-speech hint if multiple senses, e.g. "(冲突)升级；逐步扩大". MUST be non-empty.
+
+
+
+
+
+
+
+
 
 
 
@@ -4276,7 +8542,23 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   pos: v. / n. / adj. / adv.
+
+
+
+
+
+
+
+
 
 
 
@@ -4292,7 +8574,23 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   defs: array of 2-3 sense objects, each {{"cn": "Chinese sense, 6-18 chars", "en": "English gloss, 20-50 chars", "pos": "v./n./adj."}}. Cover the word's DISTINCT senses (literal, figurative, common collocation) — do NOT just repeat m. The FIRST object's cn MUST equal or start with m. Example for "escalate": [{{"cn":"(冲突)升级","en":"to increase in intensity, esp. conflict","pos":"v."}},{{"cn":"逐步扩大","en":"to grow or expand step by step","pos":"v."}},{{"cn":"使(武器/冲突)升级","en":"to escalate weapons or a dispute","pos":"v."}}]
+
+
+
+
+
+
+
+
 
 
 
@@ -4308,7 +8606,23 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   ex: 60-130 English chars. ONE natural English sentence that uses the word (inflected ok), and reflects a real current news/economic event or plausible scenario
+
+
+
+
+
+
+
+
 
 
 
@@ -4324,7 +8638,23 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   ex2: 60-130 English chars. A SECOND natural sentence using the word in a DIFFERENT context than ex.
+
+
+
+
+
+
+
+
 
 
 
@@ -4340,6 +8670,14 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   t: 90-140 Chinese chars, in TWO paragraphs separated by a newline. Paragraph 1 (50-80 chars): tie the word to a SPECIFIC real current event (economy/news/workplace/politics/entertainment/sports), with names, numbers, and the word used in context. Paragraph 2 (40-60 chars): give a workplace/daily-life example sentence, OR contrast with a related word (e.g. antonym, near-synonym, noun/verb form), OR a memorable image/association to lock the word in memory. Both paragraphs required.
 
 
@@ -4348,7 +8686,31 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
+
+
+
+
+
+
+
+
   root: 60-100 Chinese chars. Full affix breakdown with: prefix/root/suffix separated by " + ", each component's source language (拉丁/希腊/古英语/法语/阿拉伯语 etc.), at least one cognate word per component, then a short arrow showing etymology-to-modern-meaning evolution. Example format: "前缀 bene-(好, 拉丁, 同源 benefit/benevolent) + 词根 gn(=gen 生, 同源 genus) → 天性是好的 → 温和无害、良性". If the word has no clear affixes, briefly explain its etymology origin in Chinese.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4380,7 +8742,31 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   t example A (109 chars): "高盛押注今晚"鸽派惊喜"、汇丰预判数据"温和"，一旦成真就是市场最爱的 Goldilocks 行情，几乎所有资产普涨。医院报告里的"良性"也是这个词：benign 良性 ↔ malignant 恶性，成对记。"
+
+
+
+
+
+
+
+
 
 
 
@@ -4396,7 +8782,31 @@ STYLE GUIDE - match this level of detail (these are real examples from this app'
 
 
 
+
+
+
+
+
+
+
+
   root example (97 chars): "前缀 bene-(好，拉丁 bene，同源 benefit 好处、benevolent 仁慈的) + 词根 gn(=gen 生、天性，同源 genus 属类) → 天性是好的 → 温和无害、良性"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4428,6 +8838,22 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   story: {{
 
 
@@ -4436,7 +8862,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
     "en": "English news dispatch, 约 500 字符（480-560，roughly 90-130 words）。This is NOT a rephrase of the hook — it's a tight news article: an opening lede naming the lead event, a middle covering 2-3 real sub-events with specific names, numbers, and institutions, and a one-sentence forward-looking close. Cover ALL 8 of today's words using [display|base] markers, each exactly ONCE, in BASE form (no precipitates/precipitating variants — use the base like precipitate). No bare words. 480-560 characters.",
+
+
+
+
+
+
+
+
 
 
 
@@ -4460,6 +8902,22 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 长度结构参考样例（约 340 字，仅学长度与结构，勿抄内容）：今日市场被三条线索牵动。其一是地缘与能源：某海峡通航新模式公布，国际油价变得『不稳定』，投资者在回报与安全间做『权衡』。其二是企业基本面：某龙头净利下滑，但子业务『激增』成新增长极；某地调高经济预期，尽显『韧性』底色。其三是职场与科技：AI 『颠覆性』浪潮持续，企业加速『部署』工具以『优化』流程，员工被迫升级技能；央行在通胀与增长间『授权』权衡，政策空间受限，三条主线交织，机会藏在分化里。"
 
 
@@ -4468,7 +8926,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
   }}
+
+
+
+
+
+
+
+
 
 
 
@@ -4484,7 +8958,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
     "en": "One English inspirational sentence, 6-12 words, about learning/growth/persistence",
+
+
+
+
+
+
+
+
 
 
 
@@ -4500,7 +8990,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
   }}
+
+
+
+
+
+
+
+
 
 
 
@@ -4516,7 +9022,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
     "hook": "中文『导语』一句话（150-300 字），围绕今日财经/职场主线，自然地把今天这批词里的 6-8 个串进这句话。**必须中英夹杂写**——英文原词直接嵌入中文句子里（如『市场的 volatility 让人紧张』『资金 influx 持续』『票房 surge』『企业加速 deploy AI』『lucrative 岗位 outperform 传统岗』），不要全翻译成中文。以『今天的故事』或『今天的头条』开头，像讲故事一样有起承转合：先说一个具体场景/事件（带数字或名字更好），再展开关联动向，最后给一个贴切的判断或启示。词要散落在句子各处，绝对禁止在句尾用顿号/逗号罗列词汇（如禁止『这些关键词——A、B、C——串起了…』『关键词A、B、C涵盖了今天…』『提醒我们…』这类清单式结尾）。结尾的判断/总结句也必须是中英夹杂、继续把今天这批词嵌进叙事（可复用前句已出现的词，比如把『复苏/部署/胜过』之一写进收尾），绝对禁止出现纯中文、不带任何新词的收尾升华句。不要自己加 [中文|英文] 标记（生成后自动添加）。**关键：两个英文单词之间必须至少有一个中文字或标点/空格隔开，绝对不能紧挨着写在一起（如禁止 automateprocurement，必须是 automate procurement 或 automate 的 procurement）。**",
+
+
+
+
+
+
+
+
 
 
 
@@ -4532,6 +9054,14 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
   }}
 
 
@@ -4540,7 +9070,23 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
   IMPACT STYLE GUIDE (real example from this app's history, do not copy, match the substance):
+
+
+
+
+
+
+
+
 
 
 
@@ -4564,6 +9110,22 @@ Then output these three objects:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 QUOTE DEDUP RULE:
 
 
@@ -4572,7 +9134,31 @@ QUOTE DEDUP RULE:
 
 
 
+
+
+
+
+
+
+
+
 {quote_instruction}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4604,7 +9190,31 @@ FINAL FORMAT RULE: preview.hook 必须是通顺的一句话、把今天这批词
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Output STRICT JSON only, no markdown, exactly this shape:
+
+
+
+
+
+
+
+
 
 
 
@@ -4620,7 +9230,23 @@ Output STRICT JSON only, no markdown, exactly this shape:
 
 
 
+
+
+
+
+
+
+
+
 """
+
+
+
+
+
+
+
+
 
 
 
@@ -4652,7 +9278,39 @@ Output STRICT JSON only, no markdown, exactly this shape:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def upload_to_cos(client, content_bytes, key):
+
+
+
+
+
+
+
+
 
 
 
@@ -4668,7 +9326,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
     try:
+
+
+
+
+
+
+
+
 
 
 
@@ -4684,7 +9358,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
         resp = client.put_object(
+
+
+
+
+
+
+
+
 
 
 
@@ -4700,7 +9390,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
             Key=key,
+
+
+
+
+
+
+
+
 
 
 
@@ -4716,7 +9422,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
             CacheControl="no-cache, max-age=0"
+
+
+
+
+
+
+
+
 
 
 
@@ -4732,7 +9454,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
         log(f"Upload success ETag: {resp.get('ETag')}")
+
+
+
+
+
+
+
+
 
 
 
@@ -4748,6 +9486,14 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
     except Exception as e:
 
 
@@ -4756,7 +9502,23 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
         log(f"COS upload failed: {e}")
+
+
+
+
+
+
+
+
 
 
 
@@ -4788,7 +9550,39 @@ def upload_to_cos(client, content_bytes, key):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def upload_frontend(client):
+
+
+
+
+
+
+
+
 
 
 
@@ -4804,7 +9598,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
     _fe_dir = os.path.dirname(os.path.abspath(__file__))
+
+
+
+
+
+
+
+
 
 
 
@@ -4820,7 +9630,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
     if os.path.exists(_fe_path):
+
+
+
+
+
+
+
+
 
 
 
@@ -4836,7 +9662,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
             with open(_fe_path, "rb") as _f:
+
+
+
+
+
+
+
+
 
 
 
@@ -4852,7 +9694,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
             upload_to_cos(client, _fe_bytes, "index.html")
+
+
+
+
+
+
+
+
 
 
 
@@ -4868,7 +9726,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
         except Exception as _e:
+
+
+
+
+
+
+
+
 
 
 
@@ -4884,7 +9758,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
     else:
+
+
+
+
+
+
+
+
 
 
 
@@ -4900,7 +9790,23 @@ def upload_frontend(client):
 
 
 
+
+
+
+
+
+
+
+
 def main():
+
+
+
+
+
+
+
+
 
 
 
@@ -4924,7 +9830,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     if not all([DEEPSEEK_API_KEY, COS_SECRET_ID, COS_SECRET_KEY, HOSTING_BUCKET, HOSTING_REGION]):
+
+
+
+
+
+
+
+
 
 
 
@@ -4940,7 +9870,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         sys.exit(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4968,7 +9922,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     # Pinned mode: if the repo carries today's words-data.json (user pinned words on purpose),
+
+
+
+
 
 
 
@@ -4976,7 +9946,15 @@ def main():
 
 
 
+
+
+
+
     _pin_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words-data.json")
+
+
+
+
 
 
 
@@ -4984,7 +9962,15 @@ def main():
 
 
 
+
+
+
+
         try:
+
+
+
+
 
 
 
@@ -4992,7 +9978,15 @@ def main():
 
 
 
+
+
+
+
             _pin_today = [w for w in _pin.get("words", []) if w.get("d") == TODAY]
+
+
+
+
 
 
 
@@ -5000,7 +9994,15 @@ def main():
 
 
 
+
+
+
+
                 log("Pinned words-data.json for TODAY found; uploading as-is (skip generation)")
+
+
+
+
 
 
 
@@ -5008,7 +10010,15 @@ def main():
 
 
 
+
+
+
+
                 upload_to_cos(client, _pb, "words-data.json")
+
+
+
+
 
 
 
@@ -5016,7 +10026,15 @@ def main():
 
 
 
+
+
+
+
                 log("=== DONE (pinned) ===")
+
+
+
+
 
 
 
@@ -5024,7 +10042,15 @@ def main():
 
 
 
+
+
+
+
         except Exception as _e:
+
+
+
+
 
 
 
@@ -5044,13 +10070,36 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     existing_words, existing_data = get_existing_words(client)
+
     # Idempotency guard: if today's 8 words already exist, skip (avoid double-run overwrites).
+
     if existing_data.get("updated_on") == TODAY:
+
         _today_cnt = len([w for w in existing_words if w.get("d") == TODAY])
+
         if _today_cnt == 8:
+
             log(f"Today {TODAY} already has {_today_cnt} words; skipping generation.")
+
             sys.exit(0)
+
     log(f"Existing words: {len(existing_words)}")
 
 
@@ -5067,7 +10116,43 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     recent_set = get_recent_words(existing_words)
+    # 全局去重守卫：把全库已有词（所有历史日期）都并入 avoid 集合，
+    # 让 DeepSeek 尽量不生成任何已经出现过的词（不只最近 14 天）。
+    _all_hist = {w.get("w", "").lower() for w in existing_words if w.get("w")}
+    recent_set = (recent_set or set()) | _all_hist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5099,7 +10184,39 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     news_headlines = fetch_today_news()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5123,7 +10240,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     best = None          # best-effort candidate kept across retries (most words covered)
+
+
+
+
+
+
+
+
 
 
 
@@ -5139,7 +10272,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     for attempt in range(8):
+
+
+
+
+
+
+
+
 
 
 
@@ -5155,7 +10304,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         if validate_quality(r):
+
+
+
+
+
+
+
+
 
 
 
@@ -5171,7 +10336,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             log(f"Quality check passed on attempt {attempt+1}")
+
+
+
+
+
+
+
+
 
 
 
@@ -5187,7 +10368,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         else:
+
+
+
+
+
+
+
+
 
 
 
@@ -5203,7 +10400,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             explain_quality(r)
+
+
+
+
+
+
+
+
 
 
 
@@ -5219,7 +10432,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             if score > best_score:
+
+
+
+
+
+
+
+
 
 
 
@@ -5235,7 +10464,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
                 best = r
+
+
+
+
+
+
+
+
 
 
 
@@ -5251,7 +10496,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         log("WARNING: quality not met after 8 retries; deploying best-effort (forbidden stripped)")
+
+
+
+
+
+
+
+
 
 
 
@@ -5267,7 +10528,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             hook = (best.get("preview") or {}).get("hook") or ""
+
+
+
+
+
+
+
+
 
 
 
@@ -5283,7 +10560,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             result = best
+
+
+
+
+
+
+
+
 
 
 
@@ -5299,7 +10592,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
             log("ERROR: no generation produced at all")
+
+
+
+
+
+
+
+
 
 
 
@@ -5315,7 +10624,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     if not result or not result.get("words"):
+
+
+
+
+
+
+
+
 
 
 
@@ -5331,7 +10656,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         sys.exit(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5355,6 +10704,14 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     log(f"Generated {len(new_words)} new words")
 
 
@@ -5363,7 +10720,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     if len(new_words) != 8:
+
+
+
+
+
+
+
+
 
 
 
@@ -5387,7 +10760,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     output = dict(existing_data) if existing_data else {"words": [], "preview": {}, "story": {}, "quote": {}}
+
+
+
+
+
+
+
+
 
 
 
@@ -5403,6 +10800,14 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     # Replace today's existing words (avoid duplicates when re-running same day)
 
 
@@ -5411,7 +10816,37 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     prev_words = [w for w in existing_words if w.get("d") != TODAY]
+    # ===== 全局去重兜底：今日新词不得与任何历史词重复，也避免今日内部重复 =====
+    _hist_set = {w.get("w", "").lower() for w in prev_words if w.get("w")}
+    _seen = set()
+    _deduped = []
+    for _w in new_words:
+        _k = (_w.get("w") or "").lower()
+        if not _k or _k in _hist_set or _k in _seen:
+            continue
+        _seen.add(_k)
+        _deduped.append(_w)
+    _dropped = len(new_words) - len(_deduped)
+    if _dropped:
+        log(f"Dedup guard: dropped {_dropped} word(s) conflicting with history/duplicate; final today count={len(_deduped)}")
+    new_words = _deduped
+
+
+
+
+
+
+
+
 
 
 
@@ -5427,6 +10862,14 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     output["story"] = result.get("story", output.get("story", {}))
 
 
@@ -5435,7 +10878,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     output["quote"] = result.get("quote", output.get("quote", {}))
+
+
+
+
+
+
+
+
 
 
 
@@ -5459,7 +10918,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # Deterministically rebuild hook and story.en so every today's word that appears in the
+
+
+
+
+
+
+
+
 
 
 
@@ -5475,7 +10958,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     hook = (output["preview"] or {}).get("hook", "")
+
+
+
+
+
+
+
+
 
 
 
@@ -5491,7 +10990,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         output["preview"]["hook"] = build_clean_hook(hook, new_words)
+
+
+
+
+
+
+
+
 
 
 
@@ -5507,7 +11022,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     if impact:
+
+
+
+
+
+
+
+
 
 
 
@@ -5523,7 +11054,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     story_en = ((output.get("story") or {}).get("en") or "")
+
+
+
+
+
+
+
+
 
 
 
@@ -5539,7 +11086,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         marked_en, en_count = build_clean_story_en(story_en, new_words)
+
+
+
+
+
+
+
+
 
 
 
@@ -5555,7 +11118,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         log(f"  story.en markers={en_count}")
+
+
+
+
+
+
+
+
 
 
 
@@ -5571,7 +11150,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     if story_cn:
+
+
+
+
+
+
+
+
 
 
 
@@ -5587,7 +11182,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         output["story"]["cn"] = marked_cn
+
+
+
+
+
+
+
+
 
 
 
@@ -5603,7 +11214,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     # Ensure each word's t field renders as two paragraphs
+
+
+
+
+
+
+
+
 
 
 
@@ -5619,7 +11246,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         if w.get("d") == TODAY and w.get("t"):
+
+
+
+
+
+
+
+
 
 
 
@@ -5635,7 +11278,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     hb = re.findall(r"\[[^\]|]+\|([^\]]+)\]", (output.get("preview") or {}).get("hook", "") or "")
+
+
+
+
+
+
+
+
 
 
 
@@ -5651,7 +11310,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     log(f"Post-build hook markers={len(hb)} unique={len(set(hb))}; story.en markers={len(eb)} unique={len(set(eb))}; story.cn len={len((output.get('story') or {}).get('cn') or '')}")
+
+
+
+
+
+
+
+
 
 
 
@@ -5667,7 +11342,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         log("WARNING: hook marker count is not exactly 8 unique — review build_clean_hook")
+
+
+
+
+
+
+
+
 
 
 
@@ -5691,7 +11382,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
+
+
+
+
+
+
+
+
 
 
 
@@ -5715,11 +11430,47 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # Also push the static frontend so UI edits go live via GitHub push
 
 
 
+
+
+
+
     upload_frontend(client)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5743,6 +11494,14 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     new_quote = result.get("quote", {})
 
 
@@ -5751,7 +11510,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
     if new_quote and new_quote.get("en"):
+
+
+
+
+
+
+
+
 
 
 
@@ -5775,7 +11550,31 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     if success:
+
+
+
+
+
+
+
+
 
 
 
@@ -5791,7 +11590,23 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         sys.exit(0)
+
+
+
+
+
+
+
+
 
 
 
@@ -5807,6 +11622,14 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         log("=== FAILED (upload) ===")
 
 
@@ -5815,7 +11638,39 @@ def main():
 
 
 
+
+
+
+
+
+
+
+
         sys.exit(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5847,7 +11702,23 @@ if __name__ == "__main__":
 
 
 
+
+
+
+
+
+
+
+
     main()
+
+
+
+
+
+
+
+
 
 
 

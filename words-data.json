@@ -696,20 +696,6 @@
       "d": "2026-08-13"
     },
     {
-      "w": "recalibrate",
-      "ph": "/ˌriːˈkælɪbreɪt/",
-      "m": "重新校准；重新调整；重新评估",
-      "c": "econ",
-      "pos": "v.",
-      "en": "to adjust or correct something (e.g., expectations, models, policies) to match new conditions",
-      "col": "recalibrate expectations 重新调整预期 · recalibrate strategy 重新调整策略 · recalibrate the model 重新校准模型",
-      "ex": "After the surprise export data, analysts had to recalibrate their growth forecasts for the year.",
-      "exZh": "在出口数据意外强劲后，分析师不得不重新调整今年的增长预测。",
-      "t": "7月出口同比增超八成，让不少机构连夜[recalibrate|recalibrate]全年GDP预测，把汽车和新能源的拉动权重调高。\n职场里，项目进度一变就 recalibrate your plan，比硬扛更显专业，也更容易获得信任。",
-      "root": "前缀 re-(再次，拉丁 re-) + 词根 calibr(刻度，源自拉丁 calx 石灰，同源 calibrate) → 重新标定刻度 → 重新校准",
-      "d": "2026-08-13"
-    },
-    {
       "w": "surge",
       "ph": "/sɜːrdʒ/",
       "m": "激增；猛涨；汹涌",
@@ -836,20 +822,6 @@
       "d": "2026-08-14"
     },
     {
-      "w": "deploy",
-      "ph": "/dɪˈplɔɪ/",
-      "m": "部署；调集；运用",
-      "c": "work",
-      "pos": "v.",
-      "en": "To move resources, personnel, or assets into position for action; to utilize effectively in a strategic context.",
-      "col": "deploy resources 部署资源 · deploy staff 调配人员 · deploy technology 运用技术",
-      "ex": "The company plans to deploy AI tools across its customer service teams to improve response times.",
-      "exZh": "公司计划在客服团队部署AI工具，以提升响应速度。",
-      "t": "水利部安排部署贾鲁河堤防险情应急处置工作——政府快速 deploy 救援力量与物资，体现了应急管理中的资源调配能力。\n职场中，deploy 常用于项目资源分配，如 deploy a new team（组建新团队）。比 use 更正式、更具策略性，是商务英语高频词。",
-      "root": "源自法语 déployer，来自古法语 despleier，由 des-(反，拉丁) + plier(折叠，拉丁 plicare，同源 ply、complex) → 展开折叠 → 部署、启用。",
-      "d": "2026-08-14"
-    },
-    {
       "w": "lucrative",
       "ph": "/ˈluːkrətɪv/",
       "m": "获利丰厚的；赚钱的",
@@ -861,20 +833,6 @@
       "exZh": "AI行业已成为高薪职业路径，顶尖工程师年薪超过20万美元。",
       "t": "社保基金领投宇树科技，央企扎堆入局，机器人赛道被视作 lucrative 投资方向——大资金追逐高回报，也推高了行业估值。\n职场中，lucrative job（高薪工作）常与 demanding（要求高）并存，暗示高回报伴随高压力。与 profitable 近义，但更强调“油水多”。",
       "root": "源自拉丁语 lucrum（利润，同源 lucrative 的变体），后缀 -ative（形容词后缀，表倾向）→ 带来利润的 → 有利可图的。",
-      "d": "2026-08-14"
-    },
-    {
-      "w": "surge",
-      "ph": "/sɜːdʒ/",
-      "m": "激增；猛涨；汹涌",
-      "c": "econ",
-      "pos": "v./n.",
-      "en": "To increase suddenly and powerfully; a rapid and significant rise, often in prices, demand, or activity.",
-      "col": "surge in demand 需求激增 · price surge 价格飙升 · surge ahead 突飞猛进",
-      "ex": "The surge in gold prices has been driven by investors seeking safe-haven assets amid geopolitical tensions.",
-      "exZh": "在地缘紧张局势下，投资者寻求避险资产，推动金价激增。",
-      "t": "港股AI大模型“双雄”领跌，MiniMax跌超12%，而此前 AI 板块曾经历 demand surge——需求预期激增推动股价暴涨，如今回调，凸显市场情绪波动。\n职场中，surge 可形容工作量激增，如 a surge in workload，提醒你做好时间管理。与 plunge（暴跌）相对，常用于描述市场动量。",
-      "root": "源自拉丁语 surgere（升起，同源 insurrection、source），由 sub-(向上) + regere(引导) 演变 → 向上涌起 → 激增、汹涌。",
       "d": "2026-08-14"
     },
     {
@@ -892,20 +850,6 @@
       "d": "2026-08-14"
     },
     {
-      "w": "tariff",
-      "ph": "/ˈtærɪf/",
-      "m": "关税；税率",
-      "c": "news",
-      "pos": "n.",
-      "en": "A tax imposed on imported or exported goods, often used as a trade policy tool to protect domestic industries.",
-      "col": "impose tariffs 征收关税 · tariff war 关税战 · lift tariffs 取消关税",
-      "ex": "The new tariff on steel imports has raised costs for automakers and sparked retaliation from trading partners.",
-      "exZh": "新的钢铁进口关税提高了汽车制造商成本，并引发贸易伙伴的报复。",
-      "t": "特朗普下令美国新航母弃用电磁弹射系统，虽非直接贸易事件，但反映美国产业政策走向，而关税（tariff）仍是中美贸易博弈的核心工具——外交部敦促美方停止污蔑，贸易摩擦风险未消。\n职场中，tariff 常出现在供应链岗位，如 tariff compliance（关税合规）。与 duty（关税）近义，但 tariff 更侧重政策层面。",
-      "root": "源自意大利语 tariffa，来自阿拉伯语 ta'rif（通知、定义），经由法语 tarif → 税则、费率表 → 关税。",
-      "d": "2026-08-14"
-    },
-    {
       "w": "underpin",
       "ph": "/ˌʌndərˈpɪn/",
       "m": "支撑；巩固；作为基础",
@@ -917,34 +861,6 @@
       "exZh": "强劲的出口需求继续支撑着该地区的经济韧性，尽管面临全球逆风。",
       "t": "7月金融数据显示总量合理、结构向优，信贷投放对实体经济的支持力度仍在，这为下半年经济修复提供了基础支撑。\n职场中，扎实的技能和持续学习是职业发展的underpin，没有这个根基，再好的机会也难长久。",
       "root": "前缀 under-(在下方，古英语) + 词根 pin(钉，拉丁/古英语) → 从下方钉住 → 支撑、巩固",
-      "d": "2026-08-15"
-    },
-    {
-      "w": "headwind",
-      "ph": "/ˈhedwɪnd/",
-      "m": "逆风；不利因素；阻力",
-      "c": "econ",
-      "pos": "n.",
-      "en": "a factor that slows progress or makes success more difficult, especially in economic or business contexts",
-      "col": "face headwinds 面临逆风 · economic headwinds 经济逆风 · headwinds to growth 增长阻力",
-      "ex": "The chip sector faces strong headwinds as trade tensions and supply constraints weigh on earnings.",
-      "exZh": "由于贸易紧张和供应限制拖累盈利，芯片行业面临强劲逆风。",
-      "t": "今日国际油价拉升，布油涨超2%，但美股存储概念走强，闪迪涨超7%，博通跌近6%，显示科技股内部出现分化，部分板块正遭遇结构性headwind。\n职场中，经济下行期跳槽往往面临更多headwind，不如先深耕现有岗位积累筹码。",
-      "root": "head(头，古英语) + wind(风，古英语) → 迎面而来的风 → 逆风、阻力",
-      "d": "2026-08-15"
-    },
-    {
-      "w": "outperform",
-      "ph": "/ˌaʊtpərˈfɔːrm/",
-      "m": "胜过；表现优于",
-      "c": "econ",
-      "pos": "v.",
-      "en": "to perform better than others, especially in financial markets or business competition",
-      "col": "outperform the market 跑赢大盘 · outperform peers 胜过同行 · consistently outperform 持续超越",
-      "ex": "Despite a mixed market, storage-related stocks outperformed, with SanDisk surging over 7%.",
-      "exZh": "尽管市场涨跌互现，存储相关股票表现突出，闪迪大涨逾7%。",
-      "t": "东方财富数据显示，存储概念走强，闪迪涨超7%，而博通跌近6%，板块间表现分化，部分个股明显outperform大盘。\n职场中，那些持续学习新技能的员工往往能在绩效评估中outperform同事，获得更多晋升机会。",
-      "root": "前缀 out-(超越，古英语) + 词根 perform(执行，古法语/拉丁) → 执行得超越他人 → 胜过、表现更优",
       "d": "2026-08-15"
     },
     {
@@ -962,48 +878,6 @@
       "d": "2026-08-15"
     },
     {
-      "w": "deploy",
-      "ph": "/dɪˈplɔɪ/",
-      "m": "部署；调动；运用",
-      "c": "work",
-      "pos": "v.",
-      "en": "to use something effectively, or to move resources, people, or equipment into position for action",
-      "col": "deploy resources 调配资源 · deploy staff 部署人员 · deploy technology 运用技术",
-      "ex": "Companies are deploying AI tools to streamline operations and boost productivity in the workplace.",
-      "exZh": "企业正在部署AI工具，以精简运营并提高职场生产力。",
-      "t": "特朗普证实部署中东的“林肯”号航母将被替换，显示美国在地区军事部署上的调整，同时多部门支持河南应对洪涝灾害，紧急deploy救援力量。\n职场中，管理者需要合理deploy团队成员的技能，让每个人在合适的岗位上发挥最大价值。",
-      "root": "前缀 de-(展开，拉丁) + 词根 ploy(折叠，拉丁 plicare) → 展开折叠之物 → 部署、调动",
-      "d": "2026-08-15"
-    },
-    {
-      "w": "surge",
-      "ph": "/sɜːrdʒ/",
-      "m": "激增；飙升；涌动",
-      "c": "econ",
-      "pos": "n./v.",
-      "en": "a sudden large increase or rush, especially in price, demand, or activity",
-      "col": "price surge 价格飙升 · demand surge 需求激增 · surge in activity 活动激增",
-      "ex": "The summer box office surged past 9.5 billion yuan, driven by a wave of popular releases.",
-      "exZh": "暑期档票房激增突破95亿元，受多部热门影片上映推动。",
-      "t": "2026暑期档电影票房超95亿元，平均票价降低，观影人次明显surge，带动文娱消费回暖。\n职场中，电商大促期间订单量surge，客服团队需要提前排班应对高峰。",
-      "root": "词根 surg(升起，拉丁 surgere) → 向上涌动 → 激增、浪潮",
-      "d": "2026-08-15"
-    },
-    {
-      "w": "momentum",
-      "ph": "/məˈmentəm/",
-      "m": "势头；动力；冲量",
-      "c": "econ",
-      "pos": "n.",
-      "en": "the strength and speed of a developing trend or movement, often in markets or business",
-      "col": "gain momentum 获得势头 · lose momentum 失去动力 · policy momentum 政策动力",
-      "ex": "The rally in storage stocks has gained momentum, lifting the entire sector's sentiment.",
-      "exZh": "存储类股的涨势已获得势头，提振了整个板块的情绪。",
-      "t": "国内汽油柴油价格下调，而国际油价拉升，市场博弈加剧，短期油价波动可能给能源板块带来新的momentum。\n职场中，项目初期建立良好momentum能带动团队士气，后续推进事半功倍。",
-      "root": "词根 moment(瞬间，拉丁 momentum) → 运动中的力量 → 势头、动力",
-      "d": "2026-08-15"
-    },
-    {
       "w": "viable",
       "ph": "/ˈvaɪəbl/",
       "m": "可行的；能存活的",
@@ -1018,34 +892,6 @@
       "d": "2026-08-15"
     },
     {
-      "w": "deploy",
-      "ph": "/dɪˈplɔɪ/",
-      "m": "部署；调集（资源/人员）",
-      "c": "econ",
-      "pos": "v.",
-      "en": "To organize and use resources or people effectively for a purpose, especially in business or military contexts.",
-      "col": "deploy capital 配置资本 · deploy resources 调配资源 · deploy AI 部署AI",
-      "ex": "The company decided to deploy its cash reserves into new energy projects to diversify its portfolio.",
-      "exZh": "公司决定将现金储备部署到新能源项目以分散投资组合。",
-      "t": "今日头条：中国人民银行宣布发行江泽民诞辰100周年纪念币，此举可视为央行在文化领域的一次特殊部署，同时市场关注其对货币流通的影响。\n职场中，管理者常说部署团队，把合适的人放到关键岗位，deploy 比 arrange 更有战略感。",
-      "root": "前缀 de-(向下，拉丁，同源 descend) + 词根 ploy(=fold 折叠，拉丁 plicare，同源 employ) → 向下展开 → 部署、调配",
-      "d": "2026-08-16"
-    },
-    {
-      "w": "surge",
-      "ph": "/sɜːrdʒ/",
-      "m": "激增；飙升",
-      "c": "econ",
-      "pos": "n./v.",
-      "en": "A sudden and large increase in something, such as prices, demand, or activity.",
-      "col": "surge in demand 需求激增 · price surge 价格飙升 · surge capacity 应急能力",
-      "ex": "The summer box office surged past 9.8 billion yuan, driven by blockbuster films and consumer enthusiasm.",
-      "exZh": "暑期档票房突破98亿元，受大片和消费热情推动。",
-      "t": "今日头条：暑期档票房突破98亿元，电影《牛来》票房暴涨1000倍，预测总票房达1837万元，大批股民许愿，市场情绪高涨。\n职场中，项目需求 surge 时，团队需快速调整资源，否则容易 overload。",
-      "root": "词根 surg(=rise 升起，拉丁 surgere，同源 source) → 向上涌起 → 激增、浪潮",
-      "d": "2026-08-16"
-    },
-    {
       "w": "optimize",
       "ph": "/ˈɒptɪmaɪz/",
       "m": "优化；使最优化",
@@ -1057,34 +903,6 @@
       "exZh": "企业正利用AI工具优化供应链，降低运营成本。",
       "t": "今日头条：贵州茅台2026半年净利首现下滑，改革阵痛显现，公司正优化渠道结构，i茅台成核心增长极。\n职场中，优化简历、优化时间管理，都是提升竞争力的关键。",
       "root": "前缀 opt-(选择，拉丁 optare，同源 option) + 后缀 -imize(使动) → 选择最佳 → 优化",
-      "d": "2026-08-16"
-    },
-    {
-      "w": "volatile",
-      "ph": "/ˈvɒlətaɪl/",
-      "m": "不稳定的；易变的",
-      "c": "econ",
-      "pos": "adj.",
-      "en": "Likely to change suddenly and unexpectedly, especially in a negative way; used for markets, prices, or situations.",
-      "col": "volatile market 动荡市场 · volatile prices 波动价格 · volatile situation 动荡局势",
-      "ex": "Oil prices turned volatile after Iran announced a new shipping model for the Strait of Hormuz.",
-      "exZh": "伊朗宣布霍尔木兹海峡通航新模式后，油价变得动荡。",
-      "t": "今日头条：伊朗公布霍尔木兹海峡通航新模式，国际油价下跌，美债出现罕见一幕，市场波动加剧。\n职场中，行业 volatile 时，保持技能更新是稳定职业的良方。",
-      "root": "词根 volat(=fly 飞，拉丁 volare，同源 volley) + 后缀 -ile(易于) → 易飞的 → 易变的、不稳定的",
-      "d": "2026-08-16"
-    },
-    {
-      "w": "resilient",
-      "ph": "/rɪˈzɪliənt/",
-      "m": "有韧性的；能恢复的",
-      "c": "work",
-      "pos": "adj.",
-      "en": "Able to recover quickly from difficulties or changes; robust in the face of adversity.",
-      "col": "resilient economy 韧性经济 · resilient workforce 有韧性的劳动力 · resilient supply chain 弹性供应链",
-      "ex": "Despite the reform pains, Maotai's core business remains resilient, supported by its digital platform.",
-      "exZh": "尽管改革阵痛，茅台核心业务仍具韧性，数字平台提供支撑。",
-      "t": "今日头条：香港上调全年经济增长预期至3.5%-4.5%，多重优势支撑经济向好，展现韧性。\n职场中，resilient 的员工能快速从失败中站起，是团队的中坚。",
-      "root": "前缀 re-(回，拉丁) + 词根 sil(=jump 跳，拉丁 salire，同源 salient) + 后缀 -ient(形容词) → 跳回原状 → 有韧性的",
       "d": "2026-08-16"
     },
     {
@@ -1219,21 +1037,6 @@
       "m": "(n.) 激励，刺激（措施）"
     },
     {
-      "w": "tariff",
-      "ph": "/ˈtærɪf/",
-      "n": "关税；税率表",
-      "c": "politics",
-      "pos": "n.",
-      "en": "A tax imposed on imported or exported goods, often used to protect domestic industries.",
-      "col": "impose tariffs 征收关税 · tariff barriers 关税壁垒 · retaliatory tariffs 报复性关税",
-      "ex": "The US and EU agreed to suspend tariffs on steel and aluminum for a year to ease trade tensions.",
-      "exZh": "美欧同意暂停钢铁和铝关税一年，以缓解贸易紧张。",
-      "t": "2026年中美贸易谈判重启，双方讨论降低部分tariff以缓解供应链成本压力，但高科技领域仍存分歧。\n职场中，tariff可比喻为职业发展的“关卡”，如语言或证书门槛；与quota（配额）常并列出现。",
-      "root": "词根 tariff(阿拉伯语 ta'rif 通知，经法语/意大利语) → 关税表、税率 → 关税",
-      "d": "2026-08-17",
-      "m": "(n.) 关税"
-    },
-    {
       "w": "hinder",
       "ph": "/ˈhɪndər/",
       "v": "阻碍，妨碍",
@@ -1247,67 +1050,6 @@
       "root": "词根 hinder(古英语 hindrian，同源 behind 在后) → 使落在后面 → 阻碍、妨碍",
       "d": "2026-08-17",
       "m": "(v.) 阻碍，妨碍"
-    },
-    {
-      "w": "surge",
-      "ph": "/sɜːrdʒ/",
-      "m": "(数量)激增；(情感)涌起",
-      "c": "econ",
-      "pos": "v.",
-      "en": "to increase suddenly and greatly in number or amount; to rise quickly",
-      "defs": [
-        {
-          "cn": "(数量)激增",
-          "en": "to increase suddenly and greatly, e.g. demand or prices",
-          "pos": "v."
-        },
-        {
-          "cn": "(情感)涌起",
-          "en": "to rise strongly, as of emotions or waves",
-          "pos": "v."
-        },
-        {
-          "cn": "(股市)急涨",
-          "en": "to rise rapidly in value, as stocks",
-          "pos": "v."
-        }
-      ],
-      "col": "surge in demand 需求激增 · price surge 价格急涨 · surge ahead 领先激增",
-      "ex": "The summer box office surged past 10 billion yuan, driven by domestic hits like 'Welcome to the Dragon Restaurant'.",
-      "exZh": "暑期档票房激增突破百亿，由《欢迎来龙餐馆》等国产片带动。",
-      "ex2": "A surge in AI-related stocks lifted the tech sector even as the broader market fell.",
-      "ex2Zh": "尽管大盘下跌，AI相关股票的激增提振了科技板块。",
-      "t": "今日头条：国产片助力暑期档票房破百亿，『票房 surge』成为市场热点。华泰证券解读7月经济数据，财政亟需加大宽松力度，市场对刺激政策预期 surge。\n职场中，项目需求 surge 时，要优先排序，避免过度承诺。",
-      "root": "源自古法语 sourdre (涌出) + 拉丁语 surgere (升起) → 向上涌 → 激增、涌起",
-      "d": "2026-08-18"
-    },
-    {
-      "w": "deploy",
-      "ph": "/dɪˈplɔɪ/",
-      "m": "部署；调集(资源/人员)",
-      "c": "econ",
-      "pos": "v.",
-      "en": "to arrange and use resources or people effectively; to put into action",
-      "defs": [
-        {
-          "cn": "部署；调集",
-          "en": "to move troops or resources into position for action",
-          "pos": "v."
-        },
-        {
-          "cn": "应用；施展",
-          "en": "to use something effectively, e.g. skills or technology",
-          "pos": "v."
-        }
-      ],
-      "col": "deploy resources 部署资源 · deploy troops 调兵 · deploy AI 应用AI",
-      "ex": "The company plans to deploy AI tools across its supply chain to cut costs and boost efficiency.",
-      "exZh": "公司计划在供应链中部署AI工具，以降低成本、提高效率。",
-      "ex2": "The central bank deployed new liquidity measures to stabilize the currency after the CNH slipped.",
-      "ex2Zh": "央行部署新的流动性措施，以在离岸人民币下跌后稳定汇率。",
-      "t": "今日头条：公安部网安局公布14起涉企网络谣言案例，企业需 deploy 舆情应对策略。同时，宇树科技上市在即，市场关注其如何 deploy 募资。\n职场：面对新项目，先 deploy 团队优势，再谈执行。",
-      "root": "源自法语 déployer (展开) + 拉丁语 displicare (fold out) → 展开 → 部署、应用",
-      "d": "2026-08-18"
     },
     {
       "w": "resilience",
@@ -1335,90 +1077,6 @@
       "ex2Zh": "随着AI重塑职场，职业韧性比以往更重要。",
       "t": "今日头条：华泰证券解读7月经济数据，强调财政需加大宽松，经济 resilience 面临考验。同时，美股AI板块逆势走强，显示市场韧性。\n职场：面对裁员潮，提升技能是增强个人 resilience 的关键。",
       "root": "源自拉丁语 resilire (跳回) → re- (回) + salire (跳) → 跳回 → 恢复力、韧性",
-      "d": "2026-08-18"
-    },
-    {
-      "w": "disruptive",
-      "ph": "/dɪsˈrʌptɪv/",
-      "m": "颠覆性的；破坏性的",
-      "c": "work",
-      "pos": "adj.",
-      "en": "causing disruption; innovative in a way that changes an industry",
-      "defs": [
-        {
-          "cn": "颠覆性的",
-          "en": "innovative, radically changing an industry or market",
-          "pos": "adj."
-        },
-        {
-          "cn": "破坏性的",
-          "en": "causing disorder or interruption",
-          "pos": "adj."
-        }
-      ],
-      "col": "disruptive technology 颠覆性技术 · disruptive innovation 颠覆性创新 · disruptive behavior 破坏性行为",
-      "ex": "Unitree's upcoming IPO highlights how disruptive robotics are transforming manufacturing and logistics.",
-      "exZh": "宇树科技即将上市，凸显了颠覆性机器人技术正在改变制造和物流。",
-      "ex2": "Remote work has been disruptive to traditional office culture, forcing firms to adapt.",
-      "ex2Zh": "远程办公对传统办公室文化具有颠覆性，迫使企业适应。",
-      "t": "今日头条：宇树科技上市在即，其 disruptive 机器人技术引发市场关注，或改变行业格局。同时，AI板块逆势走强，体现 disruptive innovation 的力量。\n职场：拥抱 disruptive 变化，主动学习新技能，才能不被淘汰。",
-      "root": "源自拉丁语 disrumpere (打破) → dis- (分开) + rumpere (断裂) → 打破 → 颠覆性的",
-      "d": "2026-08-18"
-    },
-    {
-      "w": "outperform",
-      "ph": "/ˌaʊtpərˈfɔːrm/",
-      "m": "胜过；表现优于",
-      "c": "econ",
-      "pos": "v.",
-      "en": "to perform better than someone or something else",
-      "defs": [
-        {
-          "cn": "胜过；表现优于",
-          "en": "to achieve better results than a benchmark or competitor",
-          "pos": "v."
-        },
-        {
-          "cn": "超越预期",
-          "en": "to exceed expectations in performance",
-          "pos": "v."
-        }
-      ],
-      "col": "outperform the market 跑赢大盘 · outperform peers 优于同行 · consistently outperform 持续表现优异",
-      "ex": "AI stocks outperformed the broader market on Monday, driven by three positive catalysts despite a bond selloff.",
-      "exZh": "周一，尽管美债遭抛售，AI股票在三大利好推动下跑赢大盘。",
-      "ex2": "Employees who upskill tend to outperform their peers in performance reviews.",
-      "ex2Zh": "提升技能的员工在绩效评估中往往胜过同事。",
-      "t": "今日头条：美股收盘，美债抛售拖累大盘，但AI板块三大利好推动逆势走强，outperform 大盘。华泰证券指出，财政宽松预期或让周期股 outperform。\n职场：持续学习让你在团队中 outperform，获得晋升机会。",
-      "root": "古英语 ofer (超过) + 拉丁语 performare (完成) → 超过完成 → 表现优于",
-      "d": "2026-08-18"
-    },
-    {
-      "w": "volatile",
-      "ph": "/ˈvɒlətaɪl/",
-      "m": "不稳定的；易变的；挥发性的",
-      "c": "econ",
-      "pos": "adj.",
-      "en": "likely to change suddenly and unexpectedly, especially in a negative way",
-      "defs": [
-        {
-          "cn": "不稳定的；易变的",
-          "en": "prone to rapid and unpredictable changes, as markets",
-          "pos": "adj."
-        },
-        {
-          "cn": "挥发性的",
-          "en": "evaporating quickly, as a chemical",
-          "pos": "adj."
-        }
-      ],
-      "col": "volatile market 动荡市场 · volatile oil prices 波动油价 · volatile situation 多变局势",
-      "ex": "The offshore yuan remained relatively stable, but global markets stayed volatile amid trade uncertainty.",
-      "exZh": "离岸人民币相对稳定，但贸易不确定性下全球市场仍动荡。",
-      "ex2": "In a volatile job market, adaptability is a prized skill.",
-      "ex2Zh": "在动荡的就业市场中，适应能力是宝贵技能。",
-      "t": "今日头条：美股收盘，美债抛售拖累大盘，市场情绪 volatile。同时，特朗普缩减美韩军演引猜测，地缘风险加剧市场波动。\n职场：面对 volatile 的经济环境，保持现金流健康是生存之道。",
-      "root": "源自拉丁语 volatilis (飞行的) → volare (飞) → 易飞散 → 易变的、挥发性的",
       "d": "2026-08-18"
     },
     {
@@ -1607,138 +1265,6 @@
       "ex2Zh": "公司常用奖金激励团队达成季度目标。",
       "t": "财政部全面升级促消费贴息政策，将信用卡分期纳入支持，目的就是 incentivize 消费者增加支出，拉动内需。同时，财政支出更多转向“投资于人”，意在 incentivize 人力资本提升。\n职场中，好的 leader 懂得用成长机会而非单纯加薪来 incentivize 年轻员工。",
       "root": "词根 incent(源于拉丁 incendere 点燃, 同源 incentive) + 后缀 -ize(动词化) → 点燃内在动力 → 激励",
-      "d": "2026-08-21"
-    },
-    {
-      "w": "mandate",
-      "ph": "/ˈmændeɪt/",
-      "m": "(政府)授权；强制执行",
-      "c": "politics",
-      "pos": "n.",
-      "en": "an official order or authorization to do something",
-      "defs": [
-        {
-          "cn": "(政府)授权",
-          "en": "an official authorization to act",
-          "pos": "n."
-        },
-        {
-          "cn": "强制执行",
-          "en": "a compulsory requirement",
-          "pos": "n."
-        },
-        {
-          "cn": "选民授权",
-          "en": "a political mandate from voters",
-          "pos": "n."
-        }
-      ],
-      "col": "mandate from voters 选民授权 · legal mandate 法律授权 · policy mandate 政策指令",
-      "ex": "The central bank's mandate includes maintaining price stability while supporting growth.",
-      "exZh": "央行的职责包括在支持增长的同时维持物价稳定。",
-      "ex2": "The new environmental code translation project was carried out under a legislative mandate.",
-      "ex2Zh": "新环境法典翻译项目是在立法授权下进行的。",
-      "t": "全国人大常委会法工委开展法律翻译工作已近40年，生态环境法典英文版公布，这体现了立法机构在对外传播法治经验上的 mandate。央行在通胀与增长间的权衡，也常被描述为 policy mandate 的博弈。\n职场中，接到 mandate 就要执行，但聪明的员工会先确认边界，避免越权。",
-      "root": "词根 mand(命令, 拉丁, 同源 command) + 后缀 -ate(名词化) → 命令 → 授权、指令",
-      "d": "2026-08-21"
-    },
-    {
-      "w": "surge",
-      "ph": "/sɜːdʒ/",
-      "m": "激增；急剧上升",
-      "c": "econ",
-      "pos": "n.",
-      "en": "a sudden and large increase in something, often in price, demand, or activity",
-      "defs": [
-        {
-          "cn": "激增",
-          "en": "a sudden large increase",
-          "pos": "n."
-        },
-        {
-          "cn": "急剧上升",
-          "en": "a rapid upward movement",
-          "pos": "n."
-        },
-        {
-          "cn": "浪潮",
-          "en": "a powerful wave or rush",
-          "pos": "n."
-        }
-      ],
-      "col": "surge in demand 需求激增 · price surge 价格飙升 · surge in popularity 人气暴涨",
-      "ex": "Gold prices saw a surge this month, with jewelry prices rising over 100 yuan per gram.",
-      "exZh": "本月金价激增，金饰每克涨超100元。",
-      "ex2": "The robot sector experienced a valuation surge after Unitree's market cap hit 440 billion yuan.",
-      "ex2Zh": "在宇树市值达4400亿元后，机器人板块估值激增。",
-      "t": "金饰克价月内涨超100元，金价反弹背后是避险情绪 surge 和央行购金。宇树科技市值达4400亿元，人形机器人板块迎来定价重估，市场对具身智能的热情 surge，但泡沫担忧也随之而来。\n职场中，项目需求 surge 时，要优先排序，避免 burnout。",
-      "root": "词根 surg(升起, 拉丁, 同源 surge) → 原指浪涛涌起 → 引申为数量、价格的激增",
-      "d": "2026-08-21"
-    },
-    {
-      "w": "deploy",
-      "ph": "/dɪˈplɔɪ/",
-      "m": "部署；调集(资源/人员)",
-      "c": "work",
-      "pos": "v.",
-      "en": "to use something or someone effectively, often in a strategic manner",
-      "defs": [
-        {
-          "cn": "部署",
-          "en": "to position troops or resources for action",
-          "pos": "v."
-        },
-        {
-          "cn": "调集(资源/人员)",
-          "en": "to bring resources into effective use",
-          "pos": "v."
-        },
-        {
-          "cn": "运用(技术)",
-          "en": "to implement or apply technology",
-          "pos": "v."
-        }
-      ],
-      "col": "deploy resources 部署资源 · deploy technology 运用技术 · deploy staff 调配人员",
-      "ex": "The company plans to deploy AI-powered robots in its new warehouse to handle order surges.",
-      "exZh": "公司计划在新仓库部署AI机器人以应对订单激增。",
-      "ex2": "Governments deploy fiscal tools to stabilize the economy during downturns.",
-      "ex2Zh": "政府在经济下行时部署财政工具以稳定经济。",
-      "t": "深圳华强北的科创企业正 deploy 机器人技术，从整机研发到场景落地，竞逐世界机器人大会。财政部也在 deploy 财政资源，全面升级促消费贴息政策，将信用卡分期纳入支持。\n职场中，deploy 你的核心技能到最关键的任务上，才能最大化价值。",
-      "root": "前缀 de-(展开, 拉丁, 同源 detail) + 词根 ploy(折叠, 拉丁, 同源 employ) → 展开折叠 → 部署、调度",
-      "d": "2026-08-21"
-    },
-    {
-      "w": "resilient",
-      "ph": "/rɪˈzɪliənt/",
-      "m": "有韧性的；能迅速恢复的",
-      "c": "econ",
-      "pos": "adj.",
-      "en": "able to recover quickly from difficulties or withstand shocks",
-      "defs": [
-        {
-          "cn": "有韧性的",
-          "en": "able to recover quickly from setbacks",
-          "pos": "adj."
-        },
-        {
-          "cn": "能迅速恢复的",
-          "en": "capable of bouncing back",
-          "pos": "adj."
-        },
-        {
-          "cn": "有弹性的",
-          "en": "flexible and adaptive",
-          "pos": "adj."
-        }
-      ],
-      "col": "resilient economy 有韧性的经济 · resilient supply chain 韧性的供应链 · resilient mindset 坚韧心态",
-      "ex": "The Chinese economy remains resilient despite global trade tensions and rising interest rates.",
-      "exZh": "尽管全球贸易紧张和利率上升，中国经济仍具韧性。",
-      "ex2": "A resilient workforce can adapt quickly to new technologies and market shifts.",
-      "ex2Zh": "有韧性的劳动力能快速适应新技术和市场变化。",
-      "t": "尽管全球贸易摩擦不断，中国经济在促消费政策支持下展现 resilient 特质，内需成为稳定器。厦门推进制度型开放，也增强了外贸企业的 resilient 供应链。\n职场中，resilient 的员工面对裁员潮也能快速转型，学习新技能。",
-      "root": "前缀 re-(回, 拉丁, 同源 return) + 词根 sil(跳, 拉丁, 同源 salient) + 后缀 -ient(形容词) → 能跳回 → 有弹性的、韧性的",
       "d": "2026-08-21"
     },
     {

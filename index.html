@@ -1779,9 +1779,9 @@
     if(currentView==='fav' && type==='fav' && removed) renderFav();
     else if(currentView==='hard' && type==='hard' && removed) renderHard();
   }
-  document.getElementById('wdFav').addEventListener('click', function(){ toggleMark(this); });
-  document.getElementById('wdHard').addEventListener('click', function(){ toggleMark(this); });
-  // 兼容移动端 touchend（部分浏览器 click 不冒泡）
+  // 注：wdFav/wdHard 带 data-mark，已由下方全局委托统一处理（点击一次只 toggle 一次）。
+  // 此前给 #wdFav/#wdHard 加的 click 直接绑定会导致桌面端「直接绑定+全局委托」双重触发，
+  // 点一下=收藏+取消，表现为"点了没反应"。仅保留 touchend 供移动端使用。
   document.getElementById('wdFav').addEventListener('touchend', function(e){ e.preventDefault(); toggleMark(this); });
   document.getElementById('wdHard').addEventListener('touchend', function(e){ e.preventDefault(); toggleMark(this); });
 

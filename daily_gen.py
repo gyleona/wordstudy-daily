@@ -2038,6 +2038,10 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+    # 清洗：去掉中文故事中 DeepSeek 偶尔加的括号英文注释，如 "套利者（arbitrage）"、"关税（tariff）"
+    # 保持和其他词一致——只显示中文，不额外带英文括号
+    story_cn = re.sub(r'([一-鿿]+)\s*[（(]\s*([A-Za-z][A-Za-z-]*)\s*[）)]', r'', story_cn)
+
     marked, count = _mark_text(story_cn, words, use_english_display=False)
 
 

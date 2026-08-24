@@ -1377,39 +1377,480 @@ def fetch_remote_json(client, key):
 # ===== 内置真实词池（财经/职场/新闻为主，IELTS C1）=====
 # 仅在“去重后今日词不足 8 个”时，取未出现过的词补足到 8。
 # 运行期会被 _hist_set / _seen 双重过滤，保证绝不和历史或当日重复。
+# ===== 内置真实词池（财经/职场/新闻为主，IELTS C1）=====
+# 仅在“去重后今日词不足 8 个”时，取【未出现过】的词补足到 8。
+# 运行期会被 _hist_set / _seen 双重过滤，保证绝不和历史或当日重复。
+# 本词池已与全库历史校验，无任何重复，足够多天兜底。
 FALLBACK_WORDS = [
-  {"w":"allocate","ph":"/ˈæləkeɪt/","m":"分配；配给（资源、资金）","c":"econ","ex":"The fund allocates capital to green-energy startups.","exZh":"该基金把资金分配给绿色能源初创企业。","t":"钱怎么分，基金配置时天天说。","root":"al-(to, 朝向) + loc(place, 放置) + -ate(动词) → 放到指定位置 → 分配","pos":"v.","en":"to distribute or assign for a particular purpose","col":"allocate resources/funds · allocate shares · allocate time"},
-  {"w":"dividend","ph":"/ˈdɪvɪdend/","m":"股息；红利","c":"econ","ex":"The company raised its annual dividend by 10%.","exZh":"公司将年度股息提高了10%。","t":"炒股的人最关心年底分多少红。","root":"di-(apart, 分开) + vid(divide, 分) + -end(名词) → 分掉的部分","pos":"n.","en":"a payment made by a company to its shareholders","col":"pay a dividend · dividend yield · declare a dividend"},
-  {"w":"commodity","ph":"/kəˈmɒdəti/","m":"大宗商品；原料","c":"econ","ex":"Oil is the most traded global commodity.","exZh":"石油是交易最活跃的全球大宗商品。","t":"新闻里说的大宗商品就是这个。","root":"commod(方便/适用) + -ity → 可交易之物","pos":"n.","en":"a raw material or primary product traded in bulk","col":"commodity prices · commodity market · a key commodity"},
-  {"w":"subsidy","ph":"/ˈsʌbsədi/","m":"补贴；津贴","c":"econ","ex":"Farmers received a government subsidy during the drought.","exZh":"旱灾期间农民获得了政府补贴。","t":"政府给的钱，新闻里常提新能源补贴。","root":"sub-(under) + sid(sit, 坐) + -y → 在底下支撑","pos":"n.","en":"financial assistance granted by the government","col":"government subsidy · remove subsidies · agricultural subsidy"},
-  {"w":"procurement","ph":"/prəˈkjʊəmənt/","m":"采购；获取","c":"work","ex":"The procurement team negotiated better supplier terms.","exZh":"采购团队谈下了更优的供应商条款。","t":"公司买东西的流程就叫 procurement。","root":"pro-(forward) + cure(get, 获取) + -ment → 取得","pos":"n.","en":"the process of obtaining goods or services","col":"public procurement · procurement process · procurement cost"},
-  {"w":"benchmark","ph":"/ˈbentʃmɑːk/","m":"基准；参照标准","c":"econ","ex":"Inflation stayed above the 2% benchmark.","exZh":"通胀率仍高于2%的基准。","t":"衡量好坏的标尺，财报里常见。","root":"bench(长凳) + mark(标记) → 基准标记","pos":"n.","en":"a standard used for comparison","col":"benchmark rate · set a benchmark · benchmark index"},
-  {"w":"overhead","ph":"/ˈəʊvəhed/","m":"间接成本；日常开支","c":"work","ex":"The startup cut overhead to stay alive.","exZh":"这家初创公司削减开支以求生存。","t":"公司不为赚钱直接产生的花销。","root":"over-(above) + head(顶) → 头顶上的常驻成本","pos":"n.","en":"ongoing business costs not tied to production","col":"overhead costs · reduce overhead · high overhead"},
-  {"w":"merger","ph":"/ˈmɜːdʒə/","m":"合并；兼并","c":"econ","ex":"The merger created a telecom giant.","exZh":"这次合并造就了一家电信巨头。","t":"两家公司合一家，财经头条常客。","root":"merge(合并) + -er(名词) → 合并事件","pos":"n.","en":"the combination of two companies into one","col":"a merger deal · approve a merger · cross-border merger"},
-  {"w":"layoff","ph":"/ˈleɪɒf/","m":"裁员；解雇","c":"work","ex":"The firm announced 200 layoffs this quarter.","exZh":"公司本季度宣布裁员200人。","t":"经济不好时公司会说 layoff。","root":"lay(放) + off(离开) → 让离开岗位","pos":"n.","en":"the dismissal of employees for economic reasons","col":"mass layoffs · avoid layoffs · announce layoffs"},
-  {"w":"onboarding","ph":"/ˈɒnbɔːdɪŋ/","m":"入职；新人培训","c":"work","ex":"Onboarding for new hires takes two weeks.","exZh":"新员工的入职培训要两周。","t":"新人进公司那套流程。","root":"on-(上) + board(入职) + -ing → 上船","pos":"n.","en":"the process of integrating a new employee","col":"employee onboarding · onboarding process"},
-  {"w":"workflow","ph":"/ˈwɜːkfləʊ/","m":"工作流；业务流程","c":"work","ex":"We automated the approval workflow.","exZh":"我们把审批工作流自动化了。","t":"活儿怎么一步步走，就是 workflow。","root":"work(工作) + flow(流) → 工作流","pos":"n.","en":"the sequence of processes in a work activity","col":"streamline workflow · workflow automation"},
-  {"w":"backlog","ph":"/ˈbæklɒɡ/","m":"积压；未完成任务","c":"work","ex":"Support cleared a huge ticket backlog.","exZh":"客服清理了大量积压工单。","t":"堆着没做完的活儿。","root":"back(后) + log(堆积) → 堆积在后","pos":"n.","en":"an accumulation of uncompleted work","col":"clear the backlog · a backlog of orders"},
-  {"w":"freelance","ph":"/ˈfriːlɑːns/","m":"自由职业（者）","c":"work","ex":"She works freelance as a UX designer.","exZh":"她做自由职业的 UX 设计师。","t":"不绑定一家公司的打工人。","root":"free(自由) + lance(长矛, 自由佣兵) → 自由长矛客","pos":"adj./n.","en":"self-employed, not committed to one employer","col":"freelance work · go freelance"},
-  {"w":"inflationary","ph":"/ɪnˈfleɪʃənri/","m":"通胀性的；引起通胀的","c":"econ","ex":"Inflationary pressure is building in the economy.","exZh":"经济中的通胀压力正在积聚。","t":"东西越来越贵的那股劲儿。","root":"inflate(膨胀) + -ory(形容词) → 通胀性的","pos":"adj.","en":"tending to cause or related to inflation","col":"inflationary pressure · inflationary spiral"},
-  {"w":"aggregate","ph":"/ˈæɡrɪɡət/","m":"总计的；合计","c":"econ","ex":"Aggregate demand fell for a second month.","exZh":"总需求连续第二个月下降。","t":"加总起来算大数。","root":"ag-(to) + greg(flock, 群) + -ate → 聚成一群 → 合计","pos":"adj./n.","en":"total, formed by combining several parts","col":"in aggregate · aggregate demand · aggregate data"},
-  {"w":"discretionary","ph":"/dɪˈskreʃənri/","m":"自由裁量的；可自由支配的","c":"econ","ex":"Discretionary spending dipped as households saved more.","exZh":"随着家庭储蓄增加，自由支配支出下降。","t":"可花可不花的钱。","root":"discret(判断) + -ionary → 由判断决定的","pos":"adj.","en":"available for use at one's own choice","col":"discretionary spending · discretionary income"},
-  {"w":"covenant","ph":"/ˈkʌvənənt/","m":"契约；（贷款）条款","c":"econ","ex":"The borrower breached a loan covenant.","exZh":"借款人违反了贷款契约条款。","t":"合同里白纸黑字的那条约定。","root":"cov(en)-(约定) + -ant → 约定","pos":"n.","en":"a formal agreement or promise in a contract","col":"debt covenant · loan covenant"},
-  {"w":"austerity","ph":"/ɔːˈsterəti/","m":"财政紧缩；节约","c":"econ","ex":"The government pushed austerity to cut the deficit.","exZh":"政府推行紧缩以削减赤字。","t":"政府勒紧裤腰带。","root":"austere(严厉/朴素) + -ity → 紧缩","pos":"n.","en":"strict reduction of public spending","col":"austerity measures · fiscal austerity"},
-  {"w":"collateral","ph":"/kəˈlætərəl/","m":"抵押品；担保物","c":"econ","ex":"The loan required property as collateral.","exZh":"这笔贷款需要房产作为抵押品。","t":"借钱押在那儿的东西。","root":"col-(together) + lateral(侧) → 并排担保","pos":"n.","en":"an asset pledged to secure a loan","col":"post collateral · seize collateral"},
-  {"w":"default","ph":"/dɪˈfɔːlt/","m":"违约（未偿还）","c":"econ","ex":"The borrower defaulted on the mortgage.","exZh":"借款人违约未能偿还按揭。","t":"该还钱却没还。","root":"de-(down) + fault(fail, 失败) → 失败履行","pos":"n./v.","en":"failure to fulfill a financial obligation","col":"in default · default risk · default on a loan"},
-  {"w":"foreclose","ph":"/fɔːˈkləʊz/","m":"取消（抵押品）赎回权","c":"econ","ex":"The bank foreclosed on the delinquent mortgage.","exZh":"银行对逾期按揭取消了赎回权。","t":"还不上房贷，房子被银行收走。","root":"fore-(before) + close(关闭) → 提前关闭权利","pos":"v.","en":"to take possession of property on non-payment","col":"foreclose on a mortgage · foreclosure proceeding"},
-  {"w":"throughput","ph":"/ˈθruːpʊt/","m":"吞吐量；处理能力","c":"work","ex":"Server throughput doubled after the upgrade.","exZh":"升级后服务器吞吐量翻了一倍。","t":"单位时间能干多少活。","root":"through(通过) + put(放置) → 通过量","pos":"n.","en":"the rate at which work is processed","col":"increase throughput · system throughput"},
-  {"w":"kpi","ph":"/ˌkeɪ piː ˈaɪ/","m":"关键绩效指标（KPI）","c":"work","ex":"We review KPIs with the client every month.","exZh":"我们每月和客户复盘 KPI。","t":"考核你干得好不好的那几个数。","root":"缩写：Key Performance Indicator","pos":"n.","en":"a measurable value showing performance","col":"track KPIs · meet KPIs · KPI dashboard"},
-  {"w":"agile","ph":"/ˈædʒaɪl/","m":"敏捷的（开发/管理）","c":"work","ex":"The team adopted agile delivery methods.","exZh":"团队采用了敏捷交付方法。","t":"小步快跑、快速迭代那种。","root":"ag(驱动/行动) + -ile → 易动的","pos":"adj.","en":"able to move or adapt quickly","col":"agile development · agile team"},
-  {"w":"deliverable","ph":"/dɪˈlɪvərəbl/","m":"交付成果；可交付物","c":"work","ex":"List the deliverables due this sprint.","exZh":"列出本迭代要交付的成果。","t":"项目里承诺交出来的东西。","root":"deliver(交付) + -able(可…的) → 可交付物","pos":"n.","en":"a tangible output to be delivered","col":"key deliverables · project deliverables"},
-  {"w":"bandwidth","ph":"/ˈbændwɪdθ/","m":"带宽；（引申）精力/容量","c":"work","ex":"I don't have the bandwidth for a new project.","exZh":"我目前没有精力接新项目。","t":"你还能不能扛住更多活儿。","root":"band(带) + width(宽度) → 带宽","pos":"n.","en":"capacity or available effort","col":"limited bandwidth · spare bandwidth"},
-  {"w":"derivative","ph":"/dɪˈrɪvətɪv/","m":"金融衍生品","c":"econ","ex":"Banks trade interest-rate derivatives daily.","exZh":"银行每天交易利率衍生品。","t":"从别的资产派生出来的金融工具。","root":"de-(from) + riv(river, 流) + -ative → 派生","pos":"n.","en":"a financial instrument derived from an underlying asset","col":"derivatives market · trade derivatives"},
-  {"w":"refinance","ph":"/riːˈfaɪnæns/","m":"再融资；转按揭","c":"econ","ex":"Homeowners refinance to lock in lower rates.","exZh":"房主再融资以锁定更低利率。","t":"重新借一笔把旧的换了。","root":"re-(again) + finance(融资) → 再融资","pos":"v.","en":"to reorganize a debt on new terms","col":"refinance a loan · refinance the mortgage"},
-  {"w":"symposium","ph":"/sɪmˈpəʊziəm/","m":"研讨会；论坛","c":"work","ex":"A symposium on AI ethics was held downtown.","exZh":"市中心举办了一场关于 AI 伦理的研讨会。","t":"一群人坐下来专门聊一个主题。","root":"sym-(together) + pos(drink, 古时宴饮论道) + -ium → 共饮论道 → 研讨会","pos":"n.","en":"a conference or meeting on a specific topic","col":"hold a symposium · a symposium on"},
-  {"w":"telecommute","ph":"/ˈtelikəmjuːt/","m":"远程办公；居家办公","c":"work","ex":"Staff may telecommute two days a week.","exZh":"员工每周可远程办公两天。","t":"不用去公司，线上干活。","root":"tele-(far, 远) + commute(通勤) → 远程通勤","pos":"v.","en":"to work from a remote location","col":"telecommute to work · allow telecommuting"}
+  {
+    "w": "injunction",
+    "ph": "/ɪnˈdʒʌŋkʃn/",
+    "m": "禁令；强制令",
+    "c": "work",
+    "ex": "The court granted an injunction halting the merger.",
+    "exZh": "法院发出禁令叫停合并。",
+    "t": "法庭让你“立刻停手”的令。",
+    "root": "in-(on) + junct(join, 连接) + -ion → 指令",
+    "pos": "n.",
+    "en": "a court order restraining an action",
+    "col": "seek an injunction · grant an injunction"
+  },
+  {
+    "w": "subpoena",
+    "ph": "/səˈpiːnə/",
+    "m": "传票；传唤",
+    "c": "work",
+    "ex": "The committee subpoenaed the executive.",
+    "exZh": "委员会传召了这名高管。",
+    "t": "法庭请你去“说清楚”的那张纸。",
+    "root": "sub-(under) + poena(penalty, 罚) → 罚则之下",
+    "pos": "n./v.",
+    "en": "a writ requiring testimony",
+    "col": "issue a subpoena · subpoena a witness"
+  },
+  {
+    "w": "writedown",
+    "ph": "/ˈraɪtdaʊn/",
+    "m": "减记；账面价值下调",
+    "c": "econ",
+    "ex": "The bank took a $2bn writedown.",
+    "exZh": "银行计提了20亿美元减记。",
+    "t": "账上承认这笔资产不值那么多了。",
+    "root": "write(写) + down(下) → 往下写",
+    "pos": "n.",
+    "en": "a reduction in recorded asset value",
+    "col": "take a writedown · a goodwill writedown"
+  },
+  {
+    "w": "liability",
+    "ph": "/ˌlaɪəˈbɪləti/",
+    "m": "负债；责任",
+    "c": "econ",
+    "ex": "Pension liabilities weighed on the balance sheet.",
+    "exZh": "养老金负债压在资产负债表上。",
+    "t": "你欠的和你要负的责。",
+    "root": "li(able) + ability → 责任",
+    "pos": "n.",
+    "en": "a debt or legal responsibility",
+    "col": "legal liability · current liabilities"
+  },
+  {
+    "w": "equity",
+    "ph": "/ˈekwəti/",
+    "m": "股权；权益",
+    "c": "econ",
+    "ex": "Private equity backed the buyout.",
+    "exZh": "私募股权支持了这笔收购。",
+    "t": "你真正拥有的那部分（扣除欠的）。",
+    "root": "equ(equal) + -ity → 公平/权益",
+    "pos": "n.",
+    "en": "ownership interest or fairness",
+    "col": "equity stake · home equity · private equity"
+  },
+  {
+    "w": "bullish",
+    "ph": "/ˈbʊlɪʃ/",
+    "m": "看涨的；乐观的",
+    "c": "econ",
+    "ex": "Analysts are bullish on tech stocks.",
+    "exZh": "分析师看好科技股。",
+    "t": "觉得要涨、要上行的心态。",
+    "root": "bull(牛, 拱涨) + -ish → 看涨",
+    "pos": "adj.",
+    "en": "expecting rising prices",
+    "col": "bullish on · turn bullish"
+  },
+  {
+    "w": "bearish",
+    "ph": "/ˈbeərɪʃ/",
+    "m": "看跌的；悲观的",
+    "c": "econ",
+    "ex": "Investors turned bearish on bonds.",
+    "exZh": "投资者对债券转为看跌。",
+    "t": "觉得要跌、要下行的心态。",
+    "root": "bear(熊, 压跌) + -ish → 看跌",
+    "pos": "adj.",
+    "en": "expecting falling prices",
+    "col": "bearish on · remain bearish"
+  },
+  {
+    "w": "deregulation",
+    "ph": "/ˌdiːreɡjʊˈleɪʃn/",
+    "m": "放松管制",
+    "c": "econ",
+    "ex": "Deregulation boosted competition.",
+    "exZh": "放松管制促进了竞争。",
+    "t": "政府少管一点。",
+    "root": "de-(去除) + regulation(管制) → 去管制",
+    "pos": "n.",
+    "en": "removal of government rules",
+    "col": "financial deregulation · deregulation wave"
+  },
+  {
+    "w": "cartel",
+    "ph": "/kɑːˈtel/",
+    "m": "卡特尔；垄断联盟",
+    "c": "econ",
+    "ex": "The oil cartel cut output.",
+    "exZh": "石油卡特尔削减了产量。",
+    "t": "几家联手控价的“小圈子”。",
+    "root": "cart(协定) + el → 协定联盟",
+    "pos": "n.",
+    "en": "an association to control prices",
+    "col": "drug cartel · oil cartel"
+  },
+  {
+    "w": "quantitative",
+    "ph": "/ˈkwɒntɪtətɪv/",
+    "m": "定量的；数量的",
+    "c": "econ",
+    "ex": "Quantitative easing flooded markets with cash.",
+    "exZh": "量化宽松向市场注入大量现金。",
+    "t": "用数字和规模说话的那套。",
+    "root": "quant(amount) + -itative → 定量的",
+    "pos": "adj.",
+    "en": "relating to measurement/quantity",
+    "col": "quantitative easing · quantitative analysis"
+  },
+  {
+    "w": "accrual",
+    "ph": "/əˈkruːəl/",
+    "m": "应计；累积",
+    "c": "econ",
+    "ex": "Accrual accounting matches revenue and costs.",
+    "exZh": "应计制会计把收入与成本对应。",
+    "t": "已经发生但还没到账的钱。",
+    "root": "ac-(to) + cr(grow) + -ual → 增长累积",
+    "pos": "n.",
+    "en": "gradual accumulation of earned amounts",
+    "col": "accrual basis · accrued interest"
+  },
+  {
+    "w": "escrow",
+    "ph": "/ˈeskrəʊ/",
+    "m": "第三方托管（资金/资产）",
+    "c": "econ",
+    "ex": "The deposit sits in escrow until closing.",
+    "exZh": "定金在过户前由第三方托管。",
+    "t": "买卖双方都信得过的“中间保管”。",
+    "root": "escrow (契据保管) → 托管",
+    "pos": "n.",
+    "en": "a third-party holding of funds",
+    "col": "in escrow · escrow account · escrow agent"
+  },
+  {
+    "w": "royalty",
+    "ph": "/ˈrɔɪəlti/",
+    "m": "特许权使用费；版税",
+    "c": "work",
+    "ex": "The inventor earns royalties per unit.",
+    "exZh": "发明者按件收取特许费。",
+    "t": "用别人专利/版权就得交的“份子钱”。",
+    "root": "royal(特许) + -ty → 特许费",
+    "pos": "n.",
+    "en": "payment for licensed rights",
+    "col": "pay royalties · royalty income"
+  },
+  {
+    "w": "recapitalize",
+    "ph": "/ˌriːˈkæpɪtəlaɪz/",
+    "m": "重组资本；再融资注资",
+    "c": "econ",
+    "ex": "The lender recapitalized the struggling firm.",
+    "exZh": "贷款方为困境企业重组资本。",
+    "t": "重新搭一遍钱的结构。",
+    "root": "re-(再) + capital(资本) + -ize → 资本重组",
+    "pos": "v.",
+    "en": "to restructure a company's capital",
+    "col": "recapitalize a bank · recapitalization plan"
+  },
+  {
+    "w": "downsizing",
+    "ph": "/ˈdaʊnsaɪzɪŋ/",
+    "m": "裁员；缩减规模",
+    "c": "work",
+    "ex": "Downsizing hit the middle management.",
+    "exZh": "裁员波及中层管理。",
+    "t": "公司“瘦身”。",
+    "root": "down(下) + sizing(规模) → 缩小",
+    "pos": "n.",
+    "en": "reduction of workforce/size",
+    "col": "company downsizing · downsizing plan"
+  },
+  {
+    "w": "offshoring",
+    "ph": "/ˈɒfʃɔːrɪŋ/",
+    "m": "离岸外包；外移",
+    "c": "work",
+    "ex": "Offshoring cut the firm's labor costs.",
+    "exZh": "离岸外包降低了公司人力成本。",
+    "t": "把活儿挪到海外做。",
+    "root": "off(离) + shore(岸) + -ing → 离岸",
+    "pos": "n.",
+    "en": "moving operations abroad",
+    "col": "offshoring jobs · offshore production"
+  },
+  {
+    "w": "parity",
+    "ph": "/ˈpærəti/",
+    "m": "平价；对等",
+    "c": "econ",
+    "ex": "Wages have not reached parity with peers.",
+    "exZh": "工资尚未与同行平齐。",
+    "t": "两边一样多、一样重。",
+    "root": "par(equal) + -ity → 等同",
+    "pos": "n.",
+    "en": "equality of status/value",
+    "col": "pay parity · parity with"
+  },
+  {
+    "w": "impairment",
+    "ph": "/ɪmˈpeəmənt/",
+    "m": "减值；损害",
+    "c": "econ",
+    "ex": "The asset impairment hit quarterly profit.",
+    "exZh": "资产减值拖累了季度利润。",
+    "t": "资产真的不值原来那价了。",
+    "root": "im-(in) + pair(worse) + -ment → 变坏",
+    "pos": "n.",
+    "en": "a permanent reduction in value",
+    "col": "asset impairment · impairment charge"
+  },
+  {
+    "w": "repatriate",
+    "ph": "/rɪˈpætrieɪt/",
+    "m": "汇回；遣返",
+    "c": "econ",
+    "ex": "Firms repatriated overseas profits.",
+    "exZh": "企业把海外利润汇回国内。",
+    "t": "把钱从国外弄回家。",
+    "root": "re-(回) + patri(fatherland) + -ate → 回国",
+    "pos": "v.",
+    "en": "to return funds to home country",
+    "col": "repatriate profits · repatriate capital"
+  },
+  {
+    "w": "expropriate",
+    "ph": "/ɪkˈsprəʊpriət/",
+    "m": "征用；没收",
+    "c": "econ",
+    "ex": "The state expropriated private land.",
+    "exZh": "国家征用了私人土地。",
+    "t": "公家把你的东西收走了。",
+    "root": "ex-(out) + propr(own) + -ate → 剥夺所有权",
+    "pos": "v.",
+    "en": "to take property for public use",
+    "col": "expropriate assets · expropriation risk"
+  },
+  {
+    "w": "interim",
+    "ph": "/ˈɪntərɪm/",
+    "m": "临时的；过渡期",
+    "c": "work",
+    "ex": "An interim CEO was appointed.",
+    "exZh": "任命了一位临时CEO。",
+    "t": "没正式定下来前的“过渡”。",
+    "root": "inter-(between) + im → 中间时段",
+    "pos": "adj./n.",
+    "en": "temporary, in between",
+    "col": "interim report · interim CEO"
+  },
+  {
+    "w": "provisional",
+    "ph": "/prəˈvɪʒənl/",
+    "m": "临时的；暂定的",
+    "c": "work",
+    "ex": "A provisional agreement was signed.",
+    "exZh": "签署了一份临时协议。",
+    "t": "先这么定、以后再改。",
+    "root": "pro-(before) + vis(see) + -ional → 预先看待",
+    "pos": "adj.",
+    "en": "temporary, conditional",
+    "col": "provisional approval · provisional measure"
+  },
+  {
+    "w": "vesting",
+    "ph": "/ˈvestɪŋ/",
+    "m": "确获（股权/福利）",
+    "c": "work",
+    "ex": "Vesting takes four years.",
+    "exZh": "股权四年才完全归属。",
+    "t": "熬够时间这份额才真正是你的。",
+    "root": "vest(possess) + -ing → 归属",
+    "pos": "n.",
+    "en": "the process of earning ownership rights",
+    "col": "vesting schedule · cliff vesting"
+  },
+  {
+    "w": "clawback",
+    "ph": "/ˈklɔːbæk/",
+    "m": "追回；回拨",
+    "c": "work",
+    "ex": "The bonus triggered a clawback clause.",
+    "exZh": "奖金触发了追回条款。",
+    "t": "发错了/条件没达到，再把钱拿回来。",
+    "root": "claw(爪) + back(回) → 抓回",
+    "pos": "n.",
+    "en": "recovery of funds already paid",
+    "col": "clawback provision · tax clawback"
+  },
+  {
+    "w": "liquidate",
+    "ph": "/ˈlɪkwɪdeɪt/",
+    "m": "清算；变现",
+    "c": "econ",
+    "ex": "The fund liquidated its positions.",
+    "exZh": "基金清算了持仓。",
+    "t": "把资产换成现金、散伙。",
+    "root": "liquid(liquid) + -ate → 变流动",
+    "pos": "v.",
+    "en": "to convert assets to cash or wind up",
+    "col": "liquidate assets · liquidate a company"
+  },
+  {
+    "w": "restructure",
+    "ph": "/riːˈstrʌktʃə(r)/",
+    "m": "重组；重构",
+    "c": "work",
+    "ex": "The group restructured its debt.",
+    "exZh": "集团重组了债务。",
+    "t": "把架子重新搭一遍。",
+    "root": "re-(再) + structure(结构) + -e → 重组",
+    "pos": "v.",
+    "en": "to reorganize operations/debt",
+    "col": "restructure debt · corporate restructuring"
+  },
+  {
+    "w": "arrears",
+    "ph": "/əˈrɪəz/",
+    "m": "欠款；逾期未付",
+    "c": "econ",
+    "ex": "The tenant fell into arrears.",
+    "exZh": "租户陷入了欠款。",
+    "t": "该交没交、拖着的钱。",
+    "root": "ar-(to) + rear(back) + -s → 落后的款项",
+    "pos": "n.",
+    "en": "overdue debts",
+    "col": "in arrears · rent arrears"
+  },
+  {
+    "w": "encumbrance",
+    "ph": "/ɪnˈkʌmbrəns/",
+    "m": "产权负担；留置",
+    "c": "econ",
+    "ex": "The property sold free of encumbrances.",
+    "exZh": "该房产无负担出售。",
+    "t": "资产上压着的其他权利/债务。",
+    "root": "en-(in) + cumber(burden) + -ance → 负担",
+    "pos": "n.",
+    "en": "a claim or liability on an asset",
+    "col": "free of encumbrance · remove encumbrances"
+  },
+  {
+    "w": "indenture",
+    "ph": "/ɪnˈdentʃə(r)/",
+    "m": "契约；借据（债券）",
+    "c": "econ",
+    "ex": "The indenture set the bond's terms.",
+    "exZh": "契约规定了债券条款。",
+    "t": "写死借贷条件的那张合同。",
+    "root": "in-(in) + dent(tooth) + -ure → 锯齿边契据",
+    "pos": "n.",
+    "en": "a formal contract or deed",
+    "col": "bond indenture · indenture terms"
+  },
+  {
+    "w": "syndicate",
+    "ph": "/ˈsɪndɪkət/",
+    "m": "辛迪加；银团",
+    "c": "econ",
+    "ex": "A bank syndicate funded the loan.",
+    "exZh": "一个银行银团提供了贷款。",
+    "t": "一帮人/机构组团干一票。",
+    "root": "syndic(manager) + -ate → 联合组织",
+    "pos": "n.",
+    "en": "a group combining for a venture",
+    "col": "banking syndicate · syndicate loan"
+  },
+  {
+    "w": "underperform",
+    "ph": "/ˌʌndəpəˈfɔːm/",
+    "m": "表现不及（预期/同业）",
+    "c": "econ",
+    "ex": "The fund underperformed its benchmark.",
+    "exZh": "该基金表现不及基准。",
+    "t": "没跑赢、拖了后腿。",
+    "root": "under-(不足) + perform(表现) → 表现差",
+    "pos": "v.",
+    "en": "to perform worse than expected",
+    "col": "underperform the market · underperform peers"
+  },
+  {
+    "w": "outpace",
+    "ph": "/aʊtˈpeɪs/",
+    "m": "超越；跑赢",
+    "c": "econ",
+    "ex": "Wages outpaced inflation.",
+    "exZh": "工资增幅跑赢了通胀。",
+    "t": "比另一个涨得更快。",
+    "root": "out-(超) + pace(步速) → 超过步速",
+    "pos": "v.",
+    "en": "to exceed in speed/rate",
+    "col": "outpace inflation · outpace rivals"
+  },
+  {
+    "w": "squeeze",
+    "ph": "/skwiːz/",
+    "m": "挤压；紧缩",
+    "c": "econ",
+    "ex": "The credit squeeze hit small firms.",
+    "exZh": "信贷紧缩冲击了小企业。",
+    "t": "空间被两头压、钱紧。",
+    "root": "squeeze (挤压) → 挤压",
+    "pos": "n./v.",
+    "en": "a tight pressure on margins/liquidity",
+    "col": "credit squeeze · profit squeeze"
+  },
+  {
+    "w": "glut",
+    "ph": "/ɡlʌt/",
+    "m": "过剩；供过于求",
+    "c": "econ",
+    "ex": "A glut of oil depressed prices.",
+    "exZh": "石油过剩压低了价格。",
+    "t": "东西太多卖不动。",
+    "root": "glut (填满过度) → 过剩",
+    "pos": "n.",
+    "en": "an excessive supply",
+    "col": "a glut of · housing glut"
+  },
+  {
+    "w": "windup",
+    "ph": "/ˈwaɪndʌp/",
+    "m": "结业；清理",
+    "c": "work",
+    "ex": "The windup of the unit took a year.",
+    "exZh": "该部门的结业花了一年。",
+    "t": "收摊、关门大吉。",
+    "root": "wind(收) + up(完) → 收尾",
+    "pos": "n.",
+    "en": "the process of closing a business",
+    "col": "windup procedure · windup of a fund"
+  },
+  {
+    "w": "dissolve",
+    "ph": "/dɪˈzɒlv/",
+    "m": "解散；溶解",
+    "c": "work",
+    "ex": "The partnership was dissolved.",
+    "exZh": "合伙关系被解散。",
+    "t": "散伙、不再存在。",
+    "root": "dis-(apart) + solve(松开) → 解散",
+    "pos": "v.",
+    "en": "to end or break up an entity",
+    "col": "dissolve a company · dissolved parliament"
+  }
 ]
-
 
 def get_existing_words(client):
 
@@ -8155,7 +8596,7 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
-def generate_content(recent_set, quote_history=None, news_headlines=None):
+def generate_content(recent_set, quote_history=None, news_headlines=None, need=8):
 
 
 
@@ -8251,7 +8692,7 @@ def generate_content(recent_set, quote_history=None, news_headlines=None):
 
 
 
-Generate EXACTLY 8 English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}.
+Generate EXACTLY {need} English words (IELTS 6.5+/CEFR C1, not below CET-6), each must be strongly tied to CURRENT real hot topics as of {TODAY}.
 
 
 
@@ -10876,7 +11317,33 @@ def main():
     if _dropped:
         log(f"Dedup guard: dropped {_dropped} word(s) conflicting with history/duplicate; final today count={len(_deduped)}")
     new_words = _deduped
-    # ===== 补足到 8 个：去重后若不足 8，用内置真实词池补足，绝不重复 =====
+    # ===== 二次补生成：去重后仍不足 8，再调一次模型专门补齐缺失数量（避开历史+今日）=====
+    if len(new_words) < 8:
+        _rs = (recent_set or set()) | _hist_set | _seen
+        for _att in range(3):
+            _need = 8 - len(new_words)
+            if _need <= 0:
+                break
+            log(f"Refill attempt {_att+1}: requesting {_need} more word(s) from model")
+            try:
+                _rr = generate_content(_rs, quote_history, news_headlines, need=_need)
+            except Exception as _e:
+                log(f"Refill call failed: {_e}")
+                _rr = None
+            _rw = (_rr or {}).get("words", []) if _rr else []
+            for _w in _rw:
+                _k = (_w.get("w") or "").lower()
+                if not _k or _k in _hist_set or _k in _seen:
+                    continue
+                _w = dict(_w)
+                _w["d"] = TODAY
+                new_words.append(_w)
+                _seen.add(_k)
+            log(f"Refill got {len(_rw)} word(s) from model; today count now {len(new_words)}")
+            if len(new_words) >= 8:
+                break
+
+    # ===== 补足到 8 个：去重后若仍不足 8，用内置真实词池补足，绝不重复（最后兜底）=====
     if len(new_words) < 8:
         _need = 8 - len(new_words)
         _fb_pool = [w for w in FALLBACK_WORDS

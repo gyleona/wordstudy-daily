@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-08-21",
+  "updated_on": "2026-08-24",
   "quote": {
-    "en": "Steady hands turn economic tides into career momentum.",
-    "zh": "稳健之手能将经济浪潮化为职场动力。"
+    "en": "Steady learning turns trade storms into career momentum.",
+    "zh": "持续学习将贸易风暴转化为职业动力。"
   },
   "story": {
-    "en": "China's finance ministry unveiled a package to [buoy|buoy] consumption, expanding subsidy policies to include credit-card installments and shifting fiscal spending toward 'investing in people.' The move aims to [consolidate|consolidate] fragmented incentives and [streamline|streamline] approval processes, incentivizing households to spend more. Meanwhile, gold prices surged over 100 yuan per gram this month, reflecting safe-haven demand, while the robotics sector saw a valuation [surge|surge] after Unitree's market cap hit 440 billion yuan, prompting a pricing recalibration. In the workplace, companies [deploy|deploy] AI tools to streamline operations, and workers are urged to be [resilient|resilient] amid rapid change. The central bank's [mandate|mandate] to balance growth and inflation remains a key focus. As China's economy shows resilience, the path forward hinges on effective policy deployment.",
-    "cn": "今日市场被三条线索牵动。其一，财政部发布会宣布全面升级促消费贴息政策，信用卡分期纳入支持，财政支出更多转向“投资于人”，意在提振内需，用补贴[激励|incentivize]消费。其二，金价反弹，金饰克价月内涨超100元，避险情绪[激增|surge]；宇树科技市值狂欢后，机器人板块迎来定价重估，行业进入整合期。其三，职场与科技：企业加速[部署|deploy]AI工具以精简流程，深圳华强北科创企业竞逐机器人大会，员工被要求更具韧性。央行在增长与通胀间[授权|mandate]权衡，政策空间有限，但经济展现韧性，机会藏在分化里。"
+    "en": "Trade tensions flared as US-Canada talks collapsed, with President Trump threatening new tariffs on Canadian goods. Meanwhile, US long-term Treasury yields climbed, prompting analysts to warn that the global monetary cycle may [tighten|tighten], reshaping asset allocation. On the tech front, embodied AI is surging: Galbot and Yuejiang are battling over 'brain' tech, while Qiyuan Robot began mass deliveries, aiming to deploy robots as ubiquitous as smartphones. The 2026 summer box office surpassed 11.5 billion yuan, showing consumer resilience. In the workplace, firms optimize workflows with AI, but disruptive changes demand upskilling. As markets recalibrate, the new benchmark is adaptability.",
+    "cn": "今日市场被三条线索牵动。其一是贸易与货币政策：美加谈崩，特朗普威胁加征关税，同时美债收益率攀升，全球货币周期或转向紧缩，资产配置逻辑深刻变化，投资者需重新设定基准。其二是科技与产业：具身智能赛道激战，银河通用、越疆争夺“大脑”技术，启元机器人开启量产交付，机器人将像手机一样普及，这股颠覆性浪潮正重塑职场。其三是消费与韧性：暑期档票房超115亿，尽显消费韧性；企业加速部署AI以优化流程，员工被迫升级技能。三条主线交织，机会藏在分化里。"
   },
   "words": [
     {
@@ -2036,10 +2036,445 @@
       "en": "a measurable value showing performance",
       "col": "track KPIs · meet KPIs · KPI dashboard",
       "d": "2026-08-21"
+    },
+    {
+      "w": "arbitrage",
+      "ph": "/ˈɑːrbɪtrɑːʒ/",
+      "m": "套利；利用价差获利",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the practice of buying and selling assets in different markets to profit from price differences",
+      "defs": [
+        {
+          "cn": "套利；利用价差获利",
+          "en": "profiting from price differences between markets",
+          "pos": "n."
+        },
+        {
+          "cn": "套利交易",
+          "en": "a transaction exploiting price discrepancies",
+          "pos": "n."
+        },
+        {
+          "cn": "（比喻）利用机会",
+          "en": "exploiting any disparity for gain",
+          "pos": "n."
+        }
+      ],
+      "col": "arbitrage opportunity 套利机会 · regulatory arbitrage 监管套利 · risk arbitrage 风险套利",
+      "ex": "As gold hit a three-month high, traders sought arbitrage between spot and futures prices, driving volume up sharply.",
+      "exZh": "金价创三个月新高，交易员在现货与期货间寻求套利，成交量激增。",
+      "ex2": "In the office, she spotted an arbitrage in workflow—delegating routine tasks freed her for strategic projects.",
+      "ex2Zh": "在办公室，她发现了工作流程中的套利机会——把常规任务委派出去，腾出时间做战略项目。",
+      "t": "今日国际金价从年内低点反弹15%创三个月新高，市场热议去年一幕重演，投机资金在现货、期货与ETF间寻找arbitrage机会，价差波动放大。\n职场里也可用：把精力从低价值琐事挪到高回报任务，就是一种time arbitrage（时间套利）。",
+      "root": "源自法语 arbitrage（仲裁、裁决），词根 arbit(r)（判断，拉丁 arbitrari，同源 arbiter 仲裁者）→ 通过判断价差获利 → 套利",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "convene",
+      "ph": "/kənˈviːn/",
+      "m": "召集；召开（会议）",
+      "c": "news",
+      "pos": "v.",
+      "en": "to bring people together for a meeting or assembly; to call a meeting",
+      "defs": [
+        {
+          "cn": "召集；召开（会议）",
+          "en": "to call together for a formal meeting",
+          "pos": "v."
+        },
+        {
+          "cn": "集合；聚集",
+          "en": "to come together in a group",
+          "pos": "v."
+        }
+      ],
+      "col": "convene a meeting 召开会议 · convene a summit 召开峰会 · convene a panel 召集专家组",
+      "ex": "The 26th China International Fair for Investment and Trade convened its second organizing committee meeting in Xiamen to finalize plans.",
+      "exZh": "第二十六届中国国际投资贸易洽谈会组委会第二次会议在厦门召开，敲定方案。",
+      "ex2": "To address the Q3 slowdown, the CEO convened an emergency town hall with all department heads.",
+      "exZh2": "为应对三季度放缓，CEO 召集全体部门负责人开紧急大会。",
+      "t": "第二十六届中国国际投资贸易洽谈会组委会第二次工作会议在厦门召开，48家央企首次组团参展世界机器人大会也同期举行，各类行业峰会密集convene，为招商与科技合作搭建平台。\n职场高频：project kickoff 时 leader 会convene a brief stand-up（召集短站会），比 call a meeting 更正式。",
+      "root": "前缀 con-(一起，拉丁，同源 connect) + 词根 ven(来，拉丁 venire，同源 venue/event) → 走到一起 → 召集会议",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "facilitate",
+      "ph": "/fəˈsɪlɪteɪt/",
+      "m": "促进；使便利",
+      "c": "work",
+      "pos": "v.",
+      "en": "to make an action or process easier; to help bring about",
+      "defs": [
+        {
+          "cn": "促进；使便利",
+          "en": "to make easier or help bring about",
+          "pos": "v."
+        },
+        {
+          "cn": "协助；推动",
+          "en": "to assist in a process or event",
+          "pos": "v."
+        }
+      ],
+      "col": "facilitate trade 促进贸易 · facilitate communication 促进沟通 · facilitate a workshop 主持工作坊",
+      "ex": "The investment fair aims to facilitate cross-border capital flows, drawing 48 central enterprises to showcase robotics.",
+      "exZh": "投洽会旨在促进跨境资本流动，48家央企展示机器人技术。",
+      "ex2": "A good manager facilitates collaboration by removing bottlenecks rather than micromanaging every step.",
+      "exZh2": "好的管理者通过消除瓶颈促进协作，而非微观管理每一步。",
+      "t": "第二十六届投洽会在厦门召开，旨在facilitate全球资本与项目对接，48家央企组团参展世界机器人大会，全链条布局新技术，招商与科技协同推进。\n职场中，PM 的核心角色就是facilitate跨部门协作（促进协作），让信息流动顺畅。",
+      "root": "词根 facil(容易，拉丁 facilis，同源 facile) + 后缀 -itate(使动，拉丁 -itare) → 使容易 → 促进",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "implement",
+      "ph": "/ˈɪmplɪment/",
+      "m": "实施；执行（计划/政策）",
+      "c": "work",
+      "pos": "v.",
+      "en": "to put a decision, plan, or policy into effect",
+      "defs": [
+        {
+          "cn": "实施；执行（计划/政策）",
+          "en": "to put into effect a plan or policy",
+          "pos": "v."
+        },
+        {
+          "cn": "落实；贯彻",
+          "en": "to carry out a task or requirement",
+          "pos": "v."
+        }
+      ],
+      "col": "implement a strategy 实施战略 · implement reforms 推行改革 · implement a system 上线系统",
+      "ex": "Firms are racing to implement AI tools in procurement and HR, a shift that could reshape the workplace by 2027.",
+      "exZh": "企业竞相在采购和人事中实施 AI 工具，这一转变可能在2027年前重塑职场。",
+      "ex2": "After months of planning, the team finally implemented the new remote-work policy.",
+      "exZh2": "经过数月规划，团队终于实施了新的远程办公政策。",
+      "t": "48家央企参展世界机器人大会，展示全链条布局，企业加速implement自动化方案；同时国际金价反弹，投资策略转向高息股与创新药，管理层需把决策快速implement落地。\n职场高频：计划再好，不implement就是纸上谈兵，执行力是关键。",
+      "root": "源自拉丁 implementum（填充物），词根 ple(填满，拉丁 plere，同源 complete) → 装满工具 → 执行",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "agile",
+      "ph": "/ˈædʒaɪl/",
+      "m": "敏捷的（开发/管理）",
+      "c": "work",
+      "ex": "The team adopted agile delivery methods.",
+      "exZh": "团队采用了敏捷交付方法。",
+      "t": "小步快跑、快速迭代那种。",
+      "root": "ag(驱动/行动) + -ile → 易动的",
+      "pos": "adj.",
+      "en": "able to move or adapt quickly",
+      "col": "agile development · agile team",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "deliverable",
+      "ph": "/dɪˈlɪvərəbl/",
+      "m": "交付成果；可交付物",
+      "c": "work",
+      "ex": "List the deliverables due this sprint.",
+      "exZh": "列出本迭代要交付的成果。",
+      "t": "项目里承诺交出来的东西。",
+      "root": "deliver(交付) + -able(可…的) → 可交付物",
+      "pos": "n.",
+      "en": "a tangible output to be delivered",
+      "col": "key deliverables · project deliverables",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "bandwidth",
+      "ph": "/ˈbændwɪdθ/",
+      "m": "带宽；（引申）精力/容量",
+      "c": "work",
+      "ex": "I don't have the bandwidth for a new project.",
+      "exZh": "我目前没有精力接新项目。",
+      "t": "你还能不能扛住更多活儿。",
+      "root": "band(带) + width(宽度) → 带宽",
+      "pos": "n.",
+      "en": "capacity or available effort",
+      "col": "limited bandwidth · spare bandwidth",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "derivative",
+      "ph": "/dɪˈrɪvətɪv/",
+      "m": "金融衍生品",
+      "c": "econ",
+      "ex": "Banks trade interest-rate derivatives daily.",
+      "exZh": "银行每天交易利率衍生品。",
+      "t": "从别的资产派生出来的金融工具。",
+      "root": "de-(from) + riv(river, 流) + -ative → 派生",
+      "pos": "n.",
+      "en": "a financial instrument derived from an underlying asset",
+      "col": "derivatives market · trade derivatives",
+      "d": "2026-08-22"
+    },
+    {
+      "w": "retaliate",
+      "ph": "/rɪˈtælieɪt/",
+      "m": "报复；反制",
+      "c": "news",
+      "pos": "v.",
+      "en": "to return an attack or harm against someone who has done something bad to you",
+      "defs": [
+        {
+          "cn": "报复；反击",
+          "en": "to return an attack or harm against someone",
+          "pos": "v."
+        },
+        {
+          "cn": "（贸易）反制",
+          "en": "to impose countermeasures in a trade dispute",
+          "pos": "v."
+        },
+        {
+          "cn": "报复性行为",
+          "en": "to act in a way that punishes another",
+          "pos": "v."
+        }
+      ],
+      "col": "retaliate against 对…反制 · retaliatory tariffs 报复性关税 · threaten to retaliate 威胁报复",
+      "ex": "After Canada suspended trade talks with the US, it moved to retaliate with matching countermeasures on key exports.",
+      "exZh": "加拿大暂停与美国的贸易谈判后，对关键出口商品实施对等反制。",
+      "ex2": "In the workplace, an employee who feels unfairly treated may retaliate by withholding cooperation, which harms team morale.",
+      "ex2Zh": "在职场中，感到不公的员工可能以不配合来报复，损害团队士气。",
+      "t": "今日头条：加拿大宣布暂停加美贸易谈判并实施对等反制，贸易紧张骤然升温，市场担忧报复性关税将冲击双边贸易。\n职场中，若员工感到被不公平对待，也可能 retaliate，但成熟的做法是用沟通化解，而非以牙还牙。",
+      "root": "前缀 re-(回，拉丁，同源 return) + 词根 tali(=talio 同害报复法，拉丁) + 后缀 -ate(动词，拉丁) → 以同样方式回击 → 报复、反制",
+      "d": "2026-08-23"
+    },
+    {
+      "w": "refinance",
+      "ph": "/riːˈfaɪnæns/",
+      "m": "再融资；转按揭",
+      "c": "econ",
+      "ex": "Homeowners refinance to lock in lower rates.",
+      "exZh": "房主再融资以锁定更低利率。",
+      "t": "重新借一笔把旧的换了。",
+      "root": "re-(again) + finance(融资) → 再融资",
+      "pos": "v.",
+      "en": "to reorganize a debt on new terms",
+      "col": "refinance a loan · refinance the mortgage",
+      "d": "2026-08-23"
+    },
+    {
+      "w": "symposium",
+      "ph": "/sɪmˈpəʊziəm/",
+      "m": "研讨会；论坛",
+      "c": "work",
+      "ex": "A symposium on AI ethics was held downtown.",
+      "exZh": "市中心举办了一场关于 AI 伦理的研讨会。",
+      "t": "一群人坐下来专门聊一个主题。",
+      "root": "sym-(together) + pos(drink, 古时宴饮论道) + -ium → 共饮论道 → 研讨会",
+      "pos": "n.",
+      "en": "a conference or meeting on a specific topic",
+      "col": "hold a symposium · a symposium on",
+      "d": "2026-08-23"
+    },
+    {
+      "w": "telecommute",
+      "ph": "/ˈtelikəmjuːt/",
+      "m": "远程办公；居家办公",
+      "c": "work",
+      "ex": "Staff may telecommute two days a week.",
+      "exZh": "员工每周可远程办公两天。",
+      "t": "不用去公司，线上干活。",
+      "root": "tele-(far, 远) + commute(通勤) → 远程通勤",
+      "pos": "v.",
+      "en": "to work from a remote location",
+      "col": "telecommute to work · allow telecommuting",
+      "d": "2026-08-23"
+    },
+    {
+      "w": "tighten",
+      "ph": "/ˈtaɪtn/",
+      "m": "收紧；使更严格；拉紧",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to make or become tighter, stricter, or more constrained",
+      "defs": [
+        {
+          "cn": "收紧",
+          "en": "to make more strict or controlled",
+          "pos": "v."
+        },
+        {
+          "cn": "拉紧",
+          "en": "to make physically taut",
+          "pos": "v."
+        },
+        {
+          "cn": "使（政策）紧缩",
+          "en": "to implement austerity or restrictive policy",
+          "pos": "v."
+        }
+      ],
+      "col": "tighten monetary policy 收紧货币政策 · tighten rules 收紧规则 · tighten the belt 勒紧腰带",
+      "ex": "US long-term Treasury yields are climbing, and analysts suggest the global monetary cycle may tighten, reshaping asset allocation.",
+      "exZh": "美国长期国债收益率攀升，分析师认为全球货币周期可能收紧，重塑资产配置。",
+      "ex2": "The central bank decided to tighten lending rules to cool the overheating property market.",
+      "ex2Zh": "央行决定收紧贷款规则，为过热楼市降温。",
+      "t": "美国长期国债收益率攀升，券商研判全球货币周期或转向紧缩，流动性收紧将影响全球资产配置。职场中，预算收紧时，团队需优先核心项目。\n记忆：tighten 由 tight（紧的）+ -en（使动后缀）构成，类似 widen、lengthen。",
+      "root": "来自古英语 thight（紧的），加后缀 -en（使动，同源：darken、strengthen）。从物理拉紧引申为政策严控。",
+      "d": "2026-08-24"
+    },
+    {
+      "w": "appreciation",
+      "ph": "/əˌpriːʃiˈeɪʃn/",
+      "m": "增值；升值",
+      "c": "econ",
+      "d": "2026-08-23",
+      "ex": "Currency appreciation squeezed exporters' margins.",
+      "exZh": "货币升值压缩了出口商的利润空间。",
+      "t": "钱或资产更值钱了。",
+      "root": "ap-(to, 朝向) + preci(value, 价值) + -ation(名词) → 价值提升",
+      "pos": "n.",
+      "en": "an increase in value",
+      "col": "currency appreciation · capital appreciation · asset appreciation"
+    },
+    {
+      "w": "amortize",
+      "ph": "/əˈmɔːtaɪz/",
+      "m": "摊销；分期偿还",
+      "c": "econ",
+      "d": "2026-08-23",
+      "ex": "The company amortizes its patent over ten years.",
+      "exZh": "公司把专利在十年内摊销。",
+      "t": "一笔大钱分多年慢慢消化。",
+      "root": "a-(to) + mort(death, 死亡) + -ize(动词) → 让债务逐渐“死掉”→ 分期还清",
+      "pos": "v.",
+      "en": "to gradually pay off a debt or write off an asset over time",
+      "col": "amortize a loan · amortize costs · amortize goodwill"
+    },
+    {
+      "w": "stipulate",
+      "ph": "/ˈstɪpjuleɪt/",
+      "m": "规定；约定",
+      "c": "work",
+      "d": "2026-08-23",
+      "ex": "The agreement stipulates a 60-day notice period.",
+      "exZh": "协议规定60天通知期。",
+      "t": "把条件白纸黑字写死。",
+      "root": "stip(约定) + -ate(动词) → 规定",
+      "pos": "v.",
+      "en": "to state as a required condition",
+      "col": "stipulate that · as stipulated · stipulate a term"
+    },
+    {
+      "w": "underwrite",
+      "ph": "/ˈʌndəraɪt/",
+      "m": "承保；包销；担保",
+      "c": "econ",
+      "d": "2026-08-23",
+      "ex": "Banks underwrote the bond issuance.",
+      "exZh": "银行承销了这次债券发行。",
+      "t": "你敢兜底的那种“我担保”。",
+      "root": "under-(在…下) + write(写) → 在名下签字担保",
+      "pos": "v.",
+      "en": "to agree to finance, guarantee, or take on risk",
+      "col": "underwrite a bond · underwriter · underwrite risk"
+    },
+    {
+      "w": "portfolio",
+      "ph": "/pɔːtˈfəʊliəʊ/",
+      "m": "投资组合；作品集",
+      "c": "econ",
+      "d": "2026-08-24",
+      "ex": "She rebalanced her investment portfolio.",
+      "exZh": "她重新平衡了投资组合。",
+      "t": "你手里那篮子资产。",
+      "root": "port(carry, 携带) + folio(sheet, 单子) → 随身单据 → 投资组合",
+      "pos": "n.",
+      "en": "a set of investments held by a person or fund",
+      "col": "investment portfolio · portfolio manager · diversify a portfolio"
+    },
+    {
+      "w": "quorum",
+      "ph": "/ˈkwɔːrəm/",
+      "m": "法定人数",
+      "c": "work",
+      "d": "2026-08-24",
+      "ex": "The board lacked a quorum to vote.",
+      "exZh": "董事会未达到表决的法定人数。",
+      "t": "开会至少得凑够这些人。",
+      "root": "quor(who, 哪些人) + -um(名词) → 必需到场的人数",
+      "pos": "n.",
+      "en": "the minimum number required to conduct business",
+      "col": "reach a quorum · lack a quorum · form a quorum"
+    },
+    {
+      "w": "litigation",
+      "ph": "/ˌlɪtɪˈɡeɪʃn/",
+      "m": "诉讼；打官司",
+      "c": "work",
+      "d": "2026-08-24",
+      "ex": "The merger triggered years of litigation.",
+      "exZh": "这笔合并引发了多年诉讼。",
+      "t": "真上法庭见的那套。",
+      "root": "litig(dispute, 争议) + -ation(名词) → 诉讼",
+      "pos": "n.",
+      "en": "the process of taking legal action",
+      "col": "file litigation · class-action litigation · avoid litigation"
+    },
+    {
+      "w": "fiduciary",
+      "ph": "/fɪˈdjuːʃɪəri/",
+      "m": "受托的；受托人",
+      "c": "econ",
+      "d": "2026-08-24",
+      "ex": "The advisor has a fiduciary duty to clients.",
+      "exZh": "顾问对客户负有受托责任。",
+      "t": "替别人管钱得尽心那层关系。",
+      "root": "fid(faith, 信任) + -uciary(形容词) → 基于信任的",
+      "pos": "adj./n.",
+      "en": "involving trust, esp. managing others' assets",
+      "col": "fiduciary duty · fiduciary responsibility · fiduciary standard"
+    },
+    {
+      "w": "solvency",
+      "ph": "/ˈsɒlvənsi/",
+      "m": "偿付能力",
+      "c": "econ",
+      "d": "2026-08-24",
+      "ex": "Regulators questioned the bank's solvency.",
+      "exZh": "监管机构质疑该行的偿付能力。",
+      "t": "还不还得起钱的能力。",
+      "root": "solv(solve, 偿还) + -ency(名词) → 偿债能力",
+      "pos": "n.",
+      "en": "ability to meet financial obligations",
+      "col": "solvency ratio · threatened solvency · restore solvency"
+    },
+    {
+      "w": "disinflation",
+      "ph": "/ˌdɪsɪnˈfleɪʃn/",
+      "m": "反通胀；通胀放缓",
+      "c": "econ",
+      "d": "2026-08-24",
+      "ex": "Disinflation took hold without a recession.",
+      "exZh": "反通胀在没衰退的情况下站稳了。",
+      "t": "物价涨得慢下来了（但还没变负）。",
+      "root": "dis-(相反) + inflation(通胀) → 通胀减速",
+      "pos": "n.",
+      "en": "a slowdown in the rate of inflation",
+      "col": "disinflation trend · engineered disinflation · disinflation process"
+    },
+    {
+      "w": "counterparty",
+      "ph": "/ˈkaʊntəpɑːti/",
+      "m": "交易对手",
+      "c": "econ",
+      "d": "2026-08-24",
+      "ex": "The counterparty defaulted on the swap.",
+      "exZh": "交易对手在互换合约上违约了。",
+      "t": "跟你做对手盘的那一方。",
+      "root": "counter-(对手) + party(方) → 交易对手",
+      "pos": "n.",
+      "en": "the other party in a financial transaction",
+      "col": "counterparty risk · counterparty exposure · counterparty default"
     }
   ],
   "preview": {
-    "hook": "今天的故事从财政部发布会说起：全面升级促消费贴息政策，把信用卡分期纳入支持，财政支出转向“投资于人”，这一切都在 [buoy|buoy] 内需、[consolidate|consolidate] 补贴工具、[streamline|streamline] 审批流程，用真金白银 [incentivize|incentivize] 消费。与此同时，金价 [surge|surge] 月内涨超100元，避险情绪升温；宇树4400亿市值后机器人板块定价重估，企业加速 [deploy|deploy] 新技术。职场人面对这股浪潮，唯有保持 [resilient|resilient]，才能接住 [mandate|mandate] 带来的新机会。",
-    "impact": "财政贴息扩围、金价[surge|surge]、机器人板块重估——今日主线是政策[buoy|buoy]消费、市场[consolidate|consolidate]，职场人需[deploy|deploy]韧性以应对变化。"
+    "hook": "今天的故事从美加谈判破裂开始，特朗普扬言要加 tariff，市场立刻紧绷；另一边美债收益率攀升，全球货币周期或迈向 [tighten|tighten]，资产配置逻辑被迫 reset。但消费端仍有亮点：暑期档票房 surge 破115亿，经济韧性凸显；科技端，具身智能正 disruptive，企业加速 deploy 机器人，职场人必须 optimize 技能以跟上变革。今天的关键词，就是如何在波动中找 benchmark。",
+    "impact": "美加关税博弈与美债收益率攀升共振，全球货币周期或[tighten|tighten]，市场在tariff与surge中寻找新benchmark。"
   }
 }

@@ -5,8 +5,8 @@
     "zh": "持续学习将贸易风暴转化为职业动力。"
   },
   "story": {
-    "en": "Three threads run through today. First, monetary policy: as [disinflation|disinflation] continues to take hold, Fed officials still signal they will gradually [tighten|tighten] policy, leaving markets divided over the timing of rate cuts and rewriting asset-pricing logic. Second, the financial system: with several pressuring mid-sized institutions, the market is revisiting [counterparty|counterparty] risk and bank [solvency|solvency], putting derivatives exposures and shadow leverage under the spotlight; investors are rapidly reshaping their [portfolio|portfolio], rotating from rate-sensitive high-multiple tech names into defensives and short-duration bonds. Third, corporate governance: tensions between shareholders and boards are intensifying — several listed firms have delayed votes after failing to reach [quorum|quorum], amid rising [fiduciary|fiduciary]-duty disputes and shareholder [litigation|litigation]. Today's story is, at its core, about recalibrating risk pricing at elevated valuations.",
-    "cn": "今天的脉络横跨三条主线。其一，央行政策：随着通胀数据持续降温，反通胀格局渐成，但美联储官员仍暗示将适时收紧政策，市场对降息节奏的预期再度分化，资产定价逻辑被重写。其二，金融体系：在多起中型机构承压的背景下，市场重新审视交易对手风险和银行的偿付能力，衍生品敞口与影子杠杆成为焦点；投资者正快速重构投资组合，从对利率敏感的高估值科技股转向防御性蓝筹与短债。其三，公司治理：股东与董事会之间的摩擦加剧——多家上市公司因出席代表不足法定人数而被迫延期表决，叠加对受托责任的质疑与集体股东诉讼，公司治理正进入新一轮拉锯。今天的故事，本质是在估值高位下重新校准风险定价。"
+    "en": "Wall Street's bet that [disinflation|disinflation] would finally let the Fed ease has quietly been reversed: officials keep signaling they will [tighten|tighten] further, and traders are dumping rate-sensitive tech names to reshape their [portfolio|portfolio] toward defensives and short-duration bonds. Now the stress is spreading into the banking system — a mid-sized regional lender was caught shoring up [solvency|solvency] after derivatives losses, and everyone from clearing houses to pension funds is re-pricing [counterparty|counterparty] risk. On top of that sits a governance mess: the lender's board lacks a [quorum|quorum] even to call a shareholder meeting, executives face [fiduciary|fiduciary]-duty challenges, and shareholders are pushing [litigation|litigation] against the directors. The one-line summary is stark: when the central bank keeps tightening and credit pipes start to crack, the only rational move is to run your own stress test first.",
+    "cn": "华尔街原本赌的是「反通胀」能让美联储松手，这个赌注正在被悄悄推翻：官员们不断放话要继续收紧，交易员一边抛售对利率敏感的科技股，一边把投资组合重塑成防御蓝筹加短债。压力正向银行体系蔓延——一家地区性中型银行因衍生品亏损，被迫连夜加固偿付能力，从清算所到养老金，所有人都在重新给交易对手风险定价。再叠上一层治理乱局：这家银行的董事会连凑齐法定人数召开股东会都做不到，高管被追讨受托责任，股东更是直接把董事告上了法庭。一句话概括这场戏：当央行继续收紧、信贷管道开始出现裂缝，唯一理性的动作，是先给自己跑一遍压力测试。"
   },
   "words": [
     {
@@ -2474,7 +2474,7 @@
     }
   ],
   "preview": {
-    "hook": "当 [disinflation|disinflation] 渐成、定向 [tighten|tighten] 未改，你的 [portfolio|portfolio] 正在重构；而 [counterparty|counterparty] 风险与 [solvency|solvency] 警报再起、股东会 [quorum|quorum] 未达、[fiduciary|fiduciary] 争议与 [litigation|litigation] 齐升温——定价逻辑不得不重写。",
-    "impact": "[disinflation|disinflation] 格局下美联储仍倾向 [tighten|tighten]；[portfolio|portfolio] 转向防御与短债；[counterparty|counterparty] 风险与 [solvency|solvency] 担忧重启；股东会 [quorum|quorum] 未达标、叠加 [fiduciary|fiduciary] 争议与 [litigation|litigation] 升温，公司治理与资产定价同步重估。"
+    "hook": "今天的故事从美联储放话继续 [tighten|tighten] 开始：华尔街刚把「[disinflation|disinflation] 即降息」的赌注下满，转头就被推翻，交易员连夜重排 [portfolio|portfolio]。更揪心的是，一家地区银行被曝出 [solvency|solvency] 告急，清算所、养老金人人自危，[counterparty|counterparty] 风险重新定价。而这家银行连 [quorum|quorum] 都凑不齐、高管遭 [fiduciary|fiduciary] 追责、股东掀起 [litigation|litigation]——当央行收紧撞上信贷裂缝，你的仓位还扛得住吗？",
+    "impact": "[disinflation|disinflation] 让市场误判降息，美联储却仍倾向 [tighten|tighten]；地区银行 [solvency|solvency] 告急，[counterparty|counterparty] 风险重燃，[portfolio|portfolio] 转向防御与短债；股东会 [quorum|quorum] 不齐、[fiduciary|fiduciary] 追责与 [litigation|litigation] 缠身，信贷裂缝叠加治理乱局，市场被迫先跑压力测试。"
   }
 }

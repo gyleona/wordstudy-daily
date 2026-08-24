@@ -5,8 +5,8 @@
     "zh": "持续学习将贸易风暴转化为职业动力。"
   },
   "story": {
-    "en": "Trade tensions flared as US-Canada talks collapsed, with President Trump threatening new tariffs on Canadian goods. Meanwhile, US long-term Treasury yields climbed, prompting analysts to warn that the global monetary cycle may [tighten|tighten], reshaping asset allocation. On the tech front, embodied AI is surging: Galbot and Yuejiang are battling over 'brain' tech, while Qiyuan Robot began mass deliveries, aiming to deploy robots as ubiquitous as smartphones. The 2026 summer box office surpassed 11.5 billion yuan, showing consumer resilience. In the workplace, firms optimize workflows with AI, but disruptive changes demand upskilling. As markets recalibrate, the new benchmark is adaptability.",
-    "cn": "今日市场被三条线索牵动。其一是贸易与货币政策：美加谈崩，特朗普威胁加征关税，同时美债收益率攀升，全球货币周期或转向紧缩，资产配置逻辑深刻变化，投资者需重新设定基准。其二是科技与产业：具身智能赛道激战，银河通用、越疆争夺“大脑”技术，启元机器人开启量产交付，机器人将像手机一样普及，这股颠覆性浪潮正重塑职场。其三是消费与韧性：暑期档票房超115亿，尽显消费韧性；企业加速部署AI以优化流程，员工被迫升级技能。三条主线交织，机会藏在分化里。"
+    "en": "Three threads run through today. First, monetary policy: as [disinflation|disinflation] continues to take hold, Fed officials still signal they will gradually [tighten|tighten] policy, leaving markets divided over the timing of rate cuts and rewriting asset-pricing logic. Second, the financial system: with several pressuring mid-sized institutions, the market is revisiting [counterparty|counterparty] risk and bank [solvency|solvency], putting derivatives exposures and shadow leverage under the spotlight; investors are rapidly reshaping their [portfolio|portfolio], rotating from rate-sensitive high-multiple tech names into defensives and short-duration bonds. Third, corporate governance: tensions between shareholders and boards are intensifying — several listed firms have delayed votes after failing to reach [quorum|quorum], amid rising [fiduciary|fiduciary]-duty disputes and shareholder [litigation|litigation]. Today's story is, at its core, about recalibrating risk pricing at elevated valuations.",
+    "cn": "今天的脉络横跨三条主线。其一，央行政策：随着通胀数据持续降温，反通胀格局渐成，但美联储官员仍暗示将适时收紧政策，市场对降息节奏的预期再度分化，资产定价逻辑被重写。其二，金融体系：在多起中型机构承压的背景下，市场重新审视交易对手风险和银行的偿付能力，衍生品敞口与影子杠杆成为焦点；投资者正快速重构投资组合，从对利率敏感的高估值科技股转向防御性蓝筹与短债。其三，公司治理：股东与董事会之间的摩擦加剧——多家上市公司因出席代表不足法定人数而被迫延期表决，叠加对受托责任的质疑与集体股东诉讼，公司治理正进入新一轮拉锯。今天的故事，本质是在估值高位下重新校准风险定价。"
   },
   "words": [
     {
@@ -2474,7 +2474,7 @@
     }
   ],
   "preview": {
-    "hook": "今天的故事从美加谈判破裂开始，特朗普扬言要加 tariff，市场立刻紧绷；另一边美债收益率攀升，全球货币周期或迈向 [tighten|tighten]，资产配置逻辑被迫 reset。但消费端仍有亮点：暑期档票房 surge 破115亿，经济韧性凸显；科技端，具身智能正 disruptive，企业加速 deploy 机器人，职场人必须 optimize 技能以跟上变革。今天的关键词，就是如何在波动中找 benchmark。",
-    "impact": "美加关税博弈与美债收益率攀升共振，全球货币周期或[tighten|tighten]，市场在tariff与surge中寻找新benchmark。"
+    "hook": "当 [disinflation|disinflation] 渐成、定向 [tighten|tighten] 未改，你的 [portfolio|portfolio] 正在重构；而 [counterparty|counterparty] 风险与 [solvency|solvency] 警报再起、股东会 [quorum|quorum] 未达、[fiduciary|fiduciary] 争议与 [litigation|litigation] 齐升温——定价逻辑不得不重写。",
+    "impact": "[disinflation|disinflation] 格局下美联储仍倾向 [tighten|tighten]；[portfolio|portfolio] 转向防御与短债；[counterparty|counterparty] 风险与 [solvency|solvency] 担忧重启；股东会 [quorum|quorum] 未达标、叠加 [fiduciary|fiduciary] 争议与 [litigation|litigation] 升温，公司治理与资产定价同步重估。"
   }
 }

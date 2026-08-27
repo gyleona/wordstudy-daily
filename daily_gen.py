@@ -11732,6 +11732,32 @@ def main():
 
 
         log(f"  story.cn markers={cn_count}")
+        # ===== 强制兜底：story 必须覆盖所有 new_words，否则重生成 =====
+        _max_story_retry = 3
+        for _sr in range(_max_story_retry):
+            _en_m = set(re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("story") or {}).get("en", "")))
+            _cn_m = set(re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("story") or {}).get("cn", "")))
+            _covered = {m[1].lower() for m in _en_m} | {m[1].lower() for m in _cn_m}
+            _missing = [w for w in new_words if (w.get("w") or "").lower() not in _covered]
+            if not _missing:
+                break
+            log(f"  story 覆盖校验未通过：缺失 {len(_missing)} 个词 ({[w.get('w') for w in _missing]})，重生成 story (attempt {_sr+1}/{_max_story_retry})")
+            _ns = generate_story_for_words(new_words, quote_history, news_headlines)
+            if not _ns:
+                log("  generate_story_for_words 返回空，停止重试")
+                break
+            output["story"] = _ns
+            _se = (output.get("story") or {}).get("en") or ""
+            if _se:
+                _me, _ec = build_clean_story_en(_se, new_words)
+                output["story"]["en"] = _me
+            _sc = (output.get("story") or {}).get("cn") or ""
+            if _sc:
+                _mc, _cc = build_clean_story_cn(_sc, new_words)
+                output["story"]["cn"] = _mc
+        else:
+            log(f"  WARNING: story 重生成 {_max_story_retry} 次后仍缺失 {len(_missing)} 个词")
+
 
 
 
@@ -12217,6 +12243,31 @@ def main():
 
 
 
+
+
+def generate_story_for_words(words, quote_history=None, news_headlines=None):
+    """用最终确定的 words 单独生成 story，强制覆盖所有词（消除 words/story 错位漏洞）。
+    返回 {en, cn} 或 None。post-build 会用 build_clean_* 重新规范化 [w|w] 标记。"""
+    if not words:
+        return None
+    _, _, news_instruction = _build_context(set(), quote_history, news_headlines)
+    word_lines = chr(10).join(f"- {w.get('w')} (释义: {w.get('m','')})" for w in words)
+    prompt = f"""Today is {TODAY}. Write a bilingual news dispatch (English + Chinese) that MUST weave in ALL of the following {len(words)} required vocabulary words. Each word must appear EXACTLY ONCE in story.en using the [display|base] marker (display=base=the English word itself, e.g. [bullish|bullish]), and at least once in story.cn (write the English word in brackets like 看涨的(bullish), or the Chinese meaning).
+
+REQUIRED WORDS (every one must appear):
+{word_lines}
+
+{news_instruction}
+
+story.en: English news dispatch, 480-560 characters. Tight article: opening lede, 2-3 sub-events with names/numbers/institutions, forward-looking close. Mark EVERY required word with [word|word] in BASE form. No unmarked bare occurrence of these words.
+
+story.cn: Chinese 热点综述, 320-380 字. 3 paragraphs covering real sub-events, naturally embedding each required word (English word in brackets or Chinese meaning). Do NOT write a 总体看/总体而言 summary sentence at the end.
+
+Output STRICT JSON only: {{"story":{{"en":"...","cn":"..."}}}} """
+    result = call_deepseek(prompt, max_tokens=4000)
+    if result:
+        return result.get("story")
+    return None
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 支持手动触发（方便测试）
 
 permissions:
-  contents: read
+  contents: write  # 需要写权限才能把生成的 words-data.json commit 回仓库
 
 jobs:
   generate:
@@ -34,3 +34,15 @@ jobs:
           HOSTING_BUCKET: ${{ secrets.HOSTING_BUCKET }}
           HOSTING_REGION: ${{ secrets.HOSTING_REGION }}
         run: python daily_gen.py
+
+      - name: Commit generated data back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f words-data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update words-data.json"
+            git push
+          fi

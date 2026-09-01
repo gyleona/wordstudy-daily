@@ -1,5 +1,5 @@
 // 单词研究所 Service Worker —— 离线缓存，让"添加到主屏幕"成为真·独立 APP
-const CACHE = 'wstudy-v8';
+const CACHE = 'wstudy-v9';
 const SHELL = [
   './index.html',
   './manifest.json',
@@ -7,7 +7,6 @@ const SHELL = [
   './icon-192.png',
   './icon-512.png',
   './apple-touch-icon.png',
-  './xiaofeiyang-logo.png',
   './logo-word2.svg',
   './words-data.json'
 ];

@@ -11758,6 +11758,30 @@ def main():
         else:
             log(f"  WARNING: story 重生成 {_max_story_retry} 次后仍缺失 {len(_missing)} 个词")
 
+        # ===== 强制兜底：preview.hook/impact 也必须覆盖所有 new_words，否则重生成 =====
+        _max_preview_retry = 3
+        for _pr in range(_max_preview_retry):
+            _hb_m = re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("preview") or {}).get("hook", "") or "")
+            _ib_m = re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("preview") or {}).get("impact", "") or "")
+            _pv_covered = {m[1].lower() for m in _hb_m} | {m[1].lower() for m in _ib_m}
+            _pv_missing = [w for w in new_words if (w.get("w") or "").lower() not in _pv_covered]
+            if not _pv_missing:
+                break
+            log(f"  preview 覆盖校验未通过：缺失 {len(_pv_missing)} 个词 ({[w.get('w') for w in _pv_missing]})，重生成 preview (attempt {_pr+1}/{_max_preview_retry})")
+            _np = generate_preview_for_words(new_words)
+            if not _np:
+                log("  generate_preview_for_words 返回空，停止重试")
+                break
+            output["preview"] = _np
+            _ph = (output.get("preview") or {}).get("hook") or ""
+            if _ph:
+                output["preview"]["hook"] = build_clean_hook(_ph, new_words)
+            _pi = (output.get("preview") or {}).get("impact") or ""
+            if _pi:
+                output["preview"]["impact"] = build_clean_impact(_pi, new_words)
+        else:
+            log(f"  WARNING: preview 重生成 {_max_preview_retry} 次后仍缺失 {len(_pv_missing)} 个词")
+
 
 
 
@@ -12267,6 +12291,28 @@ Output STRICT JSON only: {{"story":{{"en":"...","cn":"..."}}}} """
     result = call_deepseek(prompt, max_tokens=4000)
     if result:
         return result.get("story")
+    return None
+
+
+def generate_preview_for_words(words):
+    """用最终确定的 words 单独生成 preview（hook/impact），强制覆盖所有词。
+    返回 {"hook": "...", "impact": "..."} 或 None。post-build 用 build_clean_hook/impact 重建标记。"""
+    if not words:
+        return None
+    word_lines = chr(10).join(f"- {w.get('w')} (释义: {w.get('m','')})" for w in words)
+    prompt = f"""Today is {TODAY}. Generate ONLY preview (hook + impact) in Chinese, weaving in ALL of the following {len(words)} required vocabulary words. Each word must appear at least once in preview.hook OR preview.impact, marked as [display|base] (display can be Chinese gloss + English base like [过剩|glut], or English-only like [glut|glut]).
+
+REQUIRED WORDS (every one must appear somewhere in hook+impact):
+{word_lines}
+
+preview.hook: 中文一句话（140-260 字）。以新闻事件开头，自然嵌入每个词并用 [display|base] 标记。禁止句尾清单式罗列、不要写『总体看/总体而言』这类总结句。
+
+preview.impact: 中文一句话（60-180 字）。凝练总结今天主线，嵌入剩余词并用 [display|base] 标记。
+
+Output STRICT JSON only: {{"preview":{{"hook":"...","impact":"..."}}}} """
+    result = call_deepseek(prompt, max_tokens=2500)
+    if result:
+        return result.get("preview")
     return None
 
 

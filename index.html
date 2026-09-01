@@ -2889,25 +2889,39 @@
     });
     if(close) close.addEventListener('click', closeTip);
   })();
-  // ===== 开屏画面：播约 7 秒后自动进入，期间可点「跳过」提前进入 =====
+  // ===== 开屏画面：图片一出现即开始倒计时，期间可点「跳过」提前进入 =====
   (function(){
     const sp = document.getElementById('splash');
     if(!sp) return;
-    let closed = false;
-    const closeSplash = ()=>{ if(closed) return; closed = true; sp.classList.add('hide'); setTimeout(()=>{ if(sp.style) sp.style.display='none'; }, 600); };
+    let closed = false, timer = null, started = false;
+    const closeSplash = ()=>{ if(closed) return; closed = true; if(timer) clearInterval(timer); sp.classList.add('hide'); setTimeout(()=>{ if(sp.style) sp.style.display='none'; }, 600); };
     const skipBtn = document.getElementById('splashSkip');
     if(skipBtn) skipBtn.addEventListener('click', e=>{ e.stopPropagation(); closeSplash(); });
-    // 倒计时：从第3秒开始显示（前2秒为入场动画），每秒递减
+    // 倒计时：等图片一出现（load 完成）就启动，1.3s 入场动画可并行播完，不必等它结束
     const countEl = document.getElementById('splashCount');
-    let count = 10;
-    const timer = setInterval(()=>{
-      if(closed){ clearInterval(timer); return; }
-      count--;
-      if(countEl) countEl.textContent = Math.max(0, count);
-      if(count <= 0){ clearInterval(timer); closeSplash(); }
-    }, 1000);
-    // 安全兜底：12s 后一定关闭
-    setTimeout(closeSplash, 12000);
+    const heroImg = sp.querySelector('.splash-hero img');
+    const startCountdown = ()=>{
+      if(started || closed) return;
+      started = true;
+      let count = 10;
+      timer = setInterval(()=>{
+        if(closed){ clearInterval(timer); return; }
+        count--;
+        if(countEl) countEl.textContent = Math.max(0, count);
+        if(count <= 0){ clearInterval(timer); closeSplash(); }
+      }, 1000);
+    };
+    if(heroImg){
+      // 已缓存则立即开跑；否则等 load，error 也放行（避免图挂了永远进不去）
+      const kick = ()=>{ heroImg.removeEventListener('load', kick); heroImg.removeEventListener('error', kick); startCountdown(); };
+      if(heroImg.complete && heroImg.naturalWidth > 0) startCountdown();
+      else { heroImg.addEventListener('load', kick); heroImg.addEventListener('error', kick); }
+    } else {
+      startCountdown();
+    }
+    // 兜底：图片迟迟不出现也最多等 3s 就开跑；14s 后一定关闭
+    setTimeout(startCountdown, 3000);
+    setTimeout(closeSplash, 14000);
   })();
 </script>
 

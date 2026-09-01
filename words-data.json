@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-08-24",
+  "updated_on": "2026-09-01",
   "quote": {
-    "en": "Steady learning turns trade storms into career momentum.",
-    "zh": "持续学习将贸易风暴转化为职业动力。"
+    "en": "Master each word, and every market shift becomes a lesson.",
+    "zh": "掌握每个词，每一次市场变化都成为一课。"
   },
   "story": {
-    "en": "Wall Street's bet that [disinflation|disinflation] would finally let the Fed ease has quietly been reversed: officials keep signaling they will [tighten|tighten] further, and traders are dumping rate-sensitive tech names to reshape their [portfolio|portfolio] toward defensives and short-duration bonds. Now the stress is spreading into the banking system — a mid-sized regional lender was caught shoring up [solvency|solvency] after derivatives losses, and everyone from clearing houses to pension funds is re-pricing [counterparty|counterparty] risk. On top of that sits a governance mess: the lender's board lacks a [quorum|quorum] even to call a shareholder meeting, executives face [fiduciary|fiduciary]-duty challenges, and shareholders are pushing [litigation|litigation] against the directors. The one-line summary is stark: when the central bank keeps tightening and credit pipes start to crack, the only rational move is to run your own stress test first.",
-    "cn": "华尔街原本赌的是「反通胀」能让美联储松手，这个赌注正在被悄悄推翻：官员们不断放话要继续收紧，交易员一边抛售对利率敏感的科技股，一边把投资组合重塑成防御蓝筹加短债。压力正向银行体系蔓延——一家地区性中型银行因衍生品亏损，被迫连夜加固偿付能力，从清算所到养老金，所有人都在重新给交易对手风险定价。再叠上一层治理乱局：这家银行的董事会连凑齐法定人数召开股东会都做不到，高管被追讨受托责任，股东更是直接把董事告上了法庭。一句话概括这场戏：当央行继续收紧、信贷管道开始出现裂缝，唯一理性的动作，是先给自己跑一遍压力测试。"
+    "en": "Global markets are bracing for a [glut|glut] of crude as US-Iran clashes push Brent above $90 a barrel, while China's August manufacturing PMI slipped to 49.8%, signaling a [squeeze|squeeze] on industrial activity. Despite this, consumption targets aim to [outpace|outpace] expectations, with a roadmap targeting 60 trillion yuan in retail sales by 2030, creating a 10-trillion-yuan smart consumption market. Meanwhile, US stocks [underperform|underperform] as the Dow fell 0.7%, though semiconductor and memory stocks rallied, with SanDisk up 5% and SK Hynix up 2%. In geopolitics, President Xi met Kyrgyz counterpart Japarov, and Putin highlighted visa-free permanence, seeking to [decouple|decouple] from Western sanctions. The [syndicate|syndicate] of oil majors ExxonMobil and Chevron will enter Venezuela, as Trump leaves OPEC decisions to Caracas. Nepal's flood deaths exceed 900, and a typhoon re-emerged, prompting alerts. A US Grand Canyon flash flood killed two, with 14 missing. As markets digest these shocks, the [indenture|indenture] of global finance faces stress, but the [windup|windup] of weak sectors may clear room for resilient growth.",
+    "cn": "全球市场正面临原油 [glut|glut] 压力，美伊交火推动布伦特油价站上每桶 90 美元，而中国 8 月制造业 PMI 降至 49.8%，显示工业活动遭遇 [squeeze|squeeze]。与此同时，金融监管推动多家投行组成 [syndicate|syndicate]，拟发行特别国债以承接地产风险资产；投资策略上，基金经理开始 [decouple|decouple] 中美资产配置，并减持可能 [underperform|underperform] 的周期股，转而布局 AI 算力等 [outpace|outpace] 全球需求的新赛道。汽车经销商因库存积压被迫 [windup|windup] 部分门店，而新进入者则以 [indenture|indenture] 式长期合作锁定芯片供应，抵御地缘波动。"
   },
   "words": [
     {
@@ -2471,10 +2471,1407 @@
       "pos": "n.",
       "en": "the other party in a financial transaction",
       "col": "counterparty risk · counterparty exposure · counterparty default"
+    },
+    {
+      "w": "subsidiary",
+      "ph": "/səbˈsɪdiəri/",
+      "m": "子公司；附属的",
+      "c": "econ",
+      "pos": "n./adj.",
+      "en": "a company owned by a parent company; secondary or subordinate",
+      "defs": [
+        {
+          "cn": "子公司",
+          "en": "a company controlled by a parent",
+          "pos": "n."
+        },
+        {
+          "cn": "附属的；次要的",
+          "en": "secondary; of lesser importance",
+          "pos": "adj."
+        }
+      ],
+      "col": "wholly-owned subsidiary 全资子公司 · subsidiary company 子公司 · subsidiary role 次要角色 · overseas subsidiary 海外子公司",
+      "ex": "Canada's PM rejected the idea of a 'subsidiary agreement' with the US, asserting national sovereignty.",
+      "exZh": "加拿大总理拒绝与美国签订『附属国协议』，强调国家主权。",
+      "ex2": "The tech giant's subsidiary in India posted record profits this quarter.",
+      "ex2Zh": "该科技巨头在印度的子公司本季度利润创纪录。",
+      "t": "在美加贸易谈判中，subsidiary 被用作贬义，指加拿大沦为美国附庸。商业语境中，subsidiary 指母公司控股的子公司，如阿里旗下众多 subsidiary。\n职场中，subsidiary 常与 parent company 对举。记忆：sub-(下) + sid(坐) → 坐在下面 → 附属。",
+      "root": "前缀 sub-(下，拉丁，同源 subway) + 词根 sid(=sed 坐，拉丁 sedere，同源 sit/session) + 后缀 -ary(形容词/名词) → 坐在下面的 → 附属的 → 子公司",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "robust",
+      "ph": "/roʊˈbʌst/",
+      "m": "强劲的；稳健的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "strong and healthy; vigorous, esp. in economic growth or systems",
+      "defs": [
+        {
+          "cn": "强劲的；稳健的",
+          "en": "strong and resilient, esp. growth or demand",
+          "pos": "adj."
+        },
+        {
+          "cn": "强健的；结实的",
+          "en": "physically strong or durable",
+          "pos": "adj."
+        }
+      ],
+      "col": "robust growth 强劲增长 · robust demand 旺盛需求 · robust system 稳健系统 · robust economy 稳健经济",
+      "ex": "Rural consumption is accelerating with robust demand, as 'county-level' shopping trends show new vitality.",
+      "exZh": "乡村消费加速升级，县域消费潮展现新活力。",
+      "ex2": "The company's robust balance sheet allowed it to weather the downturn.",
+      "ex2Zh": "公司稳健的资产负债表使其安然度过低迷期。",
+      "t": "乡村消费加速升级，奔『县』消费潮有『烟火气』更有『新活力』，显示内需 robust。经济数据中，robust growth 常被引用。\n职场中，robust 可形容简历、方案、系统。记忆：源自拉丁 robustus(橡木)，引申为坚固、强劲。",
+      "root": "词根 robust(=橡木，拉丁 robur 橡树，同源 corroborate) + 后缀 -ust(形容词尾) → 像橡树一样坚硬 → 强劲的、稳健的",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "impose",
+      "ph": "/ɪmˈpoʊz/",
+      "m": "强制实行；把…强加于",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To force something (a rule, tax, sanction) to be accepted; to inflict something on someone.",
+      "defs": [
+        {
+          "cn": "强制实行",
+          "en": "to officially force a rule, tax, or penalty",
+          "pos": "v."
+        },
+        {
+          "cn": "把…强加于",
+          "en": "to force one's views or presence on others",
+          "pos": "v."
+        },
+        {
+          "cn": "征收(税/费)",
+          "en": "to levy a tax or charge",
+          "pos": "v."
+        }
+      ],
+      "col": "impose sanctions 实施制裁 · impose tariffs 加征关税 · impose a ban 实行禁令",
+      "ex": "The Trump administration imposed a 50% tariff on imported cars, prompting Canada to reject what it called a 'subsidiary agreement'.",
+      "exZh": "特朗普政府对进口汽车加征50%关税，加拿大拒绝接受所谓的‘附属国协议’。",
+      "ex2": "New regulations will impose stricter reporting requirements on all financial firms.",
+      "ex2Zh": "新规将对所有金融公司实施更严格的报告要求。",
+      "t": "特朗普将汽车关税提至50%，加拿大总理卡尼明确拒绝‘附属国协议’，这种单边 impose 关税的做法正在撕裂北美贸易链。\n职场中，老板 impose 不合理的截止日期，员工要学会沟通而非硬扛，否则只会 burnout。",
+      "root": "前缀 im-（向内，拉丁，同源 in-） + 词根 pos（放置，拉丁，同源 position 位置） → 放在上面 → 强加、征收",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "injunction",
+      "ph": "/ɪnˈdʒʌŋkʃn/",
+      "m": "禁令；强制令",
+      "c": "work",
+      "ex": "The court granted an injunction halting the merger.",
+      "exZh": "法院发出禁令叫停合并。",
+      "t": "法庭让你“立刻停手”的令。",
+      "root": "in-(on) + junct(join, 连接) + -ion → 指令",
+      "pos": "n.",
+      "en": "a court order restraining an action",
+      "col": "seek an injunction · grant an injunction",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "subpoena",
+      "ph": "/səˈpiːnə/",
+      "m": "传票；传唤",
+      "c": "work",
+      "ex": "The committee subpoenaed the executive.",
+      "exZh": "委员会传召了这名高管。",
+      "t": "法庭请你去“说清楚”的那张纸。",
+      "root": "sub-(under) + poena(penalty, 罚) → 罚则之下",
+      "pos": "n./v.",
+      "en": "a writ requiring testimony",
+      "col": "issue a subpoena · subpoena a witness",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "writedown",
+      "ph": "/ˈraɪtdaʊn/",
+      "m": "减记；账面价值下调",
+      "c": "econ",
+      "ex": "The bank took a $2bn writedown.",
+      "exZh": "银行计提了20亿美元减记。",
+      "t": "账上承认这笔资产不值那么多了。",
+      "root": "write(写) + down(下) → 往下写",
+      "pos": "n.",
+      "en": "a reduction in recorded asset value",
+      "col": "take a writedown · a goodwill writedown",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "liability",
+      "ph": "/ˌlaɪəˈbɪləti/",
+      "m": "负债；责任",
+      "c": "econ",
+      "ex": "Pension liabilities weighed on the balance sheet.",
+      "exZh": "养老金负债压在资产负债表上。",
+      "t": "你欠的和你要负的责。",
+      "root": "li(able) + ability → 责任",
+      "pos": "n.",
+      "en": "a debt or legal responsibility",
+      "col": "legal liability · current liabilities",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "equity",
+      "ph": "/ˈekwəti/",
+      "m": "股权；权益",
+      "c": "econ",
+      "ex": "Private equity backed the buyout.",
+      "exZh": "私募股权支持了这笔收购。",
+      "t": "你真正拥有的那部分（扣除欠的）。",
+      "root": "equ(equal) + -ity → 公平/权益",
+      "pos": "n.",
+      "en": "ownership interest or fairness",
+      "col": "equity stake · home equity · private equity",
+      "d": "2026-08-25"
+    },
+    {
+      "w": "retaliatory",
+      "ph": "/rɪˈtæliətɔːri/",
+      "m": "报复性的；反击的",
+      "c": "news",
+      "pos": "adj.",
+      "en": "Done as a response to an attack or harm; relating to retaliation",
+      "defs": [
+        {
+          "cn": "报复性的",
+          "en": "done as a response to an attack",
+          "pos": "adj."
+        },
+        {
+          "cn": "反击的",
+          "en": "relating to retaliation",
+          "pos": "adj."
+        }
+      ],
+      "col": "retaliatory tariff 报复性关税 · retaliatory measures 报复性措施 · retaliatory strike 报复性打击",
+      "ex": "Canada announced retaliatory tariffs on about $20 billion worth of U.S. goods, escalating the trade dispute.",
+      "exZh": "加拿大宣布对约200亿美元美国商品征收报复性关税，令贸易争端升级。",
+      "ex2": "The company's retaliatory pricing strategy backfired, losing more customers than it gained.",
+      "ex2Zh": "公司的报复性定价策略适得其反，流失的客户比赢得的还多。",
+      "t": "加拿大宣布对约200亿美元美国商品征收报复性关税，直接回应美方钢铝关税，贸易紧张骤然升温。retaliatory 常用于贸易战语境，与 tariff、measure 搭配。\n职场中，若同事抢功，别用 retaliatory 心态回击，而要理性沟通，否则只会恶化关系。",
+      "root": "词根 tali(=talio 同态复仇，拉丁，同源 talion) + 后缀 -atory(表示‘属于…的’，拉丁，同源 mandatory) → 同态复仇的 → 报复性的",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "impediment",
+      "ph": "/ɪmˈpedɪmənt/",
+      "m": "阻碍；障碍物",
+      "c": "work",
+      "pos": "n.",
+      "en": "A hindrance or obstruction; something that delays or blocks progress",
+      "defs": [
+        {
+          "cn": "阻碍",
+          "en": "a hindrance or obstruction",
+          "pos": "n."
+        },
+        {
+          "cn": "障碍物",
+          "en": "something that blocks progress",
+          "pos": "n."
+        }
+      ],
+      "col": "impediment to progress 进步的障碍 · legal impediment 法律障碍 · speech impediment 言语障碍",
+      "ex": "Bureaucratic red tape remains a major impediment to foreign investment in many emerging markets.",
+      "exZh": "在许多新兴市场，官僚程序仍是外资进入的主要障碍。",
+      "ex2": "His lack of digital skills proved an impediment to landing a remote job in the tech industry.",
+      "ex2Zh": "他缺乏数字技能，成为在科技行业获得远程工作的障碍。",
+      "t": "激发民间投资活力的新举措正在加快落地，但审批流程繁琐仍是最大 impediment。\n职场中，跨部门协作时，信息不对称往往成为项目推进的 impediment，需主动沟通清除。",
+      "root": "前缀 im-(向内，拉丁，同源 in-) + 词根 ped(脚，拉丁，同源 pedestrian) + 后缀 -ment(名词，拉丁，同源 movement) → 绊住脚的东西 → 阻碍",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "precipitate",
+      "ph": "/prɪˈsɪpɪteɪt/",
+      "m": "引发(突发)；使突然发生",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To cause (an event or situation) to happen suddenly or sooner than expected; to throw down violently",
+      "defs": [
+        {
+          "cn": "引发(突发)",
+          "en": "to cause suddenly",
+          "pos": "v."
+        },
+        {
+          "cn": "使突然发生",
+          "en": "to hasten the occurrence of",
+          "pos": "v."
+        }
+      ],
+      "col": "precipitate a crisis 引发危机 · precipitate a decision 促使决定 · precipitate a fall 导致下跌",
+      "ex": "The sudden withdrawal of a major investor could precipitate a liquidity crisis for the startup.",
+      "exZh": "主要投资者的突然撤资可能引发这家初创公司的流动性危机。",
+      "ex2": "The government's hasty policy change precipitated a sharp decline in the stock market.",
+      "ex2Zh": "政府仓促的政策变动导致股市急跌。",
+      "t": "黄金从三个月高点回落，美债回购计划与伊朗风险主导交易，市场担心任何意外都可能 precipitate 新一轮抛售。\n职场中，贸然公开一个未成熟方案，可能 precipitate 团队内的混乱，需谨慎。",
+      "root": "前缀 pre-(向前，拉丁，同源 pre-) + 词根 cipit(头，拉丁，同源 capital) + 后缀 -ate(动词，拉丁，同源 activate) → 头朝下扔 → 使突然发生",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "stabilize",
+      "ph": "/ˈsteɪbəlaɪz/",
+      "m": "(使)稳定；(使)趋于平稳",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to make or become steady, firm, or unchanging, often in markets or situations",
+      "defs": [
+        {
+          "cn": "(使)稳定；(使)趋于平稳",
+          "en": "to make steady or stable",
+          "pos": "v."
+        },
+        {
+          "cn": "使(价格/市场)稳定",
+          "en": "to stabilize prices or markets",
+          "pos": "v."
+        },
+        {
+          "cn": "使(局势)缓和",
+          "en": "to make a situation less volatile",
+          "pos": "v."
+        }
+      ],
+      "col": "stabilize prices 稳定物价 · stabilize the market 稳定市场 · stabilize the situation 稳定局势",
+      "ex": "As concerns over Middle East conflicts eased, international oil prices fell significantly on August 25, helping to stabilize energy markets.",
+      "exZh": "随着对中东冲突担忧缓解，8月25日国际油价显著下跌，有助于稳定能源市场。",
+      "ex2": "The central bank's intervention aimed to stabilize the currency after a sharp sell-off.",
+      "ex2Zh": "央行干预旨在货币大幅抛售后稳定汇率。",
+      "t": "今日头条：对中东地缘冲突担忧缓解，国际油价25日显著下跌，市场情绪趋于 stabilize。职场中，项目动荡时 leader 的职责就是 stabilize the team——先稳住人心，再谈策略。\n联想：stabilize 与 stable 同根，反义词 destabilize（使不稳定）。记住“稳定”的动词形式，财报分析里常用。",
+      "root": "词根 stab(=stand 站立，拉丁，同源 stable/establish) + 后缀 -ilize(使成为，拉丁) → 使站得住 → 使稳定",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "retreat",
+      "ph": "/rɪˈtriːt/",
+      "m": "回落；撤退；避险",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to move back or withdraw, often used for prices, investments, or military forces",
+      "defs": [
+        {
+          "cn": "回落；撤退",
+          "en": "to move back or withdraw",
+          "pos": "v."
+        },
+        {
+          "cn": "(价格/指数)回落",
+          "en": "to decline from a peak, as in prices",
+          "pos": "v."
+        },
+        {
+          "cn": "避险(行为)",
+          "en": "a movement away from risk",
+          "pos": "n."
+        }
+      ],
+      "col": "retreat from risk 避险 · price retreat 价格回落 · retreat to safety 撤至安全地带",
+      "ex": "Gold retreated from a three-month high as U.S. Treasury buyback plans and Iran risks dominated trading.",
+      "exZh": "由于美债回购计划与伊朗风险主导交易，黄金从三个月高点回落。",
+      "ex2": "Investors retreated from tech stocks amid rising volatility, seeking safer assets.",
+      "ex2Zh": "波动加剧中，投资者撤离科技股，寻求更安全的资产。",
+      "t": "今日头条：黄金从三个月高点回落，美债回购计划与伊朗风险主导市场交易。职场中，遇到市场 retreat 时，别恐慌性抛售，先 rebalance 组合；就像谈判遇阻时 temporary retreat 是为了更好前进。\n联想：retreat 与 re-(回) + treat(拉) 相关，本义“拉回”。记住“回落”的金融用法，比 decline 更形象。",
+      "root": "前缀 re-(回，拉丁，同源 return) + 词根 treat(=tract 拉，拉丁，同源 attract) → 拉回去 → 撤退、回落",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "buoyancy",
+      "ph": "/ˈbɔɪənsi/",
+      "m": "浮力；行情上涨；活力",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the ability to float or rise; in economics, a tendency for prices or activity to increase",
+      "defs": [
+        {
+          "cn": "浮力；行情上涨",
+          "en": "the ability to float or rise",
+          "pos": "n."
+        },
+        {
+          "cn": "(市场)活力、上涨趋势",
+          "en": "a tendency for markets to rise",
+          "pos": "n."
+        },
+        {
+          "cn": "乐观情绪",
+          "en": "cheerfulness and confidence",
+          "pos": "n."
+        }
+      ],
+      "col": "market buoyancy 市场活力 · economic buoyancy 经济活力 · restore buoyancy 恢复浮力",
+      "ex": "Despite geopolitical tensions, the stock market showed remarkable buoyancy, climbing to new highs.",
+      "exZh": "尽管地缘紧张，股市表现出显著活力，升至新高。",
+      "ex2": "The buoyancy of the tech sector attracted fresh capital, boosting overall sentiment.",
+      "ex2Zh": "科技板块的活力吸引了新资金，提振整体情绪。",
+      "t": "今日头条：尽管地缘风险，国际油价下跌后市场情绪略见 buoyancy，黄金虽回落但整体风险偏好回升。职场中，团队士气需要 leader 注入 buoyancy——像给船加浮力，让成员在压力中保持上升动能。\n联想：buoyancy 来自 buoy（浮标），记住“浮起来”的意象，金融里指行情向上。",
+      "root": "词根 buoy(浮标，古法语，同源 buoyant) + 后缀 -ancy(名词，拉丁) → 浮起来的状态 → 浮力、上涨",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "solidify",
+      "ph": "/səˈlɪdɪfaɪ/",
+      "m": "巩固；使固化；使坚定",
+      "c": "work",
+      "pos": "v.",
+      "en": "to make or become solid, firm, or stable; to strengthen a position or relationship",
+      "defs": [
+        {
+          "cn": "巩固；使固化",
+          "en": "to make solid or firm",
+          "pos": "v."
+        },
+        {
+          "cn": "使(协议/关系)牢固",
+          "en": "to strengthen an agreement or relationship",
+          "pos": "v."
+        },
+        {
+          "cn": "使(想法)明确",
+          "en": "to make an idea more concrete",
+          "pos": "v."
+        }
+      ],
+      "col": "solidify a partnership 巩固伙伴关系 · solidify gains 巩固收益 · solidify a reputation 巩固声誉",
+      "ex": "The summit between Chinese and Jordanian leaders aimed to solidify bilateral ties and promote joint development.",
+      "exZh": "中约元首会谈旨在巩固双边关系，促进共同发展。",
+      "ex2": "After months of hard work, she solidified her position as a team leader by delivering consistent results.",
+      "ex2Zh": "经过数月努力，她以稳定业绩巩固了团队领导地位。",
+      "t": "今日头条：中约元首会谈释放新信号，双方意在 solidify 友谊与携手发展。职场中，每次 project 复盘都是 solidify your learning 的机会——把经验固化为能力，下次遇到类似问题就能快速应对。\n联想：solidify 由 solid（固体）加 -ify（使成为）构成，记住“从液体变固体”的意象，比喻关系或地位变得牢固。",
+      "root": "词根 solid(坚固的，拉丁，同源 consolidate) + 后缀 -ify(使成为，拉丁) → 使坚固 → 巩固、固化",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "revitalize",
+      "ph": "/ˌriːˈvaɪtəlaɪz/",
+      "m": "使复兴；使恢复活力",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to give new life, energy, or strength to something, such as an economy or a city",
+      "defs": [
+        {
+          "cn": "使复兴；使恢复活力",
+          "en": "to give new life or energy",
+          "pos": "v."
+        },
+        {
+          "cn": "重振(经济/产业)",
+          "en": "to boost an economy or industry",
+          "pos": "v."
+        },
+        {
+          "cn": "使(地区)复苏",
+          "en": "to renew a region or area",
+          "pos": "v."
+        }
+      ],
+      "col": "revitalize the economy 重振经济 · revitalize a brand 重振品牌 · revitalize an industry 振兴产业",
+      "ex": "Guangzhou's new policies aim to revitalize its music industry, supporting the city's ambition as an international performing arts center.",
+      "exZh": "广州新政策旨在振兴音乐产业，支持其建设国际演艺中心的雄心。",
+      "ex2": "To revitalize the downtown area, the council invested in public spaces and attracted creative startups.",
+      "ex2Zh": "为振兴市中心，市议会投资公共空间并吸引创意初创企业。",
+      "t": "今日头条：广州市发布推动音乐产业高质量发展的若干措施，意图 revitalize 本地音乐产业，打造国际演艺中心。职场中，老项目陷入瓶颈时，需要 fresh perspective 来 revitalize 团队热情，比如引入跨部门合作。\n联想：revitalize = re(再) + vital(生命) + ize(使)，记住“重获生命力”的意象，比 renew 更有能量。",
+      "root": "前缀 re-(再次，拉丁，同源 renew) + 词根 vital(生命的，拉丁，同源 vital) + 后缀 -ize(使成为，希腊) → 使再次有生命 → 使复兴、重振",
+      "d": "2026-08-26"
+    },
+    {
+      "w": "bullish",
+      "ph": "/ˈbʊlɪʃ/",
+      "m": "看涨的；乐观的",
+      "c": "econ",
+      "ex": "Analysts are bullish on tech stocks.",
+      "exZh": "分析师看好科技股。",
+      "t": "觉得要涨、要上行的心态。",
+      "root": "bull(牛, 拱涨) + -ish → 看涨",
+      "pos": "adj.",
+      "en": "expecting rising prices",
+      "col": "bullish on · turn bullish",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "bearish",
+      "ph": "/ˈbeərɪʃ/",
+      "m": "看跌的；悲观的",
+      "c": "econ",
+      "ex": "Investors turned bearish on bonds.",
+      "exZh": "投资者对债券转为看跌。",
+      "t": "觉得要跌、要下行的心态。",
+      "root": "bear(熊, 压跌) + -ish → 看跌",
+      "pos": "adj.",
+      "en": "expecting falling prices",
+      "col": "bearish on · remain bearish",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "deregulation",
+      "ph": "/ˌdiːreɡjʊˈleɪʃn/",
+      "m": "放松管制",
+      "c": "econ",
+      "ex": "Deregulation boosted competition.",
+      "exZh": "放松管制促进了竞争。",
+      "t": "政府少管一点。",
+      "root": "de-(去除) + regulation(管制) → 去管制",
+      "pos": "n.",
+      "en": "removal of government rules",
+      "col": "financial deregulation · deregulation wave",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "cartel",
+      "ph": "/kɑːˈtel/",
+      "m": "卡特尔；垄断联盟",
+      "c": "econ",
+      "ex": "The oil cartel cut output.",
+      "exZh": "石油卡特尔削减了产量。",
+      "t": "几家联手控价的“小圈子”。",
+      "root": "cart(协定) + el → 协定联盟",
+      "pos": "n.",
+      "en": "an association to control prices",
+      "col": "drug cartel · oil cartel",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "quantitative",
+      "ph": "/ˈkwɒntɪtətɪv/",
+      "m": "定量的；数量的",
+      "c": "econ",
+      "ex": "Quantitative easing flooded markets with cash.",
+      "exZh": "量化宽松向市场注入大量现金。",
+      "t": "用数字和规模说话的那套。",
+      "root": "quant(amount) + -itative → 定量的",
+      "pos": "adj.",
+      "en": "relating to measurement/quantity",
+      "col": "quantitative easing · quantitative analysis",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "accrual",
+      "ph": "/əˈkruːəl/",
+      "m": "应计；累积",
+      "c": "econ",
+      "ex": "Accrual accounting matches revenue and costs.",
+      "exZh": "应计制会计把收入与成本对应。",
+      "t": "已经发生但还没到账的钱。",
+      "root": "ac-(to) + cr(grow) + -ual → 增长累积",
+      "pos": "n.",
+      "en": "gradual accumulation of earned amounts",
+      "col": "accrual basis · accrued interest",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "escrow",
+      "ph": "/ˈeskrəʊ/",
+      "m": "第三方托管（资金/资产）",
+      "c": "econ",
+      "ex": "The deposit sits in escrow until closing.",
+      "exZh": "定金在过户前由第三方托管。",
+      "t": "买卖双方都信得过的“中间保管”。",
+      "root": "escrow (契据保管) → 托管",
+      "pos": "n.",
+      "en": "a third-party holding of funds",
+      "col": "in escrow · escrow account · escrow agent",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "royalty",
+      "ph": "/ˈrɔɪəlti/",
+      "m": "特许权使用费；版税",
+      "c": "work",
+      "ex": "The inventor earns royalties per unit.",
+      "exZh": "发明者按件收取特许费。",
+      "t": "用别人专利/版权就得交的“份子钱”。",
+      "root": "royal(特许) + -ty → 特许费",
+      "pos": "n.",
+      "en": "payment for licensed rights",
+      "col": "pay royalties · royalty income",
+      "d": "2026-08-27"
+    },
+    {
+      "w": "imminent",
+      "ph": "/ˈɪmɪnənt/",
+      "m": "即将发生的，迫近的",
+      "c": "news",
+      "pos": "adj.",
+      "en": "about to happen very soon; threatening to occur at any moment",
+      "defs": [
+        {
+          "cn": "即将发生的",
+          "en": "likely to happen without delay, often of danger or event",
+          "pos": "adj."
+        },
+        {
+          "cn": "迫近的",
+          "en": "hanging over, about to occur, esp. of a threat",
+          "pos": "adj."
+        },
+        {
+          "cn": "（金融）迫在眉睫",
+          "en": "describing a crisis or decision that is very near",
+          "pos": "adj."
+        }
+      ],
+      "col": "imminent danger 迫在眉睫的危险 · imminent threat 迫近的威胁 · imminent decision 即将做出的决定 · imminent collapse 即将崩溃",
+      "ex": "With the Fed's rate decision imminent, traders are adjusting positions, while oil prices rise on supply worries.",
+      "exZh": "美联储利率决议在即，交易员调整仓位，同时油价因供应担忧上涨。",
+      "ex2": "The company's bankruptcy seemed imminent after its largest client canceled the contract.",
+      "ex2Zh": "最大客户取消合同后，公司破产似乎迫在眉睫。",
+      "t": "美国对华金融施压引发猜测，特朗普是否制裁中国银行仍不明，市场担忧制裁 imminent，影响贸易。\n职场中 imminent 常形容 deadline 或 crisis，比如 an imminent deadline 迫近的截止日期，比 coming 更紧迫。",
+      "root": "源自拉丁语 imminere（悬临），由 in-（在上）+ minere（突出）组成，字面‘悬在头上’，引申为‘迫近的’。",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "recapitalize",
+      "ph": "/ˌriːˈkæpɪtəlaɪz/",
+      "m": "重组资本；再融资注资",
+      "c": "econ",
+      "ex": "The lender recapitalized the struggling firm.",
+      "exZh": "贷款方为困境企业重组资本。",
+      "t": "重新搭一遍钱的结构。",
+      "root": "re-(再) + capital(资本) + -ize → 资本重组",
+      "pos": "v.",
+      "en": "to restructure a company's capital",
+      "col": "recapitalize a bank · recapitalization plan",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "downsizing",
+      "ph": "/ˈdaʊnsaɪzɪŋ/",
+      "m": "裁员；缩减规模",
+      "c": "work",
+      "ex": "Downsizing hit the middle management.",
+      "exZh": "裁员波及中层管理。",
+      "t": "公司“瘦身”。",
+      "root": "down(下) + sizing(规模) → 缩小",
+      "pos": "n.",
+      "en": "reduction of workforce/size",
+      "col": "company downsizing · downsizing plan",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "offshoring",
+      "ph": "/ˈɒfʃɔːrɪŋ/",
+      "m": "离岸外包；外移",
+      "c": "work",
+      "ex": "Offshoring cut the firm's labor costs.",
+      "exZh": "离岸外包降低了公司人力成本。",
+      "t": "把活儿挪到海外做。",
+      "root": "off(离) + shore(岸) + -ing → 离岸",
+      "pos": "n.",
+      "en": "moving operations abroad",
+      "col": "offshoring jobs · offshore production",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "parity",
+      "ph": "/ˈpærəti/",
+      "m": "平价；对等",
+      "c": "econ",
+      "ex": "Wages have not reached parity with peers.",
+      "exZh": "工资尚未与同行平齐。",
+      "t": "两边一样多、一样重。",
+      "root": "par(equal) + -ity → 等同",
+      "pos": "n.",
+      "en": "equality of status/value",
+      "col": "pay parity · parity with",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "impairment",
+      "ph": "/ɪmˈpeəmənt/",
+      "m": "减值；损害",
+      "c": "econ",
+      "ex": "The asset impairment hit quarterly profit.",
+      "exZh": "资产减值拖累了季度利润。",
+      "t": "资产真的不值原来那价了。",
+      "root": "im-(in) + pair(worse) + -ment → 变坏",
+      "pos": "n.",
+      "en": "a permanent reduction in value",
+      "col": "asset impairment · impairment charge",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "repatriate",
+      "ph": "/rɪˈpætrieɪt/",
+      "m": "汇回；遣返",
+      "c": "econ",
+      "ex": "Firms repatriated overseas profits.",
+      "exZh": "企业把海外利润汇回国内。",
+      "t": "把钱从国外弄回家。",
+      "root": "re-(回) + patri(fatherland) + -ate → 回国",
+      "pos": "v.",
+      "en": "to return funds to home country",
+      "col": "repatriate profits · repatriate capital",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "expropriate",
+      "ph": "/ɪkˈsprəʊpriət/",
+      "m": "征用；没收",
+      "c": "econ",
+      "ex": "The state expropriated private land.",
+      "exZh": "国家征用了私人土地。",
+      "t": "公家把你的东西收走了。",
+      "root": "ex-(out) + propr(own) + -ate → 剥夺所有权",
+      "pos": "v.",
+      "en": "to take property for public use",
+      "col": "expropriate assets · expropriation risk",
+      "d": "2026-08-28"
+    },
+    {
+      "w": "undermine",
+      "ph": "/ˌʌndəˈmaɪn/",
+      "m": "削弱；逐渐损害",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to weaken or damage something gradually or insidiously, such as confidence, credibility, or an institution",
+      "defs": [
+        {
+          "cn": "削弱；逐渐损害",
+          "en": "to weaken or damage gradually, as confidence or trust",
+          "pos": "v."
+        },
+        {
+          "cn": "侵蚀(基础/地位)",
+          "en": "to erode the foundations or position of something",
+          "pos": "v."
+        },
+        {
+          "cn": "暗中破坏",
+          "en": "to sabotage secretly",
+          "pos": "v."
+        }
+      ],
+      "col": "undermine confidence 削弱信心 · undermine credibility 损害信誉 · undermine efforts 破坏努力",
+      "ex": "Analysts warn that skipping a rate cut in September could undermine the Fed's credibility, as markets had priced in a dovish pivot after Jackson Hole.",
+      "exZh": "分析师警告，9月不加息可能损害美联储信誉，因为市场在杰克逊霍尔后已计入鸽派转向。",
+      "ex2": "Rumors of a merger began to undermine team morale, causing key engineers to update their resumes.",
+      "ex2Zh": "并购传闻开始削弱团队士气，导致核心工程师更新简历。",
+      "t": "华尔街对沃什杰克逊霍尔首秀的评价是：鹰派'修正'7月沟通，9月不加息或再伤美联储信誉——这种反复会 undermine（削弱）市场对央行的信任。职场中，背后说同事坏话会 undermine teamwork（破坏团队合作）。\n对比 weaken（变弱）与 undermine（暗中掏空）：undermine 像挖墙脚，表面看不见，实际根基在塌。记住：undermine 是'在下面挖洞'。",
+      "root": "前缀 under-(在…下, 古英语, 同源 below) + 词根 mine(挖矿, 拉丁 minare, 同源 mineral) → 在下面挖 → 挖墙脚 → 削弱",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "yield",
+      "ph": "/jiːld/",
+      "m": "产量；收益；屈服",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the amount of something produced or the profit from an investment; also to give way or surrender",
+      "defs": [
+        {
+          "cn": "产量",
+          "en": "the amount produced, as of a crop",
+          "pos": "n."
+        },
+        {
+          "cn": "收益",
+          "en": "the profit or return on an investment",
+          "pos": "n."
+        },
+        {
+          "cn": "屈服",
+          "en": "to give way under pressure",
+          "pos": "v."
+        }
+      ],
+      "col": "high yield 高产 · bond yield 债券收益率 · yield to pressure 屈服于压力",
+      "ex": "Investors are closely watching bond yields after the Fed hinted at pausing rate hikes in September.",
+      "exZh": "新技术有望在不损害土壤的情况下提高作物产量。",
+      "ex2": "The new farming technique promises to increase crop yield without harming the soil.",
+      "t": "今日头条：华尔街看沃什杰克逊霍尔首秀，鹰派修正7月沟通，9月不加息或再伤美联储信誉。市场对 yield 曲线变化敏感，美债收益率波动剧烈。\n职场中，yield 也指“让位”，比如 yield to pressure（向压力让步），但更常见的是投资语境里的“收益”。",
+      "root": "古英语 gieldan（支付、回报）→ 现代英语中演变为“产出、收益”，与 geldan（支付）同源。",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "penalize",
+      "ph": "/ˈpiːnəlaɪz/",
+      "m": "处罚；使处于不利地位",
+      "c": "news",
+      "pos": "v.",
+      "en": "to punish or put someone at a disadvantage, especially through rules or sanctions",
+      "defs": [
+        {
+          "cn": "处罚",
+          "en": "to impose a penalty on someone",
+          "pos": "v."
+        },
+        {
+          "cn": "使处于不利地位",
+          "en": "to put at a disadvantage",
+          "pos": "v."
+        },
+        {
+          "cn": "（体育）判罚",
+          "en": "to award a penalty in sports",
+          "pos": "v."
+        }
+      ],
+      "col": "penalize companies 处罚公司 · penalize for late payment 因迟付处罚 · penalize unfairly 不公处罚",
+      "ex": "The new trade sanctions penalize foreign firms that operate in sanctioned sectors.",
+      "exZh": "有人认为远程工作者在绩效评估中处于不利地位。",
+      "ex2": "Some argue that remote workers are penalized in performance reviews.",
+      "t": "今日头条：美国启动新一轮对伊制裁，被伊朗外交部称为“国家恐怖主义”。制裁措施 penalize 伊朗经济，但中国对美表现强硬，市场关注能源供应影响。\n职场中，penalize 常指制度惩罚，比如 penalize employees for mistakes（因失误处罚员工），但现代管理更强调学习。",
+      "root": "词根 pen(=punish 惩罚，拉丁 poena，同源 penalty) + 后缀 -ize(动词化) → 使受罚 → 处罚",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "accelerate",
+      "ph": "/əkˈseləreɪt/",
+      "m": "加速；促进",
+      "c": "work",
+      "pos": "v.",
+      "en": "to increase speed or cause to happen faster, often used in business and technology contexts",
+      "defs": [
+        {
+          "cn": "加速",
+          "en": "to increase speed",
+          "pos": "v."
+        },
+        {
+          "cn": "促进",
+          "en": "to cause to happen sooner",
+          "pos": "v."
+        },
+        {
+          "cn": "（经济）增长",
+          "en": "to speed up economic growth",
+          "pos": "v."
+        }
+      ],
+      "col": "accelerate growth 加速增长 · accelerate innovation 加速创新 · accelerate the process 加速进程",
+      "ex": "The adoption of digital tools has accelerated the transformation of traditional industries.",
+      "exZh": "公司计划明年加速海外市场扩张。",
+      "ex2": "The company plans to accelerate its expansion into overseas markets next year.",
+      "t": "今日头条：中国国际数字出版博览会在济南举办，数字技术 accelerate 出版业转型。同时，大数据产业博览会推动数据要素加速流通，赋能实体经济。\n职场中，accelerate 常用于项目提速，比如 accelerate the timeline（加快进度），比 speed up 更正式。",
+      "root": "前缀 ac-(加强，拉丁 ad-变体，同源 accept) + 词根 celer(=fast 快，拉丁 celer，同源 celerity) + 后缀 -ate(动词) → 使变快 → 加速",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "surcharge",
+      "ph": "/ˈsɜːrtʃɑːrdʒ/",
+      "m": "附加费；额外费用",
+      "c": "econ",
+      "pos": "n. / v.",
+      "en": "An extra charge added to the usual price, often for a specific reason such as increased costs or government policy; to charge an extra fee.",
+      "defs": [
+        {
+          "cn": "附加费",
+          "en": "An extra fee added to the base price, e.g. fuel surcharge",
+          "pos": "n."
+        },
+        {
+          "cn": "对…收取额外费用",
+          "en": "To impose an additional charge on someone or something",
+          "pos": "v."
+        },
+        {
+          "cn": "附加税；关税附加",
+          "en": "An additional tax or levy, often on imports or services",
+          "pos": "n."
+        }
+      ],
+      "col": "impose a surcharge 征收附加费 · fuel surcharge 燃油附加费 · import surcharge 进口附加税 · surcharge on goods 商品附加费",
+      "ex": "As the U.S. tightens sanctions on Iran, shippers may face a risk surcharge on routes through the Strait of Hormuz, raising costs for global trade.",
+      "exZh": "随着美国加强对伊朗制裁，通过霍尔木兹海峡的航线可能面临风险附加费，推高全球贸易成本。",
+      "ex2": "The airline added a fuel surcharge to all tickets when jet fuel prices spiked, prompting complaints from frequent flyers.",
+      "ex2Zh": "当航空燃油价格飙升时，航空公司对所有机票加收燃油附加费，引发常旅客不满。",
+      "t": "美国对伊朗新一轮制裁落地，霍尔木兹海峡通行风险上升，航运公司可能对相关航线加收 surcharge，直接推高全球能源运输成本。职场里，出差报销单上若出现 surcharge 项目，要看清是机场建设费还是酒店服务费。\n记住 surcharge 是 charge 的“叠加”——前缀 sur-(超，拉丁，同源 surplus) + charge(收费)，比 price 多一层“额外负担”的意味。",
+      "root": "前缀 sur-(超、在上，拉丁 super，同源 surplus 盈余、surface 表面) + 词根 charge(收费，古法语 chargier) → 在基本费用之上再收 → 附加费",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "defer",
+      "ph": "/dɪˈfɜːr/",
+      "m": "推迟；延期",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To delay something to a later time; to postpone an action, decision, or payment.",
+      "defs": [
+        {
+          "cn": "推迟",
+          "en": "To postpone an event or action to a later time",
+          "pos": "v."
+        },
+        {
+          "cn": "延期支付",
+          "en": "To postpone a payment or obligation",
+          "pos": "v."
+        },
+        {
+          "cn": "遵从；听从",
+          "en": "To yield to another's opinion or authority (defer to)",
+          "pos": "v."
+        }
+      ],
+      "col": "defer payment 延期付款 · defer a decision 推迟决定 · defer to experts 听从专家 · defer maintenance 延迟维护",
+      "ex": "The Fed may defer a rate hike in September, as Wall Street expects policymakers to repair credibility after communication missteps at Jackson Hole.",
+      "exZh": "美联储可能推迟9月加息，因华尔街预期决策者将修复杰克逊霍尔沟通失误后的信誉。",
+      "ex2": "The company decided to defer its debt repayment by six months to conserve cash during the downturn.",
+      "ex2Zh": "公司决定将债务偿还推迟六个月，以在低迷期保留现金。",
+      "t": "华尔街预计美联储9月不加息，可能 defer 加息以修复信誉，市场对政策沟通的敏感度极高。职场中，项目 deadline 临近时，defer 并非逃避，而是优先排序后的理性选择，但需明确新的时间表。\ndefer 与 delay 近义，但更正式，常用于金融和行政语境；注意 defer to 另有“听从”之意，与“推迟”截然不同。",
+      "root": "前缀 de-(离开，拉丁) + 词根 fer(携带，拉丁 ferre，同源 transfer 转移、offer 提供) → 把事带到后面 → 推迟",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "invigorate",
+      "ph": "/ɪnˈvɪɡəreɪt/",
+      "m": "使充满活力；激励",
+      "c": "work",
+      "pos": "v.",
+      "en": "To give strength, energy, or enthusiasm to someone or something; to revitalize a system, market, or team.",
+      "defs": [
+        {
+          "cn": "使充满活力",
+          "en": "To give energy and vitality to a person or group",
+          "pos": "v."
+        },
+        {
+          "cn": "激励；鼓舞",
+          "en": "To stimulate enthusiasm or action",
+          "pos": "v."
+        },
+        {
+          "cn": "振兴；使繁荣",
+          "en": "To strengthen an economy, industry, or market",
+          "pos": "v."
+        }
+      ],
+      "col": "invigorate the economy 振兴经济 · invigorate a team 激励团队 · invigorate sales 提振销售 · feel invigorated 感到精力充沛",
+      "ex": "The 2026 China International Big Data Industry Expo aims to invigorate the digital economy, with leaders calling for deeper data-driven innovation.",
+      "exZh": "2026中国国际大数据产业博览会旨在振兴数字经济，领导层呼吁深化数据驱动创新。",
+      "ex2": "A fresh round of mentorship can invigorate junior employees, boosting morale and productivity across the department.",
+      "ex2Zh": "新一轮导师制能激励初级员工，提升整个部门的士气和生产力。",
+      "t": "2026中国国际大数据产业博览会开幕，杨震在致辞中强调数据要素将 invigorate 产业升级，为数字经济注入新动能。职场中，一次成功的团建或新项目也能 invigorate 团队，让成员重燃热情。\n反义词是 enervate(使衰弱)，词根同源 vigor(活力)，记住“in + vigor”就是注入活力。",
+      "root": "前缀 in-(使，拉丁) + 词根 vigor(活力，拉丁 vigor，同源 vigorous 有活力的) + 后缀 -ate(动词后缀) → 使有活力 → 激励、振兴",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "marginalize",
+      "ph": "/ˈmɑːrdʒɪnəlaɪz/",
+      "m": "使边缘化；排挤",
+      "c": "work",
+      "pos": "v.",
+      "en": "To treat a person, group, or idea as unimportant or peripheral, often in social, economic, or workplace contexts.",
+      "defs": [
+        {
+          "cn": "使边缘化",
+          "en": "To push a group to the fringes of society or an organization",
+          "pos": "v."
+        },
+        {
+          "cn": "使显得不重要",
+          "en": "To make an idea or issue seem minor or irrelevant",
+          "pos": "v."
+        },
+        {
+          "cn": "排挤（在竞争中）",
+          "en": "To exclude from active participation or decision-making",
+          "pos": "v."
+        }
+      ],
+      "col": "marginalize minorities 边缘化少数群体 · be marginalized in the market 在市场中被边缘化 · marginalize dissent 压制异议 · marginalize employees 排挤员工",
+      "ex": "As AI tools automate routine tasks, workers without digital skills risk being marginalized in the job market, widening the skills gap.",
+      "exZh": "随着AI工具自动化日常任务，缺乏数字技能的劳动者面临在就业市场被边缘化的风险，技能差距扩大。",
+      "ex2": "In meetings, outspoken junior staff often feel marginalized when their ideas are ignored by senior leadership.",
+      "ex2Zh": "在会议中，直言不讳的初级员工常因高级领导忽视其想法而感到被边缘化。",
+      "t": "AI浪潮下，缺乏数字技能的蓝领和白领都可能被 marginalize，企业培训成为对冲就业风险的关键。职场中，主动参与跨部门项目能避免被 marginalize，保持存在感。\n反义词是 integrate(融入)，词根 margin(边缘) + -ize(使)，记住“推到边缘”就是排挤。",
+      "root": "词根 margin(边缘，拉丁 margo，同源 margin 页边距) + 后缀 -al(形容词) + -ize(使动词) → 使到边缘 → 边缘化",
+      "d": "2026-08-29"
+    },
+    {
+      "w": "turbulence",
+      "ph": "/ˈtɜːbjələns/",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a state of confusion, disorder, or sudden violent change; irregular atmospheric movement",
+      "defs": [
+        {
+          "cn": "(市场/局势)动荡",
+          "en": "a state of disorder or sudden change in markets or situations",
+          "pos": "n."
+        },
+        {
+          "cn": "(气流)湍流",
+          "en": "irregular and violent motion of air",
+          "pos": "n."
+        },
+        {
+          "cn": "(情绪)波动",
+          "en": "emotional unrest or agitation",
+          "pos": "n."
+        }
+      ],
+      "col": "market turbulence 市场动荡 · political turbulence 政治动荡 · economic turbulence 经济动荡 · severe turbulence 剧烈湍流",
+      "ex": "Global markets faced turbulence after the inflation warning sent gold prices on a wild swing.",
+      "exZh": "通胀警告引发金价剧烈波动，全球市场面临动荡。",
+      "ex2": "The flight encountered severe turbulence over the mountains.",
+      "ex2Zh": "飞机在山脉上空遭遇强烈湍流。",
+      "t": "金价本周过山车行情就是典型 market turbulence，沃什讲话引爆恐慌，投资者在动荡中寻找避险。\n职场中“团队 turbulence”指人员频繁变动、项目方向反复，管理者需要稳定军心。",
+      "root": "源自拉丁语 turbulentia (混乱)，由 turba (人群, 同源 disturb) 加 -ulentia → 人群骚动 → 动荡",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "curtail",
+      "ph": "/kɜːrˈteɪl/",
+      "m": "削减；限制；缩短",
+      "c": "news",
+      "pos": "v.",
+      "en": "to reduce or limit something, esp. spending or activity",
+      "defs": [
+        {
+          "cn": "削减；限制",
+          "en": "to reduce or limit, often expenses or activities",
+          "pos": "v."
+        },
+        {
+          "cn": "缩短；剥夺",
+          "en": "to shorten or deprive",
+          "pos": "v."
+        }
+      ],
+      "col": "curtail spending 削减开支 · curtail freedom 限制自由 · curtail production 缩减生产",
+      "ex": "The central bank may curtail liquidity to fight inflation, but that risks crashing the gold market.",
+      "exZh": "央行可能削减流动性以对抗通胀，但这有令金市崩盘的风险。",
+      "ex2": "To meet the deadline, the team had to curtail non-essential meetings and focus on core tasks.",
+      "ex2Zh": "为赶上截止日期，团队不得不削减非必要会议，专注核心任务。",
+      "t": "沃什的强烈通胀警告震动市场，暗示央行可能 curtail 宽松政策。金价因此跳水。\n职场中，项目预算紧张时，领导会 curtail 非必要开支，员工要适应这种收紧节奏。",
+      "root": "词根 curt(短，拉丁 curtus，同源 curt 简短的) + 后缀 -ail(动词后缀，法语 -ailler) → 使变短 → 削减、缩短",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "bailout",
+      "ph": "/ˈbeɪlaʊt/",
+      "m": "紧急救助；纾困",
+      "c": "econ",
+      "pos": "n.",
+      "en": "financial assistance given to a failing company or economy to prevent collapse, often by a government or central bank",
+      "defs": [
+        {
+          "cn": "紧急救助",
+          "en": "rescue from financial distress, esp. by government",
+          "pos": "n."
+        },
+        {
+          "cn": "纾困资金",
+          "en": "the money provided in such a rescue",
+          "pos": "n."
+        },
+        {
+          "cn": "紧急援助",
+          "en": "emergency aid to avert bankruptcy",
+          "pos": "n."
+        }
+      ],
+      "col": "government bailout 政府救助 · bailout package 救助方案 · seek a bailout 寻求救助",
+      "ex": "The airline's near-collapse prompted a massive government bailout, but critics argued it rewarded poor management.",
+      "exZh": "航空公司濒临倒闭引发了大规模政府救助，但批评者认为这奖励了糟糕的管理。",
+      "ex2": "After the currency crisis, the IMF offered a conditional bailout to stabilize the economy.",
+      "ex2Zh": "货币危机后，国际货币基金组织提供有条件救助以稳定经济。",
+      "t": "房地产‘爆炸性新规’提出现房销售和房贷延长到40年，本质是给开发商和购房者的一次变相bailout，试图托住摇摇欲坠的市场。\n职场里，同事帮你扛下烂摊子就是一次小bailout，但总是靠别人救，自己迟早要还。",
+      "root": "源自 bail(保释金, 古法语 baille, 同源 bailment) + out(出) → 用钱把人从困境中‘保出来’ → 引申为金融救助",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "imbalance",
+      "ph": "/ɪmˈbæləns/",
+      "m": "失衡；不平衡",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a lack of proportion or equality between parts; often used in economic, trade, or work-life contexts",
+      "defs": [
+        {
+          "cn": "失衡",
+          "en": "state of inequality or disproportion",
+          "pos": "n."
+        },
+        {
+          "cn": "不平衡",
+          "en": "lack of balance between related elements",
+          "pos": "n."
+        },
+        {
+          "cn": "失调",
+          "en": "disturbance of normal equilibrium",
+          "pos": "n."
+        }
+      ],
+      "col": "trade imbalance 贸易失衡 · power imbalance 权力失衡 · work-life imbalance 工作生活失衡",
+      "ex": "The widening trade imbalance between the two nations has become a central point of contention in tariff talks.",
+      "exZh": "两国间不断扩大的贸易失衡已成为关税谈判的焦点。",
+      "ex2": "Remote work has blurred boundaries, leading to a growing work-life imbalance for many employees.",
+      "ex2Zh": "远程工作模糊了界限，导致许多员工工作与生活日益失衡。",
+      "t": "中美贸易谈判长期僵持，根源之一是巨大的贸易imbalance，而关税战只会加剧这种失衡，而非解决。\n职场里，过度加班造成work-life imbalance，效率反而下降——平衡才是可持续之道。",
+      "root": "前缀 im-(否定, 拉丁 in-, 同源 not) + 词根 balance(平衡, 拉丁 bilanx, 同源 balanced) → 不平衡 → 失衡",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "interim",
+      "ph": "/ˈɪntərɪm/",
+      "m": "临时的；过渡期",
+      "c": "work",
+      "ex": "An interim CEO was appointed.",
+      "exZh": "任命了一位临时CEO。",
+      "t": "没正式定下来前的“过渡”。",
+      "root": "inter-(between) + im → 中间时段",
+      "pos": "adj./n.",
+      "en": "temporary, in between",
+      "col": "interim report · interim CEO",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "provisional",
+      "ph": "/prəˈvɪʒənl/",
+      "m": "临时的；暂定的",
+      "c": "work",
+      "ex": "A provisional agreement was signed.",
+      "exZh": "签署了一份临时协议。",
+      "t": "先这么定、以后再改。",
+      "root": "pro-(before) + vis(see) + -ional → 预先看待",
+      "pos": "adj.",
+      "en": "temporary, conditional",
+      "col": "provisional approval · provisional measure",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "vesting",
+      "ph": "/ˈvestɪŋ/",
+      "m": "确获（股权/福利）",
+      "c": "work",
+      "ex": "Vesting takes four years.",
+      "exZh": "股权四年才完全归属。",
+      "t": "熬够时间这份额才真正是你的。",
+      "root": "vest(possess) + -ing → 归属",
+      "pos": "n.",
+      "en": "the process of earning ownership rights",
+      "col": "vesting schedule · cliff vesting",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "clawback",
+      "ph": "/ˈklɔːbæk/",
+      "m": "追回；回拨",
+      "c": "work",
+      "ex": "The bonus triggered a clawback clause.",
+      "exZh": "奖金触发了追回条款。",
+      "t": "发错了/条件没达到，再把钱拿回来。",
+      "root": "claw(爪) + back(回) → 抓回",
+      "pos": "n.",
+      "en": "recovery of funds already paid",
+      "col": "clawback provision · tax clawback",
+      "d": "2026-08-30"
+    },
+    {
+      "w": "wield",
+      "ph": "/wiːld/",
+      "m": "行使；运用；挥舞",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to hold and use power, influence, or a tool effectively",
+      "defs": [
+        {
+          "cn": "行使",
+          "en": "to exercise power or authority",
+          "pos": "v."
+        },
+        {
+          "cn": "运用",
+          "en": "to use influence or skills",
+          "pos": "v."
+        },
+        {
+          "cn": "挥舞",
+          "en": "to hold and brandish a weapon or object",
+          "pos": "v."
+        }
+      ],
+      "col": "wield power 行使权力 · wield influence 施加影响 · wield a tool 使用工具",
+      "ex": "Central banks wield significant influence over market sentiment, as their rate decisions can trigger capital influx or outflows.",
+      "exZh": "央行对市场情绪具有重大影响力，其利率决定可引发资本流入或流出。",
+      "ex2": "In trade talks, countries often wield tariffs as a bargaining chip to protect domestic industries.",
+      "ex2Zh": "贸易谈判中，国家常以关税作为筹码来保护国内产业。",
+      "t": "美委达成石油交易，马杜罗借此 wield 地缘筹码，但市场质疑其合法性。\n职场中，领导 wield 决策权，需谨慎。与 use 相比，wield 更强调掌控与影响力。",
+      "root": "词根 wield-(掌控，古英语 wieldan，同源 world 世界) → 掌控 → 行使、运用",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "disclose",
+      "ph": "/dɪsˈkloʊz/",
+      "m": "披露；公开；透露",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to make information known publicly, especially that was previously secret or private",
+      "defs": [
+        {
+          "cn": "披露；公开；透露",
+          "en": "to make information known publicly, especially that was previously secret",
+          "pos": "v."
+        },
+        {
+          "cn": "暴露；揭开",
+          "en": "to reveal or expose something hidden",
+          "pos": "v."
+        }
+      ],
+      "col": "disclose information 披露信息 · disclose details 透露细节 · disclose financial results 披露财务结果 · refuse to disclose 拒绝透露",
+      "ex": "China Gold disclosed a 12.35% year-on-year drop in first-half net profit, citing higher costs and softer demand.",
+      "exZh": "中国黄金披露上半年净利润同比下滑12.35%，归因于成本上升和需求疲软。",
+      "ex2": "The company is required to disclose all material risks in its annual report.",
+      "ex2Zh": "公司必须在年报中披露所有重大风险。",
+      "t": "今日财经：中国黄金发布半年报，正式 disclose 了净利润下滑12.35%的数据，引发市场对黄金消费疲软的讨论。上市公司披露季，投资者紧盯财报中的每一个数字。\n职场中，向老板 disclose 项目风险比隐瞒更明智。disclose 比 reveal 更正式，常用于法律、财务语境，记它时想想“打开保险箱的锁”。",
+      "root": "前缀 dis-(分开，拉丁，同源 divide 分割) + 词根 clos(=clud 关闭，拉丁，同源 close 关闭) → 打开关闭的东西 → 披露、公开",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "deliberate",
+      "ph": "/dɪˈlɪbərət/",
+      "m": "深思熟虑的；故意的；仔细考虑",
+      "c": "work",
+      "pos": "adj.",
+      "en": "done consciously and intentionally; also, to think carefully about something before deciding",
+      "defs": [
+        {
+          "cn": "深思熟虑的；故意的",
+          "en": "done consciously and intentionally",
+          "pos": "adj."
+        },
+        {
+          "cn": "仔细考虑；商议",
+          "en": "to think carefully or discuss before deciding",
+          "pos": "v."
+        }
+      ],
+      "col": "deliberate decision 深思熟虑的决定 · deliberate pace 从容的步伐 · deliberate on 商议 · deliberate strategy 周密战略",
+      "ex": "After months of deliberate planning, the firm launched its AI-powered procurement platform to cut costs.",
+      "exZh": "经过数月的周密规划，该公司推出了AI驱动的采购平台以降低成本。",
+      "ex2": "The board deliberated for hours before approving the merger.",
+      "ex2Zh": "董事会审议数小时才批准合并。",
+      "t": "今日职场：数博会闭幕，发布87项创新成果，企业纷纷 deliberate 如何将AI嵌入业务流程。在变革期，深思熟虑的决策比盲目跟风更重要。\n开会时，老板说“let's deliberate”，就是让大家别急着下结论。deliberate 作形容词是“故意的”，作动词是“深思”，记它时想想“法官在陪审团前反复权衡”。",
+      "root": "词根 deliberat(=libra 天平，拉丁，同源 liberate 解放但不同源，同源 deliberate) 源自拉丁 deliberare，由 de-(彻底) + librare(称量) 组成 → 仔细称量 → 深思熟虑",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "workforce",
+      "ph": "/ˈwɜːrkfɔːrs/",
+      "m": "劳动力；全体员工",
+      "c": "work",
+      "pos": "n.",
+      "en": "the total number of people employed or available for work; the employees of a company or sector",
+      "defs": [
+        {
+          "cn": "劳动力；全体员工",
+          "en": "the people engaged in or available for work",
+          "pos": "n."
+        },
+        {
+          "cn": "劳动人口",
+          "en": "the portion of the population that is employed or seeking work",
+          "pos": "n."
+        }
+      ],
+      "col": "skilled workforce 技能型劳动力 · workforce planning 人力规划 · workforce reduction 裁员",
+      "ex": "Aging demographics are shrinking the workforce, forcing companies to invest in automation.",
+      "exZh": "人口老龄化使劳动力规模缩减，企业被迫投资自动化。",
+      "ex2": "The company expanded its remote workforce to tap talent in different time zones.",
+      "ex2Zh": "公司扩大远程员工队伍，以吸纳不同时区的人才。",
+      "t": "今日热点：吕梁白酒产业营收突破700亿，背后是庞大 workforce 支撑产业升级；同时AI浪潮下，企业重新配置 workforce。\n职场高频：workforce planning 人力规划，比简单说 employees 更宏观，常用于HR和管理层讨论。",
+      "root": "古英语 work(工作) + force(力量，拉丁 fortis，同源 fort 堡垒) → 工作的力量 → 劳动力、全体员工",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "liquidate",
+      "ph": "/ˈlɪkwɪdeɪt/",
+      "m": "清算；变现",
+      "c": "econ",
+      "ex": "The fund liquidated its positions.",
+      "exZh": "基金清算了持仓。",
+      "t": "把资产换成现金、散伙。",
+      "root": "liquid(liquid) + -ate → 变流动",
+      "pos": "v.",
+      "en": "to convert assets to cash or wind up",
+      "col": "liquidate assets · liquidate a company",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "restructure",
+      "ph": "/riːˈstrʌktʃə(r)/",
+      "m": "重组；重构",
+      "c": "work",
+      "ex": "The group restructured its debt.",
+      "exZh": "集团重组了债务。",
+      "t": "把架子重新搭一遍。",
+      "root": "re-(再) + structure(结构) + -e → 重组",
+      "pos": "v.",
+      "en": "to reorganize operations/debt",
+      "col": "restructure debt · corporate restructuring",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "arrears",
+      "ph": "/əˈrɪəz/",
+      "m": "欠款；逾期未付",
+      "c": "econ",
+      "ex": "The tenant fell into arrears.",
+      "exZh": "租户陷入了欠款。",
+      "t": "该交没交、拖着的钱。",
+      "root": "ar-(to) + rear(back) + -s → 落后的款项",
+      "pos": "n.",
+      "en": "overdue debts",
+      "col": "in arrears · rent arrears",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "encumbrance",
+      "ph": "/ɪnˈkʌmbrəns/",
+      "m": "产权负担；留置",
+      "c": "econ",
+      "ex": "The property sold free of encumbrances.",
+      "exZh": "该房产无负担出售。",
+      "t": "资产上压着的其他权利/债务。",
+      "root": "en-(in) + cumber(burden) + -ance → 负担",
+      "pos": "n.",
+      "en": "a claim or liability on an asset",
+      "col": "free of encumbrance · remove encumbrances",
+      "d": "2026-08-31"
+    },
+    {
+      "w": "decouple",
+      "ph": "/diːˈkʌpl/",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To separate or disconnect from something, especially in economic or political relations.",
+      "defs": [
+        {
+          "cn": "使脱钩；分离",
+          "en": "To separate or disconnect, often economically.",
+          "pos": "v."
+        },
+        {
+          "cn": "解耦；解除关联",
+          "en": "To remove the link between two variables.",
+          "pos": "v."
+        },
+        {
+          "cn": "断开连接",
+          "en": "To detach physically or metaphorically.",
+          "pos": "v."
+        }
+      ],
+      "col": "decouple from 与…脱钩 · decouple growth from emissions 增长与排放脱钩 · decouple supply chains 供应链脱钩",
+      "ex": "US sanctions on Venezuela may decouple ExxonMobil's operations from Chevron's, altering regional oil dynamics.",
+      "exZh": "美国对委内瑞拉的制裁可能使埃克森美孚与雪佛龙的业务脱钩，改变区域石油格局。",
+      "ex2": "Some firms aim to decouple their supply chains from single-source dependencies to reduce risk.",
+      "ex2Zh": "一些公司旨在使其供应链与单一来源依赖脱钩，以降低风险。",
+      "t": "美方表态允许埃克森美孚与雪佛龙进入委内瑞拉，市场关注其石油业务能否与OPEC政策decouple，油价波动加剧。\n职场中，学会把情绪与业绩decouple，能让你在高压下保持专业判断。",
+      "root": "前缀 de-(分离，拉丁语) + 词根 couple (连接，拉丁语 copula)，本义'解开连接'，引申为'使脱钩、解除关联'。",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "indenture",
+      "ph": "/ɪnˈdentʃə(r)/",
+      "m": "契约；借据（债券）",
+      "c": "econ",
+      "ex": "The indenture set the bond's terms.",
+      "exZh": "契约规定了债券条款。",
+      "t": "写死借贷条件的那张合同。",
+      "root": "in-(in) + dent(tooth) + -ure → 锯齿边契据",
+      "pos": "n.",
+      "en": "a formal contract or deed",
+      "col": "bond indenture · indenture terms",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "syndicate",
+      "ph": "/ˈsɪndɪkət/",
+      "m": "辛迪加；银团",
+      "c": "econ",
+      "ex": "A bank syndicate funded the loan.",
+      "exZh": "一个银行银团提供了贷款。",
+      "t": "一帮人/机构组团干一票。",
+      "root": "syndic(manager) + -ate → 联合组织",
+      "pos": "n.",
+      "en": "a group combining for a venture",
+      "col": "banking syndicate · syndicate loan",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "underperform",
+      "ph": "/ˌʌndəpəˈfɔːm/",
+      "m": "表现不及（预期/同业）",
+      "c": "econ",
+      "ex": "The fund underperformed its benchmark.",
+      "exZh": "该基金表现不及基准。",
+      "t": "没跑赢、拖了后腿。",
+      "root": "under-(不足) + perform(表现) → 表现差",
+      "pos": "v.",
+      "en": "to perform worse than expected",
+      "col": "underperform the market · underperform peers",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "outpace",
+      "ph": "/aʊtˈpeɪs/",
+      "m": "超越；跑赢",
+      "c": "econ",
+      "ex": "Wages outpaced inflation.",
+      "exZh": "工资增幅跑赢了通胀。",
+      "t": "比另一个涨得更快。",
+      "root": "out-(超) + pace(步速) → 超过步速",
+      "pos": "v.",
+      "en": "to exceed in speed/rate",
+      "col": "outpace inflation · outpace rivals",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "squeeze",
+      "ph": "/skwiːz/",
+      "m": "挤压；紧缩",
+      "c": "econ",
+      "ex": "The credit squeeze hit small firms.",
+      "exZh": "信贷紧缩冲击了小企业。",
+      "t": "空间被两头压、钱紧。",
+      "root": "squeeze (挤压) → 挤压",
+      "pos": "n./v.",
+      "en": "a tight pressure on margins/liquidity",
+      "col": "credit squeeze · profit squeeze",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "glut",
+      "ph": "/ɡlʌt/",
+      "m": "过剩；供过于求",
+      "c": "econ",
+      "ex": "A glut of oil depressed prices.",
+      "exZh": "石油过剩压低了价格。",
+      "t": "东西太多卖不动。",
+      "root": "glut (填满过度) → 过剩",
+      "pos": "n.",
+      "en": "an excessive supply",
+      "col": "a glut of · housing glut",
+      "d": "2026-09-01"
+    },
+    {
+      "w": "windup",
+      "ph": "/ˈwaɪndʌp/",
+      "m": "结业；清理",
+      "c": "work",
+      "ex": "The windup of the unit took a year.",
+      "exZh": "该部门的结业花了一年。",
+      "t": "收摊、关门大吉。",
+      "root": "wind(收) + up(完) → 收尾",
+      "pos": "n.",
+      "en": "the process of closing a business",
+      "col": "windup procedure · windup of a fund",
+      "d": "2026-09-01"
     }
   ],
   "preview": {
-    "hook": "今天的故事从美联储放话继续 [tighten|tighten] 开始：华尔街刚把「[disinflation|disinflation] 即降息」的赌注下满，转头就被推翻，交易员连夜重排 [portfolio|portfolio]。更揪心的是，一家地区银行被曝出 [solvency|solvency] 告急，清算所、养老金人人自危，[counterparty|counterparty] 风险重新定价。而这家银行连 [quorum|quorum] 都凑不齐、高管遭 [fiduciary|fiduciary] 追责、股东掀起 [litigation|litigation]——当央行收紧撞上信贷裂缝，你的仓位还扛得住吗？",
-    "impact": "[disinflation|disinflation] 让市场误判降息，美联储却仍倾向 [tighten|tighten]；地区银行 [solvency|solvency] 告急，[counterparty|counterparty] 风险重燃，[portfolio|portfolio] 转向防御与短债；股东会 [quorum|quorum] 不齐、[fiduciary|fiduciary] 追责与 [litigation|litigation] 缠身，信贷裂缝叠加治理乱局，市场被迫先跑压力测试。"
+    "hook": "今天的故事从原油 [glut|glut] 开始：美伊冲突推油价站上 90 美元，PMI 跌破荣枯线凸显工业 [squeeze|squeeze]，监管组建投行 [syndicate|syndicate] 兜底地产风险，基金经理 [decouple|decouple] 中美资产配置并减持可能 [underperform|underperform] 的周期股，转而布局 AI 算力等 [outpace|outpace] 全球需求的新赛道；汽车经销商因库存压力 [windup|windup] 部分门店，新进入者则以 [indenture|indenture] 锁定芯片供应抵御地缘波动。",
+    "impact": "原油 [glut|glut] 与工业 [squeeze|squeeze] 揭示全球需求分化，监管 [syndicate|syndicate] 兜底地产风险，资产 [decouple|decouple] 中美配置、周期股或 [underperform|underperform] 而 AI 赛道 [outpace|outpace] 全球，门店 [windup|windup] 与 [indenture|indenture] 长期合约则是实体经济两个侧面。"
   }
 }

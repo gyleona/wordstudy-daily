@@ -12357,7 +12357,11 @@ def main():
 
 
 
-    success = upload_to_cos(client, content_bytes, "words-data.json")
+    _cos_ok = upload_to_cos(client, content_bytes, "words-data.json")
+    if not _cos_ok:
+        log("WARN: COS upload of words-data.json failed; GitHub Pages will use the committed copy")
+    # 主通道是 GitHub Pages（由 workflow 的 commit/push 步骤更新），COS 失败不致命
+    success = True
     # 同时写回本地 words-data.json，供 GitHub Actions 的 commit 步骤检测到变化并 push 回仓库（Pages 部署依赖此文件）
     try:
         with open("words-data.json", "w", encoding="utf-8") as _f:

@@ -1849,6 +1849,266 @@ FALLBACK_WORDS = [
     "pos": "v.",
     "en": "to end or break up an entity",
     "col": "dissolve a company · dissolved parliament"
+  },
+  {
+    "w": "franchise",
+    "ph": "/ˈfræntʃaɪz/",
+    "m": "特许经营权；影视系列",
+    "c": "entertainment",
+    "ex": "The Marvel franchise spans dozens of films.",
+    "exZh": "漫威系列横跨数十部电影。",
+    "t": "一个能不断拍续集、卖周边的金字招牌。",
+    "root": "franc(free) + -ise → 特许经营权",
+    "pos": "n.",
+    "en": "a license to operate under a brand",
+    "col": "film franchise · franchise owner"
+  },
+  {
+    "w": "sequel",
+    "ph": "/ˈsiːkwəl/",
+    "m": "续集",
+    "c": "entertainment",
+    "ex": "The sequel outperformed the original.",
+    "exZh": "续集票房超过了原作。",
+    "t": "接着上一集往下拍的那一部。",
+    "root": "sequ(follow) + -el → 跟随之物",
+    "pos": "n.",
+    "en": "a film or book continuing an earlier one",
+    "col": "direct sequel · sequel rights"
+  },
+  {
+    "w": "blockbuster",
+    "ph": "/ˈblɒkbʌstə(r)/",
+    "m": "大片；轰动之作",
+    "c": "entertainment",
+    "ex": "A summer blockbuster opened worldwide.",
+    "exZh": "一部暑期大片全球上映。",
+    "t": "砸大钱、炸大场面的卖座巨制。",
+    "root": "block + buster → 破块者",
+    "pos": "n.",
+    "en": "a highly successful film",
+    "col": "blockbuster movie · holiday blockbuster"
+  },
+  {
+    "w": "streaming",
+    "ph": "/ˈstriːmɪŋ/",
+    "m": "流媒体；在线播放",
+    "c": "entertainment",
+    "ex": "Streaming replaced cable for many viewers.",
+    "exZh": "对许多观众，流媒体取代了有线电视。",
+    "t": "不用下载、直接在线看的那种。",
+    "root": "stream(流) + -ing → 流式",
+    "pos": "n./adj.",
+    "en": "delivering media over the internet",
+    "col": "streaming service · live streaming"
+  },
+  {
+    "w": "soundtrack",
+    "ph": "/ˈsaʊndtræk/",
+    "m": "电影原声带",
+    "c": "entertainment",
+    "ex": "The soundtrack topped the charts.",
+    "exZh": "原声带登上了排行榜冠军。",
+    "t": "电影里那些歌凑成的专辑。",
+    "root": "sound + track → 声轨",
+    "pos": "n.",
+    "en": "recorded music from a film",
+    "col": "original soundtrack · soundtrack album"
+  },
+  {
+    "w": "premiere",
+    "ph": "/ˈpremieə(r)/",
+    "m": "首映；首演",
+    "c": "entertainment",
+    "ex": "The film held its premiere in Cannes.",
+    "exZh": "该片在戛纳举行首映。",
+    "t": "第一次正式亮相的那场。",
+    "root": "prem(first) + -iere → 首次",
+    "pos": "n.",
+    "en": "the first public showing",
+    "col": "world premiere · premiere date"
+  },
+  {
+    "w": "endorsement",
+    "ph": "/ɪnˈdɔːsmənt/",
+    "m": "代言；背书",
+    "c": "entertainment",
+    "ex": "The star signed a sneaker endorsement.",
+    "exZh": "该明星签下了一笔运动鞋代言。",
+    "t": "名人说“我用这个”帮你卖货。",
+    "root": "en-(in) + dorse(back) + -ment → 背后支持",
+    "pos": "n.",
+    "en": "public support, often paid",
+    "col": "brand endorsement · endorsement deal"
+  },
+  {
+    "w": "royalty",
+    "ph": "/ˈrɔɪəlti/",
+    "m": "版税；特许权使用费",
+    "c": "entertainment",
+    "ex": "The singer earned royalties from streams.",
+    "exZh": "歌手从流媒体播放中赚取版税。",
+    "t": "每被播一次、卖一份，原创者分到的钱。",
+    "root": "royal(王) + -ty → 王权费",
+    "pos": "n.",
+    "en": "payment to a rights holder",
+    "col": "music royalties · royalty rate"
+  },
+  {
+    "w": "reboot",
+    "ph": "/ˈriːbuːt/",
+    "m": "重启；翻拍",
+    "c": "entertainment",
+    "ex": "Hollywood plans a reboot of the classic.",
+    "exZh": "好莱坞计划翻拍这部经典。",
+    "t": "老IP拿来重新拍一遍。",
+    "root": "re-(再) + boot(启动) → 重启",
+    "pos": "n./v.",
+    "en": "to restart or remake",
+    "col": "franchise reboot · reboot a series"
+  },
+  {
+    "w": "hype",
+    "ph": "/haɪp/",
+    "m": "炒作；过度宣传",
+    "c": "entertainment",
+    "ex": "The hype around the release was intense.",
+    "exZh": "该片上映前的炒作非常热烈。",
+    "t": "还没看就被吹上天的那股风。",
+    "root": "hyper(过度) → 过度宣传",
+    "pos": "n.",
+    "en": "excessive publicity",
+    "col": "media hype · hype cycle"
+  },
+  {
+    "w": "tournament",
+    "ph": "/ˈtʊənəmənt/",
+    "m": "锦标赛",
+    "c": "sports",
+    "ex": "The tennis tournament drew record crowds.",
+    "exZh": "这项网球锦标赛吸引了创纪录的观众。",
+    "t": "一堆人淘汰赛打到最后的那种大赛。",
+    "root": "tourn(turn) + -ament → 轮转赛",
+    "pos": "n.",
+    "en": "a series of contests",
+    "col": "annual tournament · knockout tournament"
+  },
+  {
+    "w": "squad",
+    "ph": "/skwɒd/",
+    "m": "队伍；阵容",
+    "c": "sports",
+    "ex": "The national squad trained abroad.",
+    "exZh": "国家队在海外集训。",
+    "t": "一队人一起上场的班底。",
+    "root": "squad(小队) → 队",
+    "pos": "n.",
+    "en": "a team or group",
+    "col": "national squad · squad selection"
+  },
+  {
+    "w": "fixture",
+    "ph": "/ˈfɪkstʃə(r)/",
+    "m": "赛程；固定赛事",
+    "c": "sports",
+    "ex": "The fixture was postponed by rain.",
+    "exZh": "这场赛事因雨延期。",
+    "t": "日历上早就排好的那场比赛。",
+    "root": "fix(fasten) + -ture → 固定物",
+    "pos": "n.",
+    "en": "a scheduled match",
+    "col": "league fixture · midweek fixture"
+  },
+  {
+    "w": "podium",
+    "ph": "/ˈpəʊdiəm/",
+    "m": "领奖台",
+    "c": "sports",
+    "ex": "She stepped onto the podium for gold.",
+    "exZh": "她登上领奖台夺得金牌。",
+    "t": "前三名站上去的那块台。",
+    "root": "pod(foot) + -ium → 台",
+    "pos": "n.",
+    "en": "a platform for winners",
+    "col": "podium finish · top of the podium"
+  },
+  {
+    "w": "marathon",
+    "ph": "/ˈmærəθən/",
+    "m": "马拉松；持久活动",
+    "c": "sports",
+    "ex": "He ran the marathon in under three hours.",
+    "exZh": "他不到三小时跑完马拉松。",
+    "t": "42公里、拼耐力的那场。",
+    "root": "Marathon(地名) → 马拉松",
+    "pos": "n.",
+    "en": "a long-distance race",
+    "col": "city marathon · marathon runner"
+  },
+  {
+    "w": "transfer",
+    "ph": "/trænsˈfɜː(r)/",
+    "m": "转会；转移",
+    "c": "sports",
+    "ex": "The striker's transfer broke records.",
+    "exZh": "该前锋的转会费破了纪录。",
+    "t": "球员从一队跳到另一队。",
+    "root": "trans-(across) + fer(carry) → 搬运",
+    "pos": "n./v.",
+    "en": "a move between clubs",
+    "col": "transfer fee · transfer window"
+  },
+  {
+    "w": "sponsorship",
+    "ph": "/ˈspɒnsəʃɪp/",
+    "m": "赞助",
+    "c": "sports",
+    "ex": "Sponsorship covers the team's costs.",
+    "exZh": "赞助覆盖了球队的开支。",
+    "t": "金主出钱换logo露脸。",
+    "root": "sponsor(赞助人) + -ship → 赞助关系",
+    "pos": "n.",
+    "en": "financial backing",
+    "col": "title sponsorship · sponsorship deal"
+  },
+  {
+    "w": "qualifying",
+    "ph": "/ˈkwɒlɪfaɪɪŋ/",
+    "m": "资格赛",
+    "c": "sports",
+    "ex": "The team reached qualifying for the World Cup.",
+    "exZh": "该队打进了世界杯预选赛。",
+    "t": "先过关才能进正赛的那一轮。",
+    "root": "quali(fit) + -fying → 合格化",
+    "pos": "n.",
+    "en": "the stage to earn entry",
+    "col": "qualifying round · qualifying match"
+  },
+  {
+    "w": "underdog",
+    "ph": "/ˈʌndədɒɡ/",
+    "m": "弱队；黑马",
+    "c": "sports",
+    "ex": "The underdog won the final.",
+    "exZh": "黑马赢得了决赛。",
+    "t": "没人看好、却爆冷的那一方。",
+    "root": "under + dog → 下狗",
+    "pos": "n.",
+    "en": "the expected loser",
+    "col": "cheer the underdog · underdog story"
+  },
+  {
+    "w": "rivalry",
+    "ph": "/ˈraɪvlri/",
+    "m": "对抗；宿敌关系",
+    "c": "sports",
+    "ex": "The rivalry between the clubs is fierce.",
+    "exZh": "两家俱乐部之间的对抗异常激烈。",
+    "t": "老对手年年碰、互不服的那股劲。",
+    "root": "rival(对手) + -ry → 对抗",
+    "pos": "n.",
+    "en": "ongoing competition",
+    "col": "historic rivalry · fierce rivalry"
   }
 ]
 
@@ -8724,7 +8984,7 @@ Generate EXACTLY {need} English words (IELTS 6.5+/CEFR C1, not below CET-6), eac
 
 
 
-DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
+DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day MUST always total exactly 8 words):
 
 
 
@@ -8772,7 +9032,7 @@ DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
 
 
 
-- RESTRICTED: politics at most 1, and ONLY if it is economy/trade/tariff/central-bank related (e.g. trade talks, sanctions, rate decisions). FORBIDDEN: pure military conflict, geopolitics-for-its-own-sake, social-livelihood, entertainment, sports soft news.
+- RESTRICTED: politics at most 1, and ONLY if it is economy/trade/tariff/central-bank related (e.g. trade talks, sanctions, rate decisions).
 
 
 
@@ -8788,7 +9048,9 @@ DOMAIN MIX (USER PRIORITY: 财经新闻 + 职场 are the FOCUS):
 
 
 
-- FORBIDDEN filler: entertainment, sports, pure social-livelihood, pure military-conflict words — do NOT pick them just to fill the 8.
+- SUPPLEMENT (filler ONLY when primary topics fall short): If econ+work+news+politics together still number fewer than 8, you MAY add entertainment (影视/音乐/流媒体/明星产业) and sports (赛事/运动员/电竞/体育商业) words to reach exactly 8. Supplement words must NOT outnumber the primary words (primary topics stay the majority). Do NOT let entertainment/sports dominate the day.
+
+- FORBIDDEN: pure military conflict, geopolitics-for-its-own-sake, and pure social-livelihood filler. (Light entertainment/sports used strictly as SUPPLEMENT above is allowed.)
 
 
 
@@ -11349,11 +11611,15 @@ def main():
     # ===== 补足到 8 个：去重后若仍不足 8，用内置真实词池补足，绝不重复（最后兜底）=====
     if len(new_words) < 8:
         _need = 8 - len(new_words)
+        _PRIMARY_CATS = {"econ", "work", "news", "politics"}
         _fb_pool = [w for w in FALLBACK_WORDS
                     if w.get("w", "").lower() not in _hist_set
                     and w.get("w", "").lower() not in _seen]
+        # 优先用主分类（财经/职场/时政）补足；主分类不够时再用娱乐/体育凑满
+        _primary = [w for w in _fb_pool if w.get("c") in _PRIMARY_CATS]
+        _supplement = [w for w in _fb_pool if w.get("c") not in _PRIMARY_CATS]
         _added = 0
-        for _fw in _fb_pool:
+        for _fw in _primary + _supplement:
             if _added >= _need:
                 break
             _k = (_fw.get("w") or "").lower()

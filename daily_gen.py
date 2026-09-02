@@ -11783,29 +11783,36 @@ def main():
         else:
             log(f"  WARNING: preview 重生成 {_max_preview_retry} 次后仍缺失 {len(_pv_missing)} 个词")
 
-        # ===== 最终强制兜底：任何字段都未覆盖的词，强行在 story.en / story.cn 末尾追加 [w|w] 标记，保证前端标红 =====
-        _ft_en = (output.get("story") or {}).get("en") or ""
-        _ft_cn = (output.get("story") or {}).get("cn") or ""
-        _ft_hk = (output.get("preview") or {}).get("hook") or ""
-        _ft_im = (output.get("preview") or {}).get("impact") or ""
-        _ft_all = _ft_en + _ft_cn + _ft_hk + _ft_im
-        _ft_cov = {m[1].lower() for m in re.findall(r"\[([^\]|]+)\|([^\]]+)\]", _ft_all)}
-        _ft_dirty = False
-        for _w in new_words:
-            _wb = (_w.get("w") or "").lower()
-            if _wb and _wb not in _ft_cov:
-                _tag = f" [{_wb}|{_wb}]"
-                _ft_en = _ft_en.rstrip()
-                if _ft_en and not _ft_en.endswith((".", "。", "!", "！", "?", "？")):
-                    _ft_en += "."
-                _ft_en += _tag
-                _ft_cn = _ft_cn.rstrip() + f"[{_wb}|{_wb}]"
-                _ft_cov.add(_wb)
-                _ft_dirty = True
-                log(f"  最终兜底：强制追加标记 {_wb}")
-        if _ft_dirty:
-            output["story"]["en"] = _ft_en
-            output["story"]["cn"] = _ft_cn
+        # ===== 最终强制兜底：每个字段（story.en/cn、preview.hook/impact）都必须覆盖全部 new_words，
+        #         缺失的词在该字段末尾强制追加 [w|w] 标记（逐字段独立校验，不取并集）=====
+        def _force_cov(text, words):
+            s = text or ""
+            cov = {m[1].lower() for m in re.findall(r"\[([^\]|]+)\|([^\]]+)\]", s)}
+            dirty = False
+            for _w in words:
+                _wb = (_w.get("w") or "").lower()
+                if _wb and _wb not in cov:
+                    s = s.rstrip()
+                    if s and not s.endswith((".", "。", "!", "！", "?", "？")):
+                        s += "."
+                    s += " [%s|%s]" % (_w.get("w"), _w.get("w"))
+                    cov.add(_wb)
+                    dirty = True
+                    log(f"  最终兜底：字段强制追加标记 {_wb}")
+            return s, dirty
+
+        _fe, _de = _force_cov((output.get("story") or {}).get("en"), new_words)
+        _fc, _dc = _force_cov((output.get("story") or {}).get("cn"), new_words)
+        _fh, _dh = _force_cov((output.get("preview") or {}).get("hook"), new_words)
+        _fi, _di = _force_cov((output.get("preview") or {}).get("impact"), new_words)
+        if _de:
+            output["story"]["en"] = _fe
+        if _dc:
+            output["story"]["cn"] = _fc
+        if _dh:
+            output["preview"]["hook"] = _fh
+        if _di:
+            output["preview"]["impact"] = _fi
 
 
 

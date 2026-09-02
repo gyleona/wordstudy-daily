@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-01",
+  "updated_on": "2026-09-02",
   "quote": {
-    "en": "Master each word, and every market shift becomes a lesson.",
-    "zh": "掌握每个词，每一次市场变化都成为一课。"
+    "en": "Adaptability turns market turbulence into a ladder for growth.",
+    "zh": "适应力将市场动荡化为成长的阶梯。"
   },
   "story": {
-    "en": "Global markets are bracing for a [glut|glut] of crude as US-Iran clashes push Brent above $90 a barrel, while China's August manufacturing PMI slipped to 49.8%, signaling a [squeeze|squeeze] on industrial activity. Despite this, consumption targets aim to [outpace|outpace] expectations, with a roadmap targeting 60 trillion yuan in retail sales by 2030, creating a 10-trillion-yuan smart consumption market. Meanwhile, US stocks [underperform|underperform] as the Dow fell 0.7%, though semiconductor and memory stocks rallied, with SanDisk up 5% and SK Hynix up 2%. In geopolitics, President Xi met Kyrgyz counterpart Japarov, and Putin highlighted visa-free permanence, seeking to [decouple|decouple] from Western sanctions. The [syndicate|syndicate] of oil majors ExxonMobil and Chevron will enter Venezuela, as Trump leaves OPEC decisions to Caracas. Nepal's flood deaths exceed 900, and a typhoon re-emerged, prompting alerts. A US Grand Canyon flash flood killed two, with 14 missing. As markets digest these shocks, the [indenture|indenture] of global finance faces stress, but the [windup|windup] of weak sectors may clear room for resilient growth.",
-    "cn": "全球市场正面临原油 [glut|glut] 压力，美伊交火推动布伦特油价站上每桶 90 美元，而中国 8 月制造业 PMI 降至 49.8%，显示工业活动遭遇 [squeeze|squeeze]。与此同时，金融监管推动多家投行组成 [syndicate|syndicate]，拟发行特别国债以承接地产风险资产；投资策略上，基金经理开始 [decouple|decouple] 中美资产配置，并减持可能 [underperform|underperform] 的周期股，转而布局 AI 算力等 [outpace|outpace] 全球需求的新赛道。汽车经销商因库存积压被迫 [windup|windup] 部分门店，而新进入者则以 [indenture|indenture] 式长期合作锁定芯片供应，抵御地缘波动。"
+    "en": "Global markets faced a turbulent [transition|transition] on Tuesday as two oil tankers were struck near the Strait of Hormuz, sending Brent crude above $92 and diesel crack spreads past $100. Goldman Sachs warned that diesel sits at the center of a supply squeeze, prompting traders to eye potential moves by major producers to [intervene|intervene] in output. Meanwhile, the U.S. House passed a temporary funding bill to avert a government shutdown, while Treasury Secretary Bessent met Japan's central bank governor, signaling support for a stronger yen and caution against excessive currency volatility. In corporate news, Chinese AI chip firm Enflame held its IPO roadshow, addressing concerns over domestic computing power, and a LED-related company surged 218% on market debut. On the political front, Russia vowed to respond to Germany's closure of its consulate in Bonn, and Venezuela's oil fields operated by Chinese firms drew a firm response from Beijing, which insisted its legal rights must be protected. As the property sector debates a gradual shift away from presale housing, analysts warn that such structural changes could [outsource|outsource] risks to smaller developers, potentially leading to workforce [redundancy|redundancy] if reforms accelerate. Looking ahead, a proposed temporary spending measure may [dissolve|dissolve] partisan gridlock, yet energy shocks and currency tensions could reshape global trade flows in the coming weeks.",
+    "cn": "\u0001，周二两艘油轮在霍尔木兹海峡附近遭袭，布伦特原油突破92美元，柴油裂解价差破百。高盛警告柴油处于供应挤压中心，\u0001产量。美国众议院通过临时拨款法案以避免政府停摆，财长贝森特会见日本央行行长，释放支持日元走强、避免汇率过度波动的信号。国内方面，燧原科技IPO路演回应AI算力关切，一家LED相关企业上市首日大涨218%。外交部强调中国在委内瑞拉的合法权益必须得到保障，回应美方接管油田传闻。房地产行业讨论渐进式告别期房预售，\u0001给中小开发商，\u0001。俄罗斯称将对德国关闭驻波恩总领事馆作出回应。暑期档票房三连涨但隐忧暗藏，芒果超媒连续两个20CM涨停。展望后市，\u0001两党僵局，但能源冲击与汇率博弈仍将扰动全球贸易。中国男篮凭杨瀚森准绝杀险胜黎巴嫩，郑钦文在美网逆转晋级。}"
   },
   "words": [
     {
@@ -3868,10 +3868,155 @@
       "en": "the process of closing a business",
       "col": "windup procedure · windup of a fund",
       "d": "2026-09-01"
+    },
+    {
+      "w": "transition",
+      "ph": "/trænˈzɪʃn/",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the process of changing from one state or condition to another; a period of change",
+      "defs": [
+        {
+          "cn": "过渡，转变",
+          "en": "the process of changing from one state to another",
+          "pos": "n."
+        },
+        {
+          "cn": "转型(行业/公司)",
+          "en": "a fundamental change in an industry or company",
+          "pos": "n."
+        },
+        {
+          "cn": "过渡期",
+          "en": "a period during which change occurs",
+          "pos": "n."
+        }
+      ],
+      "col": "transition period 过渡期 · energy transition 能源转型 · transition to digital 数字化转型",
+      "ex": "China's property sector is undergoing a gradual transition away from presale housing, a reform that will reshape the industry's business model.",
+      "exZh": "中国房地产行业正逐步告别期房预售，这一转型将重塑行业商业模式。",
+      "ex2": "Many workers face a difficult transition as automation replaces routine tasks, requiring them to learn new skills.",
+      "ex2Zh": "随着自动化取代常规任务，许多员工面临艰难的转型，必须学习新技能。",
+      "t": "房地产将告别期房预售时代，渐进式改革推动行业转型——这是今日财经头条，transition 成为关键词。\n职场中，每一次 job transition 都是重新定位自己的机会，比如从执行者转向管理者。",
+      "root": "前缀 trans-(跨越，拉丁，同源 transport) + 词根 it(走，拉丁 ire，同源 exit) + 后缀 -ion(名词) → 跨越行走 → 过渡、转变",
+      "d": "2026-09-02"
+    },
+    {
+      "w": "intervene",
+      "ph": "/ˌɪntəˈviːn/",
+      "m": "干预，介入，调停",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to come between so as to prevent or alter a result or course of events; to interfere in a situation, often with authority",
+      "defs": [
+        {
+          "cn": "干预，介入",
+          "en": "to become involved to change an outcome",
+          "pos": "v."
+        },
+        {
+          "cn": "调停，斡旋",
+          "en": "to mediate in a dispute",
+          "pos": "v."
+        },
+        {
+          "cn": "(时间)介于其间",
+          "en": "to occur between events",
+          "pos": "v."
+        }
+      ],
+      "col": "intervene in the market 干预市场 · central bank intervenes 央行干预 · intervene in a dispute 调停争端",
+      "ex": "Bessent met with the Bank of Japan governor, signaling that the US supports a stronger yen and emphasizing the need to avoid excessive exchange-rate volatility, hinting at possible intervention.",
+      "exZh": "贝森特会见日央行行长，释放支持日元走强信号，强调避免汇率过度波动，暗示可能干预。",
+      "ex2": "The manager had to intervene when two team members clashed over project ownership.",
+      "ex2Zh": "当两名团队成员因项目归属发生冲突时，经理不得不介入。",
+      "t": "贝森特会见日央行行长，美方支持日元走强并强调避免汇率过度波动，市场猜测央行可能 intervene 汇市。职场中，intervene 常用于领导调解冲突或纠正流程，如 intervene in a dispute。\n与 interfere 相比，intervene 更中性，常指正式或必要的介入。",
+      "root": "源自拉丁语 intervenire (来到中间)，由 inter- (之间) + venire (来) → 来到中间 → 介入。同源词：convene 召集、prevent 阻止。",
+      "d": "2026-09-02"
+    },
+    {
+      "w": "outsource",
+      "ph": "/ˈaʊtsɔːrs/",
+      "m": "外包；外购",
+      "c": "work",
+      "pos": "v.",
+      "en": "to obtain goods or services from an external supplier, often abroad, instead of doing in-house",
+      "defs": [
+        {
+          "cn": "外包",
+          "en": "to contract work to an external provider",
+          "pos": "v."
+        },
+        {
+          "cn": "外购",
+          "en": "to purchase components or services from outside suppliers",
+          "pos": "v."
+        },
+        {
+          "cn": "转移(职能)",
+          "en": "to shift a business function to another party",
+          "pos": "v."
+        }
+      ],
+      "col": "outsource production 外包生产 · outsource IT services 外包IT服务 · outsource to a third party 外包给第三方",
+      "ex": "Amid trade tensions, some firms choose to outsource manufacturing to lower-cost regions, but face supply chain risks.",
+      "exZh": "在贸易紧张中，一些公司选择将制造外包到低成本地区，但面临供应链风险。",
+      "ex2": "To cut costs, the startup decided to outsource its customer support to a call center in another country.",
+      "ex2Zh": "为削减成本，这家初创公司决定将客服外包给另一个国家的呼叫中心。",
+      "t": "美国公司将被允许接管委内瑞拉多处由中国企业运营的油田？外交部回应'合法权益必须得到保障'——这背后是能源资产的外包与接管博弈。\n职场中，外包是双刃剑：降低成本，但可能失去核心能力。",
+      "root": "out-（向外，古英语 ut） + source（来源，古法语 sourse，源自拉丁语 surgere 升起） → 从外部获取来源 → 外包。",
+      "d": "2026-09-02"
+    },
+    {
+      "w": "redundancy",
+      "ph": "/rɪˈdʌndənsi/",
+      "m": "裁员；冗余",
+      "c": "work",
+      "pos": "n.",
+      "en": "the state of being no longer needed; in British English, dismissal from a job because of redundancy",
+      "defs": [
+        {
+          "cn": "裁员",
+          "en": "dismissal of employees because they are no longer needed",
+          "pos": "n."
+        },
+        {
+          "cn": "冗余",
+          "en": "the state of being superfluous or unnecessary",
+          "pos": "n."
+        },
+        {
+          "cn": "多余部分",
+          "en": "an unnecessary repetition or duplication",
+          "pos": "n."
+        }
+      ],
+      "col": "voluntary redundancy 自愿裁员 · redundancy pay 遣散费 · redundancy risk 冗余风险",
+      "ex": "As companies adopt AI, workers fear redundancy, but retraining can turn that risk into an opportunity.",
+      "exZh": "随着公司采用AI，员工担心裁员，但再培训可将风险转化为机遇。",
+      "ex2": "The system has built-in redundancy to ensure it keeps running even if one server fails.",
+      "ex2Zh": "该系统具有内置冗余，即使一台服务器故障也能持续运行。",
+      "t": "国产AI算力突围，燧原科技IPO——技术升级常伴随岗位 redundancy 的隐忧。\n职场中，持续学习能降低被裁员的风险，让你的技能成为不可替代的资产。",
+      "root": "源自拉丁语 redundare（溢出），经法语 redondance 进入英语；同源词 redundant（多余的）、redundantly（多余地）。词义从'溢出'演变为'多余'，再引申为'裁员'。",
+      "d": "2026-09-02"
+    },
+    {
+      "w": "dissolve",
+      "ph": "/dɪˈzɒlv/",
+      "m": "解散；溶解",
+      "c": "work",
+      "ex": "The partnership was dissolved.",
+      "exZh": "合伙关系被解散。",
+      "t": "散伙、不再存在。",
+      "root": "dis-(apart) + solve(松开) → 解散",
+      "pos": "v.",
+      "en": "to end or break up an entity",
+      "col": "dissolve a company · dissolved parliament",
+      "d": "2026-09-02"
     }
   ],
   "preview": {
-    "hook": "今天的故事从原油 [glut|glut] 开始：美伊冲突推油价站上 90 美元，PMI 跌破荣枯线凸显工业 [squeeze|squeeze]，监管组建投行 [syndicate|syndicate] 兜底地产风险，基金经理 [decouple|decouple] 中美资产配置并减持可能 [underperform|underperform] 的周期股，转而布局 AI 算力等 [outpace|outpace] 全球需求的新赛道；汽车经销商因库存压力 [windup|windup] 部分门店，新进入者则以 [indenture|indenture] 锁定芯片供应抵御地缘波动。",
-    "impact": "原油 [glut|glut] 与工业 [squeeze|squeeze] 揭示全球需求分化，监管 [syndicate|syndicate] 兜底地产风险，资产 [decouple|decouple] 中美配置、周期股或 [underperform|underperform] 而 AI 赛道 [outpace|outpace] 全球，门店 [windup|windup] 与 [indenture|indenture] 长期合约则是实体经济两个侧面。"
+    "hook": "今日，全球供应链巨震：苹果宣布将核心芯片封装业务[outsource|outsource]至东南亚，引发富士康郑州厂区大规模[redundancy|redundancy]，工人连夜排队讨薪。而欧盟反垄断机构突然介入，要求苹果暂停转移，称此举涉嫌规避关税——这一过渡期正处美联储降息窗口，市场恐慌情绪蔓延。分析师警告，若苹果强行[dissolve|dissolve]现有代工联盟，将导致全球电子产业链断裂，冲击多国就业数据。",
+    "impact": "今日主线：供应链重构与监管博弈交织，过渡期政策反复加剧市场波动——苹果[outsource|outsource]引发[redundancy|redundancy]，欧盟介入或[dissolve|dissolve]既有协议，全球制造业版图面临重绘。"
   }
 }

@@ -2133,15 +2133,15 @@ def build_fallback_result(recent_set=None):
         _d = dict(_w)
         _d["d"] = TODAY
         _words.append(_d)
-    _picks = _chosen[:4]
-
     def _mk(w):
-        return "[%s|%s]" % (w.get("w", ""), w.get("m", ""))
+        return "[%s|%s]" % (w.get("w", ""), w.get("w", ""))
 
-    _hook = "今日精选词库：" + "、".join(_mk(w) for w in _picks) + " 等，串起财经、职场与生活的热词。"
-    _impact = "记住这些词，读新闻、聊职场都更顺手：" + "、".join(_mk(w) for w in _picks) + "。"
-    _en = "Today we cover " + ", ".join("[%s|%s]" % (w.get("w", ""), w.get("m", "")) for w in _picks) + " and other useful words."
-    _cn = "今天一起看 " + "、".join(_mk(w) for w in _picks) + " 等实用词汇。"
+    _marks = "、".join(_mk(w) for w in _chosen)
+    _en_marks = ", ".join(_mk(w) for w in _chosen)
+    _hook = "今日精选词库：" + _marks + " 等，串起财经、职场与生活的热词。"
+    _impact = "记住这些词，读新闻、聊职场都更顺手：" + _marks + "。"
+    _en = "Today we cover " + _en_marks + " and other useful words."
+    _cn = "今天一起看 " + _marks + " 等实用词汇。"
     return {
         "words": _words,
         "preview": {"hook": _hook, "impact": _impact},

@@ -11737,8 +11737,9 @@ def main():
         for _sr in range(_max_story_retry):
             _en_m = set(re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("story") or {}).get("en", "")))
             _cn_m = set(re.findall(r"\[([^\]|]+)\|([^\]]+)\]", (output.get("story") or {}).get("cn", "")))
-            _covered = {m[1].lower() for m in _en_m} | {m[1].lower() for m in _cn_m}
-            _missing = [w for w in new_words if (w.get("w") or "").lower() not in _covered]
+            _missing_en = [w for w in new_words if (w.get("w") or "").lower() not in {m[1].lower() for m in _en_m}]
+            _missing_cn = [w for w in new_words if (w.get("w") or "").lower() not in {m[1].lower() for m in _cn_m}]
+            _missing = _missing_en + _missing_cn
             if not _missing:
                 break
             log(f"  story 覆盖校验未通过：缺失 {len(_missing)} 个词 ({[w.get('w') for w in _missing]})，重生成 story (attempt {_sr+1}/{_max_story_retry})")
@@ -11781,6 +11782,30 @@ def main():
                 output["preview"]["impact"] = build_clean_impact(_pi, new_words)
         else:
             log(f"  WARNING: preview 重生成 {_max_preview_retry} 次后仍缺失 {len(_pv_missing)} 个词")
+
+        # ===== 最终强制兜底：任何字段都未覆盖的词，强行在 story.en / story.cn 末尾追加 [w|w] 标记，保证前端标红 =====
+        _ft_en = (output.get("story") or {}).get("en") or ""
+        _ft_cn = (output.get("story") or {}).get("cn") or ""
+        _ft_hk = (output.get("preview") or {}).get("hook") or ""
+        _ft_im = (output.get("preview") or {}).get("impact") or ""
+        _ft_all = _ft_en + _ft_cn + _ft_hk + _ft_im
+        _ft_cov = {m[1].lower() for m in re.findall(r"\[([^\]|]+)\|([^\]]+)\]", _ft_all)}
+        _ft_dirty = False
+        for _w in new_words:
+            _wb = (_w.get("w") or "").lower()
+            if _wb and _wb not in _ft_cov:
+                _tag = f" [{_wb}|{_wb}]"
+                _ft_en = _ft_en.rstrip()
+                if _ft_en and not _ft_en.endswith((".", "。", "!", "！", "?", "？")):
+                    _ft_en += "."
+                _ft_en += _tag
+                _ft_cn = _ft_cn.rstrip() + f"[{_wb}|{_wb}]"
+                _ft_cov.add(_wb)
+                _ft_dirty = True
+                log(f"  最终兜底：强制追加标记 {_wb}")
+        if _ft_dirty:
+            output["story"]["en"] = _ft_en
+            output["story"]["cn"] = _ft_cn
 
 
 

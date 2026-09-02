@@ -26,7 +26,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests cos-python-sdk-v5
 
       - name: Run daily word generation
         env:

@@ -10774,7 +10774,7 @@ def main():
 
 
 
-        r = generate_content(recent_set, quote_history, news_headlines)
+        r = generate_content(recent_set, quote_history, news_headlines, need=12)
 
 
 
@@ -11317,6 +11317,9 @@ def main():
     if _dropped:
         log(f"Dedup guard: dropped {_dropped} word(s) conflicting with history/duplicate; final today count={len(_deduped)}")
     new_words = _deduped
+    # 去重后若超过 8 个，保留前 8 个（need=12 留余量，避免数量漂移）
+    if len(new_words) > 8:
+        new_words = new_words[:8]
     # ===== 二次补生成：去重后仍不足 8，再调一次模型专门补齐缺失数量（避开历史+今日）=====
     if len(new_words) < 8:
         _rs = (recent_set or set()) | _hist_set | _seen
@@ -11363,6 +11366,25 @@ def main():
             _added += 1
         if _added:
             log(f"Fallback: added {_added} word(s) from backup pool to reach 8; final today count={len(new_words)}")
+
+    # ===== 最终硬保证：固定池仍不足 8，从全部历史词（最早优先）复用，确保恒为 8 个 =====
+    if len(new_words) < 8:
+        _need = 8 - len(new_words)
+        _hist_list = [w for w in prev_words if (w.get("w") or "").lower() not in _seen]
+        _added = 0
+        for _hw in _hist_list:
+            if _added >= _need:
+                break
+            _k = (_hw.get("w") or "").lower()
+            if not _k:
+                continue
+            _word = dict(_hw)
+            _word["d"] = TODAY
+            new_words.append(_word)
+            _seen.add(_k)
+            _added += 1
+        if _added:
+            log(f"HARD-GUARD: reused {_added} historical word(s) to guarantee 8; today count={len(new_words)}")
 
 
 

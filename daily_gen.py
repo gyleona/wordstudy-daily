@@ -11805,28 +11805,49 @@ def main():
         else:
             log(f"  WARNING: preview 重生成 {_max_preview_retry} 次后仍缺失 {len(_pv_missing)} 个词")
 
-        # ===== 最终强制兜底：每个字段（story.en/cn、preview.hook/impact）都必须覆盖全部 new_words，
-        #         缺失的词在该字段末尾强制追加 [w|w] 标记（逐字段独立校验，不取并集）=====
-        def _force_cov(text, words):
+        # ===== 最终强制兜底：每个字段（story.en/cn、preview.hook/impact）都必须覆盖全部 new_words。
+        #   优先用模型生成一句自然嵌入缺词的话追加到字段末尾（不再堆裸 [w|w] 标记）；
+        #   模型不可用（无 API key）时 fallback 到裸标记，保证标红不丢失 =====
+        def _natural_patch(text, words, lang):
             s = text or ""
             cov = {m[1].lower() for m in re.findall(r"\[([^\]|]+)\|([^\]]+)\]", s)}
-            dirty = False
-            for _w in words:
-                _wb = (_w.get("w") or "").lower()
-                if _wb and _wb not in cov:
-                    s = s.rstrip()
-                    if s and not s.endswith((".", "。", "!", "！", "?", "？")):
-                        s += "."
-                    s += " [%s|%s]" % (_w.get("w"), _w.get("w"))
-                    cov.add(_wb)
-                    dirty = True
-                    log(f"  最终兜底：字段强制追加标记 {_wb}")
-            return s, dirty
+            miss = [w for w in words if (w.get("w") or "").lower() not in cov]
+            if not miss:
+                return s, False
+            _lang_label = "English" if lang == "en" else "Chinese (中文)"
+            _word_list = "、".join((w.get("w") or "") for w in miss)
+            _prompt = (f'Write ONE natural {_lang_label} sentence (max 120 characters) that weaves in ALL '
+                       f'these IELTS vocabulary words naturally, each marked as [word|word]. '
+                       f'Do NOT list them; embed in real context. '
+                       f'Required words: {_word_list}. '
+                       f'Return strict JSON only: {{"sentence":"..."}}')
+            _patch = None
+            try:
+                _r = call_deepseek(_prompt, max_tokens=300)
+                if _r and isinstance(_r, dict):
+                    _patch = (_r.get("sentence") or "").strip().strip('"').strip()
+            except Exception as _e:
+                log(f"  兜底补句模型调用异常: {_e}")
+            if _patch and re.search(r"\[[^\]|]+\|[^\]]+\]", _patch):
+                s = s.rstrip()
+                if s and not s.endswith((".", "。", "!", "！", "?", "？")):
+                    s += "."
+                s += " " + _patch
+                log(f"  最终兜底：模型自然补句（{lang}）覆盖 {[w.get('w') for w in miss]}")
+                return s, True
+            # fallback：裸标记（保证标红不丢失）
+            for _w in miss:
+                s = s.rstrip()
+                if s and not s.endswith((".", "。", "!", "！", "?", "？")):
+                    s += "."
+                s += " [%s|%s]" % (_w.get("w"), _w.get("w"))
+                log(f"  最终兜底：裸标记追加 {_w.get('w')}（模型不可用）")
+            return s, True
 
-        _fe, _de = _force_cov((output.get("story") or {}).get("en"), new_words)
-        _fc, _dc = _force_cov((output.get("story") or {}).get("cn"), new_words)
-        _fh, _dh = _force_cov((output.get("preview") or {}).get("hook"), new_words)
-        _fi, _di = _force_cov((output.get("preview") or {}).get("impact"), new_words)
+        _fe, _de = _natural_patch((output.get("story") or {}).get("en"), new_words, "en")
+        _fc, _dc = _natural_patch((output.get("story") or {}).get("cn"), new_words, "cn")
+        _fh, _dh = _natural_patch((output.get("preview") or {}).get("hook"), new_words, "cn")
+        _fi, _di = _natural_patch((output.get("preview") or {}).get("impact"), new_words, "cn")
         if _de:
             output["story"]["en"] = _fe
         if _dc:

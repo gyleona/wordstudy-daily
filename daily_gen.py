@@ -2112,6 +2112,47 @@ FALLBACK_WORDS = [
   }
 ]
 
+def build_fallback_result(recent_set=None):
+    """当 DeepSeek 完全不可用时，用内置真实词池硬凑 8 词，保证每天必有 8 个词上架（含娱乐/体育补充类）。"""
+    _hist = set((recent_set or set()))
+    _pool = [w for w in FALLBACK_WORDS if w.get("w", "").lower() not in _hist]
+    _chosen = _pool[:8]
+    if len(_chosen) < 8:
+        # 历史占用过多时放宽到全池（允许与历史重复也强保 8 词）
+        _seen8 = set()
+        _chosen = []
+        for _w in FALLBACK_WORDS:
+            _k = _w.get("w", "").lower()
+            if _k and _k not in _seen8:
+                _chosen.append(_w)
+                _seen8.add(_k)
+            if len(_chosen) >= 8:
+                break
+    _words = []
+    for _w in _chosen:
+        _d = dict(_w)
+        _d["d"] = TODAY
+        _words.append(_d)
+    _picks = _chosen[:4]
+
+    def _mk(w):
+        return "[%s|%s]" % (w.get("w", ""), w.get("m", ""))
+
+    _hook = "今日精选词库：" + "、".join(_mk(w) for w in _picks) + " 等，串起财经、职场与生活的热词。"
+    _impact = "记住这些词，读新闻、聊职场都更顺手：" + "、".join(_mk(w) for w in _picks) + "。"
+    _en = "Today we cover " + ", ".join("[%s|%s]" % (w.get("w", ""), w.get("m", "")) for w in _picks) + " and other useful words."
+    _cn = "今天一起看 " + "、".join(_mk(w) for w in _picks) + " 等实用词汇。"
+    return {
+        "words": _words,
+        "preview": {"hook": _hook, "impact": _impact},
+        "story": {"en": _en, "cn": _cn},
+        "quote": {
+            "en": "Words are, in my not-so-humble opinion, our most inexhaustible form of magic.",
+            "zh": "依我所见，词语是我们取之不尽的魔法。",
+        },
+    }
+
+
 def get_existing_words(client):
 
 
@@ -11341,22 +11382,8 @@ def main():
 
 
             log("ERROR: no generation produced at all")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            sys.exit(1)
+            log("API unavailable — falling back to built-in word pool to guarantee 8 words")
+            result = build_fallback_result(recent_set)
 
 
 

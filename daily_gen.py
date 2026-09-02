@@ -11990,6 +11990,13 @@ def main():
 
 
     success = upload_to_cos(client, content_bytes, "words-data.json")
+    # 同时写回本地 words-data.json，供 GitHub Actions 的 commit 步骤检测到变化并 push 回仓库（Pages 部署依赖此文件）
+    try:
+        with open("words-data.json", "w", encoding="utf-8") as _f:
+            _f.write(content_bytes.decode("utf-8"))
+        log("已写回本地 words-data.json (%d bytes)" % len(content_bytes))
+    except Exception as _e:
+        log("warn: 写本地 words-data.json 失败: %s" % _e)
 
 
 

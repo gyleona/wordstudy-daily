@@ -1851,6 +1851,136 @@ FALLBACK_WORDS = [
     "col": "dissolve a company · dissolved parliament"
   },
   {
+    "w": "algorithm",
+    "ph": "/ˈælɡərɪðəm/",
+    "m": "算法",
+    "c": "tech",
+    "ex": "The recommendation algorithm learned her taste in music.",
+    "exZh": "推荐算法摸清了她听歌的口味。",
+    "t": "机器解决问题的计算步骤。",
+    "root": "源自数学家 al-Khwarizmi 的名字 → 算法",
+    "pos": "n.",
+    "en": "a set of rules a computer follows to solve a problem",
+    "col": "recommendation algorithm · algorithm bias"
+  },
+  {
+    "w": "autonomous",
+    "ph": "/ɔːˈtɒnəməs/",
+    "m": "自动的；自主的",
+    "c": "tech",
+    "ex": "Autonomous vehicles map the road with lasers.",
+    "exZh": "自动驾驶车辆用激光绘制路况。",
+    "root": "auto-(self) + nomos(law) → 自己给自己定规则",
+    "pos": "adj.",
+    "t": "不用人管、自己能做决定的。",
+    "en": "operating independently without human control",
+    "col": "autonomous driving · autonomous robots"
+  },
+  {
+    "w": "humanoid",
+    "ph": "/ˈhjuːmənɔɪd/",
+    "m": "人形机器人；类人的",
+    "c": "tech",
+    "ex": "The factory debuted its first humanoid worker.",
+    "exZh": "工厂首次启用类人机器人员工。",
+    "t": "长得像人的机器。",
+    "root": "human(人) + -oid(像…的) → 类人",
+    "pos": "n./adj.",
+    "en": "a robot shaped like a human being",
+    "col": "humanoid robot · humanoid robot factory"
+  },
+  {
+    "w": "semiconductor",
+    "ph": "/ˌsemikənˈdʌktə/",
+    "m": "半导体；芯片",
+    "c": "tech",
+    "ex": "Chip shortages hit the semiconductor supply chain.",
+    "exZh": "缺芯潮冲击半导体供应链。",
+    "t": "做芯片的那种材料，也代指芯片行业。",
+    "root": "semi-(半) + conductor(导体) → 半导体",
+    "pos": "n.",
+    "en": "a material used to make computer chips",
+    "col": "semiconductor industry · semiconductor plant"
+  },
+  {
+    "w": "satellite",
+    "ph": "/ˈsætəlaɪt/",
+    "m": "卫星",
+    "c": "tech",
+    "ex": "The company launched 60 satellites in one rocket.",
+    "exZh": "一枚火箭发射了60颗卫星。",
+    "t": "绕着地球转、帮我们通信导航的人造天体。",
+    "root": "拉丁语 satelles(随从) → 跟随者 → 卫星",
+    "pos": "n.",
+    "en": "an object launched into orbit around the Earth",
+    "col": "satellite launch · satellite internet"
+  },
+  {
+    "w": "aerospace",
+    "ph": "/ˈeərəʊspeɪs/",
+    "m": "航空航天（工业）",
+    "c": "tech",
+    "ex": "Aerospace firms raced to win the defense contract.",
+    "exZh": "航空航天公司竞标国防合同。",
+    "t": "造飞机和火箭的那个行业。",
+    "root": "aero-(空气/航空) + space(太空) → 航空航天",
+    "pos": "n.",
+    "en": "the industry of aircraft and spacecraft",
+    "col": "aerospace company · aerospace engineer"
+  },
+  {
+    "w": "automation",
+    "ph": "/ˌɔːtəˈmeɪʃn/",
+    "m": "自动化",
+    "c": "tech",
+    "ex": "Automation replaced many repetitive factory jobs.",
+    "exZh": "自动化取代了很多重复的工厂岗位。",
+    "t": "让机器代替人干活。",
+    "root": "auto-(self) + -mation(动作) → 自动运作",
+    "pos": "n.",
+    "en": "using machines to do work without people",
+    "col": "industrial automation · office automation"
+  },
+  {
+    "w": "prototype",
+    "ph": "/ˈprəʊtətaɪp/",
+    "m": "原型；样机",
+    "c": "tech",
+    "ex": "Engineers tested the robot prototype indoors.",
+    "exZh": "工程师在室内测试机器人样机。",
+    "t": "新产品造出来的第一台样品。",
+    "root": "proto-(第一) + type(型) → 第一型",
+    "pos": "n.",
+    "en": "the first model of a new product",
+    "col": "product prototype · prototype test"
+  },
+  {
+    "w": "breakthrough",
+    "ph": "/ˈbreɪkθruː/",
+    "m": "突破；重大进展",
+    "c": "tech",
+    "ex": "Scientists announced a breakthrough in battery design.",
+    "exZh": "科学家宣布电池设计取得突破。",
+    "t": "卡了很久突然打通了的那种进展。",
+    "root": "break(打破) + through(穿过) → 突破",
+    "pos": "n.",
+    "en": "an important discovery or success after trying hard",
+    "col": "scientific breakthrough · AI breakthrough"
+  },
+  {
+    "w": "generative",
+    "ph": "/ˈdʒenərətɪv/",
+    "m": "生成式的",
+    "c": "tech",
+    "ex": "Generative AI writes text and images on demand.",
+    "exZh": "生成式AI能按需求写文作图。",
+    "t": "能自己生成内容的那种AI。",
+    "root": "generate(生成) + -ive → 有生成能力的",
+    "pos": "adj.",
+    "en": "able to produce new content such as text or images",
+    "col": "generative AI · generative model"
+  },
+  {
     "w": "franchise",
     "ph": "/ˈfræntʃaɪz/",
     "m": "特许经营权；影视系列",
@@ -2138,7 +2268,7 @@ def build_fallback_result(recent_set=None):
 
     _marks = "、".join(_mk(w) for w in _chosen)
     _en_marks = ", ".join(_mk(w) for w in _chosen)
-    _hook = "今日精选词库：" + _marks + " 等，串起财经、职场与生活的热词。"
+    _hook = "今日精选词库：" + _marks + " 等，串起财经、职场、科技与生活的热词。"
     _impact = "记住这些词，读新闻、聊职场都更顺手：" + _marks + "。"
     _en = "Today we cover " + _en_marks + " and other useful words."
     _cn = "今天一起看 " + _marks + " 等实用词汇。"
@@ -6581,7 +6711,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-        if w.get("c") not in ("econ", "work", "news", "politics"):
+        if w.get("c") not in ("econ", "work", "news", "politics", "tech"):
 
 
 
@@ -6662,6 +6792,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
     econ = cnt.get("econ", 0)
+    tech = cnt.get("tech", 0)
 
 
 
@@ -6693,7 +6824,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-    if work < 2:
+    if work + tech < 2:
 
 
 
@@ -6725,7 +6856,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-    if econ + work < 5:
+    if econ + work + tech < 5:
 
 
 
@@ -7681,7 +7812,7 @@ def explain_quality(result):
 
 
 
-    log(f"  words={len(words)} domain={dict(cnt)} work={cnt.get('work',0)} econ+work={cnt.get('econ',0)+cnt.get('work',0)} politics={cnt.get('politics',0)}")
+    log(f"  words={len(words)} domain={dict(cnt)} work={cnt.get('work',0)} econ+work+tech={cnt.get('econ',0)+cnt.get('work',0)+cnt.get('tech',0)} politics={cnt.get('politics',0)}")
 
 
 
@@ -8609,7 +8740,8 @@ def _build_context(recent_set, quote_history, news_headlines):
 
 
 
-    avoid = ", ".join(sorted(recent_set)[:50]) if recent_set else "none"
+    _avoid_all = sorted(recent_set) if recent_set else []
+    avoid = ", ".join(_avoid_all[:400]) if _avoid_all else "none"
 
 
 
@@ -9041,7 +9173,7 @@ DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day M
 
 
 
-- PRIMARY — must be 6-8 of the 8 words: econ (财经/商业/市场) and work (职场/就业/办公) TOGETHER at least 5 (suggest econ 3-4, work 2-3). The day's words should orbit "财经、商业、市场、职场、贸易、科技商业、就业".
+- PRIMARY — must be 6-8 of the 8 words: econ (财经/商业/市场), work (职场/就业/办公) and tech (科技热点: AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件/新能源) TOGETHER at least 5 (suggest econ 2-4, work 1-3, tech 1-3). The day's words should orbit "财经、商业、市场、职场、贸易、科技(AI/机器人/航空)、就业".
 
 
 
@@ -9089,7 +9221,7 @@ DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day M
 
 
 
-- SUPPLEMENT (filler ONLY when primary topics fall short): If econ+work+news+politics together still number fewer than 8, you MAY add entertainment (影视/音乐/流媒体/明星产业) and sports (赛事/运动员/电竞/体育商业) words to reach exactly 8. Supplement words must NOT outnumber the primary words (primary topics stay the majority). Do NOT let entertainment/sports dominate the day.
+- SUPPLEMENT (filler ONLY when primary topics fall short): If econ+work+tech+news+politics together still number fewer than 8, you MAY add entertainment (影视/音乐/流媒体/明星产业) and sports (赛事/运动员/电竞/体育商业) words to reach exactly 8. Supplement words must NOT outnumber the primary words (primary topics stay the majority). Do NOT let entertainment/sports dominate the day.
 
 - FORBIDDEN: pure military conflict, geopolitics-for-its-own-sake, and pure social-livelihood filler. (Light entertainment/sports used strictly as SUPPLEMENT above is allowed.)
 
@@ -9315,7 +9447,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
-  c: econ | work | news | politics  (财经/职场主导：econ+work 合计 5-7 个; news 经济商业相关最多 2; politics 经济贸易相关最多 1; 禁止 entertainment/sports/纯社会民生)
+  c: econ | work | news | politics | tech  (财经/职场/科技主导：econ+work+tech 合计 5-7 个, tech 指当前热点的 AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件; news 经济商业相关最多 2; politics 经济贸易相关最多 1; entertainment/sports 仅在主类凑不满 8 时作补充, 合计最多 3)
 
 
 
@@ -11612,7 +11744,7 @@ def main():
     # ===== 二次补生成：去重后仍不足 8，再调一次模型专门补齐缺失数量（避开历史+今日）=====
     if len(new_words) < 8:
         _rs = (recent_set or set()) | _hist_set | _seen
-        for _att in range(3):
+        for _att in range(5):
             _need = 8 - len(new_words)
             if _need <= 0:
                 break
@@ -11638,7 +11770,7 @@ def main():
     # ===== 补足到 8 个：去重后若仍不足 8，用内置真实词池补足，绝不重复（最后兜底）=====
     if len(new_words) < 8:
         _need = 8 - len(new_words)
-        _PRIMARY_CATS = {"econ", "work", "news", "politics"}
+        _PRIMARY_CATS = {"econ", "work", "news", "politics", "tech"}
         _fb_pool = [w for w in FALLBACK_WORDS
                     if w.get("w", "").lower() not in _hist_set
                     and w.get("w", "").lower() not in _seen]

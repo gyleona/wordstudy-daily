@@ -10179,7 +10179,7 @@ Output STRICT JSON only, no markdown, exactly this shape:
 
 
 
-    return call_deepseek(prompt, max_tokens=8000)
+    return call_deepseek(prompt, max_tokens=6000)
 
 
 
@@ -11221,7 +11221,7 @@ def main():
 
 
 
-        r = generate_content(recent_set, quote_history, news_headlines, need=12)
+        r = generate_content(recent_set, quote_history, news_headlines, need=8)
         if isinstance(r, dict):
             _rws = r.get("words") or []
             if _rws:
@@ -11768,7 +11768,7 @@ def main():
     if _dropped:
         log(f"Dedup guard: dropped {_dropped} word(s) conflicting with history/duplicate; final today count={len(_deduped)}")
     new_words = _deduped
-    # 去重后若超过 8 个，保留前 8 个（need=12 留余量，避免数量漂移）
+    # 去重后若超过 8 个，保留前 8 个（need=8 已对齐目标数，这里仅为去重兜底）
     if len(new_words) > 8:
         new_words = new_words[:8]
     # ===== 二次补生成：去重后仍不足 8，再调一次模型专门补齐缺失数量（避开历史+今日）=====

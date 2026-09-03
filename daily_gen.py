@@ -6824,7 +6824,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-    if work + tech < 2:
+    if work < 1:
 
 
 
@@ -6856,7 +6856,15 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-    if econ + work + tech < 5:
+    if econ < 2:
+
+        return False
+
+    if tech > 3:
+
+        return False
+
+    if econ + work + politics < 5:
 
 
 
@@ -6888,7 +6896,7 @@ def validate_core(result, min_cn=310, max_cn=400):
 
 
 
-    if politics > 1:
+    if politics > 3:
 
 
 
@@ -9175,7 +9183,7 @@ DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day M
 
 
 
-- PRIMARY — must be 6-8 of the 8 words: econ (财经/商业/市场), work (职场/就业/办公) and tech (科技热点: AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件/新能源) TOGETHER at least 5 (suggest econ 2-4, work 1-3, tech 1-3). The day's words should orbit "财经、商业、市场、职场、贸易、科技(AI/机器人/航空)、就业".
+- PRIMARY — must be 6-8 of the 8 words: econ (财经/商业/市场) is the TOP focus (2-4 words), plus politics (时政/政治: 政策、贸易谈判、外交、制裁、央行、监管、选举的经济影响 — NOT pure military conflict, NOT a specific country's internal sensitive politics) 1-2 words, and work (职场/就业/办公) 1-3 words. econ+politics+work TOGETHER at least 5. The day's words should orbit "财经、商业、市场、时政、政策、贸易、职场、就业".
 
 
 
@@ -9207,7 +9215,7 @@ DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day M
 
 
 
-- RESTRICTED: politics at most 1, and ONLY if it is economy/trade/tariff/central-bank related (e.g. trade talks, sanctions, rate decisions).
+- politics: 1-2 words allowed, tied to REAL policy/trade/diplomacy/central-bank/regulation news (e.g. tariffs, sanctions, rate decisions, elections' economic impact). FORBIDDEN: pure military conflict, war, or sensitive internal politics of any specific country.
 
 
 
@@ -9223,7 +9231,7 @@ DOMAIN MIX (USER PRIORITY: 财经 + 职场 + 时政 are the FOCUS, but the day M
 
 
 
-- SUPPLEMENT (filler ONLY when primary topics fall short): If econ+work+tech+news+politics together still number fewer than 8, you MAY add entertainment (影视/音乐/流媒体/明星产业) and sports (赛事/运动员/电竞/体育商业) words to reach exactly 8. Supplement words must NOT outnumber the primary words (primary topics stay the majority). Do NOT let entertainment/sports dominate the day.
+- SUPPLEMENT (filler ONLY when primary topics fall short): If econ+politics+work+news together still number fewer than 8, add tech (科技热点: AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件) FIRST — at most 3 tech words — then entertainment/sports only if still short, to reach exactly 8. Supplement words must NOT outnumber the primary words (primary topics stay the majority). Do NOT let tech/entertainment/sports dominate the day.
 
 - FORBIDDEN: pure military conflict, geopolitics-for-its-own-sake, and pure social-livelihood filler. (Light entertainment/sports used strictly as SUPPLEMENT above is allowed.)
 
@@ -9449,7 +9457,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
 
-  c: econ | work | news | politics | tech  (财经/职场/科技主导：econ+work+tech 合计 5-7 个, tech 指当前热点的 AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件; news 经济商业相关最多 2; politics 经济贸易相关最多 1; entertainment/sports 仅在主类凑不满 8 时作补充, 合计最多 3)
+  c: econ | work | news | politics | tech  (财经/时政主导：econ 最多(建议3-4), politics 1-2 个真实政策/贸易/外交新闻, work 1-3; tech 仅作补充最多 3 个; news 经济商业相关最多 2; entertainment/sports 仅在还凑不满 8 时作补充)
 - MARKERS (HARD REQUIREMENT): in hook, impact, story.en and story.cn you MUST wrap EVERY one of the 8 words as [word|word] (square brackets, a pipe inside, e.g. [tariff|tariff]). NEVER output these fields without the markers.
 - LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 500-900 characters. Write full flowing paragraphs - never short summaries.
 
@@ -11792,7 +11800,7 @@ def main():
     # ===== 补足到 8 个：去重后若仍不足 8，用内置真实词池补足，绝不重复（最后兜底）=====
     if len(new_words) < 8:
         _need = 8 - len(new_words)
-        _PRIMARY_CATS = {"econ", "work", "news", "politics", "tech"}
+        _PRIMARY_CATS = {"econ", "work", "news", "politics"}
         _fb_pool = [w for w in FALLBACK_WORDS
                     if w.get("w", "").lower() not in _hist_set
                     and w.get("w", "").lower() not in _seen]

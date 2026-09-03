@@ -8068,7 +8068,7 @@ def explain_quality(result):
 
 
 
-def call_deepseek(prompt, max_retries=3, max_tokens=6000):
+def call_deepseek(prompt, max_retries=3, max_tokens=6000, json_mode=True):
 
 
 
@@ -8580,6 +8580,8 @@ def call_deepseek(prompt, max_retries=3, max_tokens=6000):
 
 
 
+                if not json_mode:
+                    return content
                 return json.loads(content)
 
 
@@ -9448,6 +9450,8 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
   c: econ | work | news | politics | tech  (财经/职场/科技主导：econ+work+tech 合计 5-7 个, tech 指当前热点的 AI/大模型/机器人/自动驾驶/航空航天/卫星/半导体/智能硬件; news 经济商业相关最多 2; politics 经济贸易相关最多 1; entertainment/sports 仅在主类凑不满 8 时作补充, 合计最多 3)
+- MARKERS (HARD REQUIREMENT): in hook, impact, story.en and story.cn you MUST wrap EVERY one of the 8 words as [word|word] (square brackets, a pipe inside, e.g. [tariff|tariff]). NEVER output these fields without the markers.
+- LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 500-900 characters. Write full flowing paragraphs - never short summaries.
 
 
 
@@ -11210,6 +11214,24 @@ def main():
 
 
         r = generate_content(recent_set, quote_history, news_headlines, need=12)
+        if isinstance(r, dict):
+            _rws = r.get("words") or []
+            if _rws:
+                try:
+                    _rpv = r.get("preview") or {}
+                    if _rpv.get("hook"):
+                        _rpv["hook"] = build_clean_hook(_rpv["hook"], _rws)
+                    if _rpv.get("impact"):
+                        _rpv["impact"] = build_clean_impact(_rpv["impact"], _rws)
+                    r["preview"] = _rpv
+                    _rst = r.get("story") or {}
+                    if _rst.get("en"):
+                        _rst["en"] = _mark_text(_rst["en"], _rws, use_english_display=True)[0]
+                    if _rst.get("cn"):
+                        _rst["cn"] = _mark_text(_rst["cn"], _rws, use_english_display=True)[0]
+                    r["story"] = _rst
+                except Exception as _e:
+                    log(f"auto-mark failed: {_e}")
 
 
 
@@ -12242,31 +12264,53 @@ def main():
             _lang_label = "English" if lang == "en" else "Chinese (中文)"
             _word_list = "、".join((w.get("w") or "") for w in miss)
             _prompt = (f'Write ONE natural {_lang_label} sentence (max 120 characters) that weaves in ALL '
-                       f'these IELTS vocabulary words naturally, each marked as [word|word]. '
-                       f'Do NOT list them; embed in real context. '
+                       f'these IELTS vocabulary words naturally, each marked exactly as [word|word]. '
+                       f'Do NOT list them; embed them in real context. '
                        f'Required words: {_word_list}. '
-                       f'Return strict JSON only: {{"sentence":"..."}}')
+                       f'Reply with the sentence text only - no JSON, no quotes, no markdown.')
             _patch = None
-            try:
-                _r = call_deepseek(_prompt, max_tokens=300)
-                if _r and isinstance(_r, dict):
-                    _patch = (_r.get("sentence") or "").strip().strip('"').strip()
-            except Exception as _e:
-                log(f"  兜底补句模型调用异常: {_e}")
-            if _patch and re.search(r"\[[^\]|]+\|[^\]]+\]", _patch):
+            for _try in range(2):
+                try:
+                    _r = call_deepseek(_prompt, max_tokens=300, json_mode=False)
+                    _txt = (_r or "").strip().strip('"').strip() if isinstance(_r, str) else ""
+                except Exception as _e:
+                    log(f"  兜底补句模型调用异常: {_e}")
+                    _txt = ""
+                if _txt.startswith("{"):
+                    try:
+                        _j = json.loads(_txt)
+                        _txt = (_j.get("sentence") or "").strip()
+                    except Exception:
+                        _m = re.search(r'"sentence"\s*:\s*"(.*)"', _txt)
+                        _txt = _m.group(1) if _m else ""
+                if _txt and re.search(r"\[[^\]|]+\|[^\]]+\]", _txt):
+                    _patch = _txt
+                    break
+                log(f"  兜底补句第 {_try+1} 次尝试未获得有效句子")
+            if _patch:
                 s = s.rstrip()
                 if s and not s.endswith((".", "。", "!", "！", "?", "？")):
                     s += "."
                 s += " " + _patch
                 log(f"  最终兜底：模型自然补句（{lang}）覆盖 {[w.get('w') for w in miss]}")
                 return s, True
-            # fallback：裸标记（保证标红不丢失）
+            # fallback：带释义的衔接句（不再裸列单词）
+            if lang == "en":
+                _parts = ", ".join(
+                    "[%s|%s] (%s)" % (w.get("w"), w.get("w"), (w.get("en") or w.get("m") or "").rstrip(".。"))
+                    for w in miss)
+                if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
+                    s = s.rstrip() + "."
+                s = s.rstrip() + " Also running through today's news: " + _parts + " - equally worth adding to your active vocabulary."
+            else:
+                _parts = "、".join(
+                    "[%s|%s]（%s）" % (w.get("w"), w.get("w"), (w.get("m") or "").strip())
+                    for w in miss)
+                if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
+                    s = s.rstrip() + "。"
+                s = s.rstrip() + " 另外，" + _parts + " 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。"
             for _w in miss:
-                s = s.rstrip()
-                if s and not s.endswith((".", "。", "!", "！", "?", "？")):
-                    s += "."
-                s += " [%s|%s]" % (_w.get("w"), _w.get("w"))
-                log(f"  最终兜底：裸标记追加 {_w.get('w')}（模型不可用）")
+                log(f"  最终兜底：衔接句补充 {_w.get('w')}（模型两次不可用）")
             return s, True
 
         _fe, _de = _natural_patch((output.get("story") or {}).get("en"), new_words, "en")

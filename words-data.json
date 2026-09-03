@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-02",
+  "updated_on": "2026-09-03",
   "quote": {
-    "en": "Each market turn is a chance to strengthen your resolve.",
-    "zh": "每一次市场转折都是坚定决心的机会。"
+    "en": "Stability is built by mastering each turbulent turn.",
+    "zh": "稳定，是在每一次动荡中锤炼出来的。"
   },
   "story": {
-    "en": "A [diplomatic|diplomatic] storm brews as Chinese President Xi Jinping returns to Beijing after the Shanghai Cooperation Organization summit and state visits to Kyrgyzstan and Egypt, where talks with Egyptian President Abdel Fattah al-Sisi underscored a [harbinger|harbinger] of shifting alliances. Meanwhile, the U.S. Energy Secretary declared China will not enjoy debt claims on Venezuela's new oil revenue, a [concession|concession] that could [repudiate|repudiate] prior expectations. As U.S. rate-hike bets [taper|taper], gold's rally hit a [regime|regime] change, while Tokyo stocks plunged. Global markets [bifurcate|bifurcate] between risk-on and risk-off. Analysts [delve|delve] into Japan's bond yields breaking 3%, which may [unravel|unravel] capital flows. To [automate|automate] trading, firms race to adapt.",
-    "cn": "习近平结束出席上合组织峰会及对吉尔吉斯斯坦、埃及的国事访问回京，与埃及总统塞西会谈，\u0001\u0001。美国能源部长称中国对委内瑞拉新增石油收入不享有债务索偿权，\u0001此前市场预期，\u0001。随着美国加息预期重燃，金价涨势急刹车，\u0001迹象明显，\u0001生变。东京股市显著下跌，日本国债收益率破3%，\u0001。\u0001\u0001的市场走向，\u0001交易成为机构应对波动的新工具。 面对全球贸易摩擦的不断升级，各国不得不采取更为[diplomatic|diplomatic]的策略，而这一系列紧张局势或许正是经济格局[unravel|unravel]的[harbinger|harbinger]；若要[repudiate|repudiate]保护主义，就必须[taper|taper]关税壁垒并[delving|delve]进深层原因，否则供应链将[automate|automate]导致劳动力市场[bifurcate|bifurcate]，最终使现有[regime|regime]在做出任何[concession|concession]前先陷入混乱。"
+    "en": "Global markets faced turbulence as U.S. rate hike expectations resurfaced, [halt|halt] gold's rally. Investors had to [navigate|navigate] shifting sentiment, with Japanese stocks initially opening higher before dipping. Meanwhile, Venezuela's acting president signed an oil deal with the U.S., a move critics [repudiate|repudiate] as a [concession|concession] that cedes national resources. In finance, Japan's bonds breaking below 3% is redrawing global capital flows, prompting [stringent|stringent] stringent scrutiny of [remuneration|remuneration] packages for [expatriate|expatriate] executives. The WHO warned that Ebola in Congo is spreading rapidly, urging nations to [disseminate|disseminate] accurate information and not halt aid efforts. As leaders return from summits, the focus remains on fostering multipolarity.",
+    "cn": "全球市场动荡，美国加息预期重燃，金价涨势遭遇“急刹车”，\u0001复杂局面。日韩股市高开后小幅跳水，日本国债收益率“破3”正颠覆全球资金流向，\u0001\u0001\u0001审视。委内瑞拉代总统与美国签署石油项目协议，\u0001，\u0001，称国家资源被控制。世卫组织警告刚果(金)埃博拉疫情快速扩散，\u0001准确信息，\u0001救援。国际社会需在多变局中寻求平衡。 另外，[repudiate|repudiate]（拒绝接受；否认；与…断绝关系）、[concession|concession]（让步；特许权）、[remuneration|remuneration]（报酬；薪酬）、[stringent|stringent]（严格的；严厉的）、[halt|halt]（停止；使终止）、[disseminate|disseminate]（传播；散布）、[expatriate|expatriate]（外派人员；移居国外者）、[navigate|navigate]（驾驭；应对(复杂局面)；导航） 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。"
   },
   "words": [
     {
@@ -4052,10 +4052,258 @@
       "pos": "n./v.",
       "en": "reduce from the full amount; deduct",
       "d": "2026-09-02"
+    },
+    {
+      "w": "repudiate",
+      "ph": "/rɪˈpjuːdieɪt/",
+      "m": "拒绝接受；否认；与…断绝关系",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to refuse to accept or acknowledge something; to deny the truth or validity of",
+      "defs": [
+        {
+          "cn": "拒绝接受；否认",
+          "en": "refuse to accept or acknowledge; deny validity",
+          "pos": "v."
+        },
+        {
+          "cn": "与…断绝关系",
+          "en": "to disown or reject a person or group",
+          "pos": "v."
+        },
+        {
+          "cn": "(债务)拒付",
+          "en": "refuse to pay a debt",
+          "pos": "v."
+        }
+      ],
+      "col": "repudiate a claim 否认说法 · repudiate a debt 拒付债务 · publicly repudiate 公开否认",
+      "ex": "Officials repudiated reports that the new oil deal would surrender national sovereignty.",
+      "exZh": "官员否认新石油协议会丧失国家主权的说法。",
+      "ex2": "The union repudiated the management's offer, calling it a betrayal of workers' rights.",
+      "ex2Zh": "工会拒绝接受资方的提议，称其背叛了工人权益。",
+      "t": "委内瑞拉代理总统与美国正式签署石油项目协议，但舆论批评此举让国家资源和财政被外国控制，反对派 repudiate 该协议为『新殖民主义』。职场上，领导公开 repudiate 下属的提案，往往意味着方案彻底被否。",
+      "root": "拉丁语 repudiare(离婚、拒绝)，源自 repudium(休妻)，由 re-(回) + pud(羞愧，同源 pudor 羞愧) 构成 → 使对方蒙羞退回 → 拒绝、否认。",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "concession",
+      "ph": "/kənˈseʃn/",
+      "m": "让步；特许权",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a thing granted, esp. in response to demands; a right to operate a business",
+      "defs": [
+        {
+          "cn": "让步",
+          "en": "an act of yielding in a negotiation",
+          "pos": "n."
+        },
+        {
+          "cn": "特许经营权",
+          "en": "a right to run a business, e.g. oil extraction",
+          "pos": "n."
+        },
+        {
+          "cn": "（谈判中的）妥协",
+          "en": "a compromise in talks",
+          "pos": "n."
+        }
+      ],
+      "col": "make a concession 作出让步 · oil concession 石油特许权 · trade concession 贸易减让 · mutual concessions 相互让步",
+      "ex": "The interim government's signing of the oil project agreement with the US was widely read as a major concession that hands over control of national revenue.",
+      "exZh": "临时政府与美国签署石油项目协议，被普遍视为交出财政收入控制权的重大让步。",
+      "ex2": "In workplace negotiations, a timely concession on minor points can preserve trust on core issues.",
+      "ex2Zh": "在职场谈判中，在小事上适时让步能保全核心问题上的信任。",
+      "t": "委内瑞拉代总统与美国正式签署石油项目协议，资源和财政收入被控制，被批评为‘新式殖民主义’——这正是 concession（特许权/让步）的现实注脚。谈判桌上，concession 常是换取更大利益的筹码。",
+      "root": "拉丁 concedere（con- 一起 + cedere 走、让，同源 concede/cession）→ 一起让出 → 让步、特许",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "remuneration",
+      "ph": "/rɪˌmjuːnəˈreɪʃn/",
+      "m": "报酬；薪酬",
+      "c": "work",
+      "pos": "n.",
+      "en": "money paid for work or services; salary and benefits",
+      "defs": [
+        {
+          "cn": "报酬；薪酬",
+          "en": "payment for work, incl. salary and benefits",
+          "pos": "n."
+        },
+        {
+          "cn": "（正式）酬金",
+          "en": "formal recompense for services",
+          "pos": "n."
+        }
+      ],
+      "col": "executive remuneration 高管薪酬 · remuneration package 薪酬包 · remuneration committee 薪酬委员会",
+      "ex": "As Japanese bonds break above 3%, global fund flows are shifting, forcing firms to rethink remuneration strategies to retain talent.",
+      "exZh": "随着日债收益率突破3%，全球资金流向生变，企业被迫重估薪酬策略以留住人才。",
+      "ex2": "Negotiating fair remuneration early in a job offer prevents resentment later.",
+      "ex2Zh": "在录用初期就谈妥公平报酬，可避免日后不满。",
+      "t": "当日本资本踏上‘回家路’、日债突破3%，全球资金流向被颠覆——企业为留住核心员工，不得不重新设计 remuneration 包。薪酬不只是数字，更是对价值的认可。",
+      "root": "拉丁 remunerari（re- 回 + munus 礼物、服务，同源 municipal）→ 回报服务 → 报酬",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "stringent",
+      "ph": "/ˈstrɪndʒənt/",
+      "m": "严格的；严厉的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "strict, tight, or severe (rules, conditions, or policies)",
+      "defs": [
+        {
+          "cn": "严格的；严厉的",
+          "en": "strictly enforced, rigorous",
+          "pos": "adj."
+        },
+        {
+          "cn": "（财政/货币）紧缩的",
+          "en": "tight, as in monetary policy",
+          "pos": "adj."
+        },
+        {
+          "cn": "（标准）苛刻的",
+          "en": "demanding high standards",
+          "pos": "adj."
+        }
+      ],
+      "col": "stringent regulations 严格监管 · stringent criteria 苛刻标准 · stringent measures 严厉措施",
+      "ex": "Renewed US rate-hike expectations are forcing a stringent reassessment of gold's rally, which has hit an abrupt brake.",
+      "exZh": "美国加息预期重燃，迫使市场对金价涨势进行严格重估，涨势遭遇急刹车。",
+      "ex2": "Banks now impose stringent verification on cross-border payments to curb money laundering.",
+      "ex2Zh": "银行如今对跨境支付实施严格核验以遏制洗钱。",
+      "t": "美国加息预期重燃，金价涨势‘急刹车’——在更 stringent 的货币环境下，避险资产也难独善其身。\n职场中 stringent 的考核标准，往往筛选出真正的强者。",
+      "root": "拉丁 stringere（拉紧，同源 strain/strict）→ 被拉紧的 → 严格的、紧缩的",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "halt",
+      "ph": "/hɔːlt/",
+      "m": "停止；使终止",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to stop or bring to a standstill; a temporary stop",
+      "defs": [
+        {
+          "cn": "停止；使终止",
+          "en": "to bring to a stop",
+          "pos": "v."
+        },
+        {
+          "cn": "（突然）中断",
+          "en": "to interrupt abruptly",
+          "pos": "n."
+        }
+      ],
+      "col": "come to a halt 停下来 · halt trading 暂停交易 · halt the decline 遏制下跌",
+      "ex": "Gold's rally came to an abrupt halt as expectations of a US rate hike resurfaced, shifting investor sentiment.",
+      "exZh": "由于美国加息预期重燃，金价涨势戛然而止，投资者情绪转向。",
+      "ex2": "The project ground to a halt when the lead engineer resigned mid-sprint.",
+      "ex2Zh": "首席工程师在冲刺阶段辞职，项目陷入停顿。",
+      "t": "金价涨势遭遇‘急刹车’——当加息预期重燃，避险资产的 rally 戛然而止（halt）。\n职场中，项目也可能因突发政策或人事变动而 halt，预案比预测更重要。",
+      "root": "德语 halten（停住，同源 hold）→ 使停住 → 停止",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "disseminate",
+      "ph": "/dɪˈsemɪneɪt/",
+      "m": "传播；散布",
+      "c": "news",
+      "pos": "v.",
+      "en": "to spread information, ideas, or knowledge widely",
+      "defs": [
+        {
+          "cn": "传播；散布",
+          "en": "to spread widely, as info or ideas",
+          "pos": "v."
+        },
+        {
+          "cn": "（知识）普及",
+          "en": "to make knowledge widely known",
+          "pos": "v."
+        }
+      ],
+      "col": "disseminate information 传播信息 · disseminate research 传播研究成果 · widely disseminated 广泛传播",
+      "ex": "The WHO is working to disseminate accurate Ebola guidance as the outbreak in DR Congo spreads rapidly.",
+      "exZh": "随着刚果（金）埃博拉疫情快速扩散，世卫组织正努力传播准确的防疫指南。",
+      "ex2": "Companies use internal newsletters to disseminate best practices across global teams.",
+      "ex2Zh": "公司利用内部通讯在全球团队中传播最佳实践。",
+      "t": "世卫组织警告刚果（金）埃博拉疫情仍在快速扩散——快速 disseminate 准确信息，是防控的关键。\n职场中，会 disseminate 信息的人，往往能放大自身影响力。",
+      "root": "拉丁 disseminare（dis- 散开 + seminare 播种，同源 semen 种子）→ 撒种子 → 传播",
+      "d": "2026-09-03"
+    },
+    {
+      "w": "expatriate",
+      "ph": "/ˌeksˈpætriət/",
+      "m": "外派人员；移居国外者",
+      "c": "work",
+      "pos": "n.",
+      "en": "a person living outside their native country, often for work",
+      "defs": [
+        {
+          "cn": "外派人员",
+          "en": "person working abroad for a company",
+          "pos": "n."
+        },
+        {
+          "cn": "移居国外者",
+          "en": "person residing in a foreign country",
+          "pos": "n."
+        }
+      ],
+      "col": "expatriate community 外派社区 · expatriate worker 外派员工 · expatriate package 外派薪酬包",
+      "ex": "Japanese companies are recalling expatriate managers from overseas as the yen's depreciation makes foreign assignments less affordable.",
+      "exZh": "日元贬值使外派成本上升，日本企业正召回海外外派经理。",
+      "ex2": "The expatriate community in Shanghai gathered for a networking event to discuss cross-cultural business challenges.",
+      "ex2Zh": "上海的外派社群举办社交活动，讨论跨文化商业挑战。",
+      "t": "日本资本踏上回家路，日债收益率破3%颠覆全球资金流向，许多日本企业开始召回外派expatriate人员，缩减海外业务。日元疲软让海外运营成本激增。\n职场中，外派经历是宝贵资产，但需权衡家庭与职业——expatriate的挑战也是成长的加速器。",
+      "root": "前缀 ex-(出，拉丁) + 词根 patri(=fatherland 祖国，拉丁 patria，同源 patriot 爱国者) + 后缀 -ate(名词) → 离开祖国的人 → 外派人员",
+      "story": {
+        "en": "",
+        "cn": ""
+      },
+      "d": "2026-09-03"
+    },
+    {
+      "w": "navigate",
+      "ph": "/ˈnævɪɡeɪt/",
+      "m": "驾驭；应对(复杂局面)；导航",
+      "c": "work",
+      "en": "to plan and direct a course; to deal effectively with a complex situation",
+      "pos": "v.",
+      "defs": [
+        {
+          "cn": "驾驭；应对(复杂局面)",
+          "en": "to manage or steer through a complex or difficult situation",
+          "pos": "v."
+        },
+        {
+          "cn": "导航；航行",
+          "en": "to plan and direct the route of a ship or aircraft",
+          "pos": "v."
+        },
+        {
+          "cn": "(网站/界面)浏览",
+          "en": "to move around a website or interface",
+          "pos": "v."
+        }
+      ],
+      "col": "navigate challenges 应对挑战 · navigate a crisis 渡过危机 · navigate the market 驾驭市场 · navigate a website 浏览网站",
+      "ex": "Investors are learning to navigate the volatile markets shaped by shifting central bank policies.",
+      "exZh": "投资者正学会 navigate 由央行政策变化导致的动荡市场。",
+      "ex2": "New graduates need mentors to help them navigate the complexities of corporate life.",
+      "ex2Zh": "毕业生需要导师帮助他们 navigate 职场复杂的人际关系。",
+      "t": "面对全球资金流向剧变和加息预期，投资者需 navigate 不确定性。职场中，员工也要 navigate 数字化转型与AI工具普及带来的新挑战。\n这个词比 deal with 更有“主动掌舵”的意味，常出现在领导力语境：navigate change。",
+      "root": "词根 nav-(船，拉丁 navis，同源 navy 海军、naval) + 后缀 -igate(动词) → 驾驶船只 → 导航 → 引申为应对复杂局面",
+      "d": "2026-09-03"
     }
   ],
   "preview": {
-    "hook": "今日全球市场迎来外交转折信号：美方在关税谈判中罕见抛出[concession|concession]，却被视为经济周期见顶的[harbinger|harbinger]，因美联储官员暗示将逐步收紧购债规模，此举或令高估值科技股[unravel|unravel]式回调。与此同时，欧盟宣布启动对半导体补贴的[delve|delve]，而日本央行却[repudiate|repudiate]市场对负利率结束的押注，政策路径明显[bifurcate|bifurcate]。更棘手的是，华尔街巨头正加速[automate|automate]交易系统，在旧有[regime|regime]失效前抢跑，而新兴市场债务危机则可能成为压垮全球供应链的最后一根稻草。 另外，[diplomatic|diplomatic]（外交的；有策略的、圆滑的）、[taper|taper]（(使)逐渐减少；(政策)逐步收紧） 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。",
-    "impact": "今日主线在于政策[bifurcate|bifurcate]与自动化冲击叠加：美联储逐步收紧与欧日宽松形成对照，旧有[regime|regime]的[unravel|unravel]迫使投资者[delve|delve]每条裂缝，而任何外交上的[concession|concession]或[repudiate|repudiate]都可能是更大风险释放的[harbinger|harbinger]。 随着贸易摩擦的缓和，双方通过[diplomatic|diplomatic]渠道达成共识，决定逐步[taper|taper]关税壁垒，并引入智能系统来[automate|automate]报关流程，以提升效率。"
+    "hook": "今日，欧盟正式宣布对中国电动汽车加征临时关税，但北京方面迅速[repudiate|repudiate]这一决定，称其违背市场规则，并威胁采取反制措施。与此同时，德国汽车巨头为求[concession|concession]，私下提出增加本地投资以换取豁免，却遭内部工会强烈反对，因工人要求更高[remuneration|remuneration]并担忧[stringent|stringent]环保法规将压缩利润。分析人士指出，贸易摩擦已令跨境供应链近乎[halt|halt]，而各方在社交媒体上大肆[disseminate|disseminate]对立言论，进一步加剧紧张。对于在华[expatriate|expatriate]而言，他们正艰难应对政策突变带来的签证与业务不确定性。 在复杂的全球经济中，投资者需要谨慎地[navigate|navigate]政策波动与市场风险，才能找到稳定增长的路径。",
+    "impact": "今日主线在于全球贸易裂痕加深，各国须以务实对话取代对抗，方能在关税壁垒与产业补贴的漩涡中[navigate|navigate]经济失衡，否则任何单边[concession|concession]或强硬[repudiate|repudiate]都将引发连锁反应，最终伤及普通消费者的[remuneration|remuneration]与生活成本。 面对日益严峻的金融风险，监管机构实施了[stringent|stringent]的审查标准，并[halt|halt]了不合规的交易，同时通过官方渠道[ disseminate|disseminate]新规，要求各[expatriate|expatriate]分支机构立即执行。"
   }
 }

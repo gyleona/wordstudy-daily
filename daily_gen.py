@@ -11786,6 +11786,8 @@ def main():
                 _rr = None
             _rw = (_rr or {}).get("words", []) if _rr else []
             for _w in _rw:
+                if len(new_words) >= 8:
+                    break
                 _k = (_w.get("w") or "").lower()
                 if not _k or _k in _hist_set or _k in _seen:
                     continue
@@ -11840,6 +11842,11 @@ def main():
             _added += 1
         if _added:
             log(f"HARD-GUARD: reused {_added} historical word(s) to guarantee 8; today count={len(new_words)}")
+
+    # ===== 总闸：无论哪条路径，今日新词恒等于 8 个 =====
+    if len(new_words) > 8:
+        log(f"HARD-CAP: trimming today words {len(new_words)} -> 8")
+        new_words = new_words[:8]
 
 
 

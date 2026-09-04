@@ -12271,32 +12271,42 @@ def main():
         #   优先用模型生成一句自然嵌入缺词的话追加到字段末尾（不再堆裸 [w|w] 标记）；
         #   模型不可用时 fallback 到从同批次 hook/story 中摘取已嵌入片段拼接引用（绝不裸列）=====
         def _extract_word_snippets(miss, ref_texts):
-            """从参考文本(ref_texts)中为每个缺词提取包含其[mark|word]标记的最短自然片段(≤60字符)。"""
-            snippets = []
+            """从参考文本(ref_texts)中为每个缺词提取包含其[mark|word]标记的**完整句子片段**。
+            按句边界(句号/分号/问叹号)切分，保证片段通顺且标记不被截断；最终对片段去重。"""
+            pairs = []
             for w in miss:
                 base = (w.get("w") or "").lower()
                 best = None
                 for ref in (ref_texts or []):
                     if not ref:
                         continue
-                    # 找该词在 ref 中的所有标记出现位置
-                    for m in re.finditer(r'\[[^\|]+\|(' + re.escape(base) + r'[^\]]*)\]', ref, re.I):
-                        start = max(0, m.start() - 30)
-                        end = min(len(ref), m.end() + 30)
-                        snippet = ref[start:end].strip()
-                        # 清理首尾截断痕迹
-                        snippet = re.sub(r'^[，、；：,\s;:]+', '', snippet)
-                        snippet = re.sub(r'[，、；：,\s;:]+$', '', snippet)
-                        if len(snippet) >= 8 and (best is None or len(snippet) < len(best)):
-                            best = snippet
+                    for sent in re.split(r'(?<=[。；;!！?？])', ref):
+                        sent = sent.strip()
+                        if not sent:
+                            continue
+                        if not re.search(r'\[[^\|]+\|(' + re.escape(base) + r'[^\]]*)\]', sent, re.I):
+                            continue
+                        # 验证片段内方括号配对、且含完整 [x|y] 标记（避免截断破坏）
+                        if sent.count("[") != sent.count("]"):
+                            continue
+                        if not re.search(r'\[[^\]|]+\|[^\]]+\]', sent):
+                            continue
+                        s = re.sub(r'^[，、；：,。\s;:.]+', '', sent)
+                        s = re.sub(r'[，、；：,。\s;:.]+$', '', s)
+                        if len(s) >= 8:
+                            best = s
+                            break
                     if best:
                         break
-                if best:
-                    snippets.append(best)
-                else:
-                    # 极端情况：ref 里也找不到，退回带标记格式但不裸列释义
-                    snippets.append(f"[{w.get('w')}|{w.get('w')}]")
-            return snippets
+                pairs.append((w, best or f"[{w.get('w')}|{w.get('w')}]"))
+            # 片段去重（保留顺序），避免多个词落在同一句子时重复输出
+            _seen = set()
+            out = []
+            for _w, _s in pairs:
+                if _s not in _seen:
+                    _seen.add(_s)
+                    out.append(_s)
+            return out
 
         def _natural_patch(text, words, lang, ref_texts=None):
             s = text or ""

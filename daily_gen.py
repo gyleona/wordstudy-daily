@@ -12269,8 +12269,36 @@ def main():
 
         # ===== 最终强制兜底：每个字段（story.en/cn、preview.hook/impact）都必须覆盖全部 new_words。
         #   优先用模型生成一句自然嵌入缺词的话追加到字段末尾（不再堆裸 [w|w] 标记）；
-        #   模型不可用（无 API key）时 fallback 到裸标记，保证标红不丢失 =====
-        def _natural_patch(text, words, lang):
+        #   模型不可用时 fallback 到从同批次 hook/story 中摘取已嵌入片段拼接引用（绝不裸列）=====
+        def _extract_word_snippets(miss, ref_texts):
+            """从参考文本(ref_texts)中为每个缺词提取包含其[mark|word]标记的最短自然片段(≤60字符)。"""
+            snippets = []
+            for w in miss:
+                base = (w.get("w") or "").lower()
+                best = None
+                for ref in (ref_texts or []):
+                    if not ref:
+                        continue
+                    # 找该词在 ref 中的所有标记出现位置
+                    for m in re.finditer(r'\[[^\|]+\|(' + re.escape(base) + r'[^\]]*)\]', ref, re.I):
+                        start = max(0, m.start() - 30)
+                        end = min(len(ref), m.end() + 30)
+                        snippet = ref[start:end].strip()
+                        # 清理首尾截断痕迹
+                        snippet = re.sub(r'^[，、；：,\s;:]+', '', snippet)
+                        snippet = re.sub(r'[，、；：,\s;:]+$', '', snippet)
+                        if len(snippet) >= 8 and (best is None or len(snippet) < len(best)):
+                            best = snippet
+                    if best:
+                        break
+                if best:
+                    snippets.append(best)
+                else:
+                    # 极端情况：ref 里也找不到，退回带标记格式但不裸列释义
+                    snippets.append(f"[{w.get('w')}|{w.get('w')}]")
+            return snippets
+
+        def _natural_patch(text, words, lang, ref_texts=None):
             s = text or ""
             cov = {m[1].lower() for m in re.findall(r"\[([^\]|]+)\|([^\]]+)\]", s)}
             miss = [w for w in words if (w.get("w") or "").lower() not in cov]
@@ -12309,29 +12337,33 @@ def main():
                 s += " " + _patch
                 log(f"  最终兜底：模型自然补句（{lang}）覆盖 {[w.get('w') for w in miss]}")
                 return s, True
-            # fallback：带释义的衔接句（不再裸列单词）
+            # fallback：从同批次 hook/story 中摘取已嵌入片段拼接引用（绝不裸列括号释义）
+            _snippets = _extract_word_snippets(miss, ref_texts)
             if lang == "en":
-                _parts = ", ".join(
-                    "[%s|%s] (%s)" % (w.get("w"), w.get("w"), (w.get("en") or w.get("m") or "").rstrip(".。"))
-                    for w in miss)
+                _joined = "; ".join(_snippets)
                 if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
                     s = s.rstrip() + "."
-                s = s.rstrip() + " Also running through today's news: " + _parts + " - equally worth adding to your active vocabulary."
+                s = s.rstrip() + " Also featured: " + _joined + "."
             else:
-                _parts = "、".join(
-                    "[%s|%s]（%s）" % (w.get("w"), w.get("w"), (w.get("m") or "").strip())
-                    for w in miss)
+                _joined = "；".join(_snippets)
                 if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
                     s = s.rstrip() + "。"
-                s = s.rstrip() + " 另外，" + _parts + " 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。"
+                s = s.rstrip() + " 此外，上文已涉及：" + _joined + "。"
             for _w in miss:
-                log(f"  最终兜底：衔接句补充 {_w.get('w')}（模型两次不可用）")
+                log(f"  最终兜底：引用式衔接补充 {_w.get('w')}（{lang}，模型两次不可用）")
             return s, True
 
-        _fe, _de = _natural_patch((output.get("story") or {}).get("en"), new_words, "en")
-        _fc, _dc = _natural_patch((output.get("story") or {}).get("cn"), new_words, "cn")
-        _fh, _dh = _natural_patch((output.get("preview") or {}).get("hook"), new_words, "cn")
-        _fi, _di = _natural_patch((output.get("preview") or {}).get("impact"), new_words, "cn")
+        # 收集所有字段文本作为互引用源（fallback 时从其他已覆盖字段中摘取片段）
+        _ref_hook = (output.get("preview") or {}).get("hook") or ""
+        _ref_impact = (output.get("preview") or {}).get("impact") or ""
+        _ref_story_en = (output.get("story") or {}).get("en") or ""
+        _ref_story_cn = (output.get("story") or {}).get("cn") or ""
+        _all_refs = [_ref_hook, _ref_impact, _ref_story_en, _ref_story_cn]
+
+        _fe, _de = _natural_patch(_ref_story_en, new_words, "en", ref_texts=_all_refs)
+        _fc, _dc = _natural_patch(_ref_story_cn, new_words, "cn", ref_texts=_all_refs)
+        _fh, _dh = _natural_patch(_ref_hook, new_words, "cn", ref_texts=_all_refs)
+        _fi, _di = _natural_patch(_ref_impact, new_words, "cn", ref_texts=_all_refs)
         if _de:
             output["story"]["en"] = _fe
         if _dc:

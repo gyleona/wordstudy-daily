@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-03",
+  "updated_on": "2026-09-04",
   "quote": {
-    "en": "Stability is built by mastering each turbulent turn.",
-    "zh": "稳定，是在每一次动荡中锤炼出来的。"
+    "en": "Optimize your focus, and even stagnant days become stepping stones.",
+    "zh": "优化你的专注，即使停滞的日子也能成为垫脚石。"
   },
   "story": {
-    "en": "Global markets faced turbulence as U.S. rate hike expectations resurfaced, [halt|halt] gold's rally. Investors had to [navigate|navigate] shifting sentiment, with Japanese stocks initially opening higher before dipping. Meanwhile, Venezuela's acting president signed an oil deal with the U.S., a move critics [repudiate|repudiate] as a [concession|concession] that cedes national resources. In finance, Japan's bonds breaking below 3% is redrawing global capital flows, prompting [stringent|stringent] stringent scrutiny of [remuneration|remuneration] packages for [expatriate|expatriate] executives. The WHO warned that Ebola in Congo is spreading rapidly, urging nations to [disseminate|disseminate] accurate information and not halt aid efforts. As leaders return from summits, the focus remains on fostering multipolarity.",
-    "cn": "全球市场动荡，美国加息预期重燃，金价涨势遭遇“急刹车”，\u0001复杂局面。日韩股市高开后小幅跳水，日本国债收益率“破3”正颠覆全球资金流向，\u0001\u0001\u0001审视。委内瑞拉代总统与美国签署石油项目协议，\u0001，\u0001，称国家资源被控制。世卫组织警告刚果(金)埃博拉疫情快速扩散，\u0001准确信息，\u0001救援。国际社会需在多变局中寻求平衡。 另外，[repudiate|repudiate]（拒绝接受；否认；与…断绝关系）、[concession|concession]（让步；特许权）、[remuneration|remuneration]（报酬；薪酬）、[stringent|stringent]（严格的；严厉的）、[halt|halt]（停止；使终止）、[disseminate|disseminate]（传播；散布）、[expatriate|expatriate]（外派人员；移居国外者）、[navigate|navigate]（驾驭；应对(复杂局面)；导航） 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。"
+    "en": "Beijing has vowed to [uphold|uphold] China's legitimate rights in Venezuela, responding to US Energy Secretary's claim that Caracas' new oil revenue would not go to Chinese [creditor|creditor]. The foreign ministry stressed that any [oversight|oversight] by Washington over bilateral deals is unacceptable. Amid global financial shifts, the dollar tumbled against the yen, nearing 155, with CME warning options selling could accelerate gains. Gold surged over 2% after the Fed signaled rate hikes, while Treasury yields plunged, reflecting a [dovish|dovish] market sentiment. Domestically, ten ministries announced an [overhaul|overhaul] of venture capital to boost SME listings. Meanwhile, a [waiver|waiver] for flood-hit Nepal children is sought, as 22,000 need safe water. In sports, Zheng Qinwen advanced at the US Open, while Beijing Guoan won in the FA Cup. These events [entrench|entrench] China's proactive stance, yet the world watches closely as leaders [oversee|oversee] these developments.",
+    "cn": "北京誓言[维护|uphold]中国在委内瑞拉的合法权益，\u0001的说法。外交部强调，\u0001是不可接受的。全球金融动荡中，美元兑日元大跌逼近155，CME警告若跌破可能加速日元涨势。黄金涨超2%，美联储释放加息信号，美债收益率下挫，\u0001情绪。\u0001创业投资，加强中小企业上市培育。同时，\u0001，2.2万名儿童亟需安全饮用水。体育方面，郑钦文晋级美网32强，北京国安在足协杯获胜。\u0001了中国积极姿态，\u0001事态发展。 另外，[creditor|creditor]（债权人；贷方）、[oversight|oversight]（监督；监管；疏忽）、[overhaul|overhaul]（彻底检修；全面改革）、[dovish|dovish]（（政策）鸽派的；倾向宽松的）、[oversee|oversee]（监督；监管；管理）、[entrench|entrench]（(使)牢固确立；使根深蒂固）、[waiver|waiver]（） 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。"
   },
   "words": [
     {
@@ -4300,10 +4300,250 @@
       "t": "面对全球资金流向剧变和加息预期，投资者需 navigate 不确定性。职场中，员工也要 navigate 数字化转型与AI工具普及带来的新挑战。\n这个词比 deal with 更有“主动掌舵”的意味，常出现在领导力语境：navigate change。",
       "root": "词根 nav-(船，拉丁 navis，同源 navy 海军、naval) + 后缀 -igate(动词) → 驾驶船只 → 导航 → 引申为应对复杂局面",
       "d": "2026-09-03"
+    },
+    {
+      "w": "creditor",
+      "ph": "/ˈkredɪtər/",
+      "m": "债权人；贷方",
+      "c": "econ",
+      "pos": "n.",
+      "en": "A person or institution to whom money is owed",
+      "defs": [
+        {
+          "cn": "债权人；贷方",
+          "en": "A person or institution to whom money is owed",
+          "pos": "n."
+        },
+        {
+          "cn": "（账目上的）贷方",
+          "en": "In accounting, the side of an account recording increases in liabilities",
+          "pos": "n."
+        }
+      ],
+      "col": "creditor country 债权国 · creditor bank 债权银行 · secured creditor 有担保债权人",
+      "ex": "The U.S. energy secretary claimed China cannot hold new debt claims as a creditor over Venezuela's oil revenue, but Beijing insists its legitimate rights must be protected.",
+      "exZh": "美国能源部长称中国不能作为债权人对委内瑞拉新增石油收入拥有债权，但中方坚持其合法权益必须得到保护。",
+      "ex2": "As a major creditor, Japan closely monitors U.S. Treasury yield movements to manage its vast dollar reserves.",
+      "ex2Zh": "作为主要债权国，日本密切关注美债收益率走势以管理其庞大的美元储备。",
+      "t": "今日外交部回应美方涉委内瑞拉言论：中方在委合法权益必须保护，creditor 债权身份成为焦点。美国能源部长称中方不能对新增石油收入拥有债权，凸显大国债务博弈。\n职场联想：公司账目里 creditor 是应付对象，与 debtor 相对，记牢债权债务关系。",
+      "root": "词根 cred-(相信、信任，拉丁 credere，同源 credit 信用、incredible 难以置信) + 后缀 -itor(表人，拉丁 -itor，同源 debtor 债务人) → 被信任可放贷之人 → 债权人",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "oversight",
+      "ph": "/ˈoʊvərsaɪt/",
+      "m": "监督；监管；疏忽",
+      "c": "politics",
+      "pos": "n.",
+      "en": "Supervision or review; also an unintentional omission",
+      "defs": [
+        {
+          "cn": "监督；监管",
+          "en": "Supervision and review of a process or body",
+          "pos": "n."
+        },
+        {
+          "cn": "疏忽；失察",
+          "en": "An unintentional failure to notice or do something",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory oversight 监管 · oversight committee 监督委员会 · congressional oversight 国会监督",
+      "ex": "Ten government departments announced stronger oversight of venture capital and increased support for small firms seeking stock listings.",
+      "exZh": "十部门宣布加强对创业投资的监管，并加大支持中小企业上市力度。",
+      "ex2": "A clerical oversight in the payroll system caused delayed bonuses, prompting the HR team to reform its review process.",
+      "ex2Zh": "薪酬系统的一个文书疏忽导致奖金延迟发放，促使人事团队改革审查流程。",
+      "t": "十部门发文大力发展创业投资、加强中小企业上市培育，regulatory oversight 监督成为政策关键词。金融创新需平衡活力与风险，监管部门强化 oversight 以保护投资者。\n职场中 oversight 双义：既可指上级监督，也可指粗心疏忽，注意语境区分。",
+      "root": "前缀 over-(在上，古英语 ofer，同源 overcharge 超收) + 词根 sight(=see 看，古英语 sihth，同源 insight 洞察) → 从上往下看 → 监督；引申为看漏 → 疏忽",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "uphold",
+      "ph": "/ʌpˈhoʊld/",
+      "m": "维护；支持；维持（判决）",
+      "c": "politics",
+      "pos": "v.",
+      "en": "To support or maintain a principle, law, or decision",
+      "defs": [
+        {
+          "cn": "维护；支持",
+          "en": "To support or maintain a principle or decision",
+          "pos": "v."
+        },
+        {
+          "cn": "维持（原判）",
+          "en": "To confirm a court's decision on appeal",
+          "pos": "v."
+        }
+      ],
+      "col": "uphold a ruling 维持原判 · uphold values 维护价值观 · uphold the law 维护法律",
+      "ex": "China's foreign ministry vowed to uphold its legitimate rights and interests in Venezuela despite U.S. pressure over oil revenue claims.",
+      "exZh": "尽管美国就石油收入债权施压，中国外交部誓言维护在委内瑞拉的合法权益。",
+      "ex2": "The central bank's decision to uphold strict lending rules was welcomed by regulators seeking financial stability.",
+      "ex2Zh": "央行维持严格放贷规则的决定受到寻求金融稳定的监管者欢迎。",
+      "t": "外交部回应委内瑞拉债务争议：uphold 合法权益，态度明确。美方声称中方不能对新石油收入拥有债权，中方坚持 uphold 国际法和双边协议。\n法律英语常考：上诉法院 uphold 原判，与 overturn 相反，职场合同纠纷中也常用。",
+      "root": "前缀 up-(向上，古英语 up，同源 upward 向上) + 词根 hold(持、握，古英语 healdan，同源 behold 看) → 向上握住 → 举起、维护",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "overhaul",
+      "ph": "/ˈoʊvərhɔːl/",
+      "m": "彻底检修；全面改革",
+      "c": "work",
+      "pos": "v./n.",
+      "en": "To thoroughly examine and repair or reform a system",
+      "defs": [
+        {
+          "cn": "彻底检修；全面改革",
+          "en": "To completely repair or reform a system or machine",
+          "pos": "v."
+        },
+        {
+          "cn": "（制度的）全面修订",
+          "en": "A comprehensive revision of a policy or organization",
+          "pos": "n."
+        }
+      ],
+      "col": "overhaul the system 彻底改革系统 · major overhaul 大修 · regulatory overhaul 监管改革",
+      "ex": "Following the AIGC drama's high production costs, studios are planning an overhaul of their AI content pipelines to cut expenses.",
+      "exZh": "在AIGC剧集高制作成本之后，制片公司计划彻底改革其AI内容流程以削减开支。",
+      "ex2": "The central bank's overhaul of interest-rate guidance sent bond yields plummeting, boosting gold prices over 2%.",
+      "ex2Zh": "央行对利率指引的全面改革使债券收益率直线下挫，推动金价上涨超2%。",
+      "t": "首部AIGC长剧《后西游记》单集成本90万，百人团队，业界呼吁 overhaul 制作流程以提升效率。AI短剧同质化脸谱引发对创作取舍的反思。\n职场中 overhaul 常指大刀阔斧改革，比 reform 更彻底，常用于系统或流程。",
+      "root": "前缀 over-(过度，古英语 ofer，同源 overdo 过度) + 词根 haul(拉、拖，古法语 haler，同源 haulage 拖运) → 过度拉拽 → 拆解检查 → 彻底检修",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "dovish",
+      "ph": "/ˈdʌvɪʃ/",
+      "m": "（政策）鸽派的；倾向宽松的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "Favoring accommodation, low interest rates, or peaceful policies",
+      "defs": [
+        {
+          "cn": "（政策）鸽派的；倾向宽松的",
+          "en": "Favoring low interest rates or accommodative policy",
+          "pos": "adj."
+        },
+        {
+          "cn": "和平主义的",
+          "en": "Inclined toward peace rather than conflict",
+          "pos": "adj."
+        }
+      ],
+      "col": "dovish stance 鸽派立场 · dovish signal 宽松信号 · turn dovish 转鸽",
+      "ex": "Gold surged over 2% as the Fed signaled a dovish rate path, sending Treasury yields sharply lower.",
+      "exZh": "美联储释放鸽派加息信号，美债收益率直线下挫，黄金涨超2%。",
+      "ex2": "In the workplace, a dovish manager who prioritizes harmony may struggle to make tough cost-cutting decisions.",
+      "ex2Zh": "在职场中，优先追求和谐的鸽派管理者可能难以做出艰难的成本削减决策。",
+      "t": "今日市场：美联储释放加息新信号，但被解读为 dovish 倾向，黄金涨超2%，美债收益率下挫。美元兑日元逼近155，期权卖压或加速日元涨势。\ndovish 与 hawkish 相对，央行转鸽常利好黄金、利空美元，是财经新闻高频词。",
+      "root": "词根 dov(=dove 鸽子，古英语 dufe，同源 dove 鸽) + 后缀 -ish(具有…性质，古英语 -isc，同源 childish 幼稚) → 像鸽子般温和 → 鸽派的、宽松的",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "oversee",
+      "ph": "/ˌoʊvərˈsiː/",
+      "m": "监督；监管；管理",
+      "c": "work",
+      "pos": "v.",
+      "en": "to supervise and manage a process or group of people",
+      "defs": [
+        {
+          "cn": "监督",
+          "en": "to watch over and direct",
+          "pos": "v."
+        },
+        {
+          "cn": "监管",
+          "en": "to be in charge of an operation",
+          "pos": "v."
+        },
+        {
+          "cn": "俯瞰",
+          "en": "to see from above",
+          "pos": "v."
+        }
+      ],
+      "col": "oversee operations 监督运营 · oversee a project 管理项目 · oversee compliance 监管合规",
+      "ex": "The director oversees a hundred-person team producing the first AIGC long drama at just 900,000 yuan per episode.",
+      "exZh": "导演监督百人团队制作首部AIGC长剧，单集成本仅90万元。",
+      "ex2": "Managers must oversee the integration of AI tools while ensuring data privacy and ethical standards.",
+      "ex2Zh": "管理者必须监督AI工具的整合，同时确保数据隐私和道德标准。",
+      "t": "首部AIGC长剧《后西游记》总导演李东珅揭秘，百人团队在他的 overseen 下完成制作，单集成本仅90万元。职场中，从执行者到 oversee 者的转变，意味着要学会授权与把控风险。\n对比：oversee 强调'看管'，而 supervise 更侧重'指导'。",
+      "root": "前缀 over-（在上，古英语 ofer） + 词根 see-（看，古英语 seon，同源 sight 视力） → 从上方看 → 监督、管理",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "entrench",
+      "ph": "/ɪnˈtrentʃ/",
+      "m": "(使)牢固确立；使根深蒂固",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to establish firmly, esp. a right, habit, or belief; to dig in defensively",
+      "defs": [
+        {
+          "cn": "(使)牢固确立",
+          "en": "to establish something firmly, e.g. a right or practice",
+          "pos": "v."
+        },
+        {
+          "cn": "使根深蒂固",
+          "en": "to make a belief or attitude deeply fixed",
+          "pos": "v."
+        },
+        {
+          "cn": "挖壕沟防御",
+          "en": "to dig trenches for military defense",
+          "pos": "v."
+        }
+      ],
+      "col": "entrench a norm 确立规范 · entrench privileges 固化特权 · deeply entrenched 根深蒂固 · entrench in law 以法律固化",
+      "ex": "The new trade agreement could entrench tariff exemptions for years, reshaping supply chains across the region.",
+      "exZh": "新贸易协定可能将关税豁免固化多年，重塑该地区的供应链。",
+      "ex2": "Old office habits are hard to entrench, but remote work has made flexible hours a lasting norm.",
+      "ex2Zh": "旧的办公习惯难以根深蒂固，但远程工作已让弹性工时成为持久常态。",
+      "t": "今日头条：美国能源部长称中方将不能对委内瑞拉新增石油收入拥有债权，外交部回应称合法权益必须得到保护。这种外交表态背后，是各方试图用协议和声明 entrench 自身在能源市场的地位，让规则对自己更有利。职场里，老员工常把经验变成惯例，一旦 entrench 就很难被挑战。记词：entrench 本义挖壕沟，壕沟挖深了，势力就牢固了。",
+      "root": "前缀 en-(使进入，拉丁/古法语，同源 enable) + 词根 trench(沟渠，古法语 trenchier 切) → 挖沟固守 → (使)牢固确立、根深蒂固",
+      "d": "2026-09-04"
+    },
+    {
+      "w": "waiver",
+      "ph": "/ˈweɪvər/",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official permission to ignore a rule or obligation; the act of giving up a right",
+      "defs": [
+        {
+          "cn": "豁免权",
+          "en": "official permission to bypass a rule or requirement",
+          "pos": "n."
+        },
+        {
+          "cn": "放弃权利",
+          "en": "the voluntary giving up of a legal right or claim",
+          "pos": "n."
+        },
+        {
+          "cn": "弃权声明",
+          "en": "a document stating that a right is waived",
+          "pos": "n."
+        }
+      ],
+      "col": "grant a waiver 给予豁免 · sign a waiver 签署弃权书 · tariff waiver 关税豁免 · regulatory waiver 监管豁免",
+      "ex": "Negotiators pushed for a waiver on steel tariffs to protect domestic manufacturers from higher costs.",
+      "exZh": "谈判代表争取钢铁关税豁免，以保护国内制造商免受成本上升影响。",
+      "ex2": "Employees must sign a liability waiver before using the new gym equipment at the office.",
+      "ex2Zh": "员工使用办公室新健身器材前，必须签署责任豁免书。",
+      "t": "今日头条：美国能源部长称中方将不能对委内瑞拉新增石油收入拥有债权，这实际上是对既有债务安排的一种 waiver，中方则坚持权益保护。在贸易谈判中，waiver 常被用作让步筹码，换取对方在其他领域的妥协。记词：waiver 与 wave(挥手)同源，像是挥手说“这次算了”，主动放弃追究或要求。",
+      "root": "词根 waiv(=wave 放弃，古法语 weyver，同源 waive) → 挥手放弃 → 法律上放弃权利或免除义务",
+      "d": "2026-09-04"
     }
   ],
   "preview": {
-    "hook": "今日，欧盟正式宣布对中国电动汽车加征临时关税，但北京方面迅速[repudiate|repudiate]这一决定，称其违背市场规则，并威胁采取反制措施。与此同时，德国汽车巨头为求[concession|concession]，私下提出增加本地投资以换取豁免，却遭内部工会强烈反对，因工人要求更高[remuneration|remuneration]并担忧[stringent|stringent]环保法规将压缩利润。分析人士指出，贸易摩擦已令跨境供应链近乎[halt|halt]，而各方在社交媒体上大肆[disseminate|disseminate]对立言论，进一步加剧紧张。对于在华[expatriate|expatriate]而言，他们正艰难应对政策突变带来的签证与业务不确定性。 在复杂的全球经济中，投资者需要谨慎地[navigate|navigate]政策波动与市场风险，才能找到稳定增长的路径。",
-    "impact": "今日主线在于全球贸易裂痕加深，各国须以务实对话取代对抗，方能在关税壁垒与产业补贴的漩涡中[navigate|navigate]经济失衡，否则任何单边[concession|concession]或强硬[repudiate|repudiate]都将引发连锁反应，最终伤及普通消费者的[remuneration|remuneration]与生活成本。 面对日益严峻的金融风险，监管机构实施了[stringent|stringent]的审查标准，并[halt|halt]了不合规的交易，同时通过官方渠道[ disseminate|disseminate]新规，要求各[expatriate|expatriate]分支机构立即执行。"
+    "hook": "今日，欧洲央行宣布将对金融监管体系进行[overhaul|overhaul]，并设立独立[oversee|oversee]机构以[uphold|uphold]市场秩序；同时，美联储释放出鸽派信号，暗示可能放宽对大型银行资本要求，此举被批评为将巩固大而不倒的银行地位，而中小机构则面临更严监管，亟需获得债务豁免以缓解流动性压力，但[creditor|creditor]权益保护条款仍悬而未决。 监管层在评估新规时，虽保留了部分[waiver|waiver]条款，但若[oversight|oversight]不足，[dovish|dovish]政策反而会[entrench|entrench]市场惰性。",
+    "impact": "主线在于全球央行转向宽松与加强监管并行，但政策矛盾凸显：一方面要[oversee|oversee]风险，另一方面却可能因豁免而巩固既有金融寡头，最终需通过制度检修来平衡[creditor|creditor]与公众利益，避免监督真空。 另外，[oversight|oversight]（监督；监管；疏忽）、[uphold|uphold]（维护；支持；维持（判决））、[overhaul|overhaul]（彻底检修；全面改革）、[dovish|dovish]（（政策）鸽派的；倾向宽松的）、[entrench|entrench]（(使)牢固确立；使根深蒂固）、[waiver|waiver]（） 这几个词同样活跃在今天的新闻语境里，结合上文一起记忆更牢。",
+    "impact_extra": "",
+    "hook_extra": ""
   }
 }

@@ -9458,7 +9458,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
   c: econ | work | news | politics | tech  (财经/时政主导：econ 最多(建议3-4), politics 1-2 个真实政策/贸易/外交新闻, work 1-3; tech 仅作补充最多 3 个; news 经济商业相关最多 2; entertainment/sports 仅在还凑不满 8 时作补充)
-- MARKERS (HARD REQUIREMENT): in hook, impact, story.en and story.cn you MUST wrap EVERY one of the 8 words as [word|word] (square brackets, a pipe inside, e.g. [tariff|tariff]). NEVER output these fields without the markers.
+- MARKERS (HARD REQUIREMENT): in hook, story.en and story.cn you MUST wrap EVERY one of the 8 words as [word|word] (square brackets, a pipe inside, e.g. [tariff|tariff]). NEVER output these fields without the markers. (preview.impact 是主线总结句，只需自然嵌入其中若干个词，不强制覆盖全部 8 词。)
 - LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 500-900 characters. Write full flowing paragraphs - never short summaries.
 
 
@@ -12267,12 +12267,11 @@ def main():
         else:
             log(f"  WARNING: preview 重生成 {_max_preview_retry} 次后仍缺失 {len(_pv_missing)} 个词")
 
-        # ===== 最终强制兜底：每个字段（story.en/cn、preview.hook/impact）都必须覆盖全部 new_words。
-        #   优先用模型生成一句自然嵌入缺词的话追加到字段末尾（不再堆裸 [w|w] 标记）；
-        #   模型不可用时 fallback 到从同批次 hook/story 中摘取已嵌入片段拼接引用（绝不裸列）=====
+        # ===== 最终强制兜底：story.en/cn、preview.hook 必须覆盖全部 new_words（impact 已豁免）。
         def _extract_word_snippets(miss, ref_texts):
             """从参考文本(ref_texts)中为每个缺词提取包含其[mark|word]标记的**完整句子片段**。
-            按句边界(句号/分号/问叹号)切分，保证片段通顺且标记不被截断；最终对片段去重。"""
+            按句边界切分（中文标点 + 英文句号后跟大写开头），保证片段通顺且标记不被截断；
+            片段超过 160 字符视为异常直接跳过（防整段倾倒）；最终对片段去重。"""
             pairs = []
             for w in miss:
                 base = (w.get("w") or "").lower()
@@ -12280,7 +12279,7 @@ def main():
                 for ref in (ref_texts or []):
                     if not ref:
                         continue
-                    for sent in re.split(r'(?<=[。；;!！?？])', ref):
+                    for sent in re.split(r'(?<=[。；;!！?？])|(?<=\.)\s+(?=[A-Z"\'])', ref):
                         sent = sent.strip()
                         if not sent:
                             continue
@@ -12293,7 +12292,8 @@ def main():
                             continue
                         s = re.sub(r'^[，、；：,。\s;:.]+', '', sent)
                         s = re.sub(r'[，、；：,。\s;:.]+$', '', s)
-                        if len(s) >= 8:
+                        # 长度守卫：过短的碎片或过长(>160)的异常片段都不要，防止整段原文被当成"句子"倾倒
+                        if 8 <= len(s) <= 160:
                             best = s
                             break
                     if best:
@@ -12363,25 +12363,29 @@ def main():
                 log(f"  最终兜底：引用式衔接补充 {_w.get('w')}（{lang}，模型两次不可用）")
             return s, True
 
-        # 收集所有字段文本作为互引用源（fallback 时从其他已覆盖字段中摘取片段）
-        _ref_hook = (output.get("preview") or {}).get("hook") or ""
-        _ref_impact = (output.get("preview") or {}).get("impact") or ""
-        _ref_story_en = (output.get("story") or {}).get("en") or ""
-        _ref_story_cn = (output.get("story") or {}).get("cn") or ""
-        _all_refs = [_ref_hook, _ref_impact, _ref_story_en, _ref_story_cn]
+        # ===== 最终强制兜底：story.en/cn、preview.hook 必须覆盖全部 new_words（preview.impact 主线总结已松绑，不参与补丁）。
+        #   优先用模型生成一句自然嵌入缺词的话追加到字段末尾（不再堆裸 [w|w] 标记）；
+        #   模型不可用时 fallback 到从同批次同语言字段中摘取已嵌入片段拼接引用（绝不裸列、绝不跨语言倾倒）=====
+        # 引用源按语言匹配且每次实时取最新值：中文字段只从中文文本摘取，英文字段只从英文文本摘取
+        def _refs_for(lang):
+            if lang == "en":
+                return [(output.get("story") or {}).get("en") or ""]
+            return [
+                (output.get("preview") or {}).get("hook") or "",
+                (output.get("story") or {}).get("cn") or "",
+            ]
 
-        _fe, _de = _natural_patch(_ref_story_en, new_words, "en", ref_texts=_all_refs)
-        _fc, _dc = _natural_patch(_ref_story_cn, new_words, "cn", ref_texts=_all_refs)
-        _fh, _dh = _natural_patch(_ref_hook, new_words, "cn", ref_texts=_all_refs)
-        _fi, _di = _natural_patch(_ref_impact, new_words, "cn", ref_texts=_all_refs)
+        _fe, _de = _natural_patch((output.get("story") or {}).get("en"), new_words, "en", ref_texts=_refs_for("en"))
         if _de:
             output["story"]["en"] = _fe
+        _fc, _dc = _natural_patch((output.get("story") or {}).get("cn"), new_words, "cn", ref_texts=_refs_for("cn"))
         if _dc:
             output["story"]["cn"] = _fc
+        _fh, _dh = _natural_patch((output.get("preview") or {}).get("hook"), new_words, "cn", ref_texts=_refs_for("cn"))
         if _dh:
             output["preview"]["hook"] = _fh
-        if _di:
-            output["preview"]["impact"] = _fi
+        # preview.impact（主线总结）不强制覆盖全部 8 词：模型自然嵌入的若干个词由 build_clean_impact 标红即可，
+        # 缺词不再补丁——从根上消除"模型补句失败→兜底倾倒"的盲盒路径。
 
 
 

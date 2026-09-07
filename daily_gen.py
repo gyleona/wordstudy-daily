@@ -12578,6 +12578,20 @@ def main():
 
 
 
+    # ===== 上传前终检（防并发重复触发撞车，2026-09-07）=====
+    # 场景：SCF 触发器偶尔重复派发两个相隔约 1 分钟的运行，两者起点相近都会完整生成；
+    # 若另一运行已抢先上传今日数据，本运行在此放弃上传/写回（保留 checkout 旧文件，
+    # 让 workflow 的 commit 步骤无变化可提交→正常成功），避免 COS 覆盖竞争与 git push 被拒导致失败邮件。
+    try:
+        _late_words, _late_data = get_existing_words(client)
+        if isinstance(_late_data, dict) and _late_data.get("updated_on") == TODAY:
+            log("终检：线上已是今日数据（另一并行运行已完成上传），本运行跳过上传，正常退出")
+            sys.exit(0)
+    except SystemExit:
+        raise
+    except Exception as _e:
+        log(f"终检异常（忽略，继续正常上传）: {_e}")
+
     content_bytes = json.dumps(output, ensure_ascii=False, indent=2).encode("utf-8")
 
 

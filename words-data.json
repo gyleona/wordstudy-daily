@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-07",
+  "updated_on": "2026-09-08",
   "quote": {
-    "en": "Consolidate your learning, and resilient growth becomes your reality.",
-    "zh": "巩固所学，韧性成长便能成为现实。"
+    "en": "Master each word, and every market turn becomes a lesson.",
+    "zh": "掌握每个词，每次市场转折都成为一课。"
   },
   "story": {
-    "en": "A sweeping review of today's global events reveals how resilience and policy action [empower|empower] communities facing crises. In China, the Ministry of Emergency Management reported that search efforts in Suichuan, Jiangxi, after a mudslide have raised the death toll to four, while state media confirmed 43 fatalities in Jilong, with rescue teams intensifying [outreach|outreach] to affected families. Meanwhile, eight central financial enterprises received a combined 360 billion yuan capital injection, a move analysts say will [bolster|bolster] their [viability|viability] amid market volatility. On the diplomatic front, U.S. envoys Witkoff and Kushner met Putin in Moscow before arriving in Kyiv, prompting Russian officials to [scrutinize|scrutinize] Japan's demand to remove a monument as \"absurd.\" In energy, OPEC+ decided to keep October output unchanged, while Iran struck a U.S. naval drone after U.S. forces hit three Iranian tankers. Experts [delineate|delineate] these tensions as risks that could [quell|quell] global supply optimism. Separately, the 2026 World Power Battery Conference unveiled breakthroughs in ultra-fast charging, which could [augment|augment] EV adoption.",
-    "cn": "今日要闻综述：江西遂川泥石流致4人遇难，搜救持续；吉隆灾害遇难43人。八家中央金融企业获增资3600亿元，\u0001金融机构，增强其抗风险能力。美特使威特科夫和库什纳在莫斯科会晤普京后抵基辅，俄方称日本要求拆除纪念碑的言论“荒谬”，\u0001其历史观。欧佩克+决定10月维持产量，伊朗袭击美海军无人艇，\u0001市场乐观情绪。2026世界动力电池大会公布超快充等技术，\u0001新能源应用。同时，\u0001行动正帮助灾区重建，\u0001了救援优先级。\u0001\u0001，而科研一线青年人才培养计划也获推进，中科大校长向学子赠信物，强调成长源于平凡，正如女篮逆转、郑钦文晋级美网16强展现的韧性。 政府通过强化社区外联[outreach|outreach]来赋能[empower|empower]基层民众，同时审慎审查[scrutinize|scrutinize]项目可行性[viability|viability]，并清晰界定[delineate|delineate]职责边界，以补充[augment|augment]公共资源、平息[quell|quell]疑虑并巩固[bolster|bolster]社会信任。"
+    "en": "Chinese financial regulators announced a [recapitalization|recapitalization] of 360 billion yuan for eight central financial enterprises, aiming to bolster their capital buffers. Meanwhile, a [delegation|delegation] led by Wang Yi held talks with Mexico's foreign minister, focusing on bilateral cooperation. In Nanjing, authorities launched a [probe|probe] into a company suspected of falsifying environmental samples, following a joint investigation team's swift action. Elsewhere, the [dismissal|dismissal] of 107 college graduates by a Changzhou auto-lighting firm drew attention, though 71 have already found new jobs. The historic [heirloom|heirloom] industries are set for a major upgrade, with a plan to cultivate 50 leading enterprises by 2028. The London stock market saw a [downgrade|downgrade] in trading sentiment, closing lower for a [consecutive|consecutive] session. Video [footage|footage] from the CIFTIS highlighted innovative products, while the summer box office hit 12.498 billion yuan.",
+    "cn": "中国金融监管机构宣布对8家中央金融企业进行3600\u0001，以增强其资本实力。同日，王毅与墨西哥外长会谈，\u0001就双边合作深入交流。南京方面对一家涉嫌环境采样造假的企业立案[调查|probe]，联合调查组迅速行动，\u0001。\u0001107名大学生引发关注，目前已有71人入职新单位。\u0001产业迎来焕新升级关键期，计划到2028年培育50家百亿规模龙头企业。伦敦股市7日下跌，\u0001第三个交易日走低，市场情绪低迷。第二十六届投洽会亮点纷呈，\u0001展示了创新产品；暑期档票房达124.98亿元，“电影+”带动新消费。\u0001部分行业预期，但整体经济韧性犹存。 此外，上文已涉及：今日，国际货币基金组织宣布对某新兴市场启动紧急[recapitalization|recapitalization]计划，此前该国已连续三轮遭遇主权信用[downgrade|downgrade]，引发市场恐慌；与此同时，欧盟[delegation|delegation]抵京磋商贸易争端，而国内科技巨头因数据泄露面临监管[probe|probe]，其CEO在股东会上遭[dismissal|dismissal]风波；更引人注目的是，一段无人机拍摄的[footage|footage]显示，某老牌银行总部大楼挂出拍卖横幅，昔日被视为金融业[heirloom|heirloom]的百年品牌，如今却沦落至贱卖资产；[consecutive|consecutive]。"
   },
   "words": [
     {
@@ -5237,10 +5237,274 @@
       "t": "今日头条：8家中央金融企业获增资，意图bolster资本充足率，防范系统性风险。同时，OPEC+维持产量，以bolster油价稳定。\n记忆：bolster 原指长枕，想象用枕头撑住摇摇欲坠的论点——增强说服力。",
       "root": "古英语 bolster(垫子, 古英语, 同源 belt) → 用垫子支撑 → 支持、增强",
       "d": "2026-09-07"
+    },
+    {
+      "w": "recapitalization",
+      "ph": "/riːˌkæpɪtəlaɪˈzeɪʃən/",
+      "m": "(金融)资本重组；再注资",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the restructuring of a company's or institution's capital structure, often by injecting new funds",
+      "defs": [
+        {
+          "cn": "(金融)资本重组",
+          "en": "restructuring a firm's capital mix",
+          "pos": "n."
+        },
+        {
+          "cn": "再注资",
+          "en": "injecting fresh capital to stabilize",
+          "pos": "n."
+        },
+        {
+          "cn": "资本结构调整",
+          "en": "adjusting debt-equity proportions",
+          "pos": "n."
+        }
+      ],
+      "col": "bank recapitalization 银行资本重组 · recapitalization plan 资本重组计划 · government-led recapitalization 政府主导的注资",
+      "ex": "The recapitalization of eight central financial enterprises with 360 billion yuan aims to bolster their lending capacity.",
+      "exZh": "对八家中央金融企业3600亿元的资本重组，旨在增强其放贷能力。",
+      "ex2": "After the recapitalization, the bank's capital adequacy ratio improved significantly.",
+      "ex2Zh": "资本重组后，该银行的资本充足率显著提升。",
+      "t": "今日财经头条：8家中央金融企业获3600亿元增资，这是典型的 recapitalization 操作，意在补充核心资本、提升服务实体经济能力。市场解读为政策层稳金融、扩信用的明确信号。\n职场联想：团队预算被砍后重新调配资源，也是一种 mini recapitalization，把‘资本’投向最需要的环节。",
+      "root": "前缀 re-(再、重新，拉丁，同源 return/rebuild) + 词根 capit(=caput 头、资本，拉丁，同源 capital/capitalism) + 后缀 -ization(名词化，希腊/拉丁，同源 organization) → 重新给资本‘安头’ → 资本重组、再注资",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "delegation",
+      "ph": "/ˌdelɪˈɡeɪʃən/",
+      "m": "(外交)代表团；授权委派",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a group of people sent to represent others, esp. in diplomacy; also the act of assigning authority",
+      "defs": [
+        {
+          "cn": "(外交)代表团",
+          "en": "a group representing a government",
+          "pos": "n."
+        },
+        {
+          "cn": "授权委派",
+          "en": "the act of entrusting tasks to others",
+          "pos": "n."
+        },
+        {
+          "cn": "代表(某机构出行)",
+          "en": "a body sent to negotiate or attend",
+          "pos": "n."
+        }
+      ],
+      "col": "trade delegation 贸易代表团 · lead a delegation 率团 · delegation of authority 授权",
+      "ex": "The US presidential envoy's delegation returned from Russia and Ukraine claiming 'substantial progress' in talks.",
+      "exZh": "美国总统特使率领的代表团从俄乌返回，称谈判取得‘实质性进展’。",
+      "ex2": "Effective delegation of authority empowers junior staff to make decisions.",
+      "ex2Zh": "有效的授权委派能让初级员工有决策权。",
+      "t": "时政背景：美总统特使率代表团访俄乌，称取得‘实质性进展’，这是典型的高层 delegation 外交。同日王毅同墨西哥外长会谈，中国代表团活跃于多边舞台。\n职场高效管理者懂得 delegation of authority，把任务分出去，自己专注战略，而不是事必躬亲。",
+      "root": "前缀 de-(向下、离开，拉丁，同源 depart/dedicate) + 词根 leg(=law、send，拉丁，同源 legal/legate) + 后缀 -ation(名词化，拉丁，同源 organization) → 派人去执行使命 → 代表团、授权",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "dismissal",
+      "ph": "/dɪsˈmɪsl/",
+      "m": "(职场)解雇；驳回；不予考虑",
+      "c": "work",
+      "pos": "n.",
+      "en": "the act of removing someone from a job; also the rejection of an idea or claim",
+      "defs": [
+        {
+          "cn": "(职场)解雇",
+          "en": "termination of employment",
+          "pos": "n."
+        },
+        {
+          "cn": "驳回(诉讼/请求)",
+          "en": "formal rejection by a court",
+          "pos": "n."
+        },
+        {
+          "cn": "不予理会",
+          "en": "treating something as unimportant",
+          "pos": "n."
+        }
+      ],
+      "col": "mass dismissal 大规模解雇 · unfair dismissal 不当解雇 · dismissal of a claim 驳回请求",
+      "ex": "The dismissal of 107 college graduates by a Changzhou auto-lighting firm sparked public debate, though 71 have already found new jobs.",
+      "exZh": "常州一家车灯企业辞退107名大学生引发热议，其中71人已入职新单位。",
+      "ex2": "The court's dismissal of the lawsuit was a relief for the company.",
+      "ex2Zh": "法院驳回诉讼让公司松了一口气。",
+      "t": "职场热点：江苏常州星宇车灯辞退107名大学生，引发对‘应届生保护’的讨论，但71人已迅速再就业，显示职场流动性。dismissal 背后是企业经营压力与用工自主权的平衡。\n反义词是 retention（留任），企业一边裁员一边留才，考验管理智慧。",
+      "root": "前缀 dis-(分开、否定，拉丁，同源 dismiss/disable) + 词根 miss(=mit 送、放，拉丁，同源 mission/admit) + 后缀 -al(名词化，拉丁，同源 arrival) → 把人送走、把想法打发掉 → 解雇、驳回",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "heirloom",
+      "ph": "/ˈeəluːm/",
+      "m": "(文化)传家宝；历史经典",
+      "c": "news",
+      "pos": "n.",
+      "en": "a valuable object passed down through generations; figuratively, a cherished legacy",
+      "defs": [
+        {
+          "cn": "(文化)传家宝",
+          "en": "a family treasure handed down",
+          "pos": "n."
+        },
+        {
+          "cn": "历史经典产业",
+          "en": "traditional heritage industries",
+          "pos": "n."
+        },
+        {
+          "cn": "传承之物",
+          "en": "something valued across time",
+          "pos": "n."
+        }
+      ],
+      "col": "cultural heirloom 文化瑰宝 · heirloom quality 传世品质 · heirloom seeds 传家宝种子",
+      "ex": "China's plan to cultivate 50 leading enterprises by 2028 aims to turn historical classic industries into modern heirlooms of consumption.",
+      "exZh": "中国计划到2028年培育50家龙头企业，把历史经典产业打造成现代消费传家宝。",
+      "ex2": "The ancient craft is an heirloom of regional culture, now revitalized for global markets.",
+      "ex2Zh": "这门古老技艺是地域文化的传家宝，如今正为全球市场焕新。",
+      "t": "产业新闻：政策提出到2028年培育50家百亿规模龙头企业、塑造100个中国消费名品，历史经典产业进入焕新关键期。这些品牌要成为‘国家传家宝’，既保留传统又创新表达。\n记忆点：heirloom 像家里的老物件，既值钱又承载记忆，产业升级就是给老字号‘镀金’。",
+      "root": "复合词 heirloom：heir(继承人，古英语/法语，同源 heritage/inherit) + loom(工具、织机，古英语，同源 loom 织布机) → 传给继承人的工具 → 传家宝、世代相传之物",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "probe",
+      "ph": "/prəʊb/",
+      "m": "调查；探究；探测",
+      "c": "news",
+      "pos": "v./n.",
+      "en": "to investigate or examine closely; also a thorough investigation or a device for exploration",
+      "defs": [
+        {
+          "cn": "调查",
+          "en": "to investigate thoroughly",
+          "pos": "v."
+        },
+        {
+          "cn": "探究(深层原因)",
+          "en": "to explore or question deeply",
+          "pos": "v."
+        },
+        {
+          "cn": "探测器/调查行动",
+          "en": "a tool or act of probing",
+          "pos": "n."
+        }
+      ],
+      "col": "launch a probe 启动调查 · probe into 深入调查 · space probe 太空探测器",
+      "ex": "Nanjing authorities launched a probe into an enterprise suspected of faking environmental sampling data.",
+      "exZh": "南京对涉嫌环境采样造假的涉事企业立案调查。",
+      "ex2": "The committee's probe into workplace safety revealed systemic lapses.",
+      "ex2Zh": "委员会对工作场所安全的调查揭示了系统性疏漏。",
+      "t": "社会新闻：南京对环境采样造假涉事企业立案调查，联合调查组迅速行动。probe 体现监管对数据造假的零容忍，也警示企业合规红线。\n职场中，老板的 probe 往往不是刁难，而是帮你发现问题；主动 self-probe 能避免被动。",
+      "root": "词根 prob(=test、prove，拉丁，同源 prove/probation) + 后缀 -e(动词/名词化) → 去测试、去验证 → 调查、探究、探测器",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "downgrade",
+      "ph": "/ˈdaʊnɡreɪd/",
+      "m": "(评级)下调；降级；贬低",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to reduce the rank, value, or rating of something; a reduction in status or quality",
+      "defs": [
+        {
+          "cn": "(评级)下调",
+          "en": "to lower a credit or product rating",
+          "pos": "v."
+        },
+        {
+          "cn": "降级",
+          "en": "to demote or reduce in status",
+          "pos": "v."
+        },
+        {
+          "cn": "贬低(重要性)",
+          "en": "to treat as less important",
+          "pos": "v."
+        }
+      ],
+      "col": "downgrade a rating 下调评级 · credit downgrade 信用降级 · downgrade expectations 下调预期",
+      "ex": "The London stock market fell on Monday, prompting some analysts to downgrade their earnings forecasts for major banks.",
+      "exZh": "伦敦股市周一下跌，促使部分分析师下调大型银行的盈利预期。",
+      "ex2": "The firm was forced to downgrade its product line after poor sales.",
+      "ex2Zh": "由于销售不佳，该公司被迫降低产品线档次。",
+      "t": "市场动态：伦敦股市7日下跌，叠加全球贸易不确定性，评级机构可能对部分企业 downgrade。此前‘特朗普称炒股投资为美国赚数千亿’的言论也引发对市场泡沫的担忧。\n反义词 upgrade：手机系统升级叫 upgrade，信用评级下调就是 downgrade，方向相反。",
+      "root": "前缀 down-(向下，古英语，同源 downcast/downhill) + 词根 grade(=step、degree，拉丁，同源 gradual/grade) → 往下降一级 → 降级、下调",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "consecutive",
+      "ph": "/kənˈsekjətɪv/",
+      "m": "连续的；不间断的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "following one after another without interruption",
+      "defs": [
+        {
+          "cn": "连续的",
+          "en": "following in unbroken sequence",
+          "pos": "adj."
+        },
+        {
+          "cn": "接连的",
+          "en": "successive, one after another",
+          "pos": "adj."
+        },
+        {
+          "cn": "(比赛/任期)连续",
+          "en": "consecutive games or terms",
+          "pos": "adj."
+        }
+      ],
+      "col": "consecutive days 连续多日 · consecutive wins 连胜 · consecutive quarters 连续季度",
+      "ex": "Zheng Qinwen defeated Swiatek for the second consecutive comeback, advancing to the US Open quarterfinals.",
+      "exZh": "郑钦文连续第二次逆转击败斯瓦泰克，晋级美网八强。",
+      "ex2": "The company reported profits for five consecutive quarters.",
+      "ex2Zh": "该公司连续五个季度实现盈利。",
+      "t": "体育+职场：郑钦文2-0击败斯瓦泰克，上演连续逆转，晋级美网女单8强；中国网球协会祝贺。consecutive 强调‘不间断’，体育与工作同理。\n职场中，连续加班叫 consecutive overtime，小心 burnout；连续达标叫 consecutive targets，是晋升加分项。",
+      "root": "前缀 con-(共同、一起，拉丁，同源 connect/combine) + 词根 secut(=sequ 跟随，拉丁，同源 sequence/pursue) + 后缀 -ive(形容词化，拉丁，同源 active) → 一个跟着一个 → 连续的、接连的",
+      "d": "2026-09-08"
+    },
+    {
+      "w": "footage",
+      "ph": "/ˈfʊtɪdʒ/",
+      "m": "(视频)镜头；影像素材",
+      "c": "tech",
+      "pos": "n.",
+      "en": "recorded video or film material",
+      "defs": [
+        {
+          "cn": "(视频)镜头",
+          "en": "recorded video material",
+          "pos": "n."
+        },
+        {
+          "cn": "影像素材",
+          "en": "raw film used in editing",
+          "pos": "n."
+        },
+        {
+          "cn": "(长度)英尺数",
+          "en": "length measured in feet",
+          "pos": "n."
+        }
+      ],
+      "col": "video footage 视频影像 · exclusive footage 独家镜头 · security footage 监控录像",
+      "ex": "The leaked footage of the new Huawei Mate XT 2 with Andy Lau sparked buzz over its privacy screen.",
+      "exZh": "刘德华与华为Mate XT 2同框的泄露视频引发对其防窥屏的热议。",
+      "ex2": "The drone footage captured the scale of the flood damage.",
+      "ex2Zh": "无人机镜头拍下了洪水破坏的规模。",
+      "t": "科技热点：刘德华与华为Mate XT 2同框，灵盾防窥屏亮相，相关 footage 在社交平台疯传，成为科技圈谈资。footage 是营销利器，也是隐私风险。\n短视频时代，一段 viral footage 能成就品牌，也能引发公关危机，剪辑前务必核实来源。",
+      "root": "词根 foot(英尺、脚，古英语，同源 footstep) + 后缀 -age(集合名词化，法语/拉丁，同源 mileage/percentage) → 按英尺计量的胶片长度 → 影像素材、镜头",
+      "d": "2026-09-08"
     }
   ],
   "preview": {
-    "hook": "今日，全球科技巨头联合发布‘AI[empower|empower]中小企业’计划，承诺通过赋能与[outreach|outreach]行动，帮助百万小微企业接入智能工具。然而，市场对此反应谨慎，投资者纷纷[scrutinize|scrutinize]计划细节，质疑其[viability|viability]。分析师指出，该计划虽试图清晰界定技术应用边界，但缺乏具体补贴方案，恐难缓解中小企业对转型成本的忧虑。 政府出台新政策以[augment|augment]就业机会，[bolster|bolster]经济韧性，同时采取措施[quell|quell]市场恐慌，并明确[ delineate|delineate]各行业的发展边界。",
-    "impact": "主线在于，科技巨头试图以AI计划增强传统产业效率，并借政策东风支撑信心，但若无法明确盈利模式，短期或加剧市场波动。"
+    "hook": "今日，国际货币基金组织宣布对某新兴市场启动紧急[recapitalization|recapitalization]计划，此前该国已连续三轮遭遇主权信用[downgrade|downgrade]，引发市场恐慌。与此同时，欧盟[delegation|delegation]抵京磋商贸易争端，而国内科技巨头因数据泄露面临监管[probe|probe]，其CEO在股东会上遭[dismissal|dismissal]风波。更引人注目的是，一段无人机拍摄的[footage|footage]显示，某老牌银行总部大楼挂出拍卖横幅，昔日被视为金融业[heirloom|heirloom]的百年品牌，如今却沦落至贱卖资产。 连续三年亏损后，公司不得不采取[consecutive|consecutive]的裁员计划，这引发了员工对长期稳定性的担忧。",
+    "impact": "今日主线：全球资本避险情绪升温，[consecutive|consecutive]负面消息叠加，加速了市场对风险资产的抛售，而监管层的授权委派与紧急注资能否扭转颓势，仍是未知数，任何不当驳回或评级降级都可能触发下一轮危机。"
   }
 }

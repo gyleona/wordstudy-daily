@@ -3739,6 +3739,31 @@ def _inflection_pattern(base):
 
 
 
+def _gloss_candidates(w):
+    """中文含义候选集：m 的各义项 + defs[].cn（按 ；/、/， 拆分），供中文字段正文匹配。
+    完整释义串逐字匹配极易落空（正文常只出现其中一个义项），导致词未被标记→补丁兜底把英文塞进中文综述。"""
+    out = []
+
+    def _add(s):
+        s = _clean_display(s or "")
+        if s and len(s) >= 2 and s not in out:
+            out.append(s)
+
+    _add(w.get("m"))
+    try:
+        for d in (w.get("defs") or []):
+            if isinstance(d, dict):
+                _add(d.get("cn"))
+    except Exception:
+        pass
+    for s in list(out):
+        for part in re.split(r"[；;、，]", s):
+            part = part.strip()
+            if len(part) >= 2 and part not in out:
+                out.append(part)
+    return out
+
+
 def _find_occurrences(clean, words, use_english_display=False):
 
 
@@ -3996,70 +4021,18 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
         gloss = _clean_display(w.get("m"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         if len(gloss) >= 2:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             gm = re.search(re.escape(gloss), clean)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             if gm:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 cands.append((gm.start(), gm.end(), disp, base))
+        # 义项级匹配（2026-09-08）：正文常只出现 m 的其中一个义项，逐义项 + defs[].cn 再试
+        for _g in _gloss_candidates(w):
+            if _g == gloss:
+                continue
+            gm2 = re.search(re.escape(_g), clean)
+            if gm2:
+                cands.append((gm2.start(), gm2.end(), disp, base))
+                break
 
 
 
@@ -4989,7 +4962,7 @@ def build_clean_story_cn(story_cn, words):
 
     # 清洗：去掉中文故事中 DeepSeek 偶尔加的括号英文注释，如 "套利者（arbitrage）"、"关税（tariff）"
     # 保持和其他词一致——只显示中文，不额外带英文括号
-    story_cn = re.sub(r'([一-鿿]+)\s*[（(]\s*([A-Za-z][A-Za-z-]*)\s*[）)]', r'', story_cn)
+    story_cn = re.sub(r'([一-鿿]+)\s*[（(]\s*([A-Za-z][A-Za-z-]*)\s*[）)]', r'\1', story_cn)
 
     marked, count = _mark_text(story_cn, words, use_english_display=False)
 
@@ -12314,13 +12287,23 @@ def main():
             miss = [w for w in words if (w.get("w") or "").lower() not in cov]
             if not miss:
                 return s, False
-            _lang_label = "English" if lang == "en" else "Chinese (中文)"
             _word_list = "、".join((w.get("w") or "") for w in miss)
-            _prompt = (f'Write ONE natural {_lang_label} sentence (max 120 characters) that weaves in ALL '
-                       f'these IELTS vocabulary words naturally, each marked exactly as [word|word]. '
-                       f'Do NOT list them; embed them in real context. '
-                       f'Required words: {_word_list}. '
-                       f'Reply with the sentence text only - no JSON, no quotes, no markdown.')
+            if lang == "en":
+                _lang_label = "English"
+                _prompt = (f'Write ONE natural {_lang_label} sentence (max 120 characters) that weaves in ALL '
+                           f'these IELTS vocabulary words naturally, each marked exactly as [word|word]. '
+                           f'Do NOT list them; embed them in real context. '
+                           f'Required words: {_word_list}. '
+                           f'Reply with the sentence text only - no JSON, no quotes, no markdown.')
+            else:
+                # 中文补句铁律：中文句子里必须写【中文含义】并标记为 [中文含义|english]，绝不写英文原词
+                _prompt = ('Write ONE natural Chinese sentence (max 150 characters) that weaves in the CHINESE '
+                           'MEANINGS of ALL these IELTS vocabulary words. Each must be marked exactly as '
+                           '[中文含义|english] where the visible part is the Chinese meaning and the part after | '
+                           'is the English base word. Do NOT write the English words themselves inside the Chinese '
+                           'sentence. Do NOT list them; embed them in real context. '
+                           f'Required words: {_word_list}. '
+                           'Reply with the sentence text only - no JSON, no quotes, no markdown.')
             _patch = None
             for _try in range(2):
                 try:
@@ -12336,7 +12319,11 @@ def main():
                     except Exception:
                         _m = re.search(r'"sentence"\s*:\s*"(.*)"', _txt)
                         _txt = _m.group(1) if _m else ""
+                # 中文句有效性：标记的显示部分必须含中文（防模型在中文句里塞英文原词）
                 if _txt and re.search(r"\[[^\]|]+\|[^\]]+\]", _txt):
+                    if lang == "cn" and not re.search(r"\[[^\]|]*[\u4e00-\u9fff][^\]|]*\|[^\]]+\]", _txt):
+                        log(f"  兜底补句第 {_try+1} 次返回英文标记（中文句不允许），作废重试")
+                        continue
                     _patch = _txt
                     break
                 log(f"  兜底补句第 {_try+1} 次尝试未获得有效句子")
@@ -12347,18 +12334,17 @@ def main():
                 s += " " + _patch
                 log(f"  最终兜底：模型自然补句（{lang}）覆盖 {[w.get('w') for w in miss]}")
                 return s, True
-            # fallback：从同批次 hook/story 中摘取已嵌入片段拼接引用（绝不裸列括号释义）
+            if lang != "en":
+                # 中文兜底不追加任何引用片段：hook/词库片段都是英文显示，拼进中文综述必然混入英文；
+                # 宁可本字段缺词（hook 与 story.en 仍承担全覆盖），也不产出脏内容——确定性安全优先。
+                log(f"  中文补句两次未成功，放弃补丁（不追加英文片段），缺词: {[w.get('w') for w in miss]}")
+                return s, False
+            # fallback（仅英文字段）：从同批次英文字段中摘取已嵌入片段拼接引用
             _snippets = _extract_word_snippets(miss, ref_texts)
-            if lang == "en":
-                _joined = "; ".join(_snippets)
-                if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
-                    s = s.rstrip() + "."
-                s = s.rstrip() + " Also featured: " + _joined + "."
-            else:
-                _joined = "；".join(_snippets)
-                if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
-                    s = s.rstrip() + "。"
-                s = s.rstrip() + " 此外，上文已涉及：" + _joined + "。"
+            _joined = "; ".join(_snippets)
+            if s and not s.rstrip().endswith((".", "。", "!", "！", "?", "？")):
+                s = s.rstrip() + "."
+            s = s.rstrip() + " Also featured: " + _joined + "."
             for _w in miss:
                 log(f"  最终兜底：引用式衔接补充 {_w.get('w')}（{lang}，模型两次不可用）")
             return s, True

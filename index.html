@@ -1447,7 +1447,8 @@
 
   // 今日推送用卡片（首屏，词少）：只做快速预览，深入内容收进详情
   function card(o,i){
-    const [cls,lab]=tagMap[o.c];
+    const [cls,lab]=tagMap[o.c]||["news","·"];
+    try{
     return `<div class="wcard" data-cat="${o.c}" data-w="${o.w}" data-date="${o.d||''}" style="animation-delay:${i*60}ms">
       <div class="top"><span class="tag ${cls}">${lab}</span><span class="phon">${o.ph}</span></div>
       <div class="wordline"><span class="word">${o.w}</span><button class="speaker" data-spk="${o.w}" aria-label="朗读">${spkSvg}</button></div>
@@ -1458,11 +1459,12 @@
         <button class="act" data-mark="hard" data-w="${o.w}">${flagSvg}标难</button>
       </div>
     </div>`;
+    }catch(e){ console.error('card render error:', o && o.w, e); return ''; }
   }
 
   // 词库 / 历史 / 收藏 / 标难用可点击条形（点整行打开详情）
   function bar(o,i){
-    const [cls,lab]=tagMap[o.c];
+    const [cls,lab]=tagMap[o.c]||["news","·"];
     const wrongN = (sr[o.w]||{}).wrong || 0;
     return `<div class="wbar" data-cat="${o.c}" data-w="${o.w}" data-date="${o.d||''}" style="animation-delay:${i*40}ms">
       <div class="wbar-h">
@@ -1494,7 +1496,7 @@
   function renderBars(list, containerId, emptyMsg){
     const el = document.getElementById(containerId);
     if(!list.length){ el.innerHTML = '<div class="empty">'+(emptyMsg||'这里还没有单词～<br>在词条里点「收藏 / 标难」就会自动出现在这里。')+'</div>'; return; }
-    el.innerHTML = list.map(bar).join('');
+    el.innerHTML = list.map((w,i)=>{ try{ return bar(w,i); }catch(e){ console.error('bar render error:', w&&w.w, e); return ''; } }).join('');
     refreshMarks();
   }
 
@@ -1856,7 +1858,7 @@
     try{
       const g = document.getElementById('grid');
       g.innerHTML = todayWords.length
-        ? todayWords.map(card).join('')
+        ? todayWords.map((w,i)=>{ try{ return card(w,i); }catch(e){ console.error('card render error:', w&&w.w, e); return ''; } }).join('')
         : '<div class="empty">今日暂无单词 · 检查网络后刷新</div>';
     }catch(e){ console.error('grid render error:', e); }
     // 首次访问提示：点开卡片看详情（只用 localStorage 记一次）

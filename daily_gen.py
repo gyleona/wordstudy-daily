@@ -12564,6 +12564,78 @@ def main():
 
 
 
+    # ===== 每日出厂质检（2026-09-08 稳定三件套①）：确定性体检，可洗则洗，story.cn 混英文则重生成一次 =====
+    def _qc_strip_marks(t):
+        return re.sub(r"\[[^\]]*\]", "", t or "")
+
+    def _qc_scan_issues():
+        _issues = []
+        # 1) 控制字符（确定性清洗，不算残留问题）
+        _ctrl_found = []
+        def _walk(o, path=""):
+            if isinstance(o, str):
+                if any(ord(ch) < 32 and ch not in "\n\t" for ch in o):
+                    _ctrl_found.append(path)
+            elif isinstance(o, dict):
+                for k, v in o.items():
+                    _walk(v, path + "." + str(k))
+            elif isinstance(o, list):
+                for _i2, v in enumerate(o):
+                    _walk(v, path + "[" + str(_i2) + "]")
+        _walk(output)
+        if _ctrl_found:
+            def _scrub(o):
+                if isinstance(o, str):
+                    return "".join(ch for ch in o if ord(ch) >= 32 or ch in "\n\t")
+                if isinstance(o, dict):
+                    return {k: _scrub(v) for k, v in o.items()}
+                if isinstance(o, list):
+                    return [_scrub(v) for v in o]
+                return o
+            _scrubbed = _scrub(output)
+            if isinstance(_scrubbed, dict):
+                output.clear()
+                output.update(_scrubbed)
+            log(f"  质检: 清洗控制字符 {_ctrl_found}")
+        # 2) story.cn 中文综述不得含英文原词（标记显示部分除外）
+        _cn_txt = _qc_strip_marks((output.get("story") or {}).get("cn") or "")
+        _en_hits = sorted(set(re.findall(r"[A-Za-z]{3,}", _cn_txt)))
+        if _en_hits:
+            _issues.append(("cn-english", "story.cn", ",".join(_en_hits[:8])))
+        # 3) 分类必须是前端认识的（与 index.html tagMap 同步维护）
+        _known_cats = {"econ", "news", "work", "politics", "tech", "entertainment", "sports"}
+        _bad_cats = sorted({(w.get("c") or "?") for w in new_words if (w.get("c") or "?") not in _known_cats})
+        if _bad_cats:
+            _issues.append(("unknown-cat", "words", ",".join(_bad_cats)))
+        # 4) 标记必须成对完整
+        for _fname, _ftxt in (("story.en", (output.get("story") or {}).get("en") or ""),
+                              ("story.cn", (output.get("story") or {}).get("cn") or ""),
+                              ("hook", (output.get("preview") or {}).get("hook") or ""),
+                              ("impact", (output.get("preview") or {}).get("impact") or "")):
+            if _ftxt.count("[") != _ftxt.count("]"):
+                _issues.append(("broken-mark", _fname, f"{_ftxt.count('[')}/{_ftxt.count(']')}"))
+        return _issues
+
+    _qc_issues = _qc_scan_issues()
+    if any(i[0] == "cn-english" for i in _qc_issues):
+        try:
+            log("  质检: story.cn 混入英文 → 重生成 story 一次")
+            _sr2 = generate_story_for_words(new_words)
+            if _sr2 and isinstance(_sr2, dict) and (_sr2.get("cn") or "").strip():
+                _mc2, _cc2 = build_clean_story_cn(_sr2["cn"], new_words)
+                if not re.search(r"[A-Za-z]{3,}", _qc_strip_marks(_mc2)):
+                    output["story"]["cn"] = _mc2
+                    log("  质检: 重生成后 story.cn 已无英文 ✓")
+                else:
+                    log("  质检: 重生成仍含英文，保留现状（宁缺毋滥，不再追加任何兜底）")
+        except Exception as _e:
+            log(f"  质检: story.cn 重生成异常（忽略）: {_e}")
+        _qc_issues = _qc_scan_issues()
+    if _qc_issues:
+        log(f"  质检(残留，需人工关注): {_qc_issues}")
+    else:
+        log("  质检: 全部通过 ✓")
+
     # ===== 上传前终检（防并发重复触发撞车，2026-09-07）=====
     # 场景：SCF 触发器偶尔重复派发两个相隔约 1 分钟的运行，两者起点相近都会完整生成；
     # 若另一运行已抢先上传今日数据，本运行在此放弃上传/写回（保留 checkout 旧文件，

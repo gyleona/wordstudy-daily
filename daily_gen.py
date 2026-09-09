@@ -4657,7 +4657,7 @@ def build_clean_hook(hook, words):
 
 
 
-    marked, _ = _mark_text(hook, words, use_english_display=True)
+    marked, _ = _mark_text(hook, words, use_english_display=False)
 
 
 

@@ -3764,6 +3764,23 @@ def _gloss_candidates(w):
     return out
 
 
+def _primary_gloss(w):
+    """词的中文显示含义：优先 m，缺失时回退 defs[0].cn（2026-09-09：今日 deliberation 的 m=null，
+    导致显示兜底回英文原词）。"""
+    g = _clean_display(w.get("m"))
+    if g and len(g) >= 2:
+        return g
+    try:
+        for d in (w.get("defs") or []):
+            if isinstance(d, dict):
+                g = _clean_display(d.get("cn"))
+                if g and len(g) >= 2:
+                    return g
+    except Exception:
+        pass
+    return ""
+
+
 def _find_occurrences(clean, words, use_english_display=False):
 
 
@@ -3940,7 +3957,7 @@ def _find_occurrences(clean, words, use_english_display=False):
 
 
 
-        disp = base if use_english_display else (_clean_display(w.get("m")) or base)
+        disp = base if use_english_display else (_primary_gloss(w) or base)
 
 
 
@@ -4980,6 +4997,21 @@ def build_clean_story_cn(story_cn, words):
 
 
 
+    # 中文综述兜底清洗（2026-09-09）：模型受全局 MARKERS 示例误导，偶发把 [英文|英文] 标记写进中文；
+    # 确定性转换：显示部分不含中文的标记 → 用词库中文含义替换显示（base 不变，点击/发音不受影响）。
+    _gloss_map = {}
+    for _w in words:
+        _g = _primary_gloss(_w)
+        if _g and len(_g) >= 2:
+            _gloss_map[(_w.get("w") or "").lower()] = _g
+    def _cn_disp_repl(_m2):
+        _disp, _base = _m2.group(1), _m2.group(2)
+        if not re.search(r"[一-鿿]", _disp):
+            _g = _gloss_map.get(_base.lower())
+            if _g:
+                return "[" + _g + "|" + _base + "]"
+        return _m2.group(0)
+    marked = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", _cn_disp_repl, marked)
     return marked, count
 
 
@@ -9431,7 +9463,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
 
   c: econ | work | news | politics | tech  (财经/时政主导：econ 最多(建议3-4), politics 1-2 个真实政策/贸易/外交新闻, work 1-3; tech 仅作补充最多 3 个; news 经济商业相关最多 2; entertainment/sports 仅在还凑不满 8 时作补充)
-- MARKERS (HARD REQUIREMENT): in hook, story.en and story.cn you MUST wrap EVERY one of the 8 words as [word|word] (square brackets, a pipe inside, e.g. [tariff|tariff]). NEVER output these fields without the markers. (preview.impact 是主线总结句，只需自然嵌入其中若干个词，不强制覆盖全部 8 词。)
+- MARKERS (HARD REQUIREMENT): wrap EVERY one of the 8 words as [display|base] (square brackets, a pipe inside). Field-specific DISPLAY rules: story.en is English → display = the English word itself, e.g. [tariff|tariff]. hook and story.cn are CHINESE text → display = the word's CHINESE meaning, base = the English word, e.g. [关税|tariff]. In Chinese text NEVER write a bare English word and NEVER use an English word as the display part — always [中文含义|english]. NEVER output these fields without the markers. (preview.impact 是主线总结句，只需自然嵌入其中若干个词，不强制覆盖全部 8 词。)
 - LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 500-900 characters. Write full flowing paragraphs - never short summaries.
 
 
@@ -12597,6 +12629,14 @@ def main():
                 output.clear()
                 output.update(_scrubbed)
             log(f"  质检: 清洗控制字符 {_ctrl_found}")
+        # 1.5) 词缺 m 字段（页面直接显示它）→ 用 defs[0].cn 确定性补上
+        for _w in new_words:
+            if not (_w.get("m") or "").strip():
+                _d0 = ((_w.get("defs") or [{}])[0] or {})
+                _cn = (_d0.get("cn") or "").strip()
+                if _cn:
+                    _w["m"] = _cn
+                    log(f"  质检: 补缺失释义 {_w.get('w')} -> {_cn}")
         # 2) story.cn 中文综述不得含英文原词（标记显示部分除外）
         _cn_txt = _qc_strip_marks((output.get("story") or {}).get("cn") or "")
         _en_hits = sorted(set(re.findall(r"[A-Za-z]{3,}", _cn_txt)))

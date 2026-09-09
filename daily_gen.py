@@ -12637,6 +12637,27 @@ def main():
                 if _cn:
                     _w["m"] = _cn
                     log(f"  质检: 补缺失释义 {_w.get('w')} -> {_cn}")
+        # 1.7) 中文导语/主线总结显示纠偏（2026-09-09）：hook、impact 是中文句子，标记显示部分必须中文；
+        # 显示不含中文的标记 → 用词库释义（取"；"前短义，与 _find_occurrences 风格一致）替换显示
+        _hgloss = {}
+        for _w in new_words:
+            _g = _primary_gloss(_w)
+            if _g:
+                _hgloss[(_w.get("w") or "").lower()] = min((s.strip() for s in re.split(r"[；;]", _g) if s.strip()), key=len, default=_g)
+        def _zh_cn_repl(_m2):
+            _disp, _base = _m2.group(1), _m2.group(2)
+            if not re.search(r"[一-鿿]", _disp):
+                _g = _hgloss.get(_base.lower())
+                if _g:
+                    return "[" + _g + "|" + _base + "]"
+            return _m2.group(0)
+        for _fname in ("hook", "impact"):
+            _ftxt = (output.get("preview") or {}).get(_fname) or ""
+            if _ftxt and "[" in _ftxt:
+                _f_fixed = re.sub(r"\[([^\]|]+)\|([^\]]+)\]", _zh_cn_repl, _ftxt)
+                if _f_fixed != _ftxt:
+                    output.setdefault("preview", {})[_fname] = _f_fixed
+                    log(f"  质检: {_fname} 英文显示 → 中文显示已纠偏")
         # 2) story.cn 中文综述不得含英文原词（标记显示部分除外）
         _cn_txt = _qc_strip_marks((output.get("story") or {}).get("cn") or "")
         _en_hits = sorted(set(re.findall(r"[A-Za-z]{3,}", _cn_txt)))

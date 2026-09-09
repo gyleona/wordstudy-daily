@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-08",
+  "updated_on": "2026-09-09",
   "quote": {
-    "en": "Master each word, and every market turn becomes a lesson.",
-    "zh": "掌握每个词，每次市场转折都成为一课。"
+    "en": "In every market upheaval, find the thread to weave growth.",
+    "zh": "在每一次市场动荡中，找到编织成长的线索。"
   },
   "story": {
-    "en": "Chinese financial regulators announced a [recapitalization|recapitalization] of 360 billion yuan for eight central financial enterprises, aiming to bolster their capital buffers. Meanwhile, a [delegation|delegation] led by Wang Yi held talks with Mexico's foreign minister, focusing on bilateral cooperation. In Nanjing, authorities launched a [probe|probe] into a company suspected of falsifying environmental samples, following a joint investigation team's swift action. Elsewhere, the [dismissal|dismissal] of 107 college graduates by a Changzhou auto-lighting firm drew attention, though 71 have already found new jobs. The historic [heirloom|heirloom] industries are set for a major upgrade, with a plan to cultivate 50 leading enterprises by 2028. The London stock market saw a [downgrade|downgrade] in trading sentiment, closing lower for a [consecutive|consecutive] session. Video [footage|footage] from the CIFTIS highlighted innovative products, while the summer box office hit 12.498 billion yuan.",
-    "cn": "中国金融监管机构宣布对8家中央金融企业进行3600亿元的[资本重组|recapitalization]，以增强其资本实力。同日，王毅率[代表团|delegation]与墨西哥外长会谈，就双边合作深入交流。南京方面对一家涉嫌环境采样造假的企业立案[调查|probe]，联合调查组迅速行动。常州一家车灯企业[解雇|dismissal]107名毕业生一事引发关注，目前已有71人入职新单位。[传家宝|heirloom]产业迎来焕新升级关键期，计划到2028年培育50家百亿规模龙头企业。伦敦股市7日下跌，[连续|consecutive]第三个交易日走低，市场情绪低迷。第二十六届投洽会亮点纷呈，现场[影像素材|footage]展示了创新产品；暑期档票房达124.98亿元，“电影+”带动新消费。[下调|downgrade]部分行业预期的声音仍存，但整体经济韧性犹存。"
+    "en": "As global markets open on 2026-09-09, Canada's C$20 billion retaliatory tariffs against U.S. goods took effect, with Prime Minister Carney stressing a push to reduce [dependence|dependence] on the U.S. while avoiding escalation. Meanwhile, U.S. forces struck an Iranian oil tanker near Kharg Island, sending crude prices toward $100 a barrel, an [underlying|underlying] tension that could [divert|divert] investment flows. European indices opened lower, and Germany reported a monthly export decline despite strong Chinese trade data—a sign economies remain intertwined. Analysts urge nations to [diversify|diversify] supply chains and energy sources, as geopolitical shocks and trade policies are [interdependent|interdependent]. In other news, central meteorological warnings for heavy rain across multiple regions prompted disaster preparedness, while the 10th Pingyao International Film Festival announced two short-film juries. The U.S.-Russia presidential call lasted an hour after envoy mediation, yet fighting resumed. Looking ahead, market [deliberation|deliberation] over oil supply and tariff impacts will shape volatility, with complex, [intricate|intricate] negotiations likely ahead. Global markets [intertwine|intertwine] with local policies, shaping every nation’s economic fate.",
+    "cn": "加拿大200亿加元反制美国关税今日生效，总理卡尼表示不寻求贸易战升级，但强调要加速摆脱对美[依赖|dependence]。与此同时，美军再炸伊朗油轮，哈尔克岛爆炸声不断，国际油价逼近每桶100美元，[潜在的|underlying]地缘风险正将全球资本注意力从股市[转移|divert]。欧洲主要股指开盘集体下跌，德国出口环比下降，而中国贸易数据强劲，显示各国经济紧密[交织|intertwine]。分析人士呼吁供应链和能源来源[多元化|diversify]，因为当前各国利益相互依存，任何单边行动都会引发连锁反应。中央气象台继续发布暴雨蓝色预警，多地将有大到暴雨；第十届平遥国际电影展公布两大短片评审团，八校师资与意大利影人共荐新人。俄美元首通话一小时，但战火再起，市场正[deliberation|deliberation]油价与关税影响，复杂的谈判或在酝酿中。 在全球化经济中，各国的命运[相互依存的|interdependent]，而金融市场的运作机制则[错综复杂的|intricate]，任何一环的波动都可能引发连锁反应。"
   },
   "words": [
     {
@@ -5501,10 +5501,232 @@
       "t": "科技热点：刘德华与华为Mate XT 2同框，灵盾防窥屏亮相，相关 footage 在社交平台疯传，成为科技圈谈资。footage 是营销利器，也是隐私风险。\n短视频时代，一段 viral footage 能成就品牌，也能引发公关危机，剪辑前务必核实来源。",
       "root": "词根 foot(英尺、脚，古英语，同源 footstep) + 后缀 -age(集合名词化，法语/拉丁，同源 mileage/percentage) → 按英尺计量的胶片长度 → 影像素材、镜头",
       "d": "2026-09-08"
+    },
+    {
+      "w": "dependence",
+      "ph": "/dɪˈpendəns/",
+      "m": "依赖；依存关系",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the state of relying on someone or something, often economically",
+      "defs": [
+        {
+          "cn": "依赖；依存关系",
+          "en": "the state of relying on someone or something, often economically",
+          "pos": "n."
+        },
+        {
+          "cn": "对…的依赖",
+          "en": "reliance on a particular resource or market",
+          "pos": "n."
+        }
+      ],
+      "col": "reduce dependence on 减少对…依赖 · energy dependence 能源依赖 · mutual dependence 相互依存",
+      "ex": "Canada aims to reduce its economic dependence on the U.S. by diversifying trade partners.",
+      "exZh": "加拿大旨在通过多元化贸易伙伴来减少对美的经济依赖。",
+      "ex2": "The company's dependence on a single supplier became a major risk during the crisis.",
+      "ex2Zh": "危机期间，公司对单一供应商的依赖成为重大风险。",
+      "t": "加拿大宣布200亿反制关税，卡尼强调要加速摆脱对美 dependence，推动贸易多元化。这一动向与德国出口下滑形成对比，凸显全球供应链重构。\n职场中，过度 dependence on 某个客户或工具会带来风险，学会分散资源是成熟的表现。",
+      "root": "前缀 de-(下，拉丁，同源 descend) + 词根 pend(悬挂，拉丁，同源 pending) + 后缀 -ence(名词) → 挂在下面 → 依附 → 依赖",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "diversify",
+      "ph": "/daɪˈvɜːrsɪfaɪ/",
+      "m": "多元化；分散投资",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to make something more varied, esp. investments or trade partners",
+      "defs": [
+        {
+          "cn": "多元化；分散投资",
+          "en": "to make something more varied, esp. investments or trade partners",
+          "pos": "v."
+        },
+        {
+          "cn": "使多样化",
+          "en": "to expand into new areas or products",
+          "pos": "v."
+        }
+      ],
+      "col": "diversify one's portfolio 分散投资组合 · diversify revenue streams 多元化收入来源 · diversify supply chains 供应链多元化",
+      "ex": "Many firms are rushing to diversify their supply chains away from a single country.",
+      "exZh": "许多公司正急于将供应链从单一国家分散。",
+      "ex2": "To reduce risk, the investment fund decided to diversify into emerging markets.",
+      "ex2Zh": "为降低风险，该投资基金决定分散投资新兴市场。",
+      "t": "在加拿大对美关税反制的背景下，卡尼明确表示要 diversify 贸易伙伴，加速摆脱对美依赖。同样，德国出口下滑促使企业寻求新市场。\n理财建议常说 don't put all eggs in one basket——diversify your investments 是控制风险的核心策略。",
+      "root": "前缀 di-(分开，拉丁，同源 divide) + 词根 vers(转，拉丁，同源 version) + 后缀 -ify(使动) → 使转向不同方向 → 多元化",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "divert",
+      "ph": "/daɪˈvɜːrt/",
+      "m": "转移；使转向",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to change direction or use for a different purpose",
+      "defs": [
+        {
+          "cn": "转移；使转向",
+          "en": "to change direction or use for a different purpose",
+          "pos": "v."
+        },
+        {
+          "cn": "转移(资金/注意力)",
+          "en": "to redirect funds or attention away from something",
+          "pos": "v."
+        }
+      ],
+      "col": "divert attention 转移注意力 · divert resources 转移资源 · divert trade 转移贸易",
+      "ex": "The threat of tariffs may divert trade flows from North America to Asia.",
+      "exZh": "关税威胁可能将贸易流从北美转向亚洲。",
+      "ex2": "The manager tried to divert the team's focus from the failed project to new opportunities.",
+      "ex2Zh": "经理试图将团队注意力从失败的项目转移到新机会上。",
+      "t": "随着加拿大与美国贸易紧张，企业可能 divert 部分出口至欧洲或亚洲市场，改变全球贸易格局。这种转移也影响供应链布局和物流。\n开会时，一句题外话就可能 divert 整个讨论方向，好的主持人要学会拉回主线。",
+      "root": "前缀 di-(分开，拉丁，同源 divide) + 词根 vert(转，拉丁，同源 version) → 转到别处 → 转移",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "underlying",
+      "ph": "/ˌʌndərˈlaɪɪŋ/",
+      "m": "潜在的；根本的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "basic but not obvious; fundamental (of causes, assets, trends)",
+      "defs": [
+        {
+          "cn": "潜在的；根本的",
+          "en": "basic but not obvious; fundamental (of causes, assets, trends)",
+          "pos": "adj."
+        },
+        {
+          "cn": "作为基础的",
+          "en": "serving as a basis or foundation",
+          "pos": "adj."
+        }
+      ],
+      "col": "underlying cause 根本原因 · underlying asset 标的资产 · underlying trend 潜在趋势",
+      "ex": "Analysts are looking at the underlying causes of the recent oil price surge near $100.",
+      "exZh": "分析师正在探究近期油价逼近100美元的根本原因。",
+      "ex2": "The underlying issue in the team's conflict was poor communication, not workload.",
+      "ex2Zh": "团队冲突的根本问题是沟通不畅，而非工作量。",
+      "t": "国际油价因美军炸伊朗油轮逼近100美元，表面波动背后，underlying 供需失衡和地缘风险才是关键。投资者需关注这些根本因素而非短期噪音。\n职场中，员工流失的 underlying reason 往往是缺乏成长空间，而非薪资，管理者需深挖。",
+      "root": "前缀 under-(在下，古英语，同源 underneath) + 词根 ly(躺，古英语，同源 lie) + 后缀 -ing(形容词) → 躺在下面的 → 潜在的、根本的",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "intertwine",
+      "ph": "/ˌɪntərˈtwaɪn/",
+      "m": "交织；紧密相连",
+      "c": "news",
+      "pos": "v.",
+      "en": "to twist together or be closely connected",
+      "defs": [
+        {
+          "cn": "交织；紧密相连",
+          "en": "to twist together or be closely connected",
+          "pos": "v."
+        },
+        {
+          "cn": "使缠绕",
+          "en": "to cause to twist around each other",
+          "pos": "v."
+        }
+      ],
+      "col": "intertwine with 与…交织 · closely intertwined 紧密相连 · economic and political issues intertwine 经济政治问题交织",
+      "ex": "Energy security and geopolitics intertwine as oil prices near $100.",
+      "exZh": "随着油价逼近100美元，能源安全与地缘政治交织在一起。",
+      "ex2": "In modern careers, technical skills and soft skills intertwine for success.",
+      "ex2Zh": "现代职场中，技术技能与软技能交织才能成功。",
+      "t": "今日头条中，贸易、能源与外交议题 intertwine：加拿大关税反制、美军炸油轮、俄乌谈判，共同影响市场情绪。服贸会展示的国际合作也体现各国创新 intertwine。\n在职场，个人成长与公司目标常 intertwine，找到共同利益点能实现双赢。",
+      "root": "前缀 inter-(之间，拉丁，同源 international) + 词根 twin(两股，古英语，同源 twin) → 在两股之间缠绕 → 交织",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "interdependent",
+      "ph": "/ˌɪntərdɪˈpendənt/",
+      "m": "(相互)依赖的；互相依存的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "mutually reliant, especially in economic or trade contexts",
+      "defs": [
+        {
+          "cn": "(相互)依赖的",
+          "en": "mutually reliant, esp. between countries or sectors",
+          "pos": "adj."
+        },
+        {
+          "cn": "互相依存的",
+          "en": "existing in a relationship of mutual support",
+          "pos": "adj."
+        }
+      ],
+      "col": "interdependent economies 相互依存的经济体 · interdependent relationship 相互依赖的关系 · increasingly interdependent 日益相互依存的",
+      "ex": "Global supply chains make economies highly interdependent, as seen in Canada's 200-billion-dollar retaliation against US tariffs.",
+      "exZh": "全球供应链使各国经济高度相互依存，正如加拿大以2000亿美元反制美国关税所示。",
+      "ex2": "In a team, roles are interdependent, so one person's delay can stall the entire project.",
+      "ex2Zh": "在团队中，角色相互依赖，一个人的拖延可能拖垮整个项目。",
+      "t": "加拿大宣布对美2000亿美元反制关税，总理卡尼强调要加速摆脱对美依赖——这正是 interdependent 的现实注脚：北美供应链深度捆绑，一方的关税政策立刻传导至对方。职场里，跨部门项目也常因 interdependent 的任务链而牵一发动全身。\n记住：interdependent 强调“互相”，而 dependent 是单方面依赖；用前者描述中美贸易、欧盟能源关系更准确。",
+      "root": "前缀 inter-(在…之间，拉丁 inter，同源 international) + 词根 dependent(=depend 依赖，拉丁 dependere，同源 depend) → 彼此之间相互依赖 → 相互依存的",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "deliberation",
+      "ph": "/dɪˌlɪbəˈreɪʃn/",
+      "c": "work",
+      "pos": "n.",
+      "en": "careful consideration or discussion before a decision",
+      "defs": [
+        {
+          "cn": "深思熟虑；审议",
+          "en": "long and careful consideration or discussion",
+          "pos": "n."
+        },
+        {
+          "cn": "从容；缓慢",
+          "en": "the quality of being slow and careful",
+          "pos": "n."
+        }
+      ],
+      "col": "after much deliberation 经过深思熟虑 · policy deliberation 政策审议 · deliberate slowly 从容地审议",
+      "ex": "After lengthy deliberation, the central bank decided to hold rates steady, citing inflation risks.",
+      "exZh": "经过长时间审议，央行决定维持利率不变，理由是通胀风险。",
+      "ex2": "The board's deliberation over the merger lasted weeks, weighing pros and cons.",
+      "ex2Zh": "董事会就合并事宜审议了数周，权衡利弊。",
+      "t": "在美特使斡旋后俄乌战火再起，各方对下一步行动进行 deliberation，而俄美元首通话一小时也体现了外交上的审慎博弈。职场中，重大决策如裁员或投资都需要 deliberation，避免仓促行事。央行在通胀与增长间的 deliberation 往往牵动市场情绪。\n动词形式 deliberate 更常用；deliberation 强调“过程”，而 decision 是“结果”。",
+      "root": "词根 deliber(=权衡，拉丁 deliberare，同源 deliberate) + 后缀 -ation(名词后缀，表“行为、过程”，同源 consideration) → 权衡的过程 → 深思熟虑、审议",
+      "d": "2026-09-09"
+    },
+    {
+      "w": "intricate",
+      "ph": "/ˈɪntrɪkət/",
+      "c": "news",
+      "pos": "adj.",
+      "en": "very complicated and detailed, esp. in systems or designs",
+      "defs": [
+        {
+          "cn": "错综复杂的",
+          "en": "very complicated and detailed",
+          "pos": "adj."
+        },
+        {
+          "cn": "精细的",
+          "en": "intricate patterns or mechanisms",
+          "pos": "adj."
+        }
+      ],
+      "col": "intricate network 错综复杂的网络 · intricate details 精细的细节 · intricate process 复杂的过程",
+      "ex": "The intricate supply chains linking China and Germany mean trade shocks ripple quickly across borders.",
+      "exZh": "连接中德的错综复杂供应链意味着贸易冲击会迅速跨境传导。",
+      "ex2": "Solving the case required understanding an intricate web of financial transactions.",
+      "ex2Zh": "破案需要理解错综复杂的金融交易网络。",
+      "t": "粮食交易大会展示了我国粮食产业的“新与变”，背后是 intricate 的产销网络和物流体系。服贸会与首钢园的联动也体现了会展经济的 intricate 生态。职场中，项目流程往往 intricate，需要耐心拆解，否则容易出错。\n近义词 complex，但 intricate 更强调“精细、难以解开”，像迷宫一样。",
+      "root": "词根 intric(=使纠缠，拉丁 intricare，同源 intricate) + 后缀 -ate(形容词后缀，表“具有…的”，同源 complicated) → 纠缠在一起的 → 错综复杂的",
+      "d": "2026-09-09"
     }
   ],
   "preview": {
-    "hook": "今日，国际货币基金组织宣布对某新兴市场启动紧急[recapitalization|recapitalization]计划，此前该国已连续三轮遭遇主权信用[downgrade|downgrade]，引发市场恐慌。与此同时，欧盟[delegation|delegation]抵京磋商贸易争端，而国内科技巨头因数据泄露面临监管[probe|probe]，其CEO在股东会上遭[dismissal|dismissal]风波。更引人注目的是，一段无人机拍摄的[footage|footage]显示，某老牌银行总部大楼挂出拍卖横幅，昔日被视为金融业[heirloom|heirloom]的百年品牌，如今却沦落至贱卖资产。 连续三年亏损后，公司不得不采取[consecutive|consecutive]的裁员计划，这引发了员工对长期稳定性的担忧。",
-    "impact": "今日主线：全球资本避险情绪升温，[consecutive|consecutive]负面消息叠加，加速了市场对风险资产的抛售，而监管层的授权委派与紧急注资能否扭转颓势，仍是未知数，任何不当驳回或评级降级都可能触发下一轮危机。"
+    "hook": "2026年9月9日，全球供应链在多重冲击下再显脆弱：红海航运受阻迫使企业紧急[divert|divert]货运路线，而欧洲能源价格飙升则暴露出各国对单一来源的[dependence|dependence]，尽管政策制定者反复强调要[diversify|diversify]进口渠道，但[underlying|underlying]地缘裂痕与物流瓶颈依旧使全球贸易网络[intertwine|intertwine]得愈发错综复杂，每一环的波动都牵动着他国的生产与消费。 全球化的金融市场让各国经济形成了[相互依存的|interdependent]关系，任何重大决策都需要经过深思熟虑的[审议|deliberation]，因为其中牵涉到极其[错综复杂的|intricate]利益网络。",
+    "impact": "今日主线在于，相互依存的经济体系已不允许任何国家独善其身，唯有经过审慎[deliberation|deliberation]的协同行动，才能化解这场由深层结构失衡引发的连锁震荡，否则任何短期修补都难逃被更大风险吞噬的宿命。"
   }
 }

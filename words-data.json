@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-09",
+  "updated_on": "2026-09-10",
   "quote": {
-    "en": "In every market upheaval, find the thread to weave growth.",
-    "zh": "在每一次市场动荡中，找到编织成长的线索。"
+    "en": "Master each word, and your deliberate steps compound.",
+    "zh": "掌握每个词，你深思熟虑的每一步都会复利增长。"
   },
   "story": {
-    "en": "As global markets open on 2026-09-09, Canada's C$20 billion retaliatory tariffs against U.S. goods took effect, with Prime Minister Carney stressing a push to reduce [dependence|dependence] on the U.S. while avoiding escalation. Meanwhile, U.S. forces struck an Iranian oil tanker near Kharg Island, sending crude prices toward $100 a barrel, an [underlying|underlying] tension that could [divert|divert] investment flows. European indices opened lower, and Germany reported a monthly export decline despite strong Chinese trade data—a sign economies remain intertwined. Analysts urge nations to [diversify|diversify] supply chains and energy sources, as geopolitical shocks and trade policies are [interdependent|interdependent]. In other news, central meteorological warnings for heavy rain across multiple regions prompted disaster preparedness, while the 10th Pingyao International Film Festival announced two short-film juries. The U.S.-Russia presidential call lasted an hour after envoy mediation, yet fighting resumed. Looking ahead, market [deliberation|deliberation] over oil supply and tariff impacts will shape volatility, with complex, [intricate|intricate] negotiations likely ahead. Global markets [intertwine|intertwine] with local policies, shaping every nation’s economic fate.",
-    "cn": "加拿大200亿加元反制美国关税今日生效，总理卡尼表示不寻求贸易战升级，但强调要加速摆脱对美[依赖|dependence]。与此同时，美军再炸伊朗油轮，哈尔克岛爆炸声不断，国际油价逼近每桶100美元，[潜在的|underlying]地缘风险正将全球资本注意力从股市[转移|divert]。欧洲主要股指开盘集体下跌，德国出口环比下降，而中国贸易数据强劲，显示各国经济紧密[交织|intertwine]。分析人士呼吁供应链和能源来源[多元化|diversify]，因为当前各国利益相互依存，任何单边行动都会引发连锁反应。中央气象台继续发布暴雨蓝色预警，多地将有大到暴雨；第十届平遥国际电影展公布两大短片评审团，八校师资与意大利影人共荐新人。俄美元首通话一小时，但战火再起，市场正[深思熟虑；审议|deliberation]油价与关税影响，复杂的谈判或在酝酿中。 在全球化经济中，各国的命运[相互依存的|interdependent]，而金融市场的运作机制则[错综复杂的|intricate]，任何一环的波动都可能引发连锁反应。"
+    "en": "A [consortium|consortium] of global investors at the Xiamen investment fair questioned mutual funds on China's market outlook, as overseas capital seeks to [expedite|expedite] entry into tech and healthcare sectors. Meanwhile, oil prices [spike|spike] over 3% amid Middle East tensions, while U.S. stocks fell. These [contentious|contentious] debates [underscore|underscore] the delicate balance between geopolitical risks and economic opportunities. As trends [converge|converge] toward sustainable growth, Chinese officials aim to [propel|propel] service trade hubs, underscore the need for innovation. Efforts to [preserve|preserve] market stability remain key, as seen in the 0.8% CPI rise and the national team's basketball victory.",
+    "cn": "在厦门投洽会上，一个由海外资本组成的[财团|consortium]对公募基金展台表现出浓厚兴趣，追问中国市场的投资机遇，期望[加快|expedite]布局科技与生命健康产业。然而，国际油价因中东局势紧张而[激增|spike]超3%，美股三大指数收跌，这种[有争议的|contentious]地缘政治与经济前景形成鲜明对比。各方观点逐渐[汇聚|converge]，认为中国服务贸易枢纽的建设将[推动|propel]全球经济增长，同时[强调|underscore]需要[保护|preserve]市场稳定，正如8月CPI同比上涨0.8%所显示的那样。"
   },
   "words": [
     {
@@ -5725,10 +5725,260 @@
       "root": "词根 intric(=使纠缠，拉丁 intricare，同源 intricate) + 后缀 -ate(形容词后缀，表“具有…的”，同源 complicated) → 纠缠在一起的 → 错综复杂的",
       "d": "2026-09-09",
       "m": "错综复杂的"
+    },
+    {
+      "w": "consortium",
+      "ph": "/kənˈsɔːrtiəm/",
+      "m": "财团；联合体",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an association of companies or organizations formed for a common purpose, often in finance or business",
+      "defs": [
+        {
+          "cn": "财团；联合体",
+          "en": "an association of companies for a common purpose",
+          "pos": "n."
+        },
+        {
+          "cn": "国际银行团",
+          "en": "a group of banks financing large projects",
+          "pos": "n."
+        },
+        {
+          "cn": "联盟",
+          "en": "a cooperative arrangement among groups",
+          "pos": "n."
+        }
+      ],
+      "col": "form a consortium 组建财团 · consortium of banks 银行团 · consortium agreement 联合体协议",
+      "ex": "A consortium of global banks is financing the new cross-border infrastructure project, sharing both risks and returns.",
+      "exZh": "一个全球银行财团正在为新的跨境基础设施项目融资，共担风险、共享回报。",
+      "ex2": "The research consortium, including universities and tech firms, published a joint report on AI safety standards.",
+      "ex2Zh": "由高校和科技公司组成的研究联合体发布了关于AI安全标准的联合报告。",
+      "t": "在投洽会上，海外资本追问中国市场的长期机会，多家机构考虑组成 consortium 共同投资跨境项目，以分散风险。这类金融联合体在大型基建和并购中常见。\n职场里，几个部门可以组成临时 consortium 攻克难题，比单打独斗更有资源。记住词根 con-（共同）+ sort（命运），联合体就是“命运共同体”。",
+      "root": "前缀 con-(共同, 拉丁, 同源 connect/community) + 词根 sort(命运、种类, 拉丁 sors, 同源 sort) → 共享命运的一群人 → 联合体、财团",
+      "d": "2026-09-10"
+    },
+    {
+      "w": "expedite",
+      "ph": "/ˈekspədaɪt/",
+      "m": "加快；促进",
+      "c": "work",
+      "pos": "v.",
+      "en": "to make a process happen faster or more efficiently",
+      "defs": [
+        {
+          "cn": "加快；促进",
+          "en": "to speed up a process",
+          "pos": "v."
+        },
+        {
+          "cn": "迅速处理",
+          "en": "to handle promptly",
+          "pos": "v."
+        }
+      ],
+      "col": "expedite the process 加快进程 · expedite delivery 加快交付 · expedite approval 加快审批",
+      "ex": "To expedite the rollout, the company streamlined its internal approval workflows.",
+      "exZh": "海关官员在紧急情况下加快了医疗物资的运输。",
+      "ex2": "Customs officials expedited the shipment of medical supplies during the emergency.",
+      "t": "中国企业“出海”热潮中，政府推出全链条服务，旨在 expedite 海外市场准入，减少审批障碍。职场中，项目经理常要求 expedite 关键任务，但需注意质量。\n反义词 delay（拖延）。词根 ped（脚），expedite 字面“松绑脚”，让事情跑得更快。",
+      "root": "前缀 ex-(向外, 拉丁, 同源 exit) + 词根 ped(脚, 拉丁 pes, 同源 pedestrian) → 把脚从束缚中放出 → 加快",
+      "d": "2026-09-10"
+    },
+    {
+      "w": "contentious",
+      "ph": "/kənˈtenʃəs/",
+      "m": "有争议的；引起争论的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "causing disagreement or argument, especially in political or legal contexts",
+      "defs": [
+        {
+          "cn": "有争议的",
+          "en": "causing disagreement or argument",
+          "pos": "adj."
+        },
+        {
+          "cn": "引起争论的",
+          "en": "likely to provoke debate",
+          "pos": "adj."
+        }
+      ],
+      "col": "a contentious issue 争议性问题 · contentious election 争议性选举 · contentious policy 有争议的政策",
+      "ex": "The contentious tariff decision sparked protests from exporters and lawmakers alike.",
+      "exZh": "这项有争议的关税决定引发了出口商和立法者的抗议。",
+      "ex2": "The meeting became contentious when the board debated the new workplace policy.",
+      "ex2Zh": "当董事会辩论新职场政策时，会议变得争执不休。",
+      "t": "今日中美围绕AI蒸馏的指责交锋成为 contentious 焦点，美方无端指责中国企业，中方回应称这是不实指控。这类争议常影响市场情绪，投资者需关注政策风险。\n职场中，当讨论 contentious 议题如薪酬调整时，保持理性数据支撑，避免情绪化。",
+      "root": "源自拉丁语 contendere（争斗），前缀 con-(共同) + 词根 tend(伸展) → 共同伸展对抗 → 争论的",
+      "story": {},
+      "d": "2026-09-10"
+    },
+    {
+      "w": "spike",
+      "ph": "/spaɪk/",
+      "m": "激增；猛涨；尖峰",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a sharp increase in value, price, or quantity; also a sharp point",
+      "defs": [
+        {
+          "cn": "激增",
+          "en": "a sudden sharp increase",
+          "pos": "n."
+        },
+        {
+          "cn": "尖峰",
+          "en": "a sharp point or peak",
+          "pos": "n."
+        }
+      ],
+      "col": "price spike 价格飙升 · spike in demand 需求激增 · spike in infections 感染激增",
+      "ex": "International oil prices spiked over 3% on September 9, driven by geopolitical tensions.",
+      "exZh": "受地缘紧张影响，9月9日国际油价飙升超3%。",
+      "ex2": "A spike in online orders during the holiday overwhelmed the logistics system.",
+      "ex2Zh": "假期在线订单激增使物流系统不堪重负。",
+      "t": "国际油价9日大涨，美油布油均涨超3%，因中东局势紧张，市场担忧 supply spike 中断。特朗普称美伊战争将结束，油价或下跌，但当前 spike 已影响通胀预期。\n职场中，项目需求可能 spike，需提前规划资源缓冲。",
+      "root": "可能源自古诺尔斯语 spik（尖钉），后引申为急剧上升，类似尖峰",
+      "story": {},
+      "d": "2026-09-10"
+    },
+    {
+      "w": "converge",
+      "ph": "/kənˈvɜːrdʒ/",
+      "m": "(观点/趋势)汇聚；趋同",
+      "c": "news",
+      "pos": "v.",
+      "en": "to come together from different directions; to tend to meet or become similar",
+      "defs": [
+        {
+          "cn": "(观点/趋势)汇聚",
+          "en": "to come together from different directions",
+          "pos": "v."
+        },
+        {
+          "cn": "趋同",
+          "en": "to tend to become similar",
+          "pos": "v."
+        },
+        {
+          "cn": "使汇聚",
+          "en": "to cause to meet",
+          "pos": "v."
+        }
+      ],
+      "col": "converge on a point 汇聚于一点 · views converge 观点趋同 · converge toward a goal 向目标汇聚",
+      "ex": "As global markets converge on the Federal Reserve's next move, investors are bracing for a rate decision that could reshape portfolios.",
+      "exZh": "随着全球市场聚焦美联储下一步行动，投资者正为可能重塑投资组合的利率决议做准备。",
+      "ex2": "In the workplace, diverse teams often converge on creative solutions when they share a clear objective.",
+      "ex2Zh": "在职场，多元团队在目标明确时往往能汇聚出创造性的解决方案。",
+      "t": "今日国际油价大涨超3%，美油布油双双走高，主因市场对中东局势的担忧与需求预期改善，多空力量在每桶80美元关口附近汇聚。同时，美股三大指数收跌，资金从科技股转向防御板块，形成新的市场焦点。职场启示：当团队意见分歧时，与其对立，不如寻找能让大家 converge 的共同目标，这样才能推动项目前进。",
+      "root": "前缀 con-(一起，拉丁 cum，同源 co-/com-) + 词根 verg(=turn 转，拉丁 vergere，同源 verge 趋向) → 转到一起 → 汇聚、趋同",
+      "d": "2026-09-10"
+    },
+    {
+      "w": "propel",
+      "ph": "/prəˈpel/",
+      "m": "推动；推进",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to drive forward or push ahead; to cause to move in a desired direction",
+      "defs": [
+        {
+          "cn": "推动",
+          "en": "to drive forward or cause to move",
+          "pos": "v."
+        },
+        {
+          "cn": "推进(事业等)",
+          "en": "to push an endeavor to advance",
+          "pos": "v."
+        },
+        {
+          "cn": "激励",
+          "en": "to motivate someone to act",
+          "pos": "v."
+        }
+      ],
+      "col": "propel growth 推动增长 · propel a rocket 推进火箭 · propel someone to success 推动某人成功",
+      "ex": "The surge in oil prices could propel inflation higher, complicating the central bank's path to a soft landing.",
+      "exZh": "油价飙升可能推高通胀，使央行实现软着陆的道路更加复杂。",
+      "ex2": "A new government initiative aims to propel small businesses into global markets by providing export subsidies.",
+      "ex2Zh": "一项新的政府举措旨在通过提供出口补贴，推动小企业走向全球市场。",
+      "t": "中国8月CPI同比上涨0.8%，低于预期，但服务贸易与出海政策正成为新的增长引擎。上海正打造全球影响力的服务贸易枢纽，全链条服务护航企业‘出海’，这些举措有望 propel 经济结构升级。\n职场中，一次成功的项目汇报也能 propel 你的职业发展，让你获得更多资源与信任。",
+      "root": "前缀 pro-(向前，拉丁 pro，同源 proceed) + 词根 pel(=push 推，拉丁 pellere，同源 compel 强迫) → 向前推 → 推动、推进",
+      "d": "2026-09-10"
+    },
+    {
+      "w": "underscore",
+      "ph": "/ˌʌndərˈskɔːr/",
+      "m": "强调；凸显",
+      "c": "news",
+      "pos": "v.",
+      "en": "to emphasize or highlight; to draw attention to the importance of something",
+      "defs": [
+        {
+          "cn": "强调",
+          "en": "to emphasize or stress",
+          "pos": "v."
+        },
+        {
+          "cn": "在…下划线",
+          "en": "to draw a line under a word",
+          "pos": "v."
+        },
+        {
+          "cn": "凸显(问题)",
+          "en": "to highlight a point or issue",
+          "pos": "v."
+        }
+      ],
+      "col": "underscore the importance 强调重要性 · underscore a point 强调观点 · underscore the need 凸显需求",
+      "ex": "The recent volatility in oil prices underscores the fragility of global supply chains, prompting companies to diversify sources.",
+      "exZh": "近期油价波动凸显了全球供应链的脆弱性，促使企业寻求多元化来源。",
+      "ex2": "The CEO's memo underscored the need for agile responses to market shifts, urging teams to stay proactive.",
+      "ex2Zh": "CEO的备忘录强调了敏捷应对市场变化的必要性，敦促团队保持主动。",
+      "t": "美国国安局等机构无端指责中国AI企业蒸馏美国模型，中方回应称不要进行不实指责。这一事件 underscore 了科技竞争中的信任危机，也凸显了自主创新的紧迫性。职场沟通中，用数据说话能 underscore 你的观点，让汇报更有说服力。",
+      "root": "前缀 under-(在下，古英语 under) + 词根 score(=line 线，古英语 scora，同源 score) → 在下面划线 → 强调、凸显",
+      "d": "2026-09-10"
+    },
+    {
+      "w": "preserve",
+      "ph": "/prɪˈzɜːrv/",
+      "m": "保护；保存；维护",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to maintain something in its original state; to protect from harm or decay",
+      "defs": [
+        {
+          "cn": "保护",
+          "en": "to protect from harm or damage",
+          "pos": "v."
+        },
+        {
+          "cn": "保存(食物等)",
+          "en": "to keep food or other perishables from spoiling",
+          "pos": "v."
+        },
+        {
+          "cn": "维护(和平等)",
+          "en": "to maintain peace or stability",
+          "pos": "v."
+        }
+      ],
+      "col": "preserve peace 维护和平 · preserve heritage 保护遗产 · preserve jobs 保住就业",
+      "ex": "Diplomatic efforts aim to preserve stability in the region as tensions escalate over energy routes.",
+      "exZh": "随着能源通道紧张升级，外交努力旨在维护地区稳定。",
+      "ex2": "The company implemented cost-cutting measures to preserve its cash reserves during the downturn.",
+      "ex2Zh": "公司实施削减成本措施，以在低迷期保留现金储备。",
+      "t": "在教师节之际，社会呼吁善待每一位老师，这不仅是尊师重教的体现，也是 preserve 教育根基的应有之义。同时，全球公共安全合作论坛在连云港举行，各国代表探讨如何共同维护安全，preserve 地区和平。\n职场中，保留核心团队、维持士气，是企业在逆境中 preserve 竞争力的关键。",
+      "root": "前缀 pre-(前，拉丁 prae，同源 pre-) + 词根 serv(=keep 保持，拉丁 servare，同源 conserve 保存) → 事先保持 → 保护、保存",
+      "d": "2026-09-10"
     }
   ],
   "preview": {
-    "hook": "2026年9月9日，全球供应链在多重冲击下再显脆弱：红海航运受阻迫使企业紧急[转移|divert]货运路线，而欧洲能源价格飙升则暴露出各国对单一来源的[依赖|dependence]，尽管政策制定者反复强调要[多元化|diversify]进口渠道，但[潜在的|underlying]地缘裂痕与物流瓶颈依旧使全球贸易网络[交织|intertwine]得愈发错综复杂，每一环的波动都牵动着他国的生产与消费。 全球化的金融市场让各国经济形成了[相互依存的|interdependent]关系，任何重大决策都需要经过深思熟虑的[审议|deliberation]，因为其中牵涉到极其[错综复杂的|intricate]利益网络。",
-    "impact": "今日主线在于，相互依存的经济体系已不允许任何国家独善其身，唯有经过审慎[审议|deliberation]的协同行动，才能化解这场由深层结构失衡引发的连锁震荡，否则任何短期修补都难逃被更大风险吞噬的宿命。"
+    "hook": "2026年9月10日，全球航运巨头组成的[财团|consortium]宣布将投资百亿美元建设北极新航道，试图[加快|expedite]欧亚贸易周转，但此举因环保争议立刻成为[有争议的|contentious]议题，引发多国抗议。与此同时，国际油价出现[激增|spike]，布伦特原油冲破每桶95美元，而供应链紧张与地缘政治风险正[汇聚|converge]，可能进一步[推动|propel]通胀预期升温，市场波动加剧。 这项工程特别强调保留[保留|preserve]历史建筑的原貌，同时在地下修建隧道[隧道|underscore]来缓解交通压力，这恰恰凸显了[强调|underscore]规划者对城市记忆的珍视。",
+    "impact": "今日主线在于：能源价格飙升与航运变局[强调|underscore]了全球经济的脆弱性，各国需在效率与[保护|preserve]环境之间寻求平衡，否则短期冲击恐演变为长期滞胀风险。"
   }
 }

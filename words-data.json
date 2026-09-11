@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-10",
+  "updated_on": "2026-09-11",
   "quote": {
-    "en": "Master each word, and your deliberate steps compound.",
-    "zh": "掌握每个词，你深思熟虑的每一步都会复利增长。"
+    "en": "Learn today, adapt tomorrow, and no shock can stop you.",
+    "zh": "今日学习，明日应变，任何冲击都挡不住你。"
   },
   "story": {
-    "en": "A [consortium|consortium] of global investors at the Xiamen investment fair questioned mutual funds on China's market outlook, as overseas capital seeks to [expedite|expedite] entry into tech and healthcare sectors. Meanwhile, oil prices [spike|spike] over 3% amid Middle East tensions, while U.S. stocks fell. These [contentious|contentious] debates [underscore|underscore] the delicate balance between geopolitical risks and economic opportunities. As trends [converge|converge] toward sustainable growth, Chinese officials aim to [propel|propel] service trade hubs, underscore the need for innovation. Efforts to [preserve|preserve] market stability remain key, as seen in the 0.8% CPI rise and the national team's basketball victory.",
-    "cn": "在厦门投洽会上，一个由海外资本组成的[财团|consortium]对公募基金展台表现出浓厚兴趣，追问中国市场的投资机遇，期望[加快|expedite]布局科技与生命健康产业。然而，国际油价因中东局势紧张而[激增|spike]超3%，美股三大指数收跌，这种[有争议的|contentious]地缘政治与经济前景形成鲜明对比。各方观点逐渐[汇聚|converge]，认为中国服务贸易枢纽的建设将[推动|propel]全球经济增长，同时[强调|underscore]需要[保护|preserve]市场稳定，正如8月CPI同比上涨0.8%所显示的那样。"
+    "en": "Oil markets turned [precarious|precarious] on 2026-09-11 as Houthi forces seized a key Red Sea port, Saudi conflict escalated, and Iran was reported to have resumed ballistic-missile production. Crude jumped over 7% intraday, with Brent approaching $110, according to Wall Street See. For shippers, the [protracted|protracted] Red Sea risk forces them to [redeploy|redeploy] vessels and rebuild [inventory|inventory] buffers, while [logistics|logistics] chains face fresh delays. A [prudent|prudent] response may be to [levy|levy] temporary war-risk surcharges, though that could further [disrupt|disrupt] trade. Elsewhere, the UN Yemen envoy warned that the risk of a return to large-scale conflict has become reality, and Israel said it destroyed Hezbollah underground facilities in southern Lebanon using over 1,000 tons of explosives. In Beijing, the 2026 CIFTIS opened, showcasing new consumption-service scenarios. Markets will watch whether diplomacy can cool the Red Sea crisis before energy costs feed into broader inflation.",
+    "cn": "2026年9月11日，胡塞武装攻占红海重要港口、沙特冲突升级，伊朗被曝恢复产弹道导弹，原油盘中涨超7%，布油逼近110美元大关。对航运业而言，红海风险旷日持久，船公司不得不[重新调配|redeploy]运力、重建[库存|inventory]缓冲，[物流|logistics]链面临新的延误。[审慎的|prudent]应对或许是征收临时战争风险附加费，但这可能进一步[扰乱|disrupt]贸易。联合国也门特使警告，也门重陷大规模冲突的风险已演变为现实；以军称摧毁黎南部真主党地下设施，使用超千吨炸药。局势岌岌可危，市场关注外交能否在能源成本传导至更广泛通胀前为红海危机降温。 政府为应对[征收|levy]新税引发的[持久|protracted]抗议，不得不正视自身[不稳|precarious]的执政处境。"
   },
   "words": [
     {
@@ -5975,10 +5975,274 @@
       "t": "在教师节之际，社会呼吁善待每一位老师，这不仅是尊师重教的体现，也是 preserve 教育根基的应有之义。同时，全球公共安全合作论坛在连云港举行，各国代表探讨如何共同维护安全，preserve 地区和平。\n职场中，保留核心团队、维持士气，是企业在逆境中 preserve 竞争力的关键。",
       "root": "前缀 pre-(前，拉丁 prae，同源 pre-) + 词根 serv(=keep 保持，拉丁 servare，同源 conserve 保存) → 事先保持 → 保护、保存",
       "d": "2026-09-10"
+    },
+    {
+      "w": "prudent",
+      "ph": "/ˈpruːdnt/",
+      "m": "(形)审慎的；精打细算的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "acting with care and foresight, esp. in finance and policy; avoiding unnecessary risk",
+      "defs": [
+        {
+          "cn": "审慎的",
+          "en": "showing careful thought for the future",
+          "pos": "adj."
+        },
+        {
+          "cn": "精打细算的",
+          "en": "careful in managing money or resources",
+          "pos": "adj."
+        },
+        {
+          "cn": "稳健的",
+          "en": "marked by sound judgment and caution",
+          "pos": "adj."
+        }
+      ],
+      "col": "prudent fiscal policy 审慎财政政策 · a prudent investor 审慎的投资者 · prudent risk management 审慎风险管理 · it is prudent to 做…是明智的",
+      "ex": "Facing an oil price surge above 110 dollars, central banks are taking a prudent stance before adjusting rates.",
+      "exZh": "面对油价突破110美元，央行在调整利率前采取审慎立场。",
+      "ex2": "A prudent job seeker builds an emergency fund before switching careers in a cooling market.",
+      "ex2Zh": "审慎的求职者会在市场降温时先备好应急资金再跳槽。",
+      "t": "布伦特原油盘中涨超7%、逼近110美元，通胀阴影重现，各国央行在利率决策上更显prudent，宁可慢一步也不冒进。\n职场里也一样：跳槽前留足6个月现金、谈薪时先摸清行业区间，都是prudent的体现；反义词是reckless（鲁莽），成对记更牢。",
+      "root": "词根 prud(=prov 预见，拉丁 providere，同源 provide 提供、provident 有远见的) + 后缀 -ent(形容词后缀，拉丁) → 能预见的 → 事先想到风险 → 审慎的、精打细算的",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "disrupt",
+      "ph": "/dɪsˈrʌpt/",
+      "m": "(动)扰乱；颠覆(行业/秩序)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to interrupt normal operations; to radically change an industry or market",
+      "defs": [
+        {
+          "cn": "扰乱",
+          "en": "to interrupt the normal course of something",
+          "pos": "v."
+        },
+        {
+          "cn": "颠覆(行业)",
+          "en": "to radically transform an industry or market",
+          "pos": "v."
+        },
+        {
+          "cn": "使中断",
+          "en": "to cause a service or process to stop",
+          "pos": "v."
+        }
+      ],
+      "col": "disrupt the supply chain 扰乱供应链 · disrupt traditional industries 颠覆传统行业 · disrupt market order 扰乱市场秩序 · be disrupted by AI 被AI颠覆",
+      "ex": "Houthi attacks on a Red Sea port threaten to disrupt oil shipping and push crude prices even higher.",
+      "exZh": "胡塞武装攻占红海港口，恐扰乱石油运输并进一步推高油价。",
+      "ex2": "Foldable phones are starting to disrupt the premium smartphone segment in China.",
+      "ex2Zh": "折叠屏手机开始颠覆中国高端智能手机市场。",
+      "t": "胡塞武装攻占红海重要港口，沙特冲突升级，市场担忧原油运输被disrupt，布油一度逼近110美元，能源板块剧烈波动。\n职场语境里，AI正在disrupt传统岗位：不是简单替代，而是重写流程；被disrupt的行业往往先痛后生，名词形式disruption（颠覆/中断）也高频出现。",
+      "root": "前缀 dis-(分开、否定，拉丁，同源 divide 分开、dismiss 解散) + 词根 rupt(断裂，拉丁 rumpere，同源 rupture 破裂、erupt 爆发) → 把整体打断 → 扰乱、颠覆",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "levy",
+      "ph": "/ˈlevi/",
+      "m": "(动)征收(税/费) (名)税款",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "to impose and collect a tax, fee, or fine; (n.) the tax so collected",
+      "defs": [
+        {
+          "cn": "征收(税费)",
+          "en": "to impose and collect a tax or fee",
+          "pos": "v."
+        },
+        {
+          "cn": "税款",
+          "en": "an amount of money collected as a tax",
+          "pos": "n."
+        },
+        {
+          "cn": "摊派",
+          "en": "to impose a charge on someone",
+          "pos": "v."
+        }
+      ],
+      "col": "levy a tax on imports 对进口征税 · levy a fine 处以罚款 · impose a levy 征收附加费 · carbon levy 碳税",
+      "ex": "Canada said it remains ready to reach a fair trade deal with the US before any new levy takes effect.",
+      "exZh": "加拿大表示仍准备与美国达成公平贸易协议，以免新征税生效。",
+      "ex2": "The city plans to levy a congestion charge on downtown drivers next year.",
+      "ex2Zh": "该市计划明年对市中心驾驶者征收拥堵费。",
+      "t": "卡尼表态加拿大仍准备与美国达成公平贸易协议，市场关注美方是否对加商品levy新关税，北美供应链再度紧张。\n职场类比：公司对超标差旅levy内部费用、政府对碳排levy碳税，都是'先定规则再收钱'；与tax相比，levy更强调'依法征收'这一动作。",
+      "root": "词根 lev(举起、提升，拉丁 levare，同源 elevate 提升、lever 杠杆) + 后缀 -y(名词/动词后缀，法语) → 把钱举起来收走 → 征收、税款",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "redeploy",
+      "ph": "/ˌriːdɪˈplɔɪ/",
+      "m": "(动)重新调配；转岗部署",
+      "c": "work",
+      "pos": "v.",
+      "en": "to move resources or staff to a new task or place; to redeploy workers",
+      "defs": [
+        {
+          "cn": "重新调配",
+          "en": "to move resources to a new use",
+          "pos": "v."
+        },
+        {
+          "cn": "转岗部署",
+          "en": "to assign staff to different roles",
+          "pos": "v."
+        },
+        {
+          "cn": "重新布防",
+          "en": "to reposition forces or assets",
+          "pos": "v."
+        }
+      ],
+      "col": "redeploy staff 重新调配员工 · redeploy capital 重新配置资本 · redeploy to new projects 转岗到新项目 · redeploy resources 重新部署资源",
+      "ex": "As AI tools spread, firms redeploy analysts from routine reporting to strategic work.",
+      "exZh": "随着AI工具普及，企业把分析师从例行报表转岗到战略工作。",
+      "ex2": "The fund decided to redeploy capital from bonds into energy stocks after the oil spike.",
+      "ex2Zh": "油价飙升后，该基金决定把资金从债券重新配置到能源股。",
+      "t": "油价单日涨超7%，机构迅速redeploy资金，从债券转向能源与防务板块；折叠屏手机密集发布，厂商也在redeploy产能抢高端市场。\n职场里redeploy常出现在组织调整通知中：不是裁员，而是把人redeploy到新业务；与layoff（裁员）相比，它保留了岗位，只是换了战场。",
+      "root": "前缀 re-(再、重新，拉丁，同源 return 返回、rebuild 重建) + 词根 deploy(展开、部署，法语 déployer，同源 display 展示) → 重新展开 → 重新调配、转岗部署",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "protracted",
+      "ph": "/prəˈtræktɪd/",
+      "m": "(形)旷日持久的；拖延的",
+      "c": "news",
+      "pos": "adj.",
+      "en": "lasting for a long time or longer than expected; prolonged, esp. of disputes or conflicts",
+      "defs": [
+        {
+          "cn": "旷日持久的",
+          "en": "lasting much longer than expected",
+          "pos": "adj."
+        },
+        {
+          "cn": "拖延的",
+          "en": "prolonged or drawn out",
+          "pos": "adj."
+        },
+        {
+          "cn": "漫长的",
+          "en": "extending over a long period",
+          "pos": "adj."
+        }
+      ],
+      "col": "protracted negotiations 旷日持久的谈判 · protracted conflict 长期冲突 · a protracted slump 长期低迷 · protracted litigation 漫长诉讼",
+      "ex": "A protracted trade standoff between Canada and the US could weigh on North American manufacturing.",
+      "exZh": "加美旷日持久的贸易僵局可能拖累北美制造业。",
+      "ex2": "After a protracted hiring freeze, the company finally reopened several key roles.",
+      "ex2Zh": "经历漫长的招聘冻结后，公司终于重启了数个关键岗位。",
+      "t": "红海港口冲突与沙特局势升级，让市场担心能源供应进入protracted紧张期，油价盘中涨超7%，避险情绪升温。\n职场里protracted常形容拉锯：protracted negotiation（漫长谈判）、protracted review（冗长评审）；与brief相对，强调'拖得久、消耗大'，写邮件时用它能准确传递疲惫感。",
+      "root": "前缀 pro-(向前，拉丁，同源 proceed 前进、promote 促进) + 词根 tract(拉、拖，拉丁 trahere，同源 tractor 拖拉机、attract 吸引) + 后缀 -ed → 向前一直拉 → 拖延的、旷日持久的",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "inventory",
+      "ph": "/ˈɪnvəntri/",
+      "m": "(n.)库存；存货清单 (v.)盘点；列入清单",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a complete list of goods or items; the stock of goods a business holds",
+      "defs": [
+        {
+          "cn": "库存；存货",
+          "en": "the stock of goods held by a business",
+          "pos": "n."
+        },
+        {
+          "cn": "清单；详细目录",
+          "en": "a detailed list of items",
+          "pos": "n."
+        },
+        {
+          "cn": "盘点；列入清单",
+          "en": "to make a list of or take stock of",
+          "pos": "v."
+        }
+      ],
+      "col": "inventory management 库存管理 · clear inventory 清库存 · inventory turnover 库存周转率 · excess inventory 过剩库存",
+      "ex": "With oil near $110, retailers are rethinking inventory plans as transport and storage costs climb.",
+      "exZh": "随着油价逼近110美元，运输和仓储成本上升，零售商正在重新考虑库存计划。",
+      "ex2": "The warehouse conducts a full inventory check at the end of every quarter.",
+      "ex2Zh": "仓库每季度末进行一次全面库存盘点。",
+      "t": "今日财经：油价大涨7%、布油逼近110美元，物流成本上升，企业被迫重新评估 inventory 策略；贸易谈判反复也加剧供应链不确定性。\n职场延伸：inventory 不只指货物，也可指技能清单——take inventory of your skills 即盘点自身能力，为职业转型做准备。",
+      "root": "前缀 in-(在内，拉丁，同源 include 包括) + 词根 vent(=ven 来，拉丁 venire，同源 advent 到来) + 后缀 -ory(名词) → 来到里面的东西 → 库存/清单",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "logistics",
+      "ph": "/ləˈdʒɪstɪks/",
+      "m": "(n.)物流；后勤；组织协调",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the detailed organization and movement of goods, people, or supplies; the business of transporting goods",
+      "defs": [
+        {
+          "cn": "物流",
+          "en": "the business of transporting and storing goods",
+          "pos": "n."
+        },
+        {
+          "cn": "后勤",
+          "en": "the organization of supplies and services for an operation",
+          "pos": "n."
+        },
+        {
+          "cn": "组织协调",
+          "en": "the detailed coordination of a complex activity",
+          "pos": "n."
+        }
+      ],
+      "col": "logistics company 物流公司 · supply chain logistics 供应链物流 · logistics costs 物流成本 · logistics hub 物流枢纽",
+      "ex": "Red Sea attacks and oil near $110 are driving up logistics costs for importers and exporters alike.",
+      "exZh": "红海袭击和油价逼近110美元，正推高进出口商的物流成本。",
+      "ex2": "The event's logistics were handled by a team of twenty, from venue booking to catering.",
+      "ex2Zh": "活动的后勤由一支二十人团队负责，从场地预订到餐饮安排。",
+      "t": "今日焦点：胡塞武装攻占红海重要港口、油价盘中涨超7%，全球 logistics 承压，航运绕行推高成本；中加贸易谈判反复也增加供应链不确定性。\n记忆：logistics 源自军事『后勤』，如今泛指物流与统筹；形容词 logistic 常用于 logistic support(后勤支持)。",
+      "root": "词根 log-(言语/计算，希腊 logos，同源 logic 逻辑、dialogue 对话) + 后缀 -istics(学科/实务) → 计算与安排事务 → 后勤/物流",
+      "d": "2026-09-11"
+    },
+    {
+      "w": "precarious",
+      "ph": "/prɪˈkeəriəs/",
+      "m": "(局势)不稳的；岌岌可危的；靠不住的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "not safe or certain; likely to fail or cause problems; in political/economic contexts",
+      "defs": [
+        {
+          "cn": "岌岌可危的",
+          "en": "dangerously likely to collapse or fail",
+          "pos": "adj."
+        },
+        {
+          "cn": "不稳固的",
+          "en": "not securely held or in position",
+          "pos": "adj."
+        },
+        {
+          "cn": "靠不住的",
+          "en": "depending on chance or uncertain factors",
+          "pos": "adj."
+        }
+      ],
+      "col": "precarious situation 岌岌可危的局势 · precarious balance 脆弱的平衡 · precarious livelihood 不稳定的生计 · precarious state 危险状态",
+      "ex": "The UN Yemen envoy warned that the country's return to large-scale conflict has turned a precarious ceasefire into a real risk.",
+      "exZh": "联合国也门特使警告说，也门重陷大规模冲突的风险已使脆弱的停火岌岌可危。",
+      "ex2": "Oil prices jumped over 7% as Houthi forces seized a key Red Sea port, leaving global shipping lanes in a precarious position.",
+      "ex2Zh": "胡塞武装攻占红海重要港口后，国际油价大涨逾7%，全球航运通道处于危险境地。",
+      "t": "联合国也门特使今日直言，也门重陷大规模冲突的风险『已演变为现实』，此前脆弱的停火局面本就 precarious。同日胡塞武装攻占红海重要港口，沙特冲突升级，国际油价盘中涨超7%，布油逼近110美元。\n职场里也常用：项目预算被砍一半，deadline 却没变，团队处境就变得 precarious——记住它和 fragile 是近亲，但更强调『随时可能崩』。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 prevent 预防) + 词根 car(=care 关心/照料，拉丁 carus 亲爱的，同源 charity 慈善) + 后缀 -ious(形容词，拉丁) → 需要靠别人恩惠照料的 → 不稳固、岌岌可危",
+      "d": "2026-09-11"
     }
   ],
   "preview": {
-    "hook": "2026年9月10日，全球航运巨头组成的[consortium|consortium]宣布将投资百亿美元建设北极新航道，试图[expedite|expedite]欧亚贸易周转，但此举因环保争议立刻成为[contentious|contentious]议题，引发多国抗议。与此同时，国际油价出现[spike|spike]，布伦特原油冲破每桶95美元，而供应链紧张与地缘政治风险正[converge|converge]，可能进一步[propel|propel]通胀预期升温，市场波动加剧。 这项工程特别强调保留[preserve|preserve]历史建筑的原貌，同时在地下修建隧道[underscore|underscore]来缓解交通压力，这恰恰凸显了[underscore|underscore]规划者对城市记忆的珍视。",
-    "impact": "今日主线在于：能源价格飙升与航运变局[强调|underscore]了全球经济的脆弱性，各国需在效率与[保护|preserve]环境之间寻求平衡，否则短期冲击恐演变为长期滞胀风险。"
+    "hook": "2026年9月11日，全球航运与制造业同时拉响警报：红海航线因新一轮冲突再度[disrupt|disrupt]供应链，欧洲多国港口[inventory|inventory]积压至历史峰值，而亚洲工厂却面临关键零部件过剩与订单萎缩并存的怪象；为应对[protracted|protracted]贸易摩擦，多国政府被迫征收临时港口附加税，同时紧急[redeploy|redeploy]仓储与运输人力，但[logistics|logistics]网络已因运力错配而陷入[precarious|precarious]境地，企业即便再审慎也难以独善其身。 面对经济下行，[谨慎的|prudent]决策者决定对奢侈品[征税|levy]，以平衡财政收支。",
+    "impact": "今日主线：贸易摩擦与地缘冲突叠加，令全球供应链在过剩与短缺间剧烈摇摆，[审慎的|prudent][物流|logistics]规划与[重新调配|redeploy]能力成为企业能否穿越旷日持久动荡的关键。"
   }
 }

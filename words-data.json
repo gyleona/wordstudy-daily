@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-11",
+  "updated_on": "2026-09-12",
   "quote": {
-    "en": "Learn today, adapt tomorrow, and no shock can stop you.",
-    "zh": "今日学习，明日应变，任何冲击都挡不住你。"
+    "en": "Learn boldly, adapt swiftly, and no shift can stall you.",
+    "zh": "勇敢学习，迅速适应，任何变化都无法让你停滞。"
   },
   "story": {
-    "en": "Oil markets turned [precarious|precarious] on 2026-09-11 as Houthi forces seized a key Red Sea port, Saudi conflict escalated, and Iran was reported to have resumed ballistic-missile production. Crude jumped over 7% intraday, with Brent approaching $110, according to Wall Street See. For shippers, the [protracted|protracted] Red Sea risk forces them to [redeploy|redeploy] vessels and rebuild [inventory|inventory] buffers, while [logistics|logistics] chains face fresh delays. A [prudent|prudent] response may be to [levy|levy] temporary war-risk surcharges, though that could further [disrupt|disrupt] trade. Elsewhere, the UN Yemen envoy warned that the risk of a return to large-scale conflict has become reality, and Israel said it destroyed Hezbollah underground facilities in southern Lebanon using over 1,000 tons of explosives. In Beijing, the 2026 CIFTIS opened, showcasing new consumption-service scenarios. Markets will watch whether diplomacy can cool the Red Sea crisis before energy costs feed into broader inflation.",
-    "cn": "2026年9月11日，胡塞武装攻占红海重要港口、沙特冲突升级，伊朗被曝恢复产弹道导弹，原油盘中涨超7%，布油逼近110美元大关。对航运业而言，红海风险旷日持久，船公司不得不[重新调配|redeploy]运力、重建[库存|inventory]缓冲，[物流|logistics]链面临新的延误。[审慎的|prudent]应对或许是征收临时战争风险附加费，但这可能进一步[扰乱|disrupt]贸易。联合国也门特使警告，也门重陷大规模冲突的风险已演变为现实；以军称摧毁黎南部真主党地下设施，使用超千吨炸药。局势岌岌可危，市场关注外交能否在能源成本传导至更广泛通胀前为红海危机降温。 政府为应对[征收|levy]新税引发的[持久|protracted]抗议，不得不正视自身[不稳|precarious]的执政处境。"
+    "en": "As Washington weighs new [protectionism|protectionism], Beijing's [precautionary|precautionary] stance on trade is reshaping global supply chains. A recent report by the Chinese Academy of Science and Technology for Development shows Shanghai, Beijing, Jiangsu and three other provinces lead national sci-tech innovation, prompting firms to [upskill|upskill] workers and consider [outsourcing|outsourcing] non-core functions. Meanwhile, at the 2026 China International Fair for Trade in Services, sports tech firms showcased integrated solutions as their core competitiveness, aiming to [dispatch|dispatch] Chinese innovation overseas. The fair highlighted that cross-border [mediation|mediation] services are increasingly vital for resolving commercial disputes. In financial markets, August CPI data came in just [hot|hot] enough to fuel Wall Street bets on a Fed rate hike next week, while oil prices fell on the 11th and New York stocks rose. The Shanghai Bund Conference also debated AI's role in empowering women. With the Mid-Autumn and National Day holiday train tickets going on sale today, analysts expect consumer spending to rise, though the initial [outlay|outlay] for travel may pressure household budgets. Looking ahead, China's tech-driven growth and global trade tensions will keep investors alert to policy shifts.",
+    "cn": "在全球通胀降温的背景下，市场对降息的押注持续升温，情绪保持[热门的|hot]（热门的）。某主要央行采取[预防性的|precautionary]（预防性的）立场，强调在放松政策前保持耐心，令投资者重新评估风险。企业面对成本压力，正权衡是否加大自动化[支出|outlay]（支出），同时更多劳资纠纷转向[调解|mediation]（调解）以避免罢工冲击运营。\n\n贸易摩擦方面，新一轮[保护主义|protectionism]（保护主义）措施对部分商品加征关税，促使出口商调整供应链布局。为保持竞争力，不少公司扩大[外包|outsourcing]（外包）并推动员工[提升技能|upskill]（提升技能），将远程人才与培训计划结合。监管机构计划[派遣|dispatch]（派遣）监察人员审查跨境交易，力求在开放与安全间取得平衡。\n\n展望未来，分析师预计增长虽波动但具韧性，政策清晰度将是维持投资意愿的关键。企业需在合规与效率之间找到平衡，才能应对不断变化的全球环境。"
   },
   "words": [
     {
@@ -6239,10 +6239,274 @@
       "t": "联合国也门特使今日直言，也门重陷大规模冲突的风险『已演变为现实』，此前脆弱的停火局面本就 precarious。同日胡塞武装攻占红海重要港口，沙特冲突升级，国际油价盘中涨超7%，布油逼近110美元。\n职场里也常用：项目预算被砍一半，deadline 却没变，团队处境就变得 precarious——记住它和 fragile 是近亲，但更强调『随时可能崩』。",
       "root": "前缀 pre-(在前，拉丁 prae，同源 prevent 预防) + 词根 car(=care 关心/照料，拉丁 carus 亲爱的，同源 charity 慈善) + 后缀 -ious(形容词，拉丁) → 需要靠别人恩惠照料的 → 不稳固、岌岌可危",
       "d": "2026-09-11"
+    },
+    {
+      "w": "precautionary",
+      "ph": "/prɪˈkɔːʃənəri/",
+      "m": "adj. 预防性的；为防患未然而采取的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "intended to prevent something bad from happening; acting in advance to reduce risk, esp. in finance and policy",
+      "defs": [
+        {
+          "cn": "预防性的",
+          "en": "intended to prevent harm or risk before it occurs",
+          "pos": "adj."
+        },
+        {
+          "cn": "防备的",
+          "en": "done as a safeguard against possible danger",
+          "pos": "adj."
+        },
+        {
+          "cn": "谨慎的",
+          "en": "showing careful forethought, esp. in monetary policy",
+          "pos": "adj."
+        }
+      ],
+      "col": "precautionary measure 预防措施 · precautionary principle 预防原则 · precautionary savings 预防性储蓄 · take precautionary steps 采取预防步骤",
+      "ex": "Wall Street is pricing in a precautionary rate hike next week as August CPI runs hot, with traders hedging against a hawkish Fed surprise.",
+      "exZh": "由于8月CPI数据偏热，华尔街正押注下周将有一次预防性加息，交易员纷纷对冲美联储鹰派意外。",
+      "ex2": "The firm adopted a precautionary hiring freeze to shield itself from a possible demand slowdown in the fourth quarter.",
+      "ex2Zh": "该公司采取了预防性招聘冻结，以抵御第四季度可能出现的需求放缓。",
+      "t": "8月CPI“热”得刚好，华尔街密集押注美联储下周加息，沃什这次没法再“喊狼来了”——市场把这次行动解读为 precautionary 的一步，以防通胀预期脱锚。\n职场里也一样：项目上线前先做 precautionary 备份，比事后救火便宜得多；precautionary 预防 ↔ reactive 被动应对，成对记。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 prevent 预防、predict 预测) + 词根 caut(小心，拉丁 cautio，同源 caution 谨慎) + 后缀 -ion + -ary(形容词后缀) → 事先小心的 → 预防性的",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "outlay",
+      "ph": "/ˈaʊtleɪ/",
+      "m": "n. 支出；开销；费用",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an amount of money spent, esp. a large or initial expenditure in business or public finance",
+      "defs": [
+        {
+          "cn": "支出",
+          "en": "money spent on something, often a substantial sum",
+          "pos": "n."
+        },
+        {
+          "cn": "开销",
+          "en": "the total cost incurred for a project or period",
+          "pos": "n."
+        },
+        {
+          "cn": "投入",
+          "en": "an initial investment or capital outlay",
+          "pos": "n."
+        }
+      ],
+      "col": "capital outlay 资本支出 · initial outlay 初始投入 · public outlay 公共开支 · outlay on infrastructure 基础设施开支",
+      "ex": "The government's massive outlay on deep-sea mining exploration paid off as China discovered a world-class deposit of precious metals.",
+      "exZh": "中国在深海采矿勘探上的巨额支出获得回报，发现了世界级贵金属矿床。",
+      "ex2": "Before approving the outlay for new AI tools, the CFO demanded a clear return-on-investment projection from each department.",
+      "ex2Zh": "在批准新AI工具的支出前，首席财务官要求每个部门提供清晰的投资回报预测。",
+      "t": "我国发现世界级规模深海矿床，贵金属含量惊人——前期巨大的 capital outlay 终于换来战略资源突破，资本市场立刻重估相关板块。\n日常里 outlay 常指大笔前期投入：买房首付、留学学费都是一次性 outlay；与 expense 相比，outlay 更强调“一次性、计划性的大额支出”。",
+      "root": "前缀 out-(向外，古英语 ūt，同源 outgo 支出、outburst 爆发) + 词根 lay(放置，古英语 lecgan，同源 layman 外行、layout 布局) → 把钱放出去 → 支出、开销",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "mediation",
+      "ph": "/ˌmiːdiˈeɪʃn/",
+      "m": "n. 调解；斡旋；中介",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the process of intervening between parties to resolve a dispute; diplomatic or legal facilitation of a settlement",
+      "defs": [
+        {
+          "cn": "调解",
+          "en": "the act of helping two sides reach an agreement",
+          "pos": "n."
+        },
+        {
+          "cn": "斡旋",
+          "en": "diplomatic intervention to settle a conflict",
+          "pos": "n."
+        },
+        {
+          "cn": "中介",
+          "en": "an intermediary process or agency",
+          "pos": "n."
+        }
+      ],
+      "col": "international mediation 国际斡旋 · mediation talks 调解谈判 · offer mediation 提供斡旋 · third-party mediation 第三方调解",
+      "ex": "Analysts credit Trump's mediation for the recent warming of China-India relations, a diplomatic shift with major trade implications.",
+      "exZh": "分析人士将中印关系近期回暖归功于特朗普的斡旋，这一外交转变具有重大贸易影响。",
+      "ex2": "The EU offered mediation between the two trading partners to prevent a full-blown tariff war that could disrupt global supply chains.",
+      "ex2Zh": "欧盟提出在两大贸易伙伴之间进行调解，以防止可能扰乱全球供应链的全面关税战。",
+      "t": "德语媒体报道：中印关系回暖，特朗普功不可没——这场 mediation 不仅缓和边境紧张，也让亚洲两大市场重新评估贸易与投资布局。\n职场里 mediation 也常用：同事冲突升级时，HR 会安排第三方 mediation，比直接裁决更能保住团队关系；mediation 调解 ↔ confrontation 对抗，成对记。",
+      "root": "词根 medi(中间，拉丁 medius，同源 medium 媒介、mediate 调解) + 后缀 -ation(名词后缀) → 站在中间 → 调解、斡旋",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "dispatch",
+      "ph": "/dɪˈspætʃ/",
+      "m": "v. 派遣；发送 n. 派遣；快讯",
+      "c": "news",
+      "pos": "v. / n.",
+      "en": "to send off someone or something for a purpose; a news report sent from a correspondent",
+      "defs": [
+        {
+          "cn": "派遣",
+          "en": "to send someone or something to a destination",
+          "pos": "v."
+        },
+        {
+          "cn": "发送",
+          "en": "to send goods, messages, or troops promptly",
+          "pos": "v."
+        },
+        {
+          "cn": "快讯",
+          "en": "a news report from a correspondent",
+          "pos": "n."
+        }
+      ],
+      "col": "dispatch troops 派遣部队 · dispatch a team 派遣团队 · news dispatch 新闻快讯 · dispatch goods 发送货物",
+      "ex": "The Pentagon dispatched additional naval assets to the region, a move that has already forced 99 commercial vessels to change course.",
+      "exZh": "五角大楼向该地区派遣了额外海军力量，此举已迫使99艘商船改变航向。",
+      "ex2": "The editor dispatched a correspondent to cover the Shanghai science and technology innovation report released today.",
+      "ex2Zh": "编辑派遣了一名记者去报道今天发布的上海科技创新报告。",
+      "t": "美军称对伊海上封锁已使99艘商船改变航向，同时向曼德海峡方向 dispatch 更多力量，全球航运与油价波动风险上升。\n媒体语境里 dispatch 是“快讯”：外派记者发回的 dispatch 往往带现场细节；dispatch 派遣 ↔ recall 召回，成对记。",
+      "root": "前缀 dis-(分开，拉丁 dis，同源 disperse 分散、dismiss 解散) + 词根 patch(脚镣、障碍，拉丁 pedica，同源 impede 阻碍) → 解开束缚赶紧送出 → 派遣、发送",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "upskill",
+      "ph": "/ˌʌpˈskɪl/",
+      "m": "v. 提升技能；培训新技能",
+      "c": "work",
+      "pos": "v.",
+      "en": "to teach an employee new skills, esp. to adapt to technological change or a new role",
+      "defs": [
+        {
+          "cn": "提升技能",
+          "en": "to learn or teach additional skills for a job",
+          "pos": "v."
+        },
+        {
+          "cn": "培训新技能",
+          "en": "to train workers in new competencies",
+          "pos": "v."
+        },
+        {
+          "cn": "技能升级",
+          "en": "to upgrade one's skill set for career growth",
+          "pos": "v."
+        }
+      ],
+      "col": "upskill the workforce 提升员工技能 · upskill in AI 学习AI技能 · government upskilling program 政府技能提升计划 · reskill and upskill 再培训与技能提升",
+      "ex": "As AI reshapes the office, workers are urged to upskill in data analysis and prompt design to stay employable.",
+      "exZh": "随着AI重塑办公室，员工被敦促提升数据分析和提示设计技能以保持就业竞争力。",
+      "ex2": "The company will upskill its sales team on cross-border trade compliance before expanding into Middle Eastern markets.",
+      "ex2Zh": "在拓展中东市场前，该公司将对其销售团队进行跨境贸易合规的技能提升培训。",
+      "t": "外滩大会热议AI时代女性力量，从“为她所用”到“由她创造”——论坛反复强调，员工必须主动 upskill，才能在自动化浪潮中保住并升级岗位。\n职场建议：每季度定一个 upskill 目标，比如学会用AI做报表；upskill 技能提升 ↔ deskill 去技能化，成对记。",
+      "root": "前缀 up-(向上，古英语 up，同源 upgrade 升级、uplift 提升) + 词根 skill(技能，古诺斯语 skil，同源 skillful 熟练的) → 把技能往上提 → 技能提升、再培训",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "outsourcing",
+      "ph": "/ˈaʊtsɔːsɪŋ/",
+      "m": "n. 外包；外购",
+      "c": "work",
+      "pos": "n.",
+      "en": "the practice of having work done by an outside supplier rather than in-house, in business/workplace contexts",
+      "defs": [
+        {
+          "cn": "外包；外购",
+          "en": "contracting work to an outside provider",
+          "pos": "n."
+        },
+        {
+          "cn": "业务外判",
+          "en": "the business practice of farming out tasks",
+          "pos": "n."
+        },
+        {
+          "cn": "外包行为",
+          "en": "the act of delegating work externally",
+          "pos": "n."
+        }
+      ],
+      "col": "outsourcing contract 外包合同 · offshore outsourcing 离岸外包 · IT outsourcing IT外包 · outsourcing trend 外包趋势",
+      "ex": "The bank expanded IT outsourcing to cut fixed costs this year.",
+      "exZh": "该银行今年扩大IT外包以削减固定成本。",
+      "ex2": "Outsourcing customer service to AI bots is reshaping call centers.",
+      "ex2Zh": "把客服外包给AI机器人正在重塑呼叫中心。",
+      "t": "今天投洽会上至少10家券商亮相金融展区，中东参展团频现展台，背后是金融机构把后台运营 outsourcing 到成本更低的地区；同时AI工具让'外包'从人力转向软件。\n\n职场视角：outsourcing 不等于 layoff，但常伴随岗位迁移。员工的对策是把可控的、难外包的能力（判断力、客户关系）做深，而不是守着可被外判的流程活。",
+      "root": "前缀 out-（向外，古英语，同源 outside 外面） + 词根 source（来源，古法语，同源 resource 资源） + 后缀 -ing（名词后缀）→ 把'来源'放到外面 → 外包。",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "protectionism",
+      "ph": "/prəˈtekʃənɪzəm/",
+      "m": "n. 保护主义；贸易保护政策",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the policy of shielding domestic industries from foreign competition, in trade/political contexts",
+      "defs": [
+        {
+          "cn": "保护主义；贸易保护政策",
+          "en": "shielding domestic industries from imports",
+          "pos": "n."
+        },
+        {
+          "cn": "贸易保护论",
+          "en": "the doctrine favoring trade barriers",
+          "pos": "n."
+        },
+        {
+          "cn": "保护主义做法",
+          "en": "practices that restrict foreign competition",
+          "pos": "n."
+        }
+      ],
+      "col": "trade protectionism 贸易保护主义 · rising protectionism 保护主义抬头 · protectionism policy 保护主义政策 · fight protectionism 反对保护主义",
+      "ex": "Rising protectionism is forcing exporters to rethink their supply chains.",
+      "exZh": "保护主义抬头正迫使出口商重新思考供应链。",
+      "ex2": "Economists warn that protectionism could slow global growth next year.",
+      "ex2Zh": "经济学家警告保护主义可能拖慢明年全球增长。",
+      "t": "今天德语媒体报道中印关系回暖、特朗普'功不可没'，背后正是美国 protectionism 把印度推向中国；同时美方对伊海上封锁已使99艘商船改变航向，贸易壁垒正重塑航线。\n\n职场关联：公司里的'部门保护主义'——各团队守着数据和预算不共享，和国际贸易里的 protectionism 一个逻辑：短期自保，长期拖慢整体效率。",
+      "root": "拉丁词根 protect-（保护，同源 protect 保护、protection 保护） + 后缀 -ism（主义，希腊/拉丁，同源 capitalism 资本主义）→ 主张用壁垒保护本国产业 → 保护主义。",
+      "d": "2026-09-12"
+    },
+    {
+      "w": "hot",
+      "ph": "/hɒt/",
+      "m": "热门的；炙手可热的(经济/市场语境)",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "currently very popular or in high demand, esp. in markets, sectors or jobs",
+      "defs": [
+        {
+          "cn": "热门的",
+          "en": "currently very popular or in high demand",
+          "pos": "adj."
+        },
+        {
+          "cn": "(通胀)过热的",
+          "en": "(of prices or an economy) rising too fast",
+          "pos": "adj."
+        },
+        {
+          "cn": "抢手的",
+          "en": "(of a job or skill) much sought after",
+          "pos": "adj."
+        }
+      ],
+      "col": "hot sector 热门板块 · hot money 热钱 · a hot job market 火热的就业市场 · hot on the heels of 紧随其后",
+      "ex": "Wall Street is betting the August CPI print is hot enough to push the Fed to hike next week.",
+      "exZh": "华尔街押注8月CPI数据足够'热'，足以推动美联储下周加息。",
+      "ex2": "AI engineers remain the hottest hires in finance, with banks fighting to fill seats.",
+      "ex2Zh": "AI工程师仍是金融业最抢手的招聘对象，各银行争相填补岗位。",
+      "t": "今天华尔街见闻头条：8月CPI'热'得刚好，华尔街密集押注美联储下周加息，沃什这次没法再'喊狼来了'——一个 hot 的读数，就能让全市场重定价。\n职场里 hot 也高频：AI 工程师是当下最 hot 的岗位，hot skill 就是议价权；反义 cold（冷淡、无人问津），一热一冷，记住温度差。",
+      "root": "古英语 hat(热，同源 heat 热、hotly 激烈地) → 温度高 → 引申为'热度高、抢手、过热'，词形自古英语至今几乎未变，属日耳曼语底层词",
+      "d": "2026-09-12"
     }
   ],
   "preview": {
-    "hook": "2026年9月11日，全球航运与制造业同时拉响警报：红海航线因新一轮冲突再度[disrupt|disrupt]供应链，欧洲多国港口[inventory|inventory]积压至历史峰值，而亚洲工厂却面临关键零部件过剩与订单萎缩并存的怪象；为应对[protracted|protracted]贸易摩擦，多国政府被迫征收临时港口附加税，同时紧急[redeploy|redeploy]仓储与运输人力，但[logistics|logistics]网络已因运力错配而陷入[precarious|precarious]境地，企业即便再审慎也难以独善其身。 面对经济下行，[谨慎的|prudent]决策者决定对奢侈品[征税|levy]，以平衡财政收支。",
-    "impact": "今日主线：贸易摩擦与地缘冲突叠加，令全球供应链在过剩与短缺间剧烈摇摆，[审慎的|prudent][物流|logistics]规划与[重新调配|redeploy]能力成为企业能否穿越旷日持久动荡的关键。"
+    "hook": "2026年9月12日，面对[protectionism|protectionism]抬头与供应链重构，多家跨国企业一边以预防性策略增加海外[outlay|outlay]，一边通过[outsourcing|outsourcing]与第三方[mediation|mediation]分散风险，同时[dispatch|dispatch]团队赴东南亚设厂，并大规模[upskill|upskill]以应对[hot|hot]绿色与AI赛道。 为防万一，他采取了[预防性的|precautionary]措施。",
+    "impact": "今日主线是企业在贸易摩擦下重新布局全球产能，用预防性[支出|outlay]与[外包|outsourcing]对冲[保护主义|protectionism]风险，同时靠[提升技能|upskill]和人才[派遣|dispatch]抢占热门市场。"
   }
 }

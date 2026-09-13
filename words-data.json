@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-12",
+  "updated_on": "2026-09-13",
   "quote": {
-    "en": "Learn boldly, adapt swiftly, and no shift can stall you.",
-    "zh": "勇敢学习，迅速适应，任何变化都无法让你停滞。"
+    "en": "Stay vigilant, stay resilient, and every volatile turn becomes your advantage.",
+    "zh": "保持警惕，保持韧性，每一次剧烈波动都会成为你的优势。"
   },
   "story": {
-    "en": "As Washington weighs new [protectionism|protectionism], Beijing's [precautionary|precautionary] stance on trade is reshaping global supply chains. A recent report by the Chinese Academy of Science and Technology for Development shows Shanghai, Beijing, Jiangsu and three other provinces lead national sci-tech innovation, prompting firms to [upskill|upskill] workers and consider [outsourcing|outsourcing] non-core functions. Meanwhile, at the 2026 China International Fair for Trade in Services, sports tech firms showcased integrated solutions as their core competitiveness, aiming to [dispatch|dispatch] Chinese innovation overseas. The fair highlighted that cross-border [mediation|mediation] services are increasingly vital for resolving commercial disputes. In financial markets, August CPI data came in just [hot|hot] enough to fuel Wall Street bets on a Fed rate hike next week, while oil prices fell on the 11th and New York stocks rose. The Shanghai Bund Conference also debated AI's role in empowering women. With the Mid-Autumn and National Day holiday train tickets going on sale today, analysts expect consumer spending to rise, though the initial [outlay|outlay] for travel may pressure household budgets. Looking ahead, China's tech-driven growth and global trade tensions will keep investors alert to policy shifts.",
-    "cn": "在全球通胀降温的背景下，市场对降息的押注持续升温，情绪保持[热门的|hot]（热门的）。某主要央行采取[预防性的|precautionary]（预防性的）立场，强调在放松政策前保持耐心，令投资者重新评估风险。企业面对成本压力，正权衡是否加大自动化[支出|outlay]（支出），同时更多劳资纠纷转向[调解|mediation]（调解）以避免罢工冲击运营。\n\n贸易摩擦方面，新一轮[保护主义|protectionism]（保护主义）措施对部分商品加征关税，促使出口商调整供应链布局。为保持竞争力，不少公司扩大[外包|outsourcing]（外包）并推动员工[提升技能|upskill]（提升技能），将远程人才与培训计划结合。监管机构计划[派遣|dispatch]（派遣）监察人员审查跨境交易，力求在开放与安全间取得平衡。\n\n展望未来，分析师预计增长虽波动但具韧性，政策清晰度将是维持投资意愿的关键。企业需在合规与效率之间找到平衡，才能应对不断变化的全球环境。"
+    "en": "As leaders gathered for the 18th BRICS summit, a Chinese official told the seventh China-Russia SME forum in Irkutsk that cross-border [e-commerce|e-commerce] is driving an [exodus|exodus] of traditional intermediaries and forcing firms to stay [vigilant|vigilant] against financial [contagion|contagion]. The official cited a new [algorithm|algorithm] platform to reduce market [fragmentation|fragmentation] and promote [upskilling|upskilling] for small exporters. Meanwhile, a Ukrainian official said Kiev is ready for a new trilateral round of talks with the US and Russia in October. At the 2026 Pujiang Innovation Forum in Shanghai, speakers warned that global supply-chain [arbitration|arbitration] disputes are rising. In Beijing, the services trade fair's first public day drew crowds to the Yongding River for a stunning sunset. Looking ahead, all eyes are on next week's Fed decision after Wall Street tore up its rate report, as officials vow to remain vigilant on inflation.",
+    "cn": "金砖国家领导人第十八次会晤举行，习近平发表重要讲话。在中俄中小企业实业论坛上，中方代表指出，跨境[电子商务|e-commerce]正引发传统中间商的[大规模外流|exodus]，企业须保持警惕以防范金融[蔓延|contagion]。他提到新[算法|algorithm]平台有助于减少市场[碎片化|fragmentation]，并推动中小企业[技能提升|upskilling]。乌克兰官员表示，准备10月举行新一轮乌美俄三方谈判。2026浦江创新论坛在沪开幕，与会者警告全球供应链[仲裁|arbitration]争端增多。服贸会首个公众开放日，观众在永定河畔邂逅绝美晚霞。华尔街撕报告，下周美联储加息预期升温，市场保持警惕。 面对不断变化的网络诈骗手段，社区志愿者始终保持[警惕的|vigilant]态度，提醒居民不要轻信陌生来电。"
   },
   "words": [
     {
@@ -6503,10 +6503,274 @@
       "t": "今天华尔街见闻头条：8月CPI'热'得刚好，华尔街密集押注美联储下周加息，沃什这次没法再'喊狼来了'——一个 hot 的读数，就能让全市场重定价。\n职场里 hot 也高频：AI 工程师是当下最 hot 的岗位，hot skill 就是议价权；反义 cold（冷淡、无人问津），一热一冷，记住温度差。",
       "root": "古英语 hat(热，同源 heat 热、hotly 激烈地) → 温度高 → 引申为'热度高、抢手、过热'，词形自古英语至今几乎未变，属日耳曼语底层词",
       "d": "2026-09-12"
+    },
+    {
+      "w": "exodus",
+      "ph": "/ˈeksədəs/",
+      "m": "(资金/人才)大规模外流",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a mass departure of people, capital, or assets from a place or market; a large-scale outflow",
+      "defs": [
+        {
+          "cn": "(资金)大规模外流",
+          "en": "a mass outflow of capital from a market",
+          "pos": "n."
+        },
+        {
+          "cn": "(人才)集体出走",
+          "en": "a large-scale departure of skilled workers",
+          "pos": "n."
+        },
+        {
+          "cn": "(人口)大批迁徙",
+          "en": "a mass movement of people leaving a region",
+          "pos": "n."
+        }
+      ],
+      "col": "capital exodus (资本外流) · talent exodus (人才流失) · mass exodus (大规模出走) · exodus from the market (撤离市场)",
+      "ex": "Analysts warned of a possible capital exodus from emerging markets if the Fed hikes rates next week.",
+      "exZh": "分析师警告，如果美联储下周加息，新兴市场可能出现资本外流。",
+      "ex2": "The company's talent exodus accelerated after the restructuring plan was announced.",
+      "ex2Zh": "重组计划公布后，该公司的人才流失加速。",
+      "t": "今日华尔街见闻标题『华尔街撕报告，下周美联储必加息？』引发市场对资本 exodus 的担忧：若加息落地，部分资金可能从新兴市场撤出，回流美元资产。与此同时，乌克兰准备10月举行新一轮乌美俄三方谈判，地缘不确定性也加剧了资金 exodus 的压力。\n职场联想：公司裁员或重组时，核心员工 exodus 往往比财报更早暴露问题；与 outflow 近义，但 exodus 更强调『成群结队』。",
+      "root": "源自希腊语 exodos：ex-(向外，同源 exit 出口) + hodos(路，同源 method 方法/途径) → 走出去的路 → 大批人/资金集体离开；《出埃及记》英文名即 Exodus。",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "vigilant",
+      "ph": "/ˈvɪdʒɪlənt/",
+      "m": "警惕的；保持警戒的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "keeping careful watch for possible danger or difficulties; alert and attentive",
+      "defs": [
+        {
+          "cn": "警惕的",
+          "en": "watchful for possible danger or risk",
+          "pos": "adj."
+        },
+        {
+          "cn": "保持警戒的",
+          "en": "staying alert and attentive to threats",
+          "pos": "adj."
+        },
+        {
+          "cn": "警觉的(监管)",
+          "en": "carefully monitoring markets or conduct",
+          "pos": "adj."
+        }
+      ],
+      "col": "stay vigilant (保持警惕) · vigilant monitoring (严密监控) · vigilant against fraud (警惕欺诈) · remain vigilant (继续保持警戒)",
+      "ex": "EU regulators said they would remain vigilant as climate monitors confirmed August was the hottest on record.",
+      "exZh": "欧盟监管机构表示，在气候监测机构确认8月为有记录以来最热月份后，他们将继续保持警惕。",
+      "ex2": "Banks must stay vigilant against cyber fraud during the holiday shopping season.",
+      "ex2Zh": "银行在假日购物季必须对网络欺诈保持警惕。",
+      "t": "今日人民网报道，欧盟气候监测机构确认今年8月为有记录以来最热月份，欧洲监管层呼吁各国对极端天气带来的经济风险保持 vigilant。同日，英国朴茨茅斯出现两阵营对峙示威，警方也处于高度 vigilant 状态。\n职场场景：财务团队在季末审计前应 stay vigilant（保持警惕），对异常交易逐笔核查；与 alert 近义，但 vigilant 更强调持续、主动的防范。",
+      "root": "词根 vigil-(醒着、守夜，拉丁 vigil，同源 vigil 守夜/守灵) + 后缀 -ant(形容词后缀，表状态) → 处于醒着守望的状态 → 警惕的、警觉的；同源词 vigilance 警觉。",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "e-commerce",
+      "ph": "/ˈiː kɒmɜːs/",
+      "m": "电子商务",
+      "c": "econ",
+      "pos": "n.",
+      "en": "The buying and selling of goods or services over the internet.",
+      "defs": [
+        {
+          "cn": "电子商务",
+          "en": "commercial transactions conducted online",
+          "pos": "n."
+        },
+        {
+          "cn": "电商",
+          "en": "the online retail industry as a whole",
+          "pos": "n."
+        },
+        {
+          "cn": "网络交易",
+          "en": "internet-based trade of products or services",
+          "pos": "n."
+        }
+      ],
+      "col": "e-commerce platform 电商平台 · cross-border e-commerce 跨境电商 · e-commerce boom 电商热潮 · e-commerce logistics 电商物流",
+      "ex": "China's e-commerce giants are expanding into Southeast Asia, boosting cross-border logistics demand.",
+      "exZh": "中国电商巨头正进军东南亚，推高跨境物流需求。",
+      "ex2": "The pandemic accelerated e-commerce adoption among older consumers in Europe.",
+      "ex2Zh": "疫情加速了欧洲老年消费者对电子商务的接受度。",
+      "t": "今日京报网报道服贸会首个公众开放日，观众在永定河畔邂逅绝美晚霞，服贸会正是 e-commerce 与数字贸易的重要展示窗口，跨境电商合作成为焦点。\n日常场景：你在淘宝、亚马逊下单，就是参与 e-commerce；它与 traditional retail 相对，强调线上交易与数字支付。",
+      "root": "e-(electronic 电子的缩写) + commerce(商业，拉丁语 commercium，com-共同 + merx商品) → 通过电子方式进行的商业活动。",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "algorithm",
+      "ph": "/ˈælɡərɪðəm/",
+      "m": "算法；计算规则",
+      "c": "tech",
+      "pos": "n.",
+      "en": "A step-by-step procedure or set of rules for solving a problem, especially by a computer.",
+      "defs": [
+        {
+          "cn": "算法",
+          "en": "a precise sequence of steps for computation",
+          "pos": "n."
+        },
+        {
+          "cn": "计算规则",
+          "en": "a set of rules followed by a computer program",
+          "pos": "n."
+        },
+        {
+          "cn": "运算法则",
+          "en": "a mathematical process for solving problems",
+          "pos": "n."
+        }
+      ],
+      "col": "recommendation algorithm 推荐算法 · trading algorithm 交易算法 · algorithm bias 算法偏见 · machine-learning algorithm 机器学习算法",
+      "ex": "Chinese engineer Wu Hequan said the country's computing power could reach 30% of the global total by 2030, driven by advances in algorithm efficiency.",
+      "exZh": "中国工程院院士邬贺铨表示，随着算法效率提升，2030年中国算力有望占全球30%。",
+      "ex2": "High-frequency trading firms rely on complex algorithm to execute thousands of orders per second.",
+      "ex2Zh": "高频交易公司依赖复杂算法每秒执行数千笔订单。",
+      "t": "今日 IT之家报道中国工程院院士邬贺铨称2030年中国算力有望占全球30%，背后离不开 algorithm 优化与AI芯片突破，算力竞争已成为大国科技博弈焦点。\n职场里，algorithm 也指'工作方法'：优化你的 personal algorithm，就是找到更高效的问题解决路径。",
+      "root": "源自拉丁语 algorismus，来自阿拉伯数学家花拉子米(al-Khwārizmī)的名字，经中世纪拉丁语演变 → 指按步骤计算的规则。",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "fragmentation",
+      "ph": "/ˌfræɡmenˈteɪʃn/",
+      "m": "(n.) 碎片化；分裂为多个部分",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the process of breaking into separate parts; in trade/geopolitics, the split of global supply chains into blocs",
+      "defs": [
+        {
+          "cn": "碎片化",
+          "en": "the act of breaking something into small pieces",
+          "pos": "n."
+        },
+        {
+          "cn": "分裂；割裂",
+          "en": "division into separate, often hostile groups",
+          "pos": "n."
+        },
+        {
+          "cn": "供应链碎片化",
+          "en": "the splitting of global supply chains into regional blocs",
+          "pos": "n."
+        }
+      ],
+      "col": "supply chain fragmentation 供应链碎片化 · market fragmentation 市场割裂 · geopolitical fragmentation 地缘政治碎片化 · fragmentation of trade 贸易碎片化",
+      "ex": "Rising tariffs and export controls are accelerating the fragmentation of global technology supply chains.",
+      "exZh": "不断上升的关税和出口管制正在加速全球科技供应链的碎片化。",
+      "ex2": "The company's data strategy risks fragmentation as each regional office adopts different systems.",
+      "ex2Zh": "随着各地区办事处采用不同系统，该公司的数据战略面临碎片化风险。",
+      "t": "2026年9月13日，欧盟气候监测机构称今年8月为有记录以来最热月份，极端天气正加剧全球供应链的 fragmentation。与此同时，美欧对华科技限制持续，芯片、AI 等领域的供应链被地缘政治撕成多个区块。\n职场中，跨部门协作若各自为政，也会出现信息 fragmentation，导致决策缓慢。记：fragmentation 碎片化 ↔ integration 一体化，成对记忆更牢固。",
+      "root": "词根 frag(=break 打破，拉丁 frangere，同源 fragment 碎片、fragile 易碎的) + 后缀 -ment(名词，拉丁) + -ation(名词，拉丁) → 打破成多块 → 碎片化、分裂",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "upskilling",
+      "ph": "/ˈʌpsklɪŋ/",
+      "m": "(n.) 技能提升；再培训",
+      "c": "work",
+      "pos": "n.",
+      "en": "the process of learning new skills or teaching workers new skills, especially to keep pace with technology",
+      "defs": [
+        {
+          "cn": "技能提升",
+          "en": "the act of improving one's skills through training",
+          "pos": "n."
+        },
+        {
+          "cn": "员工再培训",
+          "en": "corporate programs to teach employees new competencies",
+          "pos": "n."
+        },
+        {
+          "cn": "技能升级",
+          "en": "acquiring higher-level skills for career advancement",
+          "pos": "n."
+        }
+      ],
+      "col": "upskilling program 技能提升计划 · workforce upskilling 劳动力技能升级 · digital upskilling 数字技能提升 · invest in upskilling 投资于技能提升",
+      "ex": "With AI transforming the workplace, companies are investing heavily in upskilling their employees.",
+      "exZh": "随着人工智能改变职场，企业正大力投资于员工技能提升。",
+      "ex2": "The government launched a national upskilling initiative to address the skills gap in manufacturing.",
+      "ex2Zh": "政府启动了一项全国性技能提升计划，以解决制造业的技能缺口。",
+      "t": "2026年9月13日，2026浦江创新论坛在沪开幕，陈吉宁等出席，论坛聚焦科技创新与人才培养。同日，中国工程院院士邬贺铨预测2030年中国算力占全球30%，AI 普及使 upskilling 成为职场刚需。\n职场中，upskilling 与 reskilling 常并提：前者提升现有技能，后者学习全新技能。记：up(向上) + skill(技能) + ing。",
+      "root": "前缀 up-(向上，古英语，同源 upward 向上的) + 词根 skill(技能，古北欧语 skil 区分) + 后缀 -ing(名词，古英语) → 把技能往上提 → 技能提升",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "contagion",
+      "ph": "/kənˈteɪdʒən/",
+      "m": "(n.) 蔓延；传染；金融传染",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the spread of a disease, or in finance, the spread of market turmoil from one country or asset to others",
+      "defs": [
+        {
+          "cn": "蔓延",
+          "en": "the spreading of something bad or harmful",
+          "pos": "n."
+        },
+        {
+          "cn": "传染",
+          "en": "the transmission of disease from one person to another",
+          "pos": "n."
+        },
+        {
+          "cn": "金融传染",
+          "en": "the spread of financial shocks across markets",
+          "pos": "n."
+        }
+      ],
+      "col": "financial contagion 金融传染 · contagion effect 传染效应 · contain contagion 遏制蔓延 · contagion risk 传染风险",
+      "ex": "Investors fear that a debt crisis in one emerging market could trigger financial contagion across Asia.",
+      "exZh": "投资者担心一个新兴市场的债务危机可能引发亚洲的金融传染。",
+      "ex2": "The rapid contagion of the virus forced the government to impose strict containment measures.",
+      "ex2Zh": "病毒的快速传染迫使政府采取严格的遏制措施。",
+      "t": "2026年9月13日，华尔街见闻报道'华尔街撕报告，下周美联储必加息？'，市场担忧加息预期可能引发全球资产 contagion。同日，欧盟气候监测机构称今年8月为有记录以来最热月份，极端天气对农业和供应链的 contagion 效应也在显现。\n金融语境中，contagion 常指危机跨市场、跨国界扩散。记：contagion 传染 ↔ containment 遏制。",
+      "root": "前缀 con-(共同，拉丁，同源 contact 接触) + 词根 tag(=touch 接触，拉丁 tangere，同源 tangible 可触的) + 后缀 -ion(名词，拉丁) → 共同接触 → 传染、蔓延",
+      "d": "2026-09-13"
+    },
+    {
+      "w": "arbitration",
+      "ph": "/ˌɑːrbɪˈtreɪʃn/",
+      "m": "(n.) 仲裁；公断",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the process of settling a dispute by an impartial third party; in trade, dispute resolution outside courts",
+      "defs": [
+        {
+          "cn": "仲裁",
+          "en": "the hearing and determination of a dispute by an arbitrator",
+          "pos": "n."
+        },
+        {
+          "cn": "公断",
+          "en": "the settlement of a dispute by a neutral party",
+          "pos": "n."
+        },
+        {
+          "cn": "贸易仲裁",
+          "en": "resolution of commercial disputes through arbitration bodies",
+          "pos": "n."
+        }
+      ],
+      "col": "international arbitration 国际仲裁 · arbitration clause 仲裁条款 · go to arbitration 提交仲裁 · arbitration award 仲裁裁决",
+      "ex": "The two countries agreed to submit their trade dispute to international arbitration.",
+      "exZh": "两国同意将贸易争端提交国际仲裁。",
+      "ex2": "The company's contract includes an arbitration clause to avoid costly litigation.",
+      "ex2Zh": "该公司的合同包含仲裁条款，以避免代价高昂的诉讼。",
+      "t": "2026年9月13日，乌官员称乌克兰准备10月举行新一轮乌美俄三方谈判，谈判破裂后可能诉诸 international arbitration。同日，习近平在金砖会晤中强调多边主义，仲裁机制是解决贸易争端的重要途径。\n职场中，arbitration 也用于劳动纠纷解决。记：arbitration 仲裁 ↔ litigation 诉讼，两者常互为替代。",
+      "root": "词根 arbitr(=judge 判断，拉丁 arbiter 仲裁人，同源 arbitrary 任意的) + 后缀 -ation(名词，拉丁) → 由仲裁人判断 → 仲裁、公断",
+      "d": "2026-09-13"
     }
   ],
   "preview": {
-    "hook": "2026年9月12日，面对[protectionism|protectionism]抬头与供应链重构，多家跨国企业一边以预防性策略增加海外[outlay|outlay]，一边通过[outsourcing|outsourcing]与第三方[mediation|mediation]分散风险，同时[dispatch|dispatch]团队赴东南亚设厂，并大规模[upskill|upskill]以应对[hot|hot]绿色与AI赛道。 为防万一，他采取了[预防性的|precautionary]措施。",
-    "impact": "今日主线是企业在贸易摩擦下重新布局全球产能，用预防性[支出|outlay]与[外包|outsourcing]对冲[保护主义|protectionism]风险，同时靠[提升技能|upskill]和人才[派遣|dispatch]抢占热门市场。"
+    "hook": "2026年9月13日，全球资本外流潮与金融[contagion|contagion]风险叠加，令各国监管机构对[e-commerce|e-commerce]平台上的[algorithm|algorithm]定价保持警惕；与此同时，跨境贸易的[fragmentation|fragmentation]迫使企业加速[upskilling|upskilling]，而国际[arbitration|arbitration]案件因数字资产纠纷激增三成，成为今日财经头条。 面对技术人才[大批离去|exodus]的浪潮，企业必须[保持警惕|vigilant]并迅速调整用人策略。",
+    "impact": "今日主线是资本外流与金融[蔓延|contagion]交织下，[电子商务|e-commerce]的[算法|algorithm]治理与[碎片化|fragmentation]供应链的[技能提升|upskilling]、[仲裁|arbitration]需求同步升温，监管层须保持警惕。"
   }
 }

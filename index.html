@@ -995,7 +995,6 @@
         <div class="pv-words" id="pvWords" data-page-node-id="GJNkJLjZNiD1tSAG4M3QXJ"></div>
         <div class="pv-tip" id="pvTip" data-page-node-id="9O4yxonhMGqguMg2EOQXKf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex:none" data-page-node-id="k2MVQ7mfZ2ApsVaAaACGao"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z" data-page-node-id="fjXw3yLNTHz8VItZCAO1A6"/></svg><span data-page-node-id="8P9h1YnysC3bRDS44e9DXz">点击红色单词显示中文并朗读</span></div>
         <div class="pv-hook" id="pvHook" data-page-node-id="0CXHEB7Vi6pA3EN1ZhfL0a"></div>
-        <div class="pv-impact" data-page-node-id="kDSerfFSqtJ3E5za6nL8BE"><span id="pvImpact" data-page-node-id="uUntSHDR5zUVEufADYFfCf"></span></div>
       </div>
       </div>
       <!-- 2 深度学习 -->
@@ -1557,9 +1556,7 @@
     const hookEl = pv.querySelector('#pvHook');
     if(data && data.preview && data.preview.hook){ hookEl.innerHTML = renderStoryEn(data.preview.hook); }
     else { hookEl.textContent=''; }
-    const impactEl = pv.querySelector('#pvImpact');
-    if(data && data.preview && data.preview.impact){ impactEl.innerHTML = renderStoryEn(data.preview.impact); }
-    else { impactEl.textContent=''; }
+    // 2026-09-14：今日主线（impact）板块已按用户要求移除
   }
 
   // ===== 学习追踪：间隔重复(SR) + 连续打卡(streak) + 看板 =====

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-13",
+  "updated_on": "2026-09-14",
   "quote": {
-    "en": "Stay vigilant, stay resilient, and every volatile turn becomes your advantage.",
-    "zh": "保持警惕，保持韧性，每一次剧烈波动都会成为你的优势。"
+    "en": "Learn today, adapt tomorrow, and no shift can stop you.",
+    "zh": "今天学习，明天适应，任何变化都无法阻挡你。"
   },
   "story": {
-    "en": "As leaders gathered for the 18th BRICS summit, a Chinese official told the seventh China-Russia SME forum in Irkutsk that cross-border [e-commerce|e-commerce] is driving an [exodus|exodus] of traditional intermediaries and forcing firms to stay [vigilant|vigilant] against financial [contagion|contagion]. The official cited a new [algorithm|algorithm] platform to reduce market [fragmentation|fragmentation] and promote [upskilling|upskilling] for small exporters. Meanwhile, a Ukrainian official said Kiev is ready for a new trilateral round of talks with the US and Russia in October. At the 2026 Pujiang Innovation Forum in Shanghai, speakers warned that global supply-chain [arbitration|arbitration] disputes are rising. In Beijing, the services trade fair's first public day drew crowds to the Yongding River for a stunning sunset. Looking ahead, all eyes are on next week's Fed decision after Wall Street tore up its rate report, as officials vow to remain vigilant on inflation.",
-    "cn": "金砖国家领导人第十八次会晤举行，习近平发表重要讲话。在中俄中小企业实业论坛上，中方代表指出，跨境[电子商务|e-commerce]正引发传统中间商的[大规模外流|exodus]，企业须保持警惕以防范金融[蔓延|contagion]。他提到新[算法|algorithm]平台有助于减少市场[碎片化|fragmentation]，并推动中小企业[技能提升|upskilling]。乌克兰官员表示，准备10月举行新一轮乌美俄三方谈判。2026浦江创新论坛在沪开幕，与会者警告全球供应链[仲裁|arbitration]争端增多。服贸会首个公众开放日，观众在永定河畔邂逅绝美晚霞。华尔街撕报告，下周美联储加息预期升温，市场保持警惕。 面对不断变化的网络诈骗手段，社区志愿者始终保持[警惕的|vigilant]态度，提醒居民不要轻信陌生来电。"
+    "en": "Global labour markets are shifting as inflation cools and central banks [regulate|regulate] digital hiring platforms. In Europe, unions urged governments to [veto|veto] rules that let firms cut pay for remote staff, while employers push to [reshore|reshore] production and [automate|automate] factory lines. A pilot in Asia offers a monthly [stipend|stipend] to workers who [reskill|reskill] in AI and green energy, aiming to lift [turnover|turnover] at small firms. Officials say [telework|telework] adoption keeps rising, yet weak safeguards may erode trust. Analysts expect more public-private training funds and clearer cross-border standards by year-end.",
+    "cn": "全球通胀降温的背景下，各国央行正加强对数字招聘平台的[监管]([监管|regulate])，以平衡灵活用工与劳动者权益。欧洲工会呼吁政府对削减远程员工薪酬的规则行使[否决权]([否决|veto])，而企业则加快把生产线[回流本土]([回流本土|reshore])并推进[自动化]([使自动化|automate])，以降低供应链风险。\n\n在亚洲，一项试点计划为参加人工智能与绿色能源[再培训]([再培训|reskill])的工人提供每月[津贴]([津贴|stipend])，希望借此降低小企业偏高的[人员流动率]([营业额|turnover])。参与方表示，[远程办公]([远程办公|telework])的普及提升了岗位吸引力，但保障不足仍可能削弱信任。\n\n展望未来，分析人士预计公共与私营部门将设立更多培训基金，并推动跨境用工标准在年底前更清晰。政策制定者需在效率与公平之间找到平衡，让技术转型惠及更多普通劳动者。"
   },
   "words": [
     {
@@ -6767,10 +6767,269 @@
       "t": "2026年9月13日，乌官员称乌克兰准备10月举行新一轮乌美俄三方谈判，谈判破裂后可能诉诸 international arbitration。同日，习近平在金砖会晤中强调多边主义，仲裁机制是解决贸易争端的重要途径。\n职场中，arbitration 也用于劳动纠纷解决。记：arbitration 仲裁 ↔ litigation 诉讼，两者常互为替代。",
       "root": "词根 arbitr(=judge 判断，拉丁 arbiter 仲裁人，同源 arbitrary 任意的) + 后缀 -ation(名词，拉丁) → 由仲裁人判断 → 仲裁、公断",
       "d": "2026-09-13"
+    },
+    {
+      "w": "veto",
+      "ph": "/ˈviːtoʊ/",
+      "m": "v./n. 否决；否决权",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "to reject a proposal or law officially; the power to do so",
+      "defs": [
+        {
+          "cn": "否决；否决权",
+          "en": "the official power to reject a decision or law",
+          "pos": "n."
+        },
+        {
+          "cn": "行使否决权",
+          "en": "to use the power to block a proposal",
+          "pos": "v."
+        },
+        {
+          "cn": "（对计划的）阻止",
+          "en": "to block or forbid a plan or action",
+          "pos": "v."
+        }
+      ],
+      "col": "veto power 否决权 · exercise a veto 行使否决权 · veto a bill 否决法案 · override a veto 推翻否决",
+      "ex": "The president threatened to veto the trade bill if it did not include stronger protections for domestic manufacturers.",
+      "exZh": "总统威胁说，如果贸易法案不包含对本土制造商更强的保护条款，他将予以否决。",
+      "ex2": "Shareholders can veto the merger if more than a third vote against it at the special meeting.",
+      "ex2Zh": "如果超过三分之一的股东在特别会议上投反对票，他们就可以否决这桩合并。",
+      "t": "2026年，美国国会围绕一项涉及半导体出口管制的法案展开激烈辩论，白宫暗示可能动用 veto 权。类似博弈也出现在欧盟对科技巨头的监管立法中。\n职场中，veto 常被借喻为“一票否决”：项目评审时，合规部门对高风险方案拥有 veto 权。记忆点：veto 在拉丁语中意为“我禁止”。",
+      "root": "源自拉丁语 veto（我禁止），是拉丁动词 vetare（禁止）的第一人称形式，同源词包括 veto 本身及古罗马护民官的否决权制度 → 现代引申为否决、否决权",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "reskill",
+      "ph": "/ˌriːˈskɪl/",
+      "m": "v. 再培训；重新学习技能",
+      "c": "work",
+      "pos": "v.",
+      "en": "to teach someone new skills, especially so they can do a different job or adapt to new technology",
+      "defs": [
+        {
+          "cn": "再培训；重新学习技能",
+          "en": "to learn new skills for a different role",
+          "pos": "v."
+        },
+        {
+          "cn": "使（员工）转岗培训",
+          "en": "to train employees for new tasks or roles",
+          "pos": "v."
+        },
+        {
+          "cn": "技能重塑",
+          "en": "the process of updating one's skill set",
+          "pos": "v."
+        }
+      ],
+      "col": "reskill the workforce 对劳动力再培训 · reskill for AI 为适应AI再学习 · government reskilling program 政府再培训计划 · reskill and upskill 再培训与技能提升",
+      "ex": "As automation spreads through factories, the government has launched a program to reskill workers whose jobs are most at risk.",
+      "exZh": "随着自动化在工厂普及，政府启动了一项计划，对岗位风险最高的工人进行再培训。",
+      "ex2": "After a decade in print journalism, he decided to reskill in data analysis and now works for a financial news outlet.",
+      "ex2Zh": "在纸媒工作十年后，他决定重新学习数据分析，如今就职于一家财经新闻机构。",
+      "t": "2026年，经合组织报告指出，AI 与自动化正加速改变就业结构，各国政府和企业纷纷推出 reskill 计划，帮助员工转向数据分析、绿色能源等增长领域。\n职场中，reskill 与 upskill 常被并列：前者是转向新岗位，后者是在原岗位提升。记忆法：re-（重新）+ skill（技能）。",
+      "root": "前缀 re-(再次，拉丁 re，同源 repeat 重复) + 词根 skill(技能，古诺斯语 skil，同源 skilful 熟练的) → 再次学习技能 → 再培训、技能重塑",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "turnover",
+      "ph": "/ˈtɜːrnoʊvər/",
+      "m": "n. 营业额；人员流动率；周转",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the total amount of money a company earns in a period; the rate at which employees leave and are replaced; the rate at which goods are sold",
+      "defs": [
+        {
+          "cn": "营业额；营收",
+          "en": "total sales or revenue in a given period",
+          "pos": "n."
+        },
+        {
+          "cn": "人员流动率",
+          "en": "the rate at which staff leave and are replaced",
+          "pos": "n."
+        },
+        {
+          "cn": "周转率",
+          "en": "the speed at which stock or assets are used",
+          "pos": "n."
+        }
+      ],
+      "col": "annual turnover 年营业额 · staff turnover 员工流动率 · high turnover 高流动率 · inventory turnover 库存周转率",
+      "ex": "The retailer reported a 12% rise in turnover for the first half of the year, helped by strong online sales.",
+      "exZh": "得益于线上销售强劲，该零售商报告上半年营业额增长12%。",
+      "ex2": "High staff turnover in the hospitality sector has pushed many hotels to offer better benefits.",
+      "ex2Zh": "酒店业员工流动率高，促使许多酒店提供更好的福利。",
+      "t": "2026年，多家跨国公司在财报中强调 turnover 增长，同时面临人才流动加剧的挑战。科技行业尤其明显，AI 人才争夺推高了跳槽率。\n职场中，turnover 既可指营收，也可指离职率，需根据上下文判断。记忆：turn over（翻转）→ 资金或人员“翻动”的速度。",
+      "root": "动词短语 turn over(翻转，古英语 turnian 转动 + ofer 越过) + 名词化 → 翻转、周转 → 营业额、人员流动率",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "regulate",
+      "ph": "/ˈreɡjuleɪt/",
+      "m": "监管；管理；调节",
+      "c": "politics",
+      "pos": "v.",
+      "en": "To control or supervise by means of rules and regulations; to adjust for proper functioning.",
+      "defs": [
+        {
+          "cn": "监管",
+          "en": "to supervise and control by rules",
+          "pos": "v."
+        },
+        {
+          "cn": "调节；调整",
+          "en": "to adjust to maintain proper functioning",
+          "pos": "v."
+        },
+        {
+          "cn": "管理；控制",
+          "en": "to govern or direct according to policy",
+          "pos": "v."
+        }
+      ],
+      "col": "regulate the market 监管市场 · regulate emissions 管制排放 · regulate AI 监管人工智能 · tightly regulate 严格监管",
+      "ex": "The EU is drafting legislation to regulate artificial intelligence, aiming to set global standards for safety and transparency.",
+      "exZh": "欧盟正在起草监管人工智能的立法，旨在为安全和透明度设定全球标准。",
+      "ex2": "Central banks regulate the money supply to keep inflation in check and support employment.",
+      "ex2Zh": "央行调节货币供应以控制通胀并支持就业。",
+      "t": "2026年9月，欧盟委员会公布《人工智能法案》实施细则草案，拟对高风险AI系统实施严格监管，要求企业披露训练数据来源并接受第三方审计。美国也在讨论联邦层面的AI监管框架。\n职场中，regulate 常出现在合规岗位：企业需设立专门团队确保业务符合新规。记忆技巧：regulate 与 regular（规则的）同源，核心是“按规则管理”。",
+      "root": "词根 regul-(规则，拉丁 regula，同源 rule 规则、regular 规则的) + 后缀 -ate(动词，表使…) → 使符合规则 → 监管、调节",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "telework",
+      "ph": "/ˈteliwɜːk/",
+      "m": "远程办公；居家办公",
+      "c": "work",
+      "pos": "v./n.",
+      "en": "To work from home or another location outside the office, using telecommunications technology.",
+      "defs": [
+        {
+          "cn": "远程办公",
+          "en": "to work remotely using digital tools",
+          "pos": "v."
+        },
+        {
+          "cn": "居家办公",
+          "en": "working from home instead of an office",
+          "pos": "n."
+        },
+        {
+          "cn": "电子通勤",
+          "en": "commuting via telecommunications",
+          "pos": "n."
+        }
+      ],
+      "col": "telework policy 远程办公政策 · telework arrangement 远程办公安排 · adopt telework 采用远程办公 · hybrid telework 混合远程办公",
+      "ex": "The government updated its telework policy, allowing civil servants to work from home up to three days a week.",
+      "exZh": "政府更新远程办公政策，允许公务员每周最多三天居家办公。",
+      "ex2": "Many firms now offer telework options to attract talent and reduce office costs.",
+      "ex2Zh": "许多公司现在提供远程办公选项，以吸引人才并降低办公成本。",
+      "t": "2026年9月，美国政府更新公务员远程办公政策，允许每周最多三天居家办公，以提升留任率并节省办公开支。与此同时，多家科技公司推行混合办公模式，要求员工每周至少两天到岗。\n职场中，telework 与 remote work 近义，但更强调“利用电信技术”。对比 telecommute（电子通勤），telework 更侧重工作本身而非通勤过程。",
+      "root": "前缀 tele-(远距离，希腊 tele，同源 telephone 电话、television 电视) + 词根 work(工作，古英语 weorc) → 远距离工作 → 远程办公",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "automate",
+      "ph": "/ˈɔːtəmeɪt/",
+      "m": "使自动化",
+      "c": "work",
+      "pos": "v.",
+      "en": "To convert a process to operate automatically by mechanical or electronic means",
+      "defs": [
+        {
+          "cn": "使自动化",
+          "en": "to make a process automatic",
+          "pos": "v."
+        },
+        {
+          "cn": "自动操作",
+          "en": "to operate by automation",
+          "pos": "v."
+        }
+      ],
+      "col": "automate processes (自动化流程) · fully automate (全面自动化) · automate tasks (自动化任务) · automate production (自动化生产)",
+      "ex": "The factory plans to automate 80% of its assembly line by 2027.",
+      "exZh": "该工厂计划到2027年将80%的装配线自动化。",
+      "ex2": "We can automate the data entry to save hours of manual work.",
+      "ex2Zh": "我们可以自动化数据录入，节省数小时的人工工作。",
+      "t": "2026年9月，亚马逊宣布将在其仓库中进一步部署机器人，以自动化分拣和包装流程，预计将提高效率并减少人工成本。\n职场中，automate 常与 AI 一起出现：'AI will automate many routine tasks.' 名词 automation。",
+      "root": "前缀 auto-(自己，希腊，同源 automatic) + 词根 mat(=matos 思考，希腊，同源 mathematics) + 后缀 -e → 自己思考运作 → 使自动化",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "reshore",
+      "ph": "/ˌriːˈʃɔːr/",
+      "m": "(使)回流本土；把生产迁回国内",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to bring manufacturing or business operations back to one's home country; in economic/trade-policy contexts",
+      "defs": [
+        {
+          "cn": "(使)回流本土",
+          "en": "to move production back to the home country",
+          "pos": "v."
+        },
+        {
+          "cn": "回迁生产",
+          "en": "to relocate manufacturing from abroad to domestic sites",
+          "pos": "v."
+        },
+        {
+          "cn": "本土化回流",
+          "en": "the policy-driven return of supply chains homeward",
+          "pos": "n."
+        }
+      ],
+      "col": "reshore production 把生产迁回本土 · reshore supply chains 供应链回流 · reshore jobs 就业岗位回流 · reshore incentives 回流激励",
+      "ex": "Facing higher shipping costs and new industrial subsidies, many European firms now plan to reshore part of their component production.",
+      "exZh": "面对运费上涨和新的产业补贴，许多欧洲企业计划把部分零部件生产迁回本土。",
+      "ex2": "Policymakers hope that reshoring chip capacity will shield the economy from future supply shocks.",
+      "ex2Zh": "政策制定者希望芯片产能回流能让经济免受未来供应冲击。",
+      "t": "在欧美产业政策持续加码的背景下，reshore 已成为跨国企业董事会的关键词：补贴、关税与物流成本叠加，企业重新盘算把产能搬回本土是否划算。\n职场里，供应链岗位常写 'support reshoring projects'；与 offshore（离岸外包）正好相反，一正一反成对记，画面感更强。",
+      "root": "前缀 re-(再、回，拉丁 re，同源 return 返回、recall 召回) + 词根 shore(岸、陆地，古英语 scora，同源 ashore 在岸上) → 回到岸上 → 生产回迁本土",
+      "d": "2026-09-14"
+    },
+    {
+      "w": "stipend",
+      "ph": "/ˈstaɪpend/",
+      "m": "津贴；定期生活补助",
+      "c": "work",
+      "pos": "n.",
+      "en": "a fixed regular sum paid as allowance or salary; used in workplace, training and academic contexts",
+      "defs": [
+        {
+          "cn": "津贴",
+          "en": "a regular fixed allowance for living or training",
+          "pos": "n."
+        },
+        {
+          "cn": "定期补助",
+          "en": "a periodic payment to support study or work",
+          "pos": "n."
+        },
+        {
+          "cn": "薪金",
+          "en": "a fixed salary, often for clergy or officials",
+          "pos": "n."
+        }
+      ],
+      "col": "monthly stipend 月度津贴 · training stipend 培训补助 · stipend package 津贴方案 · receive a stipend 领取津贴",
+      "ex": "To attract mid-career workers into short reskilling courses, several governments now offer a monthly stipend during training.",
+      "exZh": "为吸引职场中期员工参加短期再培训，多国政府如今在培训期间发放月度津贴。",
+      "ex2": "The startup pays interns a modest stipend but covers their commuting costs.",
+      "ex2Zh": "这家初创公司给实习生少量津贴，但报销通勤费用。",
+      "t": "在各国力推技能重塑的当下，stipend 成了政策工具箱里的新宠：政府用培训津贴降低转岗成本，企业用实习津贴抢早期人才。\n日常写作里，stipend 比 salary 更强调'补助、非全额工资'；和 allowance 近义，但 stipend 更正式、更常用于培训与学术场景。",
+      "root": "词根 stip-(压紧、固定，拉丁 stipare，同源 stipulate 规定) + 后缀 -end(名词后缀，拉丁 -endum) → 固定给付的钱 → 定期津贴",
+      "d": "2026-09-14"
     }
   ],
   "preview": {
-    "hook": "2026年9月13日，全球资本外流潮与金融[contagion|contagion]风险叠加，令各国监管机构对[e-commerce|e-commerce]平台上的[algorithm|algorithm]定价保持警惕；与此同时，跨境贸易的[fragmentation|fragmentation]迫使企业加速[upskilling|upskilling]，而国际[arbitration|arbitration]案件因数字资产纠纷激增三成，成为今日财经头条。 面对技术人才[大批离去|exodus]的浪潮，企业必须[保持警惕|vigilant]并迅速调整用人策略。",
-    "impact": "今日主线是资本外流与金融[蔓延|contagion]交织下，[电子商务|e-commerce]的[算法|algorithm]治理与[碎片化|fragmentation]供应链的[技能提升|upskilling]、[仲裁|arbitration]需求同步升温，监管层须保持警惕。"
+    "hook": "2026年9月14日，美国国会以微弱票数未能推翻总统对《数字劳动力转型法案》的[veto|veto]，该法案原拟拨款资助制造业工人[reskill|reskill]并鼓励企业将海外产线[reshore|reshore]；同日，劳工统计局数据显示，因[telework|telework]普及与工厂加速自动化，科技业年度[turnover|turnover]升至18%，而联邦机构正酝酿新规以[regulate|regulate]平台经济中按单计酬的[stipend|stipend]发放标准。 工厂引入机器人来[automate|automate]生产线后，效率大幅提升。",
+    "impact": ""
   }
 }

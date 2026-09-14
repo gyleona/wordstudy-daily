@@ -4658,6 +4658,9 @@ def build_clean_hook(hook, words):
 
 
     marked, _ = _mark_text(hook, words, use_english_display=True)
+    # 确定性兜底（2026-09-14）：快闪设计=英文原词显示，任何中文显示标记一律还原 [base|base]
+    marked = re.sub(r"\[([^\]|]+)\|([^\]]+)\]",
+                    lambda _m: "[" + _m.group(2) + "|" + _m.group(2) + "]", marked)
 
 
 
@@ -12595,6 +12598,11 @@ def main():
 
 
 
+
+    # 2026-09-14 用户决定移除"今日主线"（impact）板块：最终输出统一置空，页面不再渲染。
+    # 生成链路内部仍可生成用于覆盖校验，但出厂数据不含 impact。
+    if isinstance(output.get("preview"), dict):
+        output["preview"]["impact"] = ""
 
     # ===== 每日出厂质检（2026-09-08 稳定三件套①）：确定性体检，可洗则洗，story.cn 混英文则重生成一次 =====
     def _qc_strip_marks(t):

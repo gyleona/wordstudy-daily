@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-14",
+  "updated_on": "2026-09-15",
   "quote": {
-    "en": "Learn today, adapt tomorrow, and no shift can stop you.",
-    "zh": "今天学习，明天适应，任何变化都无法阻挡你。"
+    "en": "Steady hands turn tight cycles into lasting trust.",
+    "zh": "稳健之手，能把紧绷的账期变成持久的信任。"
   },
   "story": {
-    "en": "Global labour markets are shifting as inflation cools and central banks [regulate|regulate] digital hiring platforms. In Europe, unions urged governments to [veto|veto] rules that let firms cut pay for remote staff, while employers push to [reshore|reshore] production and [automate|automate] factory lines. A pilot in Asia offers a monthly [stipend|stipend] to workers who [reskill|reskill] in AI and green energy, aiming to lift [turnover|turnover] at small firms. Officials say [telework|telework] adoption keeps rising, yet weak safeguards may erode trust. Analysts expect more public-private training funds and clearer cross-border standards by year-end.",
-    "cn": "全球通胀降温的背景下，各国央行正加强对数字招聘平台的[监管]([监管|regulate])，以平衡灵活用工与劳动者权益。欧洲工会呼吁政府对削减远程员工薪酬的规则行使[否决权]([否决|veto])，而企业则加快把生产线[回流本土]([回流本土|reshore])并推进[自动化]([使自动化|automate])，以降低供应链风险。\n\n在亚洲，一项试点计划为参加人工智能与绿色能源[再培训]([再培训|reskill])的工人提供每月[津贴]([津贴|stipend])，希望借此降低小企业偏高的[人员流动率]([营业额|turnover])。参与方表示，[远程办公]([远程办公|telework])的普及提升了岗位吸引力，但保障不足仍可能削弱信任。\n\n展望未来，分析人士预计公共与私营部门将设立更多培训基金，并推动跨境用工标准在年底前更清晰。政策制定者需在效率与公平之间找到平衡，让技术转型惠及更多普通劳动者。"
+    "en": "On September 15, 2026, China's diplomacy and economic governance converged on multiple fronts, from BRICS cooperation to a landmark [payment|payment] directive for small firms. President Xi Jinping guided \"Greater BRICS\" practical cooperation, while Foreign Minister Wang Yi spoke with French and Latvian counterparts. In a move to [reshape|reshape] corporate cash flows, five Chinese ministries and the CSRC urged listed firms to shorten payment cycles and promptly settle dues owed to SMEs. This follows a push to [revenue|revenue] stability, with the CSRC aiming to [reimburse|reimburse] small businesses faster — a direct response to chronic delays. Meanwhile, Japan's PM Sanae Takaichi will [reshuffle|reshuffle] her cabinet on September 17, signaling a political reset. Tensions [intensify|intensify] as the U.S. Space Force confirmed deploying dual-use orbital weapons, raising global [surveillance|surveillance] concerns. To [stimulate|stimulate] growth, BRICS trade ministers deepened economic ties, focusing on resilience. Markets watch closely: the Dow fell on September 14, yet Fed rate-hike odds soared, with some analysts seeing a \"bad news exhausted\" rally. Looking ahead, Beijing's dual approach — tightening oversight and easing corporate burdens — aims to steady an uncertain global landscape.",
+    "cn": "中国外交与经济治理多线并进。习近平主席指引“大金砖”筑牢务实合作根基，王毅同法国、拉脱维亚外长通电话，金砖经贸合作持续深化，着眼增长与韧性。五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付中小企业[付款|payment]，旨在[重塑|reshape]企业现金流，保障营收稳定，并加速[报销|reimburse]中小企业款项，缓解长期拖欠问题。日本首相高市早苗将于17日[改组|reshuffle]内阁，释放政治重置信号。美国太空军首次确认在轨部署“攻防两用”武器，全球[监控|surveillance]担忧[加剧|intensify]。为[刺激|stimulate]增长，金砖贸易部长深化经济联系，聚焦韧性。市场方面，纽约股市14日下跌，但美联储加息概率飙升，有分析称利空出尽反弹。展望未来，中国[加剧|intensify]监督与减轻企业负担并举，以应对不确定的全球格局。 随着公司[收入|revenue]的稳步增长，管理层决定将更多资金投入到新市场的开拓中。"
   },
   "words": [
     {
@@ -7026,10 +7026,274 @@
       "t": "在各国力推技能重塑的当下，stipend 成了政策工具箱里的新宠：政府用培训津贴降低转岗成本，企业用实习津贴抢早期人才。\n日常写作里，stipend 比 salary 更强调'补助、非全额工资'；和 allowance 近义，但 stipend 更正式、更常用于培训与学术场景。",
       "root": "词根 stip-(压紧、固定，拉丁 stipare，同源 stipulate 规定) + 后缀 -end(名词后缀，拉丁 -endum) → 固定给付的钱 → 定期津贴",
       "d": "2026-09-14"
+    },
+    {
+      "w": "payment",
+      "ph": "/ˈpeɪmənt/",
+      "m": "付款；支付款项；报酬",
+      "c": "econ",
+      "pos": "n.",
+      "en": "money paid, or the act of paying; often used in trade, contracts, and cash-flow contexts",
+      "defs": [
+        {
+          "cn": "付款；支付",
+          "en": "the act of paying money for goods or services",
+          "pos": "n."
+        },
+        {
+          "cn": "款项；报酬",
+          "en": "an amount of money paid to someone",
+          "pos": "n."
+        },
+        {
+          "cn": "回款；账期支付",
+          "en": "settlement of invoices in business cash flow",
+          "pos": "n."
+        }
+      ],
+      "col": "payment terms 付款条件 · prompt payment 及时付款 · overdue payment 逾期付款 · payment cycle 付款周期",
+      "ex": "Five Chinese ministries moved to fix late payment problems for small firms, urging listed companies to shorten payment cycles.",
+      "exZh": "中国五部门出手治理中小企业回款难，督促上市公司压缩付款周期。",
+      "ex2": "Freelancers often chase payment for weeks after delivering a project to a large client.",
+      "ex2Zh": "自由职业者交付项目后，常要花数周向大客户催收款项。",
+      "t": "五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付中小企业款项，payment 直接关系到中小企业的现金流生死线。\n日常里你跟客户谈 payment terms，谈的其实不只是钱，而是谁承担资金占用风险。",
+      "root": "词根 pay(支付，拉丁 pacare 使满意，同源 pacify 安抚) + 后缀 -ment(名词化，拉丁 -mentum，同源 movement) → 使对方满意的行为 → 付款、款项",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "reshape",
+      "ph": "/ˌriːˈʃeɪp/",
+      "m": "重塑；改组；重新塑造",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to change the structure or form of something; often used for cabinets, industries, or strategies",
+      "defs": [
+        {
+          "cn": "重塑；重新塑造",
+          "en": "to give a new shape or form to something",
+          "pos": "v."
+        },
+        {
+          "cn": "改组（内阁/团队）",
+          "en": "to reorganize a cabinet or team",
+          "pos": "v."
+        },
+        {
+          "cn": "改变格局",
+          "en": "to fundamentally alter a landscape or structure",
+          "pos": "v."
+        }
+      ],
+      "col": "reshape the cabinet 改组内阁 · reshape policy 重塑政策 · reshape an industry 重塑行业 · reshape expectations 重塑预期",
+      "ex": "Japan's Prime Minister Sanae Takaichi will reshape her cabinet on the 17th, a move watched closely by markets.",
+      "exZh": "日本首相高市早苗将于17日改组内阁，市场密切关注此举。",
+      "ex2": "Automation continues to reshape how finance teams handle routine reconciliation work.",
+      "ex2Zh": "自动化持续重塑财务团队处理日常对账工作的方式。",
+      "t": "日本首相高市早苗将于17日改组内阁，reshape 一字点出人事与政策优先级的同步调整，市场关心财政与产业政策是否转向。\n公司里季度调整组织架构也叫 reshape，关键不是换人，而是把资源和责任重新对齐。",
+      "root": "前缀 re-(再、重新，拉丁 re，同源 rebuild 重建) + 词根 shape(形状，古英语 sceap，同源 shapely 匀称的) → 重新塑形 → 重塑、改组",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "revenue",
+      "ph": "/ˈrevənjuː/",
+      "m": "收入；营收；税收",
+      "c": "econ",
+      "pos": "n.",
+      "en": "income from business or taxation; a key metric in corporate and government finance",
+      "defs": [
+        {
+          "cn": "收入；营收",
+          "en": "money a company receives from its business",
+          "pos": "n."
+        },
+        {
+          "cn": "税收；财政收入",
+          "en": "government income from taxes",
+          "pos": "n."
+        },
+        {
+          "cn": "收益来源",
+          "en": "a source of regular income",
+          "pos": "n."
+        }
+      ],
+      "col": "revenue growth 营收增长 · tax revenue 税收 · revenue stream 收入来源 · annual revenue 年度营收",
+      "ex": "Investors are watching whether BRICS trade deepening can lift corporate revenue across member economies.",
+      "exZh": "投资者正关注金砖贸易深化能否提振成员国企业的营收。",
+      "ex2": "The startup doubled its revenue after shifting to a subscription model.",
+      "ex2Zh": "这家初创公司转向订阅模式后营收翻倍。",
+      "t": "纽约股市三大股指14日下跌，市场对企业 revenue 的预期更敏感，任何增长放缓都会被迅速定价。\n个人层面也讲 revenue：副业、稿费、利息都是你的 revenue stream，多一条线就多一层安全垫。",
+      "root": "前缀 re-(回，拉丁 re，同源 return 返回) + 词根 ven(来，拉丁 venire，同源 advent 到来) + 后缀 -ue(名词化，法语) → 回来的东西 → 收入、营收",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "reimburse",
+      "ph": "/ˌriːɪmˈbɜːrs/",
+      "m": "v. 报销；偿付（款项）",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to pay money back to someone for costs they have already incurred, esp. in business/finance contexts",
+      "defs": [
+        {
+          "cn": "报销；偿付",
+          "en": "to pay back money that someone has already spent",
+          "pos": "v."
+        },
+        {
+          "cn": "补偿；退还",
+          "en": "to compensate a person or entity for a loss or expense",
+          "pos": "v."
+        },
+        {
+          "cn": "（名词）报销款",
+          "en": "money paid back, often as a noun in accounting",
+          "pos": "n."
+        }
+      ],
+      "col": "reimburse expenses 报销费用 · reimburse the cost 偿付成本 · fully reimburse 全额报销 · reimburse sb for sth 就某事向某人偿付",
+      "ex": "Five Chinese ministries have moved to help small firms get paid on time, pushing listed companies to shorten payment cycles and reimburse smaller suppliers faster.",
+      "exZh": "中国五部门出手治理中小企业回款难，推动上市公司缩短账期，更快向小供应商偿付欠款。",
+      "ex2": "Under the new policy, companies that delay payments to SMEs may have to reimburse them with interest, which could reshape cash-flow management across supply chains.",
+      "ex2Zh": "根据新政策，拖延支付中小企业款项的公司可能须连本带息偿付，这将重塑整个供应链的现金流管理。",
+      "t": "五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付中小企业款项，核心就是让大企业尽快 reimburse 小供应商，缓解其现金流压力。\n职场里也一样：出差垫付后要 reimburse，财务流程越快，员工体验越好。与 repay 相比，reimburse 更强调“先垫后还”。",
+      "root": "前缀 re-(回、再，拉丁，同源 return 返回、recover 收回) + 词根 burs(=purse 钱袋，拉丁，同源 bursar 财务主管) → 把钱重新放回钱袋 → 报销、偿付",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "reshuffle",
+      "ph": "/ˌriːˈʃʌfl/",
+      "m": "v./n. 改组；重新洗牌",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "to change the positions of people or things, esp. a cabinet or team; a reorganization in politics or business",
+      "defs": [
+        {
+          "cn": "改组（内阁、团队）",
+          "en": "to change the members or roles in a group, esp. a government",
+          "pos": "v."
+        },
+        {
+          "cn": "重新洗牌；重新安排",
+          "en": "to rearrange things in a new order",
+          "pos": "v."
+        },
+        {
+          "cn": "人事改组",
+          "en": "an act of reorganizing personnel or structure",
+          "pos": "n."
+        }
+      ],
+      "col": "cabinet reshuffle 内阁改组 · reshuffle the deck 重新洗牌 · management reshuffle 管理层改组 · reshuffle portfolios 重新分配投资组合",
+      "ex": "Japanese Prime Minister Takaichi is set to reshuffle her cabinet on the 17th, a move that markets will watch for signals on fiscal and trade policy.",
+      "exZh": "日本首相高市早苗将于17日改组内阁，市场将从中观察财政与贸易政策信号。",
+      "ex2": "After the earnings miss, the board decided to reshuffle the executive team, hoping a fresh lineup would restore investor confidence.",
+      "ex2Zh": "业绩不及预期后，董事会决定改组高管团队，希望新阵容能重振投资者信心。",
+      "t": "日本首相高市早苗将于17日改组内阁，这一 reshuffle 牵动市场对日本财政与贸易政策的预期，投资者密切关注新班子的政策倾向。\n职场里，部门 reshuffle 常伴随汇报线调整；与 restructure 相比，reshuffle 更侧重人员位置的重新排列，未必改变架构本身。",
+      "root": "前缀 re-(再、重新，拉丁，同源 rebuild 重建) + 词根 shuffle(洗牌，古英语 scufan 推，同源 shove 推) → 重新洗牌 → 改组、重新安排",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "intensify",
+      "ph": "/ɪnˈtensɪfaɪ/",
+      "m": "v. 加剧；强化；增强",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to become stronger or more serious; to make something stronger, esp. in economic or political contexts",
+      "defs": [
+        {
+          "cn": "加剧；激化",
+          "en": "to become more severe or intense, often of conflicts",
+          "pos": "v."
+        },
+        {
+          "cn": "强化；增强",
+          "en": "to make something stronger or more effective",
+          "pos": "v."
+        },
+        {
+          "cn": "（使）更加频繁",
+          "en": "to increase the frequency or degree of an action",
+          "pos": "v."
+        }
+      ],
+      "col": "intensify efforts 加大力度 · intensify competition 加剧竞争 · intensify pressure 加大压力 · intensify cooperation 深化合作",
+      "ex": "As BRICS trade and economic cooperation deepens, China is seeking to intensify pragmatic ties with member states to bolster growth and resilience.",
+      "exZh": "随着金砖经贸合作持续深化，中国寻求强化与成员国的务实联系，以增强增长与韧性。",
+      "ex2": "The central bank may intensify its scrutiny of payment cycles if smaller firms continue to report cash-flow strain.",
+      "ex2Zh": "若中小企业继续反映现金流紧张，央行可能强化对账期的审查。",
+      "t": "金砖经贸合作持续深化，中国着眼增长与韧性，力求 intensify 与成员国的务实合作，在上合到金砖的外交布局中稳住节奏。\n日常里，deadline 临近时压力会 intensify；与 strengthen 相比，intensify 更强调程度上的“变强、变烈”，常与竞争、压力搭配。",
+      "root": "前缀 in-(使、向内，拉丁，同源 inflame 点燃) + 词根 tens(拉紧，拉丁 tendere，同源 tension 张力) + 后缀 -ify(使…，拉丁 facere 做) → 使拉紧 → 加剧、强化",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "surveillance",
+      "ph": "/sərˈveɪləns/",
+      "m": "n. 监控；监视",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the careful watching of a person or place, esp. by authorities or technology; close observation",
+      "defs": [
+        {
+          "cn": "监控；监视",
+          "en": "the act of watching someone or something closely",
+          "pos": "n."
+        },
+        {
+          "cn": "监管；盯防",
+          "en": "close supervision, often by governments or firms",
+          "pos": "n."
+        },
+        {
+          "cn": "（技术）监测系统",
+          "en": "a system or technology used for monitoring",
+          "pos": "n."
+        }
+      ],
+      "col": "under surveillance 处于监控之下 · surveillance system 监控系统 · cyber surveillance 网络监控 · tighten surveillance 加强监控",
+      "ex": "Sichuan launched its 2026 National Cybersecurity Week, highlighting how surveillance technologies and data protection are becoming central to public policy.",
+      "exZh": "四川启动2026年国家网络安全宣传周，凸显监控技术与数据保护正成为公共政策核心。",
+      "ex2": "The US Space Force confirmed it has deployed dual-use weapons in orbit, raising questions about space surveillance and the risk of an arms race.",
+      "ex2Zh": "美国太空军确认已在轨道部署“攻防两用”武器，引发对太空监控与军备竞赛风险的质疑。",
+      "t": "四川2026年国家网络安全宣传周启动，surveillance 技术与数据保护成为焦点；与此同时，美国太空军称已在轨道部署“攻防两用”武器，太空监控引发关注。\n职场中，公司对员工网络行为的 surveillance 常引发隐私争议；与 monitoring 相比，surveillance 更带“持续盯防”的意味，语气更重。",
+      "root": "前缀 sur-(在上、超过，法语，同源 surface 表面) + 词根 veill(=vigil 看、守夜，拉丁 vigilare，同源 vigil 守夜) + 后缀 -ance(名词，拉丁 -antia) → 从上方看着 → 监控、监视",
+      "d": "2026-09-15"
+    },
+    {
+      "w": "stimulate",
+      "ph": "/ˈstɪmjuleɪt/",
+      "m": "v. 刺激；促进；激励",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to encourage growth or activity; to make something more active, esp. in economic or policy contexts",
+      "defs": [
+        {
+          "cn": "刺激；促进",
+          "en": "to encourage economic or business activity",
+          "pos": "v."
+        },
+        {
+          "cn": "激励；激发",
+          "en": "to make someone feel interested and eager",
+          "pos": "v."
+        },
+        {
+          "cn": "（生理）刺激",
+          "en": "to cause a physical or biological response",
+          "pos": "v."
+        }
+      ],
+      "col": "stimulate demand 刺激需求 · stimulate growth 促进增长 · stimulate the economy 刺激经济 · stimulate investment 激励投资",
+      "ex": "Beijing's five-department push to shorten payment cycles aims to stimulate cash flow for small and medium enterprises, a key engine of employment.",
+      "exZh": "北京五部门推动缩短账期，旨在刺激中小企业现金流，而中小企业是就业的关键引擎。",
+      "ex2": "The Fed's rate-cut expectations could stimulate borrowing, but markets remain cautious after the three major New York indexes fell on the 14th.",
+      "ex2Zh": "美联储降息预期可能刺激借贷，但纽约三大股指14日下跌后，市场仍保持谨慎。",
+      "t": "五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付，意在 stimulate 中小企业现金流，稳住就业基本盘。\n职场里，一个好的 leader 会 stimulate 团队士气；与 encourage 相比，stimulate 更强调“从外部注入动力”，常用于经济、需求、投资等搭配。",
+      "root": "词根 stimul(=sting 刺、激励，拉丁 stimulare，同源 stimulus 刺激物) + 后缀 -ate(动词，拉丁 -atus) → 用刺棒驱赶 → 刺激、促进",
+      "d": "2026-09-15"
     }
   ],
   "preview": {
-    "hook": "美国国会以微弱票数未能推翻总统对《数字劳动力转型法案》的[veto|veto]，该法案原拟拨款资助制造业工人[reskill|reskill]并鼓励企业将海外产线[reshore|reshore]；同日，劳工统计局数据显示，因[telework|telework]普及与工厂加速自动化，科技业年度[turnover|turnover]升至18%，而联邦机构正酝酿新规以[regulate|regulate]平台经济中按单计酬的[stipend|stipend]发放标准。 工厂引入机器人来[automate|automate]生产线后，效率大幅提升。",
+    "hook": "欧盟数字支付新规正式落地，要求所有跨境[payment|payment]平台对商户[revenue|revenue]进行实时申报，此举将[reshape|reshape]欧洲电商与零工经济的结算格局；与此同时，平台需在30天内向用户[reimburse|reimburse]因系统故障产生的滞纳金，并允许各国[surveillance|surveillance]机构对高风险账户[intensify|intensify]审查，这轮监管[reshuffle|reshuffle]还赋予央行更大权限，对日均交易超1万欧元的账户实施持续[surveillance|surveillance]，以防范洗钱与逃税，而业内普遍担忧合规成本上升会抑制创新，因此多国正考虑推出[revenue|revenue]减免以[stimulate|stimulate]中小企业接入新系统。",
     "impact": ""
   }
 }

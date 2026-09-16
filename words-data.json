@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-15",
+  "updated_on": "2026-09-16",
   "quote": {
-    "en": "Steady hands turn tight cycles into lasting trust.",
-    "zh": "稳健之手，能把紧绷的账期变成持久的信任。"
+    "en": "Recalibrate your skills, and no market shift can stall you.",
+    "zh": "重新校准你的技能，任何市场变动都无法让你停滞。"
   },
   "story": {
-    "en": "On September 15, 2026, China's diplomacy and economic governance converged on multiple fronts, from BRICS cooperation to a landmark [payment|payment] directive for small firms. President Xi Jinping guided \"Greater BRICS\" practical cooperation, while Foreign Minister Wang Yi spoke with French and Latvian counterparts. In a move to [reshape|reshape] corporate cash flows, five Chinese ministries and the CSRC urged listed firms to shorten payment cycles and promptly settle dues owed to SMEs. This follows a push to [revenue|revenue] stability, with the CSRC aiming to [reimburse|reimburse] small businesses faster — a direct response to chronic delays. Meanwhile, Japan's PM Sanae Takaichi will [reshuffle|reshuffle] her cabinet on September 17, signaling a political reset. Tensions [intensify|intensify] as the U.S. Space Force confirmed deploying dual-use orbital weapons, raising global [surveillance|surveillance] concerns. To [stimulate|stimulate] growth, BRICS trade ministers deepened economic ties, focusing on resilience. Markets watch closely: the Dow fell on September 14, yet Fed rate-hike odds soared, with some analysts seeing a \"bad news exhausted\" rally. Looking ahead, Beijing's dual approach — tightening oversight and easing corporate burdens — aims to steady an uncertain global landscape.",
-    "cn": "中国外交与经济治理多线并进。习近平主席指引“大金砖”筑牢务实合作根基，王毅同法国、拉脱维亚外长通电话，金砖经贸合作持续深化，着眼增长与韧性。五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付中小企业[付款|payment]，旨在[重塑|reshape]企业现金流，保障营收稳定，并加速[报销|reimburse]中小企业款项，缓解长期拖欠问题。日本首相高市早苗将于17日[改组|reshuffle]内阁，释放政治重置信号。美国太空军首次确认在轨部署“攻防两用”武器，全球[监控|surveillance]担忧[加剧|intensify]。为[刺激|stimulate]增长，金砖贸易部长深化经济联系，聚焦韧性。市场方面，纽约股市14日下跌，但美联储加息概率飙升，有分析称利空出尽反弹。展望未来，中国[加剧|intensify]监督与减轻企业负担并举，以应对不确定的全球格局。 随着公司[收入|revenue]的稳步增长，管理层决定将更多资金投入到新市场的开拓中。"
+    "en": "China's push for [multilateralism|multilateralism] took center stage as Beijing hosted the Xiangshan Forum and responded to AI 'slowdown' claims, advocating [multilateral|multilateral] cooperation. Meanwhile, the nationwide rollout of a [multinational|multinational] [treasury|treasury] policy aims to benefit more market entities, signaling a [tailwind|tailwind] for cross-border capital pooling. In August, the economy showed stable progress with new growth drivers, and real estate transactions stabilized as second-hand home sales outpaced new homes for months. Separately, rising [automation|automation] in financial services is reshaping [brokerage|brokerage] operations, while broader [prosperity|prosperity] depends on these reforms. Looking ahead, the BRICS cooperation and the upcoming East Expo in Nanning will further test these trends.",
+    "cn": "中国回应AI“放缓论”倡[多边主义|multilateralism]，学者指中美AI合作需剥离战略竞争。与此同时，[跨国公司 · adj. 跨国的|multinational][资金池|treasury]池政策全国推广，惠及更多经营主体，为跨境资本流动带来[顺风|tailwind]。8月国民经济运行稳中向优，“三稳两快”特点鲜明，新动能支撑力凸显；房地产交易总量趋于稳定，二手房网签面积连续多月高于新房销售面积。此外，金融服务业[自动化|automation]正在重塑[（证券）经纪业务|brokerage]运营，而更广泛的[繁荣、兴旺|prosperity]取决于这些改革。展望未来，金砖国家合作增效和即将在南宁举办的第23届东博会，将进一步检验多边合作趋势。 在应对气候变化这一全球性挑战时，各国越来越意识到只有坚持[多边的|multilateral]合作原则，才能实现共赢。"
   },
   "words": [
     {
@@ -7290,10 +7290,274 @@
       "t": "五部门出手治理中小企业回款难，证监会引导上市公司压缩账期、及时支付，意在 stimulate 中小企业现金流，稳住就业基本盘。\n职场里，一个好的 leader 会 stimulate 团队士气；与 encourage 相比，stimulate 更强调“从外部注入动力”，常用于经济、需求、投资等搭配。",
       "root": "词根 stimul(=sting 刺、激励，拉丁 stimulare，同源 stimulus 刺激物) + 后缀 -ate(动词，拉丁 -atus) → 用刺棒驱赶 → 刺激、促进",
       "d": "2026-09-15"
+    },
+    {
+      "w": "multilateral",
+      "ph": "/ˌmʌltiˈlætərəl/",
+      "m": "多边的；多国参与的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "involving three or more parties, countries, or organizations; multi-sided, esp. in diplomacy or trade",
+      "defs": [
+        {
+          "cn": "多边的",
+          "en": "involving several countries or parties",
+          "pos": "adj."
+        },
+        {
+          "cn": "多国参与的",
+          "en": "participated in by multiple nations",
+          "pos": "adj."
+        },
+        {
+          "cn": "多方面的",
+          "en": "having many sides or aspects",
+          "pos": "adj."
+        }
+      ],
+      "col": "multilateral talks 多边会谈 · multilateral cooperation 多边合作 · multilateral institutions 多边机构",
+      "ex": "China responded to the AI 'slowdown' narrative by advocating multilateralism, while scholars said Sino-U.S. AI cooperation needs to be separated from strategic competition.",
+      "exZh": "中国回应AI“放缓论”倡导多边主义，学者指中美AI合作需剥离战略竞争。",
+      "ex2": "BRICS members pledged to strengthen multilateral cooperation to empower the Global South's common development.",
+      "ex2Zh": "金砖国家承诺加强多边合作，赋能全球南方共同发展。",
+      "t": "中国回应AI“放缓论”时倡导 multilateralism，学者指中美AI合作需剥离战略竞争；金砖国家合作也被定位为推动全球南方共同发展的 multilateral 平台。\n对比记忆：multilateral 多边 ↔ bilateral 双边，贸易谈判中常成对出现。",
+      "root": "前缀 multi-(多，拉丁 multus，同源 multiple 多样的) + 词根 later-(边，拉丁 latus，同源 lateral 侧面的) + 后缀 -al(形容词) → 多边的",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "multilateralism",
+      "ph": "/ˌmʌltiˈlætərəlɪzəm/",
+      "m": "多边主义；多边合作机制",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the principle of involving several countries or parties in trade, diplomacy or governance",
+      "defs": [
+        {
+          "cn": "多边主义",
+          "en": "cooperation among multiple countries or parties",
+          "pos": "n."
+        },
+        {
+          "cn": "多边机制",
+          "en": "institutions or frameworks involving several states",
+          "pos": "n."
+        },
+        {
+          "cn": "多边协商原则",
+          "en": "the practice of deciding issues jointly among many parties",
+          "pos": "n."
+        }
+      ],
+      "col": "uphold multilateralism 坚持多边主义 · champion multilateralism 倡导多边主义 · multilateral trade rules 多边贸易规则 · multilateral cooperation 多边合作",
+      "ex": "China responded to the debate over slowing AI progress by advocating multilateralism, while scholars argued Sino-US AI cooperation should be separated from strategic competition.",
+      "exZh": "中国回应AI『放缓论』时倡导多边主义，学者指中美AI合作需剥离战略竞争。",
+      "ex2": "BRICS members pledged to boost cooperation and empower the Global South through stronger multilateralism.",
+      "ex2Zh": "金砖国家承诺加强合作，通过更有力的多边主义赋能全球南方。",
+      "t": "金砖国家推动合作增效、赋能全球南方共同发展，中国回应AI『放缓论』时也倡导 multilateralism，学者指中美AI合作需剥离战略竞争。\n对比记忆：multilateralism 多边 ↔ unilateralism 单边、bilateralism 双边——三个词一起记，立场一目了然。",
+      "root": "前缀 multi-(多，拉丁 multus，同源 multiple/multitude) + 词根 later-(=side 边，拉丁 latus，同源 lateral/bilateral) + 后缀 -ism(主义，希腊→拉丁) → 多方一边 → 多边主义",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "automation",
+      "ph": "/ˌɔːtəˈmeɪʃn/",
+      "m": "自动化；自动运行技术",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the use of machines or software to do tasks without human input, esp. in industry/workplace contexts",
+      "defs": [
+        {
+          "cn": "自动化",
+          "en": "operation by machines without human control",
+          "pos": "n."
+        },
+        {
+          "cn": "自动化技术",
+          "en": "technology enabling automatic processes",
+          "pos": "n."
+        },
+        {
+          "cn": "流程自动化",
+          "en": "making workflows run automatically",
+          "pos": "n."
+        }
+      ],
+      "col": "factory automation 工厂自动化 · office automation 办公自动化 · automation tools 自动化工具 · automation risk 自动化风险",
+      "ex": "Chinese officials pushed back on the idea that AI progress is slowing, as firms deepen automation across manufacturing and services.",
+      "exZh": "中国官员反驳AI进展放缓的说法，企业正深化制造与服务领域的自动化。",
+      "ex2": "Warehouse automation has cut order-processing times, but it also forces workers into upskilling programmes.",
+      "ex2Zh": "仓库自动化缩短了订单处理时间，但也迫使工人参加技能提升项目。",
+      "t": "中国回应AI『放缓论』、倡导多边主义，企业则在制造与服务环节深化 automation，把AI嵌入日常流程。\n对比记忆：automation 自动化 ↔ manual work 手工操作；它既省成本，也把 upskilling 推上台面。",
+      "root": "词根 auto-(自己，希腊 autos，同源 automatic/autonomy) + 词根 mat-(=行动、思考，希腊 -matos，同源 automaton) + 后缀 -ion(名词化) → 自己动起来 → 自动化",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "tailwind",
+      "ph": "/ˈteɪlwɪnd/",
+      "m": "n. 顺风；有利因素",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a wind blowing from behind; a factor that helps progress, often used for economic or policy support",
+      "defs": [
+        {
+          "cn": "顺风",
+          "en": "a wind blowing in the same direction as travel",
+          "pos": "n."
+        },
+        {
+          "cn": "有利因素；助力",
+          "en": "a factor that helps progress or growth",
+          "pos": "n."
+        },
+        {
+          "cn": "政策顺风",
+          "en": "policy support that boosts an economy or sector",
+          "pos": "n."
+        }
+      ],
+      "col": "a tailwind for growth 增长顺风 · policy tailwinds 政策助力 · enjoy tailwinds 享受顺风 · tailwinds from AI AI带来的顺风",
+      "ex": "The nationwide rollout of the corporate treasury-pooling scheme acts as a tailwind for multinationals seeking more efficient cross-border cash management.",
+      "exZh": "企业资金池政策全国推广，为寻求更高效跨境现金管理的跨国公司带来顺风。",
+      "ex2": "Strong export demand and a weaker currency provided a tailwind for manufacturers in the second quarter.",
+      "ex2Zh": "强劲的出口需求和走弱的本币为二季度制造商提供了顺风。",
+      "t": "8月国民经济“稳中向优”，新动能支撑力凸显，消费与高端制造成为增长 tailwind，与房地产调整形成的逆风形成对冲。\n记忆法：tailwind 是飞机起降时背后的风，帮你加速；职场里遇到政策或技术红利，也可以说 we have a tailwind，顺势而为。",
+      "root": "tail（尾部、后方，古英语 tægl，同源 tailor 原指裁尾者） + wind（风，古英语 wind） → 从背后吹来的风 → 引申为推动前进的“顺风、有利因素”，与 headwind 逆风相对。",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "multinational",
+      "ph": "/ˌmʌltiˈnæʃnəl/",
+      "m": "n. 跨国公司 · adj. 跨国的",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a company operating in several countries; involving several countries (in business/economics contexts)",
+      "defs": [
+        {
+          "cn": "跨国公司",
+          "en": "a company that operates in many countries",
+          "pos": "n."
+        },
+        {
+          "cn": "跨国的",
+          "en": "involving or relating to several countries",
+          "pos": "adj."
+        },
+        {
+          "cn": "多国经营的",
+          "en": "operating across national borders",
+          "pos": "adj."
+        }
+      ],
+      "col": "multinational corporation 跨国公司 · multinational operations 跨国经营 · a multinational workforce 多国员工队伍 · multinational firms 跨国企业",
+      "ex": "The nationwide rollout of the corporate treasury-pooling policy is expected to benefit multinationals managing cash across borders.",
+      "exZh": "企业资金池政策全国推广，预计将惠及跨境管理现金的跨国公司。",
+      "ex2": "Multinational employers are redesigning mobility packages as remote work blurs the line between home and host country.",
+      "ex2Zh": "随着远程办公模糊母国与东道国界限，跨国雇主正重新设计外派方案。",
+      "t": "跨国公司资金池政策全国推广，惠及更多经营主体，multinational 可将境内外资金统一归集，降低融资成本，提升资金使用效率。\n职场语境：multinational 的岗位常强调 cross-cultural communication（跨文化沟通）；与 domestic firm（本土企业）相对，形成“跨国 vs 本土”的对照记忆。",
+      "root": "前缀 multi-（多，拉丁 multus，同源 multiple 多重的、multitude 众多） + 词根 nation（民族、国家，拉丁 natio，同源 native 本地的） + 后缀 -al（形容词后缀） → 多国经营的 → 跨国公司。",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "treasury",
+      "ph": "/ˈtreʒəri/",
+      "m": "n. 资金池；国库；财政部",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the funds or department managing money; a government department in charge of finance (in corporate/government contexts)",
+      "defs": [
+        {
+          "cn": "资金；金库",
+          "en": "a place where funds are kept and managed",
+          "pos": "n."
+        },
+        {
+          "cn": "财政部；国库",
+          "en": "a government department that manages public money",
+          "pos": "n."
+        },
+        {
+          "cn": "（企业）资金池",
+          "en": "a corporate pool of funds managed centrally",
+          "pos": "n."
+        }
+      ],
+      "col": "corporate treasury 企业资金管理 · treasury department 财政部 · treasury pool 资金池 · treasury management 资金管理",
+      "ex": "The nationwide promotion of the corporate treasury-pooling policy allows firms to centralise cash and reduce external borrowing.",
+      "exZh": "企业资金池政策全国推广，允许企业集中管理现金并减少外部借款。",
+      "ex2": "Treasury yields moved sharply as investors weighed the fiscal cost of overseas military operations.",
+      "ex2Zh": "投资者权衡海外军事行动的财政成本之际，美国国债收益率大幅波动。",
+      "t": "跨国公司资金池政策全国推广，企业 treasury 可统一归集境内外资金，提升调拨效率，被视为稳外资、促便利的重要制度安排。\n词义延伸：treasury 也指一国财政部（如 US Treasury 美国财政部），财经新闻里 treasury yields（国债收益率）是高频搭配，注意与 company treasury（企业资金部）区分。",
+      "root": "词根 treas（=thes 储藏，希腊 thēsauros，同源 treasure 财宝、thesaurus 宝库） + 后缀 -ury（表场所/机构） → 存放财宝的地方 → 国库、财政部、企业资金池。",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "prosperity",
+      "ph": "/prɒˈsperəti/",
+      "m": "繁荣、兴旺",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the state of being successful, especially in economic terms; wealth and good fortune",
+      "defs": [
+        {
+          "cn": "繁荣、兴旺",
+          "en": "the state of being economically successful",
+          "pos": "n."
+        },
+        {
+          "cn": "富足、成功",
+          "en": "wealth and good fortune",
+          "pos": "n."
+        },
+        {
+          "cn": "（共同）繁荣",
+          "en": "shared economic well-being",
+          "pos": "n."
+        }
+      ],
+      "col": "economic prosperity 经济繁荣 · shared prosperity 共同繁荣 · prosperity gap 贫富差距 · era of prosperity 繁荣时代",
+      "ex": "The region's prosperity depends heavily on trade flows and cross-border investment.",
+      "exZh": "该地区的繁荣在很大程度上取决于贸易流动和跨境投资。",
+      "ex2": "Education and infrastructure are often seen as the foundations of long-term prosperity.",
+      "ex2Zh": "教育和基础设施常被视为长期繁荣的基石。",
+      "t": "金砖国家合作增效、赋能全球南方共同发展，目标直指shared prosperity；东博会外籍客商云集南宁，也折射区域经贸的繁荣底色。\n记忆锚点：prosperity 繁荣 ↔ recession 衰退，前者是“向前走得好”，后者是“往回缩”，一对反义最好一起记。",
+      "root": "前缀 pro-(向前，拉丁 pro-) + 词根 sper-(希望，拉丁 spes，同源 desperate 绝望的) + 后缀 -ity(名词，拉丁 -itas) → 按希望向前发展 → 繁荣、兴旺。",
+      "d": "2026-09-16"
+    },
+    {
+      "w": "brokerage",
+      "ph": "/ˈbroʊkərɪdʒ/",
+      "m": "（证券）经纪业务；经纪公司",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a firm that buys and sells securities for clients; the business or commission of a broker",
+      "defs": [
+        {
+          "cn": "经纪公司",
+          "en": "a company that trades securities on behalf of clients",
+          "pos": "n."
+        },
+        {
+          "cn": "经纪业务",
+          "en": "the business activity of brokering trades",
+          "pos": "n."
+        },
+        {
+          "cn": "经纪佣金",
+          "en": "a broker's fee or commission",
+          "pos": "n."
+        }
+      ],
+      "col": "brokerage firm 券商 · brokerage account 证券账户 · brokerage fee 经纪佣金 · online brokerage 互联网券商",
+      "ex": "The brokerage reported record client inflows as retail investors returned to the market after August's data beat expectations.",
+      "exZh": "随着8月数据超预期、散户回流市场，该券商报告客户资金流入创纪录。",
+      "ex2": "She opened a brokerage account to invest part of her salary in index funds every month.",
+      "ex2Zh": "她开了一个证券账户，每月把部分工资投入指数基金。",
+      "t": "房地产交易总量趋于稳定、二手房网签面积连续多月高于新房销售面积，市场成交结构变化直接利好 brokerage 的存量房交易与财富管理业务，多家券商加紧布局相关服务。\n\n区分记忆：broker 是“经纪人”，加后缀 -age 变成机构或业务，如同 agent 与 agency；职场里说 work at a brokerage 指的是在券商工作，而不是做中介个人。",
+      "root": "词根 broc(=broker 中间人，盎格鲁-法语 brocour，同源 broker 经纪人) + 后缀 -age(表机构/行为，法语) → 中间人做的事 → 经纪业务、经纪公司",
+      "d": "2026-09-16"
     }
   ],
   "preview": {
-    "hook": "欧盟数字支付新规正式落地，要求所有跨境[payment|payment]平台对商户[revenue|revenue]进行实时申报，此举将[reshape|reshape]欧洲电商与零工经济的结算格局；与此同时，平台需在30天内向用户[reimburse|reimburse]因系统故障产生的滞纳金，并允许各国[surveillance|surveillance]机构对高风险账户[intensify|intensify]审查，这轮监管[reshuffle|reshuffle]还赋予央行更大权限，对日均交易超1万欧元的账户实施持续[surveillance|surveillance]，以防范洗钱与逃税，而业内普遍担忧合规成本上升会抑制创新，因此多国正考虑推出[revenue|revenue]减免以[stimulate|stimulate]中小企业接入新系统。",
+    "hook": "一份由多边机构牵头、横跨三大洲的[multilateralism|multilateralism]合作框架在日内瓦签署，核心条款要求成员国共享[automation|automation]产线数据并协调[multinational|multinational]的跨境利润分配，同时设立共同[treasury|treasury]池以缓冲汇率冲击；消息一出，市场视其为全球贸易的难得[tailwind|tailwind]，[brokerage|brokerage]板块应声放量，分析师连夜上调增长预期，认为这轮制度性红利有望把停滞多年的[prosperity|prosperity]重新推回正轨。 面对气候变化，各国只有通过[多边的|multilateral]合作，才能有效减少碳排放并推动绿色能源转型。",
     "impact": ""
   }
 }

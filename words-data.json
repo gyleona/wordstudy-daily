@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-16",
+  "updated_on": "2026-09-17",
   "quote": {
-    "en": "Recalibrate your skills, and no market shift can stall you.",
-    "zh": "重新校准你的技能，任何市场变动都无法让你停滞。"
+    "en": "Adjust your aim, and every setback becomes a step forward.",
+    "zh": "调整你的目标，每一次挫折都会变成前进的一步。"
   },
   "story": {
-    "en": "China's push for [multilateralism|multilateralism] took center stage as Beijing hosted the Xiangshan Forum and responded to AI 'slowdown' claims, advocating [multilateral|multilateral] cooperation. Meanwhile, the nationwide rollout of a [multinational|multinational] [treasury|treasury] policy aims to benefit more market entities, signaling a [tailwind|tailwind] for cross-border capital pooling. In August, the economy showed stable progress with new growth drivers, and real estate transactions stabilized as second-hand home sales outpaced new homes for months. Separately, rising [automation|automation] in financial services is reshaping [brokerage|brokerage] operations, while broader [prosperity|prosperity] depends on these reforms. Looking ahead, the BRICS cooperation and the upcoming East Expo in Nanning will further test these trends.",
-    "cn": "中国回应AI“放缓论”倡[多边主义|multilateralism]，学者指中美AI合作需剥离战略竞争。与此同时，[跨国公司 · adj. 跨国的|multinational][资金池|treasury]池政策全国推广，惠及更多经营主体，为跨境资本流动带来[顺风|tailwind]。8月国民经济运行稳中向优，“三稳两快”特点鲜明，新动能支撑力凸显；房地产交易总量趋于稳定，二手房网签面积连续多月高于新房销售面积。此外，金融服务业[自动化|automation]正在重塑[（证券）经纪业务|brokerage]运营，而更广泛的[繁荣、兴旺|prosperity]取决于这些改革。展望未来，金砖国家合作增效和即将在南宁举办的第23届东博会，将进一步检验多边合作趋势。 在应对气候变化这一全球性挑战时，各国越来越意识到只有坚持[多边的|multilateral]合作原则，才能实现共赢。"
+    "en": "Global tensions and market jitters dominated Thursday's news. Saudi Arabia and the Houthis exchanged new [airstrike|airstrike] in Yemen, further straining regional security. In South Asia, Indian and Pakistani naval vessels suffered a [collision|collision], prompting India's foreign ministry to [summon|summon] Pakistan's chargé d'affaires in protest. Meanwhile, US President Trump signed a [memorandum|memorandum] excluding Canadian products from federal procurement, a move that could [deteriorate|deteriorate] trade ties. On the economic front, all three major US stock indices fell sharply, with the Nasdaq and S&P 500 plunging intraday. Oil prices also dropped significantly but remained elevated. China's [diplomacy|diplomacy] remains active: Ding Xuexiang attended the Pinglu Canal navigation ceremony, and Xi Jinping replied to a letter from the \"Zhangzhou 110\" team. A senior Chinese defense official at the Xiangshan Forum called for vigilance against hegemony, underscoring the need for steady diplomacy to [encompass|encompass] diverse security concerns. Beijing also announced a second [expansion|expansion] of its carbon market next year, covering all high-emission industries. Looking ahead, these developments will test global stability and cooperation.",
+    "cn": "周四，全球紧张局势与市场波动主导新闻。沙特与胡塞武装在也门互发新[空袭|airstrike]，地区安全进一步承压。南亚方面，印巴海军舰艇发生[碰撞|collision]，印度[外交|diplomacy]部召见巴基斯坦临时代办抗议。同时，美国总统特朗普签署[备忘录|memorandum]，将加拿大产品排除出联邦采购，此举可能[恶化|deteriorate]贸易关系。经济方面，美股三大指数明显下跌，纳指与标普500盘中跳水；国际油价显著下跌但仍维持高位。中国外交保持活跃：丁薛祥出席平陆运河通航仪式，习近平给“漳州110”全体队员回信。中国防长在香山论坛呼吁警惕霸权主义，凸显稳健外交需涵盖多元安全关切。北京还宣布明年启动碳市场第二轮[扩张|expansion]，高排放行业均纳入管控。展望未来，这些事态将考验全球稳定与合作。 这份报告试图[包含|encompass]整个行业的全貌，因此经理决定[召集|summon]所有部门负责人开会讨论。"
   },
   "words": [
     {
@@ -7554,10 +7554,259 @@
       "t": "房地产交易总量趋于稳定、二手房网签面积连续多月高于新房销售面积，市场成交结构变化直接利好 brokerage 的存量房交易与财富管理业务，多家券商加紧布局相关服务。\n\n区分记忆：broker 是“经纪人”，加后缀 -age 变成机构或业务，如同 agent 与 agency；职场里说 work at a brokerage 指的是在券商工作，而不是做中介个人。",
       "root": "词根 broc(=broker 中间人，盎格鲁-法语 brocour，同源 broker 经纪人) + 后缀 -age(表机构/行为，法语) → 中间人做的事 → 经纪业务、经纪公司",
       "d": "2026-09-16"
+    },
+    {
+      "w": "deteriorate",
+      "ph": "/dɪˈtɪəriəreɪt/",
+      "m": "恶化；变坏(局势/关系/健康)",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to become worse in quality, condition, or relations; to decline",
+      "defs": [
+        {
+          "cn": "恶化、变坏",
+          "en": "to become progressively worse in condition or quality",
+          "pos": "v."
+        },
+        {
+          "cn": "(关系/局势)恶化",
+          "en": "to worsen, as in diplomatic or economic relations",
+          "pos": "v."
+        },
+        {
+          "cn": "使退化、降低",
+          "en": "to make something lower in value or standard",
+          "pos": "v."
+        }
+      ],
+      "col": "relations deteriorate 关系恶化 · deteriorate sharply 急剧恶化 · conditions deteriorate 状况恶化 · deteriorate over time 随时间恶化",
+      "ex": "Trade relations between the two blocs continued to deteriorate after the latest round of tit-for-tat measures.",
+      "exZh": "在最新一轮相互报复措施后，两个集团间的贸易关系持续恶化。",
+      "ex2": "Without regular maintenance, the factory's equipment will deteriorate faster than expected.",
+      "ex2Zh": "如果不定期维护，工厂设备的老化速度将快于预期。",
+      "t": "南非对美国以“种族歧视”为由实施签证限制表示关切，双边关系再度 deteriorate。与此同时，印巴舰艇碰撞后印度召见巴方临时代办，外交摩擦升级。\n职场提醒：项目沟通一旦拖延，团队信任也会 deteriorate；定期同步比事后补救更省成本。",
+      "root": "前缀 de-(向下、变坏，拉丁 de，同源 decline 下降) + 词根 terior(=比较级后缀，拉丁) + 后缀 -ate(动词，拉丁) → 变得更差 → 恶化",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "expansion",
+      "ph": "/ɪkˈspænʃn/",
+      "m": "扩张；扩大(业务/市场/规模)",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of increasing in size, scope, or business operations; growth",
+      "defs": [
+        {
+          "cn": "扩张、扩大",
+          "en": "the process of becoming larger or more extensive",
+          "pos": "n."
+        },
+        {
+          "cn": "(业务/市场)拓展",
+          "en": "growth into new markets or business areas",
+          "pos": "n."
+        },
+        {
+          "cn": "扩围、扩容",
+          "en": "the widening of a scheme or system, as in policy",
+          "pos": "n."
+        }
+      ],
+      "col": "market expansion 市场扩张 · expansion plan 扩张计划 · carbon market expansion 碳市场扩围 · rapid expansion 快速扩张",
+      "ex": "China will start preparatory work next year for the second round of carbon market expansion, covering all high-emission industries.",
+      "exZh": "中国明年将启动碳市场第二轮扩围准备工作，纳入所有高排放行业。",
+      "ex2": "The startup's overseas expansion added three new offices in Asia.",
+      "ex2Zh": "这家初创公司的海外扩张在亚洲新增了三个办公室。",
+      "t": "明年将启动碳市场第二轮扩围准备工作，高排放行业均纳入管控，这轮 expansion 意味着更多企业要为碳排放付费，钢铁、水泥、化工首当其冲。\n职场里 expansion 常伴随新岗位：新市场开城需要本地化运营、合规与供应链人才，是转岗的窗口期。",
+      "root": "前缀 ex-(向外，拉丁 ex，同源 exit 出口) + 词根 pans(=pandere 展开，拉丁，同源 expanse 广阔) + 后缀 -ion(名词，拉丁) → 向外展开 → 扩张、扩大",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "memorandum",
+      "ph": "/ˌmeməˈrændəm/",
+      "m": "(备忘录)备忘录；备忘录文件",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a written record or note, esp. in business or diplomacy; a formal document",
+      "defs": [
+        {
+          "cn": "备忘录",
+          "en": "a written message or record used in business or diplomacy",
+          "pos": "n."
+        },
+        {
+          "cn": "备忘录文件",
+          "en": "a formal document outlining an agreement or policy",
+          "pos": "n."
+        },
+        {
+          "cn": "（法律）摘要",
+          "en": "a legal brief or summary of a case",
+          "pos": "n."
+        }
+      ],
+      "col": "sign a memorandum 签署备忘录 · memorandum of understanding 谅解备忘录 · issue a memorandum 发布备忘录 · internal memorandum 内部备忘录",
+      "ex": "Trump signed a memorandum excluding Canadian products from US federal procurement, escalating trade tensions.",
+      "exZh": "特朗普签署备忘录，将加拿大产品排除出美国联邦采购，加剧了贸易紧张。",
+      "ex2": "The manager circulated a memorandum outlining the new remote work policy.",
+      "ex2Zh": "经理分发了一份备忘录，概述了新的远程办公政策。",
+      "t": "特朗普签署 memorandum，将加拿大产品排除出美国联邦采购计划，此举被视为对加贸易施压的升级，可能影响双边关系。\n在职场，memorandum 常指内部通知，比如 HR 发布关于新考勤制度的备忘录，员工需仔细阅读并遵守。",
+      "root": "词根 memor-(记忆，拉丁，同源 memory 记忆) + 后缀 -andum(中性将来被动分词，拉丁) → 该被记住的东西 → 备忘录",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "collision",
+      "ph": "/kəˈlɪʒn/",
+      "m": "(碰撞)碰撞；冲突",
+      "c": "news",
+      "pos": "n.",
+      "en": "an instance of one moving object striking another; a conflict or clash",
+      "defs": [
+        {
+          "cn": "碰撞",
+          "en": "a crash or impact between two objects",
+          "pos": "n."
+        },
+        {
+          "cn": "冲突",
+          "en": "a strong disagreement or clash of ideas",
+          "pos": "n."
+        },
+        {
+          "cn": "（意见）抵触",
+          "en": "a situation where two things are incompatible",
+          "pos": "n."
+        }
+      ],
+      "col": "head-on collision 正面碰撞 · collision course 冲突路线 · collision insurance 碰撞险 · collision of interests 利益冲突",
+      "ex": "Indian and Pakistani naval vessels were involved in a collision, prompting India to summon Pakistan's envoy.",
+      "exZh": "印度和巴基斯坦海军舰艇发生碰撞，印度召见巴基斯坦临时代办提出抗议。",
+      "ex2": "The collision between the two departments over budget allocation delayed the project.",
+      "ex2Zh": "两个部门在预算分配上的冲突延误了项目。",
+      "t": "印巴海军舰艇发生 collision，印度外交部召见巴基斯坦临时代办抗议，事件加剧了地区紧张局势，引发国际关注。\n在职场，collision 可指部门间利益冲突，比如市场部与产品部在资源分配上的碰撞，需要协调解决。",
+      "root": "前缀 col-(共同，拉丁，同源 collaborate 合作) + 词根 lid(=laed 打击，拉丁，同源 lesion 损害) + 后缀 -ion(名词，拉丁) → 共同打击 → 碰撞",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "encompass",
+      "ph": "/ɪnˈkʌmpəs/",
+      "m": "(包含)包含；涉及",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to include or contain a wide range of things; to surround or encircle",
+      "defs": [
+        {
+          "cn": "包含",
+          "en": "to include various elements as part of a whole",
+          "pos": "v."
+        },
+        {
+          "cn": "涉及",
+          "en": "to cover or deal with a subject",
+          "pos": "v."
+        },
+        {
+          "cn": "包围",
+          "en": "to encircle or surround something",
+          "pos": "v."
+        }
+      ],
+      "col": "encompass a range 涵盖一系列 · encompass all aspects 包含所有方面 · broadly encompass 广泛涵盖 · encompass both 兼顾两者",
+      "ex": "China's carbon market expansion will encompass high-emission industries, starting with a second round of preparations next year.",
+      "exZh": "中国碳市场扩围将涵盖高排放行业，明年启动第二轮准备工作。",
+      "ex2": "The new training program encompasses both technical and soft skills.",
+      "ex2Zh": "新培训计划涵盖技术技能和软技能。",
+      "t": "中国碳市场将启动第二轮扩围，encompass 高排放行业，这一政策旨在推动绿色转型，影响钢铁、化工等多个领域。\n在职场，encompass 常用于描述职责范围，比如项目经理的职责涵盖预算、进度和团队协调，需要全面把控。",
+      "root": "前缀 en-(使，法语，同源 enable 使能够) + 词根 compass(范围，拉丁，同源 compass 指南针) → 使进入范围 → 包含",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "summon",
+      "ph": "/ˈsʌmən/",
+      "m": "(传唤)召唤；召集",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to order someone to appear, esp. in a court or official meeting; to call for",
+      "defs": [
+        {
+          "cn": "传唤",
+          "en": "to officially order someone to appear",
+          "pos": "v."
+        },
+        {
+          "cn": "召唤",
+          "en": "to call upon someone to come",
+          "pos": "v."
+        },
+        {
+          "cn": "召集",
+          "en": "to gather people for a meeting",
+          "pos": "v."
+        }
+      ],
+      "col": "summon a meeting 召集会议 · summon the ambassador 召见大使 · summon up courage 鼓起勇气 · summon a witness 传唤证人",
+      "ex": "India summoned Pakistan's charge d'affaires to protest the naval collision, signaling diplomatic tension.",
+      "exZh": "印度召见巴基斯坦临时代办，抗议海军碰撞事件，显示外交紧张。",
+      "ex2": "The CEO summoned all department heads to discuss the quarterly strategy.",
+      "ex2Zh": "CEO召集所有部门主管讨论季度战略。",
+      "t": "印巴海军舰艇碰撞后，印度外交部 summon 巴基斯坦临时代办提出抗议，事件凸显双边关系紧张，国际社会呼吁克制。\n在职场，summon 常用于召集会议，比如经理召集团队讨论紧急项目，要求全员参加。",
+      "root": "前缀 sub-(在下，拉丁，同源 submarine 潜水艇) + 词根 mon(警告，拉丁，同源 monitor 监视) → 私下警告 → 传唤、召唤",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "airstrike",
+      "ph": "/ˈeəstraɪk/",
+      "m": "空袭",
+      "c": "news",
+      "pos": "n.",
+      "en": "a military attack made by aircraft dropping bombs or firing missiles",
+      "defs": [
+        {
+          "cn": "空袭",
+          "en": "an attack by military aircraft on a target",
+          "pos": "n."
+        }
+      ],
+      "col": "launch an airstrike 发动空袭 · carry out airstrikes 实施空袭 · airstrike campaign 空袭行动 · targeted airstrike 定点空袭",
+      "ex": "Saudi Arabia and Houthi forces exchanged new airstrikes in Yemen, escalating regional tensions.",
+      "exZh": "沙特和胡塞武装在也门相互发动新空袭，地区紧张局势升级。",
+      "ex2": "The documentary showed footage of a night airstrike on a military base.",
+      "ex2Zh": "纪录片展示了夜间空袭军事基地的画面。",
+      "t": "沙特和胡塞武装在也门相互发动新空袭（airstrike），地区紧张局势再度升级，国际油价虽下跌但仍处高位。\n这个词常出现在国际新闻中，与 diplomacy（外交）相对——空袭是硬手段，谈判是软手段，两者常交替出现。",
+      "root": "复合词：air（空气，古英语，同源 airy 空气的） + strike（打击，古英语，同源 striking 显著的）→ 从空中打击 → 空袭。",
+      "d": "2026-09-17"
+    },
+    {
+      "w": "diplomacy",
+      "ph": "/dɪˈpləʊməsi/",
+      "m": "外交；外交手腕",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the management of international relations by negotiation; skill in dealing with people sensitively",
+      "defs": [
+        {
+          "cn": "外交",
+          "en": "the conduct of international relations by negotiation",
+          "pos": "n."
+        },
+        {
+          "cn": "外交手腕",
+          "en": "skill in handling people or situations tactfully",
+          "pos": "n."
+        }
+      ],
+      "col": "international diplomacy 国际外交 · quiet diplomacy 静默外交 · diplomacy skills 外交技巧 · shuttle diplomacy 穿梭外交",
+      "ex": "Chinese President Xi Jinping's upcoming meeting with Trump highlights the role of diplomacy in easing trade tensions.",
+      "exZh": "中国国家主席习近平即将与特朗普会晤，凸显外交在缓解贸易紧张中的作用。",
+      "ex2": "She used her diplomacy to resolve the conflict between the two departments.",
+      "ex2Zh": "她运用外交手腕解决了两个部门之间的冲突。",
+      "t": "特习峰会前夕，中国防长董军在香山论坛上未点名呼吁警惕霸权主义，外交（diplomacy）博弈成为全球市场关注焦点。\n职场中，diplomacy 指处理人际关系的技巧——比如跨部门协调时，diplomacy 比强硬命令更有效。",
+      "root": "词根 diplo（双，希腊，同源 double 双倍的） + 后缀 -macy（名词后缀，希腊）→ 对折的文书 → 外交。同源词：diploma 文凭、diplomat 外交官。",
+      "d": "2026-09-17"
     }
   ],
   "preview": {
-    "hook": "一份由多边机构牵头、横跨三大洲的[multilateralism|multilateralism]合作框架在日内瓦签署，核心条款要求成员国共享[automation|automation]产线数据并协调[multinational|multinational]的跨境利润分配，同时设立共同[treasury|treasury]池以缓冲汇率冲击；消息一出，市场视其为全球贸易的难得[tailwind|tailwind]，[brokerage|brokerage]板块应声放量，分析师连夜上调增长预期，认为这轮制度性红利有望把停滞多年的[prosperity|prosperity]重新推回正轨。 面对气候变化，各国只有通过[多边的|multilateral]合作，才能有效减少碳排放并推动绿色能源转型。",
+    "hook": "随着中东局势因一次[airstrike|airstrike]而骤然[deteriorate|deteriorate]，一份被[summon|summon]至国会作证的[diplomacy|diplomacy]官所披露的[memorandum|memorandum]显示，原本旨在推动外交的接触渠道已因双方利益[collision|collision]而陷入停滞，与此同时，该国央行在通胀高企与地缘风险[encompass|encompass]的多重压力下，仍坚持其货币[expansion|expansion]政策，试图以流动性对冲外部冲击。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-17",
+  "updated_on": "2026-09-18",
   "quote": {
-    "en": "Adjust your aim, and every setback becomes a step forward.",
-    "zh": "调整你的目标，每一次挫折都会变成前进的一步。"
+    "en": "In volatile times, the resilient learner turns every reshuffle into a stepping stone.",
+    "zh": "在动荡时代，有韧性的学习者把每一次洗牌都变成垫脚石。"
   },
   "story": {
-    "en": "Global tensions and market jitters dominated Thursday's news. Saudi Arabia and the Houthis exchanged new [airstrike|airstrike] in Yemen, further straining regional security. In South Asia, Indian and Pakistani naval vessels suffered a [collision|collision], prompting India's foreign ministry to [summon|summon] Pakistan's chargé d'affaires in protest. Meanwhile, US President Trump signed a [memorandum|memorandum] excluding Canadian products from federal procurement, a move that could [deteriorate|deteriorate] trade ties. On the economic front, all three major US stock indices fell sharply, with the Nasdaq and S&P 500 plunging intraday. Oil prices also dropped significantly but remained elevated. China's [diplomacy|diplomacy] remains active: Ding Xuexiang attended the Pinglu Canal navigation ceremony, and Xi Jinping replied to a letter from the \"Zhangzhou 110\" team. A senior Chinese defense official at the Xiangshan Forum called for vigilance against hegemony, underscoring the need for steady diplomacy to [encompass|encompass] diverse security concerns. Beijing also announced a second [expansion|expansion] of its carbon market next year, covering all high-emission industries. Looking ahead, these developments will test global stability and cooperation.",
-    "cn": "周四，全球紧张局势与市场波动主导新闻。沙特与胡塞武装在也门互发新[空袭|airstrike]，地区安全进一步承压。南亚方面，印巴海军舰艇发生[碰撞|collision]，印度[外交|diplomacy]部召见巴基斯坦临时代办抗议。同时，美国总统特朗普签署[备忘录|memorandum]，将加拿大产品排除出联邦采购，此举可能[恶化|deteriorate]贸易关系。经济方面，美股三大指数明显下跌，纳指与标普500盘中跳水；国际油价显著下跌但仍维持高位。中国外交保持活跃：丁薛祥出席平陆运河通航仪式，习近平给“漳州110”全体队员回信。中国防长在香山论坛呼吁警惕霸权主义，凸显稳健外交需涵盖多元安全关切。北京还宣布明年启动碳市场第二轮[扩张|expansion]，高排放行业均纳入管控。展望未来，这些事态将考验全球稳定与合作。 这份报告试图[包含|encompass]整个行业的全貌，因此经理决定[召集|summon]所有部门负责人开会讨论。"
+    "en": "China's 15th Five-Year Plan is opening fresh opportunities for global [manufacturing|manufacturing] and [semiconductor|semiconductor] supply chains, Xinhua reported. At the 23rd China-ASEAN Expo, Vice Premier Ding Xuexiang said Beijing will deepen [cooperation|cooperation] with ASEAN on trade and investment. The Pinglu Canal, a new western logistics [corridor|corridor], is set to boost ASEAN-bound freight, while the National Day rail ticket launch signals rising [tourism|tourism] demand. Separately, a think-tank forum in Macao gathered China, Portuguese- and Spanish-speaking countries to [curate|curate] research on cross-border [policy|policy] coordination. In Europe, parliaments must still [ratify|ratify] any new trade accords. Markets stayed bullish on US futures and European stocks. Looking ahead, Beijing's industrial push and ASEAN connectivity could reshape regional growth.",
+    "cn": "据新华网报道，中国“十五五”规划为全球[制造业|manufacturing]业和半导体供应链带来新机遇。在第23届中国—东盟博览会开幕式上，丁薛祥表示，北京将深化与东盟在贸易投资领域的[合作|cooperation]。平陆运河作为西部新的物流[（经济/物流）走廊|corridor]，有望提升面向东盟的货运能力；国庆首日火车票开售则显示旅游热度攀升。此外，中国与葡语西语国家智库论坛在澳门举行，旨在[精心策划|curate]跨境[政策|policy]协调研究。在欧洲，任何新贸易协定仍需议会[正式批准|ratify]。美股期货与欧股走高，市场情绪看涨。展望未来，中国的产业推动与东盟互联互通或将重塑区域增长格局。 随着[旅游业|tourism]回暖，[半导体|semiconductor]出口也在增加。"
   },
   "words": [
     {
@@ -7803,10 +7803,274 @@
       "t": "特习峰会前夕，中国防长董军在香山论坛上未点名呼吁警惕霸权主义，外交（diplomacy）博弈成为全球市场关注焦点。\n职场中，diplomacy 指处理人际关系的技巧——比如跨部门协调时，diplomacy 比强硬命令更有效。",
       "root": "词根 diplo（双，希腊，同源 double 双倍的） + 后缀 -macy（名词后缀，希腊）→ 对折的文书 → 外交。同源词：diploma 文凭、diplomat 外交官。",
       "d": "2026-09-17"
+    },
+    {
+      "w": "manufacturing",
+      "ph": "/ˌmænjuˈfæktʃərɪŋ/",
+      "m": "n. 制造业；adj. 制造的",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the industry of producing goods in large quantities, especially in factories",
+      "defs": [
+        {
+          "cn": "制造业",
+          "en": "the business of making goods in factories",
+          "pos": "n."
+        },
+        {
+          "cn": "制造",
+          "en": "the process of making products",
+          "pos": "n."
+        },
+        {
+          "cn": "制造业的",
+          "en": "relating to the production of goods",
+          "pos": "adj."
+        }
+      ],
+      "col": "advanced manufacturing 先进制造业 · manufacturing sector 制造业部门 · manufacturing hub 制造业中心 · smart manufacturing 智能制造",
+      "ex": "China is doubling down on advanced manufacturing to provide strong support for its modernization drive.",
+      "exZh": "中国正持续做大做强先进制造业，为推进中国式现代化提供有力支撑。",
+      "ex2": "Rising energy costs have pushed some European manufacturing firms to relocate production overseas.",
+      "ex2Zh": "能源成本上升迫使一些欧洲制造企业将生产迁往海外。",
+      "t": "持续做大做强先进制造业，为推进中国式现代化提供有力支撑——这是当前中国经济政策的核心抓手。从新能源汽车到工业机器人，manufacturing 的升级直接决定出口竞争力与就业质量。\n职场人若在 manufacturing 领域，懂自动化、会看数据，比只会传统工艺更吃香。它和 industry 常混用，但 manufacturing 特指“把原料变成成品”的那一环。",
+      "root": "词根 manu-(手，拉丁 manus，同源 manual 手工的) + 词根 fact(做，拉丁 facere，同源 factory 工厂) + 后缀 -ing(动名词) → 用手做 → 制造、制造业",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "curate",
+      "ph": "/kjʊəˈreɪt/",
+      "m": "v. 精心策划；筛选整理",
+      "c": "work",
+      "pos": "v.",
+      "en": "to select, organize, and present items such as content or products carefully",
+      "defs": [
+        {
+          "cn": "精心策划",
+          "en": "to organize and present carefully",
+          "pos": "v."
+        },
+        {
+          "cn": "筛选整理",
+          "en": "to select and arrange items",
+          "pos": "v."
+        },
+        {
+          "cn": "担任策展人",
+          "en": "to act as a curator of an exhibition",
+          "pos": "v."
+        }
+      ],
+      "col": "curate content 策划内容 · curate an exhibition 策展 · carefully curated 精心挑选的 · curate a playlist 编排歌单",
+      "ex": "Beijing Universal Resort will curate two new experiences to enrich themed entertainment and nighttime consumption.",
+      "exZh": "北京环球度假区将打造两项全新体验，丰富主题娱乐与夜间消费场景。",
+      "ex2": "HR teams now curate personalized learning paths for each employee instead of offering one-size-fits-all training.",
+      "ex2Zh": "人力资源团队现在为每位员工精心策划个性化学习路径，而非提供一刀切的培训。",
+      "t": "北京环球度假区将打造两项全新体验，丰富主题娱乐与夜间消费场景，运营方需要 curate 出既能引流又能延长停留时间的内容组合，这对文旅行业是门新功课。\n职场里，curate 越来越高频：curate your portfolio（精心整理作品集）、curate your network（筛选人脉），它比 select 多了一层“有品味地编排”的意味，是知识工作者的加分动词。",
+      "root": "词根 cur(关心、照料，拉丁 cura，同源 cure 治愈、curious 好奇) + 后缀 -ate(动词后缀) → 用心照料 → 精心挑选、策划展览",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "policy",
+      "ph": "/ˈpɒləsi/",
+      "m": "政策；方针",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a course or principle of action adopted by a government, party, or organization",
+      "defs": [
+        {
+          "cn": "政策",
+          "en": "a government or organizational plan of action",
+          "pos": "n."
+        },
+        {
+          "cn": "方针",
+          "en": "a guiding principle or strategy",
+          "pos": "n."
+        },
+        {
+          "cn": "保单",
+          "en": "an insurance contract",
+          "pos": "n."
+        }
+      ],
+      "col": "monetary policy 货币政策 · foreign policy 外交政策 · policy shift 政策转向 · industrial policy 产业政策",
+      "ex": "China's 15th Five-Year Plan sets the policy direction for advanced manufacturing and global cooperation.",
+      "exZh": "中国十五五规划为先进制造业和全球合作定下政策方向。",
+      "ex2": "Investors are watching the Fed's policy signals ahead of the next rate decision.",
+      "ex2Zh": "投资者在下次利率决议前关注美联储的政策信号。",
+      "t": "丁薛祥在第23届中国－东盟博览会致辞，强调以政策沟通推动商务与投资合作；中国“十五五”规划为世界提供新机遇，本身就是一份中长期政策蓝图。\n职场里 policy 也常用：公司 travel policy（差旅政策）一改，报销流程就变，读懂 policy 比抱怨更有效。",
+      "root": "源自希腊 politeia(城邦管理，同源 police 警察、politics 政治) → 城邦治理之道 → 政策、方针",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "cooperation",
+      "ph": "/kəʊˌɒpəˈreɪʃn/",
+      "m": "合作；协作",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the process of working together toward the same end, especially between countries or firms",
+      "defs": [
+        {
+          "cn": "合作",
+          "en": "the act of working together for mutual benefit",
+          "pos": "n."
+        },
+        {
+          "cn": "协作",
+          "en": "joint effort in a team or organization",
+          "pos": "n."
+        },
+        {
+          "cn": "配合",
+          "en": "willingness to assist or comply",
+          "pos": "n."
+        }
+      ],
+      "col": "international cooperation 国际合作 · economic cooperation 经济合作 · close cooperation 密切合作 · cooperation agreement 合作协议",
+      "ex": "Ding Xuexiang's speech at the China-ASEAN Expo highlighted deeper economic cooperation.",
+      "exZh": "丁薛祥在中国－东盟博览会上的致辞强调深化经济合作。",
+      "ex2": "The 2026 China-Portuguese-Spanish Think Tank Forum in Macao fosters academic cooperation.",
+      "ex2Zh": "2026中国与葡语西语国家智库论坛在澳门举行，促进学术合作。",
+      "t": "丁薛祥在第23届中国－东盟博览会暨商务与投资峰会开幕式致辞，主题正是深化区域 cooperation；2026中国与葡语西语国家智库论坛在澳门举行，也是智库层面的合作平台。\n职场里 cooperation 常出现在跨部门项目：cooperation 不是“各做各的”，而是目标对齐、资源共享，和 collaboration 近义但更强调配合。",
+      "root": "前缀 co-(共同，拉丁，同源 company 公司) + 词根 oper(工作，拉丁 opus 作品，同源 operate 操作) + 后缀 -ation(名词，拉丁) → 共同工作 → 合作",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "tourism",
+      "ph": "/ˈtʊərɪzəm/",
+      "m": "旅游业；观光",
+      "c": "news",
+      "pos": "n.",
+      "en": "the commercial organization and operation of holidays and visits to places of interest",
+      "defs": [
+        {
+          "cn": "旅游业",
+          "en": "the business of providing services for tourists",
+          "pos": "n."
+        },
+        {
+          "cn": "观光",
+          "en": "the activity of traveling for pleasure",
+          "pos": "n."
+        },
+        {
+          "cn": "旅游经济",
+          "en": "the economic sector driven by travel",
+          "pos": "n."
+        }
+      ],
+      "col": "tourism industry 旅游业 · inbound tourism 入境旅游 · tourism revenue 旅游收入 · boost tourism 提振旅游业",
+      "ex": "National Day ticket sales opened today, with tourism热度 climbing as the double holiday approaches.",
+      "exZh": "国庆首日火车票今日开售，双节临近旅游热度攀升。",
+      "ex2": "Beijing's Universal Resort will launch two new experiences to enrich tourism and night-time consumption.",
+      "ex2Zh": "北京环球度假区将打造两项全新体验，丰富旅游与夜间消费。",
+      "t": "国庆首日火车票开售，双节临近旅游热度攀升，tourism 成为拉动消费的重要引擎；北京环球度假区宣布打造两项全新体验，丰富主题娱乐与夜间消费场景，也是 tourism 供给侧升级。\n职场视角：tourism 旺季意味着酒店、交通、零售临时用工需求激增，排班与 workforce 管理压力随之上升。",
+      "root": "词根 tour(巡回，拉丁 tornare 转，同源 turn 转动) + 后缀 -ism(主义/行业，希腊) → 巡回观光之事 → 旅游业",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "corridor",
+      "ph": "/ˈkɒrɪdɔː(r)/",
+      "m": "（经济/物流）走廊；通道",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a long narrow passage; (economics/geography) a strategic route or belt for trade, transport, or investment",
+      "defs": [
+        {
+          "cn": "（经济/物流）走廊",
+          "en": "a strategic route for trade, transport or investment",
+          "pos": "n."
+        },
+        {
+          "cn": "走廊；通道",
+          "en": "a long narrow passage in a building",
+          "pos": "n."
+        },
+        {
+          "cn": "（生态）廊道",
+          "en": "a strip of habitat connecting wildlife areas",
+          "pos": "n."
+        }
+      ],
+      "col": "economic corridor 经济走廊 · logistics corridor 物流通道 · trade corridor 贸易走廊 · transport corridor 运输走廊",
+      "ex": "The Pinglu Canal is being billed as a new logistics corridor linking China's west with ASEAN markets.",
+      "exZh": "平陆运河被誉为连接中国西部与东盟市场的新物流走廊。",
+      "ex2": "Employees joked that the office corridor was where the real strategy meetings happened.",
+      "ex2Zh": "员工打趣说，真正的战略会议都发生在办公室走廊里。",
+      "t": "平陆运河激活西部“新动脉”，东盟迎来物流新通道，这条 corridor 让西部货物出海更近、更快，直接牵动区域贸易格局。\n记忆法：corridor 本义是建筑里的走廊，经济语境里就是“货流与人流的高速走廊”，与 route 近义但更强调带状、成体系的通道。",
+      "root": "词根 corr-(=curr 跑，拉丁 currere，同源 current 水流、occur 发生) + 后缀 -idor(表处所，法语) → 供人“跑动”的地方 → 走廊、通道",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "ratify",
+      "ph": "/ˈrætɪfaɪ/",
+      "m": "正式批准；签署生效",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to make an agreement or treaty officially valid by signing or voting for it",
+      "defs": [
+        {
+          "cn": "正式批准",
+          "en": "to formally approve an agreement or treaty",
+          "pos": "v."
+        },
+        {
+          "cn": "签署使生效",
+          "en": "to sign so that it becomes legally valid",
+          "pos": "v."
+        },
+        {
+          "cn": "追认；认可",
+          "en": "to confirm or give official consent to",
+          "pos": "v."
+        }
+      ],
+      "col": "ratify a treaty 批准条约 · ratify an agreement 批准协议 · parliament ratifies 议会批准 · ratify the deal 使协议生效",
+      "ex": "Trade negotiators are pressing parliaments to ratify the new investment agreement before year-end.",
+      "exZh": "贸易谈判代表正敦促各国议会在年底前批准新投资协定。",
+      "ex2": "The board must ratify any contract above one million dollars.",
+      "ex2Zh": "任何超过一百万美元的合同都须经董事会批准。",
+      "t": "在川习会即将会晤、王毅与卢比欧通话商讨中东局势的背景下，市场关注任何经贸安排能否被双方正式 ratify，因为只有批准生效，预期才会真正落地。\n职场里 ratify 常用于“走完审批流程”，与 approve 近义，但更强调法律与程序的正式性。",
+      "root": "词根 rat-(=rate 计算、认定，拉丁 ratus，同源 rate 比率、reason 理性) + 后缀 -ify(使……，拉丁 facere，同源 simplify 简化) → 使被认定 → 正式批准",
+      "d": "2026-09-18"
+    },
+    {
+      "w": "semiconductor",
+      "ph": "/ˌsemikənˈdʌktə(r)/",
+      "m": "半导体（产业/芯片）",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a material, such as silicon, that conducts electricity under some conditions; the chip industry based on it",
+      "defs": [
+        {
+          "cn": "半导体（产业）",
+          "en": "the chip industry and its materials",
+          "pos": "n."
+        },
+        {
+          "cn": "半导体材料",
+          "en": "a material with conductivity between conductor and insulator",
+          "pos": "n."
+        },
+        {
+          "cn": "芯片相关",
+          "en": "relating to chips and electronics",
+          "pos": "n."
+        }
+      ],
+      "col": "semiconductor industry 半导体产业 · semiconductor supply chain 半导体供应链 · semiconductor exports 半导体出口 · semiconductor equipment 半导体设备",
+      "ex": "Advanced manufacturing support in the new plan is expected to benefit the semiconductor supply chain.",
+      "exZh": "新规划对先进制造业的支持预计将利好半导体供应链。",
+      "ex2": "The company hired more engineers as semiconductor demand rebounded.",
+      "ex2Zh": "随着半导体需求回升，该公司招聘了更多工程师。",
+      "t": "“十五五”规划提出持续做大做强先进制造业，semiconductor 供应链被视为关键受益方向，相关资本 outlay 与人才 reskill 同步升温。\n记忆法：semi(半) + conductor(导体)，字面即“半导电”，从材料名变成整条芯片产业链的代称。",
+      "root": "前缀 semi-(一半，拉丁，同源 semicircle 半圆) + 词根 conduct(传导，拉丁 conducere，同源 conductor 导体) + 后缀 -or(物，拉丁) → 半导之物 → 半导体",
+      "d": "2026-09-18"
     }
   ],
   "preview": {
-    "hook": "随着中东局势因一次[airstrike|airstrike]而骤然[deteriorate|deteriorate]，一份被[summon|summon]至国会作证的[diplomacy|diplomacy]官所披露的[memorandum|memorandum]显示，原本旨在推动外交的接触渠道已因双方利益[collision|collision]而陷入停滞，与此同时，该国央行在通胀高企与地缘风险[encompass|encompass]的多重压力下，仍坚持其货币[expansion|expansion]政策，试图以流动性对冲外部冲击。",
+    "hook": "欧盟与东盟在布鲁塞尔签署《绿色[manufacturing|manufacturing]业与半导体供应链伙伴协议》，计划沿经济[corridor|corridor]打造跨国产业带，并承诺年内[ratify|ratify]关键条款；与此同时，多国[policy|policy]制定者联合[curate|curate]跨境旅游复苏方案，试图以[cooperation|cooperation]机制对冲全球过剩产能与芯片库存压力。 随着[旅游业|tourism]复苏带动电子设备需求，[半导体|semiconductor]产业迎来新的增长机遇。",
     "impact": ""
   }
 }

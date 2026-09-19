@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-18",
+  "updated_on": "2026-09-19",
   "quote": {
-    "en": "In volatile times, the resilient learner turns every reshuffle into a stepping stone.",
-    "zh": "在动荡时代，有韧性的学习者把每一次洗牌都变成垫脚石。"
+    "en": "Learn through every turn, and no outage can stop your rise.",
+    "zh": "在每一次转折中学习，任何中断都挡不住你的成长。"
   },
   "story": {
-    "en": "China's 15th Five-Year Plan is opening fresh opportunities for global [manufacturing|manufacturing] and [semiconductor|semiconductor] supply chains, Xinhua reported. At the 23rd China-ASEAN Expo, Vice Premier Ding Xuexiang said Beijing will deepen [cooperation|cooperation] with ASEAN on trade and investment. The Pinglu Canal, a new western logistics [corridor|corridor], is set to boost ASEAN-bound freight, while the National Day rail ticket launch signals rising [tourism|tourism] demand. Separately, a think-tank forum in Macao gathered China, Portuguese- and Spanish-speaking countries to [curate|curate] research on cross-border [policy|policy] coordination. In Europe, parliaments must still [ratify|ratify] any new trade accords. Markets stayed bullish on US futures and European stocks. Looking ahead, Beijing's industrial push and ASEAN connectivity could reshape regional growth.",
-    "cn": "据新华网报道，中国“十五五”规划为全球[制造业|manufacturing]业和半导体供应链带来新机遇。在第23届中国—东盟博览会开幕式上，丁薛祥表示，北京将深化与东盟在贸易投资领域的[合作|cooperation]。平陆运河作为西部新的物流[（经济/物流）走廊|corridor]，有望提升面向东盟的货运能力；国庆首日火车票开售则显示旅游热度攀升。此外，中国与葡语西语国家智库论坛在澳门举行，旨在[精心策划|curate]跨境[政策|policy]协调研究。在欧洲，任何新贸易协定仍需议会[正式批准|ratify]。美股期货与欧股走高，市场情绪看涨。展望未来，中国的产业推动与东盟互联互通或将重塑区域增长格局。 随着[旅游业|tourism]回暖，[半导体|semiconductor]出口也在增加。"
+    "en": "Central banks in the US, Japan and Europe delivered a [hike|hike] to counter high inflation, sending European stocks lower, while oil prices fell on September 18. In Shanghai, Shengu Group's [listing|listing] saw shares surge 12-fold in two days, prompting the exchange to suspend abnormal accounts. Power reliability drew attention after a reported [outage|outage] linked to grid strain, though no details were confirmed. The [commercialization|commercialization] of AI short dramas gained traction as a viral series highlighted new revenue models. Meanwhile, a [sweeping|sweeping] sanctions bill targeting Russia and Iran was signed by President Trump, with Putin responding on arms plans. Analysts noted that a heavier regulatory [workload|workload] may slow cross-border deals. In Qingdao, an [innovative|innovative] marine Token factory opened, aiming to boost digital asset [mobility|mobility] across sectors. Looking ahead, investors will watch central bank signals and the UN secretary-general selection for further market direction.",
+    "cn": "全球市场正重新调整，因各国央行在通胀降温背景下释放出放缓[加息|hike]步伐的信号。科技领域，一家主要云服务商的长时间[停运|outage]中断了三大洲的服务，促使监管机构审查冗余标准。与此同时，一家金融科技公司成功[上市|listing]于纳斯达克，募资21亿美元，凸显投资者对可扩展平台的兴趣。数字金融的激增加速了AI驱动咨询工具的[商业化|commercialization]，但分析师警告称，日益增加的监管[工作量|workload]可能延迟审批。作为回应，多国政府推出了影响广泛的[（政策、改革、制裁）影响广泛的|sweeping]以简化合规并培育创新解决方案。劳动经济学家指出，此类转变可能增强跨行业[流动性|mobility]，使技能人才转向高增长领域。展望未来，货币政策与技术应用的相互作用可能决定2027年市场韧性。"
   },
   "words": [
     {
@@ -8067,10 +8067,274 @@
       "t": "“十五五”规划提出持续做大做强先进制造业，semiconductor 供应链被视为关键受益方向，相关资本 outlay 与人才 reskill 同步升温。\n记忆法：semi(半) + conductor(导体)，字面即“半导电”，从材料名变成整条芯片产业链的代称。",
       "root": "前缀 semi-(一半，拉丁，同源 semicircle 半圆) + 词根 conduct(传导，拉丁 conducere，同源 conductor 导体) + 后缀 -or(物，拉丁) → 半导之物 → 半导体",
       "d": "2026-09-18"
+    },
+    {
+      "w": "hike",
+      "ph": "/haɪk/",
+      "m": "(n./v.)加息；上调；远足",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "an increase in rates or prices; also to raise something sharply; or to walk a long distance",
+      "defs": [
+        {
+          "cn": "加息；上调",
+          "en": "to raise rates, prices or wages sharply",
+          "pos": "v."
+        },
+        {
+          "cn": "加息；涨幅",
+          "en": "an increase, esp. in interest rates",
+          "pos": "n."
+        },
+        {
+          "cn": "远足；徒步",
+          "en": "to go for a long walk in the countryside",
+          "pos": "v."
+        }
+      ],
+      "col": "rate hike 加息 · price hike 涨价 · wage hike 加薪 · hike interest rates 上调利率",
+      "ex": "US, Japanese and European central banks hiked rates to fight high inflation, sending European stocks lower.",
+      "exZh": "美日欧央行纷纷加息以应对高通胀，欧洲股市收黑。",
+      "ex2": "The company announced a steep hike in delivery fees for remote areas.",
+      "ex2Zh": "该公司宣布大幅上调偏远地区的配送费。",
+      "t": "今日欧股收黑，直接导火索是美日欧央行因应高通膨而 hike 利率，市场担心紧缩拖累增长。\n职场里 hike 也常用：a pay hike 是加薪，a workload hike 却是加量不加价——同一个词，员工听到的滋味完全不同。",
+      "root": "源自中古英语 hiken(用力举起、行走)，与 hitch 拉动同源 → 先指『费力提起』，后引申为『大幅上调』与『长途步行』",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "listing",
+      "ph": "/ˈlɪstɪŋ/",
+      "m": "(n.)上市；挂牌；清单",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of a company's shares being admitted to a stock exchange; also a list or entry",
+      "defs": [
+        {
+          "cn": "上市；挂牌交易",
+          "en": "the admission of shares to a stock exchange",
+          "pos": "n."
+        },
+        {
+          "cn": "清单；名录",
+          "en": "an itemized list or directory entry",
+          "pos": "n."
+        },
+        {
+          "cn": "房源/商品信息",
+          "en": "an advertisement entry for property or goods",
+          "pos": "n."
+        }
+      ],
+      "col": "stock exchange listing 交易所上市 · seek a listing 寻求上市 · listing rules 上市规则 · delisting 退市",
+      "ex": "Shengu Group's shares surged twelvefold within two days of its listing, prompting the Shanghai Stock Exchange to act.",
+      "exZh": "沈鼓集团上市两日股价暴涨12倍，上交所随即出手。",
+      "ex2": "The agent removed the property listing after the house was sold.",
+      "ex2Zh": "房子售出后，中介撤下了这条房源信息。",
+      "t": "沈鼓集团上市两日股价暴涨12倍，上交所对相关异常账户暂停交易——listing 狂欢与监管出手同框，是今天最戏剧性的财经一幕。\n职场类比：简历就是你的 personal listing，写得再漂亮，也要经得起尽职调查式的追问。",
+      "root": "词根 list(清单，古英语 liste，同源 enlist 征募) + 后缀 -ing(名词化，古英语) → 列入清单 → 股票列入交易所名录 → 上市",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "outage",
+      "ph": "/ˈaʊtɪdʒ/",
+      "m": "(n.)停运；断电；服务中断",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a period when a service, power supply or system is not working; in tech and utility contexts",
+      "defs": [
+        {
+          "cn": "停运；服务中断",
+          "en": "a period when a system or service stops working",
+          "pos": "n."
+        },
+        {
+          "cn": "断电；停电",
+          "en": "a power cut affecting an area or facility",
+          "pos": "n."
+        },
+        {
+          "cn": "停机时长",
+          "en": "the duration of a failure or shutdown",
+          "pos": "n."
+        }
+      ],
+      "col": "power outage 停电 · network outage 网络中断 · outage duration 停机时长 · planned outage 计划内停机",
+      "ex": "Chongqing's cybersecurity week stressed that a single network outage can halt a smart industrial park.",
+      "exZh": "重庆网络安全宣传周强调，一次网络中断就可能让智能产业园停摆。",
+      "ex2": "A brief power outage delayed the morning trading session on the exchange floor.",
+      "ex2Zh": "一次短暂停电延误了交易所早盘交易。",
+      "t": "2026重庆高新区网络安全宣传周系列活动聚焦筑牢网络安全屏障，outage 被反复提及——智能产业越密集，一次中断的代价越高。\n职场提醒：把 outage 写进应急预案，比事后道歉便宜得多，这也是运维岗位最核心的价值。",
+      "root": "前缀 out-(出、外，古英语，同源 outcome 结果) + 后缀 -age(名词，法语) → 处于『断开在外』的状态 → 服务中断、停运",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "commercialization",
+      "ph": "/kəˌmɜːrʃəlaɪˈzeɪʃn/",
+      "m": "(n.)商业化；商业变现",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the process of turning something into a business or profit-making activity",
+      "defs": [
+        {
+          "cn": "商业化；变现",
+          "en": "the process of making something commercially viable",
+          "pos": "n."
+        },
+        {
+          "cn": "产业化推广",
+          "en": "turning a technology into marketable products",
+          "pos": "n."
+        },
+        {
+          "cn": "过度商业化",
+          "en": "excessive focus on profit over substance",
+          "pos": "n."
+        }
+      ],
+      "col": "commercialization of AI AI商业化 · rapid commercialization 快速商业化 · commercialization path 变现路径 · premature commercialization 过早商业化",
+      "ex": "AI short dramas are riding a wave of commercialization, as the viral series about a laid-off girl shows.",
+      "exZh": "《被裁掉的女孩》走红背后，是AI短剧商业化浪潮的推进。",
+      "ex2": "The lab delayed commercialization until safety tests were complete.",
+      "ex2Zh": "实验室推迟商业化，直到安全测试全部完成。",
+      "t": "AI短剧《被裁掉的女孩》走红，背后正是AI内容商业化浪潮：低成本生产、快速试错，commercialization 的速度远超传统影视。\n职场映射：任何新技术都逃不过商业化这一关，能不能变现，往往比技术本身更能决定团队命运。",
+      "root": "词根 commerc(=trade 交易，拉丁 commercium，同源 commerce 商业) + 后缀 -ial(形容词) + -ization(名词化，拉丁) → 使成为交易 → 商业化",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "workload",
+      "ph": "/ˈwɜːrkloʊd/",
+      "m": "(n.)工作量；工作负荷",
+      "c": "work",
+      "pos": "n.",
+      "en": "the amount of work a person or machine has to do; in workplace and HR contexts",
+      "defs": [
+        {
+          "cn": "工作量；负荷",
+          "en": "the amount of work assigned to someone",
+          "pos": "n."
+        },
+        {
+          "cn": "工作负担",
+          "en": "the burden or pressure of tasks",
+          "pos": "n."
+        },
+        {
+          "cn": "系统负载",
+          "en": "the load handled by a system or server",
+          "pos": "n."
+        }
+      ],
+      "col": "heavy workload 繁重工作量 · reduce the workload 减轻负荷 · workload distribution 任务分配 · manage workload 管理负荷",
+      "ex": "As AI tools spread, managers must redistribute the workload rather than simply cut headcount.",
+      "exZh": "随着AI工具普及，管理者必须重新分配工作量，而非简单裁员。",
+      "ex2": "The server's workload doubled after the product launch.",
+      "ex2Zh": "产品上线后，服务器负载翻了一倍。",
+      "t": "AI短剧与自动化工具加速落地，职场最直接的感受不是失业，而是 workload 被重新切分：一部分人被减负，另一部分人被迫兼岗。\n记住搭配：heavy workload 是抱怨，manageable workload 才是管理目标，谈判加薪时用得上。",
+      "root": "词根 work(工作，古英语 weorc，同源 workshop 工坊) + 词根 load(负担，古英语 lād，同源 laden 满载的) → 工作之载 → 工作量、负荷",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "sweeping",
+      "ph": "/ˈswiːpɪŋ/",
+      "m": "（政策、改革、制裁）影响广泛的；彻底的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "having a wide scope or effect; extensive, as in sweeping reforms or sanctions",
+      "defs": [
+        {
+          "cn": "影响广泛的（政策/制裁）",
+          "en": "wide in range or effect, as reforms",
+          "pos": "adj."
+        },
+        {
+          "cn": "彻底的、大刀阔斧的",
+          "en": "thorough and far-reaching, as changes",
+          "pos": "adj."
+        },
+        {
+          "cn": "（胜利）压倒性的",
+          "en": "overwhelming, as a victory",
+          "pos": "adj."
+        }
+      ],
+      "col": "sweeping sanctions 全面制裁 · sweeping reforms 大刀阔斧的改革 · sweeping changes 广泛变革 · sweeping powers 广泛权力",
+      "ex": "The new sanctions bill signed by President Trump includes sweeping measures targeting Russia and Iran, unsettling global markets.",
+      "exZh": "特朗普总统签署的新制裁法案包含针对俄罗斯和伊朗的广泛措施，令全球市场不安。",
+      "ex2": "The board approved sweeping changes to the bonus scheme, which many staff see as a double-edged sword.",
+      "ex2Zh": "董事会批准了对奖金制度的全面改革，许多员工认为这是一把双刃剑。",
+      "t": "特朗普签署针对俄罗斯和伊朗的制裁法案，被媒体形容为 sweeping measures，涉及能源、金融多个领域，市场随即重新定价风险。\n职场用法：sweeping reforms（全面改革）常与 restructuring 搭配；对比 narrow（局部的），sweeping 强调覆盖面广、力度大。",
+      "root": "动词 sweep(扫，古英语 swāpan，同源 swoop 俯冲) + 后缀 -ing → 像大扫帚一扫而过的 → 覆盖面极广的、彻底的。",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "innovative",
+      "ph": "/ˈɪnəveɪtɪv/",
+      "m": "创新的；富有新意的（产品、模式、人才）",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "introducing new ideas or methods; original and creative, as in business or tech",
+      "defs": [
+        {
+          "cn": "创新的（方法/产品）",
+          "en": "featuring new ideas or methods",
+          "pos": "adj."
+        },
+        {
+          "cn": "富有新意的（人才）",
+          "en": "original and creative, as a person",
+          "pos": "adj."
+        },
+        {
+          "cn": "采用新技术的",
+          "en": "using new technology or approaches",
+          "pos": "adj."
+        }
+      ],
+      "col": "innovative products 创新产品 · innovative approach 创新方法 · innovative talent 创新型人才 · highly innovative 高度创新的",
+      "ex": "At the Canton Fair, Chinese exporters showcased innovative products, with the media calling them a new business card for foreign trade.",
+      "exZh": "在广交会上，中国出口商展示了创新产品，媒体称其为中国外贸新名片。",
+      "ex2": "Companies that reward innovative thinking tend to retain talent better in a competitive job market.",
+      "ex2Zh": "在竞争激烈的就业市场，奖励创新思维的公司往往更能留住人才。",
+      "t": "央广财评指出，广交会上向新向智，innovative 产品成为中国外贸的『新名片』，青岛也落地全国首个海洋Token工厂，创新场景不断涌现。\n职场联想：innovative 创新 ↔ imitative 模仿；名词 innovation 创新，动词 innovate，常与 R&D、startup 搭配，是简历高频词。",
+      "root": "前缀 in-(向内) + 词根 nov-(=new 新，拉丁 novus，同源 novel 新颖的/novice 新手) + 后缀 -ative(有…倾向的) → 不断引入新东西 → 创新的。",
+      "d": "2026-09-19"
+    },
+    {
+      "w": "mobility",
+      "ph": "/məʊˈbɪləti/",
+      "m": "流动性；（职场）晋升与转岗的流动机会",
+      "c": "work",
+      "pos": "n.",
+      "en": "the ability to move or be moved; social or career movement between roles or places",
+      "defs": [
+        {
+          "cn": "（职场）流动性",
+          "en": "the ability to change jobs or roles",
+          "pos": "n."
+        },
+        {
+          "cn": "（社会）阶层流动",
+          "en": "movement between social or economic levels",
+          "pos": "n."
+        },
+        {
+          "cn": "（交通/人员）移动性",
+          "en": "the capacity to move physically",
+          "pos": "n."
+        }
+      ],
+      "col": "upward mobility 向上流动 · labor mobility 劳动力流动 · career mobility 职业流动 · social mobility 社会流动",
+      "ex": "As AI reshapes job markets, workers increasingly value career mobility and the chance to reskill across industries.",
+      "exZh": "随着AI重塑就业市场，劳动者越来越看重职业流动性和跨行业再培训的机会。",
+      "ex2": "Improved transport links in southwest China have boosted labor mobility and opened new space for inland industries.",
+      "ex2Zh": "中国西南交通改善提升了劳动力流动性，为内陆产业打开新空间。",
+      "t": "平陆运河为中国西南内陆产业再造新空间，物流改善带动人员 mobility 提升，区域就业结构随之变化。\n职场搭配：upward mobility 向上流动、job mobility 职业流动；对比 stability 稳定，mobility 强调可迁移、能换赛道的能力。",
+      "root": "词根 mob-(=move 移动，拉丁 movere，同源 mobile 可移动的/motion 运动) + 后缀 -ity(名词) → 可移动的性质 → 流动性、流动能力。",
+      "d": "2026-09-19"
     }
   ],
   "preview": {
-    "hook": "欧盟与东盟在布鲁塞尔签署《绿色[manufacturing|manufacturing]业与半导体供应链伙伴协议》，计划沿经济[corridor|corridor]打造跨国产业带，并承诺年内[ratify|ratify]关键条款；与此同时，多国[policy|policy]制定者联合[curate|curate]跨境旅游复苏方案，试图以[cooperation|cooperation]机制对冲全球过剩产能与芯片库存压力。 随着[旅游业|tourism]复苏带动电子设备需求，[半导体|semiconductor]产业迎来新的增长机遇。",
+    "hook": "今天，美联储意外宣布再度[hike|hike]，叠加一家科技巨头IPO[listing|listing]首日破发，以及云服务商长达六小时的[outage|outage]，市场情绪骤然转冷；与此同时，AI大模型的[commercialization|commercialization]路径仍不明朗，企业员工[workload|workload]激增却难见回报，监管层正酝酿一场影响广泛的合规[sweeping|sweeping]，而真正[innovative|innovative]团队反而借机招揽人才，推动行业内部[mobility|mobility]加速重塑。",
     "impact": ""
   }
 }

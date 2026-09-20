@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-19",
+  "updated_on": "2026-09-20",
   "quote": {
-    "en": "Learn through every turn, and no outage can stop your rise.",
-    "zh": "在每一次转折中学习，任何中断都挡不住你的成长。"
+    "en": "Recalibrate your skills, and every market turn becomes your teacher.",
+    "zh": "重新校准你的技能，每一次市场转折都会成为你的老师。"
   },
   "story": {
-    "en": "Central banks in the US, Japan and Europe delivered a [hike|hike] to counter high inflation, sending European stocks lower, while oil prices fell on September 18. In Shanghai, Shengu Group's [listing|listing] saw shares surge 12-fold in two days, prompting the exchange to suspend abnormal accounts. Power reliability drew attention after a reported [outage|outage] linked to grid strain, though no details were confirmed. The [commercialization|commercialization] of AI short dramas gained traction as a viral series highlighted new revenue models. Meanwhile, a [sweeping|sweeping] sanctions bill targeting Russia and Iran was signed by President Trump, with Putin responding on arms plans. Analysts noted that a heavier regulatory [workload|workload] may slow cross-border deals. In Qingdao, an [innovative|innovative] marine Token factory opened, aiming to boost digital asset [mobility|mobility] across sectors. Looking ahead, investors will watch central bank signals and the UN secretary-general selection for further market direction.",
-    "cn": "全球市场正重新调整，因各国央行在通胀降温背景下释放出放缓[加息|hike]步伐的信号。科技领域，一家主要云服务商的长时间[停运|outage]中断了三大洲的服务，促使监管机构审查冗余标准。与此同时，一家金融科技公司成功[上市|listing]于纳斯达克，募资21亿美元，凸显投资者对可扩展平台的兴趣。数字金融的激增加速了AI驱动咨询工具的[商业化|commercialization]，但分析师警告称，日益增加的监管[工作量|workload]可能延迟审批。作为回应，多国政府推出了影响广泛的[（政策、改革、制裁）影响广泛的|sweeping]以简化合规并培育创新解决方案。劳动经济学家指出，此类转变可能增强跨行业[流动性|mobility]，使技能人才转向高增长领域。展望未来，货币政策与技术应用的相互作用可能决定2027年市场韧性。"
+    "en": "As of September 20, 2026, global markets and diplomacy show a mix of tension and opportunity. In the Middle East, US-Iran [negotiation|negotiation] may restart, with Iran conveying seven conditions, while the US is reportedly ready to talk and seeks to lift sanctions and blockade. Meanwhile, a Saudi-led coalition intercepted a Houthi missile aimed at Riyadh, underscoring fragile security. In Asia, the 29th Beijing-Taiwan Science and Technology Forum opened in Beijing, focusing on tech [innovation|innovation] and industrial [collaboration|collaboration]. The China Ocean Development Index Report 2026 highlights new progress in building a maritime power. In Guangxi, the 23rd China-ASEAN Expo featured international sister cities, with the Lancang-Mekong cooperation zone as a new highlight, expected to release new dividends from the Pinglu Canal and boost regional [infrastructure|infrastructure]. On the domestic front, a new policy effective today allows housing provident fund withdrawals for renovations and property fees, signaling an [uptick|uptick] in consumption support. In tech, [autonomous|autonomous] driving and AI [recruit|recruit] efforts continue, with companies seeking autonomous solutions. A [resumption|resumption] of cross-strait exchanges is also anticipated. Overall, these developments point to a dynamic landscape where dialogue and cooperation remain key.",
+    "cn": "截至2026年9月20日，全球外交与经济呈现紧张与机遇并存的态势。中东方面，美伊[谈判|negotiation]似现重启可能，伊朗向美传达七项条件，消息称美方已准备好谈判并寻求解除制裁和封锁；同时，沙特主导联军称拦截一枚射向利雅得的胡塞武装导弹，安全形势脆弱。亚洲方面，第29届京台科技论坛在京开幕，两岸嘉宾共话科技[创新|innovation]与产业[合作|collaboration]；《中国海洋发展指数报告2026》显示海洋强国建设取得新成效。广西国际友城亮相第23届东博会，澜湄合作专区成新亮点，平陆运河有望释放区域合作新红利，推动[基础设施|infrastructure]升级。国内，9月20日起装修、交物业费也能提取公积金，新政提振消费，或带来小幅[上升|uptick]。科技领域，自动驾驶与AI[招聘|recruit]持续，企业寻求自主解决方案；两岸交流[恢复|resumption]亦受期待。 随着人工智能的发展，[自主的|autonomous]驾驶汽车正逐渐走进人们的生活。"
   },
   "words": [
     {
@@ -8331,10 +8331,255 @@
       "t": "平陆运河为中国西南内陆产业再造新空间，物流改善带动人员 mobility 提升，区域就业结构随之变化。\n职场搭配：upward mobility 向上流动、job mobility 职业流动；对比 stability 稳定，mobility 强调可迁移、能换赛道的能力。",
       "root": "词根 mob-(=move 移动，拉丁 movere，同源 mobile 可移动的/motion 运动) + 后缀 -ity(名词) → 可移动的性质 → 流动性、流动能力。",
       "d": "2026-09-19"
+    },
+    {
+      "w": "recruit",
+      "ph": "/rɪˈkruːt/",
+      "m": "招聘；招募（新成员）",
+      "c": "work",
+      "pos": "v./n.",
+      "en": "to hire or enlist new people for a company or organization; also a new member (in workplace/HR contexts)",
+      "defs": [
+        {
+          "cn": "招聘；招募",
+          "en": "to hire or enlist new people",
+          "pos": "v."
+        },
+        {
+          "cn": "新成员；新兵",
+          "en": "a newly hired or enlisted person",
+          "pos": "n."
+        },
+        {
+          "cn": "（喻）争取支持",
+          "en": "to seek support or members, figuratively",
+          "pos": "v."
+        }
+      ],
+      "col": "recruit talent 招聘人才 · recruit graduates 招聘毕业生 · recruitment drive 招聘活动 · new recruit 新员工",
+      "ex": "With gold bullish and commodity desks busy, banks are recruiting more analysts for safe-haven trading.",
+      "exZh": "黄金看涨、大宗商品交易繁忙，银行正招聘更多避险交易分析师。",
+      "ex2": "The ASEAN delegation expects the Pinglu Canal to bring new opportunities, prompting firms to recruit logistics staff.",
+      "ex2Zh": "东盟代表团期待平陆运河带来新机遇，促使企业招聘物流人员。",
+      "t": "东盟人士期待平陆运河释放区域合作新红利，广西国际友城亮相第23届东博会，澜湄合作专区成新亮点——物流与贸易岗位扩招，企业正 recruit 熟悉跨境业务的人才。\n职场搭配：recruit 强调'招进来'，hire 更偏'雇用'；名词 recruit 指新人，如 a new recruit（新员工），HR 邮件里高频出现。",
+      "root": "前缀 re-(再、加强，拉丁 re，同源 repeat 重复) + 词根 cr-(=cre 生长，拉丁 crescere，同源 create 创造、increase 增加) + 后缀 -uit(法语过去分词词尾) → 使队伍再生长 → 招募新成员",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "uptick",
+      "ph": "/ˈʌptɪk/",
+      "m": "(小幅)上升；增长；回暖迹象",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a small increase or rise, esp. in prices, sales, demand or activity",
+      "defs": [
+        {
+          "cn": "(小幅)上升；增长；回暖迹象",
+          "en": "a small increase in prices, sales or activity",
+          "pos": "n."
+        },
+        {
+          "cn": "(行情)微涨",
+          "en": "a slight upward movement in a market",
+          "pos": "n."
+        },
+        {
+          "cn": "(需求)略有起色",
+          "en": "a modest improvement in demand",
+          "pos": "n."
+        }
+      ],
+      "col": "an uptick in demand 需求小幅回升 · an uptick in sales 销售微增 · a slight uptick 小幅上扬 · an uptick in prices 价格微涨",
+      "ex": "Gold's uptick continued as Goldman Sachs and UBS reiterated their bullish calls on the metal.",
+      "exZh": "随着高盛和瑞银重申看涨黄金，金价延续小幅上行。",
+      "ex2": "Retailers reported an uptick in foot traffic after the new motorcycle expo opened in Chongqing.",
+      "ex2Zh": "重庆摩托车博览会开幕后，零售商报告客流小幅回升。",
+      "t": "高盛、瑞银最新研判黄金仍然看涨，金价出现明显 uptick；与此同时东盟人士期待平陆运河释放区域合作新红利，贸易与物流需求也现回暖迹象。\n小词大用：uptick 专指『小幅』上行，比 rise 更精准，常与 slight、modest、notable 搭配，写财经短评很出彩。",
+      "root": "前缀 up-(向上，古英语 up，同源 upward 向上的、upsurge 激增) + 词根 tick-(轻触、标记，中古英语 tekken) → 行情图上向上跳一小格 → 小幅上升、微增",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "infrastructure",
+      "ph": "/ˈɪnfrəstrʌktʃə/",
+      "m": "基础设施；基础建设",
+      "c": "econ",
+      "pos": "n.",
+      "en": "The basic physical and organisational structures, such as transport, power, and digital networks, needed for an economy to function",
+      "defs": [
+        {
+          "cn": "基础设施",
+          "en": "basic physical systems like roads, power, and networks",
+          "pos": "n."
+        },
+        {
+          "cn": "基础建设",
+          "en": "the building of such systems for public use",
+          "pos": "n."
+        },
+        {
+          "cn": "基础架构",
+          "en": "the underlying framework of an organisation or system",
+          "pos": "n."
+        }
+      ],
+      "col": "transport infrastructure 交通基础设施 · digital infrastructure 数字基础设施 · infrastructure investment 基建投资 · infrastructure gap 基建缺口",
+      "ex": "The Pinglu Canal project is expected to unlock new regional trade dividends and reshape logistics infrastructure across southwest China.",
+      "exZh": "平陆运河项目有望释放新的区域贸易红利，重塑中国西南地区的物流基础设施。",
+      "ex2": "The government's new budget prioritises infrastructure spending on power grids and data centres.",
+      "ex2Zh": "政府新预算将电网和数据中心的基础设施支出列为优先事项。",
+      "t": "东盟人士期待平陆运河释放区域合作新红利，广西国际友城亮相第23届东博会，澜湄合作专区成新亮点——运河、港口、数据中心这类 infrastructure 投资，正成为区域经贸合作的核心抓手。\n职场联想：infrastructure 在 IT 语境里常指『底层架构』，如 cloud infrastructure，与 physical infrastructure(实体基建) 形成虚实对照，一词两境。",
+      "root": "前缀 infra-(下方、基础，拉丁 infra，同源 infrared 红外线) + 词根 struct(建造，拉丁 struere，同源 construct 建造) + 后缀 -ure(名词) → 建在下面的结构 → 基础设施",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "resumption",
+      "ph": "/rɪˈzʌmpʃn/",
+      "m": "(中断后)恢复；重新开始",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the act of starting again after a pause; used in diplomacy, trade talks, and business contexts",
+      "defs": [
+        {
+          "cn": "(中断后)恢复",
+          "en": "the act of beginning again after an interruption",
+          "pos": "n."
+        },
+        {
+          "cn": "重新开始",
+          "en": "a fresh start of an activity that had stopped",
+          "pos": "n."
+        },
+        {
+          "cn": "复职/复课",
+          "en": "returning to a job, class, or duty after a break",
+          "pos": "n."
+        }
+      ],
+      "col": "resumption of talks 谈判重启 · resumption of trade 贸易恢复 · the resumption of duties 复职 · a smooth resumption 顺利恢复",
+      "ex": "News that the US has signalled readiness to talk with Iran has raised hopes for a resumption of negotiations, with sanctions relief on the table.",
+      "exZh": "美方表示准备与伊朗谈判的消息，令谈判重启、解除制裁的希望升温。",
+      "ex2": "After the holiday, the resumption of full production at the plant helped the company meet its quarterly target.",
+      "ex2Zh": "假期后工厂全面复产，帮助公司完成了季度目标。",
+      "t": "据同花顺与中华网报道，美伊谈判似现重启可能，伊朗向美方传达七项条件，美方称已准备好谈判并寻求解除制裁和封锁。resumption 正是这种『中断后重启』的精准表达，比 start again 更正式。\n职场例句：After a two-week pause, the resumption of the merger talks caught everyone off guard.（合并谈判停了两周后重启，让所有人措手不及。）",
+      "root": "前缀 re-(再、又，拉丁 re，同源 return 返回、renew 更新) + 词根 sumpt(=sumere 拿起，拉丁，同源 assume 承担、consume 消耗) + 后缀 -ion(名词，拉丁) → 再次拿起 → 中断后重新开始",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "collaboration",
+      "ph": "/kəˌlæbəˈreɪʃn/",
+      "m": "合作；协作",
+      "c": "work",
+      "pos": "n.",
+      "en": "the action of working with someone to produce something; common in business and workplace contexts",
+      "defs": [
+        {
+          "cn": "合作",
+          "en": "the process of working together towards a shared goal",
+          "pos": "n."
+        },
+        {
+          "cn": "协作",
+          "en": "joint effort in a team or between organizations",
+          "pos": "n."
+        },
+        {
+          "cn": "合著",
+          "en": "the act of producing something jointly",
+          "pos": "n."
+        }
+      ],
+      "col": "international collaboration 国际合作 · collaboration between teams 团队协作 · research collaboration 研究合作 · in collaboration with 与…合作",
+      "ex": "The 29th Beijing-Taiwan Science and Technology Forum opened in Beijing, with guests discussing technological innovation and industrial collaboration.",
+      "exZh": "第29届京台科技论坛在京开幕，两岸嘉宾共话科技创新与产业合作。",
+      "ex2": "Effective collaboration between departments is essential for the company's success.",
+      "ex2Zh": "部门之间的有效协作对公司成功至关重要。",
+      "t": "第29届京台科技论坛在京开幕，两岸嘉宾共话科技创新与产业 collaboration，凸显两岸在科技领域的合作潜力。同时，广西国际友城亮相东博会，澜湄合作专区成新亮点。\n职场中，collaboration 是团队成功的关键。与 cooperation 相比，collaboration 更强调共同创造。",
+      "root": "前缀 col-(共同，拉丁 com，同源 connect 连接) + 词根 labor(工作，拉丁 laborare，同源 laboratory 实验室) + 后缀 -ation(名词后缀) → 共同工作 → 合作",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "negotiation",
+      "ph": "/nɪˌɡəʊʃiˈeɪʃn/",
+      "m": "谈判；协商",
+      "c": "politics",
+      "pos": "n.",
+      "en": "discussion aimed at reaching an agreement, often in diplomatic or business contexts",
+      "defs": [
+        {
+          "cn": "谈判",
+          "en": "formal discussion to reach an agreement",
+          "pos": "n."
+        },
+        {
+          "cn": "协商",
+          "en": "the process of bargaining or discussing terms",
+          "pos": "n."
+        },
+        {
+          "cn": "转让",
+          "en": "the act of transferring something to another",
+          "pos": "n."
+        }
+      ],
+      "col": "trade negotiation 贸易谈判 · enter negotiations 进入谈判 · negotiation skills 谈判技巧 · under negotiation 在谈判中",
+      "ex": "US-Iran negotiations appear to be restarting, with Iran conveying seven conditions to the US and the US ready to seek sanctions relief.",
+      "exZh": "美伊谈判似现重启可能，伊朗向美方传达七项谈判条件，美方也准备好寻求解除制裁。",
+      "ex2": "The salary negotiation between the union and management lasted for weeks.",
+      "ex2Zh": "工会与管理层之间的薪资谈判持续了数周。",
+      "t": "美伊谈判似现重启可能，伊朗向美方传达七项谈判条件，美方也准备好寻求解除制裁和封锁。这场 negotiation 可能影响中东局势和全球能源市场。\n职场中，negotiation 是重要技能，如薪资谈判。与 bargaining 相比，negotiation 更正式。",
+      "root": "词根 neg(不，拉丁 negare，同源 deny 否认) + 词根 oti(闲暇，拉丁 otium，同源 negotiate 谈判) + 后缀 -ation(名词后缀) → 不闲暇地做事 → 谈判",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "innovation",
+      "ph": "/ˌɪnəˈveɪʃn/",
+      "m": "创新；革新",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the introduction of new ideas, methods, or products; often in technology and business contexts",
+      "defs": [
+        {
+          "cn": "创新",
+          "en": "the act of introducing new ideas or methods",
+          "pos": "n."
+        },
+        {
+          "cn": "革新",
+          "en": "a new method, idea, or product",
+          "pos": "n."
+        },
+        {
+          "cn": "新事物",
+          "en": "something newly introduced or created",
+          "pos": "n."
+        }
+      ],
+      "col": "technological innovation 科技创新 · drive innovation 推动创新 · innovation hub 创新中心 · innovation strategy 创新战略",
+      "ex": "The Beijing-Taiwan Science and Technology Forum highlighted technological innovation and industrial collaboration across the strait.",
+      "exZh": "京台科技论坛强调了两岸的科技创新与产业合作。",
+      "ex2": "The company's success is largely due to its continuous innovation in product design.",
+      "ex2Zh": "该公司的成功主要归功于其在产品设计上的持续创新。",
+      "t": "第29届京台科技论坛在京开幕，两岸嘉宾共话科技创新与产业合作，innovation 成为关键词。同时，中国海洋发展指数报告显示海洋强国建设取得新成效，也离不开技术创新。\n职场中，innovation 是推动企业发展的核心动力。与 invention 强调发明不同，innovation 更强调应用和商业化。",
+      "root": "前缀 in-(进入，拉丁 in，同源 inject 注入) + 词根 nov(新，拉丁 novus，同源 novel 新颖的) + 后缀 -ation(名词后缀) → 进入新的状态 → 创新",
+      "d": "2026-09-20"
+    },
+    {
+      "w": "autonomous",
+      "ph": "/ɔːˈtɒnəməs/",
+      "m": "自动的；自主的",
+      "c": "tech",
+      "ex": "Autonomous vehicles map the road with lasers.",
+      "exZh": "自动驾驶车辆用激光绘制路况。",
+      "root": "auto-(self) + nomos(law) → 自己给自己定规则",
+      "pos": "adj.",
+      "t": "不用人管、自己能做决定的。",
+      "en": "operating independently without human control",
+      "col": "autonomous driving · autonomous robots",
+      "d": "2026-09-20"
     }
   ],
   "preview": {
-    "hook": "今天，美联储意外宣布再度[hike|hike]，叠加一家科技巨头IPO[listing|listing]首日破发，以及云服务商长达六小时的[outage|outage]，市场情绪骤然转冷；与此同时，AI大模型的[commercialization|commercialization]路径仍不明朗，企业员工[workload|workload]激增却难见回报，监管层正酝酿一场影响广泛的合规[sweeping|sweeping]，而真正[innovative|innovative]团队反而借机招揽人才，推动行业内部[mobility|mobility]加速重塑。",
+    "hook": "国内多家车企与科技公司同步启动新一轮[recruit|recruit]，瞄准自动驾驶与智能座舱岗位，招聘量出现明显回暖，同时各地加快[infrastructure|infrastructure]配套建设，为L3级测试的[resumption|resumption]铺路；行业内部围绕数据共享展开[collaboration|collaboration]，但因分成比例分歧，[negotiation|negotiation]仍处拉锯，企业转而以[innovation|innovation]驱动降本，试图在人才争夺与合规压力之间找到平衡。 最新数据显示，在[小幅上升|uptick]的消费需求推动下，这家[自主的|autonomous]驾驶公司加快了量产计划。",
     "impact": ""
   }
 }

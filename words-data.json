@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-20",
+  "updated_on": "2026-09-21",
   "quote": {
-    "en": "Recalibrate your skills, and every market turn becomes your teacher.",
-    "zh": "重新校准你的技能，每一次市场转折都会成为你的老师。"
+    "en": "Reskill today, and no machine can replace your value.",
+    "zh": "今天再学习，就没有机器能取代你的价值。"
   },
   "story": {
-    "en": "As of September 20, 2026, global markets and diplomacy show a mix of tension and opportunity. In the Middle East, US-Iran [negotiation|negotiation] may restart, with Iran conveying seven conditions, while the US is reportedly ready to talk and seeks to lift sanctions and blockade. Meanwhile, a Saudi-led coalition intercepted a Houthi missile aimed at Riyadh, underscoring fragile security. In Asia, the 29th Beijing-Taiwan Science and Technology Forum opened in Beijing, focusing on tech [innovation|innovation] and industrial [collaboration|collaboration]. The China Ocean Development Index Report 2026 highlights new progress in building a maritime power. In Guangxi, the 23rd China-ASEAN Expo featured international sister cities, with the Lancang-Mekong cooperation zone as a new highlight, expected to release new dividends from the Pinglu Canal and boost regional [infrastructure|infrastructure]. On the domestic front, a new policy effective today allows housing provident fund withdrawals for renovations and property fees, signaling an [uptick|uptick] in consumption support. In tech, [autonomous|autonomous] driving and AI [recruit|recruit] efforts continue, with companies seeking autonomous solutions. A [resumption|resumption] of cross-strait exchanges is also anticipated. Overall, these developments point to a dynamic landscape where dialogue and cooperation remain key.",
-    "cn": "截至2026年9月20日，全球外交与经济呈现紧张与机遇并存的态势。中东方面，美伊[谈判|negotiation]似现重启可能，伊朗向美传达七项条件，消息称美方已准备好谈判并寻求解除制裁和封锁；同时，沙特主导联军称拦截一枚射向利雅得的胡塞武装导弹，安全形势脆弱。亚洲方面，第29届京台科技论坛在京开幕，两岸嘉宾共话科技[创新|innovation]与产业[合作|collaboration]；《中国海洋发展指数报告2026》显示海洋强国建设取得新成效。广西国际友城亮相第23届东博会，澜湄合作专区成新亮点，平陆运河有望释放区域合作新红利，推动[基础设施|infrastructure]升级。国内，9月20日起装修、交物业费也能提取公积金，新政提振消费，或带来小幅[上升|uptick]。科技领域，自动驾驶与AI[招聘|recruit]持续，企业寻求自主解决方案；两岸交流[恢复|resumption]亦受期待。 随着人工智能的发展，[自主的|autonomous]驾驶汽车正逐渐走进人们的生活。"
+    "en": "Global markets and diplomacy converged on New York today as China-US trade [consultation|consultation] began, while a wave of drone strikes on Moscow deepened the Russia-Ukraine [impasse|impasse]. In Hainan, the first Aerospace Medicine Engineering Conference announced China had completed [orbital|orbital] cultivation trials of 14 plant species and over 20 varieties, a quiet milestone for space biology. In parallel, the WorldSkills Competition preview in Shanghai highlighted how [apprenticeship|apprenticeship] models can [reinvigorate|reinvigorate] manufacturing, echoing the 2026 World Manufacturing Convention's push for smarter industry. The term \"shared development\" has become a [buzzword|buzzword] at the China-ASEAN Expo, now shifting toward co-building ecosystems. Beijing's new housing fund rules, effective September 20, expand coverage, but analysts warn that without a [consultative|consultative] mechanism, local implementation could stall. Meanwhile, a regulatory [clampdown|clampdown] on AI risks is gaining traction, with China and the US exploring cooperation to prevent AI \"loss of control.\" Looking ahead, the convergence of trade talks, space science, and skills training suggests a fragile but forward-leaning agenda.",
+    "cn": "中美经贸[磋商、协商|consultation]今日在纽约开始举行，而莫斯科遭大规模无人机袭击，俄乌相互打击升级，双方陷入新的[僵局|impasse]。首届航天医学工程大会召开，我国完成14种植物20余个品种的在轨培养试验，标志着空间生物学的静默突破。与此同时，第四十八届世界技能大赛前瞻显示，[学徒期|apprenticeship]模式有望重振制造业，呼应2026世界制造业大会的“智”变主题。东博会上，“共享发展”成为[流行术语|buzzword]，合作正从共享走向共建生态。新修订的《住房公积金管理条例》9月20日起施行，扩大覆盖面，但分析人士警告，若缺乏协商性机制，地方落实可能受阻。此外，针对AI“失控”的[严厉整治、取缔|clampdown]正在推进，中美如何合作防范风险备受关注。展望未来，经贸磋商、航天科学与技能培训的交汇，勾勒出脆弱但向前倾斜的议程。 政府推出[振兴|reinvigorate]经济的[协商式|consultative]改革方案，同时加大对[轨道的|orbital]卫星技术的投资。"
   },
   "words": [
     {
@@ -8576,10 +8576,274 @@
       "en": "operating independently without human control",
       "col": "autonomous driving · autonomous robots",
       "d": "2026-09-20"
+    },
+    {
+      "w": "clampdown",
+      "ph": "/ˈklæmpdaʊn/",
+      "m": "(对违规行为的)严厉整治、取缔",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a severe official action to stop or restrict an activity, esp. regulation or enforcement",
+      "defs": [
+        {
+          "cn": "(对违规行为的)严厉整治",
+          "en": "a severe official action to suppress an activity",
+          "pos": "n."
+        },
+        {
+          "cn": "压制、取缔",
+          "en": "the act of restricting or cracking down on something",
+          "pos": "n."
+        },
+        {
+          "cn": "严打行动",
+          "en": "a campaign of strict enforcement by authorities",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory clampdown 监管整治 · crackdown on speculation 打击投机 · launch a clampdown 发起严打 · face a clampdown 面临整治",
+      "ex": "The new housing fund rules and tighter oversight of property speculation amount to a fresh clampdown on irregular withdrawals.",
+      "exZh": "新的住房公积金规则和对房产投机的更严监管，构成对违规提取的新一轮整治。",
+      "ex2": "Analysts expect a clampdown on shadow banking to continue through the year, squeezing smaller lenders.",
+      "ex2Zh": "分析师预计对影子银行的整治将持续整年，挤压小型放贷机构。",
+      "t": "今日热点：新修订的《住房公积金管理条例》9月20日起施行，扩大覆盖面、多地用途『上新』，被市场视为对违规提取的一次规范化 clampdown。\n职场联想：公司突然严查报销，同事说 'It feels like a clampdown on expenses'——和 crackdown 近义，但 clampdown 更强调官方强制收紧。",
+      "root": "动词短语 clamp down(压制、夹紧) + 副词 down 构成的合成名词；clamp 源自古英语 clamm(钳、夹)，同源 clamber(攀爬) → 用钳子夹住 → 强力压制、取缔。",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "consultation",
+      "ph": "/ˌkɒnsəlˈteɪʃn/",
+      "m": "磋商、协商；咨询",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the process of discussing something with others before deciding; a formal meeting for advice",
+      "defs": [
+        {
+          "cn": "磋商、协商",
+          "en": "discussion aimed at reaching a decision or agreement",
+          "pos": "n."
+        },
+        {
+          "cn": "咨询、征求意见",
+          "en": "the act of seeking advice or opinions",
+          "pos": "n."
+        },
+        {
+          "cn": "磋商会",
+          "en": "a formal meeting for consultation",
+          "pos": "n."
+        }
+      ],
+      "col": "trade consultation 贸易磋商 · public consultation 公众咨询 · hold consultations 举行磋商 · consultation process 磋商进程",
+      "ex": "China-U.S. trade consultations began in New York, with both sides seeking to narrow differences on tariffs and market access.",
+      "exZh": "中美经贸磋商在纽约开始举行，双方寻求在关税和市场准入上缩小分歧。",
+      "ex2": "The company launched a staff consultation on hybrid work before finalizing its return-to-office policy.",
+      "ex2Zh": "公司在敲定返岗政策前，就混合办公启动了员工咨询。",
+      "t": "今日头条：中美经贸磋商在美国纽约开始举行，双方就关税与市场准入展开 consultation，全球市场密切关注进展。\n职场例句：Before changing the bonus scheme, HR ran a consultation with team leaders——比 discussion 更正式，强调决策前的正式征询。",
+      "root": "前缀 con-(共同，拉丁 com，同源 connect 连接) + 词根 sult(=sal 跳，拉丁 salire，同源 assault 攻击) + 名词后缀 -ation → 一起跳过去商议 → 磋商、咨询。",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "apprenticeship",
+      "ph": "/əˈprentɪsʃɪp/",
+      "m": "n. 学徒期；学徒制培训",
+      "c": "work",
+      "pos": "n.",
+      "en": "a period of training under a skilled employer; a system of learning a trade on the job",
+      "defs": [
+        {
+          "cn": "学徒期",
+          "en": "a fixed period during which one learns a trade",
+          "pos": "n."
+        },
+        {
+          "cn": "学徒制",
+          "en": "a training system combining work and study",
+          "pos": "n."
+        },
+        {
+          "cn": "见习、师承",
+          "en": "any period of guided learning under a mentor",
+          "pos": "n."
+        }
+      ],
+      "col": "serve an apprenticeship 当学徒 · apprenticeship program 学徒项目 · complete an apprenticeship 完成学徒期 · apprenticeship levy 学徒税",
+      "ex": "Ahead of the 48th WorldSkills Competition, officials stressed that apprenticeship schemes are key to closing the skills gap.",
+      "exZh": "在第48届世界技能大赛前夕，官员强调学徒制是弥合技能缺口的关键。",
+      "ex2": "Many young workers now prefer a paid apprenticeship to a costly four-year degree.",
+      "ex2Zh": "如今许多年轻工人更青睐带薪学徒制，而非昂贵的四年制学位。",
+      "t": "第四十八届世界技能大赛开幕在即，新华社报道以“技能改变世界、技能照亮前程”为题， apprenticeship 再次成为职场热词：制造业、护理、数字技能都靠它补人。\n对个人而言，一段扎实的 apprenticeship 常比一纸文凭更能打动面试官——它证明你动手做过，而不只是背过书。",
+      "root": "前缀 ad-(=to 朝向，拉丁，同源 adapt 适应) + 词根 prehend(=抓住、学习，拉丁，同源 comprehend 理解) + 后缀 -ship(状态，古英语) → 处于学习掌握技能的状态 → 学徒期",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "reinvigorate",
+      "ph": "/ˌriːɪnˈvɪɡəreɪt/",
+      "m": "v. 使重振；给…注入新活力",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to give new energy or strength to something; to revive an economy, brand, or team",
+      "defs": [
+        {
+          "cn": "使重振",
+          "en": "to restore energy or vigor to something",
+          "pos": "v."
+        },
+        {
+          "cn": "重新激活",
+          "en": "to make an activity or market active again",
+          "pos": "v."
+        },
+        {
+          "cn": "使恢复元气",
+          "en": "to refresh a person or organization",
+          "pos": "v."
+        }
+      ],
+      "col": "reinvigorate the economy 重振经济 · reinvigorate demand 重振需求 · reinvigorate a brand 重振品牌 · reinvigorate growth 重振增长",
+      "ex": "Retail sales rose 2.5% in the first eight months of 2026, a sign that consumption policies are starting to reinvigorate demand.",
+      "exZh": "2026年前8个月社会消费品零售总额增长2.5%，显示消费政策正开始重振需求。",
+      "ex2": "The new housing fund rules aim to reinvigorate the property market in smaller cities.",
+      "ex2Zh": "新公积金条例旨在重振中小城市的房地产市场。",
+      "t": "央视网数据显示，今年前8个月社会消费商品和服务零售总额同比增长2.5%，多地借新修订的《住房公积金管理条例》扩大覆盖面，试图 reinvigorate 住房与家装消费。\n职场里，“reinvigorate a tired team”是管理高频表达：不是加人，而是换打法，把士气重新点燃。",
+      "root": "前缀 re-(再次，拉丁，同源 repeat 重复) + 前缀 in-(进入，拉丁) + 词根 vigor(活力，拉丁，同源 vigorous 精力充沛的) + 后缀 -ate(动词) → 再次注入活力 → 使重振",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "consultative",
+      "ph": "/kənˈsʌltətɪv/",
+      "m": "adj. 协商的；咨询性的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "relating to consultation or advice; a body or process that advises rather than decides",
+      "defs": [
+        {
+          "cn": "协商的",
+          "en": "involving discussion before a decision",
+          "pos": "adj."
+        },
+        {
+          "cn": "咨询性的",
+          "en": "having an advisory rather than binding role",
+          "pos": "adj."
+        },
+        {
+          "cn": "磋商机制的",
+          "en": "describing a mechanism for talks between parties",
+          "pos": "adj."
+        }
+      ],
+      "col": "consultative mechanism 磋商机制 · consultative meeting 协商会议 · consultative body 咨询机构 · in a consultative capacity 以顾问身份",
+      "ex": "China and the US began trade talks in New York, with both sides describing the format as consultative rather than binding.",
+      "exZh": "中美经贸磋商在纽约开始举行，双方称这一形式属协商性质而非约束性。",
+      "ex2": "The EU and Canada are moving closer, Macron said, hinting at a more consultative transatlantic approach.",
+      "ex2Zh": "马克龙表示支持加拿大与欧盟相互靠拢，暗示跨大西洋合作将更具协商色彩。",
+      "t": "中美经贸磋商在纽约开始举行，外界普遍关注这是否会形成常态化的 consultative 机制；与此同时，马克龙表态支持加拿大与欧盟相互靠拢，也带着明显的协商意味。\n职场中，consultative selling(顾问式销售)是常见术语：先问需求再给方案，而不是一上来就报价格。",
+      "root": "前缀 con-(共同，拉丁，同源 conference 会议) + 词根 sult(=商议，拉丁，同源 consult 咨询) + 后缀 -ative(形容词) → 共同商议的 → 协商的、咨询性的",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "buzzword",
+      "ph": "/ˈbʌzwɜːrd/",
+      "m": "n. 流行术语；热词",
+      "c": "news",
+      "pos": "n.",
+      "en": "a word or phrase that becomes very popular in a field, often losing precise meaning",
+      "defs": [
+        {
+          "cn": "流行术语",
+          "en": "a fashionable term used widely in a field",
+          "pos": "n."
+        },
+        {
+          "cn": "热词、口号",
+          "en": "a catchy phrase repeated in media or marketing",
+          "pos": "n."
+        },
+        {
+          "cn": "行话",
+          "en": "jargon that sounds impressive but may be vague",
+          "pos": "n."
+        }
+      ],
+      "col": "industry buzzword 行业热词 · marketing buzzword 营销热词 · turn into a buzzword 变成热词 · overused buzzword 被滥用的术语",
+      "ex": "At the World Manufacturing Convention, 'intelligent manufacturing' has become the buzzword of the year.",
+      "exZh": "在世界制造业大会上，“智能制造”成为年度热词。",
+      "ex2": "AI governance is now a buzzword in both Washington and Beijing, as the two sides explore cooperation.",
+      "ex2Zh": "随着中美探索合作，AI治理已成为两国共同的热词。",
+      "t": "在2026世界制造业大会上，“智能制造”几乎成了人人挂在嘴边的 buzzword；第一财经则报道，防范AI“失控”、中美如何合作，也让AI治理变成新的热词。\n提醒一句：buzzword 用多了会显空，面试时最好紧跟一个具体数字或案例，否则听着像背口号。",
+      "root": "拟声词 buzz(嗡嗡声，中古英语) + 词根 word(词，古英语，同源 wordy 啰嗦的) → 像蜜蜂一样嗡嗡传开的词 → 流行术语、热词",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "orbital",
+      "ph": "/ˈɔːrbɪtl/",
+      "m": "adj. 轨道的；在轨的",
+      "c": "tech",
+      "pos": "adj.",
+      "en": "relating to an orbit, especially of a spacecraft or satellite around a planet",
+      "defs": [
+        {
+          "cn": "轨道的",
+          "en": "connected with the path of an object in space",
+          "pos": "adj."
+        },
+        {
+          "cn": "在轨运行的",
+          "en": "operating in orbit around a planet",
+          "pos": "adj."
+        },
+        {
+          "cn": "(城市)外环的",
+          "en": "relating to a ring road around a city",
+          "pos": "adj."
+        }
+      ],
+      "col": "orbital module 轨道舱 · orbital experiment 在轨实验 · orbital launch 轨道发射 · orbital period 轨道周期",
+      "ex": "China completed orbital cultivation tests of more than 20 varieties of 14 plant species, the first space medicine conference heard.",
+      "exZh": "首届航天医学工程大会透露，我国完成14种植物20余个品种的在轨培养试验。",
+      "ex2": "Private firms are racing to cut the cost of orbital launches and satellite deployment.",
+      "ex2Zh": "私营企业正竞相降低轨道发射与卫星部署的成本。",
+      "t": "首届航天医学工程大会召开，我国完成14种植物20余个品种的在轨培养试验，orbital 农业与航天医学由此进入公众视野，商业航天链条也被带动。\n职场联想：卫星公司招聘常写“orbital operations engineer”，懂轨道力学，比只会写代码更稀缺。",
+      "root": "词根 orb(=圆环、轨道，拉丁，同源 orbit 轨道) + 后缀 -al(形容词，拉丁) → 与圆环轨迹相关的 → 轨道的、在轨的",
+      "d": "2026-09-21"
+    },
+    {
+      "w": "impasse",
+      "ph": "/ˈɪmpæs/",
+      "m": "n. 僵局；死胡同",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a situation in which no progress is possible; a deadlock in talks or negotiations",
+      "defs": [
+        {
+          "cn": "僵局",
+          "en": "a deadlock where no progress can be made",
+          "pos": "n."
+        },
+        {
+          "cn": "死胡同",
+          "en": "a point beyond which movement is impossible",
+          "pos": "n."
+        },
+        {
+          "cn": "谈判僵持",
+          "en": "a stalled state in negotiations",
+          "pos": "n."
+        }
+      ],
+      "col": "reach an impasse 陷入僵局 · break the impasse 打破僵局 · political impasse 政治僵局 · at an impasse 处于僵持",
+      "ex": "Trade talks between China and the US opened in New York, with observers hoping the two sides can break the impasse.",
+      "exZh": "中美经贸磋商在纽约开始举行，观察人士希望双方能打破僵局。",
+      "ex2": "Macron's push for Canada and the EU to move closer may help Europe avoid a regulatory impasse with Washington.",
+      "ex2Zh": "马克龙推动加拿大与欧盟靠拢，或有助于欧洲避免与华盛顿陷入监管僵局。",
+      "t": "中美经贸磋商在美国纽约开始举行，市场最关心的就是双方能否打破此前的 impasse；与此同时，俄罗斯国家杜马选举投票结束，投票率高于上届，也让外界关注制裁与能源谈判的走向。\n职场里，项目谈到预算就卡住，也可以说 We've hit an impasse——比 stuck 更正式，更适合写进会议纪要。",
+      "root": "前缀 im-(=in 不、进入，拉丁，同源 impossible 不可能的) + 词根 pass(=步、通过，拉丁，同源 pass 通过) → 无法再往前走 → 僵局、死胡同",
+      "d": "2026-09-21"
     }
   ],
   "preview": {
-    "hook": "国内多家车企与科技公司同步启动新一轮[recruit|recruit]，瞄准自动驾驶与智能座舱岗位，招聘量出现明显回暖，同时各地加快[infrastructure|infrastructure]配套建设，为L3级测试的[resumption|resumption]铺路；行业内部围绕数据共享展开[collaboration|collaboration]，但因分成比例分歧，[negotiation|negotiation]仍处拉锯，企业转而以[innovation|innovation]驱动降本，试图在人才争夺与合规压力之间找到平衡。 最新数据显示，在[小幅上升|uptick]的消费需求推动下，这家[自主的|autonomous]驾驶公司加快了量产计划。",
+    "hook": "针对低轨轨道卫星频轨资源争夺的监管整治正式落地，监管部门在为期数月的[consultation|consultation]后公布新规，要求相关企业就频谱使用展开协商性报备；与此同时，为重振本土航天制造，多所院校与头部厂商联合推出[apprenticeship|apprenticeship]培养项目，试图把'新太空'这一[buzzword|buzzword]从口号变成可落地的人才管道，但业内警告，若军民频段分配仍陷[impasse|impasse]，再多的政策红利也可能被拖延消耗。 政府通过[取缔|clampdown]非法经营来[重振|reinvigorate]市场信心，并在[协商的|consultative]机制下推动[轨道的|orbital]交通项目。",
     "impact": ""
   }
 }

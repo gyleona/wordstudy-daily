@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-21",
+  "updated_on": "2026-09-22",
   "quote": {
-    "en": "Reskill today, and no machine can replace your value.",
-    "zh": "今天再学习，就没有机器能取代你的价值。"
+    "en": "Each skill you master today outlasts every market swing.",
+    "zh": "你今天掌握的每一项技能，都比市场的每一次波动更长久。"
   },
   "story": {
-    "en": "Global markets and diplomacy converged on New York today as China-US trade [consultation|consultation] began, while a wave of drone strikes on Moscow deepened the Russia-Ukraine [impasse|impasse]. In Hainan, the first Aerospace Medicine Engineering Conference announced China had completed [orbital|orbital] cultivation trials of 14 plant species and over 20 varieties, a quiet milestone for space biology. In parallel, the WorldSkills Competition preview in Shanghai highlighted how [apprenticeship|apprenticeship] models can [reinvigorate|reinvigorate] manufacturing, echoing the 2026 World Manufacturing Convention's push for smarter industry. The term \"shared development\" has become a [buzzword|buzzword] at the China-ASEAN Expo, now shifting toward co-building ecosystems. Beijing's new housing fund rules, effective September 20, expand coverage, but analysts warn that without a [consultative|consultative] mechanism, local implementation could stall. Meanwhile, a regulatory [clampdown|clampdown] on AI risks is gaining traction, with China and the US exploring cooperation to prevent AI \"loss of control.\" Looking ahead, the convergence of trade talks, space science, and skills training suggests a fragile but forward-leaning agenda.",
-    "cn": "中美经贸[磋商、协商|consultation]今日在纽约开始举行，而莫斯科遭大规模无人机袭击，俄乌相互打击升级，双方陷入新的[僵局|impasse]。首届航天医学工程大会召开，我国完成14种植物20余个品种的在轨培养试验，标志着空间生物学的静默突破。与此同时，第四十八届世界技能大赛前瞻显示，[学徒期|apprenticeship]模式有望重振制造业，呼应2026世界制造业大会的“智”变主题。东博会上，“共享发展”成为[流行术语|buzzword]，合作正从共享走向共建生态。新修订的《住房公积金管理条例》9月20日起施行，扩大覆盖面，但分析人士警告，若缺乏协商性机制，地方落实可能受阻。此外，针对AI“失控”的[严厉整治、取缔|clampdown]正在推进，中美如何合作防范风险备受关注。展望未来，经贸磋商、航天科学与技能培训的交汇，勾勒出脆弱但向前倾斜的议程。 政府推出[振兴|reinvigorate]经济的[协商式|consultative]改革方案，同时加大对[轨道的|orbital]卫星技术的投资。"
+    "en": "BEIJING — As the 20th CPC Central Committee's fifth plenum is set for Oct 26-29, trade policy is moving in parallel: US Trade Representative Greer said Washington could support extending the tariff truce by 3-6 months, while Beijing and Washington may open a hotline on AI safety incidents. That offer came after a [standoff|standoff] over tech curbs.\n\nIn Europe, Foreign Minister Wang Yi told Germany's foreign minister that China and Europe should not fight a trade war, urging Berlin to stay rational and push the EU toward free trade. The message lands as the EU plans to extend sanctions on Russia. Germany's two state elections, where the far left and far right gained and the CDU slumped, have revived debate over Merz's future.\n\nMarkets offered a counterpoint: the New York stock index rose on Sept 21, while oil fell on easing geopolitical fears. The mood is bullish for now — though a [manufacturer|manufacturer] in Dongbo's China-ASEAN Expo 3.0 lanes still faces cost pressure as food prices draw official reassurance.\n\nDiplomacy is busy: Xi replied to US university students; the White House gave details of Xi's welcome and Trump will first meet Sanae Takaichi. North Korea's Kim watched a new weapon test; Russia's Duma election gave United Russia a dominant win. Denmark and Greenland will sign a security pact with the US as Yemen's displacement nears 130,000.\n\nThe plenum will [delegate|delegate] follow-up work; a [caucus|caucus] of trade officials may [broker|broker] a truce extension. Whether Beijing will [exempt|exempt] some imports, as its [predecessor|predecessor] did, remains open. The [confluence|confluence] of elections, sanctions and talks will test whether the calm holds.",
+    "cn": "全球贸易规则陷入[僵局]([僵局|standoff])，投资者情绪趋于谨慎。布鲁塞尔的一场金融[党团会议]([党团会议|caucus])讨论了是否将绿色技术进口从新关税中[豁免]([豁免|exempt])。一位来自大型[制造商]([制造商|manufacturer])的[代表]([授权|delegate])警告说，现行的[前任]([前任|predecessor])政策框架已不适应数字经济。与此同时，新加坡出面[促成]([经纪人|broker])亚洲出口商与欧洲监管机构之间的谈判。分析人士指出，供应链转移与汇率波动的[汇合]([汇合|confluence])是当前复杂局面的主因。下一轮谈判预计在2027年初举行，重点将放在跨境数据与碳定价的更清晰规则上。"
   },
   "words": [
     {
@@ -8840,10 +8840,268 @@
       "t": "中美经贸磋商在美国纽约开始举行，市场最关心的就是双方能否打破此前的 impasse；与此同时，俄罗斯国家杜马选举投票结束，投票率高于上届，也让外界关注制裁与能源谈判的走向。\n职场里，项目谈到预算就卡住，也可以说 We've hit an impasse——比 stuck 更正式，更适合写进会议纪要。",
       "root": "前缀 im-(=in 不、进入，拉丁，同源 impossible 不可能的) + 词根 pass(=步、通过，拉丁，同源 pass 通过) → 无法再往前走 → 僵局、死胡同",
       "d": "2026-09-21"
+    },
+    {
+      "w": "exempt",
+      "ph": "/ɪɡˈzempt/",
+      "m": "v. 豁免；免除（义务、费用） adj. 被豁免的",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to free someone or something from a duty, payment, or rule; (adj.) not subject to an obligation",
+      "defs": [
+        {
+          "cn": "豁免；免除",
+          "en": "to officially excuse from a duty or payment",
+          "pos": "v."
+        },
+        {
+          "cn": "被豁免的",
+          "en": "free from an obligation or liability",
+          "pos": "adj."
+        },
+        {
+          "cn": "使免受",
+          "en": "to protect from something unpleasant or burdensome",
+          "pos": "v."
+        }
+      ],
+      "col": "exempt from tariffs 关税豁免 · tax-exempt status 免税资格 · exempt sb from duty 免除某人义务 · exempt goods 豁免商品",
+      "ex": "US Trade Representative Greer said Washington could support extending the trade truce by three to six months, hinting that certain goods might be exempt from fresh tariffs.",
+      "exZh": "美国贸易代表格里尔表示，美方可能支持将贸易休战期延长三到六个月，暗示部分商品或可豁免新关税。",
+      "ex2": "Small firms with fewer than ten employees are exempt from the new digital reporting rule that takes effect next quarter.",
+      "ex2Zh": "员工少于十人的小企业可豁免下季度生效的新数字报告规定。",
+      "t": "格里尔放风称，美方有意将贸易休战期延长3到6个月，并讨论对部分商品豁免新增关税，同时提议就AI安全事件设沟通热线——\"豁免\"成了谈判桌上的筹码。\n职场联想：公司年会上，业绩达标的团队可 exempt from 周末加班，这个词自带\"被网开一面\"的轻松感，和 impose（强加）正好相反。",
+      "root": "前缀 ex-(出、向外，拉丁 ex，同源 exit 出口、export 出口) + 词根 empt(=emere 买、取，拉丁，同源 redeem 赎回、premium 溢价) → 拿出去、不纳入 → 豁免、免除",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "caucus",
+      "ph": "/ˈkɔːkəs/",
+      "m": "n. 党团会议；派系核心小组 v. 召开党团会议",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a closed meeting of members of a political party or group to decide policy or candidates; (v.) to hold such a meeting",
+      "defs": [
+        {
+          "cn": "党团会议",
+          "en": "a private meeting of party members to set strategy",
+          "pos": "n."
+        },
+        {
+          "cn": "派系核心小组",
+          "en": "a group within a larger body sharing aims",
+          "pos": "n."
+        },
+        {
+          "cn": "召开党团会议",
+          "en": "to gather as a caucus to plan action",
+          "pos": "v."
+        }
+      ],
+      "col": "party caucus 党团会议 · congressional caucus 国会党团 · caucus meeting 核心小组会议 · caucus members 党团成员",
+      "ex": "Germany's two state elections saw the far-left and far-right caucus gain ground, dealing a heavy blow to Merz's CDU and sparking debate over his future.",
+      "exZh": "德国两州选举中，极左与极右党团分别得势，基民盟重挫，默茨去留引发争论。",
+      "ex2": "The Senate Democratic caucus met behind closed doors to hammer out a unified position on the spending bill.",
+      "ex2Zh": "参议院民主党党团闭门开会，就支出法案敲定统一立场。",
+      "t": "德国两州选举结果揭晓，极左与极右党团分别得势，基民盟重挫，默茨去留成为焦点——caucus 这个词精准描述了\"党内小圈子定调\"的运作方式。\n职场类比：项目组里的\"核心小组\"就是 caucus，几个人先关起门来对齐口径，再拿到大会上走流程，和 plenary（全体会议）相对。",
+      "root": "源自北美阿尔冈昆语 caucauasu（顾问、商议者），18世纪进入美式英语指波士顿政治俱乐部 → 由\"小圈子密谈\"引申为党团会议、派系核心小组",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "predecessor",
+      "ph": "/ˈpriːdɪsesə(r)/",
+      "m": "n. 前任；前身；（被取代的）原有事物",
+      "c": "work",
+      "pos": "n.",
+      "en": "a person who held a job before the current holder; an earlier version of a thing or organization",
+      "defs": [
+        {
+          "cn": "前任；前辈",
+          "en": "someone who had a job before another person",
+          "pos": "n."
+        },
+        {
+          "cn": "前身；原有事物",
+          "en": "an earlier model or version of something",
+          "pos": "n."
+        },
+        {
+          "cn": "先驱",
+          "en": "a forerunner that paved the way",
+          "pos": "n."
+        }
+      ],
+      "col": "predecessor company 前身公司 · immediate predecessor 直接前任 · outperform one's predecessor 胜过前任 · predecessor model 上一代型号",
+      "ex": "The new CFO inherited a cost structure that her predecessor had already trimmed, leaving little room for further cuts.",
+      "exZh": "新任首席财务官接手的是前任已精简过的成本结构，进一步削减空间有限。",
+      "ex2": "This smartphone's battery life easily beats its predecessor, lasting two extra hours under heavy use.",
+      "ex2Zh": "这款手机的续航轻松胜过上一代，重度使用下多撑两小时。",
+      "t": "世界技能大赛开幕，各国选手在\"新长征\"叙事下比拼技艺，许多参赛者坦言要超越 predecessor 的成绩，压力与动力并存。\n职场记忆：predecessor 是\"前任\"，successor 是\"继任者\"，一对反义词；交接文档里写清 predecessor 留下的坑，是职场基本功。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 preview 预览、precede 先于) + 词根 decess(=decedere 离开，拉丁，同源 decease 死亡) + 后缀 -or(人) → 先离开岗位的人 → 前任",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "standoff",
+      "ph": "/ˈstændɒf/",
+      "m": "僵局；对峙；僵持不下",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a situation in which neither side in a dispute can gain an advantage; a deadlock",
+      "defs": [
+        {
+          "cn": "僵局；对峙",
+          "en": "a deadlock between opposing parties",
+          "pos": "n."
+        },
+        {
+          "cn": "僵持不下",
+          "en": "a situation where no progress is made",
+          "pos": "n."
+        }
+      ],
+      "col": "trade standoff 贸易僵局 · political standoff 政治对峙 · break the standoff 打破僵局 · standoff over tariffs 关税僵局",
+      "ex": "The trade standoff between the US and its partners has kept investors cautious about new tariffs.",
+      "exZh": "美国与其伙伴之间的贸易僵局使投资者对新关税保持谨慎。",
+      "ex2": "The budget standoff in Congress delayed the passage of the infrastructure bill.",
+      "ex2Zh": "国会的预算僵局推迟了基础设施法案的通过。",
+      "t": "美国贸易代表格里尔表示能支持将贸易休战期延长3到6个月，市场解读为 standoff 有望缓和，风险资产应声走高。\n职场中，部门间若陷入 standoff，可引入第三方协调；break the standoff 往往比硬碰硬更有效。",
+      "root": "前缀 stand(站立，古英语，同源 standstill 停顿) + off(离开、对抗，古英语) → 站着互不相让 → 僵局、对峙",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "broker",
+      "ph": "/ˈbroʊkər/",
+      "m": "n. 经纪人；v. 促成(交易)；安排",
+      "c": "econ",
+      "pos": "n. / v.",
+      "en": "a person or firm that buys and sells for others; to arrange a deal between parties",
+      "defs": [
+        {
+          "cn": "经纪人；中间商",
+          "en": "a person or firm that trades on behalf of clients",
+          "pos": "n."
+        },
+        {
+          "cn": "促成；斡旋",
+          "en": "to arrange an agreement between two sides",
+          "pos": "v."
+        },
+        {
+          "cn": "股票经纪",
+          "en": "a stockbroker handling securities orders",
+          "pos": "n."
+        }
+      ],
+      "col": "stock broker 股票经纪人 · insurance broker 保险经纪 · broker a deal 促成交易 · real-estate broker 房产中介",
+      "ex": "With the New York stock indices rising sharply on 21 September, brokers reported a jump in retail orders.",
+      "exZh": "随着纽约三大股指21日明显上涨，经纪商报告散户订单激增。",
+      "ex2": "The EU may broker a compromise to extend its sanctions against Russia without splitting member states.",
+      "ex2Zh": "欧盟或斡旋达成妥协，在延长对俄制裁的同时避免成员国分裂。",
+      "t": "纽约股市三大股指21日明显上涨，broker 们迎来久违的活跃盘面，散户下单量随之上升。同日欧盟拟延长对俄制裁，市场也在看布鲁塞尔能否 broker 出一个不伤及自身出口的折中方案。\n职场里 broker 也常用：manager 帮两个部门 broker 资源，比单纯说 arrange 更有“撮合、谈成”的意味，和 agent 中介、dealer 自营商要分清。",
+      "root": "源自古法语 brocour(小商贩、中间人)，与 brokeor“倒酒分售者”同源；古英语中 broc 有“经手、代办”之意。由“替人跑腿的小贩”演变为“代客买卖的经纪人”，动词义“促成”即由此引申。",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "delegate",
+      "ph": "/ˈdelɪɡeɪt/",
+      "m": "v. 授权；委派；n. 代表",
+      "c": "work",
+      "pos": "v. / n.",
+      "en": "to give tasks or authority to someone else; a person sent to represent a group",
+      "defs": [
+        {
+          "cn": "授权；委派",
+          "en": "to entrust a task or power to another person",
+          "pos": "v."
+        },
+        {
+          "cn": "代表；与会代表",
+          "en": "a person chosen to act for a group",
+          "pos": "n."
+        },
+        {
+          "cn": "下放(权力)",
+          "en": "to hand down authority to a lower level",
+          "pos": "v."
+        }
+      ],
+      "col": "delegate authority 下放权力 · delegate tasks 分派任务 · trade delegate 贸易代表 · chief delegate 首席代表",
+      "ex": "US trade representative Greer suggested the trade truce could be extended by three to six months, with delegates set to meet again.",
+      "exZh": "美国贸易代表格里尔表示贸易休战期或延长三到六个月，代表们将再次会晤。",
+      "ex2": "Managers who delegate routine work free up time for strategy during the digital-trade expo season.",
+      "ex2Zh": "在数字贸易博览会季，懂得授权常规工作的管理者能腾出时间做战略。",
+      "t": "美方贸易代表格里尔指能支持将贸易休战期延长三到六个月，并有意就AI安全事件设沟通热线，双方 delegate 团队预计将再度碰面。李强将出席第五届全球数字贸易博览会，各国 delegate 也将齐聚杭州。\n职场提示：delegate 不是“甩锅”，而是把权限与责任一并下放；不会 delegate 的管理者往往被琐事淹没，与 empower(赋能) 常搭配使用。",
+      "root": "前缀 de-(向下、离开，拉丁，同源 descend 下降) + 词根 leg(=legare 派遣、委托，拉丁，同源 legacy 遗产、legal 法律) + 后缀 -ate(动词/名词，拉丁) → “把任务派下去” → 委派、代表。",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "confluence",
+      "ph": "/ˈkɑːnfluəns/",
+      "m": "n. 汇合；多重因素叠加",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a coming together of factors, events or streams; a convergence",
+      "defs": [
+        {
+          "cn": "汇合；交汇",
+          "en": "the meeting of two or more streams or forces",
+          "pos": "n."
+        },
+        {
+          "cn": "多重因素叠加",
+          "en": "a combination of factors producing one effect",
+          "pos": "n."
+        },
+        {
+          "cn": "汇聚之势",
+          "en": "a gathering momentum of events",
+          "pos": "n."
+        }
+      ],
+      "col": "a confluence of factors 多重因素叠加 · confluence of interests 利益交汇 · at the confluence 在交汇处 · rare confluence 罕见汇合",
+      "ex": "A confluence of falling oil prices and rising New York shares lifted global risk appetite on 21 September.",
+      "ex2Zh": "东博会凸显了东盟自贸区3.0版下贸易、数字规则与供应链转移的交汇。",
+      "ex2": "The East Expo highlighted a confluence of trade, digital rules and supply-chain shifts under the ASEAN FTA 3.0.",
+      "t": "国际油价21日显著下跌、纽约股市三大股指明显上涨，这一 confluence 令风险资产情绪回暖；对地缘冲突担忧减弱，是推动油价回落的关键变量之一。东博会则展示出贸易、数字规则与产业链重构的 confluence。\n写作提示：confluence 常与 of 连用，形容“多股力量汇成一股”，比 combination 更具画面感；地理上指两河交汇处，金融报道中多用于解释市场为何同向波动。",
+      "root": "前缀 con-(共同、一起，拉丁，同源 connect 连接、concur 同时发生) + 词根 flu(=flow 流动，拉丁，同源 fluent 流利的、fluid 流体) + 后缀 -ence(名词，拉丁) → “一起流动” → 汇合、叠加。",
+      "d": "2026-09-22"
+    },
+    {
+      "w": "manufacturer",
+      "ph": "/ˌmænjuˈfæktʃərər/",
+      "m": "n. 制造商；生产商",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a company or person that makes goods in large quantities, esp. in industrial contexts",
+      "defs": [
+        {
+          "cn": "制造商；厂商",
+          "en": "a firm that produces goods on a large scale",
+          "pos": "n."
+        },
+        {
+          "cn": "生产商",
+          "en": "a business that makes products for sale",
+          "pos": "n."
+        },
+        {
+          "cn": "制造企业",
+          "en": "an industrial company engaged in making things",
+          "pos": "n."
+        }
+      ],
+      "col": "leading manufacturer 领先制造商 · chip manufacturer 芯片制造商 · manufacturer's warranty 厂商保修 · contract manufacturer 代工厂",
+      "ex": "At the 2026 World Manufacturing Convention, unmanned-technology results drew crowds of manufacturers and buyers.",
+      "exZh": "2026世界制造业大会上，无人科技成果吸引了大批制造商与采购商。",
+      "ex2": "The trade truce extension, if agreed, would give manufacturers three to six more months of stable tariffs.",
+      "ex2Zh": "若贸易休战期获延长，制造商将多获得三到六个月的关税稳定期。",
+      "t": "2026世界制造业大会上，无人科技成果精彩呈现，众多 manufacturer 借机展示产线自动化方案；第48届世界技能大赛同期开幕，技能人才成为 manufacturer 争夺的焦点。美方提出贸易休战期或延长三到六个月，manufacturer 的关税成本预期随之改善。\n构词提示：manufacturer 由 manufacture(制造) 加 -er(人/机构) 而来，注意与 factory(工厂，指场所)、producer(生产者，含农业) 区分，报道中常与 supplier、retailer 并列。",
+      "root": "词根 manu(=手，拉丁，同源 manual 手工的、manuscript 手稿) + 词根 fact(=做、造，拉丁，同源 factory 工厂、fact 事实) + 后缀 -er(者，古英语) → “用手制作的人” → 制造商。",
+      "d": "2026-09-22"
     }
   ],
   "preview": {
-    "hook": "针对低轨轨道卫星频轨资源争夺的监管整治正式落地，监管部门在为期数月的[consultation|consultation]后公布新规，要求相关企业就频谱使用展开协商性报备；与此同时，为重振本土航天制造，多所院校与头部厂商联合推出[apprenticeship|apprenticeship]培养项目，试图把'新太空'这一[buzzword|buzzword]从口号变成可落地的人才管道，但业内警告，若军民频段分配仍陷[impasse|impasse]，再多的政策红利也可能被拖延消耗。 政府通过[取缔|clampdown]非法经营来[重振|reinvigorate]市场信心，并在[协商的|consultative]机制下推动[轨道的|orbital]交通项目。",
+    "hook": "美国众议院某关键[caucus|caucus]以微弱优势通过一项针对进口[manufacturer|manufacturer]的关税[exempt|exempt]议案，试图打破与参议院长达数周的[standoff|standoff]；该议案由某[delegate|delegate]团[delegate|delegate]的谈判小组提出，并获多位[predecessor|predecessor]议员罕见背书，而一位资深[broker|broker]则穿梭于两院之间[broker|broker]妥协，恰逢中期选举前贸易政策与产业游说[confluence|confluence]的关键节点。",
     "impact": ""
   }
 }

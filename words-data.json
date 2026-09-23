@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-22",
+  "updated_on": "2026-09-23",
   "quote": {
-    "en": "Each skill you master today outlasts every market swing.",
-    "zh": "你今天掌握的每一项技能，都比市场的每一次波动更长久。"
+    "en": "Adapt swiftly, and every market shift becomes your advantage.",
+    "zh": "迅速适应，每一次市场变动都会成为你的优势。"
   },
   "story": {
-    "en": "BEIJING — As the 20th CPC Central Committee's fifth plenum is set for Oct 26-29, trade policy is moving in parallel: US Trade Representative Greer said Washington could support extending the tariff truce by 3-6 months, while Beijing and Washington may open a hotline on AI safety incidents. That offer came after a [standoff|standoff] over tech curbs.\n\nIn Europe, Foreign Minister Wang Yi told Germany's foreign minister that China and Europe should not fight a trade war, urging Berlin to stay rational and push the EU toward free trade. The message lands as the EU plans to extend sanctions on Russia. Germany's two state elections, where the far left and far right gained and the CDU slumped, have revived debate over Merz's future.\n\nMarkets offered a counterpoint: the New York stock index rose on Sept 21, while oil fell on easing geopolitical fears. The mood is bullish for now — though a [manufacturer|manufacturer] in Dongbo's China-ASEAN Expo 3.0 lanes still faces cost pressure as food prices draw official reassurance.\n\nDiplomacy is busy: Xi replied to US university students; the White House gave details of Xi's welcome and Trump will first meet Sanae Takaichi. North Korea's Kim watched a new weapon test; Russia's Duma election gave United Russia a dominant win. Denmark and Greenland will sign a security pact with the US as Yemen's displacement nears 130,000.\n\nThe plenum will [delegate|delegate] follow-up work; a [caucus|caucus] of trade officials may [broker|broker] a truce extension. Whether Beijing will [exempt|exempt] some imports, as its [predecessor|predecessor] did, remains open. The [confluence|confluence] of elections, sanctions and talks will test whether the calm holds.",
-    "cn": "全球贸易规则陷入[僵局]([僵局|standoff])，投资者情绪趋于谨慎。布鲁塞尔的一场金融[党团会议]([党团会议|caucus])讨论了是否将绿色技术进口从新关税中[豁免]([豁免|exempt])。一位来自大型[制造商]([制造商|manufacturer])的[代表]([授权|delegate])警告说，现行的[前任]([前任|predecessor])政策框架已不适应数字经济。与此同时，新加坡出面[促成]([经纪人|broker])亚洲出口商与欧洲监管机构之间的谈判。分析人士指出，供应链转移与汇率波动的[汇合]([汇合|confluence])是当前复杂局面的主因。下一轮谈判预计在2027年初举行，重点将放在跨境数据与碳定价的更清晰规则上。"
+    "en": "At the Fifth Global Digital Trade Expo opening in Hangzhou on Sept 23, AI firms reached 996 exhibitors, with Tesla's Cybercab making its Zhejiang debut. Organizers said the [generative|generative] AI tools on display [outstrip|outstrip] last year's count, while a [humanoid|humanoid] robot greeted visitors. The expo also featured [aerospace|aerospace] components and a [satellite|satellite] communication module, with a [prototype|prototype] of a low-orbit payload shown for the first time. Elsewhere, the National Cultural Heritage Administration said China's immovable cultural relics may exceed 900,000 sites, [testify|testify] to the country's deep historical roots. On the same day, US stocks closed mixed on Sept 22, with storage concept stocks rising broadly, and international crude oil futures fell over 1%, according to financial data. The Ministry of Natural Resources announced continued implementation of a new round of strategic mineral exploration breakthroughs, aiming to [remunerate|remunerate] local communities involved in mining projects. Looking ahead, the expo's focus on AI and robotics signals China's push to lead in next-generation technologies.",
+    "cn": "第五届全球数字贸易博览会在杭州启幕，AI企业达996家，特斯拉Cybercab首次在浙江公开展出。主办方表示，展出的生成式AI工具数量[超过|outstrip]去年，还有[人形机器人|humanoid]迎宾。博览会还展示了航空航天部件和[卫星|satellite]通信模块，并首次展出低轨载荷[原型|prototype]。同日，国家文物局称中国不可移动文物数量有望突破90万处，这[作证|testify]了中国深厚的历史底蕴。美股三大指数22日涨跌不一，存储概念股普涨；国际原油期货结算价收跌超1%。自然资源部宣布继续实施新一轮找矿突破战略行动，旨在[报酬|remunerate]参与采矿项目的当地社区。展望未来，博览会对AI和机器人的聚焦，显示中国推动下一代技术的决心。 随着[航空航天|aerospace]产业与[生成式|generative]人工智能的深度融合，工程师们正以前所未有的速度设计出更轻便、更高效的飞行器。"
   },
   "words": [
     {
@@ -9098,10 +9098,179 @@
       "t": "2026世界制造业大会上，无人科技成果精彩呈现，众多 manufacturer 借机展示产线自动化方案；第48届世界技能大赛同期开幕，技能人才成为 manufacturer 争夺的焦点。美方提出贸易休战期或延长三到六个月，manufacturer 的关税成本预期随之改善。\n构词提示：manufacturer 由 manufacture(制造) 加 -er(人/机构) 而来，注意与 factory(工厂，指场所)、producer(生产者，含农业) 区分，报道中常与 supplier、retailer 并列。",
       "root": "词根 manu(=手，拉丁，同源 manual 手工的、manuscript 手稿) + 词根 fact(=做、造，拉丁，同源 factory 工厂、fact 事实) + 后缀 -er(者，古英语) → “用手制作的人” → 制造商。",
       "d": "2026-09-22"
+    },
+    {
+      "w": "outstrip",
+      "ph": "/ˌaʊtˈstrɪp/",
+      "m": "超过；胜过",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to be greater than, better than, or more successful than something else; to surpass",
+      "defs": [
+        {
+          "cn": "超过",
+          "en": "to be greater in amount or degree than",
+          "pos": "v."
+        },
+        {
+          "cn": "胜过",
+          "en": "to do better than or surpass in performance",
+          "pos": "v."
+        },
+        {
+          "cn": "增长快于",
+          "en": "to grow faster than something else",
+          "pos": "v."
+        }
+      ],
+      "col": "outstrip demand 超过需求 · outstrip rivals 胜过对手 · outstrip expectations 超出预期 · outstrip inflation 跑赢通胀",
+      "ex": "Storage-chip shares rallied on September 22, helping the sector outstrip the broader market as investors bet on an AI-driven memory cycle.",
+      "exZh": "9月22日存储芯片股上涨，帮助该板块跑赢大盘，投资者押注AI驱动的存储周期。",
+      "ex2": "In many tech firms, AI deployment now outstrip s traditional IT spending, forcing managers to rethink budgets.",
+      "ex2Zh": "在许多科技公司，AI部署已超过传统IT支出，迫使管理者重新思考预算。",
+      "t": "9月22日美股存储概念股普涨，存储板块 outstrip 大盘，市场押注AI带来的内存需求周期。\n职场表达：if your output outstrip s expectations, you are first in line for promotion；它比 beat 更正式，适合写进英文简历。",
+      "root": "前缀 out-(超过、向外，古英语 ut 同源 outdo 胜过、outrun 跑赢) + 词根 strip(原义剥去、延伸为超越，同源 stripe) → 越过并甩开 → 超过、胜过",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "testify",
+      "ph": "/ˈtestɪfaɪ/",
+      "m": "作证；证明",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to make a formal statement, especially in a court or before a committee; to serve as evidence",
+      "defs": [
+        {
+          "cn": "作证",
+          "en": "to give evidence in a court or hearing",
+          "pos": "v."
+        },
+        {
+          "cn": "证明",
+          "en": "to show or prove something clearly",
+          "pos": "v."
+        },
+        {
+          "cn": "表明",
+          "en": "to be a sign that something exists",
+          "pos": "v."
+        }
+      ],
+      "col": "testify before Congress 在国会作证 · testify in court 出庭作证 · testify to growth 证明增长 · testify under oath 宣誓作证",
+      "ex": "Tech executives may testify before US lawmakers over AI safety and data rules, a hearing that could shape future regulation.",
+      "exZh": "科技高管可能就AI安全与数据规则在美国议员面前作证，这场听证可能影响未来监管。",
+      "ex2": "The company's strong earnings testify to the resilience of demand for memory chips.",
+      "ex2Zh": "该公司强劲的财报证明了存储芯片需求的韧性。",
+      "t": "美国国会近期围绕AI与数据监管举行听证，科技高管被要求 testify，市场担心新规影响大模型与芯片企业估值。\n职场用法：the data testify to a rebound 常出现在研究报告；名词 testimony 与 witness 搭配，记忆时联想法庭场景。",
+      "root": "词根 test-(见证、证明，拉丁 testis 同源 testament 证言、testimony 证词) + 后缀 -ify(使……化) → 使成为见证 → 作证、证明",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "remunerate",
+      "ph": "/rɪˈmjuːnəreɪt/",
+      "m": "报酬；酬劳",
+      "c": "work",
+      "pos": "v.",
+      "en": "to pay someone for work or services; used in formal HR and legal contexts",
+      "defs": [
+        {
+          "cn": "报酬",
+          "en": "to pay for work or services",
+          "pos": "v."
+        },
+        {
+          "cn": "酬劳",
+          "en": "to reward someone financially",
+          "pos": "v."
+        },
+        {
+          "cn": "补偿",
+          "en": "to make payment as compensation",
+          "pos": "v."
+        }
+      ],
+      "col": "remunerate employees 给员工报酬 · adequately remunerate 给予充分报酬 · remunerate fairly 公平付酬 · remunerate for overtime 支付加班报酬",
+      "ex": "As firms compete for AI talent, many now remunerate engineers with stock options as well as base salary.",
+      "exZh": "随着企业争夺AI人才，许多公司现在用股票期权加基本工资来酬劳工程师。",
+      "ex2": "The board was criticized for failing to adequately remunerate frontline staff during a record-profit year.",
+      "ex2Zh": "董事会被批评在创纪录盈利之年未给一线员工足够报酬。",
+      "t": "在AI人才争夺战中，企业纷纷调整薪酬结构，用股票期权 remunerate 核心工程师，数贸会参展企业也在抢人。\n职场例句：a fair employer will remunerate overtime properly；名词 remuneration 常与 package 连用，比 pay 更正式。",
+      "root": "前缀 re-(回、再，拉丁 re 同源 return 回报) + 词根 muner-(礼物、职责，拉丁 munus 同源 municipal 市政的) + 后缀 -ate → 回赠礼物 → 酬劳、报酬",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "humanoid",
+      "ph": "/ˈhjuːmənɔɪd/",
+      "m": "人形机器人；类人的",
+      "c": "tech",
+      "ex": "The factory debuted its first humanoid worker.",
+      "exZh": "工厂首次启用类人机器人员工。",
+      "t": "长得像人的机器。",
+      "root": "human(人) + -oid(像…的) → 类人",
+      "pos": "n./adj.",
+      "en": "a robot shaped like a human being",
+      "col": "humanoid robot · humanoid robot factory",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "satellite",
+      "ph": "/ˈsætəlaɪt/",
+      "m": "卫星",
+      "c": "tech",
+      "ex": "The company launched 60 satellites in one rocket.",
+      "exZh": "一枚火箭发射了60颗卫星。",
+      "t": "绕着地球转、帮我们通信导航的人造天体。",
+      "root": "拉丁语 satelles(随从) → 跟随者 → 卫星",
+      "pos": "n.",
+      "en": "an object launched into orbit around the Earth",
+      "col": "satellite launch · satellite internet",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "aerospace",
+      "ph": "/ˈeərəʊspeɪs/",
+      "m": "航空航天（工业）",
+      "c": "tech",
+      "ex": "Aerospace firms raced to win the defense contract.",
+      "exZh": "航空航天公司竞标国防合同。",
+      "t": "造飞机和火箭的那个行业。",
+      "root": "aero-(空气/航空) + space(太空) → 航空航天",
+      "pos": "n.",
+      "en": "the industry of aircraft and spacecraft",
+      "col": "aerospace company · aerospace engineer",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "prototype",
+      "ph": "/ˈprəʊtətaɪp/",
+      "m": "原型；样机",
+      "c": "tech",
+      "ex": "Engineers tested the robot prototype indoors.",
+      "exZh": "工程师在室内测试机器人样机。",
+      "t": "新产品造出来的第一台样品。",
+      "root": "proto-(第一) + type(型) → 第一型",
+      "pos": "n.",
+      "en": "the first model of a new product",
+      "col": "product prototype · prototype test",
+      "d": "2026-09-23"
+    },
+    {
+      "w": "generative",
+      "ph": "/ˈdʒenərətɪv/",
+      "m": "生成式的",
+      "c": "tech",
+      "ex": "Generative AI writes text and images on demand.",
+      "exZh": "生成式AI能按需求写文作图。",
+      "t": "能自己生成内容的那种AI。",
+      "root": "generate(生成) + -ive → 有生成能力的",
+      "pos": "adj.",
+      "en": "able to produce new content such as text or images",
+      "col": "generative AI · generative model",
+      "d": "2026-09-23"
     }
   ],
   "preview": {
-    "hook": "美国众议院某关键[caucus|caucus]以微弱优势通过一项针对进口[manufacturer|manufacturer]的关税[exempt|exempt]议案，试图打破与参议院长达数周的[standoff|standoff]；该议案由某[delegate|delegate]团[delegate|delegate]的谈判小组提出，并获多位[predecessor|predecessor]议员罕见背书，而一位资深[broker|broker]则穿梭于两院之间[broker|broker]妥协，恰逢中期选举前贸易政策与产业游说[confluence|confluence]的关键节点。",
+    "hook": "国际机器人联合会报告显示，全球[humanoid|humanoid]出货量同比[outstrip|outstrip]预期三倍，生成式AI驱动的[prototype|prototype]机在航空航天装配线上首次实现24小时无人值守，多家[satellite|satellite]制造商的财报也[testify|testify]这一趋势已从实验室扩散到量产；与此同时，企业为抢夺稀缺工程师而大幅提高[remunerate|remunerate]，猎头开出百万年薪仍难招满岗位。 近年来[航空航天|aerospace]领域的工程师们正尝试利用[生成式|generative]人工智能来优化飞行器的设计流程。",
     "impact": ""
   }
 }

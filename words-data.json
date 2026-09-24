@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-23",
+  "updated_on": "2026-09-24",
   "quote": {
-    "en": "Adapt swiftly, and every market shift becomes your advantage.",
-    "zh": "迅速适应，每一次市场变动都会成为你的优势。"
+    "en": "Skill is the one asset no downturn can devalue.",
+    "zh": "技能是唯一不会因经济低迷而贬值的资产。"
   },
   "story": {
-    "en": "At the Fifth Global Digital Trade Expo opening in Hangzhou on Sept 23, AI firms reached 996 exhibitors, with Tesla's Cybercab making its Zhejiang debut. Organizers said the [generative|generative] AI tools on display [outstrip|outstrip] last year's count, while a [humanoid|humanoid] robot greeted visitors. The expo also featured [aerospace|aerospace] components and a [satellite|satellite] communication module, with a [prototype|prototype] of a low-orbit payload shown for the first time. Elsewhere, the National Cultural Heritage Administration said China's immovable cultural relics may exceed 900,000 sites, [testify|testify] to the country's deep historical roots. On the same day, US stocks closed mixed on Sept 22, with storage concept stocks rising broadly, and international crude oil futures fell over 1%, according to financial data. The Ministry of Natural Resources announced continued implementation of a new round of strategic mineral exploration breakthroughs, aiming to [remunerate|remunerate] local communities involved in mining projects. Looking ahead, the expo's focus on AI and robotics signals China's push to lead in next-generation technologies.",
-    "cn": "第五届全球数字贸易博览会在杭州启幕，AI企业达996家，特斯拉Cybercab首次在浙江公开展出。主办方表示，展出的生成式AI工具数量[超过|outstrip]去年，还有[人形机器人|humanoid]迎宾。博览会还展示了航空航天部件和[卫星|satellite]通信模块，并首次展出低轨载荷[原型|prototype]。同日，国家文物局称中国不可移动文物数量有望突破90万处，这[作证|testify]了中国深厚的历史底蕴。美股三大指数22日涨跌不一，存储概念股普涨；国际原油期货结算价收跌超1%。自然资源部宣布继续实施新一轮找矿突破战略行动，旨在[报酬|remunerate]参与采矿项目的当地社区。展望未来，博览会对AI和机器人的聚焦，显示中国推动下一代技术的决心。 随着[航空航天|aerospace]产业与[生成式|generative]人工智能的深度融合，工程师们正以前所未有的速度设计出更轻便、更高效的飞行器。"
+    "en": "Xi Jinping arrived in Washington for a state visit, a [pragmatic|pragmatic] opening to stabilize major-power ties. In Buenos Aires, President Milei vowed to defend the Falklands' [sovereignty|sovereignty] by peaceful, pragmatic means. In New York, Trump confirmed US-Iran talks as Tehran's president addressed the UN; the US Treasury said strikes on Iranian aviation are working. UN and AI leaders, including OpenAI and Anthropic, urged [vigilance|vigilance] and cooperation on artificial intelligence risks. Beijing is expected to [mobilize|mobilize] policy tools after overnight reverse repos and MLF rollovers to protect liquidity. China launched low-orbit internet satellites, and the Yangtze Delta railway began holiday transport. Analysts [speculate|speculate] whether foreign giants at the Digital Trade Expo can [retain|retain] momentum under a new regulatory [framework|framework]. Markets fell on September 23. Media [coverage|coverage] of the Mid-Autumn travel rush and Beijing's cool rain will shape sentiment.",
+    "cn": "在全球通胀降温的背景下，各国央行采取[务实的|pragmatic]基调，在增长与物价稳定间寻求平衡。其决策日益重视国家[主权|sovereignty]，而非僵化的多边规则，近期新兴经济体间的货币互换安排便是一例。为[动员|mobilize]国内储蓄并吸引外资，多国政府放宽投资规则，但同时呼吁对[投机|speculate]泡沫[留住(人才/客户)|retain][警惕|vigilance]。金融稳定理事会正在起草数字资产的新监管[框架|framework]，旨在留住金融科技人才并遏制非法资金流动。媒体对此类变化的[新闻报道|coverage]往往放大市场波动，促使部分交易员[投机|speculate]政策转向。随着年底会议临近，官员们释放谨慎信号，优先考虑韧性而非快速宽松。未来数月将检验这一路径能否在维持复苏的同时避免通胀重燃，新兴市场正密切关注溢出效应。"
   },
   "words": [
     {
@@ -9267,10 +9267,274 @@
       "en": "able to produce new content such as text or images",
       "col": "generative AI · generative model",
       "d": "2026-09-23"
+    },
+    {
+      "w": "pragmatic",
+      "ph": "/præɡˈmætɪk/",
+      "m": "务实的；实用主义的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "dealing with things sensibly and realistically; in political/economic contexts, focused on practical results rather than ideology",
+      "defs": [
+        {
+          "cn": "务实的",
+          "en": "dealing with things sensibly and realistically",
+          "pos": "adj."
+        },
+        {
+          "cn": "实用主义的",
+          "en": "based on practical rather than theoretical considerations",
+          "pos": "adj."
+        },
+        {
+          "cn": "讲求实效的",
+          "en": "focused on practical results",
+          "pos": "adj."
+        }
+      ],
+      "col": "pragmatic approach 务实做法 · pragmatic policy 务实政策 · pragmatic solution 务实方案 · pragmatic stance 务实立场",
+      "ex": "Argentina's Milei said he would defend the Falklands sovereignty in a peaceful, pragmatic and effective way.",
+      "exZh": "阿根廷总统米莱表示将以和平、务实和有效的方式捍卫马岛主权。",
+      "ex2": "A pragmatic manager focuses on deliverables, not on who gets credit.",
+      "ex2Zh": "务实的管理者关注交付成果，而不是谁拿功劳。",
+      "t": "米莱今日表态，将以『和平、务实和有效的方式』捍卫马岛主权，pragmatic（务实的）一词被外媒反复引用，被视为阿根廷外交语调的调整。\n职场中，老板最常夸的也是这种品质：不空谈战略，先把能落地的事做成，和 idealistic（理想主义的）形成对照。",
+      "root": "词根 pragm(行为、事务，希腊 pragma，同源 practical 实际的) + 后缀 -atic(形容词，希腊) → 与行动相关 → 务实的",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "sovereignty",
+      "ph": "/ˈsɒvrənti/",
+      "m": "主权；统治权",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the full right and power of a state to govern itself; in diplomacy, the authority over territory and policy",
+      "defs": [
+        {
+          "cn": "主权",
+          "en": "full right and power of a state to govern itself",
+          "pos": "n."
+        },
+        {
+          "cn": "统治权",
+          "en": "supreme authority within a territory",
+          "pos": "n."
+        },
+        {
+          "cn": "国家自主权",
+          "en": "a nation's autonomy in policy and territory",
+          "pos": "n."
+        }
+      ],
+      "col": "national sovereignty 国家主权 · defend sovereignty 捍卫主权 · sovereignty dispute 主权争端 · respect sovereignty 尊重主权",
+      "ex": "Milei pledged to defend the Falklands sovereignty through peaceful and pragmatic means.",
+      "exZh": "米莱承诺以和平务实的方式捍卫马岛主权。",
+      "ex2": "Trade talks often stumble over issues of regulatory sovereignty.",
+      "ex2Zh": "贸易谈判常常在监管主权问题上卡壳。",
+      "t": "米莱今日就马岛表态，称将以和平、务实、有效的方式捍卫 sovereignty（主权），南美外交议题再度升温。\n记忆点：sovereign（君主、主权者）是名词，sovereignty 是抽象权利；谈判桌上说 respect each other's sovereignty，就是『互不干涉内政』的委婉表达。",
+      "root": "词根 sover(=super 在上，拉丁，同源 supreme 至高的) + 后缀 -eign(法语) + -ty(名词，拉丁) → 居于其上 → 至高权力、主权",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "mobilize",
+      "ph": "/ˈməʊbɪlaɪz/",
+      "m": "动员；调动",
+      "c": "work",
+      "pos": "v.",
+      "en": "to organize or prepare people or resources for action; in business, to bring together teams or capital for a goal",
+      "defs": [
+        {
+          "cn": "动员；调动",
+          "en": "to organize people or resources for action",
+          "pos": "v."
+        },
+        {
+          "cn": "筹集；调用",
+          "en": "to bring together funds or support",
+          "pos": "v."
+        },
+        {
+          "cn": "使流通",
+          "en": "to put resources into active use",
+          "pos": "v."
+        }
+      ],
+      "col": "mobilize resources 调动资源 · mobilize support 动员支持 · mobilize capital 筹集资本 · mobilize a team 动员团队",
+      "ex": "The central bank mobilized multiple tools to keep liquidity ample ahead of the holiday.",
+      "exZh": "央行调动多种工具，在假期前保持流动性充裕。",
+      "ex2": "To hit the quarterly target, the sales director mobilized every regional team.",
+      "ex2Zh": "为达成季度目标，销售总监动员了所有区域团队。",
+      "t": "央行今日隔夜逆回购叠加MLF续做，mobilize（调动）多种工具呵护流动性，节前资金面成为市场焦点。\n职场用法：mobilize the team 比 simply 'ask' 更有紧迫感，强调把分散的人和资源组织起来朝一个目标发力。",
+      "root": "词根 mob(=mov 移动，拉丁，同源 mobile 可移动的、motion 运动) + 后缀 -ilize(使动，拉丁) → 使移动起来 → 动员、调动",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "vigilance",
+      "ph": "/ˈvɪdʒɪləns/",
+      "m": "警惕；警觉",
+      "c": "tech",
+      "pos": "n.",
+      "en": "careful attention to possible dangers; in tech/policy contexts, heightened watchfulness over risks",
+      "defs": [
+        {
+          "cn": "警惕；警觉",
+          "en": "careful attention to possible dangers",
+          "pos": "n."
+        },
+        {
+          "cn": "警戒",
+          "en": "watchfulness against threats",
+          "pos": "n."
+        },
+        {
+          "cn": "风险防范意识",
+          "en": "awareness to prevent risks",
+          "pos": "n."
+        }
+      ],
+      "col": "heightened vigilance 提高警惕 · maintain vigilance 保持警觉 · call for vigilance 呼吁警惕 · constant vigilance 持续警戒",
+      "ex": "OpenAI and Anthropic executives called for greater vigilance over AI risks at a UN event.",
+      "exZh": "OpenAI与Anthropic负责人在联合国场合呼吁对AI风险加强警惕。",
+      "ex2": "Cambodia's PM said fighting telecom fraud requires stronger international vigilance and cooperation.",
+      "ex2Zh": "柬埔寨首相表示打击电信诈骗需要更强的国际警惕与合作。",
+      "t": "联合国今日聚焦AI风险，OpenAI与Anthropic负责人呼吁加强警惕与合作，vigilance（警觉）成为科技治理关键词。\n日常用法：网络安全、反诈都讲 constant vigilance——不是一时紧张，而是持续不松懈的警戒状态。",
+      "root": "词根 vigil(醒着、守夜，拉丁 vigilare，同源 vigil 守夜、vigilant 警觉的) + 后缀 -ance(名词，拉丁) → 保持清醒守望 → 警惕",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "retain",
+      "ph": "/rɪˈteɪn/",
+      "m": "v. 留住(人才/客户)；保留、保持",
+      "c": "work",
+      "pos": "v.",
+      "en": "to keep someone or something in place; to continue to hold or employ",
+      "defs": [
+        {
+          "cn": "留住(人才)",
+          "en": "to keep employees from leaving",
+          "pos": "v."
+        },
+        {
+          "cn": "保留、保持",
+          "en": "to continue to have or hold something",
+          "pos": "v."
+        },
+        {
+          "cn": "记住",
+          "en": "to keep information in memory",
+          "pos": "v."
+        }
+      ],
+      "col": "retain talent 留住人才 · retain customers 留住客户 · retain control 保持控制权 · retain earnings 留存收益",
+      "ex": "With AI reshaping roles, companies are under pressure to retain skilled staff rather than rehire later.",
+      "exZh": "AI 正在重塑岗位，企业面临留住熟练员工而非日后再招的压力。",
+      "ex2": "The brand spent heavily on loyalty programs to retain customers amid fierce competition.",
+      "ex2Zh": "激烈竞争中，该品牌重金投入会员计划以留住客户。",
+      "t": "AI 带来行业正向循环的同时，也让岗位洗牌加速；企业一边 recruit 新血，一边要想办法 retain 核心骨干，否则培训成本全打水漂。\n职场表达：retain 比 keep 正式，常见于 HR 报告里的 talent retention rate(人才留存率)——留住人，才是真正的降本。",
+      "root": "前缀 re-(向后、保持，拉丁 re-) + 词根 tain-(握、持，拉丁 tenere，同源 contain 容纳、maintain 维持) → 一直握在手里 → 留住人才、保留资产",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "framework",
+      "ph": "/ˈfreɪmwɜːrk/",
+      "m": "框架；体系；机制",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a basic structure of rules, ideas, or agreements that supports further action",
+      "defs": [
+        {
+          "cn": "框架",
+          "en": "a basic structure supporting further work",
+          "pos": "n."
+        },
+        {
+          "cn": "机制、体系",
+          "en": "an agreed system of rules or institutions",
+          "pos": "n."
+        },
+        {
+          "cn": "参照标准",
+          "en": "a set of standards used for evaluation",
+          "pos": "n."
+        }
+      ],
+      "col": "legal framework 法律框架 · regulatory framework 监管框架 · framework agreement 框架协议 · within a framework 在框架内",
+      "ex": "Cambodia's prime minister said fighting telecom fraud requires a stronger international framework.",
+      "exZh": "柬埔寨首相表示，打击电信诈骗需要更强的国际合作框架。",
+      "ex2": "Our team adopted an agile framework to review priorities every two weeks.",
+      "ex2Zh": "我们团队采用敏捷框架，每两周复盘一次优先级。",
+      "t": "中国网报道，柬埔寨首相洪玛奈称打击电信网络诈骗需要加强国际合作，呼吁建立更有效的 framework。\n职场联想：framework 是“先搭骨架再填肉”，如考核框架、合规框架，说 framework 比说 rules 更显体系感。",
+      "root": "词根 frame(框架，古英语 framian 有益于、构建，同源 frame 框架) + 词根 work(工作，古英语 weorc) → 支撑工作的骨架 → 框架、机制",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "coverage",
+      "ph": "/ˈkʌvərɪdʒ/",
+      "m": "新闻报道；覆盖范围；保险保障",
+      "c": "news",
+      "pos": "n.",
+      "en": "media reporting of an event; the extent to which something is covered, insured, or included",
+      "defs": [
+        {
+          "cn": "新闻报道",
+          "en": "media reporting on an event or topic",
+          "pos": "n."
+        },
+        {
+          "cn": "覆盖范围",
+          "en": "the extent of inclusion or reach",
+          "pos": "n."
+        },
+        {
+          "cn": "保险保障",
+          "en": "protection provided by an insurance policy",
+          "pos": "n."
+        }
+      ],
+      "col": "media coverage 媒体报道 · insurance coverage 保险保障 · coverage of an event 对事件的报道 · expand coverage 扩大覆盖",
+      "ex": "Global media coverage of the state visit focused on trade and technology ties.",
+      "exZh": "全球媒体对此次国事访问的报道聚焦贸易与技术关系。",
+      "ex2": "The new health plan expands coverage to part-time workers.",
+      "ex2Zh": "新医保方案把保障范围扩大到兼职员工。",
+      "t": "新华网、东方财富等对当日市场与外交动态的 coverage 密集，纽约股市三大股指23日下跌也成焦点。\n职场双关：媒体讲 coverage 是报道量，保险讲 coverage 是保障额，销售讲 coverage 是客户覆盖率——同一个词三种KPI。",
+      "root": "词根 cover(覆盖，古法语 covrir，同源 cover 覆盖、discover 发现) + 后缀 -age(名词，法语 -age) → 覆盖的行为与范围 → 报道、保障、覆盖度",
+      "d": "2026-09-24"
+    },
+    {
+      "w": "speculate",
+      "ph": "/ˈspekjuleɪt/",
+      "m": "投机；猜测；推测",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to invest in stocks, property, etc. hoping for profit but with risk of loss; to form a theory without firm evidence",
+      "defs": [
+        {
+          "cn": "投机",
+          "en": "to buy assets hoping to profit from price changes",
+          "pos": "v."
+        },
+        {
+          "cn": "猜测；推测",
+          "en": "to form an opinion without complete evidence",
+          "pos": "v."
+        },
+        {
+          "cn": "思索；沉思",
+          "en": "to think deeply about a subject",
+          "pos": "v."
+        }
+      ],
+      "col": "speculate on the market 在市场上投机 · speculate about the future 猜测未来 · speculate in real estate 炒房 · pure speculation 纯属猜测",
+      "ex": "Analysts speculate that the central bank will keep liquidity ample through MLF rollovers amid the New York stock decline.",
+      "exZh": "分析师推测，在纽约股市下跌之际，央行将通过MLF续做保持流动性充裕。",
+      "ex2": "Retail investors who speculate heavily in meme stocks often suffer steep losses.",
+      "ex2Zh": "在网红股上大举投机的散户投资者往往损失惨重。",
+      "t": "纽约股市23日下跌，市场纷纷 speculate 央行下一步政策走向；隔夜逆回购与MLF续做被解读为呵护流动性之举，投机资金也在寻找方向。\n职场提醒：speculate 和 invest 不同——前者靠猜测下注，后者靠研究布局；做决策前先分清你在投机还是在投资。",
+      "root": "词根 spec(=spect 看，拉丁 specere，同源 inspect 检查、spectator 观众) + 后缀 -ulate(动词，拉丁 -ulatus) → 用眼睛观察、暗中窥探 → 猜测、投机",
+      "d": "2026-09-24"
     }
   ],
   "preview": {
-    "hook": "国际机器人联合会报告显示，全球[humanoid|humanoid]出货量同比[outstrip|outstrip]预期三倍，生成式AI驱动的[prototype|prototype]机在航空航天装配线上首次实现24小时无人值守，多家[satellite|satellite]制造商的财报也[testify|testify]这一趋势已从实验室扩散到量产；与此同时，企业为抢夺稀缺工程师而大幅提高[remunerate|remunerate]，猎头开出百万年薪仍难招满岗位。 近年来[航空航天|aerospace]领域的工程师们正尝试利用[生成式|generative]人工智能来优化飞行器的设计流程。",
+    "hook": "全球财经媒体头条聚焦一场围绕务实外交与[sovereignty|sovereignty]边界的激烈博弈：某资源大国宣布将[mobilize|mobilize]国内产业力量，以[vigilance|vigilance]姿态应对外部资本对关键矿产的[speculate|speculate]性收购，同时紧急出台新[framework|framework]试图留住本土核心企业与技术人才，而国际主流媒体的报道则普遍质疑该举措能否真正落地。 务实的[务实的|pragmatic]管理者更愿意保留[保留|retain]核心员工，同时扩大保险的覆盖范围[覆盖范围|coverage]。",
     "impact": ""
   }
 }

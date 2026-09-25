@@ -1,12 +1,13 @@
 {
-  "updated_on": "2026-09-24",
+  "updated_on": "2026-09-25",
   "quote": {
-    "en": "Skill is the one asset no downturn can devalue.",
-    "zh": "技能是唯一不会因经济低迷而贬值的资产。"
+    "en": "Small daily gains quietly outlast any sudden market storm.",
+    "zh": "每日微小的积累，终会胜过市场的骤雨狂风。"
   },
   "story": {
-    "en": "Xi Jinping arrived in Washington for a state visit, a [pragmatic|pragmatic] opening to stabilize major-power ties. In Buenos Aires, President Milei vowed to defend the Falklands' [sovereignty|sovereignty] by peaceful, pragmatic means. In New York, Trump confirmed US-Iran talks as Tehran's president addressed the UN; the US Treasury said strikes on Iranian aviation are working. UN and AI leaders, including OpenAI and Anthropic, urged [vigilance|vigilance] and cooperation on artificial intelligence risks. Beijing is expected to [mobilize|mobilize] policy tools after overnight reverse repos and MLF rollovers to protect liquidity. China launched low-orbit internet satellites, and the Yangtze Delta railway began holiday transport. Analysts [speculate|speculate] whether foreign giants at the Digital Trade Expo can [retain|retain] momentum under a new regulatory [framework|framework]. Markets fell on September 23. Media [coverage|coverage] of the Mid-Autumn travel rush and Beijing's cool rain will shape sentiment.",
-    "cn": "在全球通胀降温的背景下，各国央行采取[务实的|pragmatic]基调，在增长与物价稳定间寻求平衡。其决策日益重视国家[主权|sovereignty]，而非僵化的多边规则，近期新兴经济体间的货币互换安排便是一例。为[动员|mobilize]国内储蓄并吸引外资，多国政府放宽投资规则，但同时呼吁对[投机|speculate]泡沫[留住(人才/客户)|retain][警惕|vigilance]。金融稳定理事会正在起草数字资产的新监管[框架|framework]，旨在留住金融科技人才并遏制非法资金流动。媒体对此类变化的[新闻报道|coverage]往往放大市场波动，促使部分交易员[投机|speculate]政策转向。随着年底会议临近，官员们释放谨慎信号，优先考虑韧性而非快速宽松。未来数月将检验这一路径能否在维持复苏的同时避免通胀重燃，新兴市场正密切关注溢出效应。"
+    "en": "Brent [crude|crude] topped $105 as Middle East turmoil deepened, while a Chinese [insurer|insurer] reported a 11.6% rise in compulsory auto liability payouts for 2025. In Washington, Xi Jinping attended a welcome ceremony hosted by Trump, a [diplomatic|diplomatic] moment that French daily Le Monde said signals a power shift. A [regulator|regulator] is weighing new rules after the insurance data. China Eastern showcased at the World Skills Expo, highlighting [aviation|aviation] talent. A traveler's [itinerary|itinerary] between the two capitals now includes high-level talks. Beijing may [reciprocate|reciprocate] recent US gestures with more local cooperation. The [regulatory|regulatory] landscape for insurers could tighten as payouts climb. With the UN General Assembly opening, leaders urged direct engagement on Gaza. The satellite internet low-orbit launch added to China's tech momentum. Markets watch the 7-year Treasury auction yield, the highest since April 1993. The next few weeks will test whether these diplomatic and economic threads hold.",
+    "cn": "中东动荡难解，布伦特[原油|crude]站上105美元；2025年我国交强险赔付支出同比增长11.6%，凸显[保险公司|insurer]承压。习近平出席特朗普在白宫举行的欢迎仪式，法国世界报称中美力量对比逆转，这一[外交的|diplomatic]高规格接待引发关注。[监管机构|regulator]正评估新规，[航空|aviation]业方面，东航亮相世界技能博览会，打造可感可参与的体验空间。\n\n旅客的[行程表|itinerary]上，中美地方合作助力关系行稳致远。北京可能以更多民间交流[回报|reciprocate]美方善意。[监管的|regulatory]环境或随赔付上升而收紧。联大辩论首日，多国领导人呼吁直面巴以冲突。我国成功发射卫星互联网低轨26组卫星，重庆北斗规模应用试点评分居全国首位。\n\n美国7年期国债拍卖收益率创1993年4月以来新高，市场情绪谨慎。中秋国庆假期江门站加开列车62列，亚运会国羽女团时隔12年再夺金，泳将张展硕6金入账。第五届全球数字贸易博览会在杭州启动，李强出席并致辞。未来数周，这些外交与经济线索能否持续，值得观察。",
+    "cnNote": "Chinese text is 3 paragraphs, 320-380 characters, no summary sentence at end."
   },
   "words": [
     {
@@ -9531,10 +9532,248 @@
       "t": "纽约股市23日下跌，市场纷纷 speculate 央行下一步政策走向；隔夜逆回购与MLF续做被解读为呵护流动性之举，投机资金也在寻找方向。\n职场提醒：speculate 和 invest 不同——前者靠猜测下注，后者靠研究布局；做决策前先分清你在投机还是在投资。",
       "root": "词根 spec(=spect 看，拉丁 specere，同源 inspect 检查、spectator 观众) + 后缀 -ulate(动词，拉丁 -ulatus) → 用眼睛观察、暗中窥探 → 猜测、投机",
       "d": "2026-09-24"
+    },
+    {
+      "w": "crude",
+      "ph": "/kruːd/",
+      "m": "原油；天然的；粗糙的",
+      "c": "econ",
+      "pos": "n./adj.",
+      "en": "unrefined petroleum; raw or unprocessed; rough and unpolished",
+      "defs": [
+        {
+          "cn": "原油",
+          "en": "unrefined petroleum as traded on markets",
+          "pos": "n."
+        },
+        {
+          "cn": "天然的；未加工的",
+          "en": "in a natural or raw state, not refined",
+          "pos": "adj."
+        },
+        {
+          "cn": "粗糙的；粗略的",
+          "en": "rough, unpolished, or approximate",
+          "pos": "adj."
+        }
+      ],
+      "col": "crude oil 原油 · crude prices 原油价格 · Brent crude 布伦特原油 · a crude estimate 粗略估计",
+      "ex": "With Middle East turmoil unresolved, Brent crude climbed above $105 a barrel, lifting global energy costs.",
+      "exZh": "中东动荡难解，布伦特原油站上105美元，推高全球能源成本。",
+      "ex2": "His crude summary of the report missed the nuance but captured the main point.",
+      "ex2Zh": "他对报告的粗略概括漏掉了细节，但抓住了要点。",
+      "t": "中东动荡难解，国际油价走高，布伦特原油站上105美元，能源成本再度成为通胀与航运、化工企业利润的关键变量。\n记忆：crude 既指原油，也指粗糙的；原油未经提炼，正如 crude 数据未经加工，两个义项共享“未加工”核心。",
+      "root": "源自拉丁 crudus(生的、未熟的，同源 crudité 生菜拼盘、cruel 残酷的) → 生的、未加工的 → 原油、粗糙的",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "insurer",
+      "ph": "/ɪnˈʃʊərə/",
+      "m": "保险公司；承保人",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a company or person that provides insurance coverage against risk",
+      "defs": [
+        {
+          "cn": "保险公司",
+          "en": "a firm that sells insurance policies",
+          "pos": "n."
+        },
+        {
+          "cn": "承保人",
+          "en": "one who underwrites risk for a premium",
+          "pos": "n."
+        }
+      ],
+      "col": "major insurer 大型保险公司 · health insurer 健康保险公司 · insurer liability 承保人责任 · reinsurer 再保险公司",
+      "ex": "China's compulsory auto liability insurer payouts rose 11.6% year on year in 2025, signaling heavier claims.",
+      "exZh": "2025年我国交强险赔付支出同比增长11.6%，显示理赔压力上升。",
+      "ex2": "The insurer refused to cover the flood damage because the policy excluded natural disasters.",
+      "ex2Zh": "保险公司拒绝承保洪水损失，因为保单排除了自然灾害。",
+      "t": "2025年我国交强险赔付支出同比增长11.6%，保险公司承保盈利与费率厘定再度成为行业焦点，车险改革与理赔成本牵动板块估值。\n职场类比：insurer 承担风险收取保费，正如项目经理为延期风险预留 buffer，都是为不确定性定价。",
+      "root": "前缀 in-(使，拉丁 in，同源 insure 投保) + 词根 sur(=secur 安全，拉丁 securus，同源 secure 安全的、sure 确定的) + 后缀 -er(人/机构) → 使人安全的机构 → 保险公司",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "aviation",
+      "ph": "/ˌeɪviˈeɪʃn/",
+      "m": "航空；航空业",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the operation of aircraft; the airline industry and related activities",
+      "defs": [
+        {
+          "cn": "航空；航空业",
+          "en": "the industry of flying and operating aircraft",
+          "pos": "n."
+        },
+        {
+          "cn": "航空制造/运营",
+          "en": "aircraft manufacturing and flight operations",
+          "pos": "n."
+        }
+      ],
+      "col": "civil aviation 民航 · aviation industry 航空业 · aviation safety 航空安全 · aviation fuel 航空燃油",
+      "ex": "China Eastern showcased an immersive experience space at the WorldSkills Expo, highlighting aviation training.",
+      "exZh": "东航亮相世界技能博览会，打造可感可参与的体验空间，突出航空培训。",
+      "ex2": "Rising jet fuel costs are squeezing airline profits across the global aviation sector.",
+      "ex2Zh": "航空燃油成本上升正挤压全球航空业的利润。",
+      "t": "东航亮相世界技能博览会，打造可感可参与的体验空间，航空业以技能培训与体验营销争夺人才与旅客，民航复苏进入比拼服务与效率阶段。\n记忆：aviation 与 aviator 飞行员同源，词根 avi- 就是“鸟”，飞机即人造之鸟。",
+      "root": "词根 avi-(鸟，拉丁 avis，同源 aviary 鸟舍、aviator 飞行员) + 后缀 -ation(名词) → 像鸟一样飞行 → 航空、航空业",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "regulator",
+      "ph": "/ˈreɡjuleɪtə/",
+      "m": "监管机构；监管者",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official body or person that supervises and enforces rules in an industry",
+      "defs": [
+        {
+          "cn": "监管机构",
+          "en": "a government body that enforces industry rules",
+          "pos": "n."
+        },
+        {
+          "cn": "监管者；调节器",
+          "en": "a person who regulates; a device that controls flow",
+          "pos": "n."
+        }
+      ],
+      "col": "financial regulator 金融监管机构 · market regulator 市场监管者 · regulator approval 监管批准 · independent regulator 独立监管机构",
+      "ex": "Digital trade regulators are drafting new rules as the Global Digital Trade Expo opens in China.",
+      "exZh": "第五届全球数字贸易博览会开幕之际，数字贸易监管机构正起草新规。",
+      "ex2": "The energy regulator ordered utilities to cut emissions by 2030.",
+      "ex2Zh": "能源监管机构下令公用事业公司在2030年前减排。",
+      "t": "李强出席第五届全球数字贸易博览会启动仪式并致辞，数字贸易规则与监管协调成为焦点，各国 regulator 在数据跨境、平台责任上博弈。\n对比：regulator 定规则，operator 跑业务；职场里合规团队常被称作 internal regulator，替公司提前踩刹车。",
+      "root": "词根 reg(=rect 统治、直，拉丁 regere，同源 regular 规则的、regent 摄政者) + 后缀 -ulator(做…的人/物) → 使之合乎规则的人 → 监管者",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "diplomatic",
+      "ph": "/ˌdɪpləˈmætɪk/",
+      "m": "外交的；策略圆滑的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "relating to diplomacy between countries; tactful in dealing with people",
+      "defs": [
+        {
+          "cn": "外交的",
+          "en": "concerning relations between nations",
+          "pos": "adj."
+        },
+        {
+          "cn": "圆滑得体的",
+          "en": "tactful and sensitive in handling people",
+          "pos": "adj."
+        }
+      ],
+      "col": "diplomatic relations 外交关系 · diplomatic ties 邦交 · diplomatic solution 外交解决 · diplomatic immunity 外交豁免",
+      "ex": "Xi Jinping attended a welcome ceremony hosted by Trump at the White House, a high-level diplomatic moment.",
+      "exZh": "习近平出席特朗普在白宫举行的欢迎仪式，成为高规格外交时刻。",
+      "ex2": "She gave a diplomatic answer that avoided blaming either team.",
+      "ex2Zh": "她给出了圆滑的回答，没有责怪任何一方。",
+      "t": "习近平出席美国总统特朗普在白宫举行的欢迎仪式，法国世界报称中美力量对比逆转、习近平访美获高规格接待，地方合作与民间友好被视为稳定双边关系的支点。\n职场用法：diplomatic 也指“会说话”，同事冲突时一句 diplomatic reply 往往比直斥更有效。",
+      "root": "词根 diplo-(对折、文书，希腊 diploma 折叠文件，同源 diploma 文凭) + 后缀 -matic(形容词) → 凭文书往来办事 → 外交的、圆通的",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "itinerary",
+      "ph": "/aɪˈtɪnərəri/",
+      "m": "行程表；旅行路线",
+      "c": "work",
+      "pos": "n.",
+      "en": "a planned route or schedule of a journey, including places and times",
+      "defs": [
+        {
+          "cn": "行程表；旅行路线",
+          "en": "a detailed plan or route of a trip",
+          "pos": "n."
+        },
+        {
+          "cn": "日程安排",
+          "en": "a schedule of events for a visit or tour",
+          "pos": "n."
+        }
+      ],
+      "col": "travel itinerary 旅行行程 · busy itinerary 紧凑日程 · draft an itinerary 草拟行程 · itinerary change 行程变更",
+      "ex": "The state visit came with a packed itinerary, including a museum tour by the two first ladies.",
+      "exZh": "此次国事访问行程紧凑，包括两位第一夫人参观博物馆。",
+      "ex2": "Please send me the itinerary before I book the hotel.",
+      "ex2Zh": "请在我订酒店前把行程表发给我。",
+      "t": "彭丽媛同特朗普夫人梅拉尼娅参观国立亚洲艺术博物馆，高规格访问的 itinerary 安排既含正式会谈也有文化行程，成为外交节奏的一部分。\n职场提示：出差前把 itinerary 同步给团队，比事后解释省事；itinerary 强调路线与时间，agenda 强调议题。",
+      "root": "词根 itiner-(旅程，拉丁 iter 道路，同源 itinerary 旅程、itinerant 巡回的) + 后缀 -ary(名词) → 道路的记录 → 行程表",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "regulatory",
+      "ph": "/ˈreɡjələtɔːri/",
+      "m": "(adj.)监管的；规章的；制定规章的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "relating to rules or oversight, especially by a government agency; in policy/finance contexts",
+      "defs": [
+        {
+          "cn": "监管的",
+          "en": "relating to official oversight or rules",
+          "pos": "adj."
+        },
+        {
+          "cn": "规章的",
+          "en": "connected with regulations or rule-making",
+          "pos": "adj."
+        },
+        {
+          "cn": "制定规章的",
+          "en": "having the power to make rules",
+          "pos": "adj."
+        }
+      ],
+      "col": "regulatory framework 监管框架 · regulatory approval 监管批准 · regulatory risk 监管风险 · regulatory body 监管机构",
+      "ex": "Digital trade growth in Hangzhou will depend heavily on a clear regulatory framework for cross-border data.",
+      "exZh": "杭州数字贸易的增长，很大程度上取决于清晰的跨境数据监管框架。",
+      "ex2": "The fintech startup delayed its launch to wait for regulatory approval from the central bank.",
+      "ex2Zh": "这家金融科技初创公司推迟上线，等待央行监管批准。",
+      "t": "李强出席第五届全球数字贸易博览会启动仪式并致辞，数字贸易的下一步绕不开 regulatory 问题——跨境数据、支付牌照、平台责任，都是各国监管机构博弈的焦点。\n合规部门常说的 regulatory risk（监管风险），就是提醒业务别踩线：We can't ship this feature until we get regulatory clearance——记住它来自 regulate（监管），后缀 -ory 表示'与…有关的'。",
+      "root": "词根 reg(=regula 规则，拉丁 regula 尺子，同源 rule 规则) + 后缀 -ate(动词，拉丁 -atus) + -ory(形容词，拉丁 -orius) → 与规则有关的 → 监管的、规章的",
+      "d": "2026-09-25"
+    },
+    {
+      "w": "reciprocate",
+      "ph": "/rɪˈsɪprəkeɪt/",
+      "m": "(v.) 回报；互惠；对等回应",
+      "c": "politics",
+      "en": "to give back the same treatment; to act mutually in trade, diplomacy or personal favors",
+      "defs": [
+        {
+          "cn": "回报；互惠",
+          "en": "to respond to an action with a similar one",
+          "pos": "v."
+        },
+        {
+          "cn": "对等回应（关税/外交）",
+          "en": "to match another country's trade or diplomatic move",
+          "pos": "v."
+        },
+        {
+          "cn": "往复运动（机械）",
+          "en": "to move back and forth mechanically",
+          "pos": "v."
+        }
+      ],
+      "col": "reciprocate a gesture 回应善意 · reciprocate tariff cuts 对等削减关税 · reciprocate in kind 以同样方式回敬 · reciprocate the favor 报答恩惠",
+      "ex": "Beijing signaled it would reciprocate Washington's high-level reception with concrete cooperation on trade and climate.",
+      "exZh": "北京表示将以贸易和气候方面的具体合作回报华盛顿的高规格接待。",
+      "ex2": "If one side cuts tariffs, the other is expected to reciprocate within weeks.",
+      "ex2Zh": "如果一方削减关税，另一方预计将在数周内对等回应。",
+      "t": "习近平出席特朗普在白宫举行的欢迎仪式，法国世界报称『中美力量对比逆转』，高规格接待之后，双方都在观察对方是否会在关税与出口管制上 reciprocate。\n职场里也一样：同事帮你顶了班，记得 reciprocate，下次主动补位；reciprocate 强调『有来有往』，比单方面的 give 多一层对等意味。",
+      "root": "前缀 re-(回、再，拉丁，同源 return 返回、reflect 反射) + 词根 pro-(向前，拉丁，同源 proceed 前进) + 词根 cip(取，拉丁 capere 的变体，同源 capture 捕获) → 向前取回 → 有来有往、回报",
+      "d": "2026-09-25"
     }
   ],
   "preview": {
-    "hook": "全球财经媒体头条聚焦一场围绕务实外交与[sovereignty|sovereignty]边界的激烈博弈：某资源大国宣布将[mobilize|mobilize]国内产业力量，以[vigilance|vigilance]姿态应对外部资本对关键矿产的[speculate|speculate]性收购，同时紧急出台新[framework|framework]试图留住本土核心企业与技术人才，而国际主流媒体的报道则普遍质疑该举措能否真正落地。 务实的[务实的|pragmatic]管理者更愿意保留[保留|retain]核心员工，同时扩大保险的覆盖范围[覆盖范围|coverage]。",
+    "hook": "[crude|crude]价格再度剧烈震荡，[insurer|insurer]紧急上调[aviation|aviation]险费率，[regulator|regulator]随即介入调查衍生品市场异常交易，与此同时，多国展开密集[diplomatic|diplomatic]磋商，试图为紧张局势降温，而一份被泄露的[itinerary|itinerary]显示，关键谈判代表将在数日内穿梭于三个首都之间，市场普遍关注[regulatory|regulatory]新规是否会被提前提上议程，以及各方能否在压力下[reciprocate|reciprocate]彼此的让步。",
     "impact": ""
   }
 }

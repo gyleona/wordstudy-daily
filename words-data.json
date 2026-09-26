@@ -1,13 +1,12 @@
 {
-  "updated_on": "2026-09-25",
+  "updated_on": "2026-09-26",
   "quote": {
-    "en": "Small daily gains quietly outlast any sudden market storm.",
-    "zh": "每日微小的积累，终会胜过市场的骤雨狂风。"
+    "en": "In every storm, the resilient learner finds a new route.",
+    "zh": "每一次风暴中，有韧性的学习者总能找到新路。"
   },
   "story": {
-    "en": "Brent [crude|crude] topped $105 as Middle East turmoil deepened, while a Chinese [insurer|insurer] reported a 11.6% rise in compulsory auto liability payouts for 2025. In Washington, Xi Jinping attended a welcome ceremony hosted by Trump, a [diplomatic|diplomatic] moment that French daily Le Monde said signals a power shift. A [regulator|regulator] is weighing new rules after the insurance data. China Eastern showcased at the World Skills Expo, highlighting [aviation|aviation] talent. A traveler's [itinerary|itinerary] between the two capitals now includes high-level talks. Beijing may [reciprocate|reciprocate] recent US gestures with more local cooperation. The [regulatory|regulatory] landscape for insurers could tighten as payouts climb. With the UN General Assembly opening, leaders urged direct engagement on Gaza. The satellite internet low-orbit launch added to China's tech momentum. Markets watch the 7-year Treasury auction yield, the highest since April 1993. The next few weeks will test whether these diplomatic and economic threads hold.",
-    "cn": "中东动荡难解，布伦特[原油|crude]站上105美元；2025年我国交强险赔付支出同比增长11.6%，凸显[保险公司|insurer]承压。习近平出席特朗普在白宫举行的欢迎仪式，法国世界报称中美力量对比逆转，这一[外交的|diplomatic]高规格接待引发关注。[监管机构|regulator]正评估新规，[航空|aviation]业方面，东航亮相世界技能博览会，打造可感可参与的体验空间。\n\n旅客的[行程表|itinerary]上，中美地方合作助力关系行稳致远。北京可能以更多民间交流[回报|reciprocate]美方善意。[监管的|regulatory]环境或随赔付上升而收紧。联大辩论首日，多国领导人呼吁直面巴以冲突。我国成功发射卫星互联网低轨26组卫星，重庆北斗规模应用试点评分居全国首位。\n\n美国7年期国债拍卖收益率创1993年4月以来新高，市场情绪谨慎。中秋国庆假期江门站加开列车62列，亚运会国羽女团时隔12年再夺金，泳将张展硕6金入账。第五届全球数字贸易博览会在杭州启动，李强出席并致辞。未来数周，这些外交与经济线索能否持续，值得观察。",
-    "cnNote": "Chinese text is 3 paragraphs, 320-380 characters, no summary sentence at end."
+    "en": "Beijing's new housing policy triggered a [scramble|scramble] among buyers as the city capped [presale|presale] prices and limited deposits to no more than 1% of the total. The move aims to cool speculation and protect consumers in a market where pre-sale activity often outpaces construction. Meanwhile, global markets reacted to news that the Strait of Hormuz may [reopen|reopen], sending oil prices lower and equities higher. White House efforts to reduce diesel costs added to the optimism. In the tech sector, Anthropic reportedly committed at least $40 billion to [lease|lease] computing power, underscoring the massive infrastructure demands of AI development. Iran [deny|deny] claims of progress in U.S.-Iran talks, calling related reports untrue. The EU launched infringement procedures to enforce directive [compliance|compliance] across member states. As businesses adapt, some are choosing to [onshore|onshore] operations, reshaping the [workplace|workplace] and supply chains. These developments highlight a dynamic landscape of regulation, energy, and technology.",
+    "cn": "全球市场在央行权衡利率路径之际匆忙评估新信号。主要科技中心，房东[重新开放|reopen]办公室并提供灵活[租赁|lease]条款以吸引员工回归。某领先电商平台推出秋季电子产品[预售|presale]，吸引数百万预订单。该公司[否认|deny]用户投诉后存在数据泄露。远程工作趋势重塑[职场|workplace]，推动企业将部分业务迁回国内以兼顾成本与安全。监管机构强调遵守更新后的数据法律，敦促企业适应。分析人士预计这些变化将带来市场波动。"
   },
   "words": [
     {
@@ -9770,10 +9769,274 @@
       "t": "习近平出席特朗普在白宫举行的欢迎仪式，法国世界报称『中美力量对比逆转』，高规格接待之后，双方都在观察对方是否会在关税与出口管制上 reciprocate。\n职场里也一样：同事帮你顶了班，记得 reciprocate，下次主动补位；reciprocate 强调『有来有往』，比单方面的 give 多一层对等意味。",
       "root": "前缀 re-(回、再，拉丁，同源 return 返回、reflect 反射) + 词根 pro-(向前，拉丁，同源 proceed 前进) + 词根 cip(取，拉丁 capere 的变体，同源 capture 捕获) → 向前取回 → 有来有往、回报",
       "d": "2026-09-25"
+    },
+    {
+      "w": "scramble",
+      "ph": "/ˈskræmbl/",
+      "m": "争抢；仓促行动；扰乱(信号)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to compete hurriedly for something; to move or act in a disordered rush; to jumble signals",
+      "defs": [
+        {
+          "cn": "争抢",
+          "en": "to compete eagerly and hurriedly for something",
+          "pos": "v."
+        },
+        {
+          "cn": "仓促行动",
+          "en": "to act in a hurried, disorganized way",
+          "pos": "v."
+        },
+        {
+          "cn": "扰乱信号",
+          "en": "to mix up electronic signals so they cannot be understood",
+          "pos": "v."
+        }
+      ],
+      "col": "scramble for resources 争抢资源 · scramble to meet demand 仓促满足需求 · scramble for talent 抢人才 · scramble the signal 扰乱信号",
+      "ex": "Traders scrambled to cover short positions after reports that the Strait of Hormuz could reopen soon.",
+      "exZh": "有报道称霍尔木兹海峡可能很快重开，交易员争相平掉空头头寸。",
+      "ex2": "Firms are scrambling to hire AI engineers as demand for large-model infrastructure surges.",
+      "ex2Zh": "随着大模型基础设施需求激增，企业争相招聘人工智能工程师。",
+      "t": "9月26日外盘头条称霍尔木兹海峡有望重开，油价下跌，交易员争相调整仓位，标普震荡反弹。\n职场里 scramble 也指抢资源：项目截止前团队 scramble to deliver，提醒我们提前规划比临时抱佛脚更有效。",
+      "root": "源自古英语 scrimman(争夺)，与 scamper 快速奔跑同源 → 手脚并用争抢 → 引申为仓促行动、扰乱信号",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "presale",
+      "ph": "/ˈpriːseɪl/",
+      "m": "预售；预售活动",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of selling something before it is officially available; a pre-release sale, especially in property or entertainment",
+      "defs": [
+        {
+          "cn": "预售",
+          "en": "selling before official release",
+          "pos": "n."
+        },
+        {
+          "cn": "预售活动",
+          "en": "an event where goods are sold in advance",
+          "pos": "n."
+        },
+        {
+          "cn": "预售期",
+          "en": "the period during which presales occur",
+          "pos": "n."
+        }
+      ],
+      "col": "property presale 房产预售 · presale revenue 预售收入 · presale cap 预售封顶 · launch a presale 启动预售",
+      "ex": "Beijing's new housing rules cap presale prices and limit deposits to no more than 1% of the total.",
+      "exZh": "北京楼市新政对预售价格设置上限，定金不超过总价的1%。",
+      "ex2": "The film's presale tickets topped 140 million yuan during the Mid-Autumn holiday.",
+      "ex2Zh": "该片中秋档预售票房突破1.4亿元。",
+      "t": "9月26日上观新闻报道，北京楼市新政要求预售封顶、定金不超1%，直接改变开发商回款节奏。\n职场里 presale 也指提前锁定客户：销售团队靠 presale 完成季度指标，提醒我们现金流比账面利润更关键。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 predict 预测) + 词根 sale(卖，古英语 sala) → 正式开卖之前先卖 → 预售、预售活动",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "reopen",
+      "ph": "/ˌriːˈoʊpən/",
+      "m": "(v.)重新开放；重新开始",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to open again after being closed; to resume an activity or negotiation",
+      "defs": [
+        {
+          "cn": "重新开放",
+          "en": "to open a place or route again",
+          "pos": "v."
+        },
+        {
+          "cn": "重新开始；重启",
+          "en": "to resume talks or operations",
+          "pos": "v."
+        },
+        {
+          "cn": "重启谈判",
+          "en": "to restart negotiations after a pause",
+          "pos": "v."
+        }
+      ],
+      "col": "reopen talks 重启谈判 · reopen the strait 重新开放海峡 · reopen an investigation 重启调查 · reopen for business 重新营业",
+      "ex": "Markets rallied on hopes that the Strait of Hormuz could reopen, pulling oil lower and lifting equities.",
+      "exZh": "市场因霍尔木兹海峡有望重开而反弹，油价走低、股市走高。",
+      "ex2": "EU regulators moved to reopen infringement procedures, pressing member states to implement key directives on time.",
+      "ex2Zh": "欧盟监管机构启动违规程序，施压成员国按期落实关键指令。",
+      "t": "今天两条主线都指向 reopen：一是外盘头条称霍尔木兹海峡有望重开，原油应声下跌、标普反弹；二是欧盟启动违规程序，要求成员国限期落实多项指令，等于把合规窗口重新打开。\n职场用法：reopen a discussion（重启讨论），比 restart 更强调『把已关闭的重新打开』，会议纪要里高频出现。",
+      "root": "前缀 re-(再次，拉丁，同源 return/rebuild) + 古英语 open（打开） → 再次打开 → 重新开放、重启；现代政治经济语境中常指重启谈判或恢复通航。",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "lease",
+      "ph": "/liːs/",
+      "m": "租赁；租约；出租",
+      "c": "econ",
+      "pos": "v. / n.",
+      "en": "to rent property, equipment, or computing capacity under a contract; a legal agreement for such renting",
+      "defs": [
+        {
+          "cn": "租赁；租用",
+          "en": "to rent land, buildings, or equipment",
+          "pos": "v."
+        },
+        {
+          "cn": "租约",
+          "en": "a contract for renting property",
+          "pos": "n."
+        },
+        {
+          "cn": "出租",
+          "en": "to grant the use of property for rent",
+          "pos": "v."
+        }
+      ],
+      "col": "lease a property 租赁房产 · sign a lease 签订租约 · lease term 租赁期限 · lease computing power 租赁算力",
+      "ex": "Anthropic reportedly plans to invest at least $40 billion to lease computing capacity, underscoring the fierce race for AI infrastructure.",
+      "exZh": "据报道，Anthropic 计划投入至少 400 亿美元租赁算力，凸显 AI 基础设施的激烈竞赛。",
+      "ex2": "The startup signed a five-year lease for office space in downtown Seoul to accommodate its growing workforce.",
+      "ex2Zh": "这家初创公司签署了首尔市中心办公空间的五年租约，以容纳不断增长的员工队伍。",
+      "t": "今日外盘头条传出重磅：Anthropic 计划投入至少 400 亿美元租赁算力，以支撑其大模型训练需求。这一巨额 lease 交易反映出 AI 军备竞赛正从芯片采购延伸到数据中心与电力资源的长期锁定。\n职场类比：公司扩张时常选择 lease 办公空间而非直接购买，以保持现金流灵活性；与 buy（买断）相对，lease 强调使用权与期限。",
+      "root": "源自古法语 lais（出租），与拉丁 laxare（放松、放开）同源，本义为『放开使用权』→ 引申为出租、租约。同源词包括 lax、relax。",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "deny",
+      "ph": "/dɪˈnaɪ/",
+      "m": "否认；拒绝给予",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to state that something is not true; to refuse to give or grant something",
+      "defs": [
+        {
+          "cn": "否认",
+          "en": "to say that something is not true",
+          "pos": "v."
+        },
+        {
+          "cn": "拒绝给予",
+          "en": "to refuse to allow or grant",
+          "pos": "v."
+        },
+        {
+          "cn": "拒绝承认",
+          "en": "to refuse to acknowledge a fact",
+          "pos": "v."
+        }
+      ],
+      "col": "deny allegations 否认指控 · deny access 拒绝准入 · deny a request 拒绝请求 · flatly deny 断然否认",
+      "ex": "Iran denied reports of progress in US-Iran talks, calling the coverage inaccurate and adding uncertainty to oil markets.",
+      "exZh": "伊朗否认美伊谈判取得进展，称相关报道不实，为油市增添不确定性。",
+      "ex2": "The company denied rumors that it would relocate its headquarters overseas.",
+      "ex2Zh": "该公司否认了将把总部迁往海外的传闻。",
+      "t": "第一财经报道：伊朗否认美伊谈判进展，称相关报道不实。这一 deny 令市场对中东局势缓和的预期降温，叠加霍尔木兹海峡重开前景，油价走势更显反复。\n职场中，deny 也用于拒绝请求：如 deny a leave request（拒绝请假申请）。与 refuse（拒绝）近义，但 deny 更强调否认事实或拒绝给予。",
+      "root": "前缀 de-（完全，拉丁，同源 decline） + 词根 ny（=neg 否认，拉丁 negare，同源 negate） → 完全否认 → 否认、拒绝给予。",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "workplace",
+      "ph": "/ˈwɜːrkpleɪs/",
+      "m": "职场；工作场所",
+      "c": "work",
+      "pos": "n.",
+      "en": "the place or environment where people do their jobs; often used in discussions of culture, policy and skills",
+      "defs": [
+        {
+          "cn": "职场",
+          "en": "the environment where people work",
+          "pos": "n."
+        },
+        {
+          "cn": "工作场所",
+          "en": "a physical location of work",
+          "pos": "n."
+        },
+        {
+          "cn": "工作氛围",
+          "en": "the culture and conditions of a job",
+          "pos": "n."
+        }
+      ],
+      "col": "workplace culture 职场文化 · workplace safety 工作场所安全 · hybrid workplace 混合办公 · workplace stress 职场压力",
+      "ex": "As AI tools spread, the workplace is being reshaped faster than many training programs can keep up.",
+      "exZh": "随着AI工具普及，职场被重塑的速度超过许多培训项目的跟进能力。",
+      "ex2": "The WorldSkills competition shows how vocational skills are moving from medal strength to system strength in the workplace.",
+      "ex2Zh": "世界技能大赛显示，职业技能在职场中正从“奖牌实力”走向“体系实力”。",
+      "t": "世赛赛场上的“中国技能”从奖牌实力走向体系实力，折射出 workplace 对高技能人才的评价标准正在升级。\n搭配记忆：workplace 偏“环境与文化”，workforce 偏“人”，job 偏“岗位”，三者常被混用，写简历时别写错。",
+      "root": "复合词：work(工作，古英语 weorc，同源 workable) + place(场所，拉丁 platea 宽街，同源 plaza) → 工作的场所 → 职场、工作环境",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "onshore",
+      "ph": "/ˌɒnˈʃɔː(r)/",
+      "m": "在岸的；把(业务)迁回国内",
+      "c": "econ",
+      "pos": "adj. / v.",
+      "en": "relating to activities based in one's own country; to move business operations back home",
+      "defs": [
+        {
+          "cn": "在岸的",
+          "en": "located or conducted within one's own country",
+          "pos": "adj."
+        },
+        {
+          "cn": "把(业务)迁回国内",
+          "en": "to bring operations back to the home country",
+          "pos": "v."
+        },
+        {
+          "cn": "在岸市场",
+          "en": "a domestic market as opposed to an offshore one",
+          "pos": "n."
+        }
+      ],
+      "col": "onshore operations 在岸业务 · onshore manufacturing 在岸制造 · onshore the supply chain 把供应链迁回国内 · onshore market 在岸市场",
+      "ex": "As tariff pressures mount, more multinationals are choosing to onshore production rather than rely on distant suppliers.",
+      "exZh": "随着关税压力加大，更多跨国公司选择把生产迁回国内，而非依赖远方的供应商。",
+      "ex2": "The bank shifted its onshore teams to handle the new compliance rules, leaving offshore units to focus on back-office work.",
+      "ex2Zh": "银行调整在岸团队以应对新合规规则，离岸部门则专注后台工作。",
+      "t": "在中美关系新指引与关税不确定性下，不少企业重新评估供应链，onshore 生产成为分散风险的选择，与 reshore 意思相近。\n职场用法：公司说“we will onshore this function”，意思是把这个职能从海外迁回本土，往往伴随招聘与流程重组。",
+      "root": "前缀 on-(在……上，古英语，同源 onto 到……上) + 词根 shore(岸，古英语，同源 seaside 海边) → 在岸上 → 在本国境内 → 在岸的、业务回流",
+      "d": "2026-09-26"
+    },
+    {
+      "w": "compliance",
+      "ph": "/kəmˈplaɪəns/",
+      "m": "合规；遵从",
+      "c": "work",
+      "pos": "n.",
+      "en": "the act of obeying rules, laws, or standards, especially in business and regulation",
+      "defs": [
+        {
+          "cn": "合规",
+          "en": "the state of following rules and regulations in business",
+          "pos": "n."
+        },
+        {
+          "cn": "遵从；服从",
+          "en": "the act of obeying an order or request",
+          "pos": "n."
+        },
+        {
+          "cn": "合规部门",
+          "en": "the department ensuring adherence to rules",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory compliance 监管合规 · compliance officer 合规官 · ensure compliance 确保合规 · compliance costs 合规成本",
+      "ex": "The EU launched infringement procedures requiring member states to implement several directives within a deadline, putting compliance squarely on the agenda.",
+      "exZh": "欧盟启动违规程序，要求成员国限期落实多项指令，合规问题被推上日程。",
+      "ex2": "The bank shifted its onshore teams to handle new compliance rules, leaving offshore units to focus on back-office work.",
+      "ex2Zh": "银行调整在岸团队以应对新合规规则，离岸部门则专注后台工作。",
+      "t": "新蓝网报道，欧盟启动违规程序，要求成员国限期落实多项指令——compliance 压力从布鲁塞尔传导到各国企业与机构。\n职场里 compliance 是“合规”：金融、医药、互联网都设合规岗，做业务前先问“合不合规”，已成为跨行业的默认动作。",
+      "root": "前缀 com-(共同、完全，拉丁，同源 complete 完全的) + 词根 pli(=plere 填满，拉丁，同源 supply 供应) + 后缀 -ance(名词，拉丁) → 完全满足要求 → 遵从、合规",
+      "d": "2026-09-26"
     }
   ],
   "preview": {
-    "hook": "[crude|crude]价格再度剧烈震荡，[insurer|insurer]紧急上调[aviation|aviation]险费率，[regulator|regulator]随即介入调查衍生品市场异常交易，与此同时，多国展开密集[diplomatic|diplomatic]磋商，试图为紧张局势降温，而一份被泄露的[itinerary|itinerary]显示，关键谈判代表将在数日内穿梭于三个首都之间，市场普遍关注[regulatory|regulatory]新规是否会被提前提上议程，以及各方能否在压力下[reciprocate|reciprocate]彼此的让步。",
+    "hook": "东南亚某国突然叫停一个大型数据中心项目，引发当地开发商与外资企业[scramble|scramble]有限的电力配额，并紧急扰乱原有施工信号；与此同时，某跨国云厂商高调启动新一轮[presale|presale]活动，承诺明年一季度[reopen|reopen]已停摆的园区，却对是否续签核心[lease|lease]含糊其辞，甚至[deny|deny]曾向[workplace|workplace]员工口头承诺补贴；更微妙的是，监管层正酝酿新规，要求所有在岸业务必须通过[compliance|compliance]审查，否则不得上线。 政府鼓励把[在岸的|onshore]资金投入国内实体经济，以降低对外部市场的依赖。",
     "impact": ""
   }
 }

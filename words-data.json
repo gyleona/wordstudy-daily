@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-26",
+  "updated_on": "2026-09-27",
   "quote": {
-    "en": "In every storm, the resilient learner finds a new route.",
-    "zh": "每一次风暴中，有韧性的学习者总能找到新路。"
+    "en": "Steady skills turn every market swing into a stepping stone.",
+    "zh": "扎实的技能，让每一次市场波动都成为垫脚石。"
   },
   "story": {
-    "en": "Beijing's new housing policy triggered a [scramble|scramble] among buyers as the city capped [presale|presale] prices and limited deposits to no more than 1% of the total. The move aims to cool speculation and protect consumers in a market where pre-sale activity often outpaces construction. Meanwhile, global markets reacted to news that the Strait of Hormuz may [reopen|reopen], sending oil prices lower and equities higher. White House efforts to reduce diesel costs added to the optimism. In the tech sector, Anthropic reportedly committed at least $40 billion to [lease|lease] computing power, underscoring the massive infrastructure demands of AI development. Iran [deny|deny] claims of progress in U.S.-Iran talks, calling related reports untrue. The EU launched infringement procedures to enforce directive [compliance|compliance] across member states. As businesses adapt, some are choosing to [onshore|onshore] operations, reshaping the [workplace|workplace] and supply chains. These developments highlight a dynamic landscape of regulation, energy, and technology.",
-    "cn": "全球市场在央行权衡利率路径之际匆忙评估新信号。主要科技中心，房东[重新开放|reopen]办公室并提供灵活[租赁|lease]条款以吸引员工回归。某领先电商平台推出秋季电子产品[预售|presale]，吸引数百万预订单。该公司[否认|deny]用户投诉后存在数据泄露。远程工作趋势重塑[职场|workplace]，推动企业将部分业务迁回国内以兼顾成本与安全。监管机构强调遵守更新后的数据法律，敦促企业适应。分析人士预计这些变化将带来市场波动。"
+    "en": "Global markets entered the week with an uneasy [seesaw|seesaw] as US stocks closed higher but a 30-year Treasury yield broke through 5.5% even with oil down over 2%. The [outsized|outsized] move in long-end yields forced traders to [unwind|unwind] crowded positions, while a [ratchet|ratchet] in safe-haven demand kept volatility elevated. In Asia, the World Skills Competition spotlighted [vocational|vocational] training as a bridge to future jobs, and Hangzhou's robot firms signed 280 million yuan in orders at the Digital Trade Expo. On the political front, Trump said he would reach a deal with Cuba without troops and rejected Iran's offer to reopen the Strait of Hormuz, hinting at military action after the midterms. To [mitigate|mitigate] regional risks, Beijing and Washington appear to be cooperating on AI governance, a French paper noted. Corporate [headcount|headcount] plans remain cautious, and the Mid-Autumn box office topped 200 million yuan, proving the holiday [franchise|franchise] still draws crowds. The week ahead will test whether policy signals can steady the seesaw mood.",
+    "cn": "全球市场本周开局呈现拉锯态势：美股三大指数集体收涨，但即便油价跌超2%，30年期美债收益率依旧突破5.5%。长端收益率的超大波动迫使交易员解除拥挤仓位，而避险需求的[单向递增|ratchet]令波动率居高不下。亚洲方面，世界技能大赛聚焦职业技能培训，杭州机器人企业在数贸会上签下2.8亿元订单。政治层面，特朗普称会和古巴达成协议、不需要动用军队，并拒绝伊朗重开霍尔木兹海峡的提议，暗示中期选举后或重启军事行动。法国报纸摘要指出，中美如“罐子里的蝎子”，人工智能正迫使二者合作，以[缓解|mitigate]地区风险。企业[员工总数|headcount]计划仍偏谨慎，中秋档电影总票房破两亿元，显示假日影视系列依旧吸金。未来一周，政策信号能否稳住市场情绪，仍是关键考验。 疫情后经济像[跷跷板|seesaw]一样反复摇摆，那些[过大的|outsized]刺激政策一旦[松开|unwind]，面向[职业的|vocational]培训的[特许经营权|franchise]市场便会首当其冲。"
   },
   "words": [
     {
@@ -10033,10 +10033,255 @@
       "t": "新蓝网报道，欧盟启动违规程序，要求成员国限期落实多项指令——compliance 压力从布鲁塞尔传导到各国企业与机构。\n职场里 compliance 是“合规”：金融、医药、互联网都设合规岗，做业务前先问“合不合规”，已成为跨行业的默认动作。",
       "root": "前缀 com-(共同、完全，拉丁，同源 complete 完全的) + 词根 pli(=plere 填满，拉丁，同源 supply 供应) + 后缀 -ance(名词，拉丁) → 完全满足要求 → 遵从、合规",
       "d": "2026-09-26"
+    },
+    {
+      "w": "ratchet",
+      "ph": "/ˈrætʃɪt/",
+      "m": "(使)单向递增；棘轮式上升",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to increase or move in one direction only, like a ratchet; common in policy, prices, and market contexts",
+      "defs": [
+        {
+          "cn": "棘轮式上升",
+          "en": "to increase step by step without going back down",
+          "pos": "v."
+        },
+        {
+          "cn": "棘轮；单向齿轮",
+          "en": "a device that allows movement in one direction only",
+          "pos": "n."
+        },
+        {
+          "cn": "逐步加码",
+          "en": "to tighten or raise something incrementally",
+          "pos": "v."
+        }
+      ],
+      "col": "ratchet up pressure 逐步加大压力 · ratchet up tariffs 逐步提高关税 · debt ratchet 债务棘轮 · ratchet effect 棘轮效应",
+      "ex": "With the 30-year Treasury yield above 5.5%, investors fear the Fed could ratchet up borrowing costs further.",
+      "exZh": "在30年期美债收益率突破5.5%之际，投资者担心美联储可能进一步推高借贷成本。",
+      "ex2": "Managers often ratchet up quarterly targets, so employees must reskill continuously to keep pace.",
+      "ex2Zh": "管理者常把季度目标逐步加码，员工必须持续提升技能才能跟上。",
+      "t": "利率市场最怕 ratchet：30年期美债收益率突破5.5%，意味着融资成本可能单向抬升，企业发债与房贷都被“棘轮”锁住。\n职场联想：KPI 也可 ratchet up，一旦上调很难回落；与 ease 放松相对，记成“只上不下的齿轮”。",
+      "root": "源自古法语 rachette/rochet，本义为“棘轮”，后引申为“单向逐步增加”；与 rack 齿条同源 → 只能朝一个方向转 → 逐步加码",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "seesaw",
+      "ph": "/ˈsiːsɔː/",
+      "m": "(局势/价格)来回摇摆；拉锯",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to move up and down or back and forth repeatedly; often used for markets, negotiations, and sentiment",
+      "defs": [
+        {
+          "cn": "来回摇摆",
+          "en": "to keep changing direction up and down",
+          "pos": "v."
+        },
+        {
+          "cn": "拉锯局面",
+          "en": "a situation in which two sides keep alternating advantage",
+          "pos": "n."
+        },
+        {
+          "cn": "跷跷板",
+          "en": "a playground board that moves up and down",
+          "pos": "n."
+        }
+      ],
+      "col": "seesaw battle 拉锯战 · seesaw market 摇摆市场 · seesaw between hope and fear 在希望与恐惧间摇摆 · seesaw negotiations 反复拉锯的谈判",
+      "ex": "Oil prices seesawed after falling more than 2%, while US stocks closed higher across the board.",
+      "exZh": "国际油价跌超2%后反复摇摆，而美股三大指数集体收涨。",
+      "ex2": "The debate over AI cooperation between China and the US continues to seesaw between competition and collaboration.",
+      "ex2Zh": "中美在人工智能合作上的争论，持续在竞争与合作之间来回摇摆。",
+      "t": "法国报纸把中美比作“罐子里的蝎子”，人工智能正搅动罐子，迫使二者在合作与竞争间 seesaw，市场情绪随之起伏。\n日常记忆：seesaw 就是跷跷板，一端上去另一端下来；描述谈判或汇率时，比 fluctuate 更形象。",
+      "root": "复合词：see(看，古英语 sēon，同源 sight 视觉) + saw(锯，古英语 sagu，同源 saw 锯子) → 像拉锯一样上下往复 → 来回摇摆",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "outsized",
+      "ph": "/ˈaʊtsaɪzd/",
+      "m": "超大的；异常巨大的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "much larger than usual or expected; often used for influence, returns, or market moves",
+      "defs": [
+        {
+          "cn": "超大的",
+          "en": "larger than normal or expected",
+          "pos": "adj."
+        },
+        {
+          "cn": "异常巨大的",
+          "en": "having a disproportionately big effect or size",
+          "pos": "adj."
+        },
+        {
+          "cn": "超出常规的",
+          "en": "beyond the usual scale",
+          "pos": "adj."
+        }
+      ],
+      "col": "outsized influence 超大影响力 · outsized returns 超额回报 · outsized role 举足轻重的作用 · outsized impact 巨大冲击",
+      "ex": "Storage-chip stocks had an outsized impact on the S&P 500's gain, even as oil slid more than 2%.",
+      "exZh": "存储芯片股对标普500上涨影响异常巨大，尽管油价跌超2%。",
+      "ex2": "The Hangzhou robotics order worth 280 million yuan gave the firm outsized visibility at the Digital Trade Expo.",
+      "ex2Zh": "杭州机器人企业2.8亿元订单，让它在数贸会上获得异常高的关注度。",
+      "t": "美股三大指数集体收涨，存储芯片股贡献了 outsized 涨幅，成为指数上行的关键推手；与此同时油价跌超2%，板块分化明显。\n职场用法：一个人若在团队里发挥 outsized influence，往往意味着关键节点离不开他，也意味着更高议价权。",
+      "root": "前缀 out-(超出，古英语 ūt，同源 outside 外面) + 词根 size(尺寸，古法语 sise，同源 size 大小) + 后缀 -d(形容词化) → 尺寸超出常规 → 超大的、异常巨大的",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "unwind",
+      "ph": "/ʌnˈwaɪnd/",
+      "m": "解除(仓位)；放松；逆转",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to reverse or close a position; also to relax after tension; common in finance and daily life",
+      "defs": [
+        {
+          "cn": "解除(仓位)",
+          "en": "to close out or reverse a financial position",
+          "pos": "v."
+        },
+        {
+          "cn": "放松；松弛",
+          "en": "to relax after a period of tension or work",
+          "pos": "v."
+        },
+        {
+          "cn": "逐步逆转",
+          "en": "to undo a process or situation gradually",
+          "pos": "v."
+        }
+      ],
+      "col": "unwind positions 解除仓位 · unwind stimulus 退出刺激 · unwind after work 下班放松 · unwind a trade 平仓",
+      "ex": "Traders began to unwind crowded bond positions as the 30-year Treasury yield broke above 5.5%.",
+      "exZh": "随着30年期美债收益率突破5.5%，交易员开始解除拥挤的债券仓位。",
+      "ex2": "After the Mid-Autumn holiday travel rush, many workers took a day to unwind before returning to the office.",
+      "ex2Zh": "中秋出行高峰过后，许多上班族用一天时间放松，再回到办公室。",
+      "t": "美债收益率破5.5%，最拥挤的交易首当其冲：CTA 与主动型基金若 unwind 仓位，短端美债波动会被放大。\n日常联想：unwind 既是金融“平仓”，也是下班“放松”；从绷紧到松开，动作方向一致，一词两用很好记。",
+      "root": "前缀 un-(反向，古英语 un-，同源 undo 撤销) + 词根 wind(缠绕，古英语 windan，同源 winding 蜿蜒的) → 把缠绕解开 → 解除、放松、逆转",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "vocational",
+      "ph": "/vəʊˈkeɪʃənl/",
+      "m": "职业的；职业技能的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "relating to skills and training for a particular job or trade; common in education and employment contexts",
+      "defs": [
+        {
+          "cn": "职业的",
+          "en": "connected with the skills needed for a job",
+          "pos": "adj."
+        },
+        {
+          "cn": "职业技能的",
+          "en": "relating to practical training rather than academic study",
+          "pos": "adj."
+        },
+        {
+          "cn": "行业培训的",
+          "en": "describing training for a specific trade or industry",
+          "pos": "adj."
+        }
+      ],
+      "col": "vocational training 职业培训 · vocational skills 职业技能 · vocational education 职业教育 · vocational qualification 职业资格",
+      "ex": "The World Skills Competition in China highlights vocational talent as AI reshapes the workplace.",
+      "exZh": "在中国举办的世界技能大赛凸显职业技能人才，正值人工智能重塑职场之际。",
+      "ex2": "As firms ratchet up automation, vocational training becomes a bridge to better-paid roles.",
+      "ex2Zh": "随着企业逐步提高自动化水平，职业培训成为通往更高薪岗位的桥梁。",
+      "t": "人民网报道“技能点亮赛场 匠心托举未来”，世界技能大赛让 vocational 教育再次成为焦点，技能人才在产业升级中价值上升。\n职场记忆：vocational 与 academic 相对，强调“动手能上岗”；AI 时代，vocational skills 反而更难被替代。",
+      "root": "词根 voc(呼叫，拉丁 vocare，同源 vocal 声音的) + 后缀 -ation(名词) + -al(形容词) → 被“召唤”去做的事 → 职业的、职业技能的",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "mitigate",
+      "ph": "/ˈmɪtɪɡeɪt/",
+      "m": "缓解；减轻（不良影响）",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to make something bad less severe or harmful; common in policy, risk, and economic contexts",
+      "defs": [
+        {
+          "cn": "缓解（不良影响）",
+          "en": "to make something bad less severe or harmful",
+          "pos": "v."
+        },
+        {
+          "cn": "减轻（风险/损失）",
+          "en": "to reduce the risk or impact of losses",
+          "pos": "v."
+        },
+        {
+          "cn": "使缓和",
+          "en": "to appease or soften a situation",
+          "pos": "v."
+        }
+      ],
+      "col": "mitigate the impact 减轻影响 · mitigate risks 降低风险 · mitigate climate change 缓解气候变化 · mitigate losses 减少损失",
+      "ex": "Policymakers are weighing new measures to mitigate the economic fallout from rising bond yields.",
+      "exZh": "政策制定者正在权衡新措施，以缓解债券收益率上升带来的经济冲击。",
+      "ex2": "Companies can mitigate supply-chain risks by diversifying their suppliers across regions.",
+      "ex2Zh": "企业可以通过在不同地区分散供应商来降低供应链风险。",
+      "t": "今日全球市场：美股三大指数集体收涨，但30年期美债收益率突破5.5%，油价跌超2%。政策制定者正试图 mitigate 高利率对实体经济的冲击，同时避免通胀反弹。\n职场里，mitigate 常与 risk 搭配：一份好的项目计划书会写 how to mitigate potential risks（如何降低潜在风险），比单纯说 reduce 更显专业。",
+      "root": "词根 mitig-(温和、缓和，拉丁 mitigare，同源 mitigate 本身) + 后缀 -ate(动词后缀，拉丁 -atus) → 使变温和 → 缓解、减轻。同源词：mitigation 缓解措施。",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "headcount",
+      "ph": "/ˈhedkaʊnt/",
+      "m": "员工总数；人数统计",
+      "c": "work",
+      "pos": "n.",
+      "en": "The total number of employees in an organization; a count of people present.",
+      "defs": [
+        {
+          "cn": "员工总数",
+          "en": "the total number of employees",
+          "pos": "n."
+        },
+        {
+          "cn": "人数统计",
+          "en": "a count of people in a group",
+          "pos": "n."
+        },
+        {
+          "cn": "人员编制",
+          "en": "the authorized number of staff",
+          "pos": "n."
+        }
+      ],
+      "col": "headcount freeze 员工总数冻结 · reduce headcount 裁员 · headcount growth 员工增长 · total headcount 总人数",
+      "ex": "The tech giant announced a headcount freeze for the rest of the year amid economic uncertainty.",
+      "exZh": "由于经济不确定性，这家科技巨头宣布今年剩余时间冻结招聘。",
+      "ex2": "HR is reviewing the headcount to ensure each department is appropriately staffed.",
+      "ex2Zh": "人力资源部正在审查员工总数，以确保各部门人员配置合理。",
+      "t": "在全球经济放缓的背景下，多家跨国企业宣布冻结 headcount 或进行裁员，以控制成本。与此同时，中国制造业企业却因订单回暖而扩大 headcount，形成鲜明对比。\n职场中，headcount 常与 budget 挂钩：部门 headcount 超编，招聘就得暂停。与 staffing 近义，但 headcount 更侧重人数总量。",
+      "root": "复合词：head（头、人，古英语 heafod） + count（计数，拉丁 computare） → 数人头 → 员工总数、人数统计。",
+      "d": "2026-09-27"
+    },
+    {
+      "w": "franchise",
+      "ph": "/ˈfræntʃaɪz/",
+      "m": "特许经营权；影视系列",
+      "c": "entertainment",
+      "ex": "The Marvel franchise spans dozens of films.",
+      "exZh": "漫威系列横跨数十部电影。",
+      "t": "一个能不断拍续集、卖周边的金字招牌。",
+      "root": "franc(free) + -ise → 特许经营权",
+      "pos": "n.",
+      "en": "a license to operate under a brand",
+      "col": "film franchise · franchise owner",
+      "d": "2026-09-27"
     }
   ],
   "preview": {
-    "hook": "东南亚某国突然叫停一个大型数据中心项目，引发当地开发商与外资企业[scramble|scramble]有限的电力配额，并紧急扰乱原有施工信号；与此同时，某跨国云厂商高调启动新一轮[presale|presale]活动，承诺明年一季度[reopen|reopen]已停摆的园区，却对是否续签核心[lease|lease]含糊其辞，甚至[deny|deny]曾向[workplace|workplace]员工口头承诺补贴；更微妙的是，监管层正酝酿新规，要求所有在岸业务必须通过[compliance|compliance]审查，否则不得上线。 政府鼓励把[在岸的|onshore]资金投入国内实体经济，以降低对外部市场的依赖。",
+    "hook": "美国最新非农数据与美联储官员讲话让市场再度陷入拉锯：一边是AI资本开支带来的超大招聘需求，一边是消费信贷违约率[ratchet|ratchet]，投资者被迫解除部分科技股仓位；与此同时，多家巨头宣布冻结[headcount|headcount]并加码职业培训，试图[mitigate|mitigate]自动化对就业的冲击，而流媒体与游戏公司则继续靠特许经营续作撑住营收。 疫情后经济[反复震荡|seesaw]，[过大的|outsized]刺激政策逐渐[退出|unwind]，政府转而大力扶持[职业的|vocational]培训，并鼓励[特许经营|franchise]模式以带动就业。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-27",
+  "updated_on": "2026-09-28",
   "quote": {
-    "en": "Steady skills turn every market swing into a stepping stone.",
-    "zh": "扎实的技能，让每一次市场波动都成为垫脚石。"
+    "en": "In every trade truce, the resilient learner finds a new route.",
+    "zh": "在每一次贸易休战中，坚韧的学习者都能找到新路。"
   },
   "story": {
-    "en": "Global markets entered the week with an uneasy [seesaw|seesaw] as US stocks closed higher but a 30-year Treasury yield broke through 5.5% even with oil down over 2%. The [outsized|outsized] move in long-end yields forced traders to [unwind|unwind] crowded positions, while a [ratchet|ratchet] in safe-haven demand kept volatility elevated. In Asia, the World Skills Competition spotlighted [vocational|vocational] training as a bridge to future jobs, and Hangzhou's robot firms signed 280 million yuan in orders at the Digital Trade Expo. On the political front, Trump said he would reach a deal with Cuba without troops and rejected Iran's offer to reopen the Strait of Hormuz, hinting at military action after the midterms. To [mitigate|mitigate] regional risks, Beijing and Washington appear to be cooperating on AI governance, a French paper noted. Corporate [headcount|headcount] plans remain cautious, and the Mid-Autumn box office topped 200 million yuan, proving the holiday [franchise|franchise] still draws crowds. The week ahead will test whether policy signals can steady the seesaw mood.",
-    "cn": "全球市场本周开局呈现拉锯态势：美股三大指数集体收涨，但即便油价跌超2%，30年期美债收益率依旧突破5.5%。长端收益率的超大波动迫使交易员解除拥挤仓位，而避险需求的[单向递增|ratchet]令波动率居高不下。亚洲方面，世界技能大赛聚焦职业技能培训，杭州机器人企业在数贸会上签下2.8亿元订单。政治层面，特朗普称会和古巴达成协议、不需要动用军队，并拒绝伊朗重开霍尔木兹海峡的提议，暗示中期选举后或重启军事行动。法国报纸摘要指出，中美如“罐子里的蝎子”，人工智能正迫使二者合作，以[缓解|mitigate]地区风险。企业[员工总数|headcount]计划仍偏谨慎，中秋档电影总票房破两亿元，显示假日影视系列依旧吸金。未来一周，政策信号能否稳住市场情绪，仍是关键考验。 疫情后经济像[跷跷板|seesaw]一样反复摇摆，那些[过大的|outsized]刺激政策一旦[松开|unwind]，面向[职业的|vocational]培训的[特许经营权|franchise]市场便会首当其冲。"
+    "en": "Xi-Trump summit yields a tariff [truce|truce], though Washington still threatens to [slash|slash] tech exports. Beijing agreed to [suspend|suspend] new retaliatory duties while the two sides [pivot|pivot] toward an AI dialogue framework. The talks made no mention of Taiwan, a silence analysts read as a subtle signal to Japan. In a separate move, OpenAI [vault|vault] back into headlines by again pausing training of its most advanced model after a string of safety failures. On the cultural front, the Mid-Autumn box office topped 260 million yuan, with the Avengers: Endgame re-release leading as a [sequel|sequel] to its original [blockbuster|blockbuster] run, while [streaming|streaming] platforms scramble for holiday viewers. Elsewhere, Serbia's Vucic resigned the presidency to run for prime minister, and a new high-speed rail line opened. Looking ahead, markets will watch whether the tariff pause holds and whether AI governance talks produce concrete guardrails.",
+    "cn": "[流媒体|streaming]平台与好莱坞制片厂意外达成([休战|truce])协议，双方同意[暂停|suspend]关于剩余报酬的激烈争执。该协议可能将中等预算影片的制作成本([大幅削减|slash])高达15%，并承诺(暂停)备受争议的AI剧本扫描试点。一位资深分析师指出，此举标志着战略([转向|pivot])：从院线独家转向直接面向消费者的发行，这一转变可能让小型独立电影([跃升|vault])至全球瞩目。与此同时，去年意外成为([大片|blockbuster])的[续集|sequel]已获绿灯，制片方承诺采用混合发行模式，优先(流媒体)上线，同时保留有限的大银幕窗口。原片的成功证明小众类型仍能主导票房。业内人士警告，若无永久性框架，当前的平静可能十分脆弱。他们指出即将到来的合同谈判是关键考验：若谈判失败，另一场罢工可能爆发，扰乱至明年的发行日程。目前双方均称该协议是迈向更可持续生态的必要第一步，但许多人对长期稳定仍持怀疑态度。"
   },
   "words": [
     {
@@ -10278,10 +10278,217 @@
       "en": "a license to operate under a brand",
       "col": "film franchise · franchise owner",
       "d": "2026-09-27"
+    },
+    {
+      "w": "truce",
+      "ph": "/truːs/",
+      "m": "n. 休战；停战协定",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an agreement to stop fighting or arguing for a period; a temporary pause in a conflict, often used in trade or diplomatic contexts",
+      "defs": [
+        {
+          "cn": "休战；停战",
+          "en": "a temporary stop to fighting or conflict",
+          "pos": "n."
+        },
+        {
+          "cn": "（争吵的）暂停",
+          "en": "a pause in an argument or dispute",
+          "pos": "n."
+        },
+        {
+          "cn": "达成休战",
+          "en": "to agree on a truce",
+          "pos": "v."
+        }
+      ],
+      "col": "call a truce 宣布休战 · trade truce 贸易休战 · fragile truce 脆弱的休战 · negotiate a truce 谈判达成休战",
+      "ex": "The two economic giants agreed to a tariff truce, easing pressure on global supply chains and financial markets.",
+      "exZh": "两大经济体同意关税休战，缓解了全球供应链和金融市场的压力。",
+      "ex2": "After months of bitter arguments, the department heads finally called a truce to focus on the product launch.",
+      "ex2Zh": "经过数月激烈争吵，部门主管们终于宣布休战，专注于产品发布。",
+      "t": "特习峰会成果盘点显示，双方达成关税休战，为紧张的全球贸易局势带来喘息机会。这一 truce 不仅涉及关税，还涵盖 AI 对话机制，但未提及台湾问题，暗指日本角色。\n职场中，团队冲突时也可用 truce 比喻暂时搁置争议，如 'Let's call a truce and meet the deadline.' 与 ceasefire 相比，truce 更强调协议性和临时性。",
+      "root": "源自古英语 treow（信任、承诺），与 true（真实的）同源。最初指双方基于信任达成的停止敌对协议，后引申为任何冲突的暂停。",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "slash",
+      "ph": "/slæʃ/",
+      "m": "v. 大幅削减；n. 削减；斜杠",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to reduce something by a large amount; a sharp reduction; a diagonal line or cut",
+      "defs": [
+        {
+          "cn": "大幅削减",
+          "en": "to cut or reduce drastically, as in budgets or prices",
+          "pos": "v."
+        },
+        {
+          "cn": "削减；砍削",
+          "en": "a sharp reduction in amount or number",
+          "pos": "n."
+        },
+        {
+          "cn": "斜杠；猛砍",
+          "en": "a diagonal stroke; a violent cut",
+          "pos": "n./v."
+        }
+      ],
+      "col": "slash costs 削减成本 · slash prices 大幅降价 · slash jobs 大幅裁员 · budget slash 预算削减",
+      "ex": "The retailer plans to slash prices on thousands of items to clear inventory before the holiday season.",
+      "exZh": "该零售商计划大幅下调数千种商品的价格，以在假日季前清空库存。",
+      "ex2": "The company was forced to slash its workforce by 15% after weak earnings.",
+      "ex2Zh": "由于盈利疲软，该公司被迫裁员15%。",
+      "t": "面对关税休战后的不确定性，多家跨国企业宣布 slash 成本，以应对需求放缓。\n\n职场高频：公司要求各部门 slash overheads（削减开支），员工需证明自身价值，避免被裁。",
+      "root": "源自中古英语 slaschen，可能来自古法语 esclachier（打破）；与 slay（杀死）远亲。由“猛砍”引申为“大幅削减”。",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "suspend",
+      "ph": "/səˈspend/",
+      "m": "暂停；中止；暂缓；悬挂",
+      "c": "tech",
+      "pos": "v.",
+      "en": "to stop something temporarily; to officially delay or halt; to hang from above",
+      "defs": [
+        {
+          "cn": "暂停；中止",
+          "en": "to stop something temporarily",
+          "pos": "v."
+        },
+        {
+          "cn": "暂缓执行",
+          "en": "to officially delay or halt a decision",
+          "pos": "v."
+        },
+        {
+          "cn": "悬挂",
+          "en": "to hang from above",
+          "pos": "v."
+        }
+      ],
+      "col": "suspend trading 暂停交易 · suspend a model 暂停模型 · suspend payments 暂停付款 · suspend from duty 停职",
+      "ex": "OpenAI again suspended training of its most advanced model after a series of失控 incidents.",
+      "exZh": "在一系列失控事件后，OpenAI 再次暂停了其最先进模型的训练。",
+      "ex2": "The exchange suspended trading of the stock pending a regulatory review.",
+      "ex2Zh": "该交易所暂停了这只股票的交易日，等待监管审查。",
+      "t": "据经纬早班车报道，OpenAI 再次暂停最先进模型训练，接连失控引发安全担忧。suspend 在此指“暂停、中止”，科技公司常在风险暴露时 suspend 项目以争取整改时间。\n\n职场中 suspend 也用于停职：The employee was suspended pending investigation. 与 postpone（推迟）不同，suspend 强调临时中断、可能恢复。",
+      "root": "前缀 sus-(=sub 在下面, 拉丁, 同源 submarine 潜艇) + 词根 pend(悬挂, 拉丁 pendere, 同源 pendant 吊坠) → 挂在下面 → 悬而未决、暂停",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "pivot",
+      "ph": "/ˈpɪvət/",
+      "m": "v./n. 转向；以…为核心；支点",
+      "c": "work",
+      "pos": "v./n.",
+      "en": "to change direction or strategy; a central point on which something depends",
+      "defs": [
+        {
+          "cn": "转向；调整方向",
+          "en": "to change strategy or direction quickly",
+          "pos": "v."
+        },
+        {
+          "cn": "以…为核心",
+          "en": "to depend or center on something",
+          "pos": "v."
+        },
+        {
+          "cn": "支点；枢纽",
+          "en": "a central point or axis",
+          "pos": "n."
+        }
+      ],
+      "col": "pivot to AI 转向AI · career pivot 职业转型 · pivot point 支点 · pivot table 数据透视表",
+      "ex": "After the tariff truce, many exporters decided to pivot their focus from the US market to Southeast Asia and Europe.",
+      "exZh": "关税休战后，许多出口商决定将重心从美国市场转向东南亚和欧洲。",
+      "ex2": "She made a bold career pivot from banking to education technology, and now leads a fast-growing startup.",
+      "ex2Zh": "她大胆地从银行业转向教育科技，如今领导着一家快速成长的初创公司。",
+      "t": "特习峰会成果盘点显示，关税休战让不少企业开始 pivot：把原本押注美国市场的产能转向东南亚和欧洲，以分散风险。\n职场中，pivot 常指“职业转型”或“战略转向”，比 change 更有“围绕新支点重新布局”的意味。记住 pivot 本义是“支点”，转动都围绕它。",
+      "root": "源自古法语 pivot（铰链、支点），可能来自意大利语 piva（管乐器）。本义为“轴心、支点”，后引申为“围绕支点转动、战略转向”。",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "vault",
+      "ph": "/vɔːlt/",
+      "m": "v./n. 跃升；跳过；金库",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to jump over something; to rise suddenly to a high level; a secure room for valuables",
+      "defs": [
+        {
+          "cn": "跃升；猛增",
+          "en": "to rise suddenly and sharply",
+          "pos": "v."
+        },
+        {
+          "cn": "跳过；跃过",
+          "en": "to jump over an obstacle",
+          "pos": "v."
+        },
+        {
+          "cn": "金库；保险库",
+          "en": "a secure room for storing valuables",
+          "pos": "n."
+        }
+      ],
+      "col": "vault to record highs 跃升至历史新高 · bank vault 银行金库 · vault over 跃过 · vault into prominence 一跃成名",
+      "ex": "Shares of film companies vaulted after data showed Mid-Autumn box office revenue exceeded 260 million yuan.",
+      "exZh": "数据显示中秋档票房突破2.6亿元后，影视公司股价跃升。",
+      "ex2": "The athlete managed to vault over the bar at a height that no one had expected.",
+      "ex2Zh": "这位运动员成功跃过了没人预料到的高度。",
+      "t": "中秋档票房破2.6亿元，《复联4》重映领跑，多家影视上市公司集中布局国庆档，相关股价随即 vault。\n职场中，vault 也形容“职级跃升”：从专员直接跳到总监，就是 vault to a senior role。记住它既是“金库”，也是“一跃而上”。",
+      "root": "源自古法语 volter（跳跃），再往前可追溯至意大利语 voltare（转动）。本义为“跳跃”，后引申为“跃升”；作名词“金库”则来自同一词根的“拱顶”之义。",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "sequel",
+      "ph": "/ˈsiːkwəl/",
+      "m": "续集",
+      "c": "entertainment",
+      "ex": "The sequel outperformed the original.",
+      "exZh": "续集票房超过了原作。",
+      "t": "接着上一集往下拍的那一部。",
+      "root": "sequ(follow) + -el → 跟随之物",
+      "pos": "n.",
+      "en": "a film or book continuing an earlier one",
+      "col": "direct sequel · sequel rights",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "blockbuster",
+      "ph": "/ˈblɒkbʌstə(r)/",
+      "m": "大片；轰动之作",
+      "c": "entertainment",
+      "ex": "A summer blockbuster opened worldwide.",
+      "exZh": "一部暑期大片全球上映。",
+      "t": "砸大钱、炸大场面的卖座巨制。",
+      "root": "block + buster → 破块者",
+      "pos": "n.",
+      "en": "a highly successful film",
+      "col": "blockbuster movie · holiday blockbuster",
+      "d": "2026-09-28"
+    },
+    {
+      "w": "streaming",
+      "ph": "/ˈstriːmɪŋ/",
+      "m": "流媒体；在线播放",
+      "c": "entertainment",
+      "ex": "Streaming replaced cable for many viewers.",
+      "exZh": "对许多观众，流媒体取代了有线电视。",
+      "t": "不用下载、直接在线看的那种。",
+      "root": "stream(流) + -ing → 流式",
+      "pos": "n./adj.",
+      "en": "delivering media over the internet",
+      "col": "streaming service · live streaming",
+      "d": "2026-09-28"
     }
   ],
   "preview": {
-    "hook": "美国最新非农数据与美联储官员讲话让市场再度陷入拉锯：一边是AI资本开支带来的超大招聘需求，一边是消费信贷违约率[ratchet|ratchet]，投资者被迫解除部分科技股仓位；与此同时，多家巨头宣布冻结[headcount|headcount]并加码职业培训，试图[mitigate|mitigate]自动化对就业的冲击，而流媒体与游戏公司则继续靠特许经营续作撑住营收。 疫情后经济[反复震荡|seesaw]，[过大的|outsized]刺激政策逐渐[退出|unwind]，政府转而大力扶持[职业的|vocational]培训，并鼓励[特许经营|franchise]模式以带动就业。",
+    "hook": "好莱坞与硅谷同时上演戏剧性一幕：编剧工会与制片厂达成临时[truce|truce]协议，但制片厂为控制成本宣布[slash|slash]未来两年高预算项目，并[suspend|suspend]多部超级英雄电影前期制作，转而[pivot|pivot]以中等成本惊悚片和喜剧为核心策略；与此同时，一部在[streaming|streaming]平台首播的科幻[blockbuster|blockbuster]意外[vault|vault]为年度点播冠军，其[sequel|sequel]已火速立项，令行业重新审视院线与流媒体的权力天平。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-28",
+  "updated_on": "2026-09-29",
   "quote": {
-    "en": "In every trade truce, the resilient learner finds a new route.",
-    "zh": "在每一次贸易休战中，坚韧的学习者都能找到新路。"
+    "en": "In volatile times, the adaptable learner turns every shift into a step up.",
+    "zh": "在动荡时代，善于适应的学习者把每次变化都变成上升的台阶。"
   },
   "story": {
-    "en": "Xi-Trump summit yields a tariff [truce|truce], though Washington still threatens to [slash|slash] tech exports. Beijing agreed to [suspend|suspend] new retaliatory duties while the two sides [pivot|pivot] toward an AI dialogue framework. The talks made no mention of Taiwan, a silence analysts read as a subtle signal to Japan. In a separate move, OpenAI [vault|vault] back into headlines by again pausing training of its most advanced model after a string of safety failures. On the cultural front, the Mid-Autumn box office topped 260 million yuan, with the Avengers: Endgame re-release leading as a [sequel|sequel] to its original [blockbuster|blockbuster] run, while [streaming|streaming] platforms scramble for holiday viewers. Elsewhere, Serbia's Vucic resigned the presidency to run for prime minister, and a new high-speed rail line opened. Looking ahead, markets will watch whether the tariff pause holds and whether AI governance talks produce concrete guardrails.",
-    "cn": "[流媒体|streaming]平台与好莱坞制片厂意外达成([休战|truce])协议，双方同意[暂停|suspend]关于剩余报酬的激烈争执。该协议可能将中等预算影片的制作成本([大幅削减|slash])高达15%，并承诺(暂停)备受争议的AI剧本扫描试点。一位资深分析师指出，此举标志着战略([转向|pivot])：从院线独家转向直接面向消费者的发行，这一转变可能让小型独立电影([跃升|vault])至全球瞩目。与此同时，去年意外成为([大片|blockbuster])的[续集|sequel]已获绿灯，制片方承诺采用混合发行模式，优先(流媒体)上线，同时保留有限的大银幕窗口。原片的成功证明小众类型仍能主导票房。业内人士警告，若无永久性框架，当前的平静可能十分脆弱。他们指出即将到来的合同谈判是关键考验：若谈判失败，另一场罢工可能爆发，扰乱至明年的发行日程。目前双方均称该协议是迈向更可持续生态的必要第一步，但许多人对长期稳定仍持怀疑态度。"
+    "en": "China's State Council on Monday outlined a fresh [rollout|rollout] of policies to steady growth, pairing infrastructure spending with a push to [deregulate|deregulate] selected service sectors. The plan aims to [preempt|preempt] external shocks as US President Trump claimed a quick win in the Iran war would send oil prices sharply lower, a signal that could trigger a capital [diversion|diversion] away from energy futures after crude's main contract already fell 3.06% in night trading. Separately, four new high-speed rail lines opened, lifting the \"eight vertical and eight horizontal\" network's main corridors to 86% completion, while Shanghai tightened pre-sale management of commercial housing and moved toward ready-built sales. In culture and sport, film firms clustered around the National Day slate after the Mid-Autumn box office hit 260 million yuan, with \"Avengers: Endgame\" re-release anchoring receipts; the Golden Eagle nominations ceremony in Changsha drew Hu Ge and Li Guangjie. The Asian Games delivered gold for China's women's 4x100m relay team, and 17-year-old Chen Yujie of Zhejiang claimed her second title. A State [grid|grid] upgrade and worker [retrain|retrain] programs are expected to support the new energy-battery buildout, targeting initial large-scale solid-state grid application by 2030. Chongqing's Mid-Autumn consumption reached 21.16 billion yuan across three tracks. A [soundtrack|soundtrack] concert tied to a traditional-sports carnival pushed legal awareness, and a Confucius commemoration in Zhengzhou marked his 2577th birthday. A documentary [premiere|premiere] on the 48th WorldSkills competition closed in Shanghai, backed by China Eastern's full-cycle support.",
+    "cn": "国家层面推出新一轮政策组合，以基础设施投资与放松管制([[放松管制|deregulate]])服务业为抓手，意在抢先([[抢先|preempt]])应对外部冲击。特朗普称将很快赢得伊朗战争、油价将大幅下跌，国内原油主力合约夜盘已跌3.06%，市场担忧资金转移([[转移|diversion]])出能源板块。与此同时，四条高铁线开通，“八纵八横”主通道建成86%，上海加强商品房预售管理、有序实施现房销售，新型电池产业稳步增长，全固态电池目标2030年初步规模化应用，电网([[电网|grid]])升级与再培训([[再培训|retrain]])计划同步推进。\n\n文化体育方面，多家影视上市公司集中布局国庆档，中秋档票房破2.6亿元，《复联4》重映撑场；金鹰奖提名典礼在长沙举行，胡歌、李光洁入围。亚运会上，中国队夺得女子4×100米接力金牌，浙江17岁陈妤颉斩获本届第二金；民族传统体育嘉年华让法律“声”入人心，郑州文庙纪念孔子诞辰2577周年。\n\n重庆中秋消费破211.6亿元，三大赛道齐发力。东航全周期多维度保障第48届世界技能大赛收官，相关纪录片首映([[首映|premiere]])；电影原声带([[电影原声带|soundtrack]])音乐会与政策全面铺开([[（新产品/政策的）推出|rollout]])形成呼应，为下一阶段稳增长与产业升级提供支撑。"
   },
   "words": [
     {
@@ -10485,10 +10485,236 @@
       "en": "delivering media over the internet",
       "col": "streaming service · live streaming",
       "d": "2026-09-28"
+    },
+    {
+      "w": "preempt",
+      "ph": "/priˈempt/",
+      "m": "抢先；先发制人；预先阻止",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to act before someone else to prevent an action or gain an advantage; common in policy, business and diplomacy",
+      "defs": [
+        {
+          "cn": "抢先行动",
+          "en": "to act before others to gain an advantage",
+          "pos": "v."
+        },
+        {
+          "cn": "预先阻止",
+          "en": "to prevent something by acting first",
+          "pos": "v."
+        },
+        {
+          "cn": "先发制人(政策/谈判)",
+          "en": "to preempt a move in policy or negotiation",
+          "pos": "v."
+        }
+      ],
+      "col": "preempt a move 抢先一步 · preempt criticism 预先化解批评 · preempt regulatory action 预先阻止监管行动 · preempt market shift 先发应对市场变化",
+      "ex": "Beijing may preempt any trade escalation by accelerating its high-speed rail and emerging-industry investment plans.",
+      "exZh": "北京可能通过加速高铁和新兴产业投资计划来抢先应对任何贸易升级。",
+      "ex2": "The central bank preempted market panic by signaling a steady policy stance ahead of the data release.",
+      "ex2Zh": "央行在数据发布前释放政策稳定信号，抢先阻止了市场恐慌。",
+      "t": "王毅在京会见日本前外相岩屋毅，分析指向高市政府施压，中方或 preempt 外交摩擦，通过经济合作稳定周边关系。美国各界高度评价习近平主席历史性访问，双方也在 preempt 贸易紧张升级。\n职场中，preempt 常指提前预判老板问题并准备好答案，比 react 更主动。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 predict 预测) + 词根 empt(=emere 买，拉丁，同源 redeem 赎回) → 先买下 → 抢先占有、先发制人",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "diversion",
+      "ph": "/daɪˈvɜːʃn/",
+      "m": "(资金/资源)转移；改道；消遣",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of changing the direction or purpose of funds, resources; also a pastime; in economic context, resource reallocation",
+      "defs": [
+        {
+          "cn": "(资金/资源)转移",
+          "en": "the redirection of funds or resources to a different use",
+          "pos": "n."
+        },
+        {
+          "cn": "改道；绕行",
+          "en": "a change of route or course, often to avoid something",
+          "pos": "n."
+        },
+        {
+          "cn": "消遣；娱乐",
+          "en": "an activity done for enjoyment or relaxation",
+          "pos": "n."
+        }
+      ],
+      "col": "capital diversion 资本转移 · diversion of funds 资金挪用 · traffic diversion 交通改道 · create a diversion 制造假象",
+      "ex": "The central bank's tightening prompted a diversion of capital from emerging markets to safer US assets.",
+      "exZh": "央行收紧政策促使资本从新兴市场转移至更安全的美国资产。",
+      "ex2": "The company's new AI division acted as a diversion from its declining core business.",
+      "ex2Zh": "该公司新的人工智能部门成了其核心业务下滑的转移视线之举。",
+      "t": "今日中国商品期货夜盘原油主力合约跌3.06%，部分资金出现从能源板块向新能源金属的diversion。与此同时，上海加强商品房预售管理，引导资金有序实施现房销售，也是一种资源diversion。\n职场中，diversion 常指注意力被分散：频繁的会议是对深度工作的 diversion。与 conversion（转化）不同，diversion 强调方向改变而非形态改变。",
+      "root": "前缀 di-(分开，拉丁 dis-，同源 divert 转移、divorce 离婚) + 词根 vers(转，拉丁 vertere，同源 reverse 反转、version 版本) + 后缀 -ion(名词，拉丁) → 转开去 → 转移、改道、消遣",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "deregulate",
+      "ph": "/ˌdiːˈreɡjuleɪt/",
+      "m": "放松管制；解除监管",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to remove or reduce government rules and restrictions on an industry or market",
+      "defs": [
+        {
+          "cn": "放松管制",
+          "en": "to reduce or eliminate government regulations in a particular industry",
+          "pos": "v."
+        },
+        {
+          "cn": "解除监管",
+          "en": "to free a sector from official controls or oversight",
+          "pos": "v."
+        },
+        {
+          "cn": "放开(市场)",
+          "en": "to open a market by removing legal barriers or restrictions",
+          "pos": "v."
+        }
+      ],
+      "col": "deregulate the market 放开市场 · push to deregulate 推动放松管制 · deregulate industry 解除行业监管 · deregulate energy 放开能源管制",
+      "ex": "Shanghai is strengthening pre-sale management of commercial housing and orderly implementing completed-home sales, a shift that could deregulate parts of the property market.",
+      "exZh": "上海加强商品房预售管理、有序实施现房销售，这一转变可能放松部分房地产市场的管制。",
+      "ex2": "The new administration promised to deregulate the financial sector, but critics warn it could weaken consumer protections.",
+      "ex2Zh": "新政府承诺放松金融业管制，但批评者警告这可能削弱消费者保护。",
+      "t": "今日热点：上海加强商品房预售管理、有序实施现房销售，市场解读为在“十五五”央企布局优化背景下，房地产领域或逐步 deregulate 部分环节以稳预期。\n职场联想：deregulate 与 regulate 是一对反义动词，名词是 deregulation / regulation；写报告时用 deregulate 显得专业，比 loosen rules 更精准。",
+      "root": "前缀 de-(去除、相反，拉丁 de，同源 decline 下降、devalue 贬值) + 词根 regul(规则，拉丁 regula 尺子，同源 regular 规则的、regulate 管理) + 后缀 -ate(动词) → 去掉规则 → 放松管制",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "retrain",
+      "ph": "/ˌriːˈtreɪn/",
+      "m": "再培训；重新训练",
+      "c": "work",
+      "pos": "v.",
+      "en": "to teach someone new skills so they can do a different job or use new technology",
+      "defs": [
+        {
+          "cn": "再培训",
+          "en": "to train someone again or in a new skill, often for a different role",
+          "pos": "v."
+        },
+        {
+          "cn": "重新训练",
+          "en": "to teach new abilities to workers whose old skills are no longer needed",
+          "pos": "v."
+        },
+        {
+          "cn": "转岗培训",
+          "en": "to prepare employees for a new position through additional training",
+          "pos": "v."
+        }
+      ],
+      "col": "retrain workers 再培训工人 · retrain for new roles 为转岗再培训 · retrain staff 培训员工 · government-funded retrain 政府资助再培训",
+      "ex": "The 48th World Skills Competition concluded with full-cycle support from China Eastern, highlighting the growing need to retrain workers for new industries.",
+      "exZh": "第48届世界技能大赛在中国东航全周期保障下收官，凸显为新产业再培训工人的需求日益增长。",
+      "ex2": "As solid-state batteries move toward mass application by 2030, manufacturers must retrain engineers in new production techniques.",
+      "ex2Zh": "随着全固态电池2030年初步规模化应用，制造商必须就新生产技术再培训工程师。",
+      "t": "今日热点：第48届世界技能大赛圆满收官，东航提供全周期多维度保障；与此同时全固态电池2030年初步规模化应用，产业升级倒逼企业 retrain 现有员工。\n职场联想：retrain 与 reskill 常被混用——retrain 侧重“再教一遍同一件事或新岗位”，reskill 侧重“学全新技能组合”；面对 AI 冲击，公司更爱说 reskill，但落地时往往先 retrain。",
+      "root": "前缀 re-(再、重新，拉丁 re，同源 rebuild 重建、renew 更新) + 词根 train(训练，古法语 trainer 拖、引导，同源 trainee 受训者) → 再引导、再训练 → 再培训",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "grid",
+      "ph": "/ɡrɪd/",
+      "m": "电网；输电网；网格；格子",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a network of power lines or cables; a pattern of crossing lines; a framework",
+      "defs": [
+        {
+          "cn": "电网；输电网",
+          "en": "a system of power lines and cables that distributes electricity across an area",
+          "pos": "n."
+        },
+        {
+          "cn": "网格；格子",
+          "en": "a pattern of horizontal and vertical lines forming squares",
+          "pos": "n."
+        },
+        {
+          "cn": "基础设施网络",
+          "en": "a framework or network of interconnected elements, such as a data grid",
+          "pos": "n."
+        }
+      ],
+      "col": "power grid 电网 · national grid 国家电网 · smart grid 智能电网 · off-grid 离网",
+      "ex": "China's high-speed rail network has reached 86% of its main corridors, but the power grid also needs upgrading to support new energy demand.",
+      "exZh": "中国高铁网主通道已建成86%，但电网也需升级以支撑新能源需求。",
+      "ex2": "The solid-state battery push by 2030 will require massive investment in the grid to handle distributed charging loads.",
+      "ex2Zh": "2030年全固态电池的推进将需要大规模投资电网，以应对分布式充电负荷。",
+      "t": "今日热点：四条高铁线开通、“八纵八横”主通道建成86%，与此同时全固态电池2030年初步规模化应用，二者都指向同一件事——grid 升级必须跟上。\n职场联想：grid 在能源语境是“电网”，在排版语境是“网格”，在数据领域是“网格计算”；同一个词靠搭配区分，看到 power grid 就别译成“电力格子”。",
+      "root": "源自 gridiron(烤架，古英语 gredire，同源 gridiron 铁篦子) → 纵横交错的铁架 → 引申为网格、电网、输配网络",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "rollout",
+      "ph": "/ˈroʊlaʊt/",
+      "m": "（新产品/政策的）推出；全面铺开",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the official introduction or gradual launch of a new product, service, or policy, common in tech and business contexts",
+      "defs": [
+        {
+          "cn": "（新产品/政策的）推出",
+          "en": "the official launch of a product or policy",
+          "pos": "n."
+        },
+        {
+          "cn": "全面铺开",
+          "en": "the gradual expansion of a service",
+          "pos": "n."
+        },
+        {
+          "cn": "（技术）部署上线",
+          "en": "the deployment of a technology at scale",
+          "pos": "n."
+        }
+      ],
+      "col": "product rollout 产品发布 · nationwide rollout 全国铺开 · vaccine rollout 疫苗推广 · phased rollout 分阶段推出",
+      "ex": "The rollout of all-solid-state batteries is targeted for initial scaled application by 2030, according to industry forecasts.",
+      "exZh": "行业预测显示，全固态电池的推出目标是2030年初步实现规模化应用。",
+      "ex2": "Shanghai's rollout of ready-built home sales is being watched as a template for other cities.",
+      "ex2Zh": "上海现房销售的推出正被其他城市视为范本。",
+      "t": "全固态电池2030年初步实现规模化应用，新型电池产业稳步增长，这场 rollout 被视为新能源下一阶段的关键；上海有序实施现房销售，也是一次政策 rollout 的试点。\n用法提示：rollout 是名词，动词短语是 roll out，如 roll out a new policy；和 launch 相比，rollout 更强调“分阶段、成体系地铺开”。",
+      "root": "动词短语 roll out(把…滚出来、铺开，古法语 rolle 卷轴 + 古英语 ut 向外) → 把产品/政策像卷轴一样展开 → 推出、全面铺开",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "soundtrack",
+      "ph": "/ˈsaʊndtræk/",
+      "m": "电影原声带",
+      "c": "entertainment",
+      "ex": "The soundtrack topped the charts.",
+      "exZh": "原声带登上了排行榜冠军。",
+      "t": "电影里那些歌凑成的专辑。",
+      "root": "sound + track → 声轨",
+      "pos": "n.",
+      "en": "recorded music from a film",
+      "col": "original soundtrack · soundtrack album",
+      "d": "2026-09-29"
+    },
+    {
+      "w": "premiere",
+      "ph": "/ˈpremieə(r)/",
+      "m": "首映；首演",
+      "c": "entertainment",
+      "ex": "The film held its premiere in Cannes.",
+      "exZh": "该片在戛纳举行首映。",
+      "t": "第一次正式亮相的那场。",
+      "root": "prem(first) + -iere → 首次",
+      "pos": "n.",
+      "en": "the first public showing",
+      "col": "world premiere · premiere date",
+      "d": "2026-09-29"
     }
   ],
   "preview": {
-    "hook": "好莱坞与硅谷同时上演戏剧性一幕：编剧工会与制片厂达成临时[truce|truce]协议，但制片厂为控制成本宣布[slash|slash]未来两年高预算项目，并[suspend|suspend]多部超级英雄电影前期制作，转而[pivot|pivot]以中等成本惊悚片和喜剧为核心策略；与此同时，一部在[streaming|streaming]平台首播的科幻[blockbuster|blockbuster]意外[vault|vault]为年度点播冠军，其[sequel|sequel]已火速立项，令行业重新审视院线与流媒体的权力天平。",
+    "hook": "就在各国政府刚刚[preempt|preempt]出台芯片补贴、试图把制造业留在本土之际，一笔原本投向绿色能源的千亿欧元资金[diversion|diversion]却悄然[diversion|diversion]美国，迫使欧盟紧急[deregulate|deregulate]以挽留投资；与此同时，为应对AI对就业的冲击，德国宣布将拿出数十亿欧元[retrain|retrain]百万工人，并同步升级跨欧洲[grid|grid]以承接新增算力负荷，而备受关注的氢能列车[rollout|rollout]计划也因预算重排被迫推迟到明年。 这部电影的[电影配乐|soundtrack]在[首映|premiere]当晚就征服了所有观众。",
     "impact": ""
   }
 }

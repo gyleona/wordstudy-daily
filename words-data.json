@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-29",
+  "updated_on": "2026-09-30",
   "quote": {
-    "en": "In volatile times, the adaptable learner turns every shift into a step up.",
-    "zh": "在动荡时代，善于适应的学习者把每次变化都变成上升的台阶。"
+    "en": "Steady skills turn every market swing into a stepping stone.",
+    "zh": "扎实的技能，能把每一次市场波动都变成垫脚石。"
   },
   "story": {
-    "en": "China's State Council on Monday outlined a fresh [rollout|rollout] of policies to steady growth, pairing infrastructure spending with a push to [deregulate|deregulate] selected service sectors. The plan aims to [preempt|preempt] external shocks as US President Trump claimed a quick win in the Iran war would send oil prices sharply lower, a signal that could trigger a capital [diversion|diversion] away from energy futures after crude's main contract already fell 3.06% in night trading. Separately, four new high-speed rail lines opened, lifting the \"eight vertical and eight horizontal\" network's main corridors to 86% completion, while Shanghai tightened pre-sale management of commercial housing and moved toward ready-built sales. In culture and sport, film firms clustered around the National Day slate after the Mid-Autumn box office hit 260 million yuan, with \"Avengers: Endgame\" re-release anchoring receipts; the Golden Eagle nominations ceremony in Changsha drew Hu Ge and Li Guangjie. The Asian Games delivered gold for China's women's 4x100m relay team, and 17-year-old Chen Yujie of Zhejiang claimed her second title. A State [grid|grid] upgrade and worker [retrain|retrain] programs are expected to support the new energy-battery buildout, targeting initial large-scale solid-state grid application by 2030. Chongqing's Mid-Autumn consumption reached 21.16 billion yuan across three tracks. A [soundtrack|soundtrack] concert tied to a traditional-sports carnival pushed legal awareness, and a Confucius commemoration in Zhengzhou marked his 2577th birthday. A documentary [premiere|premiere] on the 48th WorldSkills competition closed in Shanghai, backed by China Eastern's full-cycle support.",
-    "cn": "国家层面推出新一轮政策组合，以基础设施投资与放松管制([[放松管制|deregulate]])服务业为抓手，意在抢先([[抢先|preempt]])应对外部冲击。特朗普称将很快赢得伊朗战争、油价将大幅下跌，国内原油主力合约夜盘已跌3.06%，市场担忧资金转移([[转移|diversion]])出能源板块。与此同时，四条高铁线开通，“八纵八横”主通道建成86%，上海加强商品房预售管理、有序实施现房销售，新型电池产业稳步增长，全固态电池目标2030年初步规模化应用，电网([[电网|grid]])升级与再培训([[再培训|retrain]])计划同步推进。\n\n文化体育方面，多家影视上市公司集中布局国庆档，中秋档票房破2.6亿元，《复联4》重映撑场；金鹰奖提名典礼在长沙举行，胡歌、李光洁入围。亚运会上，中国队夺得女子4×100米接力金牌，浙江17岁陈妤颉斩获本届第二金；民族传统体育嘉年华让法律“声”入人心，郑州文庙纪念孔子诞辰2577周年。\n\n重庆中秋消费破211.6亿元，三大赛道齐发力。东航全周期多维度保障第48届世界技能大赛收官，相关纪录片首映([[首映|premiere]])；电影原声带([[电影原声带|soundtrack]])音乐会与政策全面铺开([[（新产品/政策的）推出|rollout]])形成呼应，为下一阶段稳增长与产业升级提供支撑。"
+    "en": "China's first-ever [mortgage|mortgage] interest subsidy, reported by Lianhe Zaobao, aims to [subdue|subdue] the property downturn and support the economy, though A-share turnover fell to a new low of 1.41 trillion yuan, reflecting [sluggish|sluggish] trading. The subsidy offers a [respite|respite] to homebuyers, but market [sentiment|sentiment] remains cautious as investors await further stimulus. Meanwhile, Brazil's [unemployment|unemployment] rate dropped to 5.3%, a record low, according to Dongfang Caijing. In a separate development, a Shenzhen youth who won gold at the WorldSkills Competition shared how he brought Chinese service to the world's dining tables, as reported by 21 Caijing. At a [seminar|seminar] on digital trade, overseas merchants at the Global Digital Trade Expo explored AI cooperation opportunities, according to Xinhua. However, talent [poach|poach] in tech sectors intensifies, with firms competing for AI experts. The mixed signals underscore the need for sustained policy support to ensure a steady recovery.",
+    "cn": "中国首次为商业房贷贴息，呼应稳经济“最强烈信号”，旨在[抑制|subdue]楼市低迷，但A股成交1.41万亿刷新年内新低，凸显交易疲软。此举为购房者提供喘息期，但[情绪|sentiment]依然谨慎，投资者期待更多刺激措施。与此同时，巴西[失业|unemployment]率降至5.3%，创同期历史最低。深圳小伙世界技能大赛夺金，把“中国服务”端上“世界餐桌”。在数贸会的一场[研讨会|seminar]上，海外客商抢抓数字合作新机遇，探索AI未来。然而，科技行业人才[挖角|poach]加剧，企业争抢AI专家。这些信号表明，持续的政策支持对确保经济稳步复苏至关重要。 在[暂时缓解|respite]高利率压力之前，[疲软的|sluggish]就业市场仍让许多家庭难以按时偿还[抵押贷款|mortgage]。"
   },
   "words": [
     {
@@ -10711,10 +10711,274 @@
       "en": "the first public showing",
       "col": "world premiere · premiere date",
       "d": "2026-09-29"
+    },
+    {
+      "w": "subdue",
+      "ph": "/səbˈdjuː/",
+      "m": "抑制；压低；使（通胀/涨势）降温",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to bring under control; to make quieter or less intense, esp. in economic or market contexts",
+      "defs": [
+        {
+          "cn": "抑制；压低",
+          "en": "to bring under control or reduce intensity",
+          "pos": "v."
+        },
+        {
+          "cn": "使（通胀/涨势）降温",
+          "en": "to cool down inflation or a price rally",
+          "pos": "v."
+        },
+        {
+          "cn": "制服；使安静",
+          "en": "to overcome or make quiet, as in subdue a crowd",
+          "pos": "v."
+        }
+      ],
+      "col": "subdue inflation 抑制通胀 · subdue market volatility 压低市场波动 · subdue demand 抑制需求 · subdue a rally 压制涨势",
+      "ex": "China's first-ever interest subsidy on commercial mortgages aims to subdue the housing downturn and steady the broader economy.",
+      "exZh": "中国首次为商业房贷提供贴息，旨在抑制楼市下行、稳住整体经济。",
+      "ex2": "Policymakers in Brazil hope that lower unemployment will subdue social discontent while keeping inflation in check.",
+      "ex2Zh": "巴西决策者希望失业率下降能抑制社会不满，同时控制住通胀。",
+      "t": "中国首度为商业房贷贴息，被联合早报称为稳经济“最强烈信号”之一，政策意图正是 subdue 楼市下行压力、托住需求。\n职场里 subdue 也常用：subdue your anxiety before the quarterly review（季度复盘前压住焦虑），比单纯 control 多一层“用力压下去”的画面感。",
+      "root": "前缀 sub-(在下、向下，拉丁 sub，同源 submarine 潜艇、subordinate 下级的) + 词根 due(=duc 引导，拉丁 ducere，同源 conduct 引导) → 往下引导 → 压制、使屈服、使降温",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "respite",
+      "ph": "/ˈrespɪt/",
+      "m": "（压力/冲突的）暂缓；喘息期",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a short period of rest or relief from something difficult; a temporary pause in conflict or pressure",
+      "defs": [
+        {
+          "cn": "暂缓；喘息",
+          "en": "a short break from something difficult or unpleasant",
+          "pos": "n."
+        },
+        {
+          "cn": "（冲突的）暂停",
+          "en": "a temporary pause in conflict or tension",
+          "pos": "n."
+        },
+        {
+          "cn": "缓解；宽限",
+          "en": "a delay or relief from an obligation or pressure",
+          "pos": "n."
+        }
+      ],
+      "col": "a brief respite 短暂喘息 · a respite from tariffs 关税暂缓 · give no respite 不给喘息 · a welcome respite 可喜的缓解",
+      "ex": "German media noted that the extended truce offers only a respite, as the powder keg of trade tensions remains unextinguished.",
+      "exZh": "德语媒体指出，休战期延长只是暂缓，贸易紧张的火药味并未消散。",
+      "ex2": "For overworked employees, the holiday is a brief respite before the year-end crunch begins.",
+      "ex2Zh": "对超负荷工作的员工来说，假期只是年终冲刺前的一次短暂喘息。",
+      "t": "德语媒体今日评论称，休战期延长、火药味未减——这正是一场 respite，而非真正的和解；谈判桌外的紧张仍在积累。\n记忆：respite 与 rest 同源，都是“歇一口气”。职场里 a respite from back-to-back meetings（从连轴会议中喘口气）非常贴切。",
+      "root": "源自拉丁词根 respicere（回头看、顾及），re-(回，同源 return 返回) + spec(=看，同源 inspect 检查) → 回头看、顾及 → 暂时搁置压力 → 暂缓、喘息",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "sluggish",
+      "ph": "/ˈslʌɡɪʃ/",
+      "m": "疲软的；迟缓的；低迷的（市场/经济）",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "moving or reacting more slowly than normal; weak or lacking energy, esp. of markets or economies",
+      "defs": [
+        {
+          "cn": "疲软的；低迷的",
+          "en": "weak or slow, as in a sluggish market",
+          "pos": "adj."
+        },
+        {
+          "cn": "迟缓的；慢吞吞的",
+          "en": "moving or reacting more slowly than usual",
+          "pos": "adj."
+        },
+        {
+          "cn": "（人）懒散的",
+          "en": "lacking energy or alertness",
+          "pos": "adj."
+        }
+      ],
+      "col": "sluggish growth 增长疲软 · sluggish demand 需求低迷 · a sluggish market 低迷的市场 · sluggish turnover 成交迟缓",
+      "ex": "A-share turnover hit 1.41 trillion yuan, a new low for the year, reflecting sluggish investor appetite.",
+      "exZh": "A股成交额1.41万亿元，刷新年内新低，反映出投资者意愿疲软。",
+      "ex2": "After a heavy lunch, many workers feel sluggish and struggle to focus on afternoon tasks.",
+      "ex2Zh": "午餐吃太饱后，许多员工感到昏沉，难以集中精力处理下午的工作。",
+      "t": "今日A股成交1.41万亿，刷新年内新低——这种 sluggish 的成交反映资金观望情绪浓厚，与存储概念美股上涨形成反差。\n职场联想：sluggish 也可形容人“没精神”，如 I feel sluggish after a long meeting（开完长会犯困），比 tired 更强调“运转不动”。",
+      "root": "词根 slug(=缓慢移动，中古英语 slugge 懒汉) + 后缀 -ish(具有…性质的，古英语 -isc，同源 childish 孩子气的) → 像懒汉一样 → 迟缓、疲软",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "sentiment",
+      "ph": "/ˈsentɪmənt/",
+      "m": "情绪；市场人气；观点倾向",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a general feeling or opinion; the mood of investors or consumers toward a market or policy",
+      "defs": [
+        {
+          "cn": "情绪；人气",
+          "en": "the general mood or feeling among a group",
+          "pos": "n."
+        },
+        {
+          "cn": "市场情绪",
+          "en": "investor mood that drives buying or selling",
+          "pos": "n."
+        },
+        {
+          "cn": "观点；意见",
+          "en": "an opinion or attitude toward something",
+          "pos": "n."
+        }
+      ],
+      "col": "market sentiment 市场情绪 · investor sentiment 投资者人气 · sentiment index 情绪指数 · bearish sentiment 看空情绪",
+      "ex": "With A-share turnover at a yearly low, market sentiment remains cautious despite gains in US storage stocks.",
+      "exZh": "A股成交创年内新低，尽管美股存储股上涨，市场情绪仍偏谨慎。",
+      "ex2": "Employee sentiment improved after the company announced flexible working hours.",
+      "ex2Zh": "公司宣布弹性工作制后，员工情绪有所改善。",
+      "t": "今日A股成交1.41万亿刷新年内新低，sentiment 偏冷；而美股存储概念多数上涨，SK海力士涨超2%，显示两地投资者情绪分化。\n职场里 sentiment 也指“民意/员工情绪”，如 employee sentiment survey（员工情绪调查），是HR高频词。",
+      "root": "词根 sent(=sens 感觉，拉丁 sentire，同源 sense 感觉、sensitive 敏感的) + 后缀 -ment(名词后缀，拉丁) → 感觉的状态 → 情绪、观点",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "poach",
+      "ph": "/pəʊtʃ/",
+      "m": "挖角；窃取（人才/客户）；偷猎",
+      "c": "work",
+      "pos": "v.",
+      "en": "to take someone else's employees or clients unfairly; to illegally hunt animals on someone's land",
+      "defs": [
+        {
+          "cn": "挖角；撬走",
+          "en": "to recruit another firm's staff or clients",
+          "pos": "v."
+        },
+        {
+          "cn": "窃取（客户/创意）",
+          "en": "to take ideas or clients unfairly",
+          "pos": "v."
+        },
+        {
+          "cn": "偷猎；盗捕",
+          "en": "to hunt animals illegally",
+          "pos": "v."
+        }
+      ],
+      "col": "poach talent 挖角人才 · poach staff 撬走员工 · poach clients 抢客户 · poach from rivals 从对手处挖人",
+      "ex": "As AI competition intensifies, tech giants are racing to poach top engineers from rivals with lucrative offers.",
+      "exZh": "随着AI竞争加剧，科技巨头正以丰厚待遇从对手处挖角顶尖工程师。",
+      "ex2": "The startup accused its larger competitor of trying to poach its key clients during contract renewals.",
+      "ex2Zh": "这家初创公司指责规模更大的竞争对手在续约期试图挖走其关键客户。",
+      "t": "海外客商在数贸会抢抓数字合作新机遇，AI人才争夺同步升温——企业不惜重金 poach 顶尖工程师，职场流动加速。\n记忆：poach 本义“偷猎”，引申到职场就是“从别人地盘挖人”，画面感强。",
+      "root": "源自古法语 pochier（把…装进口袋），与 pocket 口袋同源 → 把别人的东西装进自己口袋 → 偷猎、挖角、窃取",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "mortgage",
+      "ph": "/ˈmɔːrɡɪdʒ/",
+      "m": "n./v. 抵押贷款；抵押",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "A loan secured by property; to pledge property as security for a loan; in real-estate/financial contexts",
+      "defs": [
+        {
+          "cn": "抵押贷款",
+          "en": "a loan used to buy property, secured by that property",
+          "pos": "n."
+        },
+        {
+          "cn": "抵押",
+          "en": "to pledge property as security for a loan",
+          "pos": "v."
+        },
+        {
+          "cn": "按揭",
+          "en": "a long-term housing loan arrangement",
+          "pos": "n."
+        }
+      ],
+      "col": "mortgage rate 房贷利率 · mortgage payment 按揭还款 · mortgage-backed securities 抵押贷款支持证券 · take out a mortgage 申请按揭",
+      "ex": "China announced its first interest subsidy on commercial mortgages, aiming to ease the burden on homebuyers and revive the property sector.",
+      "exZh": "中国宣布首次对商业房贷提供利息补贴，旨在减轻购房者负担并重振房地产行业。",
+      "ex2": "Rising mortgage rates have cooled demand for new homes, forcing developers to offer discounts.",
+      "ex2Zh": "房贷利率上升抑制了新屋需求，迫使开发商提供折扣。",
+      "t": "中国首度为商业房贷贴息，呼应稳经济最强信号。这一举措直接降低购房者的按揭成本，试图激活疲软的房地产市场，同时避免全面降息对人民币汇率的冲击。\n职场中，mortgage 常与 loan 对比：mortgage 特指以房产为抵押的贷款，loan 则是更广泛的借款，两者在还款期限和抵押要求上差异明显。",
+      "root": "词根 mort(=mor 死，拉丁，同源 mortal 致命的) + 词根 gage(=pledge 抵押，古法语，同源 wage 工资) → 死契 → 以财产抵押的贷款",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "unemployment",
+      "ph": "/ˌʌnɪmˈplɔɪmənt/",
+      "m": "n. 失业；失业率",
+      "c": "work",
+      "pos": "n.",
+      "en": "The state of being without a job; the number or rate of people without jobs in an economy",
+      "defs": [
+        {
+          "cn": "失业；失业率",
+          "en": "the state of not having a job; the jobless rate",
+          "pos": "n."
+        },
+        {
+          "cn": "失业人数",
+          "en": "the number of people without jobs",
+          "pos": "n."
+        },
+        {
+          "cn": "失业问题",
+          "en": "the economic issue of joblessness",
+          "pos": "n."
+        }
+      ],
+      "col": "unemployment rate 失业率 · youth unemployment 青年失业 · rising unemployment 失业上升 · unemployment benefits 失业救济金",
+      "ex": "Brazil's unemployment rate fell to 5.3%, the lowest on record for the period, signaling a resilient labor market.",
+      "exZh": "巴西失业率降至5.3%，创同期历史最低，显示劳动力市场韧性。",
+      "ex2": "Youth unemployment remains a pressing issue in many European countries despite overall economic growth.",
+      "ex2Zh": "尽管总体经济增长，青年失业仍是许多欧洲国家的紧迫问题。",
+      "t": "巴西失业率降至5.3%，创同期历史最低，成为全球劳动力市场的一大亮点。这一改善得益于服务业复苏和农业出口强劲，但青年失业问题依然存在。\n职场中，unemployment 常与 employment 对比，前者指失业状态，后者指就业；失业率是衡量经济健康的关键指标。",
+      "root": "前缀 un-(否定，古英语，同源 unhappy 不快乐) + 词根 employ(雇用，法语，同源 employer 雇主) + 后缀 -ment(名词后缀) → 未被雇用 → 失业、失业率",
+      "d": "2026-09-30"
+    },
+    {
+      "w": "seminar",
+      "ph": "/ˈsemɪnɑːr/",
+      "m": "研讨会；专题讨论课；培训讲座",
+      "c": "work",
+      "pos": "n.",
+      "en": "a conference or meeting for discussion and training; a class at a university for small-group study",
+      "defs": [
+        {
+          "cn": "研讨会",
+          "en": "a meeting for discussion",
+          "pos": "n."
+        },
+        {
+          "cn": "专题讨论课",
+          "en": "a small-group academic class",
+          "pos": "n."
+        },
+        {
+          "cn": "培训讲座",
+          "en": "a training session",
+          "pos": "n."
+        }
+      ],
+      "col": "attend a seminar 参加研讨会 · training seminar 培训讲座 · academic seminar 学术研讨会 · host a seminar 举办研讨会",
+      "ex": "The company hosted a seminar on AI procurement strategies, drawing over 200 participants from the tech industry.",
+      "exZh": "该公司举办了一场关于AI采购策略的研讨会，吸引了科技行业200多名参与者。",
+      "ex2": "She attended a seminar on digital trade cooperation at the Global Digital Trade Expo in Hangzhou.",
+      "ex2Zh": "她在杭州全球数字贸易博览会上参加了一场关于数字贸易合作的研讨会。",
+      "t": "新华网报道，海外客商在数贸会抢抓数字合作新机遇，多场 seminar 聚焦AI未来。与此同时，四川推出334个文旅招商项目，各类推介会密集举行。\n\n职场提示：seminar 是职场充电的重要形式，比 conference 更聚焦互动，比 workshop 更偏理论。参加 seminar 能快速获取行业前沿动态。",
+      "root": "源自拉丁语 seminarium（苗圃），词根 semin（种子，同源 semen 种子） → 播撒知识种子的地方 → 研讨会。",
+      "d": "2026-09-30"
     }
   ],
   "preview": {
-    "hook": "就在各国政府刚刚[preempt|preempt]出台芯片补贴、试图把制造业留在本土之际，一笔原本投向绿色能源的千亿欧元资金[diversion|diversion]却悄然[diversion|diversion]美国，迫使欧盟紧急[deregulate|deregulate]以挽留投资；与此同时，为应对AI对就业的冲击，德国宣布将拿出数十亿欧元[retrain|retrain]百万工人，并同步升级跨欧洲[grid|grid]以承接新增算力负荷，而备受关注的氢能列车[rollout|rollout]计划也因预算重排被迫推迟到明年。 这部电影的[电影配乐|soundtrack]在[首映|premiere]当晚就征服了所有观众。",
+    "hook": "央行意外加息以[subdue|subdue]通胀，但市场只获得短暂喘息，[sluggish|sluggish]楼市数据与低迷的[sentiment|sentiment]迅速抵消了政策利好；与此同时，科技巨头被曝[poach|poach]对手AI团队，导致相关板块波动加剧，而[mortgage|mortgage]贷款利率攀升进一步挤压购房者，[unemployment|unemployment]率意外上升，一场原本聚焦行业[seminar|seminar]的平静日程，被彻底改写为多空激战的混乱一日。 连续加班一个月后，他终于请了几天[喘息|respite]，好好陪家人放松一下。",
     "impact": ""
   }
 }

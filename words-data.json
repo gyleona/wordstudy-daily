@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-09-30",
+  "updated_on": "2026-10-01",
   "quote": {
-    "en": "Steady skills turn every market swing into a stepping stone.",
-    "zh": "扎实的技能，能把每一次市场波动都变成垫脚石。"
+    "en": "Stay agile, and every policy shift becomes your opening.",
+    "zh": "保持敏捷，每一次政策转向都会成为你的机会。"
   },
   "story": {
-    "en": "China's first-ever [mortgage|mortgage] interest subsidy, reported by Lianhe Zaobao, aims to [subdue|subdue] the property downturn and support the economy, though A-share turnover fell to a new low of 1.41 trillion yuan, reflecting [sluggish|sluggish] trading. The subsidy offers a [respite|respite] to homebuyers, but market [sentiment|sentiment] remains cautious as investors await further stimulus. Meanwhile, Brazil's [unemployment|unemployment] rate dropped to 5.3%, a record low, according to Dongfang Caijing. In a separate development, a Shenzhen youth who won gold at the WorldSkills Competition shared how he brought Chinese service to the world's dining tables, as reported by 21 Caijing. At a [seminar|seminar] on digital trade, overseas merchants at the Global Digital Trade Expo explored AI cooperation opportunities, according to Xinhua. However, talent [poach|poach] in tech sectors intensifies, with firms competing for AI experts. The mixed signals underscore the need for sustained policy support to ensure a steady recovery.",
-    "cn": "中国首次为商业房贷贴息，呼应稳经济“最强烈信号”，旨在[抑制|subdue]楼市低迷，但A股成交1.41万亿刷新年内新低，凸显交易疲软。此举为购房者提供喘息期，但[情绪|sentiment]依然谨慎，投资者期待更多刺激措施。与此同时，巴西[失业|unemployment]率降至5.3%，创同期历史最低。深圳小伙世界技能大赛夺金，把“中国服务”端上“世界餐桌”。在数贸会的一场[研讨会|seminar]上，海外客商抢抓数字合作新机遇，探索AI未来。然而，科技行业人才[挖角|poach]加剧，企业争抢AI专家。这些信号表明，持续的政策支持对确保经济稳步复苏至关重要。 在[暂时缓解|respite]高利率压力之前，[疲软的|sluggish]就业市场仍让许多家庭难以按时偿还[抵押贷款|mortgage]。"
+    "en": "As China marks the 77th anniversary of the People's Republic with a National Day flag-raising at Tiananmen Square, a travel [roster|roster] from First Financial shows a \"take 3, rest 13\" pattern driving [long-haul|long-haul] tourism and warming consumption. Meanwhile, Goldman Sachs strategists warn that [earnings|earnings] support may not [outweigh|outweigh] risks: if a US Treasury [sell-off|sell-off] accelerates, US stocks could come under pressure. In tech, VOA details a \"superintelligence\" safety agreement signed by Trump and tech leaders, an [endorsement|endorsement] of tighter guardrails. Elsewhere, a Beijing-Shanghai high-speed rail new section opens to boost Xiongan, while rainstorms [disperse|disperse] across Guizhou as a level-IV geological disaster response is activated, and Chongqing's Zhongxian issues a blue rainstorm alert. In sports, the Asian Games in Aichi-Nagoya see China's diving team reach 100 golds, though the men's football team misses the final, and Beijing Ducks coach Li Nan demands a \"fight-first\" [reboot|reboot] for the new season.",
+    "cn": "国庆升国旗仪式在天安门广场举行，庆祝中华人民共和国成立77周年。第一财经的旅游[名单|roster]显示，“请3休13”带火长线游，旅游消费多点升温。与此同时，高盛策略师警示：[盈利|earnings]支撑暂稳股市，但若美债[抛售|sell-off]提速，美股或承压，胜过风险尚难。在科技领域，美国之音解读特朗普与科技领袖签署的“超级智能”安全协议，被视为更严监管的背书。国内方面，京港高铁雄商段开通助力雄安新区建设；应急管理部针对贵州启动国家地质灾害四级应急响应，驱散暴雨影响，重庆忠县发布暴雨蓝色预警。体育方面，爱知·名古屋亚运会中国跳水队达成“百金”，中国男足无缘决赛；北京首钢男篮新赛季誓师，主教练李楠要求“拼”字当头，期待球队[重启|reboot]。 尽管长途[长途|long-haul]飞行令人疲惫，但看到人群在节庆后渐渐散去[散开|disperse]，且名人的公开支持[支持|endorsement]所带来的收益远大于[胜过|outweigh]成本，这一切都值得。"
   },
   "words": [
     {
@@ -10975,10 +10975,236 @@
       "t": "新华网报道，海外客商在数贸会抢抓数字合作新机遇，多场 seminar 聚焦AI未来。与此同时，四川推出334个文旅招商项目，各类推介会密集举行。\n\n职场提示：seminar 是职场充电的重要形式，比 conference 更聚焦互动，比 workshop 更偏理论。参加 seminar 能快速获取行业前沿动态。",
       "root": "源自拉丁语 seminarium（苗圃），词根 semin（种子，同源 semen 种子） → 播撒知识种子的地方 → 研讨会。",
       "d": "2026-09-30"
+    },
+    {
+      "w": "disperse",
+      "ph": "/dɪˈspɜːs/",
+      "m": "(使)分散；驱散；散布",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to scatter or spread over a wide area; to drive away a crowd; to distribute widely",
+      "defs": [
+        {
+          "cn": "使分散",
+          "en": "to scatter in different directions",
+          "pos": "v."
+        },
+        {
+          "cn": "驱散人群",
+          "en": "to drive away a crowd",
+          "pos": "v."
+        },
+        {
+          "cn": "散布信息",
+          "en": "to spread information widely",
+          "pos": "v."
+        }
+      ],
+      "col": "disperse a crowd 驱散人群 · disperse funds 分散资金 · widely dispersed 广泛分布的 · disperse the risk 分散风险",
+      "ex": "Goldman strategists noted that if the Treasury sell-off accelerates, equity gains may disperse unevenly across sectors.",
+      "exZh": "高盛策略师指出，如果美债抛售加速，股市涨幅可能会在各个板块间不均匀地分散。",
+      "ex2": "The bank decided to disperse its loan portfolio across more regions to reduce exposure to a single market.",
+      "ex2Zh": "该银行决定将贷款组合分散到更多地区，以降低对单一市场的风险敞口。",
+      "t": "高盛策略师警示，若美债抛售提速，美股盈利支撑可能被打散，资金将 disperse 到防御性板块，市场承压。\n职场用法：团队把任务 disperse 到不同小组，避免单点过载，和 concentrate(集中)形成对照记忆。",
+      "root": "前缀 dis-(分开，拉丁，同源 distribute 分发) + 词根 spers(散播，拉丁 spargere，同源 sparse 稀疏的) → 分散开 → 驱散、散布。",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "outweigh",
+      "ph": "/ˌaʊtˈweɪ/",
+      "m": "重于；胜过；超过",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to be greater in importance, value, or weight than something else",
+      "defs": [
+        {
+          "cn": "比……更重要",
+          "en": "to be more important than something",
+          "pos": "v."
+        },
+        {
+          "cn": "在重量上超过",
+          "en": "to weigh more than something",
+          "pos": "v."
+        },
+        {
+          "cn": "利大于弊",
+          "en": "benefits exceed the drawbacks",
+          "pos": "v."
+        }
+      ],
+      "col": "outweigh the risks 超过风险 · benefits outweigh costs 利大于弊 · far outweigh 远远超过 · outweigh concerns 盖过担忧",
+      "ex": "The UK Prime Minister argued that the economic damage from Brexit outweigh the benefits of staying outside the EU.",
+      "exZh": "英国首相认为，脱欧造成的经济损失超过了留在欧盟之外的好处。",
+      "ex2": "For many workers, the flexibility of remote work outweigh the loss of a daily commute.",
+      "ex2Zh": "对许多员工来说，远程办公的灵活性超过了每日通勤的损失。",
+      "t": "英国首相再提重新加入欧盟，称『脱欧』弊大于利——用 outweigh 描述成本与收益的权衡，是政策辩论里的高频动词。\n职场用法：评估方案时写 the pros outweigh the cons(利大于弊)，比单说 good 更有说服力。",
+      "root": "前缀 out-(超过，古英语 ūt，同源 outdo 胜过) + 动词 weigh(称重，古英语 wegan，同源 weight 重量) → 在重量上超过 → 引申为重要性胜过。",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "earnings",
+      "ph": "/ˈɜːnɪŋz/",
+      "m": "(公司)盈利；收益",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the profits a company makes in a period; money earned from work or investment, in financial contexts",
+      "defs": [
+        {
+          "cn": "(公司)盈利",
+          "en": "a company's profits in a given period",
+          "pos": "n."
+        },
+        {
+          "cn": "收益；收入",
+          "en": "money earned from work or investments",
+          "pos": "n."
+        },
+        {
+          "cn": "财报业绩",
+          "en": "reported financial results, often quarterly",
+          "pos": "n."
+        }
+      ],
+      "col": "quarterly earnings 季度盈利 · earnings report 财报 · earnings growth 盈利增长 · miss earnings 业绩不及预期",
+      "ex": "Goldman strategists noted that earnings support has kept stocks steady for now, but a faster Treasury selloff could weigh on prices.",
+      "exZh": "高盛策略师指出，盈利支撑让股市暂时企稳，但美债抛售提速可能压低股价。",
+      "ex2": "Tech giants mostly rose on Wall Street as investors waited for the next round of earnings.",
+      "ex2Zh": "美股大型科技股多数上涨，投资者在等待下一轮财报。",
+      "t": "美股三大指数收盘涨跌不一，大型科技股多数上涨——背后的关键变量正是 earnings：高盛策略师说盈利支撑暂稳股市，但美债抛售若提速，估值就要承压。\n用法提醒：earnings 常用复数，指\"一段时间的盈利\"；说一个人挣的钱用 income 或 salary，说公司赚的钱才用 earnings。",
+      "root": "词根 earn(赚得，古英语 earnian，同源 earner 挣钱者) + 后缀 -ings(表结果的名词复数) → 挣到的东西 → 由个人劳动所得扩展为公司的\"盈利、业绩\"",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "roster",
+      "ph": "/ˈrɒstə/",
+      "m": "名单；花名册；排班表",
+      "c": "work",
+      "pos": "n.",
+      "en": "a list of names of people, esp. staff or players; a duty schedule, in workplace and sports contexts",
+      "defs": [
+        {
+          "cn": "名单；花名册",
+          "en": "an official list of names of people in a group",
+          "pos": "n."
+        },
+        {
+          "cn": "排班表；值勤表",
+          "en": "a schedule of duties or shifts for staff",
+          "pos": "n."
+        },
+        {
+          "cn": "阵容；队员名单",
+          "en": "the set of players available for a team",
+          "pos": "n."
+        }
+      ],
+      "col": "staff roster 员工名册 · duty roster 值勤表 · on the roster 在名单上 · roster of players 球员阵容",
+      "ex": "The Beijing Shougang basketball coach told his roster to put the word 'fight' first at the new season kickoff.",
+      "exZh": "北京首钢男篮主帅在新赛季誓师大会上要求全队\"拼\"字当头。",
+      "ex2": "Managers now keep a flexible roster so staff can cover long holiday travel peaks.",
+      "ex2Zh": "管理者现在保持灵活的排班表，以便员工应对长假出行高峰。",
+      "t": "新赛季誓师大会上，北京首钢男篮主教练李楠要求\"拼\"字当头——这里的 roster 就是全队名单，谁在阵容里、谁要顶上，一目了然。\n职场延伸：duty roster 是\"排班表\"，比 schedule 更强调\"谁值哪一班\"；说某人 on the roster，就是\"在名单上、被排上了\"。",
+      "root": "源自荷兰语 rooster（名单、表格），本义与\"烤肉架的铁格\"同形，因早期名单画成格子状 → 一格一格的姓名表 → 花名册、排班表、阵容名单",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "long-haul",
+      "ph": "/ˌlɒŋ ˈhɔːl/",
+      "m": "长途的；长线的；持久的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "travelling over a long distance or lasting a long time; used in travel, transport and business contexts",
+      "defs": [
+        {
+          "cn": "长途的",
+          "en": "covering a long distance, as in travel or transport",
+          "pos": "adj."
+        },
+        {
+          "cn": "长线的",
+          "en": "involving a long period, as in long-term investment",
+          "pos": "adj."
+        },
+        {
+          "cn": "持久的",
+          "en": "lasting for a long time; enduring",
+          "pos": "adj."
+        }
+      ],
+      "col": "long-haul flight 长途航班 · long-haul travel 长线旅游 · long-haul investment 长线投资 · long-haul route 长途航线",
+      "ex": "“Take 3 days off for 13 days away” has boosted long-haul travel, with tourism spending warming up across multiple destinations.",
+      "exZh": "“请3休13”带火长线游，多个目的地旅游消费升温。",
+      "ex2": "Airlines are adding long-haul routes to capture holiday demand, even as fuel costs remain a headwind.",
+      "ex2Zh": "航空公司正增加长途航线以抓住假期需求，即便燃油成本仍是逆风。",
+      "t": "第一财经报道，“请3休13”拼假模式带火长线游，旅游消费多点升温，long-haul 成为假期经济的关键词。\n职场延伸：long-haul 也形容需要长期投入的项目，比如 long-haul investment（长线投资），与 short-term 相对，提醒我们有些回报必须用耐心换。",
+      "root": "long（古英语 lang，长的） + haul（源自古法语 haler，拉、拖） → 需要长时间拖运的 → 长途的；再引申为“需要长期投入的”。",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "sell-off",
+      "ph": "/ˈsel ɒf/",
+      "m": "(资产)抛售；贱卖；集中卖出",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a rapid selling of assets, causing prices to fall; in finance/economics contexts",
+      "defs": [
+        {
+          "cn": "(资产)抛售",
+          "en": "a sudden wave of selling in financial markets",
+          "pos": "n."
+        },
+        {
+          "cn": "贱卖",
+          "en": "selling something quickly at a low price",
+          "pos": "n."
+        },
+        {
+          "cn": "集中卖出",
+          "en": "a large-scale disposal of holdings",
+          "pos": "n."
+        }
+      ],
+      "col": "bond sell-off 债券抛售 · market sell-off 市场抛售 · trigger a sell-off 引发抛售 · sharp sell-off 剧烈抛售",
+      "ex": "Goldman strategists warned that if the US Treasury sell-off accelerates, US equities could come under pressure.",
+      "exZh": "高盛策略师警告，若美债抛售提速，美股可能承压。",
+      "ex2": "The oil price rise on September 30 offered some relief, but a broader sell-off in tech shares kept indices mixed.",
+      "ex2Zh": "9月30日油价上涨带来一些缓解，但科技股更广泛的抛售令指数涨跌不一。",
+      "t": "华尔街见闻报道，高盛策略师警示：盈利支撑暂稳股市，但美债抛售若提速，美股或将承压——sell-off 正是描述这种“集中卖出、价格承压”的精准术语。\n记忆法：sell（卖）+ off（离开）→ 资产“离开”持有者，就是抛售；与 rally（反弹上涨）形成鲜明对照，一卖一买，成对记。",
+      "root": "sell（古英语 sellan，出售） + off（古英语 of，离开、脱离） → 卖出并脱手 → 抛售。作为名词短语 sell-off 在 20 世纪金融市场报道中固定下来，专指集中卖出引发的价格下跌。",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "endorsement",
+      "ph": "/ɪnˈdɔːsmənt/",
+      "m": "代言；背书",
+      "c": "entertainment",
+      "ex": "The star signed a sneaker endorsement.",
+      "exZh": "该明星签下了一笔运动鞋代言。",
+      "t": "名人说“我用这个”帮你卖货。",
+      "root": "en-(in) + dorse(back) + -ment → 背后支持",
+      "pos": "n.",
+      "en": "public support, often paid",
+      "col": "brand endorsement · endorsement deal",
+      "d": "2026-10-01"
+    },
+    {
+      "w": "reboot",
+      "ph": "/ˈriːbuːt/",
+      "m": "重启；翻拍",
+      "c": "entertainment",
+      "ex": "Hollywood plans a reboot of the classic.",
+      "exZh": "好莱坞计划翻拍这部经典。",
+      "t": "老IP拿来重新拍一遍。",
+      "root": "re-(再) + boot(启动) → 重启",
+      "pos": "n./v.",
+      "en": "to restart or remake",
+      "col": "franchise reboot · reboot a series",
+      "d": "2026-10-01"
     }
   ],
   "preview": {
-    "hook": "央行意外加息以[subdue|subdue]通胀，但市场只获得短暂喘息，[sluggish|sluggish]楼市数据与低迷的[sentiment|sentiment]迅速抵消了政策利好；与此同时，科技巨头被曝[poach|poach]对手AI团队，导致相关板块波动加剧，而[mortgage|mortgage]贷款利率攀升进一步挤压购房者，[unemployment|unemployment]率意外上升，一场原本聚焦行业[seminar|seminar]的平静日程，被彻底改写为多空激战的混乱一日。 连续加班一个月后，他终于请了几天[喘息|respite]，好好陪家人放松一下。",
+    "hook": "随着[disperse|disperse]在三大洲的长线投资者集体[sell-off|sell-off]科技股，某流媒体巨头盘前[earnings|earnings]预警显示用户流失速度已胜过成本削减成效，其董事会紧急[reboot|reboot]重组计划并更新高管[roster|roster]，同时撤下两位明星的[endorsement|endorsement]广告以平息舆论。 尽管长途飞行令人疲惫，但能亲临现场见证历史时刻的收获，往往[超过|outweigh]旅途中的种种不便，因此许多人不惜选择[长途|long-haul]航班远赴他乡。",
     "impact": ""
   }
 }

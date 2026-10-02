@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-01",
+  "updated_on": "2026-10-02",
   "quote": {
-    "en": "Stay agile, and every policy shift becomes your opening.",
-    "zh": "保持敏捷，每一次政策转向都会成为你的机会。"
+    "en": "In every market surge, the prepared learner finds a new route.",
+    "zh": "在每一次市场飙升中，有准备的求学者总能找到新路。"
   },
   "story": {
-    "en": "As China marks the 77th anniversary of the People's Republic with a National Day flag-raising at Tiananmen Square, a travel [roster|roster] from First Financial shows a \"take 3, rest 13\" pattern driving [long-haul|long-haul] tourism and warming consumption. Meanwhile, Goldman Sachs strategists warn that [earnings|earnings] support may not [outweigh|outweigh] risks: if a US Treasury [sell-off|sell-off] accelerates, US stocks could come under pressure. In tech, VOA details a \"superintelligence\" safety agreement signed by Trump and tech leaders, an [endorsement|endorsement] of tighter guardrails. Elsewhere, a Beijing-Shanghai high-speed rail new section opens to boost Xiongan, while rainstorms [disperse|disperse] across Guizhou as a level-IV geological disaster response is activated, and Chongqing's Zhongxian issues a blue rainstorm alert. In sports, the Asian Games in Aichi-Nagoya see China's diving team reach 100 golds, though the men's football team misses the final, and Beijing Ducks coach Li Nan demands a \"fight-first\" [reboot|reboot] for the new season.",
-    "cn": "国庆升国旗仪式在天安门广场举行，庆祝中华人民共和国成立77周年。第一财经的旅游[名单|roster]显示，“请3休13”带火长线游，旅游消费多点升温。与此同时，高盛策略师警示：[盈利|earnings]支撑暂稳股市，但若美债[抛售|sell-off]提速，美股或承压，胜过风险尚难。在科技领域，美国之音解读特朗普与科技领袖签署的“超级智能”安全协议，被视为更严监管的背书。国内方面，京港高铁雄商段开通助力雄安新区建设；应急管理部针对贵州启动国家地质灾害四级应急响应，驱散暴雨影响，重庆忠县发布暴雨蓝色预警。体育方面，爱知·名古屋亚运会中国跳水队达成“百金”，中国男足无缘决赛；北京首钢男篮新赛季誓师，主教练李楠要求“拼”字当头，期待球队[重启|reboot]。 尽管长途[长途|long-haul]飞行令人疲惫，但看到人群在节庆后渐渐散去[散开|disperse]，且名人的公开支持[支持|endorsement]所带来的收益远大于[胜过|outweigh]成本，这一切都值得。"
+    "en": "China's National Day holiday opened with packed cultural events and travel, as Fuzhou's ancient houses drew crowds on day one and a flag-raising ceremony was held at Wuyi Square. Rail operators added trains to Guiyang, Chongqing, Luzhou and Yibin, while the traffic bureau urged safety. In Wuhan, a housing sales [revamp|revamp] launched, allowing guarantee letters to replace [prepaid|prepaid] [pre-sale|pre-sale] supervision funds and creating transition periods for prefabricated and legacy projects. Analysts said the pre-sale reform could [soothe|soothe] buyer concerns and curb excessive [hype|hype] in the property market. Meanwhile, Trump said after the [midterm|midterm] elections he may intensify strikes on Iran, according to Cailianshe. A [relocation|relocation] of the US Dragon spacecraft sent a new crew to the International Space Station, and Thailand's national disaster insurance system took effect. For homebuyers, cities may offer mortgage [rebate|rebate] under a 1.5 million yuan total-price threshold. As the 2026 National Day box office passed 200 million yuan, the holiday mix of culture, travel and policy signals a busy fourth quarter ahead.",
+    "cn": "国庆假期首日，福州古厝人气旺盛，五一广场举行升国旗仪式，文化市场精彩纷呈。铁路部门加开贵阳、重庆、泸州、宜宾等方向列车，公安部交管局提示出行安全。武汉商品房销售改革落地，创新推出保函置换[预售|pre-sale]监管资金，装配式建筑、历史遗留问题项目单独划分过渡期。分析认为，此次预售监管[改造|revamp]有助于[安抚|soothe]购房者情绪，抑制市场过度[炒作|hype]。国际方面，特朗普称[中期选举|midterm]后可能加大力度打击伊朗；美国“龙”飞船完成新一轮宇航员[搬迁|relocation]任务，泰国全国灾害保险体系正式实施。房贷贴息话题受关注，在150万元总价门槛下，部分城市可能推出返还政策。2026国庆档票房破2亿，多部新作看点十足；亚运会七人制橄榄球开赛，中国男、女队小组赛两连胜。预缴资金监管与假期消费共振，为四季度经济开局注入动力。 为了吸引顾客，这家店推出了一项优惠：如果顾客提前[预付|prepaid]全款，就能在结账时获得一笔可观的[退款|rebate]。"
   },
   "words": [
     {
@@ -11201,10 +11201,255 @@
       "en": "to restart or remake",
       "col": "franchise reboot · reboot a series",
       "d": "2026-10-01"
+    },
+    {
+      "w": "relocation",
+      "ph": "/ˌriːləʊˈkeɪʃn/",
+      "m": "搬迁；迁移；重新安置",
+      "c": "work",
+      "pos": "n.",
+      "en": "The act of moving to a new place, especially for work; the process of moving operations, common in HR and business",
+      "defs": [
+        {
+          "cn": "搬迁",
+          "en": "the act of moving to a new location",
+          "pos": "n."
+        },
+        {
+          "cn": "迁移",
+          "en": "the process of shifting people or operations",
+          "pos": "n."
+        },
+        {
+          "cn": "重新安置",
+          "en": "resettling someone in a new place",
+          "pos": "n."
+        }
+      ],
+      "col": "job relocation 工作搬迁 · relocation package 搬迁补贴 · corporate relocation 公司迁址 · relocation costs 搬迁成本",
+      "ex": "As firms rethink office footprints, relocation packages are becoming a bargaining chip in hiring.",
+      "exZh": "随着企业重新思考办公布局，搬迁补贴正成为招聘中的谈判筹码。",
+      "ex2": "The relocation of supply chains away from tariff-exposed routes is reshaping logistics costs.",
+      "ex2Zh": "供应链从受关税影响的路线迁出，正在重塑物流成本。",
+      "t": "特朗普称中期选举后可能加大对伊朗施压，叠加关税政策不确定性，跨国企业的 relocation 决策正在加速，供应链从高风险路线向更稳定的节点迁移。\n职场场景：relocation package（搬迁补贴）常出现在跨国调岗 offer 里，和 remote work（远程办公）是两种相反的人才策略。",
+      "root": "前缀 re-(再，拉丁 re，同源 return 返回) + 词根 loc(地方，拉丁 locus，同源 local 本地的) + 后缀 -ation(名词) → 再换地方 → 搬迁、迁移。",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "rebate",
+      "ph": "/ˈriːbeɪt/",
+      "m": "(返还款)折扣；退还部分款项",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a partial refund or discount on a payment; to pay back part of a sum",
+      "defs": [
+        {
+          "cn": "(返还款)折扣",
+          "en": "a partial refund of money paid",
+          "pos": "n."
+        },
+        {
+          "cn": "退还部分款项",
+          "en": "to give back part of a payment",
+          "pos": "v."
+        },
+        {
+          "cn": "回扣",
+          "en": "a deduction or kickback in a transaction",
+          "pos": "n."
+        }
+      ],
+      "col": "tax rebate 退税 · mortgage rebate 房贷贴息 · rebate check 退款支票 · offer a rebate 提供返款",
+      "ex": "With a total-price threshold of 1.5 million yuan, analysts debated which cities are best positioned to absorb mortgage rebate subsidies.",
+      "exZh": "在150万元总价门槛下，分析师争论哪些城市最可能接住房贷贴息。",
+      "ex2": "The airline offered a small rebate to passengers whose National Day flights were rescheduled at short notice.",
+      "ex2Zh": "航空公司向国庆航班临时改期的乘客提供了一笔小额退款。",
+      "t": "同花顺报道，150万元总价门槛下，哪些城市更可能接住房贷贴息，成为楼市政策讨论的焦点，rebate 一词在财经标题里高频出现。\n日常场景：买家电时的 cash rebate（现金返款）和 discount（直接打折）不同，前者是先付后返，流程更长，别混淆。",
+      "root": "前缀 re-(再、回，拉丁 re，同源 return 返回、refund 退款) + 词根 bate(=battre 打击、减少，拉丁 battuere，同源 batter 连续击打) → 把已收的钱再打回去 → 退还部分款项",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "prepaid",
+      "ph": "/ˌpriːˈpeɪd/",
+      "m": "预付的；预缴的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "paid for in advance; relating to payment made before a service or good is received",
+      "defs": [
+        {
+          "cn": "预付的",
+          "en": "paid for before use or delivery",
+          "pos": "adj."
+        },
+        {
+          "cn": "预缴的",
+          "en": "paid in advance, as taxes or fees",
+          "pos": "adj."
+        },
+        {
+          "cn": "预付费的",
+          "en": "relating to a prepaid card or plan",
+          "pos": "adj."
+        }
+      ],
+      "col": "prepaid card 预付卡 · prepaid expense 预付费用 · prepaid tuition 预缴学费 · prepaid plan 预付费套餐",
+      "ex": "Wuhan's new property sales reform introduced a prepaid guarantee to replace part of the presale supervision funds.",
+      "exZh": "武汉商品房销售改革推出保函置换预售监管资金的新举措。",
+      "ex2": "Many holiday travelers topped up prepaid transport cards before the National Day travel rush began.",
+      "ex2Zh": "许多假期旅客在国庆出行高峰前给预付费交通卡充值。",
+      "t": "东方财富报道，武汉商品房销售改革落地，创新推出保函置换预售监管资金，装配式建筑与历史遗留问题项目单独划分过渡期，prepaid 类资金监管成焦点。\n职场类比：prepaid 就像提前充值的饭卡，钱先出去、服务后到，和 postpaid（后付费）正好一对反义词。",
+      "root": "前缀 pre-(在前、预先，拉丁 prae，同源 predict 预测、preview 预习) + 词根 paid(=pay 支付，拉丁 pacare 使满意、平息) → 在服务之前就付清 → 预付的",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "revamp",
+      "ph": "/ˌriːˈvæmp/",
+      "m": "改造；翻新；修订",
+      "c": "work",
+      "pos": "v.",
+      "en": "To renovate, restructure, or improve something, in business/workplace contexts",
+      "defs": [
+        {
+          "cn": "改造",
+          "en": "To give a new and improved structure or form to something",
+          "pos": "v."
+        },
+        {
+          "cn": "翻新",
+          "en": "To renovate or restore something to a better condition",
+          "pos": "v."
+        },
+        {
+          "cn": "修订",
+          "en": "To revise and update a plan, policy, or system",
+          "pos": "v."
+        }
+      ],
+      "col": "revamp a system (改造系统) · revamp the strategy (修订战略) · revamp operations (翻新运营) · revamp the website (改版网站)",
+      "ex": "Wuhan's commercial housing sales reform revamps pre-sale supervision by allowing guarantee letters to replace supervised funds.",
+      "exZh": "武汉商品房销售改革通过允许保函置换监管资金，修订了预售监管方式。",
+      "ex2": "Fuzhou's historic alleys have been revamped to draw crowds during the National Day holiday.",
+      "ex2Zh": "福州古厝经过改造，在国庆假期首日吸引大量人气。",
+      "t": "武汉商品房销售改革落地，以保函置换预售监管资金，等于 revamp 了开发商资金链的游戏规则；装配式建筑与历史遗留项目另设过渡期。\n职场用法：revamp 比 change 更有“系统性改造”的意味，适合描述流程、组织或产品的升级。",
+      "root": "前缀 re-（再、重新，同源 rebuild 重建） + 词根 vamp（修补鞋面，古法语 avant-pied 脚前部） → 重新换鞋面 → 翻新、改造。",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "midterm",
+      "ph": "/ˌmɪdˈtɜːrm/",
+      "m": "中期选举；期中的",
+      "c": "politics",
+      "pos": "n.",
+      "en": "A mid-term election, esp. US congressional elections; (adj.) occurring halfway through a term",
+      "defs": [
+        {
+          "cn": "中期选举",
+          "en": "US congressional elections held halfway through a president's term",
+          "pos": "n."
+        },
+        {
+          "cn": "期中的",
+          "en": "Happening in the middle of a period or term",
+          "pos": "adj."
+        },
+        {
+          "cn": "期中考试",
+          "en": "An examination given halfway through a school term",
+          "pos": "n."
+        }
+      ],
+      "col": "midterm elections (中期选举) · midterm exam (期中考试) · midterm review (中期评估) · midterm outlook (中期展望)",
+      "ex": "Trump said he might intensify pressure on Iran after the midterm elections, a remark that could affect oil and defense markets.",
+      "exZh": "特朗普称中期选举后可能加大对伊朗施压力度，此言可能影响石油和国防市场。",
+      "ex2": "International oil prices rose on October 1, partly on midterm-related political uncertainty.",
+      "ex2Zh": "国际油价10月1日上涨，部分原因与中期选举相关的政治不确定性有关。",
+      "t": "特朗普称中期选举后可能加大打击伊朗力度，midterm 一词随即成为财联社环球市场栏目的高频词，油价与风险资产随之波动。\n记忆法：mid（中间）+ term（任期）→ 任期过半的选举；校园里的 midterm exam 同理，学期过半的考试。",
+      "root": "古英语 mid（中间，同源 middle） + 拉丁 terminus（界限、任期，同源 terminate 终止） → 任期中间 → 中期选举、期中。",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "soothe",
+      "ph": "/suːð/",
+      "m": "安抚；缓和；减轻",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To calm, comfort, or reduce pain or tension, in market/mood contexts",
+      "defs": [
+        {
+          "cn": "安抚",
+          "en": "To calm someone or reduce their anxiety",
+          "pos": "v."
+        },
+        {
+          "cn": "缓和",
+          "en": "To make a tense situation less severe",
+          "pos": "v."
+        },
+        {
+          "cn": "减轻",
+          "en": "To relieve pain or discomfort",
+          "pos": "v."
+        }
+      ],
+      "col": "soothe markets (安抚市场) · soothe nerves (安抚情绪) · soothe concerns (缓解担忧) · soothe pain (减轻疼痛)",
+      "ex": "Thailand's nationwide disaster insurance system is designed to soothe households worried about flood losses.",
+      "exZh": "泰国全国灾害保险体系旨在安抚担忧洪灾损失的家庭。",
+      "ex2": "A 0.4% rise in the China concept index helped soothe investor nerves after Middle East tensions flared.",
+      "ex2Zh": "中概股龙头指数上涨0.4%，在中东紧张升温后帮助安抚了投资者情绪。",
+      "t": "泰国全国灾害保险体系正式实施，官方希望借此 soothe 民众对洪灾损失的焦虑；同日国际油价上涨，市场情绪则靠美股高开稍得安抚。\n对比记忆：soothe 侧重“让情绪平静”，ease 侧重“减轻痛苦或难度”，两者常可换用但语气不同。",
+      "root": "古英语 sōth（真实、温和）演变而来，与 soothe 同源的 sothe 表“抚慰”；语义由“使真实、使安定”发展为“安抚、缓和”。",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "pre-sale",
+      "ph": "/ˌpriː ˈseɪl/",
+      "m": "预售；预售期",
+      "c": "econ",
+      "pos": "n. / adj.",
+      "en": "the sale of goods or property before they are officially available; relating to such sales",
+      "defs": [
+        {
+          "cn": "预售",
+          "en": "selling property or goods before completion",
+          "pos": "n."
+        },
+        {
+          "cn": "预售的",
+          "en": "relating to advance sales",
+          "pos": "adj."
+        },
+        {
+          "cn": "预售期",
+          "en": "the period when advance sales occur",
+          "pos": "n."
+        }
+      ],
+      "col": "pre-sale funds 预售资金 · pre-sale regulation 预售监管 · pre-sale launch 预售启动 · pre-sale permit 预售许可证",
+      "ex": "Wuhan's reform allows developers to swap pre-sale supervision funds for bank guarantees, easing cash-flow strain.",
+      "exZh": "武汉改革允许开发商以银行保函置换预售监管资金，缓解现金流压力。",
+      "ex2": "The concert's pre-sale sold out in minutes, leaving fans scrambling for resale tickets.",
+      "ex2Zh": "演唱会预售几分钟售罄，粉丝转战二手票。",
+      "t": "武汉商品房销售改革落地，预售资金监管迎来创新——保函置换预售监管资金，装配式建筑与历史遗留问题项目单独划分过渡期，开发商现金流压力有望缓解。\n职场里 pre-sale 也常见：销售团队在 pre-sale 阶段就要摸清客户预算，别等签约才谈价格。",
+      "root": "前缀 pre-(在前，拉丁，同源 preview 预览) + 词根 sale(卖，古英语，同源 sell 出售) → 在正式开卖之前先卖 → 预售。",
+      "d": "2026-10-02"
+    },
+    {
+      "w": "hype",
+      "ph": "/haɪp/",
+      "m": "炒作；过度宣传",
+      "c": "entertainment",
+      "ex": "The hype around the release was intense.",
+      "exZh": "该片上映前的炒作非常热烈。",
+      "t": "还没看就被吹上天的那股风。",
+      "root": "hyper(过度) → 过度宣传",
+      "pos": "n.",
+      "en": "excessive publicity",
+      "col": "media hype · hype cycle",
+      "d": "2026-10-02"
     }
   ],
   "preview": {
-    "hook": "随着[disperse|disperse]在三大洲的长线投资者集体[sell-off|sell-off]科技股，某流媒体巨头盘前[earnings|earnings]预警显示用户流失速度已胜过成本削减成效，其董事会紧急[reboot|reboot]重组计划并更新高管[roster|roster]，同时撤下两位明星的[endorsement|endorsement]广告以平息舆论。 尽管长途飞行令人疲惫，但能亲临现场见证历史时刻的收获，往往[超过|outweigh]旅途中的种种不便，因此许多人不惜选择[长途|long-haul]航班远赴他乡。",
+    "hook": "一则关于[relocation|relocation]的财经消息震动市场：某大型开发商宣布将总部搬迁至成本更低的城市，同时推出[pre-sale|pre-sale]楼盘并承诺向预缴定金的买家提供额外返还款[rebate|rebate]，试图以[hype|hype]营销[soothe|soothe]因[midterm|midterm]临近而焦虑的投资者；此外，公司还计划[revamp|revamp]老旧项目以提升现金流。 消费者在购买这种[预付的|prepaid]电话卡时，应仔细核对余额与有效期，以免因疏忽而蒙受损失。",
     "impact": ""
   }
 }

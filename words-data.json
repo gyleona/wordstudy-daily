@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-02",
+  "updated_on": "2026-10-03",
   "quote": {
-    "en": "In every market surge, the prepared learner finds a new route.",
-    "zh": "在每一次市场飙升中，有准备的求学者总能找到新路。"
+    "en": "A steady hand turns every volatile week into a lesson.",
+    "zh": "沉稳之手，把每一个动荡之周都变成一课。"
   },
   "story": {
-    "en": "China's National Day holiday opened with packed cultural events and travel, as Fuzhou's ancient houses drew crowds on day one and a flag-raising ceremony was held at Wuyi Square. Rail operators added trains to Guiyang, Chongqing, Luzhou and Yibin, while the traffic bureau urged safety. In Wuhan, a housing sales [revamp|revamp] launched, allowing guarantee letters to replace [prepaid|prepaid] [pre-sale|pre-sale] supervision funds and creating transition periods for prefabricated and legacy projects. Analysts said the pre-sale reform could [soothe|soothe] buyer concerns and curb excessive [hype|hype] in the property market. Meanwhile, Trump said after the [midterm|midterm] elections he may intensify strikes on Iran, according to Cailianshe. A [relocation|relocation] of the US Dragon spacecraft sent a new crew to the International Space Station, and Thailand's national disaster insurance system took effect. For homebuyers, cities may offer mortgage [rebate|rebate] under a 1.5 million yuan total-price threshold. As the 2026 National Day box office passed 200 million yuan, the holiday mix of culture, travel and policy signals a busy fourth quarter ahead.",
-    "cn": "国庆假期首日，福州古厝人气旺盛，五一广场举行升国旗仪式，文化市场精彩纷呈。铁路部门加开贵阳、重庆、泸州、宜宾等方向列车，公安部交管局提示出行安全。武汉商品房销售改革落地，创新推出保函置换[预售|pre-sale]监管资金，装配式建筑、历史遗留问题项目单独划分过渡期。分析认为，此次预售监管[改造|revamp]有助于[安抚|soothe]购房者情绪，抑制市场过度[炒作|hype]。国际方面，特朗普称[中期选举|midterm]后可能加大力度打击伊朗；美国“龙”飞船完成新一轮宇航员[搬迁|relocation]任务，泰国全国灾害保险体系正式实施。房贷贴息话题受关注，在150万元总价门槛下，部分城市可能推出返还政策。2026国庆档票房破2亿，多部新作看点十足；亚运会七人制橄榄球开赛，中国男、女队小组赛两连胜。预缴资金监管与假期消费共振，为四季度经济开局注入动力。 为了吸引顾客，这家店推出了一项优惠：如果顾客提前[预付|prepaid]全款，就能在结账时获得一笔可观的[退款|rebate]。"
+    "en": "G7 agrees to release 100 million barrels of energy [reserve|reserve] in exchange for the US dropping its [diesel|diesel] export [ban|ban], as oil prices [soar|soar] more than 4% after the US sends additional troops to the Middle East and China suspends refined fuel exports. Meanwhile, a tanker in the Strait of Hormuz was hit by an unidentified projectile. On the domestic front, China's railway passenger volume hit a record high on the first day of the National Day holiday, and highway charging volume rose 60.4% year-on-year, signaling a [revive|revive] in cultural tourism consumption shifting from sightseeing to deep experiences. However, the National Day box office surpassed 300 million yuan, but cinemas remain [understaffed|understaffed] during the peak season. The G7's reserve release aims to [offset|offset] supply disruptions, yet analysts warn that such measures could [stifle|stifle] market-driven investment in energy. Looking ahead, the holiday consumption momentum and geopolitical tensions will test global economic resilience.",
+    "cn": "七国集团同意联手释放1亿桶能源储备，以换取美国放弃[柴油|diesel]出口[禁令|ban]。此前美国增兵中东叠加中国暂停成品油出口，国际油价大涨逾4%，一艘油轮在霍尔木兹海峡遭不明发射物击中。此举旨在[抵消|offset]供应中断，但分析人士警告可能[扼制|stifle]市场驱动的能源投资。国内方面，国庆假期首日中国铁路创单日旅客发送量历史新高，高速公路充电量同比增长60.4%，文旅消费从“打卡观光”转向“深度体验”，释放[复苏|revive]信号。国庆档票房破3亿，但影院在旺季仍面临人手不足问题。展望后市，假期消费动能与地缘紧张将考验全球经济韧性。 由于人手不足[人手不足|understaffed]，这家餐厅只接受提前预订[预订|reserve]的客人，导致周末的餐位价格飞涨[飞涨|soar]。"
   },
   "words": [
     {
@@ -11446,10 +11446,269 @@
       "en": "excessive publicity",
       "col": "media hype · hype cycle",
       "d": "2026-10-02"
+    },
+    {
+      "w": "diesel",
+      "ph": "/ˈdiːzl/",
+      "m": "柴油；柴油发动机",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a heavy oil used as fuel in engines; a vehicle or engine that uses this fuel",
+      "defs": [
+        {
+          "cn": "柴油",
+          "en": "heavy petroleum used as fuel in engines",
+          "pos": "n."
+        },
+        {
+          "cn": "柴油车/柴油机",
+          "en": "a vehicle or engine powered by diesel",
+          "pos": "n."
+        }
+      ],
+      "col": "diesel fuel 柴油 · diesel engine 柴油发动机 · diesel ban 柴油禁令 · diesel exports 柴油出口",
+      "ex": "The G7 agreed to release 100 million barrels of energy reserves in exchange for Washington dropping its diesel export ban.",
+      "exZh": "七国集团同意释放一亿桶能源储备，以换取美国放弃柴油出口禁令。",
+      "ex2": "Trucking firms are bracing for higher costs as diesel prices climb on tighter global supply.",
+      "ex2Zh": "随着全球供应趋紧推高柴油价格，货运企业正为成本上升做准备。",
+      "t": "G7 同意联手释储一亿桶，换取美国放弃 diesel 出口禁令；与此同时美国增兵中东、中国暂停成品油出口，国际油价大涨逾4%，diesel 供应成为焦点。\n职场里 diesel 常作比喻：a diesel engine 形容『起步慢但耐力足』的同事，与 sprint 型人才形成对照，记住这个词就能一箭双雕。",
+      "root": "源自德语 Diesel，为纪念发明柴油机的德国工程师 Rudolf Diesel(1892年)，由人名直接转为普通名词，属『专名通用化』，无前缀后缀可拆",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "reserve",
+      "ph": "/rɪˈzɜːv/",
+      "m": "储备(物)；v. 预订；保留",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a supply kept for future use; to arrange for something to be kept for you; to keep or hold back",
+      "defs": [
+        {
+          "cn": "储备(物)",
+          "en": "a supply of something kept for future use",
+          "pos": "n."
+        },
+        {
+          "cn": "预订；预留",
+          "en": "to arrange for a seat, room or table to be kept",
+          "pos": "v."
+        },
+        {
+          "cn": "保留(意见)",
+          "en": "to keep or hold back, as in reserve judgment",
+          "pos": "v."
+        }
+      ],
+      "col": "energy reserves 能源储备 · foreign-exchange reserves 外汇储备 · reserve a table 预订餐桌 · reserve judgment 暂不表态",
+      "ex": "G7 members agreed to release 100 million barrels from their energy reserves to cool oil prices.",
+      "exZh": "七国集团成员同意从其能源储备中释放一亿桶以平抑油价。",
+      "ex2": "The central bank said it would keep sufficient reserves to defend the currency against sudden outflows.",
+      "ex2Zh": "央行表示将保留充足储备，以抵御资金突然外流。",
+      "t": "G7 同意联手释放一亿桶 energy reserve，换取美国放弃柴油出口禁令；这一 reserve 释放重创原油价格，也考验各国财政缓冲。\n职场用法：I'd like to reserve a meeting room 是日常，reserve judgment 则是『暂不下结论』，与『储备』同根，都是『先留着』。",
+      "root": "前缀 re-(再、向后，拉丁，同源 return 返回、recall 召回) + 词根 serv(=keep 保持，拉丁 servare，同源 preserve 保存、observe 观察) → 留着备用 → 储备、预订",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "understaffed",
+      "ph": "/ˌʌndəˈstɑːft/",
+      "m": "人手不足的；人员配备不够的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "having too few employees to do the work properly; used in workplace/HR contexts",
+      "defs": [
+        {
+          "cn": "人手不足的",
+          "en": "not having enough staff to operate effectively",
+          "pos": "adj."
+        },
+        {
+          "cn": "人员配备不够的",
+          "en": "lacking sufficient personnel for a task or shift",
+          "pos": "adj."
+        },
+        {
+          "cn": "缺编的",
+          "en": "below the required staffing level, in HR or service contexts",
+          "pos": "adj."
+        }
+      ],
+      "col": "chronically understaffed 长期人手不足 · understaffed team 人手不足的团队 · understaffed hospital 缺编的医院 · badly understaffed 严重缺员",
+      "ex": "During the National Day travel rush, some rail and highway service points were understaffed despite record passenger volumes.",
+      "exZh": "国庆出行高峰期间，尽管客流量创纪录，一些铁路和公路服务点仍人手不足。",
+      "ex2": "The firm's HR warned that the night shift would remain understaffed unless two more technicians were hired.",
+      "ex2Zh": "该公司人力资源部警告，除非再招两名技术员，夜班将持续人手不足。",
+      "t": "国庆假期首日中国铁路创单日旅客发送量历史新高，高速公路充电量同比增长60.4%，服务端普遍 understaffed，考验应急调度。\n职场记忆法：understaffed 强调人数不够，overworked 强调个人过劳，两个词常成对出现——团队 understaffed，员工就 overworked。",
+      "root": "前缀 under-(不足、在下面，古英语 under，同源 undermine 削弱) + 词根 staff(员工、全体人员，古英语 stæf，同源 staff 全体员工) + 后缀 -ed(形容词，古英语) → 员工数量在所需之下 → 人手不足的",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "ban",
+      "ph": "/bæn/",
+      "m": "禁令；禁止(动词)",
+      "c": "politics",
+      "pos": "n./v.",
+      "en": "an official or legal prohibition; to officially forbid something",
+      "defs": [
+        {
+          "cn": "禁令",
+          "en": "an official order that forbids something",
+          "pos": "n."
+        },
+        {
+          "cn": "禁止，取缔",
+          "en": "to officially forbid something",
+          "pos": "v."
+        },
+        {
+          "cn": "谴责(古义)",
+          "en": "to curse or condemn (archaic)",
+          "pos": "v."
+        }
+      ],
+      "col": "impose a ban 实施禁令 · lift a ban 解除禁令 · export ban 出口禁令 · ban on smoking 禁烟令",
+      "ex": "The G7 agreed to release 100 million barrels of energy reserves in exchange for the US dropping its diesel export ban.",
+      "exZh": "七国集团同意释放1亿桶能源储备，以换取美国放弃柴油出口禁令。",
+      "ex2": "Several cities have imposed a ban on new ride-hailing licenses to ease traffic congestion.",
+      "ex2Zh": "几个城市已实施新网约车牌照禁令，以缓解交通拥堵。",
+      "t": "美国柴油出口 ban 成为G7能源谈判的筹码：G7同意释放1亿桶储备换取美方取消禁令，同时中国暂停成品油出口，全球油品贸易格局生变。\n职场里 ban 也常用：办公室 ban 一次性塑料杯、ban 加班邮件，比 prohibit 更短促有力。",
+      "root": "源自古英语 bannan(召唤、宣告)，与 banns(结婚公告)同源 → 公开宣告禁止 → 禁令、禁止",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "soar",
+      "ph": "/sɔː(r)/",
+      "m": "飙升；猛增；翱翔",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to rise quickly to a high level; to fly high in the air",
+      "defs": [
+        {
+          "cn": "飙升，猛增",
+          "en": "to increase quickly to a high level",
+          "pos": "v."
+        },
+        {
+          "cn": "翱翔，高飞",
+          "en": "to fly high in the sky",
+          "pos": "v."
+        },
+        {
+          "cn": "耸立",
+          "en": "to rise to a great height",
+          "pos": "v."
+        }
+      ],
+      "col": "prices soar 价格飙升 · soaring demand 激增的需求 · soar above 远高于 · stocks soar 股价大涨",
+      "ex": "Oil prices soared more than 4% after the US sent more troops to the Middle East and China suspended refined fuel exports.",
+      "exZh": "在美国向中东增兵且中国暂停成品油出口后，油价飙升逾4%。",
+      "ex2": "Electricity use on expressways soared 60.4% year-on-year on the first day of the National Day holiday.",
+      "ex2Zh": "国庆假期首日高速公路充电量同比增长60.4%。",
+      "t": "美国增兵中东叠加中国暂停成品油出口，国际油价大涨逾4%，soar 精准描绘这种'一飞冲天'的涨势，常与 prices、demand、stocks 搭配。\n国庆首日高速充电量同比增长60.4%，同样可用 soar。反义词是 plunge，一涨一跌成对记。",
+      "root": "源自古法语 essorer(展翅高飞)，进一步源自拉丁 ex-(出) + aura(气流) → 借着气流飞出去 → 翱翔 → 飙升",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "revive",
+      "ph": "/rɪˈvaɪv/",
+      "m": "复苏；重振；使苏醒",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to bring back into use, activity, or existence; to restore to life or consciousness",
+      "defs": [
+        {
+          "cn": "复苏，重振",
+          "en": "to bring back into activity or use",
+          "pos": "v."
+        },
+        {
+          "cn": "使苏醒",
+          "en": "to restore to consciousness or life",
+          "pos": "v."
+        },
+        {
+          "cn": "重新流行",
+          "en": "to become popular again",
+          "pos": "v."
+        }
+      ],
+      "col": "revive the economy 重振经济 · revive demand 提振需求 · revive a tradition 复兴传统 · revive talks 重启谈判",
+      "ex": "Wuhan rolled out new property policies aimed at reviving its sluggish housing market.",
+      "exZh": "武汉发布楼市新政，旨在重振低迷的房地产市场。",
+      "ex2": "The National Day box office surpassed 300 million yuan, reviving hopes for the holiday film season.",
+      "ex2Zh": "国庆档票房突破3亿元，重燃了假期电影市场的希望。",
+      "t": "武汉发布楼市新政，意在 revive 当地楼市；国庆档票房破3亿、文旅消费从'打卡观光'转向'深度体验'，也在 revive 文化消费。revive 强调'由衰转兴'。\n记忆：re-(再) + vive(活，同源 survive 幸存) → 再活过来 → 复苏。与 recover 相比，revive 更强调外力推动。",
+      "root": "前缀 re-(再、回，拉丁，同源 return 返回) + 词根 viv(生命、活，拉丁 vivere，同源 survive 幸存、vivid 生动的) → 重新活过来 → 复苏、重振",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "offset",
+      "ph": "/ˌɒfˈset/",
+      "m": "(v.)抵消；弥补 (n.)抵消项",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to counterbalance or compensate for something; a counterbalancing factor or amount, esp. in finance and policy",
+      "defs": [
+        {
+          "cn": "抵消；弥补",
+          "en": "to counterbalance or compensate for an effect",
+          "pos": "v."
+        },
+        {
+          "cn": "抵消项；补偿",
+          "en": "a factor or amount that counterbalances something",
+          "pos": "n."
+        },
+        {
+          "cn": "使偏离中心",
+          "en": "to make something off-center, as in printing",
+          "pos": "v."
+        }
+      ],
+      "col": "offset losses 弥补亏损 · carbon offset 碳补偿 · offset the impact 抵消影响 · offsetting position 对冲头寸",
+      "ex": "G7's plan to release 100 million barrels aims to offset the oil price spike caused by US troop deployments to the Middle East.",
+      "exZh": "七国集团释放1亿桶储备的计划，旨在抵消美国增兵中东引发的油价飙升。",
+      "ex2": "The company introduced flexible hours to offset the drop in productivity after the layoffs.",
+      "ex2Zh": "公司推出弹性工时，以弥补裁员后生产力的下降。",
+      "t": "G7 同意联手释放1亿桶能源储备，换取美国放弃柴油出口禁令；同时美国增兵中东叠加中国暂停成品油出口，国际油价大涨逾4%——释储正是为了 offset 供给冲击。\n职场里也常用：加班 offset 请假时间，或者用奖金 offset 通胀带来的购买力损失，比单纯 compensate 更强调“对冲”的动作感。",
+      "root": "古英语前缀 of-(离开、相反，同源 off) + 动词 set(放置，古英语 settan) → 放在相反位置 → 抵消、补偿。名词形式与动词同形，金融里常指“对冲项”。",
+      "d": "2026-10-03"
+    },
+    {
+      "w": "stifle",
+      "ph": "/ˈstaɪfl/",
+      "m": "(v.)扼制；压制；使窒息",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to prevent something from developing or being expressed; to make someone unable to breathe properly",
+      "defs": [
+        {
+          "cn": "扼制；压制",
+          "en": "to prevent something from growing or being expressed",
+          "pos": "v."
+        },
+        {
+          "cn": "使窒息",
+          "en": "to make breathing difficult or impossible",
+          "pos": "v."
+        },
+        {
+          "cn": "抑制（情感/反应）",
+          "en": "to hold back a yawn, laugh, or emotion",
+          "pos": "v."
+        }
+      ],
+      "col": "stifle growth 扼制增长 · stifle competition 压制竞争 · stifle a yawn 忍住哈欠 · stifle dissent 压制异议",
+      "ex": "Analysts warn that the US diesel export ban could stifle global refining capacity and raise costs for developing economies.",
+      "exZh": "分析人士警告，美国柴油出口禁令可能扼制全球炼油产能，并推高发展中经济体的成本。",
+      "ex2": "Strict regulations on data flows may stifle innovation in cross-border e-commerce.",
+      "ex2Zh": "严格的数据流动监管可能扼制跨境电商的创新。",
+      "t": "G7 以释放1亿桶储备换取美国放弃柴油出口禁令，背后正是担心禁令会 stifle 全球炼油产能、推高成品油价格。\n职场中，过度审批流程会 stifle 员工的主动性；与 suppress 相比，stifle 更强调“让本该生长的东西无法呼吸”，画面感更强。",
+      "root": "源自古法语 estouffer(使窒息)，可能与希腊语 styphein(收缩)同源 → 使无法呼吸 → 扼制、压制。同源词包括 stifling(令人窒息的)。",
+      "d": "2026-10-03"
     }
   ],
   "preview": {
-    "hook": "一则关于[relocation|relocation]的财经消息震动市场：某大型开发商宣布将总部搬迁至成本更低的城市，同时推出[pre-sale|pre-sale]楼盘并承诺向预缴定金的买家提供额外返还款[rebate|rebate]，试图以[hype|hype]营销[soothe|soothe]因[midterm|midterm]临近而焦虑的投资者；此外，公司还计划[revamp|revamp]老旧项目以提升现金流。 消费者在购买这种[预付的|prepaid]电话卡时，应仔细核对余额与有效期，以免因疏忽而蒙受损失。",
+    "hook": "全球能源市场再掀波澜：受主要产油国炼厂意外停工影响，[diesel|diesel]供应骤然收紧，而北半球冬季储备需求提前释放，[ban|ban]尚未解除之际，多地加油站已现排队长龙；与此同时，港口与铁路系统因人手不足导致周转效率骤降，运费与油价双双[soar|soar]，市场原本期待的[revive|revive]势头正被高企的物流成本所[offset|offset]，若各国继续以行政手段[stifle|stifle]价格信号，供需错配恐将进一步加剧。 由于人手不足，这家餐厅只好保留一部分座位作为预订区，不接待临时到店的客人。[保留|reserve][人手不足|understaffed]",
     "impact": ""
   }
 }

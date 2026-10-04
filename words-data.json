@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-03",
+  "updated_on": "2026-10-04",
   "quote": {
-    "en": "A steady hand turns every volatile week into a lesson.",
-    "zh": "沉稳之手，把每一个动荡之周都变成一课。"
+    "en": "Turn every setback into a stepping stone, not a stop sign.",
+    "zh": "把每一次挫折变成垫脚石，而不是停止牌。"
   },
   "story": {
-    "en": "G7 agrees to release 100 million barrels of energy [reserve|reserve] in exchange for the US dropping its [diesel|diesel] export [ban|ban], as oil prices [soar|soar] more than 4% after the US sends additional troops to the Middle East and China suspends refined fuel exports. Meanwhile, a tanker in the Strait of Hormuz was hit by an unidentified projectile. On the domestic front, China's railway passenger volume hit a record high on the first day of the National Day holiday, and highway charging volume rose 60.4% year-on-year, signaling a [revive|revive] in cultural tourism consumption shifting from sightseeing to deep experiences. However, the National Day box office surpassed 300 million yuan, but cinemas remain [understaffed|understaffed] during the peak season. The G7's reserve release aims to [offset|offset] supply disruptions, yet analysts warn that such measures could [stifle|stifle] market-driven investment in energy. Looking ahead, the holiday consumption momentum and geopolitical tensions will test global economic resilience.",
-    "cn": "七国集团同意联手释放1亿桶能源储备，以换取美国放弃[柴油|diesel]出口[禁令|ban]。此前美国增兵中东叠加中国暂停成品油出口，国际油价大涨逾4%，一艘油轮在霍尔木兹海峡遭不明发射物击中。此举旨在[抵消|offset]供应中断，但分析人士警告可能[扼制|stifle]市场驱动的能源投资。国内方面，国庆假期首日中国铁路创单日旅客发送量历史新高，高速公路充电量同比增长60.4%，文旅消费从“打卡观光”转向“深度体验”，释放[复苏|revive]信号。国庆档票房破3亿，但影院在旺季仍面临人手不足问题。展望后市，假期消费动能与地缘紧张将考验全球经济韧性。 由于人手不足[人手不足|understaffed]，这家餐厅只接受提前预订[预订|reserve]的客人，导致周末的餐位价格飞涨[飞涨|soar]。"
+    "en": "Ukraine will intensify [strike|strike] operations against Russian [refinery|refinery] targets, President Zelensky said, as G7 leaders led by Macron urged coordinated action on diesel prices and released strategic reserves, sending international oil prices lower. On the economic front, September [nonfarm|nonfarm] [payroll|payroll] data prompted institutions to declare it \"killed\" October rate-hike expectations, though the \"new Fed wire\" noted the report did not change the Fed's stance, with September CPI now more important. The National Day holiday box office surpassed 550 million yuan, with total annual [box-office|box-office] revenue breaking 30 billion yuan as family films led the [quarterly|quarterly] holiday slate. China's deepwater oil and gas exploration achieved a breakthrough at the Liuhua oilfield. To [redistribute|redistribute] labor market gains, policymakers are emphasizing [reskilling|reskilling] programs, while the National Day holiday payroll at Guangzhou Railway is expected to send 2.494 million passengers. Looking ahead, markets will watch the September CPI and further G7 energy coordination.",
+    "cn": "全球市场情绪偏向看涨，投资者正在消化复杂的经济信号。能源领域，墨西哥湾沿岸一家大型[炼油厂|refinery]停工导致燃料供应收紧，推高汽油期货价格。与此同时，最新非农就业报告显示就业增长放缓，引发关于是否应[重新分配|redistribute]财政刺激以扶持困难地区的辩论。数据还显示制造业[工资单|payroll]数量下降，但季度财报季表现超预期，科技和娱乐板块领涨。值得注意的是，全球[票房|box-office]收入同比增长15%，主要受亚洲大片推动。然而，劳工骚动持续发酵，多个物流枢纽可能发生[罢工|strike]，威胁供应链。为解决结构性失业，政策制定者正强调针对失业工人的[再培训|reskilling]计划。展望未来，市场将关注央行指引和即将公布的通胀数据以寻找方向。"
   },
   "words": [
     {
@@ -11705,10 +11705,274 @@
       "t": "G7 以释放1亿桶储备换取美国放弃柴油出口禁令，背后正是担心禁令会 stifle 全球炼油产能、推高成品油价格。\n职场中，过度审批流程会 stifle 员工的主动性；与 suppress 相比，stifle 更强调“让本该生长的东西无法呼吸”，画面感更强。",
       "root": "源自古法语 estouffer(使窒息)，可能与希腊语 styphein(收缩)同源 → 使无法呼吸 → 扼制、压制。同源词包括 stifling(令人窒息的)。",
       "d": "2026-10-03"
+    },
+    {
+      "w": "redistribute",
+      "ph": "/ˌriːdɪˈstrɪbjuːt/",
+      "m": "重新分配；再分配",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to share something out again in a different way, esp. wealth, resources, or work among people or regions",
+      "defs": [
+        {
+          "cn": "重新分配",
+          "en": "to distribute again in a different way",
+          "pos": "v."
+        },
+        {
+          "cn": "再分配(财富)",
+          "en": "to share wealth or resources more evenly",
+          "pos": "v."
+        },
+        {
+          "cn": "重新分派(工作)",
+          "en": "to reassign tasks or roles among people",
+          "pos": "v."
+        }
+      ],
+      "col": "redistribute wealth 重新分配财富 · redistribute resources 重新配置资源 · redistribute income 再分配收入 · redistribute work 重新分派工作",
+      "ex": "The new tax plan aims to redistribute income from high earners to low-income families through credits and subsidies.",
+      "exZh": "新税收计划旨在通过抵免和补贴，将高收入者的收入再分配给低收入家庭。",
+      "ex2": "When the team lost two members, the manager had to redistribute the workload across the remaining staff.",
+      "ex2Zh": "团队少了两名成员后，经理不得不把工作量重新分配给其余员工。",
+      "t": "工行长春分行的房贷贴息新政，本质上是用财政工具 redistribute 购房成本；而在国际层面，G7 讨论释放战略储备，也被视为在成员国间 redistribute 能源压力。\n职场里，项目临时缩编时，leader 的第一反应往往是 redistribute tasks，而不是招人——学会主动认领关键任务，比被动等待分配更有利。",
+      "root": "前缀 re-(再、重新，拉丁 re，同源 repeat 重复、renew 更新) + 前缀 dis-(分开，拉丁 dis，同源 distribute 分配、disperse 分散) + 词根 tribut(=给予，拉丁 tribuere，同源 tribute 贡品、contribute 贡献) → 再次分开给予 → 重新分配",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "refinery",
+      "ph": "/rɪˈfaɪnəri/",
+      "m": "炼油厂；精炼厂",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an industrial plant where crude oil or other raw materials are purified and processed",
+      "defs": [
+        {
+          "cn": "炼油厂",
+          "en": "a plant that turns crude oil into fuel",
+          "pos": "n."
+        },
+        {
+          "cn": "精炼厂",
+          "en": "a facility that purifies metals or sugar",
+          "pos": "n."
+        },
+        {
+          "cn": "提炼设备",
+          "en": "equipment used for refining substances",
+          "pos": "n."
+        }
+      ],
+      "col": "oil refinery 炼油厂 · refinery capacity 炼油产能 · refinery strike 炼油厂罢工 · refinery output 炼油产量",
+      "ex": "Zelensky said Ukraine will intensify strikes on Russian refineries, a move that could tighten global fuel supply.",
+      "exZh": "泽连斯基称乌克兰将加强对俄炼油厂打击，此举可能收紧全球燃料供应。",
+      "ex2": "A major refinery outage in the Gulf would push diesel prices higher and complicate G7 efforts to calm markets.",
+      "ex2Zh": "海湾地区一家大型炼油厂停产将推高柴油价格，并使七国集团稳定市场的努力复杂化。",
+      "t": "今日热点：泽连斯基称乌克兰将加强对俄炼油厂打击；与此同时国际油价下跌，七国集团释放战略储备缓解压力，马克龙呼吁协调应对柴油价格上涨。refinery 成为能源供给链上的敏感节点。\n职场联想：refinery 像公司的“加工车间”，原料进去、成品出来；记住 refine 是提炼，refinery 是提炼的地方，类似 factory 与 fabricate 的关系。",
+      "root": "前缀 re-(再、反复，拉丁 re，同源 repeat 重复) + 词根 fin(=end 精细，拉丁 finis，同源 fine 精细的) + 后缀 -ery(场所，法语 -erie) → 反复提纯的地方 → 炼油厂、精炼厂。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "payroll",
+      "ph": "/ˈpeɪroʊl/",
+      "m": "工资单；在职员工总数",
+      "c": "work",
+      "pos": "n.",
+      "en": "the list of employees and the total amount of wages paid; the total number of people employed",
+      "defs": [
+        {
+          "cn": "工资单",
+          "en": "a list of employees and their wages",
+          "pos": "n."
+        },
+        {
+          "cn": "在职员工总数",
+          "en": "the total number of people employed",
+          "pos": "n."
+        },
+        {
+          "cn": "工资总额",
+          "en": "the total amount of money paid as wages",
+          "pos": "n."
+        }
+      ],
+      "col": "on the payroll 在职 · payroll tax 工资税 · payroll system 工资系统 · cut payroll 裁员",
+      "ex": "The September nonfarm payroll report was seen by institutions as killing October rate-hike expectations.",
+      "exZh": "机构认为9月非农就业报告“杀死”了10月加息预期。",
+      "ex2": "The Federal Reserve's new communication channel said the payroll report did not change its stance, with September CPI more important.",
+      "ex2Zh": "“新美联储通讯社”称就业报告未改联储立场，9月CPI更重要。",
+      "t": "今日热点：机构高呼9月非农 payroll 报告“杀死”10月加息预期；“新美联储通讯社”称就业报告未改联储立场，9月CPI更重要。就业数据成为央行政策与市场定价的核心变量。\n职场联想：公司里常说 be on the payroll（在职），与 headcount 相近；payroll 侧重工资名单，headcount 侧重人数，招聘冻结时常说 freeze payroll。",
+      "root": "pay(支付，古英语 payan，同源 payment 支付) + roll(名单、卷轴，古法语 rolle，同源 roll 卷) → 支付名单 → 工资单、在职员工总数。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "box-office",
+      "ph": "/ˈbɑːks ɔːfɪs/",
+      "m": "票房；票房收入",
+      "c": "news",
+      "pos": "n.",
+      "en": "the place where tickets are sold; the total amount of money a film or show earns",
+      "defs": [
+        {
+          "cn": "票房",
+          "en": "the total money a film earns",
+          "pos": "n."
+        },
+        {
+          "cn": "售票处",
+          "en": "the ticket office at a theatre",
+          "pos": "n."
+        },
+        {
+          "cn": "票房成功",
+          "en": "a commercial success at the box office",
+          "pos": "n."
+        }
+      ],
+      "col": "box-office hit 票房大卖 · box-office revenue 票房收入 · top the box office 登顶票房 · box-office record 票房纪录",
+      "ex": "China's National Day holiday box office surpassed 550 million yuan, with family films leading the way.",
+      "exZh": "国庆档总票房破5.5亿元，合家欢影片成为观影亮点。",
+      "ex2": "The total box office for the year has topped 30 billion yuan, boosted by holiday releases and strong word of mouth.",
+      "ex2Zh": "年度总票房破300亿元，受假日档期和良好口碑推动。",
+      "t": "今日热点：国庆档总票房破5.5亿元，合家欢影片成为亮点；年度总票房破300亿元。box-office 成为文娱消费复苏的直观指标，与假日经济、旅游热度相互呼应。\n职场联想：公司项目也可说 box-office success，比喻“叫好又叫座”；与 revenue 相比，box-office 专指影剧票房，更形象。",
+      "root": "box(包厢、盒子，古英语 box，同源 box 盒) + office(办公室、售票处，拉丁 officium，同源 office 办公室) → 剧院包厢售票处 → 票房、票房收入。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "strike",
+      "ph": "/straɪk/",
+      "m": "(罢工)；打击；击中",
+      "c": "work",
+      "pos": "n./v.",
+      "en": "a refusal to work as a protest; to hit or attack; in labor/news contexts",
+      "defs": [
+        {
+          "cn": "罢工",
+          "en": "a collective refusal to work as a protest",
+          "pos": "n."
+        },
+        {
+          "cn": "打击",
+          "en": "to attack or hit with force",
+          "pos": "v."
+        },
+        {
+          "cn": "击中",
+          "en": "to hit a target",
+          "pos": "v."
+        }
+      ],
+      "col": "go on strike 举行罢工 · strike action 罢工行动 · strike a deal 达成交易 · strike price 行权价",
+      "ex": "Zelensky said Ukraine will intensify strikes on Russian oil refineries, affecting global energy markets.",
+      "exZh": "泽连斯基称乌克兰将加强对俄炼油厂打击，影响全球能源市场。",
+      "ex2": "The union threatened to strike if the company did not improve wages and working conditions.",
+      "ex2Zh": "工会威胁称，如果公司不改善工资和工作条件，将举行罢工。",
+      "t": "泽连斯基称乌克兰将加强对俄炼油厂打击，以色列空袭加沙，沙特拦截也门胡塞武装导弹，strike 在军事与能源市场交织。\n职场中 strike 也指罢工：工会与资方谈判破裂时，strike 成为工人争取权益的最后手段。",
+      "root": "源自古英语 strican（抚摸、移动），后演变为『打击、罢工』 → 从物理击打扩展到劳工集体行动。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "quarterly",
+      "ph": "/ˈkwɔːrtərli/",
+      "m": "季度的；每季一次地",
+      "c": "econ",
+      "pos": "adj. / adv.",
+      "en": "Happening or produced once every three months; a publication issued four times a year.",
+      "defs": [
+        {
+          "cn": "季度的",
+          "en": "occurring every three months",
+          "pos": "adj."
+        },
+        {
+          "cn": "每季一次地",
+          "en": "once every quarter",
+          "pos": "adv."
+        },
+        {
+          "cn": "季刊",
+          "en": "a magazine published four times a year",
+          "pos": "n."
+        }
+      ],
+      "col": "quarterly report 季度报告 · quarterly earnings 季度收益 · quarterly meeting 季度会议 · quarterly dividend 季度股息",
+      "ex": "The company's quarterly earnings beat expectations, sending its stock up 5% in after-hours trading.",
+      "exZh": "该公司季度收益超出预期，盘后交易中股价上涨5%。",
+      "ex2": "We hold a quarterly review to assess our progress against annual goals.",
+      "ex2Zh": "我们每季度进行一次审查，以评估年度目标的进展情况。",
+      "t": "今日，多家科技巨头发布季度财报，quarterly 数据成为市场焦点。例如，某电商平台季度营收同比增长20%，但利润受物流成本拖累。投资者密切关注美联储对季度通胀数据的解读。\n职场中，quarterly 常用于绩效评估：'We need to finalize the quarterly budget by Friday.' 记住：quarterly 强调每三个月一次，与 annual（年度）和 monthly（月度）相对。",
+      "root": "词根 quart-（四，拉丁语 quartus，同源 quarter 四分之一、quartet 四重奏） + 后缀 -ly（每…一次，古英语 -lice） → 每四分之一年一次 → 季度的。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "reskilling",
+      "ph": "/ˌriːˈskɪlɪŋ/",
+      "m": "再培训；技能重塑",
+      "c": "work",
+      "pos": "n.",
+      "en": "The process of learning new skills, especially for a new job or to adapt to changes.",
+      "defs": [
+        {
+          "cn": "再培训",
+          "en": "training for a new skill or job",
+          "pos": "n."
+        },
+        {
+          "cn": "技能重塑",
+          "en": "the act of learning new skills",
+          "pos": "n."
+        },
+        {
+          "cn": "重新学习",
+          "en": "the process of acquiring new abilities",
+          "pos": "n."
+        }
+      ],
+      "col": "reskilling program 再培训计划 · workforce reskilling 劳动力再培训 · reskilling initiative 技能重塑倡议 · digital reskilling 数字技能再培训",
+      "ex": "The government launched a $2 billion reskilling program to help workers transition to green jobs.",
+      "exZh": "政府启动了一项20亿美元的再培训计划，帮助工人转向绿色就业。",
+      "ex2": "Continuous reskilling is essential for professionals to stay relevant in a rapidly changing job market.",
+      "ex2Zh": "持续再培训对于专业人士在快速变化的就业市场中保持竞争力至关重要。",
+      "t": "今日，某国际组织发布报告称，到2030年全球将有超过10亿工人需要 reskilling 以适应自动化和人工智能的冲击。报告呼吁各国政府和企业加大投入，否则将面临大规模失业。\n职场中，reskilling 与 upskilling 不同：前者是学习全新技能以转岗，后者是提升现有技能。例如，会计学习编程属于 reskilling，而会计学习新税法属于 upskilling。",
+      "root": "前缀 re-（再次，拉丁语 re-） + 词根 skill（技能，古诺斯语 skil） + 后缀 -ing（动名词） → 再次学习技能 → 再培训。同源词：skillful 熟练的、deskill 去技能化。",
+      "d": "2026-10-04"
+    },
+    {
+      "w": "nonfarm",
+      "ph": "/ˌnɒnˈfɑːm/",
+      "m": "(adj.)非农业的(尤指非农就业数据)",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "not related to farming; used esp. of US nonfarm payrolls, a key jobs report",
+      "defs": [
+        {
+          "cn": "非农业的",
+          "en": "not connected with agriculture or farming",
+          "pos": "adj."
+        },
+        {
+          "cn": "非农就业数据",
+          "en": "the US monthly jobs report excluding farm workers",
+          "pos": "adj."
+        },
+        {
+          "cn": "非农部门",
+          "en": "the part of an economy outside agriculture",
+          "pos": "adj."
+        }
+      ],
+      "col": "nonfarm payrolls 非农就业人数 · nonfarm data 非农数据 · the September nonfarm report 9月非农报告 · nonfarm employment 非农就业",
+      "ex": "Institutions said the September nonfarm report 'killed' October rate-hike expectations, though the Fed's stance was unchanged.",
+      "exZh": "机构称9月非农报告“杀死”了10月加息预期，但美联储立场未改。",
+      "ex2": "Traders often reposition portfolios minutes after the nonfarm payrolls figure is released.",
+      "ex2Zh": "交易员常在非农就业数据公布后几分钟内调整投资组合。",
+      "t": "机构高呼9月非农“杀死”10月加息预期，而“新美联储通讯社”称就业报告未改联储立场、9月CPI更重要，非农数据牵动全球利率预期。\n职场类比：季度业绩就像公司的“非农”，一公布，全公司预算与招聘节奏随之调整。",
+      "root": "前缀 non-(不，拉丁 non，同源 nonsense 无意义) + 词根 farm(农场，古法语 ferme，同源 farmer 农夫) → 与农场无关的 → 非农业的",
+      "d": "2026-10-04"
     }
   ],
   "preview": {
-    "hook": "全球能源市场再掀波澜：受主要产油国炼厂意外停工影响，[diesel|diesel]供应骤然收紧，而北半球冬季储备需求提前释放，[ban|ban]尚未解除之际，多地加油站已现排队长龙；与此同时，港口与铁路系统因人手不足导致周转效率骤降，运费与油价双双[soar|soar]，市场原本期待的[revive|revive]势头正被高企的物流成本所[offset|offset]，若各国继续以行政手段[stifle|stifle]价格信号，供需错配恐将进一步加剧。 由于人手不足，这家餐厅只好保留一部分座位作为预订区，不接待临时到店的客人。[保留|reserve][人手不足|understaffed]",
+    "hook": "今日，[refinery|refinery]工人[strike|strike]持续升级，叠加非农[payroll|payroll]数据疲软，市场担忧企业将被迫[redistribute|redistribute]产能与成本；与此同时，季度财报季临近，流媒体与影院围绕[box-office|box-office]的争夺白热化，而制造业过剩与就业错配正倒逼各国加速[reskilling|reskilling]计划，投资者情绪在多重信号交织下愈发谨慎。 最新的[季度的|quarterly]经济报告显示，[非农业的|nonfarm]就业人数增长放缓，引发市场对整体劳动力需求的担忧。",
     "impact": ""
   }
 }

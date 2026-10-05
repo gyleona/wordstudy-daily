@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-04",
+  "updated_on": "2026-10-05",
   "quote": {
-    "en": "Turn every setback into a stepping stone, not a stop sign.",
-    "zh": "把每一次挫折变成垫脚石，而不是停止牌。"
+    "en": "A resilient mind turns every setback into a lesson.",
+    "zh": "有韧性的头脑，把每次挫折都变成一课。"
   },
   "story": {
-    "en": "Ukraine will intensify [strike|strike] operations against Russian [refinery|refinery] targets, President Zelensky said, as G7 leaders led by Macron urged coordinated action on diesel prices and released strategic reserves, sending international oil prices lower. On the economic front, September [nonfarm|nonfarm] [payroll|payroll] data prompted institutions to declare it \"killed\" October rate-hike expectations, though the \"new Fed wire\" noted the report did not change the Fed's stance, with September CPI now more important. The National Day holiday box office surpassed 550 million yuan, with total annual [box-office|box-office] revenue breaking 30 billion yuan as family films led the [quarterly|quarterly] holiday slate. China's deepwater oil and gas exploration achieved a breakthrough at the Liuhua oilfield. To [redistribute|redistribute] labor market gains, policymakers are emphasizing [reskilling|reskilling] programs, while the National Day holiday payroll at Guangzhou Railway is expected to send 2.494 million passengers. Looking ahead, markets will watch the September CPI and further G7 energy coordination.",
-    "cn": "全球市场情绪偏向看涨，投资者正在消化复杂的经济信号。能源领域，墨西哥湾沿岸一家大型[炼油厂|refinery]停工导致燃料供应收紧，推高汽油期货价格。与此同时，最新非农就业报告显示就业增长放缓，引发关于是否应[重新分配|redistribute]财政刺激以扶持困难地区的辩论。数据还显示制造业[工资单|payroll]数量下降，但季度财报季表现超预期，科技和娱乐板块领涨。值得注意的是，全球[票房|box-office]收入同比增长15%，主要受亚洲大片推动。然而，劳工骚动持续发酵，多个物流枢纽可能发生[罢工|strike]，威胁供应链。为解决结构性失业，政策制定者正强调针对失业工人的[再培训|reskilling]计划。展望未来，市场将关注央行指引和即将公布的通胀数据以寻找方向。"
+    "en": "BEIJING, Oct 5, 2026 — China's holiday economy is flashing bullish signals as the National Day film box office topped 700 million yuan in four straight billion-yuan days, while the Ministry of Transport flagged 36 congested highway sections across Jiangsu, Anhui, Zhejiang, Beijing and Shanghai. The holiday [consumption|consumption] push, echoed by Fujian's call to activate the consumer pool, is being framed as a [safeguard|safeguard] for growth. Yet the G20 failed to agree on forced labor and [overcapacity|overcapacity], with China blaming Trump tariffs. In the US, September [hiring|hiring] slowed sharply, cooling October Fed rate-hike bets and adding to global [slack|slack]. Household [spending|spending] is also shifting: banks are rolling out mortgage subsidy rules, while Starbucks opened a Xinjiang [outlet|outlet], drawing US-China friction. Even the pipes matter — Apple confirmed defects in some iPhone 18 Pro Max units, a reminder that [broadband|broadband] and hardware supply chains remain under strain. Forward-looking, Beijing will watch whether holiday demand can offset external trade disputes and a softer US labor market.",
+    "cn": "本周全球经济数据凸显工业[产能过剩|overcapacity]问题正在扩大，多个地区的制造商反映订单[疲软|slack]。为应对库存压力，零售商纷纷将每一家[门店|outlet]改造为物流枢纽，同时政策制定者讨论如何[保护|safeguard]本土产业免受低价进口冲击。居民[支出|spending]表现分化：服务需求稳健，但许多发达经济体的商品需求依然疲软。政府[支出|spending]对基础设施的投入部分抵消了拖累，但私人投资仍谨慎。劳动力市场信号不一，科技行业[招聘|hiring]放缓，而物流和绿色能源仍在增加岗位。[宽带|broadband]网络的快速建设成为亮点，支撑了电商和远程办公。展望未来，分析人士预计，除非多边规则得到更新，否则贸易紧张将持续；他们还警告，若需求不能走强，[疲软|slack]可能拖累全球增长至2027年。"
   },
   "words": [
     {
@@ -11969,10 +11969,274 @@
       "t": "机构高呼9月非农“杀死”10月加息预期，而“新美联储通讯社”称就业报告未改联储立场、9月CPI更重要，非农数据牵动全球利率预期。\n职场类比：季度业绩就像公司的“非农”，一公布，全公司预算与招聘节奏随之调整。",
       "root": "前缀 non-(不，拉丁 non，同源 nonsense 无意义) + 词根 farm(农场，古法语 ferme，同源 farmer 农夫) → 与农场无关的 → 非农业的",
       "d": "2026-10-04"
+    },
+    {
+      "w": "overcapacity",
+      "ph": "/ˌoʊvərkəˈpæsəti/",
+      "m": "产能过剩；生产能力过剩",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a situation in which an industry can produce more than the market demands; excess production capacity",
+      "defs": [
+        {
+          "cn": "产能过剩",
+          "en": "the state of having more production capacity than needed",
+          "pos": "n."
+        },
+        {
+          "cn": "生产能力过剩",
+          "en": "excess ability to produce goods relative to demand",
+          "pos": "n."
+        },
+        {
+          "cn": "供给过剩",
+          "en": "a surplus of supply over demand in a market",
+          "pos": "n."
+        }
+      ],
+      "col": "industrial overcapacity 工业产能过剩 · tackle overcapacity 解决产能过剩 · overcapacity in steel 钢铁产能过剩 · global overcapacity 全球产能过剩",
+      "ex": "The G20 failed to reach an agreement on forced labour and overcapacity, with China blaming Trump's tariffs.",
+      "exZh": "G20未能就强迫劳动和产能过剩达成协议，中国辩称因特朗普关税。",
+      "ex2": "Overcapacity in the EV battery sector has pushed prices down and squeezed smaller suppliers.",
+      "ex2Zh": "电动汽车电池行业产能过剩压低了价格，挤压了小型供应商。",
+      "t": "今日G20峰会：未能就强迫劳动和产能过剩达成协议，overcapacity 成为贸易摩擦中的关键词。\n职场类比：团队人手过多、项目却不够，就是 workplace overcapacity——人浮于事，效率反降。",
+      "root": "前缀 over-(过度、超过，古英语 ofer，同源 overwork 过度工作) + 词根 capac(容纳，拉丁 capax，同源 capacity 容量) + 后缀 -ity(名词后缀，拉丁 -itas) → 容纳能力过度 → 产能过剩",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "outlet",
+      "ph": "/ˈaʊtlet/",
+      "m": "门店；专卖店；发泄途径；出口",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a shop or point of sale; a way of expressing feelings; an opening for escape or release",
+      "defs": [
+        {
+          "cn": "门店；专卖店",
+          "en": "a shop or place where goods are sold, often a branch",
+          "pos": "n."
+        },
+        {
+          "cn": "发泄途径；出口",
+          "en": "a means of releasing energy, emotion, or pressure",
+          "pos": "n."
+        },
+        {
+          "cn": "销售渠道",
+          "en": "a channel through which products reach consumers",
+          "pos": "n."
+        }
+      ],
+      "col": "retail outlet 零售门店 · media outlet 媒体机构 · outlet for emotion 情绪发泄口 · sales outlet 销售点",
+      "ex": "Starbucks opened a new outlet in Xinjiang, a move seen as a test of US-China business ties.",
+      "exZh": "星巴克在新疆开店，此举被视为对中美商业关系的试探。",
+      "ex2": "Many workers use sports as an outlet to release stress after long hours at the office.",
+      "ex2Zh": "许多员工把运动当作释放办公室长时间压力的途径。",
+      "t": "今日商业新闻：星巴克新疆开店引发中美交锋，学者称特朗普压制对华鹰派、双边关系趋稳，outlet 成为企业扩张的注脚。\n职场联想：outlet 也是情绪出口——加班后去健身房，就是你个人的 outlet。",
+      "root": "前缀 out-(向外，古英语 ut，同源 outside 外面) + 词根 let(放出、允许，古英语 lǣtan，同源 let 让) → 放出去的口子 → 出口、发泄途径 → 门店(货品流出的口)",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "safeguard",
+      "ph": "/ˈseɪfɡɑːd/",
+      "m": "保护；捍卫；保障措施",
+      "c": "work",
+      "pos": "v. / n.",
+      "en": "to protect something from harm or loss; a measure taken to ensure safety, in workplace or policy contexts",
+      "defs": [
+        {
+          "cn": "保护",
+          "en": "to protect from harm or risk",
+          "pos": "v."
+        },
+        {
+          "cn": "捍卫",
+          "en": "to defend rights or interests",
+          "pos": "v."
+        },
+        {
+          "cn": "保障措施",
+          "en": "a measure that ensures safety or protection",
+          "pos": "n."
+        }
+      ],
+      "col": "safeguard jobs 保障就业 · safeguard interests 捍卫利益 · legal safeguard 法律保障 · safeguard against risks 防范风险",
+      "ex": "As US job growth slows sharply, policymakers face pressure to safeguard employment while keeping inflation in check.",
+      "exZh": "美国就业增长大幅放缓之际，决策者面临在控通胀的同时保障就业的压力。",
+      "ex2": "The company introduced new data rules to safeguard employee privacy after a series of leaks.",
+      "ex2Zh": "在一系列泄露事件后，公司出台新的数据规则以保护员工隐私。",
+      "t": "美国9月新增就业大幅放缓，市场对美联储10月加息预期降温，政策层如何在稳物价与 safeguard 就业之间取舍，成为全球财经焦点。\n职场提醒：签合同时看清保密与竞业条款，是在 safeguard 自己的职业权益，别只盯着薪水数字。",
+      "root": "古英语复合词：safe(安全的，古英语 saf，同源 safety 安全) + guard(守卫，古法语 garde，同源 guardian 守护者) → 安全守卫 → 保护、保障措施",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "consumption",
+      "ph": "/kənˈsʌmpʃn/",
+      "m": "n. 消费；消耗量",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the using up of goods and services; the amount consumed",
+      "defs": [
+        {
+          "cn": "消费",
+          "en": "the purchase and use of goods and services",
+          "pos": "n."
+        },
+        {
+          "cn": "消耗量",
+          "en": "the amount of something used up",
+          "pos": "n."
+        },
+        {
+          "cn": "消费量",
+          "en": "the quantity of goods consumed",
+          "pos": "n."
+        }
+      ],
+      "col": "consumer consumption 消费者消费 · household consumption 家庭消费 · energy consumption 能源消耗 · boost consumption 提振消费",
+      "ex": "Fujian province launched a campaign to activate consumer spending, aiming to boost consumption during the National Day holiday.",
+      "exZh": "福建省启动激活消费行动，旨在国庆假期提振消费。",
+      "ex2": "The National Day box office surpassed 700 million yuan in four days, a sign of strong cultural consumption.",
+      "ex2Zh": "国庆档电影票房四天突破7亿元，显示出强劲的文化消费。",
+      "t": "国庆假期第四天，福建省政府发起『激活消费一池春水』行动，consumption 成为政策关键词。假期消费市场平稳有序，电影票房连续四天单日破亿，消费活力在数据中显现。\n职场用法：consumption 与 expenditure 近义，但 consumption 更强调『使用和消耗』，expenditure 则侧重『支出金额』。",
+      "root": "前缀 con-（完全，拉丁，同源 complete 完全的）+ 词根 sumpt（=sumere 取、用，拉丁，同源 assume 假定）+ 后缀 -ion（名词化）→ 完全用掉 → 消费、消耗。",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "slack",
+      "ph": "/slæk/",
+      "m": "(需求)疲软；松弛；闲置产能",
+      "c": "econ",
+      "pos": "n. / adj.",
+      "en": "weak demand or unused capacity in a market; loose or not tight; in economic contexts, a slack in demand",
+      "defs": [
+        {
+          "cn": "(需求)疲软",
+          "en": "weak or reduced demand in an economy or market",
+          "pos": "n."
+        },
+        {
+          "cn": "松弛的；不紧的",
+          "en": "not tight; loose in physical or figurative sense",
+          "pos": "adj."
+        },
+        {
+          "cn": "闲置产能",
+          "en": "unused capacity or resources in production",
+          "pos": "n."
+        }
+      ],
+      "col": "slack demand 需求疲软 · take up the slack 弥补缺口 · slack in the labour market 劳动力市场闲置 · cut sb some slack 放某人一马",
+      "ex": "The September U.S. jobs report showed hiring slackened sharply, leaving more slack in the labour market than economists had expected.",
+      "exZh": "美国9月就业报告显示招聘大幅放缓，劳动力市场闲置程度超出经济学家预期。",
+      "ex2": "With consumer spending showing signs of slack, retailers are cutting prices to clear inventory before the holiday season.",
+      "ex2Zh": "随着消费支出显现疲软迹象，零售商正在降价清库存，以迎接假日季。",
+      "t": "美国9月新增就业大幅放缓，市场对美联储10月加息预期降温，劳动力市场出现明显 slack，工资增长动力减弱。\n职场提醒：项目排期别留太多 slack，否则截止日前团队会被迫加班赶工；与 demand 搭配时，slack demand 就是『需求疲软』，是央行决策的重要观察指标。",
+      "root": "源自古英语 slæc（松弛的、懒散的），与古北欧语 slakr 同源；无明确前缀后缀，本义为『绳子不绷紧』，后引申为经济中『需求不紧、产能闲置』。",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "spending",
+      "ph": "/ˈspendɪŋ/",
+      "m": "支出；消费；开支(尤指消费与财政支出)",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act or amount of money spent, especially by consumers, firms or governments",
+      "defs": [
+        {
+          "cn": "消费；消费支出",
+          "en": "money that households spend on goods and services",
+          "pos": "n."
+        },
+        {
+          "cn": "财政支出；开支",
+          "en": "government or corporate outlays on projects and operations",
+          "pos": "n."
+        },
+        {
+          "cn": "花费；开销行为",
+          "en": "the general activity of using money to buy things",
+          "pos": "n."
+        }
+      ],
+      "col": "consumer spending 消费者支出 · holiday spending 假期消费 · government spending 政府支出 · boost spending 提振消费",
+      "ex": "Holiday consumer spending stayed steady and orderly during the National Day break, according to People's Daily reports on the market.",
+      "exZh": "据人民网市场报道，国庆假期消费市场平稳有序，消费者支出保持稳定。",
+      "ex2": "Apple confirmed a defect in some iPhone 18 Pro Max units, a rare setback for a firm that depends on premium spending.",
+      "ex2Zh": "苹果确认部分iPhone 18 Pro Max存在缺陷，这对依赖高端消费支出的公司而言是一次罕见挫折。",
+      "t": "国庆假期消费市场平稳有序，各地以激活消费“一池春水”为抓手，spending 成为观察内需冷暖最直接的指标。\n职场延伸：企业年底常做 spending review，逐项审视开支，比笼统说 cut costs 更专业、更有依据。",
+      "root": "动词 spend(花费，古英语 spendan，同源 expend 支出、expenditure 开支) + 后缀 -ing(动名词后缀，古英语) → 正在花钱的行为 → 支出、消费",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "hiring",
+      "ph": "/ˈhaɪərɪŋ/",
+      "m": "招聘；雇用；新增就业",
+      "c": "work",
+      "pos": "n.",
+      "en": "the activity of employing new staff; the rate at which firms take on workers",
+      "defs": [
+        {
+          "cn": "招聘；雇用",
+          "en": "the process of recruiting and taking on new employees",
+          "pos": "n."
+        },
+        {
+          "cn": "新增就业；用工",
+          "en": "the pace at which companies add workers, as in jobs data",
+          "pos": "n."
+        },
+        {
+          "cn": "租用(设备等)",
+          "en": "the act of renting equipment or services for a fee",
+          "pos": "n."
+        }
+      ],
+      "col": "hiring slowdown 招聘放缓 · freeze hiring 冻结招聘 · hiring plan 招聘计划 · strong hiring 用工强劲",
+      "ex": "US job growth slowed sharply in September, cooling market expectations for a Federal Reserve rate hike in October.",
+      "exZh": "美国9月新增就业大幅放缓，市场对美联储10月加息预期降温。",
+      "ex2": "A hiring freeze in some tech teams is pushing workers to upgrade skills rather than wait for headcount to reopen.",
+      "ex2Zh": "部分科技团队的招聘冻结正促使员工升级技能，而非等待编制重开。",
+      "t": "美国9月新增就业大幅放缓，hiring 降温直接压低市场对美联储10月加息的押注，就业数据再次成为政策风向标。\n职场提示：hiring 放缓时，内部转岗与技能升级比盲目投递更有效，先让自己成为“不可替代的存量”。",
+      "root": "动词 hire(雇用，古英语 hyrian，同源 hird 家臣) + 后缀 -ing(动名词后缀，古英语) → 雇人的过程 → 招聘、新增就业",
+      "d": "2026-10-05"
+    },
+    {
+      "w": "broadband",
+      "ph": "/ˈbrɔːdbænd/",
+      "m": "宽带；宽带网络；宽频的",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a high-capacity transmission channel carrying multiple signals; high-speed internet access",
+      "defs": [
+        {
+          "cn": "宽带；宽带网络",
+          "en": "high-speed internet service delivered over a wide band",
+          "pos": "n."
+        },
+        {
+          "cn": "宽频的；宽带的",
+          "en": "used before a noun to describe wide-band technology",
+          "pos": "adj."
+        },
+        {
+          "cn": "多频段传输",
+          "en": "a transmission method carrying several channels at once",
+          "pos": "n."
+        }
+      ],
+      "col": "broadband network 宽带网络 · broadband access 宽带接入 · broadband speed 宽带速率 · rural broadband 农村宽带",
+      "ex": "Holiday travel peaks put pressure on broadband and mobile networks at major stations as millions of passengers stream content.",
+      "exZh": "假期出行高峰给主要车站的宽带与移动网络带来压力，数百万旅客在线刷内容。",
+      "ex2": "The G20 debate over overcapacity touches tech hardware, where broadband and semiconductor supply chains are closely watched.",
+      "ex2Zh": "G20产能过剩之争涉及科技硬件，宽带与半导体供应链备受关注。",
+      "t": "国庆假期第四天国铁广州局预计发送旅客260.8万人次，密集人流让车站 broadband 与移动网络承压，数字基础设施成了隐形运力。\n延伸记忆：broadband 是“宽”的频带，带宽越宽，能同时跑的车道越多，和 bandwidth 同源同义群。",
+      "root": "前缀 broad-(宽的，古英语 brād，同源 breadth 宽度) + 词根 band(频带、带，古英语/古法语 bande，同源 band 乐队/带子) → 宽的频带 → 宽带",
+      "d": "2026-10-05"
     }
   ],
   "preview": {
-    "hook": "今日，[refinery|refinery]工人[strike|strike]持续升级，叠加非农[payroll|payroll]数据疲软，市场担忧企业将被迫[redistribute|redistribute]产能与成本；与此同时，季度财报季临近，流媒体与影院围绕[box-office|box-office]的争夺白热化，而制造业过剩与就业错配正倒逼各国加速[reskilling|reskilling]计划，投资者情绪在多重信号交织下愈发谨慎。 最新的[季度的|quarterly]经济报告显示，[非农业的|nonfarm]就业人数增长放缓，引发市场对整体劳动力需求的担忧。",
+    "hook": "国家统计局与工信部联合发布三季度工业与[consumption|consumption]数据：制造业[overcapacity|overcapacity]压力再度抬头，部分行业[slack|slack]利用率降至七成以下，多家龙头企业宣布收缩线下[outlet|outlet]网络并放缓[hiring|hiring]计划；与此同时，消费与居民[spending|spending]增速连续两月低于预期，需求[slack|slack]信号从家电、汽车蔓延至[broadband|broadband]设备与数字服务领域，监管部门随即表态将启动新一轮[safeguard|safeguard]，以稳定市场预期、防止价格战无序扩散。",
     "impact": ""
   }
 }

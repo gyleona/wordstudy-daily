@@ -1,12 +1,14 @@
 {
-  "updated_on": "2026-10-05",
+  "updated_on": "2026-10-06",
   "quote": {
-    "en": "A resilient mind turns every setback into a lesson.",
-    "zh": "有韧性的头脑，把每次挫折都变成一课。"
+    "en": "In every market storm, the resilient learner finds a new route.",
+    "zh": "在每一次市场风暴中，坚韧的学习者总能找到新路。"
   },
   "story": {
-    "en": "BEIJING, Oct 5, 2026 — China's holiday economy is flashing bullish signals as the National Day film box office topped 700 million yuan in four straight billion-yuan days, while the Ministry of Transport flagged 36 congested highway sections across Jiangsu, Anhui, Zhejiang, Beijing and Shanghai. The holiday [consumption|consumption] push, echoed by Fujian's call to activate the consumer pool, is being framed as a [safeguard|safeguard] for growth. Yet the G20 failed to agree on forced labor and [overcapacity|overcapacity], with China blaming Trump tariffs. In the US, September [hiring|hiring] slowed sharply, cooling October Fed rate-hike bets and adding to global [slack|slack]. Household [spending|spending] is also shifting: banks are rolling out mortgage subsidy rules, while Starbucks opened a Xinjiang [outlet|outlet], drawing US-China friction. Even the pipes matter — Apple confirmed defects in some iPhone 18 Pro Max units, a reminder that [broadband|broadband] and hardware supply chains remain under strain. Forward-looking, Beijing will watch whether holiday demand can offset external trade disputes and a softer US labor market.",
-    "cn": "本周全球经济数据凸显工业[产能过剩|overcapacity]问题正在扩大，多个地区的制造商反映订单[疲软|slack]。为应对库存压力，零售商纷纷将每一家[门店|outlet]改造为物流枢纽，同时政策制定者讨论如何[保护|safeguard]本土产业免受低价进口冲击。居民[支出|spending]表现分化：服务需求稳健，但许多发达经济体的商品需求依然疲软。政府[支出|spending]对基础设施的投入部分抵消了拖累，但私人投资仍谨慎。劳动力市场信号不一，科技行业[招聘|hiring]放缓，而物流和绿色能源仍在增加岗位。[宽带|broadband]网络的快速建设成为亮点，支撑了电商和远程办公。展望未来，分析人士预计，除非多边规则得到更新，否则贸易紧张将持续；他们还警告，若需求不能走强，[疲软|slack]可能拖累全球增长至2027年。"
+    "en": "Wall Street's record close—Nasdaq at a new high, Nvidia up over 2% near a $5.76 trillion market cap—defies broader [stagnation|stagnation] concerns. Yet [geopolitical|geopolitical] risk stays live: Yemen reports territorial gains against Iran-backed Houthis, and southern theater command warns after a Philippine aircraft illegally entered Huangyan Dao airspace. Japan began its 24th round of nuclear-contaminated water discharge, drawing regional [boycott|boycott] calls. In sports, Zheng Qinwen's celebration sparks nostalgia as the Changchun [squad|squad] wins the inaugural Northeast Super [tournament|tournament]. Meanwhile, a mining [intake|intake] tragedy in Chongqing left seven dead after rainstorms. Trump, citing a specific threat, moved US bombers from a UK base, while the G7 weighs reserve releases to cap oil—WTI settled at $89.43. French carrier Charles de Gaulle saw a fire, no injuries. As officials [preside|preside] over these cross-currents, the [ledger|ledger] of risk and reward stays balanced, with markets watching Brazil's tight presidential race and Japan's new anti-Russia measures.",
+    "cn": "2026年第四季度伊始，全球经济在制造业产出[停滞|stagnation]的阴影下谨慎开局。面对新的关税威胁，多个消费者团体宣布[抵制|boycott]进口电子产品，地缘政治紧张局势促使零售商加速供应链多元化。与此同时，世界卫生组织报告称全球糖[摄入量|intake]显著下降，归功于公共卫生宣传和标签法规。国际商会年会上，新当选的主席将[主持|preside]关于数字贸易规则的辩论，重点讨论跨境数据流的透明度。审计人员发现一家大型物流公司的[账簿|ledger]存在违规行为，引发对更严格会计准则的呼吁。体育方面，国际滑冰联盟确认下一届世界[锦标赛|tournament]将采用修订后的评分系统，而各国[队伍|squad]正在敲定参加预选赛的阵容。展望未来，政策制定者面临微妙的平衡：在不引发贸易争端的情况下重振增长，并确保技术合作跑赢碎片化。",
+    "hook": "从美股新高到地缘冲突，今日全球风险与收益的账本如何平衡？",
+    "impact": "市场情绪受地缘政治与能源政策双重牵引，投资者需关注G7释储与巴西选情对风险偏好的传导。"
   },
   "words": [
     {
@@ -12233,10 +12235,234 @@
       "t": "国庆假期第四天国铁广州局预计发送旅客260.8万人次，密集人流让车站 broadband 与移动网络承压，数字基础设施成了隐形运力。\n延伸记忆：broadband 是“宽”的频带，带宽越宽，能同时跑的车道越多，和 bandwidth 同源同义群。",
       "root": "前缀 broad-(宽的，古英语 brād，同源 breadth 宽度) + 词根 band(频带、带，古英语/古法语 bande，同源 band 乐队/带子) → 宽的频带 → 宽带",
       "d": "2026-10-05"
+    },
+    {
+      "w": "stagnation",
+      "ph": "/stæɡˈneɪʃn/",
+      "m": "n. 停滞；不景气",
+      "c": "econ",
+      "pos": "n.",
+      "en": "A state of not growing or developing; economic sluggishness.",
+      "defs": [
+        {
+          "cn": "停滞",
+          "en": "lack of growth or movement",
+          "pos": "n."
+        },
+        {
+          "cn": "经济不景气",
+          "en": "economic sluggishness or depression",
+          "pos": "n."
+        },
+        {
+          "cn": "淤积",
+          "en": "stagnation of water or fluid",
+          "pos": "n."
+        }
+      ],
+      "col": "economic stagnation (经济停滞) · wage stagnation (工资停滞) · stagnation trap (停滞陷阱) · break out of stagnation (走出停滞)",
+      "ex": "Brazil's presidential election is deadlocked, with voters worried about years of economic stagnation and slow growth.",
+      "exZh": "巴西总统选举陷入僵局，选民担心多年的经济停滞和增长缓慢。",
+      "ex2": "The company's innovation pipeline has shown stagnation, prompting a strategic review.",
+      "ex2Zh": "该公司的创新渠道出现停滞，促使进行战略审查。",
+      "t": "巴西总统选举选情胶着，市场担忧无论谁胜出都难迅速扭转经济停滞。该国近年增长疲软，投资者密切关注新政府能否推出有效改革。\n职场中，部门业绩长期stagnation会引发重组，员工需主动提出新方案以打破僵局。",
+      "root": "源自拉丁语 stagnare（停滞），与 stagnum（沼泽）相关，同源词 stagnant（停滞的）。由“沼泽不流动”引申为“经济或发展停滞”。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "boycott",
+      "ph": "/ˈbɔɪkɒt/",
+      "m": "v./n. 抵制；联合抵制",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "To refuse to buy, use, or participate in something as a protest; such an act.",
+      "defs": [
+        {
+          "cn": "抵制",
+          "en": "to refuse to deal with as a protest",
+          "pos": "v."
+        },
+        {
+          "cn": "联合抵制",
+          "en": "a coordinated refusal to engage",
+          "pos": "n."
+        },
+        {
+          "cn": "抵制行动",
+          "en": "an act of boycotting",
+          "pos": "n."
+        }
+      ],
+      "col": "consumer boycott (消费者抵制) · call for a boycott (呼吁抵制) · boycott a product (抵制产品) · trade boycott (贸易抵制)",
+      "ex": "Russia announced it will take reciprocal measures against Japan's new anti-Russian steps, which could include trade boycotts.",
+      "exZh": "俄罗斯宣布将对日本新的反俄措施采取对等反制，可能包括贸易抵制。",
+      "ex2": "Consumers threatened to boycott the brand after its controversial ad campaign.",
+      "ex2Zh": "消费者在品牌发布有争议的广告活动后威胁要抵制该品牌。",
+      "t": "俄外交部表示将对日本新的反俄措施采取对等反制，可能涉及经济领域的抵制行动。此前日本跟随西方对俄制裁，双边关系持续紧张。\n职场中，若公司卷入争议，员工可能面临是否boycott自家产品的道德困境，需谨慎处理。",
+      "root": "源自19世纪爱尔兰土地代理人查尔斯·博伊科特（Charles Boycott）的姓氏，因当地居民联合拒绝与他交易，其名演变为“抵制”之意。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "geopolitical",
+      "ph": "/ˌdʒiːəʊpəˈlɪtɪkl/",
+      "m": "adj. 地缘政治的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "Relating to the interaction of geography and politics, especially in international relations.",
+      "defs": [
+        {
+          "cn": "地缘政治的",
+          "en": "relating to geography and politics",
+          "pos": "adj."
+        },
+        {
+          "cn": "地缘政治学的",
+          "en": "of geopolitical studies",
+          "pos": "adj."
+        },
+        {
+          "cn": "受地缘政治影响的",
+          "en": "influenced by geopolitical factors",
+          "pos": "adj."
+        }
+      ],
+      "col": "geopolitical risk (地缘政治风险) · geopolitical tension (地缘政治紧张) · geopolitical landscape (地缘政治格局) · geopolitical rivalry (地缘政治竞争)",
+      "ex": "Geopolitical tensions in the Middle East pushed oil prices higher, with WTI settling at $89.43.",
+      "exZh": "中东地缘政治紧张推高油价，WTI结算价为89.43美元。",
+      "ex2": "Investors are monitoring geopolitical developments ahead of the U.S. midterm elections.",
+      "ex2Zh": "投资者在美国中期选举前密切关注地缘政治动态。",
+      "t": "特朗普称因“具体威胁”美军轰炸机撤离英国基地，也门局势与伊朗相关冲突持续，geopolitical风险升温。这些事件直接影响能源价格与市场情绪。\n职场中，跨国企业需评估geopolitical风险对供应链和海外市场的影响，制定应急预案。",
+      "root": "前缀 geo-（地球，希腊 gē，同源 geography） + 词根 polit（政治，希腊 polis 城邦，同源 politics） + 后缀 -ical（形容词后缀） → 地球与政治互动的 → 地缘政治的。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "intake",
+      "ph": "/ˈɪnteɪk/",
+      "m": "n. 摄入量；招收人数；进气口",
+      "c": "work",
+      "pos": "n.",
+      "en": "The amount taken in, such as food, students, or recruits; an opening through which fluid or air enters",
+      "defs": [
+        {
+          "cn": "摄入量；吸收量",
+          "en": "the amount of food, drink, or energy taken into the body",
+          "pos": "n."
+        },
+        {
+          "cn": "招收人数；录用名额",
+          "en": "the number of people accepted into an organization or school",
+          "pos": "n."
+        },
+        {
+          "cn": "进气口；入口",
+          "en": "an opening that allows air or liquid to enter a machine",
+          "pos": "n."
+        }
+      ],
+      "col": "calorie intake 热量摄入 · student intake 招生人数 · intake valve 进气阀 · annual intake 年度招收量",
+      "ex": "The automaker will freeze its graduate intake next year as the EV price war squeezes margins.",
+      "exZh": "由于电动车价格战挤压利润，该车企明年将冻结毕业生招聘名额。",
+      "ex2": "Doctors advised him to cut his salt intake after the check-up showed high blood pressure.",
+      "ex2Zh": "体检显示血压偏高后，医生建议他减少盐分摄入。",
+      "t": "存储概念股分化、西部数据涨超6%而SK海力士下跌之际，半导体大厂开始调整校招 intake，把名额从传统存储线转向AI相关岗位，招聘结构随行情走。\n职场用法：intake 强调“一次性批量进入”，与 ongoing hiring（持续招聘）不同，谈校招名额时最常用。",
+      "root": "前缀 in-（进入，拉丁，同源 include） + 词根 take（取、拿，古英语 tacan，同源 takeaway）→ 拿进来 → 摄入量、招收量、进气口。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "preside",
+      "ph": "/prɪˈzaɪd/",
+      "m": "主持；主管；掌管",
+      "c": "politics",
+      "en": "to be in charge of a meeting, ceremony, or organization; to have authority over",
+      "defs": [
+        {
+          "cn": "主持",
+          "en": "to be in charge of a meeting or ceremony",
+          "pos": "v."
+        },
+        {
+          "cn": "主管",
+          "en": "to have responsibility or authority over a group",
+          "pos": "v."
+        },
+        {
+          "cn": "掌管",
+          "en": "to be in a position of control over an institution",
+          "pos": "v."
+        }
+      ],
+      "col": "preside over a meeting 主持会议 · preside over a court 主持法庭 · preside over the board 掌管董事会 · preside at a ceremony 主持仪式",
+      "ex": "The central bank governor will preside over next month's rate-setting meeting amid rising inflation expectations.",
+      "exZh": "她首次被要求主持年度股东大会。",
+      "ex2": "She was asked to preside over the annual shareholder meeting for the first time.",
+      "t": "欧股主要指数多数收涨，WTI原油期货结算价报89.43美元/桶，市场正等待美联储官员在下一次议息会议上 preside，看他们如何在通胀与增长之间取舍。\n职场场景：能 preside over 一场跨部门会议，是晋升管理岗的入门技能——不只是控场，更是让每个部门都愿意为结论买单。",
+      "root": "前缀 pre-(在前，拉丁，同源 precede 先于) + 词根 sid(=sedere 坐，拉丁，同源 sediment 沉淀) → 坐在前面 → 主持、掌管。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "ledger",
+      "ph": "/ˈledʒə(r)/",
+      "m": "账簿；总账；分类账",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a book or digital record in which financial transactions are recorded; in accounting and banking contexts",
+      "defs": [
+        {
+          "cn": "账簿",
+          "en": "a book or file recording financial transactions",
+          "pos": "n."
+        },
+        {
+          "cn": "总账",
+          "en": "the principal accounting record of a business",
+          "pos": "n."
+        },
+        {
+          "cn": "分类账",
+          "en": "a ledger organized by account category",
+          "pos": "n."
+        }
+      ],
+      "col": "general ledger (总账) · ledger balance (账面余额) · keep the ledger (记账) · distributed ledger (分布式账本)",
+      "ex": "After the G7 reserve release and Trump's red-diesel plan, oil traders are updating their ledgers to reflect a possible drop in pump prices before the midterms.",
+      "exZh": "在G7释储和特朗普红色柴油计划之后，石油交易员正更新账簿，以反映中期选举前油价可能下跌。",
+      "ex2": "The finance team closed the monthly ledger early so auditors could review the tariff entries before the board meeting.",
+      "ex2Zh": "财务团队提前结清月度账簿，以便审计师在董事会前审查关税分录。",
+      "t": "G7联合释储后，特朗普据称拟放宽免税红色柴油限制以压油价，能源交易员的 ledger 上多了一笔『政策风险』——WTI结算89.43美元，任何新关税都可能让账面数字再跳一次。\n职场联想：月底对账时，ledger 上的每一行都要能追溯到凭证；含糊其辞的报销，最终都会在总账里露馅。",
+      "root": "源自古英语 leger（躺着的东西），与 lie（躺）同源，后指『常置某处、供随时翻阅的账本』；由『放置的册子』引申为『账簿、总账』。",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "tournament",
+      "ph": "/ˈtʊənəmənt/",
+      "m": "锦标赛",
+      "c": "sports",
+      "ex": "The tennis tournament drew record crowds.",
+      "exZh": "这项网球锦标赛吸引了创纪录的观众。",
+      "t": "一堆人淘汰赛打到最后的那种大赛。",
+      "root": "tourn(turn) + -ament → 轮转赛",
+      "pos": "n.",
+      "en": "a series of contests",
+      "col": "annual tournament · knockout tournament",
+      "d": "2026-10-06"
+    },
+    {
+      "w": "squad",
+      "ph": "/skwɒd/",
+      "m": "队伍；阵容",
+      "c": "sports",
+      "ex": "The national squad trained abroad.",
+      "exZh": "国家队在海外集训。",
+      "t": "一队人一起上场的班底。",
+      "root": "squad(小队) → 队",
+      "pos": "n.",
+      "en": "a team or group",
+      "col": "national squad · squad selection",
+      "d": "2026-10-06"
     }
   ],
   "preview": {
-    "hook": "国家统计局与工信部联合发布三季度工业与[consumption|consumption]数据：制造业[overcapacity|overcapacity]压力再度抬头，部分行业[slack|slack]利用率降至七成以下，多家龙头企业宣布收缩线下[outlet|outlet]网络并放缓[hiring|hiring]计划；与此同时，消费与居民[spending|spending]增速连续两月低于预期，需求[slack|slack]信号从家电、汽车蔓延至[broadband|broadband]设备与数字服务领域，监管部门随即表态将启动新一轮[safeguard|safeguard]，以稳定市场预期、防止价格战无序扩散。",
+    "hook": "国际奥委会在洛桑[preside|preside]紧急会议后宣布，因主办国涉嫌系统性违反参赛资格规定，多个国家代表团正酝酿对下月开赛的[tournament|tournament]实施[boycott|boycott]，而赛事组委会的[ledger|ledger]显示，若主要赞助商撤资，预算缺口将高达数亿美元；与此同时，受地缘政治紧张与全球经济[stagnation|stagnation]双重拖累，各国奥委会的运动员[intake|intake]已连续三年下滑，连传统强队的阵容深度也明显缩水，转播商与票务平台正重新评估这场风波对广告收入的连锁冲击。 在[地缘政治的|geopolitical]紧张局势下，一支由多国专家组成的[小队|squad]被派往边境地区评估安全风险。",
     "impact": ""
   }
 }

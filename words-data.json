@@ -1,14 +1,12 @@
 {
-  "updated_on": "2026-10-06",
+  "updated_on": "2026-10-07",
   "quote": {
-    "en": "In every market storm, the resilient learner finds a new route.",
-    "zh": "在每一次市场风暴中，坚韧的学习者总能找到新路。"
+    "en": "Skill compounds quietly, even when markets stall.",
+    "zh": "技能悄然复利，纵使市场停滞。"
   },
   "story": {
-    "en": "Wall Street's record close—Nasdaq at a new high, Nvidia up over 2% near a $5.76 trillion market cap—defies broader [stagnation|stagnation] concerns. Yet [geopolitical|geopolitical] risk stays live: Yemen reports territorial gains against Iran-backed Houthis, and southern theater command warns after a Philippine aircraft illegally entered Huangyan Dao airspace. Japan began its 24th round of nuclear-contaminated water discharge, drawing regional [boycott|boycott] calls. In sports, Zheng Qinwen's celebration sparks nostalgia as the Changchun [squad|squad] wins the inaugural Northeast Super [tournament|tournament]. Meanwhile, a mining [intake|intake] tragedy in Chongqing left seven dead after rainstorms. Trump, citing a specific threat, moved US bombers from a UK base, while the G7 weighs reserve releases to cap oil—WTI settled at $89.43. French carrier Charles de Gaulle saw a fire, no injuries. As officials [preside|preside] over these cross-currents, the [ledger|ledger] of risk and reward stays balanced, with markets watching Brazil's tight presidential race and Japan's new anti-Russia measures.",
-    "cn": "2026年第四季度伊始，全球经济在制造业产出[停滞|stagnation]的阴影下谨慎开局。面对新的关税威胁，多个消费者团体宣布[抵制|boycott]进口电子产品，地缘政治紧张局势促使零售商加速供应链多元化。与此同时，世界卫生组织报告称全球糖[摄入量|intake]显著下降，归功于公共卫生宣传和标签法规。国际商会年会上，新当选的主席将[主持|preside]关于数字贸易规则的辩论，重点讨论跨境数据流的透明度。审计人员发现一家大型物流公司的[账簿|ledger]存在违规行为，引发对更严格会计准则的呼吁。体育方面，国际滑冰联盟确认下一届世界[锦标赛|tournament]将采用修订后的评分系统，而各国[队伍|squad]正在敲定参加预选赛的阵容。展望未来，政策制定者面临微妙的平衡：在不引发贸易争端的情况下重振增长，并确保技术合作跑赢碎片化。",
-    "hook": "从美股新高到地缘冲突，今日全球风险与收益的账本如何平衡？",
-    "impact": "市场情绪受地缘政治与能源政策双重牵引，投资者需关注G7释储与巴西选情对风险偏好的传导。"
+    "en": "Global markets and sports delivered a striking [recovery|recovery] on October 7, 2026, as the Nasdaq and S&P 500 closed at record highs while Nikkei reclaimed the 70000 mark after three months. China's National Day consumption boom, spanning culture, tourism and box office, further lifted [productivity|productivity] expectations for the year. In sports, the China Open final became a [fixture|fixture] of resilience: 39-year-old Djokovic claimed a walkover for his seventh title, stepping onto the [podium|podium] without dropping a set. The Nagoya Asian Games saw China's delegation achieve its best overseas result, a [marathon|marathon] of preparation rewarded. Meanwhile, a [transfer|transfer] saga in table tennis unfolded as Sun Yingsha's new world ranking was released after the WTT Grand Smash, where 20 Chinese players reached the last 32. [sponsorship|sponsorship] from Xtep supported the athletes' speed. In [qualifying|qualifying] rounds, the intensity matched the holiday box office, which surpassed 1 billion yuan. Looking ahead, the EU's defensive trade shift and World Bank's Cambodia downgrade to 3.5% growth remind us that momentum needs nurturing.",
+    "cn": "在全球通胀降温、央行暂停加息的背景下，市场初现[复苏|recovery]迹象。欧元区最新数据显示，制造业[生产率|productivity]有所提升，为经济注入活力。与此同时，体育赛事作为固定赛事持续吸引投资，大型活动带动消费支出。在世界田径锦标赛上，一位黑马短跑选手意外登上[领奖台|podium]，令观众振奋。企业财报季这场[马拉松|marathon]仍在继续，考验着投资者的耐心。足球领域，一名年轻中场创纪录的[转会|transfer]费改变了俱乐部财务格局。[赞助|sponsorship]商正重新考虑赞助协议，以应对经济不确定性。随着明年各项赛事[资格赛|qualifying]的展开，品牌急于与新星建立联系。展望未来，分析师预计温和增长，但地缘政治紧张和能源价格仍构成风险。"
   },
   "words": [
     {
@@ -12459,10 +12457,160 @@
       "en": "a team or group",
       "col": "national squad · squad selection",
       "d": "2026-10-06"
+    },
+    {
+      "w": "recovery",
+      "ph": "/rɪˈkʌvəri/",
+      "m": "复苏；恢复",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a return to a normal state of health, strength, or economic activity after a period of difficulty",
+      "defs": [
+        {
+          "cn": "经济复苏",
+          "en": "an economic upturn after a downturn",
+          "pos": "n."
+        },
+        {
+          "cn": "恢复健康",
+          "en": "the process of getting better after illness",
+          "pos": "n."
+        },
+        {
+          "cn": "追回、收回",
+          "en": "the act of getting something back",
+          "pos": "n."
+        }
+      ],
+      "col": "economic recovery 经济复苏 · on the road to recovery 在复苏途中 · recovery rate 回收率/康复率 · sustain recovery 维持复苏",
+      "ex": "The holiday spending boom is expected to support China's consumption-led recovery in the fourth quarter.",
+      "exZh": "假日消费热潮预计将支撑中国第四季度以消费为主导的复苏。",
+      "ex2": "Analysts see a V-shaped recovery in tech stocks after the recent sell-off.",
+      "ex2Zh": "分析师认为科技股在近期抛售后将出现V型复苏。",
+      "t": "国庆消费多点开花，火热假日市场为全年经济回升向好注入持久动能，recovery 成为财经媒体高频词；与此同时，美股纳指、标普500指数创收盘新高，全球风险偏好回暖。\n职场搭配：recovery 常与 plan、strategy 连用，如 recovery plan(复苏计划)；反义词 downturn/recession，可成对记忆。",
+      "root": "前缀 re-(再次，拉丁，同源 return) + 词根 cover(=cuperare 获得，拉丁，同源 cover 覆盖→引申获得) + 后缀 -y(名词化) → 再次获得 → 恢复、复苏。",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "productivity",
+      "ph": "/ˌprɒdʌkˈtɪvəti/",
+      "m": "生产率；生产力",
+      "c": "work",
+      "pos": "n.",
+      "en": "the rate at which goods or services are produced, especially per unit of labor; effectiveness in producing output",
+      "defs": [
+        {
+          "cn": "生产率",
+          "en": "output per unit of input",
+          "pos": "n."
+        },
+        {
+          "cn": "生产力",
+          "en": "the capacity to produce goods",
+          "pos": "n."
+        },
+        {
+          "cn": "效率",
+          "en": "the quality of being productive",
+          "pos": "n."
+        }
+      ],
+      "col": "labor productivity 劳动生产率 · productivity growth 生产率增长 · boost productivity 提高生产力 · productivity gap 生产率差距",
+      "ex": "Companies deploying AI report significant gains in productivity, especially in customer service and coding.",
+      "exZh": "部署AI的公司报告称生产力显著提升，尤其在客服和编程领域。",
+      "ex2": "Japan's productivity growth remains sluggish compared with the US, despite long working hours.",
+      "ex2Zh": "尽管工作时间长，日本的生产率增长与美国相比依然低迷。",
+      "t": "AI 工具正被企业加速部署以优化流程，productivity 成为衡量投资回报的核心指标；日经指数上涨1.05%，时隔约3个月收复70000点，科技股领涨也反映市场对生产率提升的期待。\n职场提示：productivity 常与 improve、measure、decline 连用；形容词 productive(高产的) 可一起记。",
+      "root": "前缀 pro-(向前，拉丁，同源 proceed) + 词根 duct(引导，拉丁 ducere，同源 conduct) + 后缀 -ivity(名词化) → 向前引导出成果 → 生产率。",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "fixture",
+      "ph": "/ˈfɪkstʃə(r)/",
+      "m": "赛程；固定赛事",
+      "c": "sports",
+      "ex": "The fixture was postponed by rain.",
+      "exZh": "这场赛事因雨延期。",
+      "t": "日历上早就排好的那场比赛。",
+      "root": "fix(fasten) + -ture → 固定物",
+      "pos": "n.",
+      "en": "a scheduled match",
+      "col": "league fixture · midweek fixture",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "podium",
+      "ph": "/ˈpəʊdiəm/",
+      "m": "领奖台",
+      "c": "sports",
+      "ex": "She stepped onto the podium for gold.",
+      "exZh": "她登上领奖台夺得金牌。",
+      "t": "前三名站上去的那块台。",
+      "root": "pod(foot) + -ium → 台",
+      "pos": "n.",
+      "en": "a platform for winners",
+      "col": "podium finish · top of the podium",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "marathon",
+      "ph": "/ˈmærəθən/",
+      "m": "马拉松；持久活动",
+      "c": "sports",
+      "ex": "He ran the marathon in under three hours.",
+      "exZh": "他不到三小时跑完马拉松。",
+      "t": "42公里、拼耐力的那场。",
+      "root": "Marathon(地名) → 马拉松",
+      "pos": "n.",
+      "en": "a long-distance race",
+      "col": "city marathon · marathon runner",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "transfer",
+      "ph": "/trænsˈfɜː(r)/",
+      "m": "转会；转移",
+      "c": "sports",
+      "ex": "The striker's transfer broke records.",
+      "exZh": "该前锋的转会费破了纪录。",
+      "t": "球员从一队跳到另一队。",
+      "root": "trans-(across) + fer(carry) → 搬运",
+      "pos": "n./v.",
+      "en": "a move between clubs",
+      "col": "transfer fee · transfer window",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "sponsorship",
+      "ph": "/ˈspɒnsəʃɪp/",
+      "m": "赞助",
+      "c": "sports",
+      "ex": "Sponsorship covers the team's costs.",
+      "exZh": "赞助覆盖了球队的开支。",
+      "t": "金主出钱换logo露脸。",
+      "root": "sponsor(赞助人) + -ship → 赞助关系",
+      "pos": "n.",
+      "en": "financial backing",
+      "col": "title sponsorship · sponsorship deal",
+      "d": "2026-10-07"
+    },
+    {
+      "w": "qualifying",
+      "ph": "/ˈkwɒlɪfaɪɪŋ/",
+      "m": "资格赛",
+      "c": "sports",
+      "ex": "The team reached qualifying for the World Cup.",
+      "exZh": "该队打进了世界杯预选赛。",
+      "t": "先过关才能进正赛的那一轮。",
+      "root": "quali(fit) + -fying → 合格化",
+      "pos": "n.",
+      "en": "the stage to earn entry",
+      "col": "qualifying round · qualifying match",
+      "d": "2026-10-07"
     }
   ],
   "preview": {
-    "hook": "国际奥委会在洛桑[preside|preside]紧急会议后宣布，因主办国涉嫌系统性违反参赛资格规定，多个国家代表团正酝酿对下月开赛的[tournament|tournament]实施[boycott|boycott]，而赛事组委会的[ledger|ledger]显示，若主要赞助商撤资，预算缺口将高达数亿美元；与此同时，受地缘政治紧张与全球经济[stagnation|stagnation]双重拖累，各国奥委会的运动员[intake|intake]已连续三年下滑，连传统强队的阵容深度也明显缩水，转播商与票务平台正重新评估这场风波对广告收入的连锁冲击。 在[地缘政治的|geopolitical]紧张局势下，一支由多国专家组成的[小队|squad]被派往边境地区评估安全风险。",
+    "hook": "国际足联公布最新赛历，将世界杯[qualifying|qualifying]提前至明年3月，并把三年一届的[marathon|marathon]式全球[transfer|transfer]窗口压缩为两个月；同时，受欧洲[recovery|recovery]乏力拖累，多家俱乐部[productivity|productivity]下滑，传统周末联赛这个固定赛事的收视与[sponsorship|sponsorship]收入连续两季缩水，主办方担心若[fixture|fixture]再密集，球员连站上[podium|podium]的体能都难以保证，转播商则要求重新谈判分成。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-08",
   "quote": {
-    "en": "Skill compounds quietly, even when markets stall.",
-    "zh": "技能悄然复利，纵使市场停滞。"
+    "en": "Learn steadily, and every downturn becomes a lesson you can bank.",
+    "zh": "稳步学习，每一次低迷都会变成你能存下的经验。"
   },
   "story": {
-    "en": "Global markets and sports delivered a striking [recovery|recovery] on October 7, 2026, as the Nasdaq and S&P 500 closed at record highs while Nikkei reclaimed the 70000 mark after three months. China's National Day consumption boom, spanning culture, tourism and box office, further lifted [productivity|productivity] expectations for the year. In sports, the China Open final became a [fixture|fixture] of resilience: 39-year-old Djokovic claimed a walkover for his seventh title, stepping onto the [podium|podium] without dropping a set. The Nagoya Asian Games saw China's delegation achieve its best overseas result, a [marathon|marathon] of preparation rewarded. Meanwhile, a [transfer|transfer] saga in table tennis unfolded as Sun Yingsha's new world ranking was released after the WTT Grand Smash, where 20 Chinese players reached the last 32. [sponsorship|sponsorship] from Xtep supported the athletes' speed. In [qualifying|qualifying] rounds, the intensity matched the holiday box office, which surpassed 1 billion yuan. Looking ahead, the EU's defensive trade shift and World Bank's Cambodia downgrade to 3.5% growth remind us that momentum needs nurturing.",
-    "cn": "在全球通胀降温、央行暂停加息的背景下，市场初现[复苏|recovery]迹象。欧元区最新数据显示，制造业[生产率|productivity]有所提升，为经济注入活力。与此同时，体育赛事作为固定赛事持续吸引投资，大型活动带动消费支出。在世界田径锦标赛上，一位黑马短跑选手意外登上[领奖台|podium]，令观众振奋。企业财报季这场[马拉松|marathon]仍在继续，考验着投资者的耐心。足球领域，一名年轻中场创纪录的[转会|transfer]费改变了俱乐部财务格局。[赞助|sponsorship]商正重新考虑赞助协议，以应对经济不确定性。随着明年各项赛事[资格赛|qualifying]的展开，品牌急于与新星建立联系。展望未来，分析师预计温和增长，但地缘政治紧张和能源价格仍构成风险。"
+    "en": "Wall Street's [volatile|volatile] session on October 7 saw all three major US indices close lower, with the Dow dropping over 300 points as renewed Treasury concerns pressured chip and optical communications shares, while Micron Technology still gained more than 4%. The [selloff|selloff] came alongside a dip in international oil prices. In China, holiday data offered a brighter [turnaround|turnaround]: Beijing welcomed 23.45 million visitors during the National Day break, generating about 29.5 billion yuan in tourism spending, while cross-province and outbound travel showed clear growth and the nationwide consumer market stayed broadly stable. The holiday box office also crossed 1.15 billion yuan. In sports, the China Open saw Zheng Qinwen return to the women's singles quarterfinals and Zhang Shuai advance in women's doubles, while Wu Yibing beat Zheng Rui 2-0 to reach the second round of the ATP Shanghai Masters. The intense [rivalry|rivalry] on tour has escalated, prompting the table tennis association to report fans who insulted coaches and harassed players to police. Abroad, Houthi forces claimed Saudi Arabia launched 156 attacks in 24 hours, and Thailand's flood death toll rose to 60. Yemen's [vacancy|vacancy] in diplomatic channels remains unresolved. As an [underdog|underdog], Wu Yibing now carries home hopes. A housing loan interest subsidy policy has landed its first [disbursement|disbursement] in multiple cities after one week. Looking ahead, investors will watch whether the volatile mood stabilizes as Beijing's clear, dry weather and large temperature swings greet returning travelers. If tensions escalate, [escalate|escalate] could quickly disrupt global markets.",
+    "cn": "本周全球市场剧烈波动，投资者在增长信号分化与央行指引变化之间反复权衡。科技板块出现明显[抛售|selloff]，多家芯片企业业绩指引不及预期，能源股则因供应担忧相[对抗|rivalry]跌。国际货币基金组织指出，跨境紧急融资的拨款有所放缓，部分新兴经济体出现资金[空缺|vacancy]，多边贷款机构难以填补。\n\n与此同时，欧元区零售销售意外[好转|turnaround]，成为少有的亮点，但经济学家提醒反弹可能只是暂时现象。体育方面，欧冠小组赛上演经典宿敌对决，赛事黑马逼平热门球队，引发广泛讨论。\n\n分析人士警告，若贸易紧张局势进一步升级，风险资产可能再度承压。未来一周，市场将关注通胀数据与央行会议纪要，以判断近期动荡是持久转变还是短暂插曲。"
   },
   "words": [
     {
@@ -12607,10 +12607,198 @@
       "en": "the stage to earn entry",
       "col": "qualifying round · qualifying match",
       "d": "2026-10-07"
+    },
+    {
+      "w": "disbursement",
+      "ph": "/dɪsˈbɜːsmənt/",
+      "m": "支付；拨款；支出额",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of paying out money, especially from a fund; the sum paid out in financial/banking contexts",
+      "defs": [
+        {
+          "cn": "支付；拨款",
+          "en": "the act of paying out money from a fund or account",
+          "pos": "n."
+        },
+        {
+          "cn": "支出额",
+          "en": "an amount of money that is paid out",
+          "pos": "n."
+        },
+        {
+          "cn": "拨付流程",
+          "en": "the process of releasing funds in stages",
+          "pos": "n."
+        }
+      ],
+      "col": "loan disbursement 贷款拨付 · disbursement schedule 付款计划 · first disbursement 首笔拨款 · disbursement of funds 资金拨付",
+      "ex": "Banks are speeding up loan disbursement so that first-home buyers feel the subsidy sooner.",
+      "exZh": "银行正加快贷款拨付，让首套购房者更快感受到贴息。",
+      "ex2": "The charity's disbursement of flood relief funds was praised for its transparency.",
+      "ex2Zh": "该慈善机构洪灾救济款的拨付因透明而受称赞。",
+      "t": "房贷贴息政策落地后，市场最关注的正是 disbursement 的速度——首笔业务已在多地成功办结，资金从审批到到账的链条被明显压缩。\n对比记忆：disbursement 强调『把钱付出去』的动作，payment 更泛，payout 更口语，写财经报告时用 disbursement 更专业。",
+      "root": "前缀 dis-(分开、散开，拉丁 dis，同源 disperse 驱散、distribute 分配) + 词根 burs(=purse 钱袋，拉丁 bursa，同源 bursar 财务主管) + 后缀 -ment(名词) → 把钱袋里的钱散出去 → 支付、拨款",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "selloff",
+      "ph": "/ˈselɒf/",
+      "m": "抛售；甩卖",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a rapid selling of assets causing prices to fall; a clearance sale, in market/commercial contexts",
+      "defs": [
+        {
+          "cn": "抛售",
+          "en": "a sudden wave of selling that drives prices down",
+          "pos": "n."
+        },
+        {
+          "cn": "甩卖",
+          "en": "a sale of goods at low prices to clear stock",
+          "pos": "n."
+        },
+        {
+          "cn": "引发抛售",
+          "en": "to trigger a broad sell-off in markets",
+          "pos": "v."
+        }
+      ],
+      "col": "broad selloff 全面抛售 · bond selloff 债券抛售 · trigger a selloff 引发抛售 · post-earnings selloff 财报后抛售",
+      "ex": "US stocks fell across the board on Wednesday, with a broad selloff in chip and optical-communication names.",
+      "exZh": "美股周三全线下跌，芯片与光通信板块遭遇全面抛售。",
+      "ex2": "The fashion brand held an end-of-season selloff to clear its summer inventory.",
+      "ex2Zh": "该时尚品牌举办季末甩卖以清空夏季库存。",
+      "t": "第一财经报道，美债担忧再起，道指跌超300点，芯片股与光通信承压走弱，原油尾盘跳水，一轮 selloff 让避险情绪迅速升温。\n记忆法：sell + off，把仓位“卖出去”，和 rally（反弹）正好是一对反义词，行情图上一红一绿。",
+      "root": "动词 sell(卖，古英语 sellan，同源 sale 销售) + 副词 off(离开、脱离，古英语 of，同源 offshoot 分支) → 把资产卖脱手 → 抛售、甩卖。",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "vacancy",
+      "ph": "/ˈveɪkənsi/",
+      "m": "空缺；空房",
+      "c": "work",
+      "pos": "n.",
+      "en": "an unoccupied position or job; an available room in a hotel or building; empty space",
+      "defs": [
+        {
+          "cn": "职位空缺",
+          "en": "an available job or position",
+          "pos": "n."
+        },
+        {
+          "cn": "空房",
+          "en": "an unoccupied room or accommodation",
+          "pos": "n."
+        },
+        {
+          "cn": "空白",
+          "en": "an empty space or gap",
+          "pos": "n."
+        }
+      ],
+      "col": "job vacancy 职位空缺 · fill a vacancy 填补空缺 · no vacancy 客满 · vacancy rate 空置率",
+      "ex": "Despite the economic slowdown, many companies in the renewable energy sector still have job vacancies to fill.",
+      "exZh": "尽管经济放缓，可再生能源领域的许多公司仍有职位空缺需要填补。",
+      "ex2": "The hotel had no vacancy during the National Day holiday, forcing tourists to look elsewhere.",
+      "ex2Zh": "国庆假期期间酒店客满，游客不得不另寻住处。",
+      "t": "国庆假期跨省游、出境游增幅明显，热门城市酒店 vacancy 率骤降，一房难求，旅游消费强劲复苏。\n\n职场中，vacancy 指职位空缺：公司发布 vacancy 后，HR 会收到大量简历，竞争激烈。",
+      "root": "词根 vac(=empty 空，拉丁，同源 vacation 假期) + 后缀 -ancy(状态) → 空的状态 → 空缺、空房",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "turnaround",
+      "ph": "/ˈtɜːnəraʊnd/",
+      "m": "好转；扭转；周转时间",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a change from failure to success; the time needed to complete a process, in business/economic contexts",
+      "defs": [
+        {
+          "cn": "好转；扭转",
+          "en": "a change from a bad to a good situation",
+          "pos": "n."
+        },
+        {
+          "cn": "周转时间",
+          "en": "the time taken to complete a task or process",
+          "pos": "n."
+        },
+        {
+          "cn": "转身；转向",
+          "en": "an act of turning around",
+          "pos": "n."
+        }
+      ],
+      "col": "economic turnaround 经济好转 · turnaround plan 扭亏计划 · quick turnaround 快速周转 · stage a turnaround 实现逆转",
+      "ex": "The holiday box office staged a turnaround, with total revenue topping 1.15 billion yuan.",
+      "exZh": "假期档电影票房实现好转，总收入突破11.5亿元。",
+      "ex2": "Shanghai's 'Welcome to the Dragon Restaurant' became a symbol of the industry's turnaround, ranking second in annual box office.",
+      "ex2Zh": "上海出品的《欢迎来龙餐馆》成为行业好转的象征，跃居年度票房前二。",
+      "t": "上海出品《欢迎来龙餐馆》跃居年度票房前二，将代表中国内地角逐奥斯卡，堪称行业 turnaround。\n职场用法：turnaround 也指'周转时间'，比如 a 24-hour turnaround 就是24小时内完成，和 deadline 常一起出现。",
+      "root": "turn(转，古英语 turnian，同源 return 返回) + around(周围，古英语 on + rūndan) → 转一圈 → 转变、好转、周转",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "underdog",
+      "ph": "/ˈʌndədɒɡ/",
+      "m": "弱队；黑马",
+      "c": "sports",
+      "ex": "The underdog won the final.",
+      "exZh": "黑马赢得了决赛。",
+      "t": "没人看好、却爆冷的那一方。",
+      "root": "under + dog → 下狗",
+      "pos": "n.",
+      "en": "the expected loser",
+      "col": "cheer the underdog · underdog story",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "rivalry",
+      "ph": "/ˈraɪvlri/",
+      "m": "对抗；宿敌关系",
+      "c": "sports",
+      "ex": "The rivalry between the clubs is fierce.",
+      "exZh": "两家俱乐部之间的对抗异常激烈。",
+      "t": "老对手年年碰、互不服的那股劲。",
+      "root": "rival(对手) + -ry → 对抗",
+      "pos": "n.",
+      "en": "ongoing competition",
+      "col": "historic rivalry · fierce rivalry",
+      "d": "2026-10-08"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-08",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-08",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
     }
   ],
   "preview": {
-    "hook": "国际足联公布最新赛历，将世界杯[qualifying|qualifying]提前至明年3月，并把三年一届的[marathon|marathon]式全球[transfer|transfer]窗口压缩为两个月；同时，受欧洲[recovery|recovery]乏力拖累，多家俱乐部[productivity|productivity]下滑，传统周末联赛这个固定赛事的收视与[sponsorship|sponsorship]收入连续两季缩水，主办方担心若[fixture|fixture]再密集，球员连站上[podium|podium]的体能都难以保证，转播商则要求重新谈判分成。",
+    "hook": "全球市场因主要央行意外收紧流动性预期而掀起一轮[selloff|selloff]，科技股与地产板块首当其冲，商业地产空置率攀升至历史高位，投资者对经济[turnaround|turnaround]的时点分歧加剧；与此同时，被视作弱旅的新兴市场本币债却逆势吸金，与发达市场之间的竞争进一步升级，资金在[volatile|volatile]资产间快速轮动，令交易员措手不及。 随着[拨款|disbursement]迟迟未到，那家位于[空缺|vacancy]商铺旁的[弱旅|underdog]俱乐部与老对手之间的[竞争|rivalry]不断[升级|escalate]，球迷们愈发焦虑。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-08",
+  "updated_on": "2026-10-09",
   "quote": {
-    "en": "Learn steadily, and every downturn becomes a lesson you can bank.",
-    "zh": "稳步学习，每一次低迷都会变成你能存下的经验。"
+    "en": "Adapt your skills, and every shift becomes an opportunity.",
+    "zh": "调整技能，每一次变化都会成为机会。"
   },
   "story": {
-    "en": "Wall Street's [volatile|volatile] session on October 7 saw all three major US indices close lower, with the Dow dropping over 300 points as renewed Treasury concerns pressured chip and optical communications shares, while Micron Technology still gained more than 4%. The [selloff|selloff] came alongside a dip in international oil prices. In China, holiday data offered a brighter [turnaround|turnaround]: Beijing welcomed 23.45 million visitors during the National Day break, generating about 29.5 billion yuan in tourism spending, while cross-province and outbound travel showed clear growth and the nationwide consumer market stayed broadly stable. The holiday box office also crossed 1.15 billion yuan. In sports, the China Open saw Zheng Qinwen return to the women's singles quarterfinals and Zhang Shuai advance in women's doubles, while Wu Yibing beat Zheng Rui 2-0 to reach the second round of the ATP Shanghai Masters. The intense [rivalry|rivalry] on tour has escalated, prompting the table tennis association to report fans who insulted coaches and harassed players to police. Abroad, Houthi forces claimed Saudi Arabia launched 156 attacks in 24 hours, and Thailand's flood death toll rose to 60. Yemen's [vacancy|vacancy] in diplomatic channels remains unresolved. As an [underdog|underdog], Wu Yibing now carries home hopes. A housing loan interest subsidy policy has landed its first [disbursement|disbursement] in multiple cities after one week. Looking ahead, investors will watch whether the volatile mood stabilizes as Beijing's clear, dry weather and large temperature swings greet returning travelers. If tensions escalate, [escalate|escalate] could quickly disrupt global markets.",
-    "cn": "本周全球市场剧烈波动，投资者在增长信号分化与央行指引变化之间反复权衡。科技板块出现明显[抛售|selloff]，多家芯片企业业绩指引不及预期，能源股则因供应担忧相[对抗|rivalry]跌。国际货币基金组织指出，跨境紧急融资的拨款有所放缓，部分新兴经济体出现资金[空缺|vacancy]，多边贷款机构难以填补。\n\n与此同时，欧元区零售销售意外[好转|turnaround]，成为少有的亮点，但经济学家提醒反弹可能只是暂时现象。体育方面，欧冠小组赛上演经典宿敌对决，赛事黑马逼平热门球队，引发广泛讨论。\n\n分析人士警告，若贸易紧张局势进一步升级，风险资产可能再度承压。未来一周，市场将关注通胀数据与央行会议纪要，以判断近期动荡是持久转变还是短暂插曲。"
+    "en": "Markets opened the week with a [volatile|volatile] tone as OpenAI's annualized revenue came in below prior reports, pressuring AI-linked shares and dragging the Nasdaq down over 1%. The episode tests the [credibility|credibility] of the AI growth narrative and forces a [reallocation|reallocation] of capital toward more defensive assets. In Asia, the People's Bank of China stressed a flexible, two-way floating exchange rate, refusing to preset targets or intervene in long-term trends, while international oil prices rose sharply. Meanwhile, China's State Oceanic Administration urged the Philippines to halt provocative acts, a dispute that could [escalate|escalate] if rhetoric continues. On the domestic front, a mortgage interest subsidy policy landed its first deals in multiple cities, and the property market in key cities warmed during the National Day holiday. The travel rush exceeded 2.1 billion passenger trips, showing a [resilient|resilient] consumer base despite external [disruption|disruption]. Investors are also weighing a higher [stake|stake] in AI valuations, using [leverage|leverage] cautiously as they await clearer earnings signals.",
+    "cn": "2026年第四季度开局，全球资金出现明显的再配置([[重新分配|reallocation]])，从长久期科技股转向现金流充裕的能源与防务板块。基金经理在经历一个财报参差的夏季后主动降低风险敞口。这一轮调仓并非恐慌性抛售，而是反映出市场对地缘摩擦的利害关系([[关系|stake]])有了更深定价：任何组合都难以回避大国博弈。\n\n在华盛顿，立法者讨论限制对外投资的新规，此举可能使中美紧张进一步升级([[（冲突）升级|escalate]])，并加速供应链碎片化。与此同时，红海航运再度延误，油价在三位数附近剧烈波动([[剧烈波动的|volatile]])，炼油商不得不借助杠杆([[杠杆|leverage]])对冲运费成本。美国东海岸一场大规模港口罢工带来新的中断([[中断、扰乱|disruption]])，汽车零部件与零售商品延迟最长两周。多国央行担心两年紧缩后信誉([[信誉|credibility]])受损，暗示即便增长降温也不会急于降息。\n\n不过，消费者资产负债表仍出乎意料地有韧性([[有韧性的|resilient]])，七国集团多数经济体实际工资为正。未来一年关键问题在于：这轮轮动是持久趋势，还是下一轮流动性浪潮前的短暂停顿。"
   },
   "words": [
     {
@@ -12795,10 +12795,160 @@
       "pos": "adj.",
       "en": "tending to change rapidly and unpredictably, esp. prices or markets",
       "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "reallocation",
+      "ph": "/ˌriːæləˈkeɪʃn/",
+      "m": "n. 重新分配；再配置",
+      "c": "work",
+      "pos": "n.",
+      "en": "The process of distributing resources, tasks, or funds again in a different way",
+      "defs": [
+        {
+          "cn": "重新分配",
+          "en": "the act of allocating something again or differently",
+          "pos": "n."
+        },
+        {
+          "cn": "（资源）再配置",
+          "en": "moving resources such as capital or labor to better uses",
+          "pos": "n."
+        },
+        {
+          "cn": "岗位调整",
+          "en": "shifting staff or duties within an organization",
+          "pos": "n."
+        }
+      ],
+      "col": "resource reallocation 资源再配置 · capital reallocation 资本重新配置 · reallocation of tasks 任务重新分配 · workforce reallocation 劳动力再配置",
+      "ex": "The central bank's flexible exchange-rate stance implies a gradual reallocation of capital toward more productive sectors rather than speculative flows.",
+      "exZh": "央行灵活的汇率立场意味着资本将逐步重新配置到更具生产力的部门，而非投机性流动。",
+      "ex2": "After the holiday, many firms began a reallocation of staff to projects linked to service consumption and AI tools.",
+      "ex2Zh": "假期过后，许多公司开始将员工重新分配到与服务消费和AI工具相关的项目上。",
+      "t": "央行系统阐明人民币汇率政策立场后，市场预期资本将出现一轮 reallocation——从投机性头寸转向更具生产力的领域。\n职场里，reallocation 也指把人力从低产出项目调到高产出项目，本质是让每一份资源都流向回报更高的地方。",
+      "root": "前缀 re-(再、重新，拉丁，同源 return 返回) + 词根 alloc(=adlocare 放置，拉丁，同源 allocate 分配) + 后缀 -ation(名词) → 再次放置 → 重新分配、再配置",
+      "d": "2026-10-09"
+    },
+    {
+      "w": "stake",
+      "ph": "/steɪk/",
+      "m": "(利害)关系；股份；下注",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a financial interest or share; something risked; to risk or bet, in business and investment contexts",
+      "defs": [
+        {
+          "cn": "股份；利害关系",
+          "en": "a share or financial interest in a business",
+          "pos": "n."
+        },
+        {
+          "cn": "赌注；风险",
+          "en": "something valuable risked on an outcome",
+          "pos": "n."
+        },
+        {
+          "cn": "下注；拿…冒险",
+          "en": "to risk money or reputation on a result",
+          "pos": "v."
+        }
+      ],
+      "col": "equity stake 股权 · stake a claim 主张权利 · at stake 处于风险中 · majority stake 多数股权",
+      "ex": "OpenAI's annualised revenue reportedly fell short of earlier figures, pressuring AI-concept stocks as the Nasdaq dropped more than one percent.",
+      "exZh": "据报道 OpenAI 年化营收低于此前数字，AI 概念股承压，纳指跌逾 1%。",
+      "ex2": "Foreign funds are raising their stake in Chinese property developers as the mortgage rebate policy takes effect.",
+      "ex2Zh": "随着房贷贴息政策显效，外资基金正提高对中国房地产开发商的持股。",
+      "t": "美股收盘：OpenAI 年化营收低于此前报道，AI 概念股承压，纳指跌逾 1%，投资者重新评估自己在高估值科技股中的 stake 是否过大。\n职场用法也常见：stake your reputation on a project(把声誉押在一个项目上)，一旦失败，损失的不只是钱，还有信任。",
+      "root": "源自古英语 staca(桩、柱)，同源词有 stock(存货、股份)、stakeholder(利益相关者)；由『把桩插进地里标记所有权』→ 引申为股份、利害关系、赌注",
+      "d": "2026-10-09"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-09",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-09",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-09",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-09",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-09",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的",
+      "c": "work",
+      "d": "2026-10-09",
+      "ex": "Chip demand proved resilient despite the slowdown.",
+      "exZh": "尽管经济放缓，芯片需求仍展现出韧性。",
+      "t": "AI 芯片需求 resilient，跌了又回。",
+      "root": "前缀 re-(回) + 词根 sili(跳,拉丁 salire) + 后缀 -ent(形容词) → 能弹回的 → 有韧性的",
+      "pos": "adj.",
+      "en": "able to recover quickly from difficulties",
+      "col": "prove resilient · remain resilient · economic resilience"
     }
   ],
   "preview": {
-    "hook": "全球市场因主要央行意外收紧流动性预期而掀起一轮[selloff|selloff]，科技股与地产板块首当其冲，商业地产空置率攀升至历史高位，投资者对经济[turnaround|turnaround]的时点分歧加剧；与此同时，被视作弱旅的新兴市场本币债却逆势吸金，与发达市场之间的竞争进一步升级，资金在[volatile|volatile]资产间快速轮动，令交易员措手不及。 随着[拨款|disbursement]迟迟未到，那家位于[空缺|vacancy]商铺旁的[弱旅|underdog]俱乐部与老对手之间的[竞争|rivalry]不断[升级|escalate]，球迷们愈发焦虑。",
+    "hook": "今日，全球能源市场因主要产油国突然宣布[reallocation|reallocation]出口配额而剧烈震荡，布伦特原油价格在[volatile|volatile]交易中一度飙升9%，各方在供应链中的利害[stake|stake]骤然放大；与此同时，红海航运通道的[disruption|disruption]风险再度升级，迫使欧洲买家以更高[leverage|leverage]对冲远期合约，而产油国联盟能否维持[credibility|credibility]并展现[resilient|resilient]协调能力，成为市场关注焦点。 随着边境冲突不断[升级|escalate]，两国之间的外交紧张局势也迅速加剧。",
     "impact": ""
   }
 }

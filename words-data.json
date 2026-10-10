@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-09",
+  "updated_on": "2026-10-10",
   "quote": {
-    "en": "Adapt your skills, and every shift becomes an opportunity.",
-    "zh": "调整技能，每一次变化都会成为机会。"
+    "en": "In every trade shift, the resilient learner finds a new route.",
+    "zh": "在每一次贸易变局中，坚韧的学习者总能找到新路。"
   },
   "story": {
-    "en": "Markets opened the week with a [volatile|volatile] tone as OpenAI's annualized revenue came in below prior reports, pressuring AI-linked shares and dragging the Nasdaq down over 1%. The episode tests the [credibility|credibility] of the AI growth narrative and forces a [reallocation|reallocation] of capital toward more defensive assets. In Asia, the People's Bank of China stressed a flexible, two-way floating exchange rate, refusing to preset targets or intervene in long-term trends, while international oil prices rose sharply. Meanwhile, China's State Oceanic Administration urged the Philippines to halt provocative acts, a dispute that could [escalate|escalate] if rhetoric continues. On the domestic front, a mortgage interest subsidy policy landed its first deals in multiple cities, and the property market in key cities warmed during the National Day holiday. The travel rush exceeded 2.1 billion passenger trips, showing a [resilient|resilient] consumer base despite external [disruption|disruption]. Investors are also weighing a higher [stake|stake] in AI valuations, using [leverage|leverage] cautiously as they await clearer earnings signals.",
-    "cn": "2026年第四季度开局，全球资金出现明显的再配置([[重新分配|reallocation]])，从长久期科技股转向现金流充裕的能源与防务板块。基金经理在经历一个财报参差的夏季后主动降低风险敞口。这一轮调仓并非恐慌性抛售，而是反映出市场对地缘摩擦的利害关系([[关系|stake]])有了更深定价：任何组合都难以回避大国博弈。\n\n在华盛顿，立法者讨论限制对外投资的新规，此举可能使中美紧张进一步升级([[（冲突）升级|escalate]])，并加速供应链碎片化。与此同时，红海航运再度延误，油价在三位数附近剧烈波动([[剧烈波动的|volatile]])，炼油商不得不借助杠杆([[杠杆|leverage]])对冲运费成本。美国东海岸一场大规模港口罢工带来新的中断([[中断、扰乱|disruption]])，汽车零部件与零售商品延迟最长两周。多国央行担心两年紧缩后信誉([[信誉|credibility]])受损，暗示即便增长降温也不会急于降息。\n\n不过，消费者资产负债表仍出乎意料地有韧性([[有韧性的|resilient]])，七国集团多数经济体实际工资为正。未来一年关键问题在于：这轮轮动是持久趋势，还是下一轮流动性浪潮前的短暂停顿。"
+    "en": "Global markets stayed [volatile|volatile] as oil edged up 0.19% and New York and London stocks rose on October 9. The EU-China trade talks produced a 16-point consensus list, which the EU trade commissioner called an important first step in the [rebalance|rebalance] process, offering a [prospect|prospect] for steadier ties. The holiday data gave consumption a [boost|boost]: 826 million domestic trips and over 300 million rail passengers, though box office growth could [lag|lag] other sectors. In the Middle East, a Saudi-led coalition destroyed 136 Houthi targets, and Iran's Revolutionary Guard blamed US forces for rising maritime tensions, risking further escalation. Trump's pick of Katie Zacharia as White House press secretary and US easing of Russian diesel sanctions add diplomatic [leverage|leverage]. Beijing's new space strategy and Hunan's land measures aim to avoid [disruption|disruption] to long-term plans. Prices could [escalate|escalate] quickly if supply chains fail again.",
+    "cn": "全球市场在第四季度开局谨慎，投资者在通胀降温与增长不均的背景下[重新平衡|rebalance]投资组合。市场对利率下行的[前景|prospect]预期，提振了多个地区的股市，但制造业数据仍[滞后|lag]于服务业。若关税范围扩大，贸易摩擦可能进一步升级，令资产价格更趋剧烈波动。与此同时，高[杠杆|leverage]企业面临再融资压力，任何供应链[中断、扰乱|disruption]都可能迅速波及盈利。未来数月，政策支持能否抵消这些风险将成为关键，投资者正密切关注央行指引与企业业绩信号。"
   },
   "words": [
     {
@@ -12945,10 +12945,198 @@
       "pos": "adj.",
       "en": "able to recover quickly from difficulties",
       "col": "prove resilient · remain resilient · economic resilience"
+    },
+    {
+      "w": "rebalance",
+      "ph": "/ˌriːˈbæləns/",
+      "m": "重新平衡；再平衡",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to adjust the balance of something, especially trade or investment, to make it fairer or more stable",
+      "defs": [
+        {
+          "cn": "重新平衡",
+          "en": "to adjust to a more balanced state",
+          "pos": "v."
+        },
+        {
+          "cn": "再平衡(贸易)",
+          "en": "to rebalance trade or economic relations",
+          "pos": "v."
+        },
+        {
+          "cn": "调整(投资组合)",
+          "en": "to rebalance a portfolio",
+          "pos": "v."
+        }
+      ],
+      "col": "rebalance trade 再平衡贸易 · rebalance portfolio 调整投资组合 · rebalance the economy 调整经济结构 · global rebalancing 全球再平衡",
+      "ex": "The EU trade commissioner called the 16-point consensus list an important first step in the rebalancing process with China.",
+      "exZh": "欧盟贸易委员称16点共识清单是与中方再平衡进程中的重要第一步。",
+      "ex2": "Investors often rebalance their portfolios at year-end, selling winners and buying laggards to maintain target allocations.",
+      "ex2Zh": "投资者常在年底调整投资组合，卖出赢家买入落后者以维持目标配置。",
+      "t": "中欧贸易谈判推出16点“成果共识清单”，欧盟贸易委员称这是再平衡进程中的重要第一步，rebalance 成为描述双边经贸调整的高频词。\n职场中也可说 rebalance workload（重新平衡工作量），比 redistribute 更强调“恢复均衡”。",
+      "root": "前缀 re-（再、重新，拉丁，同源 repeat 重复、restart 重启） + 词根 balance（天平，拉丁 bilanx，同源 balanced 平衡的） → 重新使天平平衡 → 再平衡。",
+      "d": "2026-10-10"
+    },
+    {
+      "w": "prospect",
+      "ph": "/ˈprɒspekt/",
+      "m": "前景；可能性；潜在客户",
+      "c": "work",
+      "pos": "n.",
+      "en": "the possibility that something will happen; chances of future success; a potential customer or candidate",
+      "defs": [
+        {
+          "cn": "前景；前途",
+          "en": "the chances of future success or development",
+          "pos": "n."
+        },
+        {
+          "cn": "可能性；预期",
+          "en": "the possibility that something will happen",
+          "pos": "n."
+        },
+        {
+          "cn": "潜在客户/人选",
+          "en": "a person seen as a possible customer or employee",
+          "pos": "n."
+        }
+      ],
+      "col": "job prospects 就业前景 · career prospects 职业前景 · bright prospects 光明前景 · a sales prospect 潜在客户",
+      "ex": "With the holiday box office topping 1.165 billion yuan, cinema chains are revising their prospects for the fourth quarter.",
+      "exZh": "随着国庆档票房超过11.65亿元，院线正在上调对第四季度的前景预期。",
+      "ex2": "Graduates in semiconductor engineering still enjoy strong job prospects despite a cooling hiring market.",
+      "ex2Zh": "尽管招聘市场降温，半导体工程专业的毕业生就业前景依然强劲。",
+      "t": "国庆档票房超11.65亿元，\"电影+新玩法\"带动假日消费，让院线对四季度 prospect 明显乐观；铁路假期发送旅客超3亿人次、国内出游8.26亿人次，同样支撑了服务业的预期。\n职场高频搭配是 job prospects 和 career prospects：换专业、考证书，说到底都是在改善自己的 prospects。做销售时 prospect 还指\"潜在客户\"，所以要 prospect for new clients。",
+      "root": "前缀 pro-(向前，拉丁，同源 progress 进步、promote 促进) + 词根 spect(=specere 看，拉丁，同源 inspect 检查、spectator 观众) → 向前看 → 前景、预期、潜在对象",
+      "d": "2026-10-10"
+    },
+    {
+      "w": "boost",
+      "ph": "/buːst/",
+      "m": "v./n. 促进，推动；提高",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "To increase or improve something, such as sales, growth, or morale; an increase or improvement.",
+      "defs": [
+        {
+          "cn": "促进",
+          "en": "to increase or improve",
+          "pos": "v."
+        },
+        {
+          "cn": "推动",
+          "en": "to encourage or promote",
+          "pos": "v."
+        },
+        {
+          "cn": "提高",
+          "en": "an increase or improvement",
+          "pos": "n."
+        }
+      ],
+      "col": "boost sales (促进销售) · boost confidence (提振信心) · boost economy (提振经济) · give a boost (给予推动)",
+      "ex": "The 8.26 billion domestic trips during the National Day holiday gave a significant boost to the consumer sector.",
+      "exZh": "国庆假期国内出游8.26亿人次，显著提振了消费板块。",
+      "ex2": "New measures to revitalize existing land are expected to boost efficiency in urban development.",
+      "ex2Zh": "盘活存量土地的新措施预计将提高城市发展效率。",
+      "t": "国庆假期国内出游8.26亿人次，铁路发送旅客超3亿人次，[提振|boost]了假日经济。湖南出台支持存量土地盘活增效措施，从“增量扩张”转向“存量挖潜”，也为地方经济注入动力。\n职场中，boost 常用作“提升”，如“a pay rise boosted morale”（加薪提振了士气）。记忆：boost 与“ boosts”谐音“不死的”，不死的斗志能推动前进。",
+      "root": "词源不确定，可能源自方言 boost（猛推）。无明确词缀，整体记忆：boo- 拟声，-st 表动作 → 猛推一把 → 促进、提高。",
+      "d": "2026-10-10"
+    },
+    {
+      "w": "lag",
+      "ph": "/læɡ/",
+      "m": "v./n. 滞后，落后；时间间隔",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "To fail to keep up with others; a period of time between two events.",
+      "defs": [
+        {
+          "cn": "滞后",
+          "en": "to fall behind",
+          "pos": "v."
+        },
+        {
+          "cn": "落后",
+          "en": "to not keep pace",
+          "pos": "v."
+        },
+        {
+          "cn": "时间间隔",
+          "en": "a delay between events",
+          "pos": "n."
+        }
+      ],
+      "col": "lag behind (落后于) · time lag (时间差) · jet lag (时差反应) · lagging indicator (滞后指标)",
+      "ex": "Despite the stock market rally in New York and London, some sectors continue to lag behind.",
+      "exZh": "尽管纽约和伦敦股市上涨，部分板块仍落后。",
+      "ex2": "There is often a time lag between policy implementation and visible economic results.",
+      "ex2Zh": "政策实施与经济效果显现之间往往存在时间差。",
+      "t": "纽约股市三大股指9日上涨，伦敦股市9日上涨，但部分传统行业仍[滞后|lag]于大盘。国际油价小幅收涨，美油主力合约涨0.19%，能源板块表现温和。\n职场中，lag 可指“时差反应”（jet lag），也可指“落后”。记忆：lag 与“懒”谐音，懒散就会落后。",
+      "root": "词源不确定，可能源自中古英语 laggen（落后）。无明确词缀，整体记忆：拟声词，形容拖沓的脚步声 → 滞后、落后。",
+      "d": "2026-10-10"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-10",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-10",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-10",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-10",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
     }
   ],
   "preview": {
-    "hook": "今日，全球能源市场因主要产油国突然宣布[reallocation|reallocation]出口配额而剧烈震荡，布伦特原油价格在[volatile|volatile]交易中一度飙升9%，各方在供应链中的利害[stake|stake]骤然放大；与此同时，红海航运通道的[disruption|disruption]风险再度升级，迫使欧洲买家以更高[leverage|leverage]对冲远期合约，而产油国联盟能否维持[credibility|credibility]并展现[resilient|resilient]协调能力，成为市场关注焦点。 随着边境冲突不断[升级|escalate]，两国之间的外交紧张局势也迅速加剧。",
+    "hook": "全球市场在剧烈波动中迎来关键转折：中东局势再度升级，能源供应链[disruption|disruption]风险骤增，投资者被迫重新审视资产配置，试图[rebalance|rebalance]风险敞口；与此同时，人工智能产业[prospect|prospect]虽被广泛看好，但算力投资回报的[lag|lag]令部分机构犹豫，企业纷纷借助[leverage|leverage]放大收益，却也在高利率环境下承受压力，市场亟需政策[boost|boost]以稳定信心。 随着[升级|escalate]的贸易争端让全球市场变得[反复无常|volatile]，投资者纷纷寻求避险资产。",
     "impact": ""
   }
 }

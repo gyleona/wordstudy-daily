@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-10",
+  "updated_on": "2026-10-11",
   "quote": {
-    "en": "In every trade shift, the resilient learner finds a new route.",
-    "zh": "在每一次贸易变局中，坚韧的学习者总能找到新路。"
+    "en": "Each new skill you learn is a shield against every sudden storm.",
+    "zh": "你学会的每一项新技能，都是抵御每一次突来风暴的盾牌。"
   },
   "story": {
-    "en": "Global markets stayed [volatile|volatile] as oil edged up 0.19% and New York and London stocks rose on October 9. The EU-China trade talks produced a 16-point consensus list, which the EU trade commissioner called an important first step in the [rebalance|rebalance] process, offering a [prospect|prospect] for steadier ties. The holiday data gave consumption a [boost|boost]: 826 million domestic trips and over 300 million rail passengers, though box office growth could [lag|lag] other sectors. In the Middle East, a Saudi-led coalition destroyed 136 Houthi targets, and Iran's Revolutionary Guard blamed US forces for rising maritime tensions, risking further escalation. Trump's pick of Katie Zacharia as White House press secretary and US easing of Russian diesel sanctions add diplomatic [leverage|leverage]. Beijing's new space strategy and Hunan's land measures aim to avoid [disruption|disruption] to long-term plans. Prices could [escalate|escalate] quickly if supply chains fail again.",
-    "cn": "全球市场在第四季度开局谨慎，投资者在通胀降温与增长不均的背景下[重新平衡|rebalance]投资组合。市场对利率下行的[前景|prospect]预期，提振了多个地区的股市，但制造业数据仍[滞后|lag]于服务业。若关税范围扩大，贸易摩擦可能进一步升级，令资产价格更趋剧烈波动。与此同时，高[杠杆|leverage]企业面临再融资压力，任何供应链[中断、扰乱|disruption]都可能迅速波及盈利。未来数月，政策支持能否抵消这些风险将成为关键，投资者正密切关注央行指引与企业业绩信号。"
+    "en": "Today's dispatch tracks multiple real-world threads. As China's employment-first strategy expands social security, firms weighing [severance|severance] packages face sharper scrutiny. A parallel [appraisal|appraisal] of workforce [skill|skill] needs is underway as the EU-China hybrid-vehicle trade understanding opens a window for domestic supply chains. Meanwhile, US President Trump said Washington may join Saudi strikes on Houthi forces after the Saudi-led coalition intercepted and destroyed a Houthi ballistic missile, warning the conflict could [escalate|escalate]. Markets remain [volatile|volatile] as Trump blamed Zelensky for surging US diesel prices, and Japan's PM and FM voiced deep concern over US sanctions on the ICC. In autos, regulators moved to ban fully hidden door handles and folding screens, while Dongchedi's brake-pedal bracket fracture test triggered a delivery pause. Analysts say firms must [leverage|leverage] patient insurance capital for new-quality productivity, even as supply-chain [disruption|disruption] risks test policy [credibility|credibility]. Looking ahead, Guangzhou's 16 measures for the Canton Fair and Cambodia-Vietnam pacts signal deeper regional integration into the winter.",
+    "cn": "本周全球市场剧烈波动，贸易谈判陷入僵局，迫使各国央行借助紧急货币互换额度稳定流动性。某主要港口罢工造成供应链[中断、扰乱|disruption]，推高运价。分析师警告，若月底前无法达成协议，争端可能进一步升级。面对不确定性，企业调整用工策略：部分公司提供更优厚的[遣散费|severance]，另一些则加大[技能|skill]培训以留住人才。国际货币基金组织最新[评估|appraisal]指出，政策[信誉|credibility]是安抚投资者的关键。展望未来，谈判代表下周将再次会晤，市场情绪依然紧张。"
   },
   "words": [
     {
@@ -13133,10 +13133,179 @@
       "pos": "n.",
       "en": "disturbance or interruption to a system or process",
       "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "severance",
+      "ph": "/ˈsevərəns/",
+      "m": "遣散费；离职补偿",
+      "c": "work",
+      "pos": "n.",
+      "en": "money paid to an employee when their contract ends, esp. layoffs; the act of ending a connection, in HR contexts",
+      "defs": [
+        {
+          "cn": "遣散费；离职补偿",
+          "en": "payment made to a worker whose job is cut",
+          "pos": "n."
+        },
+        {
+          "cn": "解雇补偿金",
+          "en": "compensation tied to termination of employment",
+          "pos": "n."
+        },
+        {
+          "cn": "切断；分离",
+          "en": "the act of severing a link or relationship",
+          "pos": "n."
+        }
+      ],
+      "col": "severance pay 遣散费 · severance package 离职补偿方案 · offer severance 提供遣散方案 · severance agreement 离职协议",
+      "ex": "As carmakers restructure design teams after the new safety rules, some engineers are negotiating severance packages.",
+      "exZh": "新安全规定出台后车企重组设计团队，部分工程师正在协商离职补偿方案。",
+      "ex2": "The startup offered three months of severance to staff affected by the pivot to AI services.",
+      "ex2Zh": "这家初创公司向受转型 AI 业务影响的员工提供三个月遣散费。",
+      "t": "汽车'噱头设计'遭监管后，部分车企重组设计团队，severance 方案成为 HR 与员工谈判焦点。\n职场高频：severance package 常包含工资、社保与股票，和 layoff(裁员) 常同框出现。",
+      "root": "词根 sever(切断，拉丁 separare 分开，同源 separate 分离) + 后缀 -ance → 切断雇佣关系 → 遣散费",
+      "d": "2026-10-11"
+    },
+    {
+      "w": "appraisal",
+      "ph": "/əˈpreɪzl/",
+      "m": "评估；考核，鉴定",
+      "c": "work",
+      "pos": "n.",
+      "en": "a formal assessment of performance, value, or quality; a valuation of property, in HR/finance contexts",
+      "defs": [
+        {
+          "cn": "评估；考核",
+          "en": "a formal judgement of performance or worth",
+          "pos": "n."
+        },
+        {
+          "cn": "绩效评估",
+          "en": "a periodic review of an employee's work",
+          "pos": "n."
+        },
+        {
+          "cn": "鉴定；估价",
+          "en": "an expert valuation of an asset or item",
+          "pos": "n."
+        }
+      ],
+      "col": "performance appraisal 绩效评估 · annual appraisal 年度考核 · appraisal report 评估报告 · property appraisal 房产估价",
+      "ex": "With the jobs-first strategy in focus, firms are tying annual appraisal scores more tightly to reskilling progress.",
+      "exZh": "在就业优先战略背景下，企业正把年度考核分数与再培训进展更紧密挂钩。",
+      "ex2": "The bank ordered an independent appraisal of the collateral before approving the loan.",
+      "ex2Zh": "银行在批准贷款前对抵押物进行了独立估价。",
+      "t": "中国实施就业优先战略、织密社会保障网络，企业随之把 appraisal 与技能升级挂钩，考核不再只看业绩。\n职场提醒：appraisal 偏正式，口语常说 review；self-appraisal 是自评，常与 boss's feedback 成对出现。",
+      "root": "前缀 ad-(朝向，拉丁，同源 advance 前进) + 词根 prais(价值，拉丁 pretium，同源 price 价格、precious 珍贵的) + 后缀 -al → 给出价值判断 → 评估、考核",
+      "d": "2026-10-11"
+    },
+    {
+      "w": "skill",
+      "ph": "/skɪl/",
+      "m": "技能；技巧",
+      "c": "work",
+      "pos": "n.",
+      "en": "The ability to do something well, gained through training or practice, in workplace/education contexts",
+      "defs": [
+        {
+          "cn": "技能",
+          "en": "an ability acquired through training or experience",
+          "pos": "n."
+        },
+        {
+          "cn": "技巧",
+          "en": "a particular technique or method of doing something",
+          "pos": "n."
+        },
+        {
+          "cn": "熟练",
+          "en": "the quality of being skilled or proficient",
+          "pos": "n."
+        }
+      ],
+      "col": "skill gap 技能缺口 · soft skills 软技能 · reskill 再培训 · skill set 技能组合",
+      "ex": "China's employment-first strategy emphasizes vocational training to close the skill gap in advanced manufacturing.",
+      "exZh": "中国就业优先战略强调职业培训，以弥合先进制造业的技能缺口。",
+      "ex2": "Employers are prioritizing digital skill certification as AI reshapes job requirements.",
+      "ex2Zh": "随着AI重塑岗位要求，雇主优先考虑数字技能认证。",
+      "t": "中国就业优先战略落地，skill 培训与社保网络双管齐下，缓解结构性就业矛盾，助力制造业升级。\n职场金句：'Skill compounds quietly'——技能像复利，每天进步一点，长期回报惊人。",
+      "root": "古北欧语 skil（区分、判断） → 中古英语 skill 指'辨别力' → 演变为'通过训练获得的能力'。",
+      "d": "2026-10-11"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-11",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-11",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-11",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-11",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-11",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
     }
   ],
   "preview": {
-    "hook": "全球市场在剧烈波动中迎来关键转折：中东局势再度升级，能源供应链[disruption|disruption]风险骤增，投资者被迫重新审视资产配置，试图[rebalance|rebalance]风险敞口；与此同时，人工智能产业[prospect|prospect]虽被广泛看好，但算力投资回报的[lag|lag]令部分机构犹豫，企业纷纷借助[leverage|leverage]放大收益，却也在高利率环境下承受压力，市场亟需政策[boost|boost]以稳定信心。 随着[升级|escalate]的贸易争端让全球市场变得[反复无常|volatile]，投资者纷纷寻求避险资产。",
+    "hook": "全球科技行业再掀裁员潮，某头部企业宣布裁减15%员工，遣散费[severance|severance]总额高达8亿美元，而内部绩效评估[appraisal|appraisal]显示，AI技能[skill|skill]缺口是主因；与此同时，中东冲突升级[escalate|escalate]推高油价，市场剧烈波动[volatile|volatile]，企业高杠杆[leverage|leverage]运营风险骤增，供应链中断[disruption|disruption]频发，投资者对财报信誉[credibility|credibility]的质疑升温。",
     "impact": ""
   }
 }

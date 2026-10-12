@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-11",
+  "updated_on": "2026-10-12",
   "quote": {
-    "en": "Each new skill you learn is a shield against every sudden storm.",
-    "zh": "你学会的每一项新技能，都是抵御每一次突来风暴的盾牌。"
+    "en": "Adapt your skills, and every trade shift becomes a stepping stone.",
+    "zh": "调整你的技能，每一次贸易变局都会成为垫脚石。"
   },
   "story": {
-    "en": "Today's dispatch tracks multiple real-world threads. As China's employment-first strategy expands social security, firms weighing [severance|severance] packages face sharper scrutiny. A parallel [appraisal|appraisal] of workforce [skill|skill] needs is underway as the EU-China hybrid-vehicle trade understanding opens a window for domestic supply chains. Meanwhile, US President Trump said Washington may join Saudi strikes on Houthi forces after the Saudi-led coalition intercepted and destroyed a Houthi ballistic missile, warning the conflict could [escalate|escalate]. Markets remain [volatile|volatile] as Trump blamed Zelensky for surging US diesel prices, and Japan's PM and FM voiced deep concern over US sanctions on the ICC. In autos, regulators moved to ban fully hidden door handles and folding screens, while Dongchedi's brake-pedal bracket fracture test triggered a delivery pause. Analysts say firms must [leverage|leverage] patient insurance capital for new-quality productivity, even as supply-chain [disruption|disruption] risks test policy [credibility|credibility]. Looking ahead, Guangzhou's 16 measures for the Canton Fair and Cambodia-Vietnam pacts signal deeper regional integration into the winter.",
-    "cn": "本周全球市场剧烈波动，贸易谈判陷入僵局，迫使各国央行借助紧急货币互换额度稳定流动性。某主要港口罢工造成供应链[中断、扰乱|disruption]，推高运价。分析师警告，若月底前无法达成协议，争端可能进一步升级。面对不确定性，企业调整用工策略：部分公司提供更优厚的[遣散费|severance]，另一些则加大[技能|skill]培训以留住人才。国际货币基金组织最新[评估|appraisal]指出，政策[信誉|credibility]是安抚投资者的关键。展望未来，谈判代表下周将再次会晤，市场情绪依然紧张。"
+    "en": "Saudi Arabia's civil aviation authority confirmed a deadly attack on Riyadh International Airport, leaving 1 dead and 11 injured, as Iran offered to broker talks between Saudi Arabia and Yemen's Houthis. The [impending|impending] risk of wider conflict could [escalate|escalate] if strikes continue, making energy markets [volatile|volatile]. In China, Zunjie Auto customer service said it will confirm a brake pedal bracket [upgrade|upgrade] plan by late October and start work in November, while Yuexin Semiconductor lists on the ChiNext board on Oct 13 at 12.01 yuan per share. A former Australian prime minister, Kevin Rudd, gave a speech in Beijing's Tongzhou, recalling his Mandarin [mentor|mentor] and decades of ties. EU reportedly plans to sharply cut Chinese hybrid car imports as early as December, testing trade [credibility|credibility]; analysts warn of supply chain [disruption|disruption]. Beijing's private entrepreneurs joined the Shanghai consulting meeting, seeking cooperation and overseas expansion, using policy [leverage|leverage] to navigate global headwinds.",
+    "cn": "沙特民航总局证实，利雅得国际机场再度遭袭，造成1死11伤；伊朗表示愿促成沙特与也门胡塞武装对话。若袭击持续，[即将发生的]([（尤指坏事）即将发生的|impending])冲突风险可能进一步[升级]([（冲突）升级|escalate])，能源市场随之剧烈[波动]([剧烈波动的|volatile])。国内方面，尊界汽车客服称10月底确认制动踏板支架[升级]([升级|upgrade])方案，11月启动升级工作；粤芯半导体将于10月13日在创业板上市，发行价12.01元/股。澳大利亚前总理陆克文在北京通州演讲，回忆其中文[导师]([导师|mentor])与多年对华交往。欧盟据报最早12月锐减中国进口混动汽车，考验贸易[信誉]([信誉|credibility])，学者警告供应链[中断]([中断、扰乱|disruption])风险。上海咨会首次邀请民营企业家，合作、出海成为高频词，企业借政策[杠杆]([杠杆|leverage])应对全球逆风。"
   },
   "words": [
     {
@@ -13302,10 +13302,174 @@
       "pos": "n.",
       "en": "the quality of being trusted or believed",
       "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "upgrade",
+      "ph": "/ˌʌpˈɡreɪd/",
+      "m": "v./n. 升级，提升；改进",
+      "c": "work",
+      "pos": "v./n.",
+      "en": "to improve the quality or performance of something; an improvement",
+      "defs": [
+        {
+          "cn": "升级，提升",
+          "en": "to raise to a higher standard",
+          "pos": "v."
+        },
+        {
+          "cn": "改进，更新",
+          "en": "to replace with a better version",
+          "pos": "v."
+        },
+        {
+          "cn": "升级，改进",
+          "en": "an act of improving something",
+          "pos": "n."
+        }
+      ],
+      "col": "upgrade skills (提升技能) · upgrade a system (升级系统) · software upgrade (软件升级) · upgrade to business class (升舱)",
+      "ex": "JAC Group's customer service said it will confirm the brake pedal bracket upgrade plan by late October and start the upgrade in November.",
+      "exZh": "尊界汽车客服表示，10月底确认制动踏板支架升级方案，11月启动升级工作。",
+      "ex2": "Employees are encouraged to upgrade their digital skills to stay competitive.",
+      "ex2Zh": "员工被鼓励提升数字技能以保持竞争力。",
+      "t": "尊界汽车客服称10月底确认制动踏板支架升级方案，11月启动升级工作。这里的 upgrade 既是产品安全改进，也是品牌信任的修复。车企在召回与升级之间，考验的是响应速度。\n\n职场高频：'upgrade your skills' 比 improve 更强调'换到更高版本'。与 update（更新）相比，upgrade 通常意味着性能或等级的实质提升。",
+      "root": "由前缀 up-（向上，古英语，同源 upward/uphold）+ 词根 grade（等级，拉丁 gradus，同源 gradual/graduate）构成。字面'向上提一级'，引申为升级、提升。",
+      "d": "2026-10-12"
+    },
+    {
+      "w": "mentor",
+      "ph": "/ˈmentɔːr/",
+      "m": "导师；指导",
+      "c": "work",
+      "pos": "n. / v.",
+      "en": "An experienced person who advises and helps a less experienced one; to act as such an adviser.",
+      "defs": [
+        {
+          "cn": "导师",
+          "en": "an experienced adviser to a junior person",
+          "pos": "n."
+        },
+        {
+          "cn": "指导",
+          "en": "to advise and guide someone",
+          "pos": "v."
+        }
+      ],
+      "col": "mentor program (导师计划) · peer mentor (同伴导师) · be mentored by (由…指导) · mentor a junior (指导新人)",
+      "ex": "Private entrepreneurs were invited to the Shanghai consulting meeting for the first time, where cooperation and going global were high-frequency topics.",
+      "exZh": "民营企业家首次受邀参加上海市咨会，合作与出海成为高频词。",
+      "ex2": "She credits her first manager for mentoring her through a difficult career pivot.",
+      "ex2Zh": "她将自己的成功职业转型归功于第一位经理的指导。",
+      "t": "上海市咨会首次邀请民营企业家参会，合作、出海成高频词，背后是资深企业家以 mentor 身份为中小企业指路，帮它们少走弯路。\n职场场景：新人入职若有 mentor 带，三个月就能上手；没有的话，可能一年还在摸索流程。",
+      "root": "源自希腊神话中奥德修斯的挚友 Mentor(门托尔)，他受托指导其子，后引申为『良师益友』，词根 ment-(思考)同源 mental(精神的)。",
+      "d": "2026-10-12"
+    },
+    {
+      "w": "impending",
+      "ph": "/ɪmˈpendɪŋ/",
+      "m": "（尤指坏事）即将发生的；逼近的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "about to happen soon, especially something unpleasant or threatening; looming (in political/economic contexts)",
+      "defs": [
+        {
+          "cn": "（坏事）即将发生的",
+          "en": "about to happen soon, esp. something bad",
+          "pos": "adj."
+        },
+        {
+          "cn": "逼近的、悬而未决的",
+          "en": "looming over someone; threatening to occur",
+          "pos": "adj."
+        },
+        {
+          "cn": "即将到来的（中性）",
+          "en": "coming soon, used neutrally before a noun",
+          "pos": "adj."
+        }
+      ],
+      "col": "impending deadline 迫在眉睫的截止期限 · impending tariff 即将加征的关税 · impending recession 逼近的衰退 · sense of impending danger 大难临头之感",
+      "ex": "EU officials warned of an impending decision to slash Chinese hybrid-vehicle imports as early as December, a move that could reshape the bloc's auto market.",
+      "exZh": "欧盟官员警告称，最早12月将就大幅削减中国混动汽车进口作出决定，此举可能重塑欧盟汽车市场。",
+      "ex2": "With an impending performance review next week, she blocked two hours each morning to finish her quarterly report.",
+      "ex2Zh": "下周绩效评估迫在眉睫，她每天上午留出两小时完成季度报告。",
+      "t": "欧盟被曝最早12月锐减中国混动汽车进口，学者称欧方让步尚未公布——这条 impending 的政策信号让欧洲车企与经销商提前调整订单与库存。\n职场联想：impending 常与 deadline、review、layoff 搭配，语气比 coming 更紧张；反义可用 distant（遥远的），一近一远，画面感立刻出来。",
+      "root": "前缀 im-(=in- 进入、在上，拉丁，同源 import 进口、impose 强加) + 词根 pend(悬挂、称量，拉丁 pendere，同源 pendant 吊坠、suspend 悬挂) + 后缀 -ing(形容词化) → 悬在上方 → 即将降临的、逼近的",
+      "d": "2026-10-12"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-12",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-12",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-12",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-12",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-12",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
     }
   ],
   "preview": {
-    "hook": "全球科技行业再掀裁员潮，某头部企业宣布裁减15%员工，遣散费[severance|severance]总额高达8亿美元，而内部绩效评估[appraisal|appraisal]显示，AI技能[skill|skill]缺口是主因；与此同时，中东冲突升级[escalate|escalate]推高油价，市场剧烈波动[volatile|volatile]，企业高杠杆[leverage|leverage]运营风险骤增，供应链中断[disruption|disruption]频发，投资者对财报信誉[credibility|credibility]的质疑升温。",
+    "hook": "全球金融市场上演了一场由[upgrade|upgrade]预期引发的动荡：美联储突然释放的即将发生的加息信号，与中东地区不断升级的地缘冲突形成共振，令本已[volatile|volatile]的原油与科技股走势更加诡谲；一位曾精准预测2008年危机的传奇[mentor|mentor]在社交媒体上警告，投资者若继续滥用[leverage|leverage]追逐AI概念，将面临流动性[disruption|disruption]的严峻考验，而监管机构对数字资产交易所的反复调查，更让市场对政策制定者的[credibility|credibility]产生深度怀疑。 随着[即将发生的|impending]经济衰退风险不断逼近，央行可能被迫[升级|escalate]加息力度以遏制通胀。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-12",
+  "updated_on": "2026-10-13",
   "quote": {
-    "en": "Adapt your skills, and every trade shift becomes a stepping stone.",
-    "zh": "调整你的技能，每一次贸易变局都会成为垫脚石。"
+    "en": "Read the policy tide before it turns, and no downturn can catch you unprepared.",
+    "zh": "在政策转向之前读懂潮水，任何下行都无法让你措手不及。"
   },
   "story": {
-    "en": "Saudi Arabia's civil aviation authority confirmed a deadly attack on Riyadh International Airport, leaving 1 dead and 11 injured, as Iran offered to broker talks between Saudi Arabia and Yemen's Houthis. The [impending|impending] risk of wider conflict could [escalate|escalate] if strikes continue, making energy markets [volatile|volatile]. In China, Zunjie Auto customer service said it will confirm a brake pedal bracket [upgrade|upgrade] plan by late October and start work in November, while Yuexin Semiconductor lists on the ChiNext board on Oct 13 at 12.01 yuan per share. A former Australian prime minister, Kevin Rudd, gave a speech in Beijing's Tongzhou, recalling his Mandarin [mentor|mentor] and decades of ties. EU reportedly plans to sharply cut Chinese hybrid car imports as early as December, testing trade [credibility|credibility]; analysts warn of supply chain [disruption|disruption]. Beijing's private entrepreneurs joined the Shanghai consulting meeting, seeking cooperation and overseas expansion, using policy [leverage|leverage] to navigate global headwinds.",
-    "cn": "沙特民航总局证实，利雅得国际机场再度遭袭，造成1死11伤；伊朗表示愿促成沙特与也门胡塞武装对话。若袭击持续，[即将发生的]([（尤指坏事）即将发生的|impending])冲突风险可能进一步[升级]([（冲突）升级|escalate])，能源市场随之剧烈[波动]([剧烈波动的|volatile])。国内方面，尊界汽车客服称10月底确认制动踏板支架[升级]([升级|upgrade])方案，11月启动升级工作；粤芯半导体将于10月13日在创业板上市，发行价12.01元/股。澳大利亚前总理陆克文在北京通州演讲，回忆其中文[导师]([导师|mentor])与多年对华交往。欧盟据报最早12月锐减中国进口混动汽车，考验贸易[信誉]([信誉|credibility])，学者警告供应链[中断]([中断、扰乱|disruption])风险。上海咨会首次邀请民营企业家，合作、出海成为高频词，企业借政策[杠杆]([杠杆|leverage])应对全球逆风。"
+    "en": "China's top legislator Zhao Leji met Vietnam's National Assembly Chairman Tran Thanh Man in Hanoi on Monday, co-chairing the second session of the China-Vietnam Legislative Institutions Joint Committee. The talks underscore a [battery|battery] of cross-border cooperation deals, from [telecom|telecom] infrastructure to new-energy vehicle supply chains, as Beijing and Brussels settle a three-principle framework on hybrid car trade that Commerce Minister Wang Wentao said will not discriminate against Chinese firms. The agreement offers [flexibility|flexibility] to both sides. Meanwhile, China's logistics prosperity index held in expansion for a fifth straight month, an [upbeat|upbeat] signal for regional trade. Yet the week was [taxing|taxing] for investors: A-share turnover shrank and lithium carbonate prices hit a fresh year-low, a modest [rout|rout] for battery-metal bulls, though media and bank stocks became safe havens. In a separate diplomatic push, President Xi Jinping exchanged congratulatory messages with Papua New Guinea's Governor-General Bob Dadae on 50 years of ties, and China's new Huanggang Port opened on October 12. Analysts expect the [legislation|legislation] agenda and port operations to keep bilateral trade steady through year-end. The Commerce Ministry also confirmed that any measures under the EU hybrid vehicle talks will not target Chinese companies, a [counterpart|counterpart] to similar assurances given to European firms, easing fears of a broader trade war.",
+    "cn": "全国人大常委会委员长赵乐际同越南国会主席陈青敏会谈，并共同主持中越[立法|legislation]机构联合委员会第二次会议。双方在[电信|telecom]基础设施、新能源汽车供应链等领域达成[电池|battery]合作，商务部确认中欧混动汽车贸易三原则，强调任何措施都不会歧视中国企业，为双方提供[灵活性|flexibility]。中国物流业景气指数连续5个月处扩张区间，释放乐观信号。\n\n但本周对投资者而言颇为费力：A股缩量调整，碳酸锂价格刷新年内低点，[电池|battery]金属多头遭遇一场[溃败|rout]，传媒、银行成资金“避风港”。外交方面，习近平同巴布亚新几内亚总督达达埃就中巴新建交50周年互致贺电；新皇岗口岸10月12日开通。\n\n立法议程与口岸运维有望支撑双边贸易至年底。商务部同时确认，中欧混动汽车磋商中的任何措施都不会针对中国企业，这与给予欧方企业的对应保证相呼应，缓解了贸易战担忧。 尽管面对[对应的人或物|counterpart]带来的激烈竞争，他仍保持[乐观的|upbeat]心态，把这份[费力的|taxing]工作视为成长的机会。"
   },
   "words": [
     {
@@ -13466,10 +13466,254 @@
       "pos": "n.",
       "en": "the quality of being trusted or believed",
       "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "telecom",
+      "ph": "/ˈtelɪkɒm/",
+      "m": "电信；电信业",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the telecommunications industry or a telecommunications company (in business/technology contexts)",
+      "defs": [
+        {
+          "cn": "电信",
+          "en": "the telecommunications industry",
+          "pos": "n."
+        },
+        {
+          "cn": "电信公司",
+          "en": "a company providing phone or internet services",
+          "pos": "n."
+        }
+      ],
+      "col": "telecom operator 电信运营商 · telecom sector 电信板块 · telecom equipment 电信设备 · telecom giant 电信巨头",
+      "ex": "The telecom sector is investing in optical communication as demand for data surges.",
+      "exZh": "随着数据需求激增，电信板块正投资光通信。",
+      "ex2": "Telecom companies are racing to deploy 5G-A networks in major cities.",
+      "ex2Zh": "电信公司正竞相在大城市部署5G-A网络。",
+      "t": "科创板多家公司前三季度业绩预喜，光通信双龙头联讯仪器、源杰科技净利'狂飙'，背后是 telecom 与数据中心需求的爆发。\n职场里 telecom 常与 tech 并列：telecom 管管道，tech 管应用，两者一起撑起数字经济的底盘。",
+      "root": "前缀 tele-（远，希腊 tele，同源 telescope 望远镜、television 电视）+ 词根 com-（通信，communication 缩写）→ 远距离通信 → 电信业。",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "battery",
+      "ph": "/ˈbætəri/",
+      "m": "电池；一系列",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a device that stores energy; a set of similar things (in technology/energy contexts)",
+      "defs": [
+        {
+          "cn": "电池",
+          "en": "a device storing electrical energy",
+          "pos": "n."
+        },
+        {
+          "cn": "一系列",
+          "en": "a set or series of similar things",
+          "pos": "n."
+        }
+      ],
+      "col": "lithium battery 锂电池 · battery capacity 电池容量 · battery storage 电池储能 · a battery of tests 一系列测试",
+      "ex": "Lithium carbonate prices hit a new low this year, pressuring battery makers' margins.",
+      "exZh": "碳酸锂价格刷新年内低点，令电池厂商利润率承压。",
+      "ex2": "The startup ran a battery of stress tests before shipping the new chip.",
+      "ex2Zh": "这家初创公司在出货新芯片前进行了一系列压力测试。",
+      "t": "碳酸锂价格刷新年内低点，业内预计市场短期仍偏震荡，直接牵动 battery 成本与新能源车定价。\n职场里 a battery of 也常用：a battery of interviews（一连串面试）——像电池组一样，一个接一个，考验耐力。",
+      "root": "源自法语 batterie（打击、连续发射），词根 bat-（打，拉丁 battuere，同源 battle 战斗、combat 格斗）→ 连续打击 → 一组装置 → 电池。",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "legislation",
+      "ph": "/ˌledʒɪsˈleɪʃn/",
+      "m": "立法；法规",
+      "c": "politics",
+      "pos": "n.",
+      "en": "laws made by a government; the process of making them (in political/regulatory contexts)",
+      "defs": [
+        {
+          "cn": "立法",
+          "en": "the process of making laws",
+          "pos": "n."
+        },
+        {
+          "cn": "法规",
+          "en": "a law or set of laws",
+          "pos": "n."
+        }
+      ],
+      "col": "pass legislation 通过立法 · draft legislation 起草法规 · legislation on trade 贸易立法 · environmental legislation 环保法规",
+      "ex": "The EU is drafting legislation to regulate hybrid vehicle trade with China.",
+      "exZh": "欧盟正起草法规，以规范与中国的混动车贸易。",
+      "ex2": "New data-privacy legislation will affect how companies handle user information.",
+      "ex2Zh": "新数据隐私法规将影响企业处理用户信息的方式。",
+      "t": "商务部确认中欧混动汽车贸易三原则，背后是双方在 legislation 层面的博弈：任何措施都不会歧视中国企业。\n职场里 legislation 也提醒合规：新 legislation 一出，法务就得更新合同模板，业务部门也得重新培训。",
+      "root": "词根 leg-（法律，拉丁 lex/legis，同源 legal 合法的、legitimate 正当的）+ 后缀 -lation（名词化）→ 制定法律的行为或结果 → 立法、法规。",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "flexibility",
+      "ph": "/ˌfleksəˈbɪləti/",
+      "m": "灵活性；弹性",
+      "c": "work",
+      "pos": "n.",
+      "en": "the ability to change or be changed easily to suit new conditions (in workplace/economic contexts)",
+      "defs": [
+        {
+          "cn": "灵活性",
+          "en": "the quality of adapting easily",
+          "pos": "n."
+        },
+        {
+          "cn": "弹性",
+          "en": "the ability to bend or vary",
+          "pos": "n."
+        }
+      ],
+      "col": "workplace flexibility 职场灵活性 · flexible hours 弹性工时 · price flexibility 价格弹性 · flexibility in policy 政策弹性",
+      "ex": "Companies are offering more flexibility as they compete for talent in a tight labor market.",
+      "exZh": "在紧张的劳动力市场中，企业为争夺人才提供更多灵活性。",
+      "ex2": "The central bank needs flexibility to respond to shifting inflation data.",
+      "ex2Zh": "央行需要灵活性来应对不断变化的通胀数据。",
+      "t": "A股缩量调整之际，资金在传媒、银行间寻找避风港，体现配置上的 flexibility；物流景气指数连续扩张，也说明供应链仍有弹性。\n职场里 flexibility 是硬通货：远程、弹性工时、项目制，都是雇主吸引人才的筹码。",
+      "root": "词根 flex-（弯曲，拉丁 flectere，同源 flexible 灵活的、reflect 反射）+ 后缀 -ibility（能力）→ 可弯曲的能力 → 灵活性、弹性。",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "counterpart",
+      "ph": "/ˈkaʊntəpɑːt/",
+      "m": "对应的人(或物)；职位相当者",
+      "c": "work",
+      "pos": "n.",
+      "en": "a person or thing with the same role or function in another place or organization",
+      "defs": [
+        {
+          "cn": "对应的人；职位相当者",
+          "en": "a person holding a similar position elsewhere",
+          "pos": "n."
+        },
+        {
+          "cn": "对应物；副本",
+          "en": "a thing that corresponds to another",
+          "pos": "n."
+        },
+        {
+          "cn": "同类机构",
+          "en": "an equivalent organization in another country",
+          "pos": "n."
+        }
+      ],
+      "col": "foreign counterpart 外国同行 · meet one's counterpart 会见对等官员 · direct counterpart 直接对应岗位 · trade counterpart 贸易伙伴对口方",
+      "ex": "Zhao Leji held talks with his Vietnamese counterpart, co-chairing the second meeting of the two legislatures' joint committee.",
+      "exZh": "赵乐际同越南国会主席——他的对口同行——举行会谈，共同主持两国立法机构联合委员会第二次会议。",
+      "ex2": "Before the merger, she spent a week shadowing her counterpart at the partner firm.",
+      "ex2Zh": "合并前，她花了一周时间跟随合作公司的对口岗位同事学习。",
+      "t": "赵乐际同越南国会主席陈青敏会谈并共同主持中越立法机构联合委员会第二次会议——外交辞令里 counterpart 就是『对口同行』，级别对等才谈得下去，这是礼宾也是政治。\n职场高频：跨部门对接时，你的 counterpart 就是对方同岗位的人。写邮件开头 'Dear counterpart' 不地道，应写 'Dear [name], my counterpart in your team'。",
+      "root": "前缀 counter-(相对、对应，拉丁 contra，同源 contrast 对比、contradict 反驳) + 词根 part(=部分，拉丁 pars，同源 partial 部分的、partner 伙伴) → 相对应的那一份 → 对等的人或物",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "upbeat",
+      "ph": "/ˈʌpbiːt/",
+      "m": "乐观的；积极向上的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "positive and optimistic; used of outlooks, tones, and market sentiment",
+      "defs": [
+        {
+          "cn": "乐观的；积极的",
+          "en": "cheerful and hopeful about the future",
+          "pos": "adj."
+        },
+        {
+          "cn": "(市场)情绪向好的",
+          "en": "showing positive market sentiment",
+          "pos": "adj."
+        },
+        {
+          "cn": "(节奏)轻快活泼的",
+          "en": "lively in rhythm or mood",
+          "pos": "adj."
+        }
+      ],
+      "col": "upbeat outlook 乐观前景 · upbeat tone 积极基调 · upbeat earnings 亮眼业绩 · remain upbeat 保持乐观",
+      "ex": "Several STAR Market firms issued upbeat pre-earnings guidance, with optical-communication leaders posting surging profits.",
+      "exZh": "多家科创板公司发布乐观的业绩预告，光通信龙头利润大幅飙升。",
+      "ex2": "Despite the tight deadline, the manager kept an upbeat tone in the Monday meeting.",
+      "ex2Zh": "尽管截止日期紧迫，经理在周一例会上仍保持积极基调。",
+      "t": "科创板多家公司前三季度业绩预喜，联讯仪器、源杰科技净利『狂飙』——在A股缩量调整、资金躲进传媒与银行避险时，这批 upbeat 的预告就是逆势亮点。\n对比：upbeat 偏『情绪乐观』，optimistic 更正式；财报季里 guidance 是 upbeat，股价未必买账，情绪与基本面要分开看。",
+      "root": "前缀 up-(向上，古英语 up，同源 upward 向上的、upside 上行空间) + 词根 beat(=节拍，古英语 beatan，同源 beat 敲打) → 节拍向上 → 情绪昂扬、乐观",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "taxing",
+      "ph": "/ˈtæksɪŋ/",
+      "m": "费力的；繁重的；令人疲惫的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "physically or mentally demanding; exhausting; used of tasks and schedules",
+      "defs": [
+        {
+          "cn": "费力的；繁重的",
+          "en": "demanding great effort or energy",
+          "pos": "adj."
+        },
+        {
+          "cn": "令人疲惫的",
+          "en": "causing fatigue or stress",
+          "pos": "adj."
+        },
+        {
+          "cn": "(征税的)",
+          "en": "relating to the imposition of taxes",
+          "pos": "adj."
+        }
+      ],
+      "col": "taxing schedule 繁重的日程 · mentally taxing 精神上费力的 · taxing workload 沉重的工作量 · prove taxing 证明很吃力",
+      "ex": "Managing the Canton Fair traffic controls while keeping logistics on schedule proved taxing for Guangzhou's freight teams.",
+      "exZh": "在广交会交通管制下维持物流准点，让广州的货运团队颇感吃力。",
+      "ex2": "Back-to-back video calls are mentally taxing, so she blocks a quiet hour every afternoon.",
+      "ex2Zh": "连轴转的视频会议很耗心神，所以她每天下午留出一小时安静时间。",
+      "t": "广交会期间广州部分路段实施临时交通管制、货车限行，物流团队既要保时效又要绕行，工作强度 taxing 到极点——大型展会背后，是无数调度员的连轴转。\n职场用法：taxing 比 tiring 更书面、更强调『消耗』。可以说 a taxing quarter（一个让人筋疲力尽的季度），但别说 a taxing coffee，搭配要挑。",
+      "root": "词根 tax(=评估、使承受负担，拉丁 taxare，同源 task 任务、taxation 征税) + 后缀 -ing(形容词后缀) → 使人承受负担的 → 费力的、繁重的",
+      "d": "2026-10-13"
+    },
+    {
+      "w": "rout",
+      "ph": "/raʊt/",
+      "m": "溃败；彻底击败",
+      "c": "news",
+      "pos": "n./v.",
+      "en": "a decisive defeat; to defeat utterly; used in sports, markets, and conflict reporting",
+      "defs": [
+        {
+          "cn": "溃败；惨败",
+          "en": "a crushing and decisive defeat",
+          "pos": "n."
+        },
+        {
+          "cn": "彻底击败",
+          "en": "to defeat an opponent completely",
+          "pos": "v."
+        },
+        {
+          "cn": "击溃并驱散",
+          "en": "to force a group to retreat in disorder",
+          "pos": "v."
+        }
+      ],
+      "col": "suffer a rout 遭遇惨败 · a market rout 市场暴跌 · rout the opposition 击溃对手 · put to rout 打得溃不成军",
+      "ex": "Media and bank shares became safe havens as the broader A-share market drifted lower on thin volume, avoiding a full rout.",
+      "exZh": "A股缩量调整之际，传媒与银行股成为资金避风港，避免了全面溃败。",
+      "ex2": "The home side routed their rivals 4-0 in the opening match of the tournament.",
+      "ex2Zh": "主队在赛事揭幕战中以4比0大胜对手。",
+      "t": "A股缩量调整，传媒、银行成资金『避风港』——指数虽弱却未演成 rout，说明抛压有限、资金只是在板块间搬家。市场里 rout 常指恐慌性暴跌，与 orderly pullback（有序回调）正好相反。\n体育也用：郑钦文因右肩伤势退出武网，球迷扼腕；若她带伤上阵被 rout，反而更伤士气。词义相通：一边倒的败局。",
+      "root": "源自古法语 route(队伍、溃散的部队)，与拉丁 rupta(破碎)同源，同源词 route 路线 → 队伍被打散、四散而逃 → 溃败、彻底击败",
+      "d": "2026-10-13"
     }
   ],
   "preview": {
-    "hook": "全球金融市场上演了一场由[upgrade|upgrade]预期引发的动荡：美联储突然释放的即将发生的加息信号，与中东地区不断升级的地缘冲突形成共振，令本已[volatile|volatile]的原油与科技股走势更加诡谲；一位曾精准预测2008年危机的传奇[mentor|mentor]在社交媒体上警告，投资者若继续滥用[leverage|leverage]追逐AI概念，将面临流动性[disruption|disruption]的严峻考验，而监管机构对数字资产交易所的反复调查，更让市场对政策制定者的[credibility|credibility]产生深度怀疑。 随着[即将发生的|impending]经济衰退风险不断逼近，央行可能被迫[升级|escalate]加息力度以遏制通胀。",
+    "hook": "全球[telecom|telecom]业再度成为市场焦点：欧洲一家头部运营商因[battery|battery]储能成本高企与[legislation|legislation]合规压力，宣布将部分5G基站建设延后，其对应的美国同行则凭借更灵活的[flexibility|flexibility]迅速抢占频谱资源，股价一度乐观上扬；与此同时，亚洲供应链的繁重审查让投资者担忧，某新兴设备商在竞标中遭遇[rout|rout]，订单被对手尽数瓜分。 尽管[对应的人或物|counterpart]也认为这份工作相当[费力的|taxing]，他依然保持[乐观的|upbeat]态度。",
     "impact": ""
   }
 }

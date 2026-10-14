@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-13",
+  "updated_on": "2026-10-14",
   "quote": {
-    "en": "Read the policy tide before it turns, and no downturn can catch you unprepared.",
-    "zh": "在政策转向之前读懂潮水，任何下行都无法让你措手不及。"
+    "en": "Volatility tests the wallet; steady learning tests the will.",
+    "zh": "波动考验钱包，持续学习考验意志。"
   },
   "story": {
-    "en": "China's top legislator Zhao Leji met Vietnam's National Assembly Chairman Tran Thanh Man in Hanoi on Monday, co-chairing the second session of the China-Vietnam Legislative Institutions Joint Committee. The talks underscore a [battery|battery] of cross-border cooperation deals, from [telecom|telecom] infrastructure to new-energy vehicle supply chains, as Beijing and Brussels settle a three-principle framework on hybrid car trade that Commerce Minister Wang Wentao said will not discriminate against Chinese firms. The agreement offers [flexibility|flexibility] to both sides. Meanwhile, China's logistics prosperity index held in expansion for a fifth straight month, an [upbeat|upbeat] signal for regional trade. Yet the week was [taxing|taxing] for investors: A-share turnover shrank and lithium carbonate prices hit a fresh year-low, a modest [rout|rout] for battery-metal bulls, though media and bank stocks became safe havens. In a separate diplomatic push, President Xi Jinping exchanged congratulatory messages with Papua New Guinea's Governor-General Bob Dadae on 50 years of ties, and China's new Huanggang Port opened on October 12. Analysts expect the [legislation|legislation] agenda and port operations to keep bilateral trade steady through year-end. The Commerce Ministry also confirmed that any measures under the EU hybrid vehicle talks will not target Chinese companies, a [counterpart|counterpart] to similar assurances given to European firms, easing fears of a broader trade war.",
-    "cn": "全国人大常委会委员长赵乐际同越南国会主席陈青敏会谈，并共同主持中越[立法|legislation]机构联合委员会第二次会议。双方在[电信|telecom]基础设施、新能源汽车供应链等领域达成[电池|battery]合作，商务部确认中欧混动汽车贸易三原则，强调任何措施都不会歧视中国企业，为双方提供[灵活性|flexibility]。中国物流业景气指数连续5个月处扩张区间，释放乐观信号。\n\n但本周对投资者而言颇为费力：A股缩量调整，碳酸锂价格刷新年内低点，[电池|battery]金属多头遭遇一场[溃败|rout]，传媒、银行成资金“避风港”。外交方面，习近平同巴布亚新几内亚总督达达埃就中巴新建交50周年互致贺电；新皇岗口岸10月12日开通。\n\n立法议程与口岸运维有望支撑双边贸易至年底。商务部同时确认，中欧混动汽车磋商中的任何措施都不会针对中国企业，这与给予欧方企业的对应保证相呼应，缓解了贸易战担忧。 尽管面对[对应的人或物|counterpart]带来的激烈竞争，他仍保持[乐观的|upbeat]心态，把这份[费力的|taxing]工作视为成长的机会。"
+    "en": "Global markets turned [volatile|volatile] as the IMF cut China's growth outlook while raising its global forecast, and the KOSPI plunged over 5% with semiconductor giants extending losses. In Moscow, a Japanese journalist was detained on suspicion of [espionage|espionage], drawing a regretful response from Zakharova. Meanwhile, Iran escalated attacks on ships in the Strait of Hormuz, threatening a fragile recovery in Persian Gulf oil exports and raising fears of an [oversupply|oversupply] if flows are disrupted. These tensions [impair|impair] investor confidence in energy and tech supply chains, eroding the [credibility|credibility] of earlier recovery forecasts. Beijing's health initiative and the Liaoning carrier group's Western Pacific training add strategic weight. With the 2026 International Parliamentarians' Friendship Forum in Tianjin and a rural revitalization campaign echoing the Long March, policymakers may [leverage|leverage] these platforms to stabilize expectations. Yet the risk of further market [disruption|disruption] remains high, as seen in New York's three major indices falling on the 13th and AI-driven media production shifts. Investors should brace for continued turbulence while watching for diplomatic signals from the Iran-Israel talks and Russian espionage case. Prices could [escalate|escalate] quickly if supply chains stay disrupted.",
+    "cn": "本周全球市场剧烈波动，主要经济体之间的贸易紧张局势不断升级，可能[损害|impair]全球增长预测。工业[间谍活动|espionage]的报道进一步打击了投资情绪，多国政府因此收紧对外国交易的审查。从半导体到能源，关键大宗商品的持续[供应过剩|oversupply]继续压制价格和企业利润。分析人士警告，部分新兴市场过高的[杠杆|leverage]可能放大资本流动的任何[中断、扰乱|disruption]。各国央行面临微妙的平衡：收紧过快可能削弱[信誉|credibility]，行动过慢则可能推高通胀预期。展望未来，投资者应关注外交谈判和供应链调整的稳定迹象。"
   },
   "words": [
     {
@@ -13710,10 +13710,179 @@
       "t": "A股缩量调整，传媒、银行成资金『避风港』——指数虽弱却未演成 rout，说明抛压有限、资金只是在板块间搬家。市场里 rout 常指恐慌性暴跌，与 orderly pullback（有序回调）正好相反。\n体育也用：郑钦文因右肩伤势退出武网，球迷扼腕；若她带伤上阵被 rout，反而更伤士气。词义相通：一边倒的败局。",
       "root": "源自古法语 route(队伍、溃散的部队)，与拉丁 rupta(破碎)同源，同源词 route 路线 → 队伍被打散、四散而逃 → 溃败、彻底击败",
       "d": "2026-10-13"
+    },
+    {
+      "w": "impair",
+      "ph": "/ɪmˈpeə(r)/",
+      "m": "损害；削弱(能力/价值)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to weaken or damage something such as value, ability, or quality",
+      "defs": [
+        {
+          "cn": "损害；削弱",
+          "en": "to make something less effective or weaker",
+          "pos": "v."
+        },
+        {
+          "cn": "(资产)减值",
+          "en": "to reduce the recorded value of an asset",
+          "pos": "v."
+        },
+        {
+          "cn": "损害健康/功能",
+          "en": "to harm a bodily or mental function",
+          "pos": "v."
+        }
+      ],
+      "col": "impair assets 资产减值 · impair performance 削弱表现 · impair judgment 影响判断力 · severely impaired 严重受损的",
+      "ex": "A prolonged slump in memory-chip prices could impair the earnings of Korean manufacturers.",
+      "exZh": "存储芯片价格持续低迷，可能损害韩国厂商的盈利。",
+      "ex2": "Long working hours can impair judgment, so many firms now cap overtime.",
+      "ex2Zh": "长时间工作会损害判断力，因此许多公司开始限制加班。",
+      "t": "财经语境中 impair 常与减值挂钩：存储板块延续跌势、美光与海力士跌超5%，若价格低迷持续，相关厂商资产与盈利都可能被 impair。\n职场提醒：连续加班会 impair 判断力，效率反而下降；与 damage 相比，impair 更强调功能被削弱，常用于健康与资产两类场景。",
+      "root": "前缀 im-(=in 使…，拉丁) + 词根 pair(=pejor 更坏，拉丁 peior，同源 pejorative 贬义的) → 使变坏 → 损害、削弱",
+      "d": "2026-10-14"
+    },
+    {
+      "w": "espionage",
+      "ph": "/ˈespiənɑːʒ/",
+      "m": "间谍活动；谍报行为",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the practice of spying to obtain political or commercial secrets",
+      "defs": [
+        {
+          "cn": "间谍活动",
+          "en": "the practice of spying for secret information",
+          "pos": "n."
+        },
+        {
+          "cn": "谍报、情报工作",
+          "en": "the business of gathering secret intelligence",
+          "pos": "n."
+        },
+        {
+          "cn": "商业窃密",
+          "en": "industrial or commercial spying",
+          "pos": "n."
+        }
+      ],
+      "col": "industrial espionage 商业间谍 · espionage charges 间谍指控 · espionage network 谍报网络 · alleged espionage 涉嫌间谍活动",
+      "ex": "A Japanese journalist was detained in Russia on suspicion of espionage, prompting an official expression of regret.",
+      "exZh": "一名日本记者因涉嫌从事间谍活动在俄被捕，官方对此表示遗憾。",
+      "ex2": "Firms now treat industrial espionage as a board-level risk, not just an IT problem.",
+      "ex2Zh": "企业如今把商业间谍视为董事会级风险，而不只是IT问题。",
+      "t": "今日时政线索：日本记者因涉嫌从事间谍活动在俄被捕，俄方称“令人遗憾”，事件给本就紧张的外交氛围再添摩擦。\n记忆抓手：espionage 与 spy 同义但更正式，多用于法律与新闻语境；企业合规培训里 industrial espionage（商业窃密）是高频词。",
+      "root": "词根 espion(=spy 窥探，古法语 espier，同源 spy 间谍) + 名词后缀 -age(行为、状态，法语 -age，同源 voyage 航行) → 窥探这一行为 → 间谍活动",
+      "d": "2026-10-14"
+    },
+    {
+      "w": "oversupply",
+      "ph": "/ˌəʊvəˈsʌplaɪ/",
+      "m": "供应过剩；供给过量",
+      "c": "econ",
+      "pos": "n. / v.",
+      "en": "a situation where more goods are supplied than demanded; in market/commodity contexts",
+      "defs": [
+        {
+          "cn": "供应过剩",
+          "en": "supply exceeding demand in a market",
+          "pos": "n."
+        },
+        {
+          "cn": "过量供应",
+          "en": "to provide more of something than is needed",
+          "pos": "v."
+        },
+        {
+          "cn": "产能过剩",
+          "en": "excess capacity that drags down prices and margins",
+          "pos": "n."
+        }
+      ],
+      "col": "oil oversupply 石油供应过剩 · global oversupply 全球供给过剩 · oversupply of chips 芯片供给过量 · correct oversupply 纠正供给过剩",
+      "ex": "South Korea's KOSPI fell over 5% as memory-chip oversupply fears deepened, with major semiconductor names extending losses.",
+      "exZh": "韩国KOSPI指数收跌超5%，存储芯片供应过剩的担忧加深，主要半导体股延续跌势。",
+      "ex2": "The property developer cut prices to clear an oversupply of unsold apartments before the year-end audit.",
+      "ex2Zh": "开发商降价以清理积压的未售公寓，赶在年终审计前消化供给过剩。",
+      "t": "韩国KOSPI今日收跌超5%，两大半导体股延续跌势，纳指开盘也走低，美光、海力士跌超5%——oversupply 成了存储板块最刺眼的标签，供给一旦压过需求，价格和股价就一起往下走。\n职场类比：一个岗位收到几百份简历，也是人才 oversupply，候选人再优秀也难议价。",
+      "root": "前缀 over-(过度，古英语 ofer，同源 overwork 过劳、overdose 过量) + 词根 supply(=sub+ple 填满，拉丁 supplere，同源 supplement 补充) → 填得过多 → 供应过剩",
+      "d": "2026-10-14"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-14",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-14",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-14",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-14",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-14",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
     }
   ],
   "preview": {
-    "hook": "全球[telecom|telecom]业再度成为市场焦点：欧洲一家头部运营商因[battery|battery]储能成本高企与[legislation|legislation]合规压力，宣布将部分5G基站建设延后，其对应的美国同行则凭借更灵活的[flexibility|flexibility]迅速抢占频谱资源，股价一度乐观上扬；与此同时，亚洲供应链的繁重审查让投资者担忧，某新兴设备商在竞标中遭遇[rout|rout]，订单被对手尽数瓜分。 尽管[对应的人或物|counterpart]也认为这份工作相当[费力的|taxing]，他依然保持[乐观的|upbeat]态度。",
+    "hook": "全球芯片市场因[oversupply|oversupply]与需求骤降而出现剧烈波动，多家投行警告这轮下行将[impair|impair]亚洲出口国的增长前景；与此同时，多起针对半导体企业的[espionage|espionage]曝光，进一步[disruption|disruption]了跨境技术合作与供应链稳定，而部分对冲基金高[leverage|leverage]押注芯片股反弹，令市场风险升级，投资者对相关企业财报的[credibility|credibility]产生质疑。 随着[升级|escalate]的贸易争端和[波动|volatile]的全球市场持续影响投资者信心，许多企业不得不重新评估其供应链布局。",
     "impact": ""
   }
 }

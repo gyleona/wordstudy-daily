@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "quote": {
-    "en": "Volatility tests the wallet; steady learning tests the will.",
-    "zh": "波动考验钱包，持续学习考验意志。"
+    "en": "Resilient minds turn tariffs into lessons, not barriers.",
+    "zh": "坚韧的头脑把关税变成课程，而非障碍。"
   },
   "story": {
-    "en": "Global markets turned [volatile|volatile] as the IMF cut China's growth outlook while raising its global forecast, and the KOSPI plunged over 5% with semiconductor giants extending losses. In Moscow, a Japanese journalist was detained on suspicion of [espionage|espionage], drawing a regretful response from Zakharova. Meanwhile, Iran escalated attacks on ships in the Strait of Hormuz, threatening a fragile recovery in Persian Gulf oil exports and raising fears of an [oversupply|oversupply] if flows are disrupted. These tensions [impair|impair] investor confidence in energy and tech supply chains, eroding the [credibility|credibility] of earlier recovery forecasts. Beijing's health initiative and the Liaoning carrier group's Western Pacific training add strategic weight. With the 2026 International Parliamentarians' Friendship Forum in Tianjin and a rural revitalization campaign echoing the Long March, policymakers may [leverage|leverage] these platforms to stabilize expectations. Yet the risk of further market [disruption|disruption] remains high, as seen in New York's three major indices falling on the 13th and AI-driven media production shifts. Investors should brace for continued turbulence while watching for diplomatic signals from the Iran-Israel talks and Russian espionage case. Prices could [escalate|escalate] quickly if supply chains stay disrupted.",
-    "cn": "本周全球市场剧烈波动，主要经济体之间的贸易紧张局势不断升级，可能[损害|impair]全球增长预测。工业[间谍活动|espionage]的报道进一步打击了投资情绪，多国政府因此收紧对外国交易的审查。从半导体到能源，关键大宗商品的持续[供应过剩|oversupply]继续压制价格和企业利润。分析人士警告，部分新兴市场过高的[杠杆|leverage]可能放大资本流动的任何[中断、扰乱|disruption]。各国央行面临微妙的平衡：收紧过快可能削弱[信誉|credibility]，行动过慢则可能推高通胀预期。展望未来，投资者应关注外交谈判和供应链调整的稳定迹象。"
+    "en": "China's foreign trade stayed [brisk|brisk] in the first three quarters, with Q3 [export|export] topping 8 trillion yuan for the first time, up 18.8% year on year, driven by [diversification|diversification] into green tech. Botswana's [renewable|renewable] energy push is expanding China-Botswana cooperation, while the 140th Canton Fair opened with a keynote on trade resilience. Yet geopolitical risk remains [volatile|volatile]: Iran's attacks [escalate|escalate] as a container ship sank in the Strait of Hormuz; Houthis struck Riyadh airport; the US destroyed an Iran-linked dhow. Markets split, with dividend and AI film stocks active. Firms must [leverage|leverage] digital tools to offset supply-chain [disruption|disruption]. Looking ahead, the 33rd Winter World University Games and Zhejiang's 18th Provincial Games will lift consumption.",
+    "cn": "前三季度我国外贸保持活跃，三季度[出口|export]首次突破8万亿元，同比增长18.8%，绿色技术[多元化|diversification]布局成为重要推力。博茨瓦纳加快发展[可再生的|renewable]，中博绿色能源合作不断拓展。第140届广交会开幕，聚焦贸易韧性。\n\n地缘风险剧烈波动：伊朗袭击升级，一艘集装箱船在霍尔木兹海峡沉没；胡塞武装袭击沙特利雅得国际机场；美军称摧毁一艘与伊朗有关联的帆船。A股缩量调整中分化加剧，红利与AI影视逆势活跃。\n\n企业需借助数字工具应对供应链[中断、扰乱|disruption]。展望未来，第33届世界大学生冬季运动会和浙江省第十八届运动会将带动消费。 央行突然[加息|escalate]，让原本[轻快的|brisk]复苏步伐变得[反复无常|volatile]，企业不得不重新[利用|leverage]对冲工具来应对融资成本上升。"
   },
   "words": [
     {
@@ -13879,10 +13879,198 @@
       "pos": "n.",
       "en": "the quality of being trusted or believed",
       "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "brisk",
+      "ph": "/brɪsk/",
+      "m": "(adj.)活跃的；轻快的；兴旺的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "quick, energetic and active; (of trade or business) lively and strong",
+      "defs": [
+        {
+          "cn": "活跃的",
+          "en": "lively and full of energy, as of trade",
+          "pos": "adj."
+        },
+        {
+          "cn": "轻快的",
+          "en": "quick and light in movement or manner",
+          "pos": "adj."
+        },
+        {
+          "cn": "兴旺的",
+          "en": "strong and healthy in business terms",
+          "pos": "adj."
+        }
+      ],
+      "col": "brisk trading 交投活跃 · brisk demand 需求旺盛 · brisk walk 快步走 · a brisk pace 轻快的节奏",
+      "ex": "Despite a thin, divergent A-share session, dividend and AI-film plays saw brisk trading as investors rotated into defensive names.",
+      "exZh": "尽管A股缩量分化，随着资金轮动至防御性标的，红利与AI影视板块交投活跃。",
+      "ex2": "October's national box office passed 1.5 billion yuan, a brisk result that surprised analysts expecting a post-holiday lull.",
+      "ex2Zh": "10月全国电影总票房突破15亿元，这一活跃表现令原本预期节后疲软的分析师意外。",
+      "t": "A股缩量调整中分化加剧，但红利与AI影视逆势活跃，交投 brisk；同时10月全国电影总票房已突破15亿元，消费端的暖意与资本市场的谨慎形成对照。\n生活画面：brisk 像清晨快走——不慌不忙但有劲；市场'brisk trading'也是这个感觉：成交不爆量，却一直有人接。",
+      "root": "词源：可能源自古法语 brusque（活泼的、猛烈的），与意大利语 brusco 同源 → 由'尖锐、有劲'引申为'轻快、活跃' → 形容交投、步伐、生意兴隆",
+      "d": "2026-10-15"
+    },
+    {
+      "w": "diversification",
+      "ph": "/daɪˌvɜːrsɪfɪˈkeɪʃn/",
+      "m": "(n.) 多元化；多样化",
+      "c": "econ",
+      "pos": "n.",
+      "en": "The process of becoming more varied or expanding into different areas, especially in business or investment",
+      "defs": [
+        {
+          "cn": "多元化",
+          "en": "the act of expanding into different areas",
+          "pos": "n."
+        },
+        {
+          "cn": "多样化",
+          "en": "increasing variety in products or services",
+          "pos": "n."
+        },
+        {
+          "cn": "分散投资",
+          "en": "spreading investments to reduce risk",
+          "pos": "n."
+        }
+      ],
+      "col": "portfolio diversification 投资组合多元化 · economic diversification 经济多元化 · diversification strategy 多元化策略 · diversification benefits 多元化收益",
+      "ex": "Chinese exporters are pursuing market diversification to reduce reliance on any single region amid trade tensions.",
+      "exZh": "在贸易紧张局势下，中国出口商正寻求市场多元化，以减少对任何单一地区的依赖。",
+      "ex2": "Diversification of your investment portfolio can help protect against market volatility.",
+      "ex2Zh": "投资组合的多元化可以帮助抵御市场波动。",
+      "t": "中国前三季度外贸增长18.8%，市场 diversification 成效显现：对东盟、拉美等新兴市场出口增长强劲，减少了对欧美市场的依赖。企业正通过多元化布局增强韧性。\n投资领域，diversification 是风险管理核心原则。与 concentration（集中）相对。职场中也可指技能多元化，提升抗风险能力。",
+      "root": "拉丁语 diversus（不同的）+ facere（做）→ 使不同。同源词有 diverse（多样的）、diversity（多样性）。从『使多样化』演变为商业和投资术语。",
+      "d": "2026-10-15"
+    },
+    {
+      "w": "export",
+      "ph": "/ɪkˈspɔːrt/",
+      "m": "出口；输出",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "To send goods or services to another country for sale; the act or commodity so sent",
+      "defs": [
+        {
+          "cn": "出口",
+          "en": "to sell goods abroad",
+          "pos": "v."
+        },
+        {
+          "cn": "出口商品",
+          "en": "goods sold to another country",
+          "pos": "n."
+        },
+        {
+          "cn": "输出、传播",
+          "en": "to spread ideas or values abroad",
+          "pos": "v."
+        }
+      ],
+      "col": "export growth 出口增长 · export-oriented 出口导向的 · export quota 出口配额 · export earnings 出口收入",
+      "ex": "China's exports exceeded 8 trillion yuan in the third quarter for the first time, official data showed.",
+      "exZh": "官方数据显示，中国三季度出口首次突破8万亿元。",
+      "ex2": "The company plans to export its AI software to Southeast Asian markets next year.",
+      "ex2Zh": "该公司计划明年将其AI软件出口到东南亚市场。",
+      "t": "前三季度外贸同比增长18.8%，三季度 export 首次突破8万亿元，成为今日财经头条。广交会开幕式上，中方强调稳定出口、拓展新兴市场。\n职场中 export 也指'输出技能'：you can export your expertise to a new team，即把经验复制到新团队，与 import（引进）相对。",
+      "root": "前缀 ex-(向外，拉丁，同源 exit) + 词根 port(=carry 搬运，拉丁，同源 portable) → 搬出去 → 出口、输出。",
+      "d": "2026-10-15"
+    },
+    {
+      "w": "renewable",
+      "ph": "/rɪˈnjuːəbl/",
+      "m": "可再生的；可再生能源",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "able to be renewed or replenished naturally, especially of energy sources",
+      "defs": [
+        {
+          "cn": "可再生的",
+          "en": "capable of being renewed, as in resources",
+          "pos": "adj."
+        },
+        {
+          "cn": "可再生能源",
+          "en": "energy from sources that are naturally replenished",
+          "pos": "n."
+        },
+        {
+          "cn": "可续期的",
+          "en": "able to be extended or renewed, as a contract",
+          "pos": "adj."
+        }
+      ],
+      "col": "renewable energy (可再生能源) · renewable resources (可再生资源) · renewable portfolio (可再生能源组合) · renewable contract (可续期合同)",
+      "ex": "Botswana is accelerating renewable energy development with Chinese cooperation.",
+      "exZh": "博茨瓦纳正与中国合作加速可再生能源开发。",
+      "ex2": "The company aims to power all its data centers with renewable electricity by 2030.",
+      "ex2Zh": "该公司计划到2030年所有数据中心使用可再生电力。",
+      "t": "今日财经：博茨瓦纳加快发展可再生能源，中博绿色能源合作不断拓展，涉及太阳能和风能项目。这呼应了全球能源转型趋势，也带动相关设备出口。\n职场中，renewable常修饰energy，但也可指可续签合同；反义词non-renewable（不可再生）。",
+      "root": "前缀 re-（再次，拉丁） + 词根 new（新，古英语 nīwe） + 后缀 -able（能够，拉丁 -abilis） → 能够再次变新的 → 可再生的。",
+      "d": "2026-10-15"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-15",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-15",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-15",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-15",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
     }
   ],
   "preview": {
-    "hook": "全球芯片市场因[oversupply|oversupply]与需求骤降而出现剧烈波动，多家投行警告这轮下行将[impair|impair]亚洲出口国的增长前景；与此同时，多起针对半导体企业的[espionage|espionage]曝光，进一步[disruption|disruption]了跨境技术合作与供应链稳定，而部分对冲基金高[leverage|leverage]押注芯片股反弹，令市场风险升级，投资者对相关企业财报的[credibility|credibility]产生质疑。 随着[升级|escalate]的贸易争端和[波动|volatile]的全球市场持续影响投资者信心，许多企业不得不重新评估其供应链布局。",
+    "hook": "全球航运与能源市场因红海紧张局势再度升级而剧烈震荡，原油与集装箱运价同步呈现[volatile|volatile]走势；与此同时，中国一季度[export|export]数据意外保持[brisk|brisk]增长，[renewable|renewable]设备与电动汽车成为拉动主力，但部分行业仍面临产能过剩与订单[disruption|disruption]的双重压力，企业正通过市场[diversification|diversification]和供应链[leverage|leverage]策略分散风险、稳住利润。 随着两国在边境问题上的摩擦不断[升级|escalate]，周边国家开始担忧这场危机可能失控。",
     "impact": ""
   }
 }

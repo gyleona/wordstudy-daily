@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-16",
   "quote": {
-    "en": "Resilient minds turn tariffs into lessons, not barriers.",
-    "zh": "坚韧的头脑把关税变成课程，而非障碍。"
+    "en": "Calibrate your skills, and every market shock becomes a lesson.",
+    "zh": "校准你的技能，每一次市场冲击都会变成一堂课。"
   },
   "story": {
-    "en": "China's foreign trade stayed [brisk|brisk] in the first three quarters, with Q3 [export|export] topping 8 trillion yuan for the first time, up 18.8% year on year, driven by [diversification|diversification] into green tech. Botswana's [renewable|renewable] energy push is expanding China-Botswana cooperation, while the 140th Canton Fair opened with a keynote on trade resilience. Yet geopolitical risk remains [volatile|volatile]: Iran's attacks [escalate|escalate] as a container ship sank in the Strait of Hormuz; Houthis struck Riyadh airport; the US destroyed an Iran-linked dhow. Markets split, with dividend and AI film stocks active. Firms must [leverage|leverage] digital tools to offset supply-chain [disruption|disruption]. Looking ahead, the 33rd Winter World University Games and Zhejiang's 18th Provincial Games will lift consumption.",
-    "cn": "前三季度我国外贸保持活跃，三季度[出口|export]首次突破8万亿元，同比增长18.8%，绿色技术[多元化|diversification]布局成为重要推力。博茨瓦纳加快发展[可再生的|renewable]，中博绿色能源合作不断拓展。第140届广交会开幕，聚焦贸易韧性。\n\n地缘风险剧烈波动：伊朗袭击升级，一艘集装箱船在霍尔木兹海峡沉没；胡塞武装袭击沙特利雅得国际机场；美军称摧毁一艘与伊朗有关联的帆船。A股缩量调整中分化加剧，红利与AI影视逆势活跃。\n\n企业需借助数字工具应对供应链[中断、扰乱|disruption]。展望未来，第33届世界大学生冬季运动会和浙江省第十八届运动会将带动消费。 央行突然[加息|escalate]，让原本[轻快的|brisk]复苏步伐变得[反复无常|volatile]，企业不得不重新[利用|leverage]对冲工具来应对融资成本上升。"
+    "en": "Oil markets turned [volatile|volatile] on Oct 15 as prices closed mixed, while US September PPI far exceeded expectations, pressuring Trump. Zelensky announced the resumption of strikes on Russian refineries, and Houthi attacks on Riyadh airport killed 17 and injured 333, with Yemen's presidential palace hit killing 5 and wounding 16. An Iranian navy tanker caught fire east of Hormuz. Israel said the US and Israel are consulting on plans to strike Iran, threatening to [escalate|escalate] conflict. The supply [disruption|disruption] from these events tests the [credibility|credibility] of ceasefire efforts. China's Commerce Ministry said it will continue facilitating rare earth export license approvals to Europe, a [pipeline|pipeline] of trade cooperation. Huawei's Yu Chengdong responded to a joint investigation into brake pedal bracket fractures, saying justice may be late but never absent, as the company faces a regulatory [audit|audit]. The Canton Fair's overseas buyers arrived early to secure orders, with many leveraging [remote|remote] factory inspections. Companies must [leverage|leverage] digital tools to manage risks.",
+    "cn": "全球通胀降温的背景下，市场情绪依然[剧烈波动的|volatile]。监管机构对银行信贷资产开展专项[审计|audit]，发现企业[杠杆|leverage]水平有所上升，并警告信贷流动若突然[中断、扰乱|disruption]，可能令融资压力进一步升级。多家能源企业反映，新项目储备正在变薄，而远程办公的普及继续拖累城市写字楼需求。分析人士指出，该行业的[信誉|credibility]如今取决于压力测试的透明度与政策信号的稳定性。展望未来，官员承诺加强监测并推进渐进改革，以稳定明年的市场预期。"
   },
   "words": [
     {
@@ -14067,10 +14067,179 @@
       "pos": "n.",
       "en": "disturbance or interruption to a system or process",
       "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "audit",
+      "ph": "/ˈɔːdɪt/",
+      "m": "审计；查账；旁听",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "an official inspection of financial records; to examine accounts officially; to attend a course without credit",
+      "defs": [
+        {
+          "cn": "审计",
+          "en": "an official examination of financial accounts",
+          "pos": "n."
+        },
+        {
+          "cn": "查账",
+          "en": "to inspect and verify financial records",
+          "pos": "v."
+        },
+        {
+          "cn": "旁听",
+          "en": "to attend a class without receiving credit",
+          "pos": "v."
+        }
+      ],
+      "col": "internal audit (内部审计) · audit report (审计报告) · tax audit (税务稽查) · audit committee (审计委员会)",
+      "ex": "The company's shares fell after its auditor issued a qualified audit report.",
+      "exZh": "审计师出具保留意见的审计报告后，该公司股价下跌。",
+      "ex2": "She decided to audit the economics course to sharpen her analytical skills without taking exams.",
+      "ex2Zh": "她决定旁听经济学课程以提升分析能力，而不参加考试。",
+      "t": "美国9月PPI远超预期，市场担心企业成本失控，投资者开始盯紧每一份 audit report。与此同时，中国商务部表示愿为对欧稀土出口许可审批提供便利，相关企业的合规 audit 压力随之上升。\n职场里 audit 季最忙：财务同事连夜整理凭证，审计师一句“这笔费用凭证不全”，整个部门就得通宵补材料。",
+      "root": "源自拉丁语 audire（听），同源词 audible（听得见的）、audience（听众）。古代查账靠“听人报账”，故 audit 由“听”引申为“审计、查账”。",
+      "d": "2026-10-16"
+    },
+    {
+      "w": "pipeline",
+      "ph": "/ˈpaɪplaɪn/",
+      "m": "管道；渠道；在研项目；储备",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a line of pipes for transporting oil or gas; a process or channel; a company's list of products in development",
+      "defs": [
+        {
+          "cn": "管道",
+          "en": "a long tube for carrying liquids or gas",
+          "pos": "n."
+        },
+        {
+          "cn": "渠道",
+          "en": "a process or channel through which something moves",
+          "pos": "n."
+        },
+        {
+          "cn": "在研项目",
+          "en": "a company's set of products under development",
+          "pos": "n."
+        }
+      ],
+      "col": "oil pipeline (输油管道) · product pipeline (产品储备) · pipeline of deals (交易储备) · pipeline project (管道项目)",
+      "ex": "The new pipeline will carry natural gas from the field to the port, easing supply bottlenecks.",
+      "exZh": "新管道将把天然气从气田输送到港口，缓解供应瓶颈。",
+      "ex2": "The startup has a strong pipeline of AI products ready for launch next year.",
+      "ex2Zh": "这家初创公司有一系列AI产品储备，准备明年推出。",
+      "t": "伊朗海军称一艘油轮在霍尔木兹海峡东部海域起火，国际油价15日涨跌不一，市场担心 pipeline 运输受阻。与此同时，美国PPI远超预期，能源企业加紧扩建 pipeline 以稳定供应。\n职场里 pipeline 也指“人才储备”：HR 常说“我们的人才 pipeline 要提前三年建”，否则关键岗位一空缺就抓瞎。",
+      "root": "复合词：pipe(管，古英语 pipa) + line(线，拉丁 linea) → 管道、管线，后引申为流程渠道、产品储备。同源词有 pipeline（管道）、line（线）。",
+      "d": "2026-10-16"
+    },
+    {
+      "w": "remote",
+      "ph": "/rɪˈməʊt/",
+      "m": "远程的；偏远的；渺茫的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "working from a distance; far away; unlikely to happen",
+      "defs": [
+        {
+          "cn": "远程的",
+          "en": "done from a distance, as in work",
+          "pos": "adj."
+        },
+        {
+          "cn": "偏远的",
+          "en": "far away from populated areas",
+          "pos": "adj."
+        },
+        {
+          "cn": "渺茫的",
+          "en": "unlikely; slight in possibility",
+          "pos": "adj."
+        }
+      ],
+      "col": "remote work 远程办公 · remote control 遥控 · remote area 偏远地区 · remote possibility 渺茫的可能",
+      "ex": "More than 40% of US tech employees still work remote at least three days a week.",
+      "exZh": "超过40%的美国科技员工仍每周至少远程办公三天。",
+      "ex2": "The company opened a remote office in a rural town to cut costs and tap local talent.",
+      "ex2Zh": "该公司在乡镇开设远程办公室，以削减成本并吸纳本地人才。",
+      "t": "亚马逊本周要求员工每周五天到岗，引发 remote 办公支持者的强烈反弹；与此同时，日本政府推出补贴鼓励企业保留远程岗位以缓解东京通勤压力。\n记忆法：remote 的“远”既可指空间（偏远山村），也可指工作方式（居家办公），还可指概率（remote chance 机会渺茫），一词三用。",
+      "root": "前缀 re-（回、远离，拉丁 re-）+ 词根 mot-（移动，拉丁 movere，同源 move 移动、motion 运动）→ “移开的” → 遥远的、远程的。同源词：remotely 远程地。",
+      "d": "2026-10-16"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-16",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-16",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-16",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-16",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-16",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
     }
   ],
   "preview": {
-    "hook": "全球航运与能源市场因红海紧张局势再度升级而剧烈震荡，原油与集装箱运价同步呈现[volatile|volatile]走势；与此同时，中国一季度[export|export]数据意外保持[brisk|brisk]增长，[renewable|renewable]设备与电动汽车成为拉动主力，但部分行业仍面临产能过剩与订单[disruption|disruption]的双重压力，企业正通过市场[diversification|diversification]和供应链[leverage|leverage]策略分散风险、稳住利润。 随着两国在边境问题上的摩擦不断[升级|escalate]，周边国家开始担忧这场危机可能失控。",
+    "hook": "一家跨国制造巨头在[audit|audit]中发现其海外[pipeline|pipeline]项目因当地局势升级而被迫[disruption|disruption]，远程管理团队无法及时掌握[volatile|volatile]原材料价格，叠加[leverage|leverage]过高的财务结构，引发供应链中断的连锁反应，市场对其[credibility|credibility]产生严重质疑。 由于[偏远的|remote]山村交通不便，救援物资迟迟无法送达，灾情可能进一步[升级|escalate]。",
     "impact": ""
   }
 }

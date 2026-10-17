@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-16",
+  "updated_on": "2026-10-17",
   "quote": {
-    "en": "Calibrate your skills, and every market shock becomes a lesson.",
-    "zh": "校准你的技能，每一次市场冲击都会变成一堂课。"
+    "en": "Resilient learners turn every market storm into a new route.",
+    "zh": "有韧性的学习者把每一次市场风暴都变成新路。"
   },
   "story": {
-    "en": "Oil markets turned [volatile|volatile] on Oct 15 as prices closed mixed, while US September PPI far exceeded expectations, pressuring Trump. Zelensky announced the resumption of strikes on Russian refineries, and Houthi attacks on Riyadh airport killed 17 and injured 333, with Yemen's presidential palace hit killing 5 and wounding 16. An Iranian navy tanker caught fire east of Hormuz. Israel said the US and Israel are consulting on plans to strike Iran, threatening to [escalate|escalate] conflict. The supply [disruption|disruption] from these events tests the [credibility|credibility] of ceasefire efforts. China's Commerce Ministry said it will continue facilitating rare earth export license approvals to Europe, a [pipeline|pipeline] of trade cooperation. Huawei's Yu Chengdong responded to a joint investigation into brake pedal bracket fractures, saying justice may be late but never absent, as the company faces a regulatory [audit|audit]. The Canton Fair's overseas buyers arrived early to secure orders, with many leveraging [remote|remote] factory inspections. Companies must [leverage|leverage] digital tools to manage risks.",
-    "cn": "全球通胀降温的背景下，市场情绪依然[剧烈波动的|volatile]。监管机构对银行信贷资产开展专项[审计|audit]，发现企业[杠杆|leverage]水平有所上升，并警告信贷流动若突然[中断、扰乱|disruption]，可能令融资压力进一步升级。多家能源企业反映，新项目储备正在变薄，而远程办公的普及继续拖累城市写字楼需求。分析人士指出，该行业的[信誉|credibility]如今取决于压力测试的透明度与政策信号的稳定性。展望未来，官员承诺加强监测并推进渐进改革，以稳定明年的市场预期。"
+    "en": "Global markets turned [volatile|volatile] on October 17 as geopolitical tensions [escalate|escalate] and oil prices surge, while EU leaders urge fiscal [restraint|restraint] and China pushes green [compute|compute] at its Ulanqab [expo|expo]. In New York, the three major stock indices fell significantly on the 16th, with oil prices rising sharply on conflict news. EU budget talks face pressure as Merz calls for fiscal [constrain|constrain], opposing large budget increases, while Zelensky asks the EU for an extra €70 billion in aid next year. Ukraine resumed strikes on Russian refineries, which Trump called 'shameful', threatening to [sustain|sustain] losses in energy markets. Meanwhile, China showcases green power and computing at the Ulanqab exhibition hall, and the 9th China International Import Expo highlights openness and innovation. The Canton Fair launched its first international medical zone, and the 2026 Yangtze River Delta International Youth Film Week opened in Ningbo. Investors should watch for [leverage|leverage] risks amid these crosscurrents.",
+    "cn": "全球市场因地缘冲突升级而剧烈波动，国际油价16日显著上涨，纽约股市三大股指显著下跌。欧盟预算谈判承压，默茨呼吁保持财政[克制|constrain]，反对大幅扩增预算规模，而泽连斯基要求欧盟明年额外提供700亿欧元援助，这使得欧盟财政需进一步[克制|restraint]支出。乌克兰恢复打击俄炼油厂，特朗普称此举“可耻”，能源市场或持续蒙受损失。\n\n与此同时，中国在乌兰察布展示绿色[计算|compute]产业发展，习近平考察绿电赋能算力聚势，广交会首设国际医疗展区，第九届进博会亮点前瞻强调开放与创新。2026长三角国际青年电影周在宁波开幕，上海三大文化盛事同日交汇。\n\n地缘冲突升级与油价波动加剧市场不确定性，投资者需警惕[杠杆|leverage]风险。 在[博览会|expo]上，专家指出，若想[维持|sustain]经济稳定，就必须警惕可能[升级|escalate]的[波动|volatile]风险。"
   },
   "words": [
     {
@@ -14236,10 +14236,217 @@
       "pos": "n.",
       "en": "the quality of being trusted or believed",
       "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "restraint",
+      "ph": "/rɪˈstreɪnt/",
+      "m": "克制；限制；约束",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the quality of behaving in a controlled way; a limit or restriction placed on something",
+      "defs": [
+        {
+          "cn": "克制",
+          "en": "the quality of controlling one's behavior or emotions",
+          "pos": "n."
+        },
+        {
+          "cn": "限制",
+          "en": "a rule or condition that limits what can be done",
+          "pos": "n."
+        },
+        {
+          "cn": "约束",
+          "en": "a measure that keeps something under control",
+          "pos": "n."
+        }
+      ],
+      "col": "fiscal restraint 财政克制 · exercise restraint 保持克制 · wage restraint 工资限制 · impose restraints 施加限制",
+      "ex": "German Chancellor Merz urged the EU to maintain fiscal restraint and opposed a significant expansion of the bloc's budget.",
+      "exZh": "德国总理默茨敦促欧盟保持财政克制，反对大幅扩增欧盟预算规模。",
+      "ex2": "The central bank called for restraint in lending as household debt levels reached new highs.",
+      "ex2Zh": "随着家庭债务水平创下新高，央行呼吁在放贷方面保持克制。",
+      "t": "德国总理默茨最新表态：欧盟应保持财政 restraint，反对大幅扩增预算规模。这一立场正值泽连斯基要求欧盟明年额外提供700亿欧元援助，财政纪律与援乌压力正面碰撞。\n职场中 restraint 也指自我约束，如“在预算会议上，经理提醒大家 show restraint in spending（在开支上保持克制）”，比直接说“省钱”更正式、更有政策感。",
+      "root": "前缀 re-(向后、再，拉丁，同源 return 返回、reflect 反射) + 词根 strain(拉紧，拉丁 stringere，同源 strict 严格的、constrain 约束) + 后缀 -t(名词后缀) → 向后拉紧 → 克制、限制",
+      "d": "2026-10-17"
+    },
+    {
+      "w": "compute",
+      "ph": "/kəmˈpjuːt/",
+      "m": "计算；算力资源",
+      "c": "tech",
+      "pos": "v./n.",
+      "en": "to calculate using a computer; as a noun, processing power or cloud resources",
+      "defs": [
+        {
+          "cn": "计算",
+          "en": "to calculate or process data using a computer",
+          "pos": "v."
+        },
+        {
+          "cn": "算力",
+          "en": "processing power, especially in AI and cloud contexts",
+          "pos": "n."
+        },
+        {
+          "cn": "推算",
+          "en": "to work out an amount by calculation",
+          "pos": "v."
+        }
+      ],
+      "col": "compute power 算力 · cloud compute 云计算 · compute cluster 计算集群 · edge compute 边缘计算",
+      "ex": "Xi Jinping's Ulanqab visit showcased green power enabling compute industry growth in Inner Mongolia.",
+      "exZh": "习近平乌兰察布行展示绿电赋能算力产业发展的成果。",
+      "ex2": "Startups are renting cloud compute by the hour to train their models cheaply.",
+      "ex2Zh": "初创公司按小时租用云计算资源，低成本训练模型。",
+      "t": "习近平乌兰察布行走进绿色算力产业发展展示厅，主题是“绿电赋能、算力聚势”，compute 正成为区域经济新抓手。\n词义扩展：compute 从动词“计算”延伸到名词“算力”，和 AI 热潮绑定，写科技评论时比 calculation 更时髦。",
+      "root": "前缀 com-(共同、加强，拉丁，同源 combine 结合) + 词根 put(=思考、计算，拉丁，同源 dispute 争论、reputation 名声) → 一起算清楚 → 计算、算力",
+      "d": "2026-10-17"
+    },
+    {
+      "w": "expo",
+      "ph": "/ˈekspəʊ/",
+      "m": "博览会；展会",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a large public exhibition of products or services; short for exposition",
+      "defs": [
+        {
+          "cn": "博览会",
+          "en": "a large exhibition showcasing products or services",
+          "pos": "n."
+        },
+        {
+          "cn": "展会",
+          "en": "an industry fair for buyers and sellers",
+          "pos": "n."
+        },
+        {
+          "cn": "展览会",
+          "en": "a public show of art, goods, or technology",
+          "pos": "n."
+        }
+      ],
+      "col": "trade expo 贸易博览会 · import expo 进口博览会 · tech expo 科技展 · host an expo 举办博览会",
+      "ex": "The ninth China International Import Expo preview stressed open trade and innovation momentum.",
+      "exZh": "第九届中国国际进口博览会亮点前瞻强调开放底色与创新动能。",
+      "ex2": "The Canton Fair set up its first international medical zone, with foreign teams on duty.",
+      "ex2Zh": "广交会首设国际医疗展区，外籍团队上岗。",
+      "t": "第九届中国国际进口博览会亮点前瞻发布，主题是“开放底色鲜明、创新动能强劲”；同期广交会首设国际医疗展区，外籍团队上岗，expo 成为外贸关键词。\n搭配记忆：expo 常与 trade、import、tech 搭配，写商业报道时比 exhibition 更简洁有力。",
+      "root": "源自拉丁语 exponere(=展出、说明，同源 expose 暴露、exponent 指数) → 缩写为 expo → 把东西摆出来给人看 → 博览会",
+      "d": "2026-10-17"
+    },
+    {
+      "w": "constrain",
+      "ph": "/kənˈstreɪn/",
+      "m": "(财政)克制；限制；约束",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to limit or restrict something; to keep spending or action under tight control, esp. in fiscal/budget contexts",
+      "defs": [
+        {
+          "cn": "(财政)克制",
+          "en": "to keep public spending or budgets under tight limits",
+          "pos": "v."
+        },
+        {
+          "cn": "限制；约束",
+          "en": "to restrict freedom, growth, or behaviour within bounds",
+          "pos": "v."
+        },
+        {
+          "cn": "强迫；迫使",
+          "en": "to compel someone to act in a certain way",
+          "pos": "v."
+        }
+      ],
+      "col": "constrain spending 约束开支 · fiscally constrained 财政受限的 · constrain growth 抑制增长 · feel constrained by rules 受规则束缚",
+      "ex": "Germany's chancellor urged the EU to constrain its budget expansion, warning that unchecked spending could undermine fiscal credibility.",
+      "exZh": "德国总理敦促欧盟克制预算扩张，警告无节制开支可能损害财政信誉。",
+      "ex2": "Tight deadlines often constrain how thoroughly a team can test a new product before launch.",
+      "ex2Zh": "紧迫的截止日期常常限制团队在产品发布前充分测试的深度。",
+      "t": "欧盟预算谈判升温之际，德国总理默茨公开主张欧盟应保持财政克制、反对大幅扩增预算规模，constrain 正是这场争论的关键词——把开支关进笼子。\n职场里也一样：预算一紧，经理就会说 we are constrained by headcount，意思是编制卡死了，不是不想招，是招不了。",
+      "root": "前缀 con-(共同、一起，拉丁 com-，同源 connect 连接) + 词根 string(=strain 拉紧，拉丁 stringere，同源 strict 严格的、restrict 限制) → 一起拉紧 → 束缚、限制、克制",
+      "d": "2026-10-17"
+    },
+    {
+      "w": "sustain",
+      "ph": "/səˈsteɪn/",
+      "m": "维持；支撑；蒙受（损失）",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to keep something going over time; to support or bear the weight of; to suffer damage or loss",
+      "defs": [
+        {
+          "cn": "维持；保持",
+          "en": "to keep an activity or condition going over time",
+          "pos": "v."
+        },
+        {
+          "cn": "支撑；承受",
+          "en": "to bear the weight or pressure of something",
+          "pos": "v."
+        },
+        {
+          "cn": "蒙受（损失）",
+          "en": "to suffer injury, damage, or financial loss",
+          "pos": "v."
+        }
+      ],
+      "col": "sustain growth 维持增长 · sustain losses 蒙受损失 · sustain momentum 保持势头 · sustainable 可持续的",
+      "ex": "As New York's main indices dropped sharply on 16 October, investors questioned whether the rally could be sustained.",
+      "exZh": "10月16日纽约三大股指显著下跌，投资者质疑此前的涨势能否维持。",
+      "ex2": "Zelensky's call for an extra 70 billion euros in EU aid next year raises the question of how long Europe can sustain such support.",
+      "ex2Zh": "泽连斯基要求欧盟明年额外提供700亿欧元援助，令人追问欧洲还能维持这种支持多久。",
+      "t": "泽连斯基要求欧盟明年额外提供700亿欧元援助，默茨则主张欧盟保持财政克制、反对大幅扩增预算——能否 sustain 长期援助，成了布鲁塞尔的现实拷问。\n词族联想：sustain(维持)→sustained(持续的)→sustainable(可持续的)；职场里说 sustain momentum，就是别让项目半途泄气。",
+      "root": "前缀 sus-(=sub 在下，拉丁，同源 submarine 潜艇) + 词根 tain(=hold 握住，拉丁 tenere，同源 contain 包含、maintain 维持) → 在下面托住 → 维持、支撑、承受",
+      "d": "2026-10-17"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-17",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-17",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-17",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
     }
   ],
   "preview": {
-    "hook": "一家跨国制造巨头在[audit|audit]中发现其海外[pipeline|pipeline]项目因当地局势升级而被迫[disruption|disruption]，远程管理团队无法及时掌握[volatile|volatile]原材料价格，叠加[leverage|leverage]过高的财务结构，引发供应链中断的连锁反应，市场对其[credibility|credibility]产生严重质疑。 由于[偏远的|remote]山村交通不便，救援物资迟迟无法送达，灾情可能进一步[升级|escalate]。",
+    "hook": "全球[compute|compute]板块在剧烈波动中迎来新一轮[constrain|constrain]：某科技巨头宣布将于下月举办AI[expo|expo]，但受财政[restraint|restraint]影响，其资本开支计划被迫[sustain|sustain]在原有水平，市场担忧地缘冲突升级可能进一步冲击供应链，投资者纷纷调整[leverage|leverage]头寸以规避风险。 随着[升级|escalate]的贸易争端和[易波动|volatile]的全球市场持续施压，投资者对经济前景愈发谨慎。",
     "impact": ""
   }
 }

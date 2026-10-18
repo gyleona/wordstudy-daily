@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-17",
+  "updated_on": "2026-10-18",
   "quote": {
-    "en": "Resilient learners turn every market storm into a new route.",
-    "zh": "有韧性的学习者把每一次市场风暴都变成新路。"
+    "en": "Every hard negotiation teaches more than a quick yes ever will.",
+    "zh": "每一次艰难的谈判，都比轻易的应允教会你更多。"
   },
   "story": {
-    "en": "Global markets turned [volatile|volatile] on October 17 as geopolitical tensions [escalate|escalate] and oil prices surge, while EU leaders urge fiscal [restraint|restraint] and China pushes green [compute|compute] at its Ulanqab [expo|expo]. In New York, the three major stock indices fell significantly on the 16th, with oil prices rising sharply on conflict news. EU budget talks face pressure as Merz calls for fiscal [constrain|constrain], opposing large budget increases, while Zelensky asks the EU for an extra €70 billion in aid next year. Ukraine resumed strikes on Russian refineries, which Trump called 'shameful', threatening to [sustain|sustain] losses in energy markets. Meanwhile, China showcases green power and computing at the Ulanqab exhibition hall, and the 9th China International Import Expo highlights openness and innovation. The Canton Fair launched its first international medical zone, and the 2026 Yangtze River Delta International Youth Film Week opened in Ningbo. Investors should watch for [leverage|leverage] risks amid these crosscurrents.",
-    "cn": "全球市场因地缘冲突升级而剧烈波动，国际油价16日显著上涨，纽约股市三大股指显著下跌。欧盟预算谈判承压，默茨呼吁保持财政[克制|constrain]，反对大幅扩增预算规模，而泽连斯基要求欧盟明年额外提供700亿欧元援助，这使得欧盟财政需进一步[克制|restraint]支出。乌克兰恢复打击俄炼油厂，特朗普称此举“可耻”，能源市场或持续蒙受损失。\n\n与此同时，中国在乌兰察布展示绿色[计算|compute]产业发展，习近平考察绿电赋能算力聚势，广交会首设国际医疗展区，第九届进博会亮点前瞻强调开放与创新。2026长三角国际青年电影周在宁波开幕，上海三大文化盛事同日交汇。\n\n地缘冲突升级与油价波动加剧市场不确定性，投资者需警惕[杠杆|leverage]风险。 在[博览会|expo]上，专家指出，若想[维持|sustain]经济稳定，就必须警惕可能[升级|escalate]的[波动|volatile]风险。"
+    "en": "A White House [spokesperson|spokesperson] left office less than a week after starting, dw.com reported, as Washington's messaging operation faces fresh scrutiny. Abroad, Zelensky said sanctions [exemption|exemption] will remain regrettable and warned that Russia wants to deploy ballistic missiles on Belarusian territory, RFI reported, a signal that security tensions could [escalate|escalate]. In Xiamen, the 2026 Yangtze Delta International Youth Film Week opened, drawing young talent whose [proficiency|proficiency] in cinema is being tested on a regional stage. The film sector's [appetite|appetite] for fresh faces is matched by industry demand elsewhere: the [proliferation|proliferation] of large models settling in Ulanqab has turned computing power into a new grassland specialty, per Beijing Daily. Firms there may [headhunt|headhunt] engineers aggressively. Meanwhile, the release of national standards for Luban Workshops underscores a push for [craftsmanship|craftsmanship] in vocational training. Watch whether talent flows and training standards keep pace with the technology build-out.",
+    "cn": "白宫新闻秘书上任不到一周就“下课”，引发外界对华盛顿对外沟通运作的审视。在海外，泽连斯基表示制裁[豁免|exemption]仍将令人遗憾，并称俄方想在白俄境内部署弹道导弹，安全紧张局势恐进一步升级。2026长三角国际青年电影周在宁波开幕，青年影人的[熟练|proficiency]在区域舞台上接受检验。\n\n电影业对新面孔的需求(食欲)与产业需求相互呼应。据京报网报道，大模型扎堆落地乌兰察布，算力成为草原新特产，相关企业或加大[猎头挖人|headhunt]力度，争夺工程师。\n\n鲁班工坊系列国家标准公布，凸显对精湛技艺与职业培训的重视。[发言人|spokesperson]更替、技术[激增、扩散|proliferation]与人才培养能否同步，值得持续关注。 随着消费者对[工艺|craftsmanship]品质的追求不断升温，市场对高端手工产品的[胃口|appetite]持续扩大，原材料成本也随之[升级|escalate]。"
   },
   "words": [
     {
@@ -14443,10 +14443,258 @@
       "pos": "v. / n.",
       "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
       "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "headhunt",
+      "ph": "/ˈhedhʌnt/",
+      "m": "猎头挖人；物色高管人才",
+      "c": "work",
+      "pos": "v.",
+      "en": "to recruit a senior or specialist employee, often from a rival firm, via a search firm",
+      "defs": [
+        {
+          "cn": "猎头挖人",
+          "en": "to actively recruit a senior person from another company",
+          "pos": "v."
+        },
+        {
+          "cn": "物色人才",
+          "en": "to search for and approach candidates for a key role",
+          "pos": "v."
+        }
+      ],
+      "col": "headhunt talent 挖人才 · be headhunted 被猎头挖走 · headhunt for a role 为某职位物色人选",
+      "ex": "Engineers with AI experience are being headhunted with packages far above last year's.",
+      "exZh": "有AI经验的工程师正被以远高于去年的薪酬包挖走。",
+      "ex2": "She was headhunted by a rival bank after leading the digital team.",
+      "ex2Zh": "她带领数字团队后，被一家对手银行挖走。",
+      "t": "人才市场里，热门岗位常由猎头主动出击：企业不公开招人，而是 headhunt 对手公司的核心员工，薪酬包往往高出市场一截。\n和 recruit 相比，headhunt 更强调『主动物色、定向挖角』；被挖的人可以说 I was headhunted，语气比『跳槽』更有身价感。",
+      "root": "复合词 head(头、首领，古英语 heafod，同源 heading 标题) + hunt(狩猎，古英语 huntian，同源 hunter 猎人) → 像狩猎一样搜寻首领级人才 → 定向挖角高管与专才",
+      "story": "Headhunt",
+      "hook": "挖人",
+      "impact": "挖人",
+      "preview_hook": "",
+      "preview_impact": "",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "exemption",
+      "ph": "/ɪɡˈzempʃn/",
+      "m": "(n.)豁免；免除；免税",
+      "c": "politics",
+      "pos": "n.",
+      "en": "official freedom from a duty, payment, or rule that others must follow",
+      "defs": [
+        {
+          "cn": "豁免；免除",
+          "en": "release from an obligation or rule others must obey",
+          "pos": "n."
+        },
+        {
+          "cn": "免税；免税额",
+          "en": "an amount of income not subject to tax",
+          "pos": "n."
+        },
+        {
+          "cn": "例外条款",
+          "en": "a special case excluded from a general rule",
+          "pos": "n."
+        }
+      ],
+      "col": "tax exemption 免税 · grant an exemption 给予豁免 · exemption from duty 关税豁免 · exemption clause 免责条款",
+      "ex": "Debate over the sanction exemption dominated diplomatic talks as Kyiv pressed allies to tighten the screws on Moscow.",
+      "exZh": "围绕制裁豁免的争论主导了外交会谈，基辅敦促盟友加大对莫斯科的压力。",
+      "ex2": "Small firms below the revenue threshold can apply for an exemption from the new reporting rule.",
+      "ex2Zh": "营收低于门槛的小企业可申请豁免新报告规定。",
+      "t": "制裁豁免（exemption）成为今日外交关键词：泽连斯基直言相关豁免延续『令人遗憾』，而俄方被指欲在白俄境内部署弹道导弹，豁免与施压的拉锯正牵动市场情绪。\n生活对照：报税季人人都想找 exemption（免税额），可豁免越多、税基越窄，财政压力越大。",
+      "root": "前缀 ex-(出，拉丁，同源 exit 出口、exclude 排除) + 词根 empt(=emere 拿取，拉丁，同源 redeem 赎回) + 后缀 -ion → 被拿出去、不纳入 → 豁免、免除",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "proficiency",
+      "ph": "/prəˈfɪʃnsi/",
+      "m": "(n.)熟练；精通；专业水平",
+      "c": "work",
+      "pos": "n.",
+      "en": "a high degree of skill or competence in a subject or activity",
+      "defs": [
+        {
+          "cn": "熟练；精通",
+          "en": "a high level of skill in doing something",
+          "pos": "n."
+        },
+        {
+          "cn": "专业水平",
+          "en": "measured competence in a professional field",
+          "pos": "n."
+        },
+        {
+          "cn": "语言能力等级",
+          "en": "a graded level of language ability",
+          "pos": "n."
+        }
+      ],
+      "col": "language proficiency 语言熟练度 · proficiency test 水平测试 · technical proficiency 技术熟练度 · attain proficiency 达到精通",
+      "ex": "Vocational workshops unveiled national standards, aiming to certify the proficiency of trainees in practical trades.",
+      "exZh": "职业工坊公布系列国家标准，旨在认证学员在实用技能上的熟练水平。",
+      "ex2": "Employers increasingly screen candidates with proficiency tests rather than relying on self-reported skills.",
+      "ex2Zh": "雇主越来越多地用熟练度测试筛选候选人，而非依赖自报技能。",
+      "t": "今日教育职场新闻：鲁班工坊系列国家标准公布，核心就是把技能培训的 proficiency 量化、可认证，让职业教育与产业需求更好对接。\n学习场景：雅思口语评分也讲 proficiency——流利、词汇、语法、发音四项，练的是综合熟练度而非死记硬背。",
+      "root": "前缀 pro-(向前，拉丁，同源 progress 进步) + 词根 fic(=facere 做，拉丁，同源 efficient 高效的) + 后缀 -ency(状态) → 做事做到前头 → 熟练、精通",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "spokesperson",
+      "ph": "/ˈspəʊkspɜːsn/",
+      "m": "(n.) 发言人；代言人",
+      "c": "news",
+      "pos": "n.",
+      "en": "a person who speaks officially on behalf of an organization or government",
+      "defs": [
+        {
+          "cn": "发言人",
+          "en": "an official representative who speaks for a group",
+          "pos": "n."
+        },
+        {
+          "cn": "代言人",
+          "en": "someone who voices the position of an institution",
+          "pos": "n."
+        },
+        {
+          "cn": "(品牌)形象代表",
+          "en": "a public figure representing a brand or cause",
+          "pos": "n."
+        }
+      ],
+      "col": "press spokesperson 新闻发言人 · White House spokesperson 白宫发言人 · company spokesperson 公司发言人 · act as spokesperson 担任发言人",
+      "ex": "The White House spokesperson stepped down less than a week after taking office.",
+      "exZh": "白宫新闻秘书上任不到一周便离任。",
+      "ex2": "A company spokesperson confirmed the product delay but declined to give a timeline.",
+      "ex2Zh": "公司发言人证实了产品延期，但拒绝给出时间表。",
+      "t": "白宫新闻秘书上任不到一周就『下课』，spokesperson 这个岗位看似只是传声筒，实则站在政策与舆论的火线，说错一句话就是头条。\n职场启示：无论你是不是 spokesperson，对外发声前先对齐口径，比临场发挥更能保住职业信誉。",
+      "root": "spoke(说话，古英语 sp(r)ecan 的过去式，同源 speak 说) + s(连接字母) + person(人，拉丁 persona 面具/角色，同源 personal 个人的) → 替机构『说话的那个人』→ 发言人",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "craftsmanship",
+      "ph": "/ˈkrɑːftsmənʃɪp/",
+      "m": "(n.) 工艺；精湛技艺",
+      "c": "work",
+      "pos": "n.",
+      "en": "the skill and quality of work shown in making something by hand or with care",
+      "defs": [
+        {
+          "cn": "工艺；技艺",
+          "en": "skill in a particular craft or trade",
+          "pos": "n."
+        },
+        {
+          "cn": "精工细作",
+          "en": "the quality of being carefully and skillfully made",
+          "pos": "n."
+        },
+        {
+          "cn": "工匠精神",
+          "en": "a professional ethos of meticulous work",
+          "pos": "n."
+        }
+      ],
+      "col": "fine craftsmanship 精湛工艺 · craftsmanship standards 工艺标准 · pride in craftsmanship 工匠自豪感 · traditional craftsmanship 传统工艺",
+      "ex": "New national standards for Luban Workshops aim to raise vocational craftsmanship.",
+      "exZh": "鲁班工坊系列国家标准的公布旨在提升职业工艺水平。",
+      "ex2": "The brake-pedal failure sparked a debate about craftsmanship in premium cars.",
+      "ex2Zh": "刹车踏板断裂事件引发了关于高端汽车工艺的争论。",
+      "t": "鲁班工坊系列国家标准公布，把 craftsmanship 写进职业教育的刻度尺；与此同时，某高端车型刹车踏板断裂风波，也让『工艺』二字被推上舆论风口。\n职场里，craftsmanship 不只是手艺，更是把每一份交付物当作品打磨的态度。",
+      "root": "craft(手艺，古英语 cræft 力量/技艺，同源 crafty 精巧的) + s(连接字母) + man(人，古英语 mann) + 后缀 -ship(身份、状态，古英语 -scipe，同源 friendship 友谊) → 手艺人应有的状态与水准 → 工艺、工匠精神",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "appetite",
+      "ph": "/ˈæpɪtaɪt/",
+      "m": "(n.)欲望，胃口；需求意愿",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a strong desire or willingness, esp. for risk, spending, or investment",
+      "defs": [
+        {
+          "cn": "胃口",
+          "en": "the desire for food or drink",
+          "pos": "n."
+        },
+        {
+          "cn": "需求意愿",
+          "en": "willingness to buy or invest",
+          "pos": "n."
+        },
+        {
+          "cn": "兴趣，欲望",
+          "en": "a strong liking or craving for something",
+          "pos": "n."
+        }
+      ],
+      "col": "risk appetite 风险偏好 · investor appetite 投资者意愿 · appetite for reform 改革意愿 · whet appetite 勾起兴趣",
+      "ex": "Investor appetite for AI infrastructure stayed strong even as power costs climbed.",
+      "exZh": "即便电力成本上升，投资者对AI基础设施的意愿依然强劲。",
+      "ex2": "Her appetite for learning new tools impressed the whole team.",
+      "ex2Zh": "她学习新工具的热情让整个团队印象深刻。",
+      "t": "算力成草原新特产背后，是投资者对AI基建的 appetite 依旧旺盛，地方招商与资本意愿一拍即合。\n金融语境固定搭配 risk appetite（风险偏好），与 risk aversion（避险）相对，一句话就能读出市场情绪。",
+      "root": "前缀 ap-(=ad 向，拉丁，同源 approach 接近) + 词根 pet(追求，拉丁 petere，同源 compete 竞争、petition 请愿) + 后缀 -ite → 向某物追求 → 欲望、胃口。",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "proliferation",
+      "ph": "/prəˌlɪfəˈreɪʃn/",
+      "m": "(n.)激增、扩散； proliferation",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a rapid increase in number; the spread of something widely",
+      "defs": [
+        {
+          "cn": "激增、扩散",
+          "en": "a rapid growth in numbers or spread of something",
+          "pos": "n."
+        },
+        {
+          "cn": "(设备/技术)普及",
+          "en": "the widespread adoption of a technology or weapon",
+          "pos": "n."
+        },
+        {
+          "cn": "增殖",
+          "en": "multiplication by producing new parts",
+          "pos": "n."
+        }
+      ],
+      "col": "rapid proliferation 迅速扩散 · proliferation of models 模型激增 · nuclear proliferation 核扩散 · data proliferation 数据激增",
+      "ex": "The proliferation of large models in Ulanqab has turned cheap power into a competitive advantage.",
+      "exZh": "大模型在乌兰察布的激增，把廉价电力变成了竞争优势。",
+      "ex2": "Regulators worry about the proliferation of unlicensed medical service booths at trade fairs.",
+      "ex2Zh": "监管者担心广交会上无证医疗服务展位激增。",
+      "t": "乌兰察布大模型扎堆落地，正是 compute 与 model 的 proliferation：算力便宜、电价低，模型公司便成群迁入，形成“草原算力带”。\n记忆法：proliferation 偏中性甚至负面（核扩散），而 growth 中性；写报告时用 proliferation 暗示“数量多到需要管理”。",
+      "root": "前缀 pro-(向前，拉丁，同源 proceed 前进) + 词根 lifer(=fer 携带、生育，拉丁 ferre，同源 fertile 肥沃的) + 后缀 -ation(名词) → 不断向前繁衍 → 激增、扩散",
+      "story": "",
+      "hook": "",
+      "impact": "",
+      "d": "2026-10-18"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-18",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
     }
   ],
   "preview": {
-    "hook": "全球[compute|compute]板块在剧烈波动中迎来新一轮[constrain|constrain]：某科技巨头宣布将于下月举办AI[expo|expo]，但受财政[restraint|restraint]影响，其资本开支计划被迫[sustain|sustain]在原有水平，市场担忧地缘冲突升级可能进一步冲击供应链，投资者纷纷调整[leverage|leverage]头寸以规避风险。 随着[升级|escalate]的贸易争端和[易波动|volatile]的全球市场持续施压，投资者对经济前景愈发谨慎。",
+    "hook": "2026年10月，多家猎头[headhunt|headhunt]机构披露，某跨国车企在华高管招聘中要求候选人具备电动车三电系统的专业精通[proficiency|proficiency]，并以税收[exemption|exemption]豁免作为薪酬谈判筹码；与此同时，公司[spokesperson|spokesperson]发言人确认，因应市场对高端车型的需求[appetite|appetite][appetite|appetite]持续走弱，将把更多资源投向强调精湛[craftsmanship|craftsmanship]工艺的限量产品线，而竞争对手同类车型的[proliferation|proliferation]激增正迫使价格战进一步升级升级。 随着双方在边境问题上的摩擦不断[升级|escalate]，原本脆弱的停火协议正面临严峻考验。",
     "impact": ""
   }
 }

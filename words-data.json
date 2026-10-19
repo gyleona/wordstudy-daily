@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-19",
   "quote": {
-    "en": "Every hard negotiation teaches more than a quick yes ever will.",
-    "zh": "每一次艰难的谈判，都比轻易的应允教会你更多。"
+    "en": "Learn one new skill today; it will pay you back for years.",
+    "zh": "今天多学一项新技能，它将回报你许多年。"
   },
   "story": {
-    "en": "A White House [spokesperson|spokesperson] left office less than a week after starting, dw.com reported, as Washington's messaging operation faces fresh scrutiny. Abroad, Zelensky said sanctions [exemption|exemption] will remain regrettable and warned that Russia wants to deploy ballistic missiles on Belarusian territory, RFI reported, a signal that security tensions could [escalate|escalate]. In Xiamen, the 2026 Yangtze Delta International Youth Film Week opened, drawing young talent whose [proficiency|proficiency] in cinema is being tested on a regional stage. The film sector's [appetite|appetite] for fresh faces is matched by industry demand elsewhere: the [proliferation|proliferation] of large models settling in Ulanqab has turned computing power into a new grassland specialty, per Beijing Daily. Firms there may [headhunt|headhunt] engineers aggressively. Meanwhile, the release of national standards for Luban Workshops underscores a push for [craftsmanship|craftsmanship] in vocational training. Watch whether talent flows and training standards keep pace with the technology build-out.",
-    "cn": "白宫新闻秘书上任不到一周就“下课”，引发外界对华盛顿对外沟通运作的审视。在海外，泽连斯基表示制裁[豁免|exemption]仍将令人遗憾，并称俄方想在白俄境内部署弹道导弹，安全紧张局势恐进一步升级。2026长三角国际青年电影周在宁波开幕，青年影人的[熟练|proficiency]在区域舞台上接受检验。\n\n电影业对新面孔的需求(食欲)与产业需求相互呼应。据京报网报道，大模型扎堆落地乌兰察布，算力成为草原新特产，相关企业或加大[猎头挖人|headhunt]力度，争夺工程师。\n\n鲁班工坊系列国家标准公布，凸显对精湛技艺与职业培训的重视。[发言人|spokesperson]更替、技术[激增、扩散|proliferation]与人才培养能否同步，值得持续关注。 随着消费者对[工艺|craftsmanship]品质的追求不断升温，市场对高端手工产品的[胃口|appetite]持续扩大，原材料成本也随之[升级|escalate]。"
+    "en": "Guangzhou's 2026 coffee industry dialogue salon spotlighted how roasters are turning to [livestream|livestream] sales to reach buyers beyond the expo floor, while Huatai Securities advised A-share investors to watch sectors where third-quarter earnings accelerate, a cue on [profitability|profitability]. The same week, the Canton Fair's international medical service desk drew attention as a [reopening|reopening] window for cross-border visitors, and Shanghai's culture and tourism chief Zhao Yong pledged to build the China Shanghai International Arts Festival into a world-class IP. In tech, Musk said the new Tesla Roadster can perform stunts [autonomy|autonomy] and that a ring track will rise at the Texas headquarters. WeChat Channels permanently banned an account over AI impersonation of actress Wu Yue, citing judicial and legal action, a reminder that platform [regulation|regulation] is tightening. Analysts framing the salon's [restocking|restocking] cycle and fair organizers' [recruitment|recruitment] of overseas exhibitors stressed that only [authentic|authentic] origin stories win repeat orders. With the fourth quarter ahead, traders will watch whether earnings momentum holds.",
+    "cn": "在缺乏实时新闻的平淡市况下，分析师正关注消费板块的渐进复苏。某大型电商平台最新的[直播|livestream]促销活动凸显需求韧性，但商家仍希望获得更大的定价与库存[自主权、自治|autonomy]。供应链数据显示，零售商为年末需求谨慎[补库存|restocking]，而[盈利能力|profitability]仍受成本上升挤压。多个区域购物区[重新开放|reopening]带动零售与物流[招聘|recruitment]，企业强调正宗货源以建立信任。[监管|regulation]机构持续完善线上商业监管，力求平衡创新与消费者保护。展望未来，市场参与者预期政策明朗与需求稳定将引导未来数季的投资决策。"
   },
   "words": [
     {
@@ -14691,10 +14691,275 @@
       "pos": "v.",
       "en": "to increase or intensify, esp. conflict or tension",
       "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "livestream",
+      "ph": "/ˈlaɪvstriːm/",
+      "m": "直播；网络实时播送",
+      "c": "tech",
+      "pos": "n./v.",
+      "en": "a live broadcast over the internet; to broadcast something live online",
+      "defs": [
+        {
+          "cn": "直播",
+          "en": "a real-time video broadcast on the internet",
+          "pos": "n."
+        },
+        {
+          "cn": "进行直播",
+          "en": "to transmit an event live over the internet",
+          "pos": "v."
+        },
+        {
+          "cn": "直播带货",
+          "en": "selling products during a live online show",
+          "pos": "n."
+        }
+      ],
+      "col": "livestream shopping 直播带货 · go livestream 开始直播 · livestream platform 直播平台 · livestream ban 直播封禁",
+      "ex": "WeChat Channels permanently banned an account for using AI to fake a celebrity in livestream selling.",
+      "exZh": "微信视频号永久封禁了一个用AI仿冒演员进行直播带货的账号。",
+      "ex2": "The ceramics expo livestream drew overseas buyers who could not travel to Jingdezhen.",
+      "ex2Zh": "陶瓷博览会的直播吸引了无法亲赴景德镇的海外买家。",
+      "t": "科技线：微信视频号回应演员吴越怒斥AI仿冒带货，涉事账号被永久封禁、内容清空，livestream 合规成为平台新课题。\n记忆点：live(实时) + stream(流)，与 broadcast 相比更强调网络实时互动，带货场景几乎成了它的专属义。",
+      "root": "live(活的、实时的, 古英语 lifian 同源 life) + stream(水流, 古英语 stream) → 实时流动的画面 → 网络直播",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "autonomy",
+      "ph": "/ɔːˈtɒnəmi/",
+      "m": "(n.)自主权、自治；自主性",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the right or condition of self-government; the ability to act independently",
+      "defs": [
+        {
+          "cn": "自主权、自治",
+          "en": "freedom of a group or region to govern itself",
+          "pos": "n."
+        },
+        {
+          "cn": "自主性",
+          "en": "the capacity to act without outside control",
+          "pos": "n."
+        },
+        {
+          "cn": "(技术)自主运行",
+          "en": "self-directed operation of a machine or system",
+          "pos": "n."
+        }
+      ],
+      "col": "greater autonomy 更大自主权 · regional autonomy 地区自治 · vehicle autonomy 车辆自主驾驶 · professional autonomy 职业自主权",
+      "ex": "Musk says the new Tesla Roadster can perform stunts on its own, pushing vehicle autonomy into showmanship.",
+      "exZh": "马斯克称新款特斯拉Roadster能自主完成特技动作，把车辆自主性推向表演层面。",
+      "ex2": "Remote teams need clear goals to keep their autonomy from turning into drift.",
+      "ex2Zh": "远程团队需要清晰目标，才能让自主权不至于变成各自漂移。",
+      "t": "马斯克称新款特斯拉 Roadster 可自主完成特技动作，得州总部还将建环形赛道，车辆 autonomy 从通勤工具延伸到表演场景，监管与保险如何跟上成了新问题。\n职场延伸：autonomy 不等于放任，常与 accountability 搭配，自主越大，问责越重。",
+      "root": "前缀 auto-(自己，希腊 autos，同源 automatic 自动的、autograph 亲笔) + 词根 nom(法则，希腊 nomos，同源 economy 经济、astronomy 天文学) → 自己立法的 → 自治、自主",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "restocking",
+      "ph": "/ˌriːˈstɒkɪŋ/",
+      "m": "(n.)补库存；重新备货",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of filling shelves or warehouses again with goods; replenishing inventory in business contexts",
+      "defs": [
+        {
+          "cn": "补库存",
+          "en": "the process of replenishing goods or inventory",
+          "pos": "n."
+        },
+        {
+          "cn": "重新备货",
+          "en": "refilling shelves or storage with new supplies",
+          "pos": "n."
+        },
+        {
+          "cn": "补充存货",
+          "en": "adding stock back after it has run low",
+          "pos": "n."
+        }
+      ],
+      "col": "restocking cycle 补库存周期 · warehouse restocking 仓库补货 · restocking orders 补货订单 · holiday restocking 节前备货",
+      "ex": "Analysts said third-quarter profit growth may hinge on a restocking cycle in consumer goods.",
+      "exZh": "分析师称三季度盈利增长或取决于消费品的补库存周期。",
+      "ex2": "The café spent the morning restocking cups and beans before the expo crowd arrived.",
+      "ex2Zh": "咖啡馆上午忙着补货杯子和咖啡豆，迎接博览会人流。",
+      "t": "财经线：华泰证券 A 股策略提出关注三季报盈利环比加速的板块，其中消费与制造环节的 restocking 往往是盈利拐点的先行信号，资金据此调仓。\n生活联想：超市员工在节前把货架填满，就是 restocking；与 destocking（去库存）成对记，一进一出。",
+      "root": "前缀 re-(再、重新，拉丁，同源 rebuild/return) + 词根 stock(存货，古英语 stocc 树干、储备，同源 stockpile) + 后缀 -ing(名词化) → 再次把货备起来 → 补库存。",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "profitability",
+      "ph": "/ˌprɒfɪtəˈbɪləti/",
+      "m": "(n.)盈利能力；获利性",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the ability of a business to make a profit; the degree to which something earns money",
+      "defs": [
+        {
+          "cn": "盈利能力",
+          "en": "the capacity of a firm to generate profit",
+          "pos": "n."
+        },
+        {
+          "cn": "获利性",
+          "en": "the quality of being financially rewarding",
+          "pos": "n."
+        },
+        {
+          "cn": "收益水平",
+          "en": "the level of profit a business achieves",
+          "pos": "n."
+        }
+      ],
+      "col": "improve profitability 提升盈利能力 · profitability margin 利润空间 · long-term profitability 长期获利性 · boost profitability 提高收益水平",
+      "ex": "Fund managers are hunting for sectors where third-quarter profitability is accelerating quarter on quarter.",
+      "exZh": "基金经理正寻找三季度盈利能力环比加速的板块。",
+      "ex2": "The café owner reviewed costs to protect profitability during the busy expo season.",
+      "ex2Zh": "咖啡馆老板核算成本，以在博览会旺季保住盈利能力。",
+      "t": "财经线：华泰证券 A 股策略明确点名“三季报盈利环比加速”板块，profitability 能否兑现，成为资金在震荡市里选股的核心标尺，也决定估值能否修复。\n职场对照：profitable 是“赚了钱”，profitability 是“有没有持续赚钱的本事”，前者看结果，后者看能力。",
+      "root": "词根 profit(利润，拉丁 profectus 前进、收益，同源 proficient) + 后缀 -able(能够，拉丁 -abilis) + -ity(名词化，拉丁 -itas) → 能带来收益的性质 → 盈利能力。",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "reopening",
+      "ph": "/ˌriːˈəʊpənɪŋ/",
+      "m": "(n.)重新开放；重启",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of opening something again, such as a market, venue, or business, after a closure",
+      "defs": [
+        {
+          "cn": "重新开放",
+          "en": "the act of opening a place or market again",
+          "pos": "n."
+        },
+        {
+          "cn": "重启",
+          "en": "restarting an activity or process after a pause",
+          "pos": "n."
+        },
+        {
+          "cn": "复市",
+          "en": "resuming trading or business operations",
+          "pos": "n."
+        }
+      ],
+      "col": "market reopening 市场复市 · reopening of the border 边境重新开放 · gradual reopening 逐步重启 · post-holiday reopening 节后复市",
+      "ex": "The gradual reopening of cross-border travel lifted bookings for the Canton Fair service desks.",
+      "exZh": "跨境出行逐步重启，带动广交会服务台预订量上升。",
+      "ex2": "Staff prepared for the reopening of the exhibition hall after a two-day renovation.",
+      "ex2Zh": "员工为展馆装修两天后的重新开放做准备。",
+      "t": "商业线：广州国际医疗服务为广交会护航，随着跨境往来逐步 reopening，海外采购商回流，订单之外的医疗、住宿等配套需求同步升温。\n记忆点：reopening 与 shutdown 相对，前者是“门重新打开”，常出现在复市、复航、复展的新闻里。",
+      "root": "前缀 re-(再、重新，拉丁，同源 return/rebuild) + 词根 open(打开，古英语 open，同源 openly) + 后缀 -ing(名词化) → 再次打开 → 重新开放、重启。",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "recruitment",
+      "ph": "/rɪˈkruːtmənt/",
+      "m": "(n.)招聘；招募",
+      "c": "work",
+      "pos": "n.",
+      "en": "the process of finding and hiring new employees; the act of enlisting people",
+      "defs": [
+        {
+          "cn": "招聘",
+          "en": "the process of hiring new staff",
+          "pos": "n."
+        },
+        {
+          "cn": "招募",
+          "en": "enlisting people for an organization or cause",
+          "pos": "n."
+        },
+        {
+          "cn": "招新活动",
+          "en": "an organized effort to attract new members",
+          "pos": "n."
+        }
+      ],
+      "col": "recruitment drive 招聘活动 · campus recruitment 校园招聘 · recruitment agency 猎头机构 · talent recruitment 人才招募",
+      "ex": "The expo's medical service team launched a recruitment push for bilingual guides.",
+      "exZh": "博览会医疗服务团队启动双语引导员招聘。",
+      "ex2": "Campus recruitment for next year's graduates opened earlier than usual this autumn.",
+      "ex2Zh": "明年毕业生的校园招聘今年秋季提前启动。",
+      "t": "职场线：广交会带动广州国际医疗服务扩容，双语医护与现场协调岗位的 recruitment 明显提速，会展、酒店、翻译等配套行业同步招人。\n易混提醒：recruitment 是“招人过程”，staffing 偏“人员配置”，onboarding 是“入职融入”，三步连成人才链条。",
+      "root": "前缀 re-(再，拉丁，同源 return) + 词根 cruit(=cresc 生长，拉丁 crescere，同源 increase/recruit) + 后缀 -ment(名词化，拉丁 -mentum) → 使队伍再生长 → 招募新成员。",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "authentic",
+      "ph": "/ɔːˈθentɪk/",
+      "m": "(adj.)真实的；正宗的；可信的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "genuine and real rather than copied; reliable and trustworthy, in business and daily contexts",
+      "defs": [
+        {
+          "cn": "真实的",
+          "en": "real and not a copy or fake",
+          "pos": "adj."
+        },
+        {
+          "cn": "正宗的",
+          "en": "made in the traditional or original way",
+          "pos": "adj."
+        },
+        {
+          "cn": "可信的",
+          "en": "reliable and worthy of trust",
+          "pos": "adj."
+        }
+      ],
+      "col": "authentic brand 可信品牌 · authentic experience 真实体验 · authentic flavour 正宗风味 · authentic leadership 真诚领导力",
+      "ex": "Brands now fight fake AI endorsements by proving their content is authentic.",
+      "exZh": "品牌如今通过证明内容真实，来对抗 AI 仿冒带货。",
+      "ex2": "The café markets its beans as an authentic single-origin product from Yunnan.",
+      "ex2Zh": "咖啡馆把自家豆子宣传为正宗云南单一产地产品。",
+      "t": "职场与商业线：AI 仿冒带货被永久封禁后，平台与品牌都在强调 authentic 内容与真实授权，可信度正成为流量之外的新竞争力。\n对照记忆：authentic 真实 ↔ artificial 人造，二者常成对出现，一个讲“来路正”，一个讲“做出来”。",
+      "root": "词根 authent(=aut 自身，希腊 authentes 原作者，同源 author/authority) + 后缀 -ic(形容词化，希腊 -ikos) → 出自本人之手的 → 真实可信的、正宗的。",
+      "d": "2026-10-19"
+    },
+    {
+      "w": "regulation",
+      "ph": "/ˌreɡjuˈleɪʃn/",
+      "m": "(n.) 监管；规章；调节",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official rule; the act of controlling an activity by rules, esp. in finance and business",
+      "defs": [
+        {
+          "cn": "监管",
+          "en": "official control over an industry or activity",
+          "pos": "n."
+        },
+        {
+          "cn": "规章条例",
+          "en": "a rule or set of rules issued by an authority",
+          "pos": "n."
+        },
+        {
+          "cn": "调节",
+          "en": "the adjustment of a system to keep it stable",
+          "pos": "n."
+        }
+      ],
+      "col": "financial regulation 金融监管 · tighten regulation 收紧监管 · breach a regulation 违反规章 · regulation compliance 合规监管",
+      "ex": "Beijing's tightening regulation of AI-generated marketing content is forcing platforms to review livestream accounts faster.",
+      "exZh": "北京对AI生成营销内容的监管收紧，正迫使平台加快审核直播账号。",
+      "ex2": "New workplace safety regulation requires every warehouse to file an annual risk report.",
+      "ex2Zh": "新的工作场所安全规章要求每个仓库提交年度风险报告。",
+      "t": "微信视频号今日回应\"演员吴越怒斥AI仿冒带货\"，涉事账号已被永久封禁、内容清空，背后正是平台在 regulation 压力下的快速处置。\n和 supervision 相比，regulation 更强调\"成文的规则\"：regulator 出 regulation，企业做 compliance，三者是一套链条。",
+      "root": "词根 reg-(统治、规则，拉丁 rex/regis，同源 regal 王室的、regime 制度) + 后缀 -ul- + -ation(名词化) → 按规则统治 → 规章、监管",
+      "t2": "",
+      "d": "2026-10-19"
     }
   ],
   "preview": {
-    "hook": "2026年10月，多家猎头[headhunt|headhunt]机构披露，某跨国车企在华高管招聘中要求候选人具备电动车三电系统的专业精通[proficiency|proficiency]，并以税收[exemption|exemption]豁免作为薪酬谈判筹码；与此同时，公司[spokesperson|spokesperson]发言人确认，因应市场对高端车型的需求[appetite|appetite][appetite|appetite]持续走弱，将把更多资源投向强调精湛[craftsmanship|craftsmanship]工艺的限量产品线，而竞争对手同类车型的[proliferation|proliferation]激增正迫使价格战进一步升级升级。 随着双方在边境问题上的摩擦不断[升级|escalate]，原本脆弱的停火协议正面临严峻考验。",
+    "hook": "随着国庆假期后消费场景逐步[reopening|reopening]，多家平台加码[livestream|livestream]电商与本地生活业务，试图以更[authentic|authentic]用户评价和内容生态提升商家[profitability|profitability]；与此同时，制造业进入季节性[restocking|restocking]阶段，部分企业为备战年末旺季启动新一轮[recruitment|recruitment]，但在平台算法与商家[autonomy|autonomy]之间如何平衡、以及针对[livestream|livestream]的[regulation|regulation]细则何时落地，仍是市场关注焦点。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-19",
+  "updated_on": "2026-10-20",
   "quote": {
-    "en": "Learn one new skill today; it will pay you back for years.",
-    "zh": "今天多学一项新技能，它将回报你许多年。"
+    "en": "Steady hands steer through rough waters better than hurried ones.",
+    "zh": "沉稳的手，比匆忙的手更能穿越风浪。"
   },
   "story": {
-    "en": "Guangzhou's 2026 coffee industry dialogue salon spotlighted how roasters are turning to [livestream|livestream] sales to reach buyers beyond the expo floor, while Huatai Securities advised A-share investors to watch sectors where third-quarter earnings accelerate, a cue on [profitability|profitability]. The same week, the Canton Fair's international medical service desk drew attention as a [reopening|reopening] window for cross-border visitors, and Shanghai's culture and tourism chief Zhao Yong pledged to build the China Shanghai International Arts Festival into a world-class IP. In tech, Musk said the new Tesla Roadster can perform stunts [autonomy|autonomy] and that a ring track will rise at the Texas headquarters. WeChat Channels permanently banned an account over AI impersonation of actress Wu Yue, citing judicial and legal action, a reminder that platform [regulation|regulation] is tightening. Analysts framing the salon's [restocking|restocking] cycle and fair organizers' [recruitment|recruitment] of overseas exhibitors stressed that only [authentic|authentic] origin stories win repeat orders. With the fourth quarter ahead, traders will watch whether earnings momentum holds.",
-    "cn": "在缺乏实时新闻的平淡市况下，分析师正关注消费板块的渐进复苏。某大型电商平台最新的[直播|livestream]促销活动凸显需求韧性，但商家仍希望获得更大的定价与库存[自主权、自治|autonomy]。供应链数据显示，零售商为年末需求谨慎[补库存|restocking]，而[盈利能力|profitability]仍受成本上升挤压。多个区域购物区[重新开放|reopening]带动零售与物流[招聘|recruitment]，企业强调正宗货源以建立信任。[监管|regulation]机构持续完善线上商业监管，力求平衡创新与消费者保护。展望未来，市场参与者预期政策明朗与需求稳定将引导未来数季的投资决策。"
+    "en": "China's third-quarter GDP grew 4.6% year on year, while September data on 70 cities showed a strengthening stabilization in [housing|housing]. [policymaker|policymaker] in Beijing face a delicate task: how to [supervise|supervise] a property recovery without letting [leverage|leverage] build up again. The CSRC chair, Wu Qing, outlined priorities for the capital market—stabilizing the market, reform, strict oversight, and opening up—signaling that regulators will continue to supervise financial risks closely. Meanwhile, rapid [urbanization|urbanization] continues to reshape demand for housing and infrastructure, and a policymaker interviewed by Xinhua stressed that policies must adapt to local conditions to promote high-quality development. Geopolitical tensions [escalate|escalate] as Russian drone strikes on Kharkov kill six and wound 14, according to Zelensky, while US Senator Rubio said ending the Russia-Ukraine conflict is a priority for Washington. Markets remain [volatile|volatile], with ICBC shares hitting a record high of 8.63 yuan and a total market value above 3.07 trillion yuan. Supply-chain [disruption|disruption] is also a concern after China imposed export controls on tunnel boring machines, raising worries in India about infrastructure projects. Looking ahead, investors will watch whether policymakers can balance growth support with financial stability as external risks continue to escalate.",
+    "cn": "本周全球市场进入[剧烈波动的|volatile]阶段，投资者一边消化通胀降温迹象，一边担忧增长不均衡。多国监管机构继续加强对银行放贷的[监督|supervise]，主要经济体的[政策制定者|policymaker]会议则聚焦于如何在避免重新推高物价压力的前提下放缓紧缩节奏。\n\n在房地产领域，[住房、住宅供给|housing]可负担性仍是核心议题；新兴经济体的快速[城市化|urbanization]使新建住房需求保持高位，即便融资成本依然偏高。分析人士提醒，部分行业的企业[杠杆|leverage]有所上升，一旦借贷环境再度收紧，相关企业将面临风险。\n\n航运与半导体领域的供应链[中断、扰乱|disruption]已有所缓解，但贸易摩擦若再度升级，这一进展可能逆转。展望未来，官员表示首要任务是兼顾稳定与增长，并预计未来数月的数据将为下一轮决策提供依据。"
   },
   "words": [
     {
@@ -14956,10 +14956,200 @@
       "root": "词根 reg-(统治、规则，拉丁 rex/regis，同源 regal 王室的、regime 制度) + 后缀 -ul- + -ation(名词化) → 按规则统治 → 规章、监管",
       "t2": "",
       "d": "2026-10-19"
+    },
+    {
+      "w": "supervise",
+      "ph": "/ˈsuːpəvaɪz/",
+      "m": "监督；监管；指导",
+      "c": "work",
+      "pos": "v.",
+      "en": "to watch over and direct people or work, ensuring rules are followed, in workplace and regulatory contexts",
+      "defs": [
+        {
+          "cn": "监督；监管",
+          "en": "to oversee work and ensure rules are followed",
+          "pos": "v."
+        },
+        {
+          "cn": "指导；管理",
+          "en": "to direct the work of a person or team",
+          "pos": "v."
+        },
+        {
+          "cn": "监视",
+          "en": "to keep watch over an activity or place",
+          "pos": "v."
+        }
+      ],
+      "col": "supervise a team 管理团队 · supervise trading 监管交易 · closely supervised 受到严密监督 · supervise staff 监督员工",
+      "ex": "Regulators will supervise the new capital-market reforms more closely, the securities chief said.",
+      "exZh": "证券监管部门负责人表示，将对新的资本市场改革实施更严密的监督。",
+      "ex2": "New hires are supervised by a senior colleague for the first three months.",
+      "ex2Zh": "新员工头三个月由资深同事指导。",
+      "t": "证监会负责人给资本市场划重点：稳市、改革、严监管、扩开放，意味着监管层要更细致地 supervise 交易与信息披露。\n职场高频：supervise 强调\"盯着并指导\"，oversee 更偏宏观把关，manage 则重日常安排。",
+      "root": "前缀 super-(在上、超过, 拉丁, 同源 superior/supreme) + 词根 vis(看, 拉丁 videre, 同源 vision/visible) → 从上方看 → 监督、指导",
+      "d": "2026-10-20"
+    },
+    {
+      "w": "urbanization",
+      "ph": "/ˌɜːbənaɪˈzeɪʃn/",
+      "m": "(n.)城市化；都市化",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the process by which towns and cities grow as populations move from rural areas",
+      "defs": [
+        {
+          "cn": "城市化",
+          "en": "the growth of cities as people move from the countryside",
+          "pos": "n."
+        },
+        {
+          "cn": "都市化",
+          "en": "the spread of urban lifestyles and infrastructure",
+          "pos": "n."
+        },
+        {
+          "cn": "城镇化进程",
+          "en": "the ongoing shift toward urban settlement patterns",
+          "pos": "n."
+        }
+      ],
+      "col": "rapid urbanization 快速城市化 · urbanization rate 城市化率 · urban renewal 城市更新 · urban planning 城市规划",
+      "ex": "Housing data from 70 cities showed a firmer market as urbanization keeps feeding long-term demand.",
+      "exZh": "70城房价数据显示楼市回稳态势增强，城市化持续支撑长期需求。",
+      "ex2": "Rapid urbanization in the region has strained transport networks and public services.",
+      "ex2Zh": "该地区快速城市化让交通网络和公共服务承压。",
+      "t": "9月70城房价数据显示楼市回稳态势增强，在 urbanization 持续推进的背景下，城市住房需求仍是政策关注点。\n记法：urban(城市的) + -ization(化)，与 rural 相对，城市化的另一面是乡村人口外流。",
+      "root": "词根 urb-(城市，拉丁 urbs，同源 urban 城市的、suburb 郊区) + 后缀 -an(形容词) + -ization(化，拉丁 -izare) → 使变成城市 → 城市化",
+      "t2": "",
+      "t3": "",
+      "d": "2026-10-20"
+    },
+    {
+      "w": "policymaker",
+      "ph": "/ˈpɒləsimeɪkə/",
+      "m": "(n.)政策制定者",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a person or body responsible for deciding official policy, esp. in government or central banks",
+      "defs": [
+        {
+          "cn": "政策制定者",
+          "en": "a person or body that decides official policy",
+          "pos": "n."
+        },
+        {
+          "cn": "决策层",
+          "en": "the group at the top that sets rules and direction",
+          "pos": "n."
+        },
+        {
+          "cn": "央行官员",
+          "en": "a central-bank official who sets monetary policy",
+          "pos": "n."
+        }
+      ],
+      "col": "central-bank policymaker 央行政策制定者 · senior policymaker 高级决策者 · policymakers' stance 决策层立场 · meet policymakers 会见决策者",
+      "ex": "Policymakers stressed stable markets, deeper reform and stricter supervision.",
+      "exZh": "政策制定者强调稳市、深化改革与从严监管。",
+      "ex2": "Junior staff rarely see how policymakers weigh trade-offs behind closed doors.",
+      "ex2Zh": "基层员工很少看到决策者闭门权衡取舍的过程。",
+      "t": "吴清给资本市场划重点：稳市、改革、严监管、扩开放，政策制定者要为中长期资金入市铺路。\n记忆法：policy(政策) + maker(制造者) = 造政策的人；与 regulator 相比，policymaker 更强调『定方向』，regulator 更强调『执行监督』。",
+      "root": "词根 polic-(城邦治理，希腊 polis 城邦，同源 police 警察、metropolis 大都市) + 词根 mak-(做，古英语 macian，同源 make 制造) + 后缀 -er(人) → 制定城邦规则的人 → 政策制定者",
+      "d": "2026-10-20"
+    },
+    {
+      "w": "housing",
+      "ph": "/ˈhaʊzɪŋ/",
+      "m": "(n.)住房、住宅供给",
+      "c": "econ",
+      "pos": "n.",
+      "en": "houses and flats as a supply or market; the provision of shelter, in economic contexts",
+      "defs": [
+        {
+          "cn": "住房",
+          "en": "houses and flats considered as accommodation",
+          "pos": "n."
+        },
+        {
+          "cn": "住宅供给",
+          "en": "the supply of homes available in a market",
+          "pos": "n."
+        },
+        {
+          "cn": "外壳、护罩",
+          "en": "a protective cover for a machine or part",
+          "pos": "n."
+        }
+      ],
+      "col": "housing market 楼市 · housing prices 房价 · affordable housing 保障性住房 · housing supply 住房供给",
+      "ex": "September housing data for 70 cities showed the market stabilising further.",
+      "exZh": "9月70城房价数据显示楼市进一步回稳。",
+      "ex2": "The plant's motor housing cracked and had to be replaced overnight.",
+      "ex2Zh": "工厂电机外壳开裂，必须连夜更换。",
+      "t": "9月70城房价数据显示楼市回稳态势增强，住房市场从『止跌』走向『企稳』仍需时间。\n对比记忆：housing 指整体住房供给与市场，home 指具体的家；谈数据用 housing，谈情感用 home。",
+      "root": "词根 hous-(房屋，古英语 hūs，同源 house 房子、husband 原义『家主』) + 后缀 -ing(名词化) → 房屋之集合 → 住房、住宅供给",
+      "d": "2026-10-20"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-20",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-20",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-20",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-20",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
     }
   ],
   "preview": {
-    "hook": "随着国庆假期后消费场景逐步[reopening|reopening]，多家平台加码[livestream|livestream]电商与本地生活业务，试图以更[authentic|authentic]用户评价和内容生态提升商家[profitability|profitability]；与此同时，制造业进入季节性[restocking|restocking]阶段，部分企业为备战年末旺季启动新一轮[recruitment|recruitment]，但在平台算法与商家[autonomy|autonomy]之间如何平衡、以及针对[livestream|livestream]的[regulation|regulation]细则何时落地，仍是市场关注焦点。",
+    "hook": "随着[policymaker|policymaker]在最新会议上承认，快速[urbanization|urbanization]进程与[housing|housing]供给之间的错配正在加剧，市场对监管缺位的担忧迅速升温，部分城市房价出现剧烈波动迹象，[leverage|leverage]资金在局部板块的集中进出更令风险担忧升级，而数据披露环节的[disruption|disruption]进一步放大了不确定性。 在[监督|supervise]市场交易的过程中，监管者发现价格因情绪波动而[剧烈波动|volatile]，于是迅速采取措施，防止风险进一步[升级|escalate]。",
     "impact": ""
   }
 }

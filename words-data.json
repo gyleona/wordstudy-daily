@@ -1,12 +1,13 @@
 {
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-21",
   "quote": {
-    "en": "Steady hands steer through rough waters better than hurried ones.",
-    "zh": "沉稳的手，比匆忙的手更能穿越风浪。"
+    "en": "Steady skills outlast any sudden shift in the market.",
+    "zh": "扎实的技能，总能比市场的突变走得更远。"
   },
   "story": {
-    "en": "China's third-quarter GDP grew 4.6% year on year, while September data on 70 cities showed a strengthening stabilization in [housing|housing]. [policymaker|policymaker] in Beijing face a delicate task: how to [supervise|supervise] a property recovery without letting [leverage|leverage] build up again. The CSRC chair, Wu Qing, outlined priorities for the capital market—stabilizing the market, reform, strict oversight, and opening up—signaling that regulators will continue to supervise financial risks closely. Meanwhile, rapid [urbanization|urbanization] continues to reshape demand for housing and infrastructure, and a policymaker interviewed by Xinhua stressed that policies must adapt to local conditions to promote high-quality development. Geopolitical tensions [escalate|escalate] as Russian drone strikes on Kharkov kill six and wound 14, according to Zelensky, while US Senator Rubio said ending the Russia-Ukraine conflict is a priority for Washington. Markets remain [volatile|volatile], with ICBC shares hitting a record high of 8.63 yuan and a total market value above 3.07 trillion yuan. Supply-chain [disruption|disruption] is also a concern after China imposed export controls on tunnel boring machines, raising worries in India about infrastructure projects. Looking ahead, investors will watch whether policymakers can balance growth support with financial stability as external risks continue to escalate.",
-    "cn": "本周全球市场进入[剧烈波动的|volatile]阶段，投资者一边消化通胀降温迹象，一边担忧增长不均衡。多国监管机构继续加强对银行放贷的[监督|supervise]，主要经济体的[政策制定者|policymaker]会议则聚焦于如何在避免重新推高物价压力的前提下放缓紧缩节奏。\n\n在房地产领域，[住房、住宅供给|housing]可负担性仍是核心议题；新兴经济体的快速[城市化|urbanization]使新建住房需求保持高位，即便融资成本依然偏高。分析人士提醒，部分行业的企业[杠杆|leverage]有所上升，一旦借贷环境再度收紧，相关企业将面临风险。\n\n航运与半导体领域的供应链[中断、扰乱|disruption]已有所缓解，但贸易摩擦若再度升级，这一进展可能逆转。展望未来，官员表示首要任务是兼顾稳定与增长，并预计未来数月的数据将为下一轮决策提供依据。"
+    "en": "Global markets turned [volatile|volatile] as investors weighed a possible SpaceX (SPCX.US) and Tesla (TSLA.US) merger exploration alongside mixed US indices and a drop in international oil prices on October 20. In Beijing, Vice Premier Ding Xuexiang attended the founding meeting of China Data Group Co., Ltd. in Xiong'an New Area, a [megaproject|megaproject] meant to consolidate national data resources. The National Development and Reform Commission pledged to amplify macro-policy synergies for a good start to the 15th Five-Year Plan, aiming to [quantify|quantify] policy outcomes and avoid economic [disruption|disruption]. Meanwhile, President Trump said he is willing to meet Putin and Xi in Shenzhen to focus on denuclearization, a diplomatic opening that could [escalate|escalate] or ease tensions. Analysts warn that any push to [privatize|privatize] state data assets must manage staff [attrition|attrition] carefully. Companies are urged to [leverage|leverage] data reforms for growth while monitoring risks.",
+    "cn": "全球市场本周情绪谨慎，投资者正重新评估产业政策与劳动力成本信号。在欧洲，围绕将国有铁路资产[使私有化|privatize]（私有化）的讨论升温，工会警告人员[人员自然流失|attrition]（自然流失）可能快于招聘补充，进而影响服务质量。与此同时，一个连接区域电网的跨境[特大工程、巨型项目|megaproject]（特大工程）进入融资阶段，但审计机构提醒，规划方尚无法完整[量化|quantify]（量化）全生命周期成本。\n\n贸易摩擦围绕补贴规则持续[（冲突）升级|escalate]（升级），令汇率与大宗商品价格进入更[剧烈波动的|volatile]（剧烈波动）的区间。基金经理表示正在降低[杠杆|leverage]（杠杆）并增持现金，担心任何供应链[中断、扰乱|disruption]（中断）都可能迅速传导至消费价格。\n\n监管机构预计未来数周发布更新指引，市场将关注融资环境能否在年底前趋稳，以及企业与公共部门如何在成本压力下平衡投资节奏。",
+    "cnNote": ""
   },
   "words": [
     {
@@ -15146,10 +15147,198 @@
       "pos": "n.",
       "en": "disturbance or interruption to a system or process",
       "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "privatize",
+      "ph": "/ˈpraɪvətaɪz/",
+      "m": "(v.)使私有化；民营化",
+      "c": "econ",
+      "pos": "v.",
+      "en": "To transfer ownership of a state-owned company or service to private individuals or firms.",
+      "defs": [
+        {
+          "cn": "使私有化",
+          "en": "to sell state assets to private owners",
+          "pos": "v."
+        },
+        {
+          "cn": "民营化",
+          "en": "to shift a service from public to private control",
+          "pos": "v."
+        },
+        {
+          "cn": "(引申)个人化",
+          "en": "to make something private or personal in nature",
+          "pos": "v."
+        }
+      ],
+      "col": "privatize state assets 国有资产私有化 · fully privatized 完全私有化 · plan to privatize 计划私有化 · privatize a utility 公用事业私有化",
+      "ex": "The government denied plans to privatize the national data group after its launch in Xiong'an.",
+      "exZh": "政府否认了在雄安成立国家数据集团后将其私有化的计划。",
+      "ex2": "Some economists argue that privatizing loss-making utilities could improve efficiency.",
+      "ex2Zh": "一些经济学家认为，将亏损的公用事业私有化或能提升效率。",
+      "t": "丁薛祥出席国家数据集团有限公司成立大会，官方明确其为央企序列，与'privatize'恰好相反——这是把数据要素进一步集中到国有平台。\n构词对照：private 私人的 ↔ public 公共的；privatize 私有化 ↔ nationalize 国有化，成对记忆最牢。",
+      "root": "词根 priv(个人的、私有的，拉丁，同源 private 私人的、privacy 隐私) + 后缀 -ize(使…化，希腊-拉丁) → 使归私人所有 → 私有化",
+      "d": "2026-10-21"
+    },
+    {
+      "w": "attrition",
+      "ph": "/əˈtrɪʃn/",
+      "m": "(n.)人员自然流失；消耗",
+      "c": "work",
+      "pos": "n.",
+      "en": "A gradual reduction in staff through resignation or retirement rather than layoffs; also steady wearing down.",
+      "defs": [
+        {
+          "cn": "人员自然流失",
+          "en": "gradual staff loss without formal layoffs",
+          "pos": "n."
+        },
+        {
+          "cn": "消耗；磨损",
+          "en": "the process of gradually weakening or wearing down",
+          "pos": "n."
+        },
+        {
+          "cn": "(竞争) attrition",
+          "en": "a strategy of wearing down a rival over time",
+          "pos": "n."
+        }
+      ],
+      "col": "natural attrition 自然减员 · high attrition rate 高流失率 · manage by attrition 靠自然流失减员 · attrition strategy 消耗策略",
+      "ex": "Rather than cutting jobs outright, the bank plans to reduce headcount through natural attrition.",
+      "exZh": "该银行不打算直接裁员，而是计划通过自然减员来压缩人数。",
+      "ex2": "High attrition among junior engineers is pushing firms to rethink retention packages.",
+      "ex2Zh": "初级工程师的高流失率正迫使企业重新考虑留人方案。",
+      "t": "在合并传闻与成本压力下，不少跨国企业选择'不裁员、靠 attrition'的软着陆路径：岗位空出不再补人，团队规模一年内悄悄缩水。\n对比记忆：attrition 是'慢慢磨掉'，layoff 是'一刀切'；职场里说 high attrition，往往比 turnover 更强调被动流失。",
+      "root": "前缀 at-(=ad 朝向，拉丁) + 词根 trit(摩擦，拉丁，同源 trite 陈腐的、detriment 损害) → 不断摩擦 → 逐渐磨损、人员自然流失",
+      "d": "2026-10-21"
+    },
+    {
+      "w": "megaproject",
+      "ph": "/ˈmeɡəprɒdʒekt/",
+      "m": "(n.)特大工程、巨型项目",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a very large, costly infrastructure or development undertaking",
+      "defs": [
+        {
+          "cn": "特大工程",
+          "en": "a huge infrastructure undertaking",
+          "pos": "n."
+        },
+        {
+          "cn": "巨型项目",
+          "en": "an oversized, high-budget project",
+          "pos": "n."
+        },
+        {
+          "cn": "超级工程",
+          "en": "a landmark public works scheme",
+          "pos": "n."
+        }
+      ],
+      "col": "launch a megaproject 启动特大工程 · megaproject budget 巨型项目预算 · megaproject delays 特大工程延期 · fund a megaproject 为特大工程融资",
+      "ex": "The new data group in Xiong'an is being framed as a digital megaproject rather than a single company.",
+      "exZh": "雄安的新数据集团被定位为数字特大工程，而非单一公司。",
+      "ex2": "Every megaproject promises jobs first and delivers overruns later.",
+      "ex2Zh": "每个特大工程都先承诺就业，随后交付超支。",
+      "t": "丁薛祥在雄安出席国家数据集团成立大会并调研，草原云谷培育智算热土，算力与数据正被当成国家级 megaproject 来推进，投资节奏与地方配套同步加压。\n记忆点：mega 是『百万、巨大』，project 是『向前抛出』；两词一拼，就是预算与工期都向前抛得很远的工程。",
+      "root": "前缀 mega-(巨大，希腊 megas，同源 megaphone 扩音器、megabyte 兆字节) + 词根 ject(投、掷，拉丁 jacere，同源 project 项目、reject 拒绝) → 大规模向前投出的计划 → 特大工程",
+      "d": "2026-10-21"
+    },
+    {
+      "w": "quantify",
+      "ph": "/ˈkwɒntɪfaɪ/",
+      "m": "(v.)量化；确定数量",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to measure or express something as a number or amount",
+      "defs": [
+        {
+          "cn": "量化",
+          "en": "to express or measure something numerically",
+          "pos": "v."
+        },
+        {
+          "cn": "确定数量",
+          "en": "to determine how much of something exists",
+          "pos": "v."
+        },
+        {
+          "cn": "用数量表示",
+          "en": "to state an idea in measurable terms",
+          "pos": "v."
+        }
+      ],
+      "col": "quantify the impact 量化影响 · hard to quantify 难以量化 · quantify risk 量化风险 · quantify gains 量化收益",
+      "ex": "Analysts struggled to quantify the impact of the new data group on listed tech firms.",
+      "exZh": "分析师难以量化新数据集团对上市科技公司的影响。",
+      "ex2": "Before pitching, quantify how many hours the tool saves each week.",
+      "ex2Zh": "提案之前，先量化这个工具每周能省多少小时。",
+      "t": "国家数据集团有限公司在雄安成立，数据要素如何定价、如何入表，监管与市场都在尝试 quantify 其真实价值，这也是\"十五五\"开局的关键课题。\n职场提示：quantify 是汇报高频词——quantify the savings(把节省量化)，比说 a lot of savings 更专业；名词形式 quantification 常见于研究语境。",
+      "root": "词根 quant(=多少, 拉丁 quantus, 同源 quantity 数量、quantum 量子) + 后缀 -ify(使……化, 拉丁 facere, 同源 modify 修改) → 使成为可计的量 → 量化",
+      "d": "2026-10-21"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-21",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-21",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-21",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-21",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
     }
   ],
   "preview": {
-    "hook": "随着[policymaker|policymaker]在最新会议上承认，快速[urbanization|urbanization]进程与[housing|housing]供给之间的错配正在加剧，市场对监管缺位的担忧迅速升温，部分城市房价出现剧烈波动迹象，[leverage|leverage]资金在局部板块的集中进出更令风险担忧升级，而数据披露环节的[disruption|disruption]进一步放大了不确定性。 在[监督|supervise]市场交易的过程中，监管者发现价格因情绪波动而[剧烈波动|volatile]，于是迅速采取措施，防止风险进一步[升级|escalate]。",
+    "hook": "英国政府宣布将把陷入财务困境的泰晤士水务公司部分私有化，此举正值该行业面临[attrition|attrition]加剧与[megaproject|megaproject]（如泰晤士潮汐隧道）成本失控的双重压力；监管机构首次尝试[quantify|quantify]这些项目对水费账单的长期影响，而反对党警告若谈判破裂、劳资冲突升级，本就[volatile|volatile]公用事业债券市场将再遭冲击，投资者也在重新评估高[leverage|leverage]水务公司的风险敞口。 政府计划将亏损的国企[私有化|privatize]，但工会警告这可能激化矛盾并引发罢工，进而造成严重的供应链[中断|disruption]，因此各方呼吁通过对话避免局势进一步[升级|escalate]。",
     "impact": ""
   }
 }

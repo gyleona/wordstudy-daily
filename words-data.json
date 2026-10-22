@@ -1,13 +1,12 @@
 {
-  "updated_on": "2026-10-21",
+  "updated_on": "2026-10-22",
   "quote": {
-    "en": "Steady skills outlast any sudden shift in the market.",
-    "zh": "扎实的技能，总能比市场的突变走得更远。"
+    "en": "Steady hands learn the market before they chase its noise.",
+    "zh": "稳健的人先学会看懂市场，再去追逐喧嚣。"
   },
   "story": {
-    "en": "Global markets turned [volatile|volatile] as investors weighed a possible SpaceX (SPCX.US) and Tesla (TSLA.US) merger exploration alongside mixed US indices and a drop in international oil prices on October 20. In Beijing, Vice Premier Ding Xuexiang attended the founding meeting of China Data Group Co., Ltd. in Xiong'an New Area, a [megaproject|megaproject] meant to consolidate national data resources. The National Development and Reform Commission pledged to amplify macro-policy synergies for a good start to the 15th Five-Year Plan, aiming to [quantify|quantify] policy outcomes and avoid economic [disruption|disruption]. Meanwhile, President Trump said he is willing to meet Putin and Xi in Shenzhen to focus on denuclearization, a diplomatic opening that could [escalate|escalate] or ease tensions. Analysts warn that any push to [privatize|privatize] state data assets must manage staff [attrition|attrition] carefully. Companies are urged to [leverage|leverage] data reforms for growth while monitoring risks.",
-    "cn": "全球市场本周情绪谨慎，投资者正重新评估产业政策与劳动力成本信号。在欧洲，围绕将国有铁路资产[使私有化|privatize]（私有化）的讨论升温，工会警告人员[人员自然流失|attrition]（自然流失）可能快于招聘补充，进而影响服务质量。与此同时，一个连接区域电网的跨境[特大工程、巨型项目|megaproject]（特大工程）进入融资阶段，但审计机构提醒，规划方尚无法完整[量化|quantify]（量化）全生命周期成本。\n\n贸易摩擦围绕补贴规则持续[（冲突）升级|escalate]（升级），令汇率与大宗商品价格进入更[剧烈波动的|volatile]（剧烈波动）的区间。基金经理表示正在降低[杠杆|leverage]（杠杆）并增持现金，担心任何供应链[中断、扰乱|disruption]（中断）都可能迅速传导至消费价格。\n\n监管机构预计未来数周发布更新指引，市场将关注融资环境能否在年底前趋稳，以及企业与公共部门如何在成本压力下平衡投资节奏。",
-    "cnNote": ""
+    "en": "Diplomatic and security signals diverged sharply Thursday. Russia's presidential aide said Moscow in principle agrees to restart trilateral Russia-US-Ukraine talks next month, while Ukraine's Zelensky endorsed a \"freeze the status quo\" formula to open negotiations—a fragile opening as the conflict continues to [escalate|escalate]. In the Middle East, dozens of Israeli warplanes reportedly approached Iran's border, explosions were heard in southern Iran's Sirik county, and Washington widened sanctions on entities tied to Iranian commodity shipping while planning partial embassy drawdowns. Markets stayed [volatile|volatile]: strong AI-driven quarterly results lifted US stocks at the open, with SpaceX up 10% and Nvidia about 2%, and oil prices rose again after mixed trading on the 21st. China's national carbon market cumulative quota turnover topped 1 billion tonnes, and the [expand|expand] scale is pushing industrial green transition, though analysts warn that without tighter [greenhouse|greenhouse] gas accounting, [credibility|credibility] of offsets could suffer. CATL's 56% revenue growth against 14% net-profit growth and a halved share price show that scaling battery capacity is not always [profitable|profitable]. Extreme rainfall in northern China is rising, and the emergency management ministry urged higher defense standards. The lesson for investors: excessive [leverage|leverage] amplifies [disruption|disruption] when headlines turn, so watch negotiation signals and carbon-market rules before adding risk.",
+    "cn": "全球市场正进入一个更加[剧烈波动的|volatile]阶段，能源价格与贸易摩擦令投资者保持谨慎。欧洲公用事业企业计划[扩大、扩张|expand]可再生能源装机，同时削减[温室|greenhouse]气体排放，但融资成本上升使部分项目不如预期那样有利可图。\n\n在亚洲，航运延误与供应链[中断、扰乱|disruption]促使制造商借助缓冲库存并分散供应商。外交人士警告，若谈判停滞，针锋相对的关税可能进一步升级，从而考验多边规则的[信誉|credibility]。\n\n分析人士认为，即将到来的财报季将检验哪些企业能够消化成本冲击并稳住利润率，市场对政策信号与企业指引的敏感度也会明显上升。"
   },
   "words": [
     {
@@ -15335,10 +15334,179 @@
       "pos": "n.",
       "en": "disturbance or interruption to a system or process",
       "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "expand",
+      "ph": "/ɪkˈspænd/",
+      "m": "(v.)扩大、扩张；扩容",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to become larger or make something larger, esp. markets, capacity or business scope",
+      "defs": [
+        {
+          "cn": "扩大、扩张",
+          "en": "to grow in size, scope or volume",
+          "pos": "v."
+        },
+        {
+          "cn": "扩容",
+          "en": "to increase the capacity of a system or market",
+          "pos": "v."
+        },
+        {
+          "cn": "详述",
+          "en": "to give more detail on a point",
+          "pos": "v."
+        }
+      ],
+      "col": "expand capacity 扩大产能 · expand into new markets 进军新市场 · expand coverage 扩大覆盖范围 · expand the scheme 扩大计划范围",
+      "ex": "The national carbon market has traded over one billion tonnes of allowances and is set to expand further.",
+      "exZh": "全国碳市场配额累计成交逾10亿吨，并计划进一步扩容。",
+      "ex2": "The firm will expand its graduate hiring next spring.",
+      "ex2Zh": "该公司明年春季将扩大毕业生招聘规模。",
+      "t": "全国碳市场配额累计成交逾10亿吨，规模扩容推动产业绿色转型，监管层计划继续 expand 覆盖行业，把更多高排放部门纳入。\n形近辨析：expand（扩大）↔ expend（花费）↔ expound（详述），三词只差一两个字母，考试常设陷阱。",
+      "root": "前缀 ex-(向外，拉丁，同源 exit 出口) + 词根 pand(展开，拉丁 pandere，同源 expansive 广阔的) → 向外展开 → 扩大、扩容",
+      "d": "2026-10-22"
+    },
+    {
+      "w": "greenhouse",
+      "ph": "/ˈɡriːnhaʊs/",
+      "m": "(n./adj.)温室；温室气体的",
+      "c": "news",
+      "pos": "n.",
+      "en": "a glass building for growing plants; relating to gases that trap heat in the atmosphere",
+      "defs": [
+        {
+          "cn": "温室",
+          "en": "a glass structure for cultivating plants",
+          "pos": "n."
+        },
+        {
+          "cn": "温室气体的",
+          "en": "relating to gases that trap atmospheric heat",
+          "pos": "adj."
+        },
+        {
+          "cn": "温室效应相关",
+          "en": "connected with the warming effect of such gases",
+          "pos": "adj."
+        }
+      ],
+      "col": "greenhouse gas 温室气体 · greenhouse effect 温室效应 · greenhouse emission 温室排放 · greenhouse farming 温室种植",
+      "ex": "China's national carbon market has traded over one billion tonnes of allowances, a step toward cutting greenhouse emissions.",
+      "exZh": "全国碳市场配额累计成交逾10亿吨，朝着削减温室气体排放迈进一步。",
+      "ex2": "The firm installed greenhouse sensors to track temperature and humidity across its nurseries.",
+      "ex2Zh": "该公司在苗圃安装温室传感器，实时追踪温度与湿度。",
+      "t": "全国碳市场配额累计成交逾10亿吨，规模扩容正推动产业绿色转型，greenhouse 气体减排成为企业披露与融资的新变量。\n搭配记忆：greenhouse gas（温室气体）几乎固定连用，缩写 GHG；与 carbon market、emission allowance 同属气候财经高频词。",
+      "root": "复合词：green(绿色，古英语 grēne，同源 greenery 绿植) + house(房屋，古英语 hūs，同源 household 家庭) → 绿色植物之屋 → 温室；引申指困住热量的“温室气体”",
+      "d": "2026-10-22"
+    },
+    {
+      "w": "profitable",
+      "ph": "/ˈprɒfɪtəbl/",
+      "m": "(adj.)有利可图的；盈利的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "yielding financial gain; producing a benefit or useful result",
+      "defs": [
+        {
+          "cn": "盈利的",
+          "en": "making a financial profit",
+          "pos": "adj."
+        },
+        {
+          "cn": "有利可图的",
+          "en": "worth doing because it brings gain",
+          "pos": "adj."
+        },
+        {
+          "cn": "有益的",
+          "en": "producing a useful outcome",
+          "pos": "adj."
+        }
+      ],
+      "col": "profitable business 盈利业务 · highly profitable 利润丰厚 · profitable growth 有利润的增长 · remain profitable 保持盈利",
+      "ex": "Despite a 56% revenue jump, the battery giant's thin profit growth left investors questioning how profitable its expansion really is.",
+      "exZh": "尽管营收大涨56%，这家电池巨头利润增长乏力，令投资者质疑其扩张究竟有多赚钱。",
+      "ex2": "Turning a hobby into a profitable side business takes patience and discipline.",
+      "ex2Zh": "把爱好变成赚钱的副业需要耐心和自律。",
+      "t": "宁德时代营收涨56%而净利仅增14%，股价腰斩，市场追问规模扩张是否仍 profitable；与此同时，强劲季报提振AI交易，美股开盘走高。\n职场搭配：profitable 常与 growth、segment 连用，写报告说“这条业务线更赚钱”就用 a more profitable segment。",
+      "root": "前缀 pro-(向前，拉丁，同源 progress 进步) + 词根 fit(=fac 做，拉丁 facere，同源 factory 工厂) + 后缀 -able(可…的) → 可做出成效的 → 有利可图、盈利的",
+      "d": "2026-10-22"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-22",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-22",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-22",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-22",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-22",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
     }
   ],
   "preview": {
-    "hook": "英国政府宣布将把陷入财务困境的泰晤士水务公司部分私有化，此举正值该行业面临[attrition|attrition]加剧与[megaproject|megaproject]（如泰晤士潮汐隧道）成本失控的双重压力；监管机构首次尝试[quantify|quantify]这些项目对水费账单的长期影响，而反对党警告若谈判破裂、劳资冲突升级，本就[volatile|volatile]公用事业债券市场将再遭冲击，投资者也在重新评估高[leverage|leverage]水务公司的风险敞口。 政府计划将亏损的国企[私有化|privatize]，但工会警告这可能激化矛盾并引发罢工，进而造成严重的供应链[中断|disruption]，因此各方呼吁通过对话避免局势进一步[升级|escalate]。",
+    "hook": "随着[greenhouse|greenhouse]气体约束趋紧与算力需求井喷，多家科技巨头宣布在中东[expand|expand]数据中心版图，试图把过剩的电力与资本转化为[profitable|profitable]算力出口，但红海航运[disruption|disruption]与地区冲突升级正让供应链成本剧烈波动，分析师警告高[leverage|leverage]扩张一旦遇上能源价格反复，融资方对项目[credibility|credibility]的质疑将迅速放大，投资者需重新评估这场算力竞赛的真实回报。 随着地缘政治紧张局势不断[升级|escalate]，全球能源市场变得愈发[波动不定|volatile]，令投资者倍感不安。",
     "impact": ""
   }
 }

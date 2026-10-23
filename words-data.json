@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-22",
+  "updated_on": "2026-10-23",
   "quote": {
-    "en": "Steady hands learn the market before they chase its noise.",
-    "zh": "稳健的人先学会看懂市场，再去追逐喧嚣。"
+    "en": "Steady learners turn every sudden plunge into a lesson worth keeping.",
+    "zh": "沉稳的学习者，会把每一次骤跌都变成值得留存的功课。"
   },
   "story": {
-    "en": "Diplomatic and security signals diverged sharply Thursday. Russia's presidential aide said Moscow in principle agrees to restart trilateral Russia-US-Ukraine talks next month, while Ukraine's Zelensky endorsed a \"freeze the status quo\" formula to open negotiations—a fragile opening as the conflict continues to [escalate|escalate]. In the Middle East, dozens of Israeli warplanes reportedly approached Iran's border, explosions were heard in southern Iran's Sirik county, and Washington widened sanctions on entities tied to Iranian commodity shipping while planning partial embassy drawdowns. Markets stayed [volatile|volatile]: strong AI-driven quarterly results lifted US stocks at the open, with SpaceX up 10% and Nvidia about 2%, and oil prices rose again after mixed trading on the 21st. China's national carbon market cumulative quota turnover topped 1 billion tonnes, and the [expand|expand] scale is pushing industrial green transition, though analysts warn that without tighter [greenhouse|greenhouse] gas accounting, [credibility|credibility] of offsets could suffer. CATL's 56% revenue growth against 14% net-profit growth and a halved share price show that scaling battery capacity is not always [profitable|profitable]. Extreme rainfall in northern China is rising, and the emergency management ministry urged higher defense standards. The lesson for investors: excessive [leverage|leverage] amplifies [disruption|disruption] when headlines turn, so watch negotiation signals and carbon-market rules before adding risk.",
-    "cn": "全球市场正进入一个更加[剧烈波动的|volatile]阶段，能源价格与贸易摩擦令投资者保持谨慎。欧洲公用事业企业计划[扩大、扩张|expand]可再生能源装机，同时削减[温室|greenhouse]气体排放，但融资成本上升使部分项目不如预期那样有利可图。\n\n在亚洲，航运延误与供应链[中断、扰乱|disruption]促使制造商借助缓冲库存并分散供应商。外交人士警告，若谈判停滞，针锋相对的关税可能进一步升级，从而考验多边规则的[信誉|credibility]。\n\n分析人士认为，即将到来的财报季将检验哪些企业能够消化成本冲击并稳住利润率，市场对政策信号与企业指引的敏感度也会明显上升。"
+    "en": "Oil broke above $110 after a strike on Saudi Arabia while gold slipped below $4,050, a [volatile|volatile] session that left traders [bargaining|bargaining] over thin risk appetite; London stocks fell on October 22. With Washington pressing to restart peace talks, Russia and Ukraine traded attacks, and Moscow said it was willing to resume Russia-US-Ukraine talks in mid-November even as positions show no narrowing, a standoff that could [escalate|escalate] and test any [credibility|credibility] in diplomacy. In France, Macron tightened controls on demonstrations amid social mobilization, a [disruption|disruption] to public life; Typhoon Champi neared Okinawa's Sakishima islands with heavy rain. Markets may [amplify|amplify] such shocks through [leverage|leverage], yet economies remain [resilient|resilient]; investors will watch whether talks resume in mid-November.",
+    "cn": "沙特遇袭推动油价突破110美元，黄金失守4050美元进入“投降阶段”，伦敦股市22日下跌，市场情绪剧烈波动，交易员在清淡的风险偏好中反复讨价还价。在美国推动重启和平[谈判、讨价还价|bargaining]之际，俄乌相互发动攻击；俄方称愿11月中旬重启俄美乌会谈，但各方立场差距未见缩小，僵局可能进一步升级，并考验外交[信誉|credibility]。法国社会动员中，马克龙收紧对示威活动的管制，扰乱公共生活；台风“蔷琵”接近冲绳先岛诸岛，将带来大范围强降雨。\n\n油价与金价的剧烈波动令市场讨价还价更显艰难，伦敦股市承压。俄美乌会谈若在11月中旬重启，任何冲突升级都将直接检验相关方的信誉，而示威管制带来的[中断、扰乱|disruption]也在考验法国社会秩序。\n\n台风“蔷琵”逼近冲绳先岛诸岛，强降雨风险上升；在地缘与天气冲击交织下，市场可能通过[杠杆|leverage][放大、加剧|amplify]波动，但经济基本面仍显现韧性。 面对不断[升级|escalate]的贸易摩擦和[波动|volatile]的市场行情，这家企业凭借稳健的现金流和灵活的策略展现出惊人的[韧性|resilient]。"
   },
   "words": [
     {
@@ -15503,10 +15503,141 @@
       "pos": "n.",
       "en": "the quality of being trusted or believed",
       "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "bargaining",
+      "ph": "/ˈbɑːɡənɪŋ/",
+      "m": "(n.)谈判、讨价还价",
+      "c": "work",
+      "pos": "n.",
+      "en": "discussion aimed at reaching an agreement, esp. over pay or conditions",
+      "defs": [
+        {
+          "cn": "谈判；讨价还价",
+          "en": "negotiation over the terms of a deal or pay",
+          "pos": "n."
+        },
+        {
+          "cn": "筹码；谈判优势",
+          "en": "power or leverage used in negotiations",
+          "pos": "n."
+        },
+        {
+          "cn": "讨价还价的",
+          "en": "relating to haggling over prices or terms",
+          "pos": "adj."
+        }
+      ],
+      "col": "collective bargaining 集体谈判 · bargaining power 议价能力 · bargaining chip 谈判筹码 · wage bargaining 薪资谈判",
+      "ex": "Union leaders entered collective bargaining with a strong mandate from members.",
+      "exZh": "工会领袖带着会员的强力授权进入集体谈判。",
+      "ex2": "In many markets, a rare skill is your best bargaining chip for a higher salary.",
+      "ex2Zh": "在许多市场，稀缺技能是你争取更高薪水的最佳筹码。",
+      "t": "工资与岗位谈判升温的当下，bargaining 不只属于工会：个人谈薪同样靠 bargaining power，即替代选项与稀缺技能。\n搭配记牢：bargaining chip 谈判筹码；与 negotiation 近义，但更强调来回拉扯的过程。",
+      "root": "源自古法语 bargaignier(讨价还价, 同源 barge 驳船，因商船交易) + 后缀 -ing(名词化) → 商人往来议价 → 泛指谈判与议价能力",
+      "d": "2026-10-23"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-23",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-23",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-23",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-23",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-23",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的",
+      "c": "work",
+      "d": "2026-10-23",
+      "ex": "Chip demand proved resilient despite the slowdown.",
+      "exZh": "尽管经济放缓，芯片需求仍展现出韧性。",
+      "t": "AI 芯片需求 resilient，跌了又回。",
+      "root": "前缀 re-(回) + 词根 sili(跳,拉丁 salire) + 后缀 -ent(形容词) → 能弹回的 → 有韧性的",
+      "pos": "adj.",
+      "en": "able to recover quickly from difficulties",
+      "col": "prove resilient · remain resilient · economic resilience"
+    },
+    {
+      "w": "amplify",
+      "ph": "/ˈæmplɪfaɪ/",
+      "m": "放大、加剧",
+      "c": "news",
+      "d": "2026-10-23",
+      "ex": "El Niño amplified the drought across Southeast Asia.",
+      "exZh": "厄尔尼诺加剧了东南亚的干旱。",
+      "t": "厄尔尼诺 amplify 了干旱。",
+      "root": "词根 ampl(大,拉丁 amplus) + 后缀 -fy(使…,源自 facere) → 使变大 → 放大、加剧",
+      "pos": "v.",
+      "en": "to increase in strength, size, or effect",
+      "col": "amplify fears/risks · amplify the impact · amplify demand"
     }
   ],
   "preview": {
-    "hook": "随着[greenhouse|greenhouse]气体约束趋紧与算力需求井喷，多家科技巨头宣布在中东[expand|expand]数据中心版图，试图把过剩的电力与资本转化为[profitable|profitable]算力出口，但红海航运[disruption|disruption]与地区冲突升级正让供应链成本剧烈波动，分析师警告高[leverage|leverage]扩张一旦遇上能源价格反复，融资方对项目[credibility|credibility]的质疑将迅速放大，投资者需重新评估这场算力竞赛的真实回报。 随着地缘政治紧张局势不断[升级|escalate]，全球能源市场变得愈发[波动不定|volatile]，令投资者倍感不安。",
+    "hook": "本周全球市场围绕新一轮贸易[bargaining|bargaining]展开博弈，多国关税威胁再度升级，令本已[volatile|volatile]大宗商品与汇率走势更添变数；企业被迫在[leverage|leverage]高企的资产负债表上重新盘算融资与对冲成本，而供应链的突发[disruption|disruption]又不断考验各国监管机构与央行的[credibility|credibility]，市场参与者正试图判断这轮冲击究竟是短期噪音还是长期转折。 随着贸易摩擦不断[升级|escalate]，这个[有韧性的|resilient]经济体反而借助数字化手段[放大|amplify]了自身的出口优势。",
     "impact": ""
   }
 }

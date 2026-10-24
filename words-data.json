@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-24",
   "quote": {
-    "en": "Steady learners turn every sudden plunge into a lesson worth keeping.",
-    "zh": "沉稳的学习者，会把每一次骤跌都变成值得留存的功课。"
+    "en": "Learn to read the storm before it breaks, and no wave can sink you.",
+    "zh": "学会在风暴来临前读懂它，再大的浪也掀不翻你。"
   },
   "story": {
-    "en": "Oil broke above $110 after a strike on Saudi Arabia while gold slipped below $4,050, a [volatile|volatile] session that left traders [bargaining|bargaining] over thin risk appetite; London stocks fell on October 22. With Washington pressing to restart peace talks, Russia and Ukraine traded attacks, and Moscow said it was willing to resume Russia-US-Ukraine talks in mid-November even as positions show no narrowing, a standoff that could [escalate|escalate] and test any [credibility|credibility] in diplomacy. In France, Macron tightened controls on demonstrations amid social mobilization, a [disruption|disruption] to public life; Typhoon Champi neared Okinawa's Sakishima islands with heavy rain. Markets may [amplify|amplify] such shocks through [leverage|leverage], yet economies remain [resilient|resilient]; investors will watch whether talks resume in mid-November.",
-    "cn": "沙特遇袭推动油价突破110美元，黄金失守4050美元进入“投降阶段”，伦敦股市22日下跌，市场情绪剧烈波动，交易员在清淡的风险偏好中反复讨价还价。在美国推动重启和平[谈判、讨价还价|bargaining]之际，俄乌相互发动攻击；俄方称愿11月中旬重启俄美乌会谈，但各方立场差距未见缩小，僵局可能进一步升级，并考验外交[信誉|credibility]。法国社会动员中，马克龙收紧对示威活动的管制，扰乱公共生活；台风“蔷琵”接近冲绳先岛诸岛，将带来大范围强降雨。\n\n油价与金价的剧烈波动令市场讨价还价更显艰难，伦敦股市承压。俄美乌会谈若在11月中旬重启，任何冲突升级都将直接检验相关方的信誉，而示威管制带来的[中断、扰乱|disruption]也在考验法国社会秩序。\n\n台风“蔷琵”逼近冲绳先岛诸岛，强降雨风险上升；在地缘与天气冲击交织下，市场可能通过[杠杆|leverage][放大、加剧|amplify]波动，但经济基本面仍显现韧性。 面对不断[升级|escalate]的贸易摩擦和[波动|volatile]的市场行情，这家企业凭借稳健的现金流和灵活的策略展现出惊人的[韧性|resilient]。"
+    "en": "Global markets turned risk-off on October 24 as Middle East tensions hit energy and equities. Two supertankers reportedly struck mines and exploded in the southern Strait of Hormuz, and Trump threatened a limited \"Epic Fury\" operation against Iran while Tehran weighed hitting undersea cables. US crude rose over 4% intraday, Brent headed toward $117 for a five-month high, and all three US indices fell, the Dow over 1%; COMEX gold settled down 1.24% at $4,010/oz. The dollar was lifted by divergent PMIs, with EUR/USD down a third session.\n\nIn China, Reuters said stricter [discipline|discipline] and Xi Jinping's authority are the keys to the party plenum. The Red Cross Society of China sent additional supplies to the Tibet quake zone, and the national flood and typhoon command launched a level-IV response for Jiangsu.\n\nDiplomacy pressed on: Wang Yi met Asia Society co-chair Thornton and columnist Friedman; the Kremlin said Russia-US-Ukraine talks start in Abu Dhabi in early November, with a ceasefire and \"silent state\" in the Kherson direction from the 27th. For markets, [prolonged|prolonged] Middle East [strife|strife] could [render|render] energy hedging costlier, pressure [offshore|offshore] allocations, test investor [morale|morale], complicate [pension|pension] planning, and force funds to [backfill|backfill] risk desks before the Abu Dhabi talks.",
+    "cn": "全球通胀降温的背景下，市场情绪正从乐观转向谨慎。多国[养老金|pension]基金开始重新审视风险资产敞口，管理者表示此前看涨的心态已让位于选择性对冲。受托人更强调费用与治理，试图以[纪律|discipline][纪律|discipline]支出，守住长期回报。\n\n劳动力市场方面，公共部门面临[士气|morale]问题。招聘冻结与离职补位缓慢令团队承压，机构难以[补缺|backfill]关键岗位。分析人士警告，[持久的|prolonged]职位空缺会使服务质量参差不齐，医疗与教育领域尤为明显。\n\n制造业则继续把产能转向离岸低成本枢纽，供应链[冲突|strife]与关税不确定性加速了这一趋势。该策略并非没有风险，但能分散生产、缓冲冲击。\n\n接下来，市场将关注机构多快重建人手、跨境投资能否回暖。政策制定者需稳住信心，应对充满考验的一个季度。"
   },
   "words": [
     {
@@ -15634,10 +15634,272 @@
       "pos": "v.",
       "en": "to increase in strength, size, or effect",
       "col": "amplify fears/risks · amplify the impact · amplify demand"
+    },
+    {
+      "w": "pension",
+      "ph": "/ˈpenʃn/",
+      "m": "养老金；退休金",
+      "c": "work",
+      "pos": "n.",
+      "en": "a regular payment made to a retired person; a boarding house in some contexts",
+      "defs": [
+        {
+          "cn": "养老金",
+          "en": "regular income paid to someone after retirement",
+          "pos": "n."
+        },
+        {
+          "cn": "退休金制度",
+          "en": "a fund or scheme providing retirement income",
+          "pos": "n."
+        },
+        {
+          "cn": "发给养老金",
+          "en": "to grant a pension to someone",
+          "pos": "v."
+        }
+      ],
+      "col": "pension fund 养老基金 · state pension 国家养老金 · pension scheme 养老金计划 · draw a pension 领取养老金",
+      "ex": "Pension funds, big holders of gold, watched bullion slide 4.22% this week and may rebalance toward bonds.",
+      "exZh": "作为黄金大持有者的养老基金，眼看金价本周下跌4.22%，可能转向债券再平衡。",
+      "ex2": "She started paying into a private pension in her first job and never stopped.",
+      "ex2Zh": "她从第一份工作起就开始缴纳私人养老金，从未间断。",
+      "t": "黄金单周跌4.22%至4010美元，pension 基金作为贵金属的重要持有者被迫重估仓位，部分资金可能回流债券与派息股，退休金的资产配置再次成为市场话题。\n与 salary（工资）区分：pension 是退休后按月领取的钱；职场常说 pension scheme（养老金计划）。",
+      "root": "词根 pens-(=weigh, pay 称量、支付，拉丁 pendere，同源 pendant 悬垂、compensate 补偿) + 后缀 -ion(名词，拉丁 -io，同源 action) → 按称量支付的定期款 → 养老金",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "morale",
+      "ph": "/məˈrɑːl/",
+      "m": "(n.)士气；斗志",
+      "c": "work",
+      "pos": "n.",
+      "en": "the confidence, enthusiasm and discipline of a person or group at a given time",
+      "defs": [
+        {
+          "cn": "士气",
+          "en": "the confidence and enthusiasm of a group",
+          "pos": "n."
+        },
+        {
+          "cn": "斗志；精神状态",
+          "en": "the mental condition of a person facing difficulty",
+          "pos": "n."
+        },
+        {
+          "cn": "提振士气",
+          "en": "to raise the spirits of a team or group",
+          "pos": "v."
+        }
+      ],
+      "col": "boost morale 提振士气 · low morale 士气低落 · staff morale 员工士气 · morale booster 士气鼓舞剂",
+      "ex": "With hiring frozen and headcount under review, managers are working hard to keep team morale from sagging.",
+      "exZh": "在招聘冻结、编制待审的情况下，管理者正努力防止团队士气下滑。",
+      "t": "企业普遍进入'降本模式'，招聘放缓、预算收紧，员工 morale 成为管理层最担心的隐性成本——它不上报表，却直接决定离职率与交付质量。\n别与 moral(道德的)混淆：morale 末尾的 e 是'士气'，moral 是'道德'；记法——士气高涨时人会喊'e'，道德则讲求'a'（准则）。",
+      "root": "源自法语 moral(道德的)，再上溯拉丁 moralis(风俗、品性，同源 moral 道德的、mores 风俗)；由'群体共有的品性'→'精神状态、士气'，法语 morale 一度指'道德状态'。",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "discipline",
+      "ph": "/ˈdɪsɪplɪn/",
+      "m": "(n.)纪律；自律；学科 (v.)约束、惩戒",
+      "c": "politics",
+      "pos": "n./v.",
+      "en": "strict control of behaviour; a branch of knowledge; to train or punish someone to obey rules",
+      "defs": [
+        {
+          "cn": "纪律；自律",
+          "en": "strict control of behaviour or self-control",
+          "pos": "n."
+        },
+        {
+          "cn": "学科；领域",
+          "en": "a particular branch of academic study",
+          "pos": "n."
+        },
+        {
+          "cn": "约束；惩戒",
+          "en": "to train or punish someone into obedience",
+          "pos": "v."
+        }
+      ],
+      "col": "fiscal discipline 财政纪律 · self-discipline 自律 · party discipline 党纪 · discipline a team 约束团队",
+      "ex": "Reuters reported that tighter discipline and central authority would be the key themes of the upcoming plenum.",
+      "exZh": "路透报道称，更严格的纪律与中央权威将是即将召开全会的关键主题。",
+      "ex2": "Fiscal discipline matters most when oil prices spike and budgets stretch thin.",
+      "ex2Zh": "当油价飙升、预算吃紧时，财政纪律最为重要。",
+      "t": "今日时政关键词之一正是 discipline：路透称更严格的纪律与习近平的权威是中共五中全会的关键；同期王毅会见美国亚洲协会董事会共同主席桑顿与《纽约时报》专栏作家弗里德曼，外交沟通与内部约束并行。\n职场同理：团队 discipline 不是压制，而是让每个人知道边界在哪，效率才有依托。",
+      "root": "词根 disc-(学习，拉丁 discere，同源 disciple 门徒、document 文献) + 后缀 -pline(名词化) → 学习者所受的训练 → 纪律、自律、学科",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "offshore",
+      "ph": "/ˌɒfˈʃɔː(r)/",
+      "m": "(adj.)离岸的；海外的 (adv.)在离岸",
+      "c": "econ",
+      "pos": "adj./adv.",
+      "en": "located at sea away from the coast; (of business) based or registered abroad",
+      "defs": [
+        {
+          "cn": "离岸的；海外的",
+          "en": "based abroad, esp. for tax or business reasons",
+          "pos": "adj."
+        },
+        {
+          "cn": "海上的；近海的",
+          "en": "situated in the sea away from the shore",
+          "pos": "adj."
+        },
+        {
+          "cn": "在离岸；向海外",
+          "en": "away from the shore or in another country",
+          "pos": "adv."
+        }
+      ],
+      "col": "offshore wind 海上风电 · offshore account 离岸账户 · offshore drilling 海上钻井 · move operations offshore 将业务外迁",
+      "ex": "Mine explosions near Hormuz have raised the cost of insuring offshore tanker routes.",
+      "exZh": "霍尔木兹附近的水雷爆炸抬高了离岸油轮航线的保险成本。",
+      "ex2": "Some firms keep offshore teams to cover night shifts across time zones.",
+      "ex2Zh": "一些公司保留海外团队以覆盖跨时区夜班。",
+      "t": "今日能源风险让 offshore 一词重新吃紧：伊朗称两艘超级油轮在霍尔木兹海峡南部触雷爆炸，海上与离岸运输的保险与绕行成本同步上升，油价盘中涨超4%。\n职场语境里 offshore 常指业务外迁：把部分岗位放到 offshore 团队，省钱但考验协作，与 onshore 相对。",
+      "root": "前缀 off-(离开，古英语，同源 offshoot 分支) + 词根 shore(岸，中古英语，同源 seaside 海滨) → 离开海岸 → 离岸的、海外的",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "render",
+      "ph": "/ˈrendə(r)/",
+      "m": "(v.)使成为；提供、给予；渲染",
+      "c": "tech",
+      "pos": "v.",
+      "en": "to cause something to become a certain state; to give or provide; to produce an image or version",
+      "defs": [
+        {
+          "cn": "使成为；使变得",
+          "en": "to cause someone or something to be in a state",
+          "pos": "v."
+        },
+        {
+          "cn": "提供；给予",
+          "en": "to give help, a service or a verdict",
+          "pos": "v."
+        },
+        {
+          "cn": "渲染；呈现",
+          "en": "to produce an image, text or performance",
+          "pos": "v."
+        }
+      ],
+      "col": "render a service 提供服务 · render assistance 提供援助 · render an image 渲染图像 · render something useless 使…失效",
+      "ex": "The first AI feature film to reach Chinese cinemas rendered its ancient Sanxingdui world entirely by algorithm.",
+      "exZh": "首部登陆中国院线的AI长片以算法完整渲染出古蜀三星堆世界。",
+      "ex2": "A single cable failure could render offshore communications useless for days.",
+      "ex2Zh": "一条海底电缆故障就可能让离岸通信瘫痪数日。",
+      "t": "今日科技与市场交汇：国内首部AI院线长片《三星堆：未来往事》上映，首日票房超12.5万元，AI 把古蜀场景 render 成银幕画面，算力与创意同时被检验。\n另一面，伊朗拟打击海底电缆的传闻提醒人们：关键基础设施一旦受损，足以 render 整个离岸通信体系失灵。",
+      "root": "前缀 re-(回、再，拉丁，同源 return 返回) + 词根 der(给，拉丁 dare，同源 donate 捐赠、data 数据) → 给回去 → 交出、提供 → 使成为某状态、渲染呈现",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "strife",
+      "ph": "/straɪf/",
+      "m": "冲突；争斗；纷争",
+      "c": "politics",
+      "pos": "n.",
+      "en": "bitter disagreement or conflict, often between groups, parties, or nations",
+      "defs": [
+        {
+          "cn": "冲突；争斗",
+          "en": "angry or bitter disagreement over fundamental issues",
+          "pos": "n."
+        },
+        {
+          "cn": "纷争；不和",
+          "en": "a state of quarrelling or contention between groups",
+          "pos": "n."
+        },
+        {
+          "cn": "(劳资)纠纷",
+          "en": "industrial or labour dispute between workers and employers",
+          "pos": "n."
+        }
+      ],
+      "col": "industrial strife 劳资纠纷 · political strife 政治纷争 · years of strife 多年纷争 · end the strife 结束冲突",
+      "ex": "Traders fear that any strife in the Strait of Hormuz could cut oil flows and lift prices further.",
+      "exZh": "交易员担心霍尔木兹海峡一旦出现冲突，可能切断石油运输并进一步推高油价。",
+      "ex2": "Years of industrial strife at the plant finally pushed management back to the negotiating table.",
+      "ex2Zh": "工厂多年劳资纠纷最终迫使管理层重回谈判桌。",
+      "t": "霍尔木兹海峡的紧张让 strife 从抽象名词变成油价变量：两艘超级油轮触雷爆炸，市场立刻为供应中断定价。\n与 conflict 相比，strife 更偏长期、群体性的纷争，如 labour strife 劳资纠纷——记成“撕扯不休的争斗”。",
+      "root": "源自古法语 estrif(争斗, 同源 striven 奋力、strive 努力) → 双方用力相争 → 争斗、纷争、冲突",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "prolonged",
+      "ph": "/prəˈlɒŋd/",
+      "m": "持久的；长期的；延长的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "lasting for a long time or longer than usual, often of a situation or condition",
+      "defs": [
+        {
+          "cn": "持久的；长期的",
+          "en": "continuing for a long time, longer than expected",
+          "pos": "adj."
+        },
+        {
+          "cn": "延长的",
+          "en": "made to last longer by extension",
+          "pos": "adj."
+        },
+        {
+          "cn": "(疾病/衰退)迁延的",
+          "en": "of illness or slump, dragging on over time",
+          "pos": "adj."
+        }
+      ],
+      "col": "prolonged slump 长期低迷 · prolonged drought 持续干旱 · prolonged negotiations 旷日持久的谈判 · prolonged uncertainty 长期不确定性",
+      "ex": "A prolonged oil rally above 117 dollars would test central banks already wary of inflation.",
+      "exZh": "油价若长期维持在117美元上方，将考验本就警惕通胀的各国央行。",
+      "ex2": "After a prolonged hiring freeze, the firm quietly reopened two graduate roles this month.",
+      "ex2Zh": "在长期冻结招聘之后，该公司本月悄然重开了两个应届生岗位。",
+      "t": "本周布油冲向117美元、创五个月新高，若演变为 prolonged 的能源冲击，通胀预期与降息路径都要重估。\n职场用法：prolonged negotiations 旷日持久的谈判；与 brief 短暂相对，强调“拖得久、看不到头”。",
+      "root": "前缀 pro-(向前, 拉丁 pro, 同源 proceed 前进) + 词根 long(长, 拉丁 longus, 同源 longevity 长寿) + 后缀 -ed(形容词) → 向前拉长 → 持久的、延长的",
+      "d": "2026-10-24"
+    },
+    {
+      "w": "backfill",
+      "ph": "/ˈbækfɪl/",
+      "m": "(v.)补缺；回填 (n.)替补人员",
+      "c": "work",
+      "pos": "v.",
+      "en": "To fill a vacated job or gap with someone or something else; to refill an excavated space",
+      "defs": [
+        {
+          "cn": "补缺",
+          "en": "to fill a vacant position with another person",
+          "pos": "v."
+        },
+        {
+          "cn": "回填",
+          "en": "to refill an excavated hole with earth or material",
+          "pos": "v."
+        },
+        {
+          "cn": "替补人员",
+          "en": "a person used to fill another's role",
+          "pos": "n."
+        }
+      ],
+      "col": "backfill a role 补上空缺岗位 · backfill a position 填补职位 · backfill data 回填数据 · backfill workers 替补工人",
+      "ex": "With several senior analysts leaving after the merger, the bank had to backfill key roles before the quarterly review.",
+      "exZh": "合并后数名资深分析师离职，银行不得不在季度评估前补上关键岗位。",
+      "ex2": "Contractors backfill the trench only after the new cables are fully tested.",
+      "ex2Zh": "承包商只在新电缆测试合格后才回填沟槽。",
+      "t": "市场动荡之际，多家机构在合并与重组后出现关键岗位空缺，招聘团队不得不赶在季报前 backfill 核心职位，以免研究覆盖断档。\n职场记忆：back(后面) + fill(填满)，即『从后面把空补上』；与 hire(新招)相比，backfill 强调补的是已有编制。",
+      "root": "back(后面，古英语 bæc，同源 backside 背面) + fill(填满，古英语 fyllan，同源 full 满的) → 从后方把空缺填满 → 补缺、回填",
+      "d": "2026-10-24"
     }
   ],
   "preview": {
-    "hook": "本周全球市场围绕新一轮贸易[bargaining|bargaining]展开博弈，多国关税威胁再度升级，令本已[volatile|volatile]大宗商品与汇率走势更添变数；企业被迫在[leverage|leverage]高企的资产负债表上重新盘算融资与对冲成本，而供应链的突发[disruption|disruption]又不断考验各国监管机构与央行的[credibility|credibility]，市场参与者正试图判断这轮冲击究竟是短期噪音还是长期转折。 随着贸易摩擦不断[升级|escalate]，这个[有韧性的|resilient]经济体反而借助数字化手段[放大|amplify]了自身的出口优势。",
+    "hook": "某大型制造集团宣布将部分产线转移至离岸基地，同时冻结员工[pension|pension]缴费匹配，此举立即引发工会强烈反弹，管理层承认长期[strife|strife]已使内部[morale|morale]跌至低点，而公司以严格[discipline|discipline]为由拒绝让步，并称若订单持续下滑将[render|render]更多岗位空缺且不再[backfill|backfill]，这场[prolonged|prolonged]僵局正考验劳资双方的耐心。 随着监管趋严，不少企业将[离岸的|offshore]账户的资金逐步转回本土市场。",
     "impact": ""
   }
 }

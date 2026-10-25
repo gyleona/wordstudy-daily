@@ -1,12 +1,14 @@
 {
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-10-25",
   "quote": {
-    "en": "Learn to read the storm before it breaks, and no wave can sink you.",
-    "zh": "学会在风暴来临前读懂它，再大的浪也掀不翻你。"
+    "en": "Hold your ground, but learn to bend before the wind.",
+    "zh": "守住立场，也要学会在风来之前弯一弯。"
   },
   "story": {
-    "en": "Global markets turned risk-off on October 24 as Middle East tensions hit energy and equities. Two supertankers reportedly struck mines and exploded in the southern Strait of Hormuz, and Trump threatened a limited \"Epic Fury\" operation against Iran while Tehran weighed hitting undersea cables. US crude rose over 4% intraday, Brent headed toward $117 for a five-month high, and all three US indices fell, the Dow over 1%; COMEX gold settled down 1.24% at $4,010/oz. The dollar was lifted by divergent PMIs, with EUR/USD down a third session.\n\nIn China, Reuters said stricter [discipline|discipline] and Xi Jinping's authority are the keys to the party plenum. The Red Cross Society of China sent additional supplies to the Tibet quake zone, and the national flood and typhoon command launched a level-IV response for Jiangsu.\n\nDiplomacy pressed on: Wang Yi met Asia Society co-chair Thornton and columnist Friedman; the Kremlin said Russia-US-Ukraine talks start in Abu Dhabi in early November, with a ceasefire and \"silent state\" in the Kherson direction from the 27th. For markets, [prolonged|prolonged] Middle East [strife|strife] could [render|render] energy hedging costlier, pressure [offshore|offshore] allocations, test investor [morale|morale], complicate [pension|pension] planning, and force funds to [backfill|backfill] risk desks before the Abu Dhabi talks.",
-    "cn": "全球通胀降温的背景下，市场情绪正从乐观转向谨慎。多国[养老金|pension]基金开始重新审视风险资产敞口，管理者表示此前看涨的心态已让位于选择性对冲。受托人更强调费用与治理，试图以[纪律|discipline][纪律|discipline]支出，守住长期回报。\n\n劳动力市场方面，公共部门面临[士气|morale]问题。招聘冻结与离职补位缓慢令团队承压，机构难以[补缺|backfill]关键岗位。分析人士警告，[持久的|prolonged]职位空缺会使服务质量参差不齐，医疗与教育领域尤为明显。\n\n制造业则继续把产能转向离岸低成本枢纽，供应链[冲突|strife]与关税不确定性加速了这一趋势。该策略并非没有风险，但能分散生产、缓冲冲击。\n\n接下来，市场将关注机构多快重建人手、跨境投资能否回暖。政策制定者需稳住信心，应对充满考验的一个季度。"
+    "en": "A day of contrasts unfolded as Shanghai's Zhangjiang hosted an [embodied|embodied] intelligence skills contest where a thousand humanoid robots competed, while organizers of the China International Advertising Festival asked eight firms to [refrain|refrain] from misleading online marketing by signing a self-discipline pact. The tech optimism, including Apple's reported confidence in [foldable|foldable] iPhone Duo shipments rising to 15 million units, sits beside a [contested|contested] global backdrop: Beijing urged Washington to stop widening investment [restriction|restriction], and Ukraine's Zelensky vowed not to cede more territory as the Russia-Ukraine conflict risks to [escalate|escalate] despite agreed local ceasefires. Domestically, the 20th Central Committee's eighth round [inspection|inspection] targets were published, and a 5.3-magnitude quake struck Zadoi County in Yushu, Qinghai, at a depth of 10 km, prompting high-altitude rescue efforts in Bacing. Each issue falls under a distinct [jurisdiction|jurisdiction], from trade regulators to disaster agencies, shaping how responses unfold.",
+    "cn": "全球市场本周开盘情绪谨慎，投资者在通胀降温数据与仍[有争议的|contested]科技监管前景之间权衡。这场辩论体现了一个更广泛的转变：监管者如今把人工智能与机器人视为战略性基础设施，而非小众产品。官员呼吁企业[克制|refrain]，不要公布未经核实的部署时间表；监管机构则承诺在公开上市前对安全测试记录进行更严格的检查。消费硬件方面，市场焦点仍集中在可折叠设备上，供应链瓶颈与需求不均令发布计划更复杂。跨境合规是更棘手的难题，因为每个[管辖权|jurisdiction]都适用各自的数据规则，一项[限制|restriction]就可能拖住区域上市。分析人士警告，若各方无法统一认证体系，标准之争可能升级，给制造商带来额外成本与延误。未来一个季度将[巡视|inspection]协调能否跟上创新步伐，投资者将关注执法信号与业绩指引以寻找方向。",
+    "hook": "",
+    "impact": ""
   },
   "words": [
     {
@@ -15896,10 +15898,255 @@
       "t": "市场动荡之际，多家机构在合并与重组后出现关键岗位空缺，招聘团队不得不赶在季报前 backfill 核心职位，以免研究覆盖断档。\n职场记忆：back(后面) + fill(填满)，即『从后面把空补上』；与 hire(新招)相比，backfill 强调补的是已有编制。",
       "root": "back(后面，古英语 bæc，同源 backside 背面) + fill(填满，古英语 fyllan，同源 full 满的) → 从后方把空缺填满 → 补缺、回填",
       "d": "2026-10-24"
+    },
+    {
+      "w": "embodied",
+      "ph": "/ɪmˈbɒdid/",
+      "m": "(adj.)具身的；实体化的（AI/机器人语境）",
+      "c": "tech",
+      "pos": "adj.",
+      "en": "given a physical body; of AI, intelligence that acts through a robot or machine",
+      "defs": [
+        {
+          "cn": "具身的；实体化的",
+          "en": "having a physical body or concrete form",
+          "pos": "adj."
+        },
+        {
+          "cn": "(AI)具身智能的",
+          "en": "of AI that perceives and acts physically",
+          "pos": "adj."
+        },
+        {
+          "cn": "体现…的",
+          "en": "expressing an idea in visible form",
+          "pos": "adj."
+        }
+      ],
+      "col": "embodied AI 具身智能 · embodied intelligence 具身智能 · embodied in policy 体现在政策中 · embodied carbon 隐含碳",
+      "ex": "The embodied-intelligence contest in Shanghai's Zhangjiang drew about a thousand humanoid robots to compete in one arena.",
+      "exZh": "上海张江的具身智能大赛吸引约千台人形机器人同场竞技。",
+      "ex2": "The new rules are embodied in a self-discipline pact signed by eight online-marketing firms.",
+      "ex2Zh": "新规则体现在八家互联网营销企业签署的自律公约中。",
+      "t": "上海张江的国际具身智能技能大赛开赛，千台人形机器人同场竞技，embodied AI 从论文走进赛场。它和纯软件模型的最大差别是：要处理抓取、平衡、延迟这些物理世界的麻烦。\n记忆钩子：embody = em-(使进入) + body(身体)，把智能装进身体，就是 embodied。职场里说 a plan must be embodied in a budget，意思是计划要落到预算上。",
+      "root": "前缀 em-(=in- 使进入，拉丁，同源 embrace 拥抱、empower 赋权) + 词根 body(身体，古英语 bodig，同源 bodily 身体的) + 后缀 -ied(形容词化) → 被赋予身体的 → 具身的、实体化的",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "refrain",
+      "ph": "/rɪˈfreɪn/",
+      "m": "(v.)克制；避免（做某事）",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to hold oneself back from doing something; to avoid an action, often in diplomacy or negotiation",
+      "defs": [
+        {
+          "cn": "克制；避免",
+          "en": "to stop oneself from doing something",
+          "pos": "v."
+        },
+        {
+          "cn": "(外交)保持克制",
+          "en": "to avoid escalating a dispute",
+          "pos": "v."
+        },
+        {
+          "cn": "(n.)副歌；叠句",
+          "en": "a repeated line in a song",
+          "pos": "n."
+        }
+      ],
+      "col": "refrain from 克制不做 · refrain from comment 不予置评 · urge both sides to refrain 呼吁双方克制 · a familiar refrain 老调重弹",
+      "ex": "Analysts urged both sides to refrain from widening investment curbs while APEC talks are still on the table.",
+      "exZh": "分析人士呼吁在 APEC 谈判仍在进行时双方克制、不要扩大投资限制。",
+      "ex2": "Please refrain from quoting prices before procurement confirms the budget.",
+      "ex2Zh": "在采购确认预算前，请勿报价。",
+      "t": "APEC 美国代表称企业渴求中美稳定，而中方敦促美方停止扩大对华投资限制——两边都在喊 refrain，市场听到的是\"别再加码\"。克制本身就是一种政策信号。\n职场用法：refrain from + 动名词，比 don't 更正式。邮件里写 Please refrain from sharing the file externally，比 Don't share 更得体。注意别和 restrain(约束他人) 混。",
+      "root": "前缀 re-(回、向后，拉丁，同源 return 返回、recede 退去) + 词根 frain-(=frenum 缰绳、马勒，拉丁，同源 frenum 系带) → 把缰绳往后拉 → 克制、忍住不做",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "contested",
+      "ph": "/kənˈtestɪd/",
+      "m": "(adj.)有争议的；受争夺的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "disputed or fought over; of a place, seat or rule that rivals compete to control",
+      "defs": [
+        {
+          "cn": "有争议的",
+          "en": "disputed and not universally accepted",
+          "pos": "adj."
+        },
+        {
+          "cn": "受争夺的",
+          "en": "competed for by rival parties",
+          "pos": "adj."
+        },
+        {
+          "cn": "(v.)质疑；抗辩",
+          "en": "to challenge formally, as in a court",
+          "pos": "v."
+        }
+      ],
+      "col": "hotly contested 争夺激烈的 · contested seat 竞争激烈的席位 · legally contested 法律上有争议的 · contested rules 有争议的规则",
+      "ex": "The contested investment limits remain the biggest obstacle to a stable US-China business climate.",
+      "exZh": "有争议的投资限制仍是中美商业环境稳定的最大障碍。",
+      "ex2": "Promotion slots are fiercely contested in any large organization this year.",
+      "ex2Zh": "今年任何大机构里的晋升名额都争夺激烈。",
+      "t": "中方要求美方停止扩大对华投资限制，这条规则本身就是 contested 的：企业界希望稳定，监管层却在收紧。APEC 前的每一次表态，都是在为这条 contested 的界线加注。\n职场类比：a hotly contested promotion 竞争白热化的晋升。contest 作动词是\"质疑、争夺\"，作名词是\"比赛\"；contested 形容词常与 hotly、legally 搭配。",
+      "root": "前缀 con-(共同、一起，拉丁，同源 convene 召集、concur 同意) + 词根 test-(=testis 证人，拉丁，同源 testify 作证、testimony 证词) + 后缀 -ed(形容词化) → 一起叫证人来辩 → 被争论、被争夺的",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "inspection",
+      "ph": "/ɪnˈspekʃn/",
+      "m": "(n.)巡视；检查；审查",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official visit to examine an organization or place; a careful check of records, accounts or quality",
+      "defs": [
+        {
+          "cn": "巡视；检查",
+          "en": "an official examination of an organization or place",
+          "pos": "n."
+        },
+        {
+          "cn": "(质量)检验",
+          "en": "a careful check of goods or work for quality",
+          "pos": "n."
+        },
+        {
+          "cn": "审查；稽核",
+          "en": "a formal review of records or conduct",
+          "pos": "n."
+        }
+      ],
+      "col": "carry out an inspection 开展巡视 · quality inspection 质量检验 · inspection team 巡视组 · pass inspection 通过检查",
+      "ex": "The announcement of the new round of central inspection targets drew attention to governance in state bodies.",
+      "exZh": "新一轮中央巡视对象公布，引发外界对国家机关治理的关注。",
+      "ex2": "Every batch of components must pass a final inspection before it leaves the factory.",
+      "ex2Zh": "每批零部件出厂前都必须通过最终检验。",
+      "t": "二十届中央第八轮巡视对象公布，inspection 再度成为时政热词；五中全会召开前反复强调反腐，说明 inspection 是治理链条上的固定动作而非临时之举。\n职场版：工厂的 quality inspection 与机关的巡视逻辑相通——都是先查记录、再查现场、最后出报告。记法：in-(向内) + spect(看) = 往里看，即检查。",
+      "root": "前缀 in-(向内，拉丁，同源 insight 洞察、inspect 检查) + 词根 spect(看，拉丁 specere，同源 spectator 观众、spectacle 景象) → 向内仔细看 → 检查、巡视",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "foldable",
+      "ph": "/ˈfəʊldəbl/",
+      "m": "(adj.)可折叠的 (n.)折叠屏设备",
+      "c": "tech",
+      "pos": "adj.",
+      "en": "able to be folded, especially describing screens or devices that bend without breaking",
+      "defs": [
+        {
+          "cn": "可折叠的",
+          "en": "designed so that it can be folded up",
+          "pos": "adj."
+        },
+        {
+          "cn": "(屏幕)可弯折的",
+          "en": "describing a display that bends without damage",
+          "pos": "adj."
+        },
+        {
+          "cn": "折叠屏设备",
+          "en": "a phone or tablet with a bending screen",
+          "pos": "n."
+        }
+      ],
+      "col": "foldable phone 折叠屏手机 · foldable screen 可折叠屏幕 · foldable design 折叠设计 · foldable market 折叠屏市场",
+      "ex": "Apple reportedly raised its foldable phone stocking plan to 15 million units, signalling confidence in the segment.",
+      "exZh": "据报道，苹果将折叠屏手机备货量提高至1500万台，显示其对这一品类的信心。",
+      "ex2": "A foldable keyboard fits in a jacket pocket, which makes it popular with travelling consultants.",
+      "ex2Zh": "可折叠键盘能塞进外套口袋，因此颇受出差顾问欢迎。",
+      "t": "iPhone Duo 备货量猛增至1500万台，苹果对 foldable 折叠屏的信心可见一斑；在手机整体需求平淡的当下，折叠形态成了少数能拉动换机的卖点，供应链的排产也随之升温。\n构词很直观：fold(折叠) + -able(能…的)，同类还有 portable 便携的、washable 可水洗的。职场里 foldable furniture 折叠家具也是小办公室的常见选择。",
+      "root": "词根 fold(折叠，古英语 fealdan，同源 folder 文件夹) + 后缀 -able(能…的，拉丁 -abilis，同源 capable 有能力的) → 能被折叠的 → 可折叠的",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "restriction",
+      "ph": "/rɪˈstrɪkʃn/",
+      "m": "限制；约束规定",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official limit on what can be done, esp. on investment, trade or movement",
+      "defs": [
+        {
+          "cn": "限制；约束规定",
+          "en": "an official rule limiting an activity or amount",
+          "pos": "n."
+        },
+        {
+          "cn": "(投资/贸易)管制",
+          "en": "a government limit on investment or trade flows",
+          "pos": "n."
+        },
+        {
+          "cn": "受限状态",
+          "en": "the state of being kept within limits",
+          "pos": "n."
+        }
+      ],
+      "col": "investment restriction 投资限制 · lift restrictions 解除限制 · impose restrictions on 对…施加限制 · travel restriction 出行限制",
+      "ex": "China urged the US to stop expanding investment restriction on Chinese firms, warning of damage to global supply chains.",
+      "exZh": "中方敦促美方停止扩大对中国企业的投资限制，并警告这将损害全球供应链。",
+      "ex2": "A hiring restriction froze two senior roles, forcing the team to redistribute workload.",
+      "ex2Zh": "招聘限制冻结了两个高级岗位，团队被迫重新分配工作量。",
+      "t": "APEC 美国代表展望深圳峰会时提到，企业渴求中美稳定；而眼下最刺眼的变量正是美方不断加码的投资 restriction，中方已明确要求停止扩大。\n联想记法：restriction 是名词，动词 restrict、形容词 restrictive 同根；职场里 budget restriction（预算限制）几乎年年出现，写邮件用 due to budget restrictions 比 because we have no money 体面得多。",
+      "root": "前缀 re-(向后，拉丁，同源 return) + 词根 strict(=stringere 拉紧，拉丁，同源 strict 严格的、constrict 收缩) + 后缀 -ion(名词化，拉丁) → 往回拉紧 → 限制、约束",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "jurisdiction",
+      "ph": "/ˌdʒʊərɪsˈdɪkʃn/",
+      "m": "(n.)管辖权；司法辖区；管辖范围",
+      "c": "politics",
+      "en": "The official power to make legal decisions; the area over which such power applies",
+      "pos": "n.",
+      "defs": [
+        {
+          "cn": "管辖权",
+          "en": "the legal power to hear cases and make rulings",
+          "pos": "n."
+        },
+        {
+          "cn": "司法辖区",
+          "en": "a territory under a particular legal authority",
+          "pos": "n."
+        },
+        {
+          "cn": "管辖范围",
+          "en": "the scope of authority of an official body",
+          "pos": "n."
+        }
+      ],
+      "col": "under the jurisdiction of 在…管辖下 · exercise jurisdiction 行使管辖权 · cross-jurisdiction 跨辖区 · regulatory jurisdiction 监管管辖权",
+      "ex": "Regulators in several jurisdiction are drafting their own rules for cross-border data flows.",
+      "exZh": "多个司法辖区的监管机构正各自起草跨境数据流动规则。",
+      "ex2": "The dispute was moved to another jurisdiction after the local court declined to hear it.",
+      "ex2Zh": "当地法院拒绝受理后，该争议被移交另一辖区。",
+      "t": "投资限制与监管新规往往按 jurisdiction 分别落地，跨国企业得逐地评估合规成本，这正是今日中美投资争议的现实背景。\n联想：juris(法) + diction(说) = 依法说话的权利；同根 jury（陪审团）、justice（正义）。",
+      "root": "词根 jur(=jus 法、权利，拉丁，同源 jury/justice) + 词根 dict(说，拉丁 dicere，同源 dictate/dictionary) + 后缀 -ion(名词) → 依法宣说 → 管辖权、辖区",
+      "d": "2026-10-25"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-25",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
     }
   ],
   "preview": {
-    "hook": "某大型制造集团宣布将部分产线转移至离岸基地，同时冻结员工[pension|pension]缴费匹配，此举立即引发工会强烈反弹，管理层承认长期[strife|strife]已使内部[morale|morale]跌至低点，而公司以严格[discipline|discipline]为由拒绝让步，并称若订单持续下滑将[render|render]更多岗位空缺且不再[backfill|backfill]，这场[prolonged|prolonged]僵局正考验劳资双方的耐心。 随着监管趋严，不少企业将[离岸的|offshore]账户的资金逐步转回本土市场。",
+    "hook": "一场围绕具身人工智能与[foldable|foldable]的数据合规听证会在布鲁塞尔与华盛顿同时升温：监管机构要求企业[refrain|refrain]跨境数据调取，并接受第三方[inspection|inspection]；然而[jurisdiction|jurisdiction]边界仍高度有争议，各方对新增[restriction|restriction]条款互不相让，摩擦正迅速升级。 面对[体现|embody]在地方选举中的[争议|contest]不断升级，观察人士警告说，若各方不冷静对话，紧张局势可能进一步[升级|escalate]。",
     "impact": ""
   }
 }

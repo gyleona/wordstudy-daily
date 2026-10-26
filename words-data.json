@@ -1,14 +1,12 @@
 {
-  "updated_on": "2026-10-25",
+  "updated_on": "2026-10-26",
   "quote": {
-    "en": "Hold your ground, but learn to bend before the wind.",
-    "zh": "守住立场，也要学会在风来之前弯一弯。"
+    "en": "Learn to read the market's mood before it moves, and no swing can shake you.",
+    "zh": "学会在市场动之前读懂它的情绪，再大的起伏也摇不动你。"
   },
   "story": {
-    "en": "A day of contrasts unfolded as Shanghai's Zhangjiang hosted an [embodied|embodied] intelligence skills contest where a thousand humanoid robots competed, while organizers of the China International Advertising Festival asked eight firms to [refrain|refrain] from misleading online marketing by signing a self-discipline pact. The tech optimism, including Apple's reported confidence in [foldable|foldable] iPhone Duo shipments rising to 15 million units, sits beside a [contested|contested] global backdrop: Beijing urged Washington to stop widening investment [restriction|restriction], and Ukraine's Zelensky vowed not to cede more territory as the Russia-Ukraine conflict risks to [escalate|escalate] despite agreed local ceasefires. Domestically, the 20th Central Committee's eighth round [inspection|inspection] targets were published, and a 5.3-magnitude quake struck Zadoi County in Yushu, Qinghai, at a depth of 10 km, prompting high-altitude rescue efforts in Bacing. Each issue falls under a distinct [jurisdiction|jurisdiction], from trade regulators to disaster agencies, shaping how responses unfold.",
-    "cn": "全球市场本周开盘情绪谨慎，投资者在通胀降温数据与仍[有争议的|contested]科技监管前景之间权衡。这场辩论体现了一个更广泛的转变：监管者如今把人工智能与机器人视为战略性基础设施，而非小众产品。官员呼吁企业[克制|refrain]，不要公布未经核实的部署时间表；监管机构则承诺在公开上市前对安全测试记录进行更严格的检查。消费硬件方面，市场焦点仍集中在可折叠设备上，供应链瓶颈与需求不均令发布计划更复杂。跨境合规是更棘手的难题，因为每个[管辖权|jurisdiction]都适用各自的数据规则，一项[限制|restriction]就可能拖住区域上市。分析人士警告，若各方无法统一认证体系，标准之争可能升级，给制造商带来额外成本与延误。未来一个季度将[巡视|inspection]协调能否跟上创新步伐，投资者将关注执法信号与业绩指引以寻找方向。",
-    "hook": "",
-    "impact": ""
+    "en": "Serbia's ruling Progressive Party lost the parliamentary election, with President Vucic conceding defeat, while Brazil's presidential runoff closed and France's interior ministry reported 1,314 arrests in a new wave of [protest|protest]. In China, the national civil service exam saw approved [candidate|candidate] numbers fall for the first time in seven years, a [poll|poll] of interest for job seekers weighing public-sector stability. At the Canton Fair, intangible cultural heritage goods drew overseas buyers, an [exhibition|exhibition] channel for export deals. Corporate news mixed: Demingli posted Q3 net [profit|profit] of 2.729 billion yuan, up 2,902.75% year on year, while AstraZeneca trial data showed a Tagrisso combination cutting progression or death risk in a specific lung cancer by 45%. Labor pressures linger: [overtime|overtime] and [furlough|furlough] arrangements remain live issues, and a revenue [shortfall|shortfall] at the box office hit China's first AI theatrical film. Watch Serbia's coalition talks and Brazil's result.",
+    "cn": "在全球通胀降温的背景下，企业削减成本正从董事会话题演变为街头焦点。一家欧洲大型工业集团本周发生工人[抗议|protest]，此前管理层宣布对1200名员工实施临时[无薪休假|furlough]，并冻结[加班|overtime]费，警告称收入[缺口|shortfall]扩大可能迫使进一步裁员。该公司季度[利润|profit]未达内部目标，最新员工情绪[民意调查|poll]显示士气降至五年低点。与此同时，该行业一位高管[候选人|candidate]在贸易[展览|exhibition]会上表示，行业必须再培训工人，而非依赖短期节省。分析人士称，这场对峙将考验企业能否在不侵蚀信任的情况下填补缺口，各方关注下月薪资谈判。"
   },
   "words": [
     {
@@ -16143,10 +16141,272 @@
       "pos": "v.",
       "en": "to increase or intensify, esp. conflict or tension",
       "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "profit",
+      "ph": "/ˈprɒfɪt/",
+      "m": "(n./v.)利润；获利",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the money gained after costs are deducted; to gain financial benefit, in business/accounting contexts",
+      "defs": [
+        {
+          "cn": "利润",
+          "en": "financial gain remaining after costs are deducted",
+          "pos": "n."
+        },
+        {
+          "cn": "获利",
+          "en": "to make a financial gain from an activity",
+          "pos": "v."
+        },
+        {
+          "cn": "益处",
+          "en": "an advantage or benefit gained from something",
+          "pos": "n."
+        }
+      ],
+      "col": "net profit 净利润 · profit margin 利润率 · turn a profit 实现盈利 · profit from 从…中获利",
+      "ex": "Demingli reported third-quarter net profit of 2.729 billion yuan, up 2,902.75 percent year on year.",
+      "exZh": "德明利公布三季度归母净利润 27.29 亿元，同比增长 2902.75%。",
+      "ex2": "Small factories rarely profit from short-term orders unless they control logistics costs.",
+      "ex2Zh": "除非控制物流成本，小工厂很难从短期订单中获利。",
+      "t": "德明利 2026 年三季度归母净利润 27.29 亿元、同比增长 2902.75%，这个 profit 数字在存储芯片行情里格外扎眼；同期国内首部 AI 院线电影票房遇冷，说明高投入未必换来利润。\n搭配记忆：net profit 净利润、profit margin 利润率，比笼统说 money 精确得多。",
+      "root": "前缀 pro-(向前、有利，拉丁 pro，同源 proceed 前进) + 词根 fit(=fac 做，拉丁 facere，同源 factory 工厂) → 做出进展、有所得 → 利润、获利",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "protest",
+      "ph": "/ˈprəʊtest/",
+      "m": "抗议；示威(活动)",
+      "c": "politics",
+      "pos": "n./v.",
+      "en": "a public expression of strong disagreement, often as a demonstration; to express such disagreement",
+      "defs": [
+        {
+          "cn": "抗议；示威",
+          "en": "a public demonstration against a policy or action",
+          "pos": "n."
+        },
+        {
+          "cn": "抗议，反对",
+          "en": "to express strong disagreement publicly",
+          "pos": "v."
+        },
+        {
+          "cn": "(引发)抗议声",
+          "en": "an outcry against something seen as unfair",
+          "pos": "n."
+        }
+      ],
+      "col": "street protest 街头抗议 · protest against 抗议… · mass protest 大规模示威 · protest peacefully 和平抗议",
+      "ex": "France's interior ministry said 1,314 people were arrested in the latest round of protests.",
+      "exZh": "法国内政部称，最新一轮抗议中有1314人被捕。",
+      "ex2": "Workers protested outside the plant over planned job cuts.",
+      "ex2Zh": "工人们在厂外抗议计划中的裁员。",
+      "t": "法国内政部通报，新一轮抗议示威中已有1314人被捕，欧洲媒体称之为“愤怒之秋”，政策争议正外溢到街头。\n职场用法：staff protest against the new schedule(员工抗议新排班)；名词 protest 与动词同形，重音位置不同要注意。",
+      "root": "前缀 pro-(向前、公开，拉丁，同源 proclaim 宣告) + 词根 test(=testify 作证，拉丁 testis 证人，同源 testify) → 公开作证反对 → 抗议、示威",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "overtime",
+      "ph": "/ˈəʊvətaɪm/",
+      "m": "加班；加班费； overtime 超时地",
+      "c": "work",
+      "pos": "n./adv.",
+      "en": "time worked beyond normal hours, often paid extra; also beyond the regular time",
+      "defs": [
+        {
+          "cn": "加班；加班时间",
+          "en": "extra hours worked beyond the normal schedule",
+          "pos": "n."
+        },
+        {
+          "cn": "加班费",
+          "en": "extra pay for working beyond normal hours",
+          "pos": "n."
+        },
+        {
+          "cn": "超时地",
+          "en": "beyond the normal or agreed time",
+          "pos": "adv."
+        }
+      ],
+      "col": "work overtime 加班 · unpaid overtime 无偿加班 · overtime pay 加班费 · go into overtime 进入加时",
+      "ex": "With the winter travel season starting, airport staff are working overtime to handle 2,100 weekly flights.",
+      "exZh": "冬航季开启，机场员工加班应对每周2100班航班。",
+      "ex2": "The report found that unpaid overtime is common among young office workers.",
+      "ex2Zh": "报告发现，无偿加班在年轻白领中很普遍。",
+      "t": "潮汕机场冬航季周航班量达2100班，一线地勤与安检人员普遍 overtime，人力调度压力陡增。\n职场提醒：overtime 既是“加班时间”也是“加班费”，谈薪酬时务必说清 paid overtime 还是 unpaid overtime。",
+      "root": "前缀 over-(超过，古英语 ofer，同源 overwork 过度工作) + time(时间，古英语 tīma，同源 timely 及时的) → 超出正常时间 → 加班、加班费",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "furlough",
+      "ph": "/ˈfɜːrləʊ/",
+      "m": "(n./v.)无薪休假；暂时停职",
+      "c": "work",
+      "pos": "n./v.",
+      "en": "a temporary leave of absence, often unpaid, imposed by an employer",
+      "defs": [
+        {
+          "cn": "无薪休假",
+          "en": "unpaid leave forced on staff to cut costs",
+          "pos": "n."
+        },
+        {
+          "cn": "暂时停职",
+          "en": "to place workers on temporary leave",
+          "pos": "v."
+        },
+        {
+          "cn": "(军)短期休假",
+          "en": "a short leave granted to military personnel",
+          "pos": "n."
+        }
+      ],
+      "col": "put staff on furlough 让员工无薪休假 · furlough scheme 无薪假补贴计划 · mass furlough 大规模停职 · return from furlough 休假后返岗",
+      "ex": "Airlines and factories may furlough staff if demand weakens into the winter.",
+      "exZh": "若入冬后需求走弱，航空与工厂可能让员工无薪休假。",
+      "t": "欧洲\"愤怒之秋\"抗议蔓延、法国内政部通报 1314 人被捕，背后是就业与生活成本压力；企业若订单下滑，furlough 往往先于裁员出现。\n记法：furlough 比 layoff 温和——人还在名册上，只是暂时不发薪。",
+      "root": "源自荷兰语 verlof(许可、休假)，与英语 leave(许可)同源，词根为\"允许\" → 获准离开岗位 → 暂时休假、停职。",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "shortfall",
+      "ph": "/ˈʃɔːtfɔːl/",
+      "m": "(n.)缺口；差额；亏空",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an amount by which something is less than what is needed or expected",
+      "defs": [
+        {
+          "cn": "缺口",
+          "en": "the amount by which a target or need is not met",
+          "pos": "n."
+        },
+        {
+          "cn": "差额",
+          "en": "a deficit between expected and actual figures",
+          "pos": "n."
+        },
+        {
+          "cn": "亏空",
+          "en": "a shortage of funds in a budget or account",
+          "pos": "n."
+        }
+      ],
+      "col": "budget shortfall 预算缺口 · revenue shortfall 收入缺口 · fill a shortfall 填补缺口 · a shortfall of funds 资金短缺",
+      "ex": "Analysts warned of a revenue shortfall after Korean equities slid on fresh bad news.",
+      "exZh": "韩国股市因新利空下挫后，分析师警告将出现收入缺口。",
+      "ex2": "A staffing shortfall forced the plant to run extra weekend shifts.",
+      "ex2Zh": "人手缺口迫使工厂加开周末班次。",
+      "t": "韩国股市今日突遭利空，券商随即下调盈利预测，市场担心企业出现 revenue shortfall（收入缺口），资金短线撤离。\n职场版同样好用：招聘计划没完成，HR 报告里的 staffing shortfall 比 lack of people 更专业，也更像一份正式文件。",
+      "root": "short(短、不足，古英语 sceort，同源 shorten 缩短) + fall(落下，古英语 feallan，同源 fallen) → 落下的那一截 → 比应有数量少掉的部分 → 缺口、差额",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "candidate",
+      "ph": "/ˈkændɪdət/",
+      "m": "(n.)候选人；应聘者",
+      "c": "work",
+      "pos": "n.",
+      "en": "a person seeking a job or office; something eligible for a role",
+      "defs": [
+        {
+          "cn": "候选人",
+          "en": "a person competing for an elected or appointed post",
+          "pos": "n."
+        },
+        {
+          "cn": "应聘者",
+          "en": "an applicant being considered for a job",
+          "pos": "n."
+        },
+        {
+          "cn": "合适对象",
+          "en": "a thing suitable for a particular purpose",
+          "pos": "n."
+        }
+      ],
+      "col": "job candidate 求职者 · shortlist candidates 筛选候选人 · presidential candidate 总统候选人 · ideal candidate 理想人选",
+      "ex": "Brazil's presidential runoff closed as both candidates awaited the count.",
+      "exZh": "巴西总统选举第二轮投票结束，两位候选人等待计票。",
+      "ex2": "HR narrowed forty applicants to three strong candidates for the analyst role.",
+      "ex2Zh": "HR把四十名申请者筛到三名有力的分析师人选。",
+      "t": "巴西总统选举第二轮投票结束，两位 candidate 进入最后对决；塞尔维亚方面，武契奇承认前进党在议会选举中败选，选后经济政策走向受关注。\n招聘场景同样高频：从 job candidate 到 shortlist，再到 offer，每一步都在筛人，比 applicant 更强调『被考虑的人选』。",
+      "root": "词根 cand-(白、发光，拉丁 candere，同源 candle 蜡烛、candid 坦率的) + 后缀 -ate(人) → 古罗马竞选者穿白袍以示清白 → 穿白袍的人 → 候选人、应聘者",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "poll",
+      "ph": "/pəʊl/",
+      "m": "(n./v.)民意调查；投票",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a survey of public opinion; the process of voting in an election",
+      "defs": [
+        {
+          "cn": "民意调查",
+          "en": "a survey measuring public opinion",
+          "pos": "n."
+        },
+        {
+          "cn": "投票、选举",
+          "en": "the act or process of voting",
+          "pos": "n."
+        },
+        {
+          "cn": "获得(票数)",
+          "en": "to receive a certain number of votes",
+          "pos": "v."
+        }
+      ],
+      "col": "opinion poll 民意调查 · go to the polls 前往投票 · poll result 民调结果 · lead in the polls 民调领先",
+      "ex": "Serbia's president admitted his party lost the parliamentary election as polls closed.",
+      "exZh": "塞尔维亚总统承认，随着投票结束，其政党在议会选举中败选。",
+      "ex2": "Brazil's presidential race headed to a second round of polling.",
+      "ex2Zh": "巴西总统选举进入第二轮投票。",
+      "t": "塞尔维亚总统承认前进党在议会选举中败选，巴西总统选举第二轮投票也宣告结束——poll 一词同时指\"投票\"与\"民调\"，是选举报道的核心词。\n财经延伸：市场常把 poll 结果当作政策预期的先行指标，民调领先往往带动本币与国债波动。",
+      "root": "源自中古英语 polle(人头、头顶)，与荷兰语 pol 同源 → 数人头 → 清点选民 → 投票与民意调查",
+      "d": "2026-10-26"
+    },
+    {
+      "w": "exhibition",
+      "ph": "/ˌeksɪˈbɪʃn/",
+      "m": "(n.)展览；展会",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a public display of goods, art or skills; a trade fair",
+      "defs": [
+        {
+          "cn": "展览、展会",
+          "en": "a public show of products or artworks",
+          "pos": "n."
+        },
+        {
+          "cn": "表现、展示",
+          "en": "the act of showing a quality or skill",
+          "pos": "n."
+        },
+        {
+          "cn": "博览会",
+          "en": "a large trade fair for an industry",
+          "pos": "n."
+        }
+      ],
+      "col": "trade exhibition 贸易展览 · hold an exhibition 举办展览 · exhibition hall 展厅 · film exhibition 电影展映",
+      "ex": "Overseas buyers gathered at the Canton Fair to seek opportunities at the exhibition.",
+      "exZh": "海外客商齐聚广交会，在展会上寻找商机。",
+      "ex2": "A retrospective film exhibition opened in Suzhou this week.",
+      "ex2Zh": "一场致敬经典的电影展本周在苏州启幕。",
+      "t": "广交会上非遗好物出海，海外客商组团在 exhibition 现场寻商机；同期\"2026年致敬经典·国际修复电影展\"在苏州启幕，展陈经济正成为消费新引擎。\n辨析：exhibition 偏\"展示、展陈\"，trade fair 更强调\"交易\"；广交会这类场合两者兼有。",
+      "root": "前缀 ex-(向外，拉丁，同源 exit 出口) + 词根 hib(=hab 持有，拉丁 habere，同源 inhibit 抑制) + 后缀 -ion(名词) → 拿出来给人看 → 展览、展示",
+      "d": "2026-10-26"
     }
   ],
   "preview": {
-    "hook": "一场围绕具身人工智能与[foldable|foldable]的数据合规听证会在布鲁塞尔与华盛顿同时升温：监管机构要求企业[refrain|refrain]跨境数据调取，并接受第三方[inspection|inspection]；然而[jurisdiction|jurisdiction]边界仍高度有争议，各方对新增[restriction|restriction]条款互不相让，摩擦正迅速升级。 面对[体现|embody]在地方选举中的[争议|contest]不断升级，观察人士警告说，若各方不冷静对话，紧张局势可能进一步[升级|escalate]。",
+    "hook": "某大型制造企业今日宣布因订单[shortfall|shortfall]扩大，将启动新一轮[furlough|furlough]安排并压缩[overtime|overtime]时长，此举立即引发工会[protest|protest]，工人代表指责公司只顾保住[profit|profit]而牺牲基层生计；与此同时，一项最新[poll|poll]显示，多数受访者认为企业管理层应对困境的方案缺乏透明度，而即将到来的股东大会上，多位[candidate|candidate]已表态将就此议题施压，相关劳资争议专题[exhibition|exhibition]也于同日开幕，吸引大量媒体到场。",
     "impact": ""
   }
 }

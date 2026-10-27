@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-26",
+  "updated_on": "2026-10-27",
   "quote": {
-    "en": "Learn to read the market's mood before it moves, and no swing can shake you.",
-    "zh": "学会在市场动之前读懂它的情绪，再大的起伏也摇不动你。"
+    "en": "Count every vote, and every voice becomes a force for change.",
+    "zh": "认真数清每一张选票，每一个声音都会成为改变的力量。"
   },
   "story": {
-    "en": "Serbia's ruling Progressive Party lost the parliamentary election, with President Vucic conceding defeat, while Brazil's presidential runoff closed and France's interior ministry reported 1,314 arrests in a new wave of [protest|protest]. In China, the national civil service exam saw approved [candidate|candidate] numbers fall for the first time in seven years, a [poll|poll] of interest for job seekers weighing public-sector stability. At the Canton Fair, intangible cultural heritage goods drew overseas buyers, an [exhibition|exhibition] channel for export deals. Corporate news mixed: Demingli posted Q3 net [profit|profit] of 2.729 billion yuan, up 2,902.75% year on year, while AstraZeneca trial data showed a Tagrisso combination cutting progression or death risk in a specific lung cancer by 45%. Labor pressures linger: [overtime|overtime] and [furlough|furlough] arrangements remain live issues, and a revenue [shortfall|shortfall] at the box office hit China's first AI theatrical film. Watch Serbia's coalition talks and Brazil's result.",
-    "cn": "在全球通胀降温的背景下，企业削减成本正从董事会话题演变为街头焦点。一家欧洲大型工业集团本周发生工人[抗议|protest]，此前管理层宣布对1200名员工实施临时[无薪休假|furlough]，并冻结[加班|overtime]费，警告称收入[缺口|shortfall]扩大可能迫使进一步裁员。该公司季度[利润|profit]未达内部目标，最新员工情绪[民意调查|poll]显示士气降至五年低点。与此同时，该行业一位高管[候选人|candidate]在贸易[展览|exhibition]会上表示，行业必须再培训工人，而非依赖短期节省。分析人士称，这场对峙将考验企业能否在不侵蚀信任的情况下填补缺口，各方关注下月薪资谈判。"
+    "en": "Global political [anomaly|anomaly] dominated Monday's headlines as Brazil's President Lula defied forecasts in a runoff, securing a record fourth term in a stunning reversal that shocked markets. In Serbia, student-backed opposition parties defeated President Vucic's party, a result that could reshape the [coalition|coalition] landscape. Meanwhile, China's Communist Party opened its 20th Central Committee's fifth [plenary|plenary] session in Beijing, setting the stage for major policy reviews. The [turnout|turnout] in these contests underscored voter volatility, while election officials in various countries face scrutiny over [ballot|ballot] integrity. In the US, with midterms approaching, Donald Trump claimed that reporting election fraud could yield $1 million, a move that may [clash|clash] with [supervisory|supervisory] norms. French President Macron warned of violence risk during weekend protests, adding to the tense atmosphere. Many young investors [defy|defy] conventional advice by pouring savings into volatile crypto markets.",
+    "cn": "周一全球政治[异常、反常现象|anomaly]现象主导新闻：巴西总统卢拉在第二轮选举中意外逆袭，创纪录赢得第四任期，震惊市场。塞尔维亚学生支持的反对派击败武契奇政党，可能重塑[联合政府|coalition]格局。与此同时，中国共产党第二十届中央委员会第五次[全体(会议)|plenary]在北京开幕，为重大政策审议拉开序幕。这些选举的[选票|ballot]率凸显选民波动性，多国选举官员面临[选票|ballot]公正性审查。美国中期选举临近，特朗普称举报选举舞弊可获100万美元，此举可能[违抗、公然挑战|defy]监管规范。法国总统马克龙警告周末示威仍存暴力[冲突|clash]风险，加剧紧张氛围。 此次选举的[投票率|turnout]虽高于上届，但在[监督的|supervisory]机制尚不完善的情况下，结果仍受到质疑。"
   },
   "words": [
     {
@@ -16403,10 +16403,274 @@
       "t": "广交会上非遗好物出海，海外客商组团在 exhibition 现场寻商机；同期\"2026年致敬经典·国际修复电影展\"在苏州启幕，展陈经济正成为消费新引擎。\n辨析：exhibition 偏\"展示、展陈\"，trade fair 更强调\"交易\"；广交会这类场合两者兼有。",
       "root": "前缀 ex-(向外，拉丁，同源 exit 出口) + 词根 hib(=hab 持有，拉丁 habere，同源 inhibit 抑制) + 后缀 -ion(名词) → 拿出来给人看 → 展览、展示",
       "d": "2026-10-26"
+    },
+    {
+      "w": "turnout",
+      "ph": "/ˈtɜːnaʊt/",
+      "m": "(n.)投票率；出席人数；产量",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the number of people who vote or attend an event; also output or production",
+      "defs": [
+        {
+          "cn": "投票率",
+          "en": "the proportion of eligible voters who actually vote",
+          "pos": "n."
+        },
+        {
+          "cn": "出席人数",
+          "en": "the number of people attending an event",
+          "pos": "n."
+        },
+        {
+          "cn": "产量",
+          "en": "the amount of goods produced in a period",
+          "pos": "n."
+        }
+      ],
+      "col": "voter turnout 选民投票率 · high turnout 高投票率 · turnout rate 出席率 · factory turnout 工厂产量",
+      "ex": "Record turnout in the second round gave the opposition a decisive mandate.",
+      "exZh": "第二轮选举创纪录的投票率让反对派获得决定性授权。",
+      "ex2": "The conference turnout exceeded expectations, with over two thousand attendees.",
+      "ex2Zh": "会议出席人数超出预期，超过两千人参加。",
+      "t": "巴西总统选举第二轮出现意外逆转，创纪录的 turnout 成为舆论焦点，市场随即重估政策走向与资产定价。\nturnout 是『出来的人数』，投票、开会、看展都能用；记法：turn out 出门 → 出门的人 → 出席率。",
+      "root": "turn(转动、出动，古英语 turnian，同源 return 返回) + out(向外，古英语 ūt) → 出门到场 → 出席人数 → 投票率、产量",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "plenary",
+      "ph": "/ˈpliːnəri/",
+      "m": "全体(会议)；全权的；完全的",
+      "c": "politics",
+      "pos": "adj./n.",
+      "en": "attended by all members of a group; in law, having full powers; a plenary session",
+      "defs": [
+        {
+          "cn": "全体会议",
+          "en": "a session attended by all members of a body",
+          "pos": "n."
+        },
+        {
+          "cn": "全权的",
+          "en": "having absolute or unlimited powers",
+          "pos": "adj."
+        },
+        {
+          "cn": "完全的",
+          "en": "complete and unconditional",
+          "pos": "adj."
+        }
+      ],
+      "col": "plenary session 全体会议 · plenary powers 全权 · plenary meeting 全体大会 · plenary debate 全体辩论",
+      "ex": "The Communist Party of China's 20th Central Committee opened its fifth plenary session in Beijing on 27 October.",
+      "exZh": "中国共产党第二十届中央委员会第五次全体会议10月27日在北京开始举行。",
+      "ex2": "The board reserved plenary powers to approve any merger above $1 billion.",
+      "ex2Zh": "董事会保留全权，以批准任何超过10亿美元的合并。",
+      "t": "中共二十届五中全会在北京开始举行，plenary session 成为财经媒体高频词——五年规划、政策定调都在全体会议里落锤，市场等着读公报里的关键词。\n记忆点：plenary 与 plenty 同源，意为“满满当当全体到场”；和 panel（小组会）相对，一个是全员，一个是分组。",
+      "root": "词根 plen(=plenus 满，拉丁，同源 plenty 充足、complete 完成) + 后缀 -ary(形容词，拉丁) → 满员的 → 全体出席的、全权的",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "defy",
+      "ph": "/dɪˈfaɪ/",
+      "m": "违抗、公然挑战；使难以(解释)",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to openly refuse to obey or resist something; also to be impossible to explain or describe",
+      "defs": [
+        {
+          "cn": "违抗、公然挑战",
+          "en": "to openly resist or refuse to obey authority",
+          "pos": "v."
+        },
+        {
+          "cn": "使难以(解释)",
+          "en": "to be too strange to explain or predict",
+          "pos": "v."
+        },
+        {
+          "cn": "(数据)打破预期",
+          "en": "to contradict expectations or trends",
+          "pos": "v."
+        }
+      ],
+      "col": "defy expectations 打破预期 · defy the odds 逆势而上 · defy authority 违抗权威 · defy description 难以形容",
+      "ex": "Lula defied the polls in Brazil's runoff, pulling off a surprise comeback to win a record fourth term.",
+      "exZh": "卢拉在巴西二轮选举中打破民调预期，意外逆袭，创纪录赢得第四任期。",
+      "ex2": "Some analysts say the AI film's weak box office defies the hype around generative content.",
+      "ex2Zh": "有分析师称，这部AI影片的疲软票房与生成式内容的炒作形成反差。",
+      "t": "巴西总统卢拉在二轮选举中意外逆袭、创纪录赢得第四任期，defy 了此前所有民调，震惊市场；塞尔维亚学生支持的反对派同样击败武契奇的政党，选票一再 defy 预测。\ndefy 的“违抗”与“打破预期”两义相通：都是“不按你说的来”。名词 defiance（公然反抗）可一并记。",
+      "root": "前缀 de-(离开、反，拉丁 dis-) + 词根 fy(=fid 信任，拉丁 fidere，同源 fidelity 忠诚) → 背离信任 → 公然违抗 → 引申为打破预期",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "supervisory",
+      "ph": "/ˌsuːpəˈvaɪzəri/",
+      "m": "监管的、监督管理的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "relating to watching over and directing activities, esp. in finance and management",
+      "defs": [
+        {
+          "cn": "监管的",
+          "en": "relating to official oversight of markets or firms",
+          "pos": "adj."
+        },
+        {
+          "cn": "监督管理的",
+          "en": "involving watching over staff or processes",
+          "pos": "adj."
+        },
+        {
+          "cn": "管理层的",
+          "en": "belonging to those who direct others' work",
+          "pos": "adj."
+        }
+      ],
+      "col": "supervisory board 监事会 · supervisory authority 监管机构 · supervisory role 监督职责 · banking supervisory rules 银行监管规则",
+      "ex": "Fund managers must file quarterly reports to their supervisory board.",
+      "exZh": "基金经理须向监事会提交季度报告。",
+      "ex2": "Her supervisory role now covers three regional teams.",
+      "ex2Zh": "她的监督管理职责如今覆盖三个区域团队。",
+      "t": "睿远基金旗下全部基金发布2026年第三季度报告提示性公告，这类披露背后是 supervisory 体系的硬约束；卢拉胜选后，市场也在猜巴西监管机构会不会换血。\n职场对照：supervisory 是“管人的人”，managerial 偏“经营决策”，前者重在盯合规，后者重在拿结果。",
+      "root": "前缀 super-(在上，拉丁 super，同源 superior 上级的) + 词根 vis(=看，拉丁 videre，同源 vision 视野) + 形容词后缀 -ory → 在上面看着 → 监督的、监管的",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "anomaly",
+      "ph": "/əˈnɒməli/",
+      "m": "异常、反常现象",
+      "c": "econ",
+      "pos": "n.",
+      "en": "something that deviates from the normal or expected pattern, in data or markets",
+      "defs": [
+        {
+          "cn": "异常、反常现象",
+          "en": "a thing that differs from the normal pattern",
+          "pos": "n."
+        },
+        {
+          "cn": "(数据)离群值",
+          "en": "an outlier in statistics or market data",
+          "pos": "n."
+        },
+        {
+          "cn": "不规则、破格",
+          "en": "irregularity in rules or structure",
+          "pos": "n."
+        }
+      ],
+      "col": "market anomaly 市场异象 · statistical anomaly 统计异常 · price anomaly 价格反常 · explain the anomaly 解释异常",
+      "ex": "Analysts called the box-office collapse an anomaly rather than a trend.",
+      "exZh": "分析师称这次票房崩塌是异常现象，而非趋势。",
+      "ex2": "The audit flagged an anomaly in the fund's quarterly figures.",
+      "ex2Zh": "审计发现该基金季度数据中有一处异常。",
+      "t": "《三星堆：未来往事》4天票房仅123万，被业内视为 AI 影视商业模式的 anomaly；另一边，苹果承认少量 iPhone Duo 折叠屏开裂，同样被当作个案而非系统缺陷。\n数据岗最爱这个词：anomaly detection（异常检测）就是在一堆数字里揪出那个“不对劲”的点，反义词是 norm 常态。",
+      "root": "前缀 an-(不、非，希腊 an-，同源 anonymous 匿名的) + 词根 homal(=same 相同，希腊 homalos，同源 homogeneous 同质的) + 名词后缀 -y → 不相同 → 反常、异常",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "ballot",
+      "ph": "/ˈbælət/",
+      "m": "选票；投票；无记名投票",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a system or act of voting, or the paper used to vote; in election and policy contexts",
+      "defs": [
+        {
+          "cn": "选票",
+          "en": "the paper or form used to cast a vote",
+          "pos": "n."
+        },
+        {
+          "cn": "投票；表决",
+          "en": "the act or process of voting",
+          "pos": "n."
+        },
+        {
+          "cn": "(工会)投票权",
+          "en": "the right to vote, esp. in a union or party",
+          "pos": "n."
+        }
+      ],
+      "col": "cast a ballot 投票 · secret ballot 无记名投票 · ballot box 票箱 · on the ballot 列入选票",
+      "ex": "Serbia's opposition, backed by students, defeated Vucic's party at the ballot, according to US media reports.",
+      "exZh": "据美国媒体报道，学生支持的反对派在塞尔维亚选举中于投票中击败了武契奇的政党。",
+      "ex2": "In Brazil, Lula's surprise comeback in the runoff ballot handed him a record fourth term.",
+      "ex2Zh": "在巴西，卢拉在第二轮投票中意外逆袭，创纪录赢得第四任期。",
+      "t": "时政线：塞尔维亚学生支持的反对派在 ballot 中击败武契奇政党；巴西卢拉则在二轮投票中意外逆袭、创纪录赢得第四任期，市场随之震动。\n职场联想：工会谈判里也说 strike ballot（罢工投票），一张 ballot 往往决定整个行业的人力成本走向。",
+      "root": "源自意大利语 ballotta(小球，拉丁 ball 同源 balloon 气球) → 古代用小球投入箱中计票 → 引申为选票、投票",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "clash",
+      "ph": "/klæʃ/",
+      "m": "冲突；交锋；(时间)撞车",
+      "c": "news",
+      "pos": "n.",
+      "en": "a serious disagreement or fight; also a scheduling conflict, in political and daily contexts",
+      "defs": [
+        {
+          "cn": "冲突；交锋",
+          "en": "a sharp disagreement or confrontation",
+          "pos": "n."
+        },
+        {
+          "cn": "(时间)撞车",
+          "en": "a situation where two events fall at the same time",
+          "pos": "n."
+        },
+        {
+          "cn": "不协调；抵触",
+          "en": "a strong mismatch of colors or views",
+          "pos": "v."
+        }
+      ],
+      "col": "clash with police 与警察冲突 · culture clash 文化冲突 · schedule clash 时间冲突 · clash of views 观点交锋",
+      "ex": "Macron warned that this weekend's protests still carry a risk of violent clashes in French cities.",
+      "exZh": "马克龙警告本周末的示威活动在法国多座城市仍存在暴力冲突风险。",
+      "ex2": "The earnings call clashes with the policy briefing, so the analyst team will split the coverage.",
+      "ex2Zh": "财报电话会与政策吹风会时间撞车，分析师团队将分头覆盖。",
+      "t": "时政线：马克龙称本周末示威仍存暴力 clash 风险，法国消费与旅游数据短期承压。\n职场联想：会议时间撞车就说 a schedule clash，比 conflict 更口语，也更中性。",
+      "root": "拟声来源，模仿金属撞击声（古法语 claquier 拍击，同源 clap 拍手） → 硬物相撞的声音 → 冲突、交锋",
+      "d": "2026-10-27"
+    },
+    {
+      "w": "coalition",
+      "ph": "/ˌkəʊəˈlɪʃn/",
+      "m": "(n.)联合政府；联盟；联合体",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a temporary alliance of parties or groups formed for a shared purpose, esp. in politics",
+      "defs": [
+        {
+          "cn": "联合政府",
+          "en": "a government formed by several parties together",
+          "pos": "n."
+        },
+        {
+          "cn": "联盟",
+          "en": "an alliance of groups or nations for a common aim",
+          "pos": "n."
+        },
+        {
+          "cn": "联合体",
+          "en": "a temporary union of organizations or people",
+          "pos": "n."
+        }
+      ],
+      "col": "form a coalition 组建联盟 · ruling coalition 执政联盟 · coalition government 联合政府 · fragile coalition 脆弱的联盟",
+      "ex": "Student-backed opposition parties built a coalition that defeated Vucic's ruling party in Serbia's election.",
+      "exZh": "学生支持的反对党结成联盟，在塞尔维亚选举中击败了武契奇的执政党。",
+      "ex2": "Five logistics firms formed a coalition to share warehouses and cut delivery costs.",
+      "ex2Zh": "五家物流企业结成联盟，共享仓库并降低配送成本。",
+      "t": "塞尔维亚选举中，学生支持的反对派以 coalition 形式击败武契奇的政党，说明分散力量一旦联合就能撬动长期执政者；联盟政治与商业联盟同理，关键在利益分配。\n职场联想：跨部门 coalition 往往比单打独斗更快推动变革，但也更考验协调耐心。",
+      "root": "前缀 co-(共同，拉丁，同源 cooperate 合作) + 词根 al(=alescere 成长，拉丁，同源 coalesce 合并) + 后缀 -ition(名词) → 一起成长结合 → 联合、联盟",
+      "d": "2026-10-27"
     }
   ],
   "preview": {
-    "hook": "某大型制造企业今日宣布因订单[shortfall|shortfall]扩大，将启动新一轮[furlough|furlough]安排并压缩[overtime|overtime]时长，此举立即引发工会[protest|protest]，工人代表指责公司只顾保住[profit|profit]而牺牲基层生计；与此同时，一项最新[poll|poll]显示，多数受访者认为企业管理层应对困境的方案缺乏透明度，而即将到来的股东大会上，多位[candidate|candidate]已表态将就此议题施压，相关劳资争议专题[exhibition|exhibition]也于同日开幕，吸引大量媒体到场。",
+    "hook": "今日，一场备受关注的[plenary|plenary]在争议声中召开，主办方公布的[turnout|turnout]远超预期，却被独立观察机构指为[anomaly|anomaly]现象；部分代表公开[defy|defy]会议程序，坚持要求对[ballot|ballot]进行逐张复核，监管委员会随即介入调查，而会场外支持者与反对者的激烈[clash|clash]一度令安保升级，这场围绕[coalition|coalition]命运的表决由此陷入僵局。 在银行内部，[监管|supervisory]部门会定期检查各分行的合规操作，确保每一笔贷款审批都符合规定。",
     "impact": ""
   }
 }

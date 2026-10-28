@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-28",
   "quote": {
-    "en": "Count every vote, and every voice becomes a force for change.",
-    "zh": "认真数清每一张选票，每一个声音都会成为改变的力量。"
+    "en": "Repeat the lesson until it becomes instinct, and no market swing can shake you.",
+    "zh": "把教训重复到成为本能，任何市场波动都撼动不了你。"
   },
   "story": {
-    "en": "Global political [anomaly|anomaly] dominated Monday's headlines as Brazil's President Lula defied forecasts in a runoff, securing a record fourth term in a stunning reversal that shocked markets. In Serbia, student-backed opposition parties defeated President Vucic's party, a result that could reshape the [coalition|coalition] landscape. Meanwhile, China's Communist Party opened its 20th Central Committee's fifth [plenary|plenary] session in Beijing, setting the stage for major policy reviews. The [turnout|turnout] in these contests underscored voter volatility, while election officials in various countries face scrutiny over [ballot|ballot] integrity. In the US, with midterms approaching, Donald Trump claimed that reporting election fraud could yield $1 million, a move that may [clash|clash] with [supervisory|supervisory] norms. French President Macron warned of violence risk during weekend protests, adding to the tense atmosphere. Many young investors [defy|defy] conventional advice by pouring savings into volatile crypto markets.",
-    "cn": "周一全球政治[异常、反常现象|anomaly]现象主导新闻：巴西总统卢拉在第二轮选举中意外逆袭，创纪录赢得第四任期，震惊市场。塞尔维亚学生支持的反对派击败武契奇政党，可能重塑[联合政府|coalition]格局。与此同时，中国共产党第二十届中央委员会第五次[全体(会议)|plenary]在北京开幕，为重大政策审议拉开序幕。这些选举的[选票|ballot]率凸显选民波动性，多国选举官员面临[选票|ballot]公正性审查。美国中期选举临近，特朗普称举报选举舞弊可获100万美元，此举可能[违抗、公然挑战|defy]监管规范。法国总统马克龙警告周末示威仍存暴力[冲突|clash]风险，加剧紧张氛围。 此次选举的[投票率|turnout]虽高于上届，但在[监督的|supervisory]机制尚不完善的情况下，结果仍受到质疑。"
+    "en": "Global dealmaking and legal news converged on Wednesday. Broadcom sealed a $63 billion [financing|financing] package for Anthropic, a sign that AI infrastructure increasingly leans on debt markets, while US stocks closed higher, with the Nasdaq up 1.18%. In Seoul, former first lady Kim Keon-hee will remain in [custody|custody] until year-end, and in Beijing a court handed down a suspended death sentence in a 436 million yuan bribery case. Tehran's supreme leader reiterated that ending the war requires Iran's conditions, as Israeli voters turned out in record numbers. On the corporate side, Bona Film Group hit the daily limit after its AI film earned only 1.23 million yuan in four days, raising questions about [valuation|valuation] and whether studios must [downsize|downsize] AI projects. A [settlement|settlement] in the bribery case and a [shareholder|shareholder] dispute over [retention|retention] of staff remain unresolved. Markets now watch the November APEC Shenzhen summit, where Japan is coordinating a high-level appearance, for the next policy signal. The minister had to [reiterate|reiterate] that inflation would ease soon, though critics remained doubtful.",
+    "cn": "本周市场焦点转向企业[融资|financing]环境。在全球通胀降温的背景下，多家上市集团着手修复资产负债表。分析人士[重申|reiterate]，决定企业能否穿越周期的关键在信贷可得性，而非表面增长。某中型工业发行人与贷款方达成[和解|settlement]，短期债务契约压力缓解，获一名主要[股东|shareholder]肯定。\n\n与此同时，一家物流运营商确认将精简后台人员，并承诺通过再培训保障核心工程人员的[留任|retention]。此轮调整伴随风险资产重新定价，现金充裕者与高杠杆者之间的[估值|valuation]差距进一步拉大。\n\n监管方面，针对零售投资平台资产[羁押|custody]的规则趋严，意在降低交易对手风险。展望后市，现金缓冲充足、披露透明的发行人更易率先获得资本青睐，实力较弱者在再融资窗口重开时或面临更苛刻条款。"
   },
   "words": [
     {
@@ -16667,10 +16667,260 @@
       "t": "塞尔维亚选举中，学生支持的反对派以 coalition 形式击败武契奇的政党，说明分散力量一旦联合就能撬动长期执政者；联盟政治与商业联盟同理，关键在利益分配。\n职场联想：跨部门 coalition 往往比单打独斗更快推动变革，但也更考验协调耐心。",
       "root": "前缀 co-(共同，拉丁，同源 cooperate 合作) + 词根 al(=alescere 成长，拉丁，同源 coalesce 合并) + 后缀 -ition(名词) → 一起成长结合 → 联合、联盟",
       "d": "2026-10-27"
+    },
+    {
+      "w": "financing",
+      "ph": "/ˈfaɪnænsɪŋ/",
+      "m": "(n.)融资；资金筹措",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of providing or raising money for a project or company, in financial contexts",
+      "defs": [
+        {
+          "cn": "融资",
+          "en": "the raising of money for a business or project",
+          "pos": "n."
+        },
+        {
+          "cn": "资金筹措",
+          "en": "the process of arranging funds from lenders or investors",
+          "pos": "n."
+        }
+      ],
+      "col": "debt financing 债务融资 · financing round 融资轮 · secure financing 获得融资 · project financing 项目融资",
+      "ex": "A major chip deal showed that AI infrastructure financing increasingly leans on debt markets.",
+      "exZh": "一笔大型芯片交易显示，AI基建融资日益依赖债务市场。",
+      "ex2": "The startup closed its financing round after months of investor scrutiny.",
+      "ex2Zh": "这家初创公司在数月投资者审视后完成了融资轮。",
+      "t": "财经线最热的是 [financing|financing]：博通为 Anthropic 敲定约630亿美元交易，AI基建的融资越来越依赖债务市场，杠杆与风险同步放大。\n职场类比：项目要钱也要\"融资\"——向老板争取预算时的路演，本质上就是一次 internal financing。",
+      "root": "词根 fin-(结束、结算，拉丁 finis，同源 final 最终的、finance 财政) + 后缀 -ing(名词化) → 了结债务、结清款项 → 融资、筹措资金",
+      "storyHint": "",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "reiterate",
+      "ph": "/riˈɪtəreɪt/",
+      "m": "(v.)重申；反复强调",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to say something again for emphasis, especially in statements and negotiations",
+      "defs": [
+        {
+          "cn": "重申",
+          "en": "to state something again, often for emphasis",
+          "pos": "v."
+        },
+        {
+          "cn": "反复强调",
+          "en": "to repeat a point insistently to make it clear",
+          "pos": "v."
+        }
+      ],
+      "col": "reiterate a commitment 重申承诺 · reiterate demands 重申要求 · reiterate support 重申支持 · publicly reiterate 公开重申",
+      "ex": "Officials reiterated that any deal must meet their stated conditions before talks resume.",
+      "exZh": "官员重申，任何协议都须满足其既定条件，谈判才会重启。",
+      "ex2": "The manager reiterated the deadline at the end of every meeting.",
+      "ex2Zh": "经理在每次会议结束都重申截止日期。",
+      "t": "时政线里 [reiterate|reiterate] 高频出现：伊朗最高领袖重申结束战争须满足伊方条件，措辞不变、立场不改，谈判空间被压缩。\n职场版：老板在会上 reiterate 目标，往往说明上一次没人当回事——重复本身就是一种施压信号。",
+      "root": "前缀 re-(再次，拉丁，同源 repeat 重复) + 词根 iter(=iterum 再一次，拉丁，同源 iterate 迭代) + 后缀 -ate(动词) → 再一次说 → 重申",
+      "storyHint": "",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "custody",
+      "ph": "/ˈkʌstədi/",
+      "m": "(n.)羁押；保管",
+      "c": "news",
+      "pos": "n.",
+      "en": "the state of being held by police or the legal right to care for someone or something",
+      "defs": [
+        {
+          "cn": "羁押",
+          "en": "the state of being held in detention by authorities",
+          "pos": "n."
+        },
+        {
+          "cn": "保管；监护",
+          "en": "the legal right or duty to care for a person or asset",
+          "pos": "n."
+        }
+      ],
+      "col": "in custody 被羁押 · take custody 取得监护权 · custody of assets 资产保管 · police custody 警方羁押",
+      "ex": "A former first lady will remain in custody until the end of the year, reports said.",
+      "exZh": "报道称，一位前第一夫人将被羁押至年底。",
+      "ex2": "The bank holds client assets in custody for safety.",
+      "ex2Zh": "银行为安全起见保管客户资产。",
+      "t": "新闻线：韩国前总统尹锡悦妻子金建希将被羁押至年底，[custody|custody] 一词再度占据头条，政治风波牵动市场情绪。\n财经语境里 custody 还有\"资产保管\"义：托管银行提供 custody 服务，与\"羁押\"同词不同境，靠上下文分辨。",
+      "root": "词根 cust(=custos 看守者，拉丁，同源 custodian 管理人、custody 保管) + 后缀 -ody(名词) → 看守、守护 → 羁押；保管",
+      "storyHint": "",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "downsize",
+      "ph": "/ˈdaʊnsaɪz/",
+      "m": "(v.)裁员；缩减规模；精简",
+      "c": "work",
+      "pos": "v.",
+      "en": "to reduce the number of employees or the scale of an organisation",
+      "defs": [
+        {
+          "cn": "裁员",
+          "en": "to cut staff numbers to reduce costs",
+          "pos": "v."
+        },
+        {
+          "cn": "缩减规模",
+          "en": "to make a firm or operation smaller",
+          "pos": "v."
+        },
+        {
+          "cn": "精简(产品线)",
+          "en": "to trim a range of products or services",
+          "pos": "v."
+        }
+      ],
+      "col": "downsize the workforce 裁减员工 · downsize operations 缩减业务 · forced to downsize 被迫瘦身 · downsize a department 精简部门",
+      "ex": "Firms that over-hired during the AI boom are now downsizing support teams.",
+      "exZh": "AI 热潮中过度招聘的企业正裁减支持团队。",
+      "ex2": "The publisher chose to downsize its print division and shift budget online.",
+      "ex2Zh": "该出版商选择缩减印刷部门，把预算转向线上。",
+      "t": "职场侧写：AI 基建融资火热，但传统岗位承压——多家企业把支持与运营团队 downsize，把预算挪向算力与数据。\n语气提醒：downsize 是委婉说法，比 fire 温和；写简历或谈判时用 restructure（重组）更体面。",
+      "root": "down(向下，古英语 dūne，同源 down 向下) + size(规模，古法语 sise 尺寸，同源 size 尺寸) → 把规模往下调 → 裁员、精简",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "settlement",
+      "ph": "/ˈsetlmənt/",
+      "m": "(n.)和解；结算；定居点",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an official agreement ending a dispute; the completion of a financial transaction",
+      "defs": [
+        {
+          "cn": "和解",
+          "en": "an agreement that resolves a legal dispute",
+          "pos": "n."
+        },
+        {
+          "cn": "结算",
+          "en": "the final payment or clearing of a trade",
+          "pos": "n."
+        },
+        {
+          "cn": "定居点",
+          "en": "a place where people establish a community",
+          "pos": "n."
+        }
+      ],
+      "col": "reach a settlement 达成和解 · cash settlement 现金结算 · trade settlement 交易结算 · out-of-court settlement 庭外和解",
+      "ex": "The court approved a settlement in the long-running contract dispute between the two suppliers.",
+      "exZh": "法院批准了两家供应商长期合同纠纷的和解方案。",
+      "ex2": "Faster settlement cycles reduce counterparty risk in cross-border payments.",
+      "ex2Zh": "更快的结算周期降低跨境支付中的对手方风险。",
+      "t": "今日司法与商业交叉点：受贿案一审宣判，涉案金额 4.36 亿元，判决与资产追缴成为舆论焦点；企业侧则更关注合同 settlement 与跨境结算效率。\n职场例句：\"We expect a settlement by Q1\" 是法务与财务会议的高频句，比 agreement 更强调终结争议。",
+      "root": "set(放置，古英语 settan，同源 set 放置) + -tle(反复动词后缀) + -ment(名词后缀，拉丁 -mentum) → 把事情安放妥当 → 和解、结算",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "shareholder",
+      "ph": "/ˈʃeəhəʊldə/",
+      "m": "(n.)股东；持股人",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a person or institution that owns shares in a company, central in corporate-governance and market news",
+      "defs": [
+        {
+          "cn": "股东",
+          "en": "an owner of shares in a company",
+          "pos": "n."
+        },
+        {
+          "cn": "持股机构",
+          "en": "an institution holding equity stakes",
+          "pos": "n."
+        },
+        {
+          "cn": "利益相关持股人",
+          "en": "a party with a financial stake via shares",
+          "pos": "n."
+        }
+      ],
+      "col": "major shareholder 大股东 · shareholder value 股东价值 · shareholder meeting 股东大会 · minority shareholder 小股东",
+      "ex": "Shareholders pressed the board to explain how the AI unit would lift returns.",
+      "exZh": "股东们要求董事会说明人工智能业务将如何提升回报。",
+      "ex2": "The fund became the largest shareholder after buying a 9% stake.",
+      "ex2Zh": "该基金买入 9% 股份后成为最大股东。",
+      "t": "公司治理线：随着 AI 基建融资愈发依赖债务市场，shareholder 开始追问回报周期与杠杆风险，董事会必须在扩张与现金流之间给出交代。\n记忆点：share(份额) + holder(持有者)，与 stakeholder(利益相关方)区分——股东只关心股权回报，员工、供应商、社区属于 stakeholder，范围更宽。",
+      "root": "复合词：share(份额，古英语 scearu 部分，同源 shear 剪切、share 分享) + holder(持有者，古英语 healdan 握持，同源 hold 握住) → 持有股份的人 → 股东",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "valuation",
+      "ph": "/ˌvæljuˈeɪʃn/",
+      "m": "(n.) 估值；估价，价值评估",
+      "c": "econ",
+      "pos": "n.",
+      "en": "an estimate of how much a company or asset is worth; the process of valuing",
+      "defs": [
+        {
+          "cn": "估值",
+          "en": "an estimate of the worth of a company or asset",
+          "pos": "n."
+        },
+        {
+          "cn": "估价过程",
+          "en": "the professional process of assessing value",
+          "pos": "n."
+        },
+        {
+          "cn": "价值判断",
+          "en": "a judgement about the worth of something",
+          "pos": "n."
+        }
+      ],
+      "col": "market valuation 市场估值 · valuation model 估值模型 · stretched valuation 估值偏高 · IPO valuation 上市估值",
+      "ex": "Investors debated whether the AI startup's valuation was justified by its revenue trajectory.",
+      "exZh": "投资者争论这家AI初创公司的估值是否与其营收轨迹相称。",
+      "ex2": "A sharp drop in valuation forced the fund to write down several holdings.",
+      "ex2Zh": "估值大幅下跌迫使该基金减记数项持仓。",
+      "t": "AI 基建热潮把 valuation 推到风口：大型融资交易愈发依赖债务市场，投资者开始追问高估值能否被现金流支撑，存储与光通信板块走强也带动相关公司估值重估。\n与 price（价格）不同，valuation 强调'对内在价值的评估'，常与 stretched（偏高）、justify（证明合理）搭配。",
+      "root": "词根 val(=value 价值，拉丁 valere 有价值，同源 valid 有效的、valor 英勇) + 后缀 -ation(名词，表过程) → 评估价值的过程 → 估值、估价。",
+      "d": "2026-10-28"
+    },
+    {
+      "w": "retention",
+      "ph": "/rɪˈtenʃn/",
+      "m": "(n.)留任；保持；保留",
+      "c": "work",
+      "pos": "n.",
+      "en": "the act of keeping employees or customers; the ability to hold or keep something",
+      "defs": [
+        {
+          "cn": "留任率",
+          "en": "the rate at which employees stay with a company",
+          "pos": "n."
+        },
+        {
+          "cn": "保持",
+          "en": "the continued possession or holding of something",
+          "pos": "n."
+        },
+        {
+          "cn": "记忆力",
+          "en": "the capacity to retain facts or information",
+          "pos": "n."
+        }
+      ],
+      "col": "staff retention 员工留任 · retention rate 留存率 · customer retention 客户留存 · water retention 水分滞留",
+      "ex": "With AI teams in fierce demand, staff retention has become as urgent as recruiting new engineers.",
+      "exZh": "AI团队需求旺盛，留住员工已与招聘新工程师同样紧迫。",
+      "t": "在AI人才争夺战中，企业一边 recruit 一边苦思 retention：薪酬之外，项目前景与培训机会成了留人的关键筹码。\n动词是 retain\"保留\"，反义是 attrition\"人才流失\"，两者常并提为 retention vs attrition。",
+      "root": "前缀 re-(向后、回，拉丁，同源 return 返回) + 词根 ten(握住，拉丁 tenere 握持，同源 tenant 租户、maintain 维持) + 后缀 -tion(名词化) → 往回握住 → 保留、留任",
+      "d": "2026-10-28"
     }
   ],
   "preview": {
-    "hook": "今日，一场备受关注的[plenary|plenary]在争议声中召开，主办方公布的[turnout|turnout]远超预期，却被独立观察机构指为[anomaly|anomaly]现象；部分代表公开[defy|defy]会议程序，坚持要求对[ballot|ballot]进行逐张复核，监管委员会随即介入调查，而会场外支持者与反对者的激烈[clash|clash]一度令安保升级，这场围绕[coalition|coalition]命运的表决由此陷入僵局。 在银行内部，[监管|supervisory]部门会定期检查各分行的合规操作，确保每一笔贷款审批都符合规定。",
+    "hook": "某科技公司今日宣布新一轮[financing|financing]方案，管理层同时[reiterate|reiterate]将严控成本，并计划对部分业务线[downsize|downsize]以改善现金流；此前因数据合规争议被[custody|custody]的高管已获保释，公司与监管机构的[settlement|settlement]谈判进入关键阶段，董事会则向[shareholder|shareholder]承诺将重新审视[valuation|valuation]逻辑，并通过股权激励提升核心团队[retention|retention]率。",
     "impact": ""
   }
 }

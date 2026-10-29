@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-29",
   "quote": {
-    "en": "Repeat the lesson until it becomes instinct, and no market swing can shake you.",
-    "zh": "把教训重复到成为本能，任何市场波动都撼动不了你。"
+    "en": "Skill is the one asset no headwind can repossess.",
+    "zh": "技能是唯一不会被逆风收回的资产。"
   },
   "story": {
-    "en": "Global dealmaking and legal news converged on Wednesday. Broadcom sealed a $63 billion [financing|financing] package for Anthropic, a sign that AI infrastructure increasingly leans on debt markets, while US stocks closed higher, with the Nasdaq up 1.18%. In Seoul, former first lady Kim Keon-hee will remain in [custody|custody] until year-end, and in Beijing a court handed down a suspended death sentence in a 436 million yuan bribery case. Tehran's supreme leader reiterated that ending the war requires Iran's conditions, as Israeli voters turned out in record numbers. On the corporate side, Bona Film Group hit the daily limit after its AI film earned only 1.23 million yuan in four days, raising questions about [valuation|valuation] and whether studios must [downsize|downsize] AI projects. A [settlement|settlement] in the bribery case and a [shareholder|shareholder] dispute over [retention|retention] of staff remain unresolved. Markets now watch the November APEC Shenzhen summit, where Japan is coordinating a high-level appearance, for the next policy signal. The minister had to [reiterate|reiterate] that inflation would ease soon, though critics remained doubtful.",
-    "cn": "本周市场焦点转向企业[融资|financing]环境。在全球通胀降温的背景下，多家上市集团着手修复资产负债表。分析人士[重申|reiterate]，决定企业能否穿越周期的关键在信贷可得性，而非表面增长。某中型工业发行人与贷款方达成[和解|settlement]，短期债务契约压力缓解，获一名主要[股东|shareholder]肯定。\n\n与此同时，一家物流运营商确认将精简后台人员，并承诺通过再培训保障核心工程人员的[留任|retention]。此轮调整伴随风险资产重新定价，现金充裕者与高杠杆者之间的[估值|valuation]差距进一步拉大。\n\n监管方面，针对零售投资平台资产[羁押|custody]的规则趋严，意在降低交易对手风险。展望后市，现金缓冲充足、披露透明的发行人更易率先获得资本青睐，实力较弱者在再融资窗口重开时或面临更苛刻条款。"
+    "en": "A [lockdown|lockdown] of uncertainty grips global markets as the Federal Reserve holds rates, delivering the expected [pause|pause] while two voters, including Cook, back a hike. Oil rose on the 28th, and domestic night futures closed mostly higher, energy leading. Diplomatically, the UN General Assembly passed its 34th resolution demanding the US end its [blockade|blockade] of Cuba, a long [deadlock|deadlock] unlikely to break soon. In the Middle East, the Kremlin said trilateral Russia-US-Ukraine talks will convene in Abu Dhabi after November 4, even as an Iranian parliamentary official said plans to exit the NPT are ready. Israel's election count leaves Netanyahu short of a majority, risking [gridlock|gridlock] in coalition talks. Spain's train collision killed 68, a grim toll. Beijing's autumn travel push now courts an [overnight|overnight] economy, urging visitors to stay a night rather than day-trip. A regulatory [crackdown|crackdown] theme runs through headlines on party discipline, though no single market rule dominates. Trump claimed Brazil's election was manipulated, offering no evidence. Closer to home, a 3.2-magnitude quake hit Baqing in Nagqu. Investors await the Abu Dhabi talks and any shift after the Fed's [stint|stint] of caution.",
+    "cn": "美联储如期按兵不动，重现分歧但鹰派减少，库克等两票委支持加息，市场将这一[暂停]([暂停行动|pause])解读为观望信号。国际油价28日上涨，国内商品期市夜盘多数上涨、能源品涨幅居前。联大连续第34次通过决议，要求美国终止对古巴[封锁]([封锁|blockade])，这一长期[僵局]([僵局|deadlock])短期难破。克宫宣布俄美乌三方会谈11月4日后在阿布扎比举行；伊朗议会官员称退出《不扩散核武器条约》计划已准备就绪。\n\n以色列大选最终格局仍待特殊选票初估，内塔尼亚胡组阁缺多数，联合谈判面临[僵局]([僵局、全面堵塞|gridlock])。西班牙列车相撞事故已致68死。北京京郊赏秋游从“当天往返”转向“多住一晚”，抢滩[过夜]([过夜的|overnight])经济。新闻中也可见从严治党、监管[严打]([严厉打击、集中整治|crackdown])的治理主题。\n\n特朗普称巴西大选被操纵却未选边站，无证据质疑选举公正性。西藏那曲市巴青县发生3.2级地震，震源深度6千米。市场正等待阿布扎比会谈，以及美联储这段谨慎[任期]([任职期|stint])后政策是否转向；此前多地紧急[封锁]([封锁|lockdown])的记忆仍影响风险偏好。"
   },
   "words": [
     {
@@ -16917,10 +16917,274 @@
       "t": "在AI人才争夺战中，企业一边 recruit 一边苦思 retention：薪酬之外，项目前景与培训机会成了留人的关键筹码。\n动词是 retain\"保留\"，反义是 attrition\"人才流失\"，两者常并提为 retention vs attrition。",
       "root": "前缀 re-(向后、回，拉丁，同源 return 返回) + 词根 ten(握住，拉丁 tenere 握持，同源 tenant 租户、maintain 维持) + 后缀 -tion(名词化) → 往回握住 → 保留、留任",
       "d": "2026-10-28"
+    },
+    {
+      "w": "lockdown",
+      "ph": "/ˈlɒkdaʊn/",
+      "m": "(政策)封锁；紧急状态下的限制措施",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an emergency restriction on movement or activity imposed by authorities; also a security freeze",
+      "defs": [
+        {
+          "cn": "封锁措施",
+          "en": "emergency restrictions imposed to control a situation",
+          "pos": "n."
+        },
+        {
+          "cn": "安全戒备状态",
+          "en": "a state in which a place is sealed off for safety",
+          "pos": "n."
+        },
+        {
+          "cn": "锁定(价格/资金)",
+          "en": "a freeze that prevents assets or prices from moving",
+          "pos": "n."
+        }
+      ],
+      "col": "impose a lockdown 实施封锁 · ease the lockdown 放松封锁 · security lockdown 安全封锁",
+      "ex": "The UN General Assembly voted for the 34th time to end the US lockdown on Cuba.",
+      "exZh": "联合国大会第34次通过决议，要求美国终止对古巴的封锁。",
+      "ex2": "Traders feared a sudden lockdown of the market could trap their positions overnight.",
+      "ex2Zh": "交易员担心市场突然封锁会让持仓一夜被套。",
+      "t": "联大连续第34次通过决议，要求美国终止对古巴长达数十年的 lockdown，投票几无悬念，却始终撼动不了华盛顿的立场。封锁既是外交工具，也是经济成本。\n职场里 lockdown 也指“封盘”：季度末财务系统进入 lockdown，任何改动都要走审批，和“冻结”是一个逻辑。",
+      "root": "lock(锁，古英语 loc，同源 locker 储物柜)+down(向下，古英语 ofdune)→ 把门锁死放下 → 全面封锁、限制出入",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "gridlock",
+      "ph": "/ˈɡrɪdlɒk/",
+      "m": "(政治/交通)僵局、全面堵塞",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a situation where no progress is made because opposing sides block each other; total traffic jam",
+      "defs": [
+        {
+          "cn": "政治僵局",
+          "en": "a deadlock blocking legislation or decisions",
+          "pos": "n."
+        },
+        {
+          "cn": "交通全面堵塞",
+          "en": "a traffic jam where vehicles cannot move",
+          "pos": "n."
+        },
+        {
+          "cn": "陷入僵持",
+          "en": "to become blocked with no movement forward",
+          "pos": "v."
+        }
+      ],
+      "col": "political gridlock 政治僵局 · break the gridlock 打破僵局 · traffic gridlock 交通瘫痪 · budget gridlock 预算僵局",
+      "ex": "Lawmakers returned to Washington with warnings that budget gridlock could delay key spending bills.",
+      "exZh": "议员们返回华盛顿，警告预算僵局可能拖延关键支出法案。",
+      "ex2": "Heavy rain caused gridlock across the city's ring road during the morning rush.",
+      "ex2Zh": "暴雨让城市环路在早高峰全面堵塞。",
+      "t": "以色列大选后特殊选票初估低于预期，内塔尼亚胡组阁仍缺多数，政治 gridlock 的阴影直接压在中东资产估值上。\n与 stalemate 近义，但 gridlock 更强调“互相卡死、谁都动不了”，像十字路口四面红灯，比单纯谈判停顿更有画面感。",
+      "root": "grid(格栅、路网，源自拉丁 cratis 编织物，同源 crate 板条箱) + lock(锁住，古英语 loc，同源 lockable 可锁的) → 路口被锁死 → 交通瘫痪 → 引申为政治僵局",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "crackdown",
+      "ph": "/ˈkrækdaʊn/",
+      "m": "(监管)严厉打击、集中整治",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a severe campaign by authorities to punish or stop illegal or unwanted activity",
+      "defs": [
+        {
+          "cn": "严厉打击",
+          "en": "a strict official campaign to suppress activity",
+          "pos": "n."
+        },
+        {
+          "cn": "集中整治",
+          "en": "an intensive regulatory sweep against abuses",
+          "pos": "n."
+        },
+        {
+          "cn": "镇压行动",
+          "en": "harsh enforcement action by authorities",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory crackdown 监管整治 · crackdown on fraud 打击欺诈 · launch a crackdown 发起整治 · crackdown on speculation 打击投机",
+      "ex": "A regulatory crackdown on commodity speculation lifted energy futures in night trading.",
+      "exZh": "针对商品投机的监管整治推动夜盘能源期货走高。",
+      "ex2": "The company paused its ad campaign after a crackdown on misleading claims.",
+      "ex2Zh": "在打击虚假宣传的整治行动后，公司暂停了广告活动。",
+      "t": "国内商品期市夜盘多数上涨、能源品涨幅居前，市场同时紧盯监管层对投机交易的 crackdown 节奏，怕一纸通知改变资金流向。\n职场语感：crackdown 比 check 重得多，是“动真格”；公司内部合规大检查也可说 an internal crackdown on expense fraud。",
+      "root": "crack(猛击、破裂，古英语 cracian，同源 crackle 噼啪响) + down(向下，古英语 dūne，同源 downward 向下的) → 一击打下去 → 强力镇压、集中整治",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "stint",
+      "ph": "/stɪnt/",
+      "m": "(一段)任职期；工作任期",
+      "c": "work",
+      "pos": "n. / v.",
+      "en": "a fixed period of work or service in a job or role; to be frugal with resources",
+      "defs": [
+        {
+          "cn": "(一段)任职期",
+          "en": "a period of time spent doing a particular job",
+          "pos": "n."
+        },
+        {
+          "cn": "节制、吝惜",
+          "en": "to limit spending or supply of something",
+          "pos": "v."
+        },
+        {
+          "cn": "短期工作",
+          "en": "a short spell of employment or duty",
+          "pos": "n."
+        }
+      ],
+      "col": "a two-year stint 两年任期 · stint abroad 海外任职 · stint on costs 在成本上吝啬 · after a brief stint 短暂任职之后",
+      "ex": "After a three-year stint in Singapore, she returned to lead the regional procurement team.",
+      "exZh": "在新加坡任职三年后，她回国带领区域采购团队。",
+      "ex2": "Managers who stint on training often pay for it later in turnover.",
+      "ex2Zh": "在培训上吝啬的管理者，往往要在人员流失上加倍偿还。",
+      "t": "职场里的 stint 常写在简历上：一段 stint 有多长、做出什么，比头衔更说明问题；跨部门轮岗的短 stint 正被越来越多企业当作培养手段。\n辨析：stint 强调“有始有终的一段”，tenure 偏正式任期，spell 更口语；说 a brief stint 往往暗示短暂但有收获。",
+      "root": "源自古英语 styntan(使变钝、限制，同源 stunt 阻碍生长) → 由“限制”引申为“限定时间的一段工作” → 任职期",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "overnight",
+      "ph": "/ˌəʊvəˈnaɪt/",
+      "m": "过夜的；一夜之间",
+      "c": "news",
+      "pos": "adj. / adv.",
+      "en": "lasting or happening during the night; also happening very suddenly",
+      "defs": [
+        {
+          "cn": "过夜的",
+          "en": "involving a stay for the night, as in travel",
+          "pos": "adj."
+        },
+        {
+          "cn": "一夜之间",
+          "en": "happening suddenly and very quickly",
+          "pos": "adv."
+        },
+        {
+          "cn": "通宵的",
+          "en": "continuing through the whole night",
+          "pos": "adj."
+        }
+      ],
+      "col": "overnight stay 过夜住宿 · overnight success 一夜成名 · stay overnight 留宿一晚 · change overnight 一夜之间改变",
+      "ex": "Suburban autumn tours are pushing overnight packages as visitors shift from day trips to weekend stays.",
+      "exZh": "随着游客从一日游转向周末停留，京郊赏秋线路正力推过夜套餐。",
+      "ex2": "No career is built overnight, however impressive the first quarter looks.",
+      "ex2Zh": "无论首个季度多亮眼，职业生涯都不是一夜建成的。",
+      "t": "从“当天往返”到“多住一晚”，京郊赏秋游抢滩过夜经济，overnight 套餐带动民宿、餐饮与夜间消费，成为周末经济的新抓手。\n提醒：overnight 作形容词是“过夜的”，作副词是“一夜之间”，overnight success 多半是多年积累的错觉。",
+      "root": "古英语 ofer(越过，同源 over 在上) + niht(夜，同源 night 夜晚) → 越过整夜 → 通宵、过夜；引申为“一夜之间”",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "pause",
+      "ph": "/pɔːz/",
+      "m": "(美联储)暂停行动；停顿",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to temporarily stop an action or process, esp. a central bank halting rate changes",
+      "defs": [
+        {
+          "cn": "(政策)暂停",
+          "en": "to halt a policy move temporarily, e.g. rate decisions",
+          "pos": "v."
+        },
+        {
+          "cn": "停顿；间歇",
+          "en": "a short break in speech, activity or movement",
+          "pos": "n."
+        },
+        {
+          "cn": "使暂停",
+          "en": "to cause something to stop for a while",
+          "pos": "v."
+        }
+      ],
+      "col": "pause rate hikes 暂停加息 · a pause in trading 交易暂停 · pause for breath 停下来喘口气 · brief pause 短暂停顿",
+      "ex": "The Federal Reserve chose to pause at its latest meeting, keeping rates unchanged while two voters pushed for a hike.",
+      "exZh": "美联储在最近一次会议上选择暂停行动，维持利率不变，同时有两名票委主张加息。",
+      "ex2": "She hit pause on the project until the new budget was approved.",
+      "ex2Zh": "她暂停了该项目，直到新预算获批。",
+      "t": "今天的核心财经事件是美联储如期按兵不动，选择 pause，但会议重现分歧，库克等两票委竟支持加息，鹰派声音虽减少却未消失。\n职场里也常用：遇到方向不明就先 hit pause（按下暂停键），比硬推更稳妥；pause 是主动的停顿，不是被迫的停滞。",
+      "root": "源自古法语 pause，上溯拉丁 pausa(停止)，与希腊 pausis(中止)同源 → 由『使停止』引申为现代『暂停、停顿』",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "blockade",
+      "ph": "/blɒˈkeɪd/",
+      "m": "(经济)封锁；禁运",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official action to stop trade, movement or supplies, esp. in political/economic contexts",
+      "defs": [
+        {
+          "cn": "封锁；禁运",
+          "en": "an act of sealing off trade or movement of a place",
+          "pos": "n."
+        },
+        {
+          "cn": "实施封锁",
+          "en": "to impose a blockade on a place or economy",
+          "pos": "v."
+        },
+        {
+          "cn": "阻碍；堵住",
+          "en": "to obstruct progress or access figuratively",
+          "pos": "v."
+        }
+      ],
+      "col": "lift a blockade 解除封锁 · trade blockade 贸易封锁 · impose a blockade 实施封锁 · naval blockade 海上封锁",
+      "ex": "The UN General Assembly voted for the 34th consecutive year to demand that the United States end its blockade of Cuba.",
+      "exZh": "联合国大会连续第34年通过决议，要求美国终止对古巴的封锁。",
+      "ex2": "A blockade on key components could stall production across the industry.",
+      "ex2Zh": "对关键零部件的封锁可能拖慢整个行业的生产。",
+      "t": "时政层面，联大连续第34次通过决议，要求美国终止对古巴的 blockade，封锁议题年年重演，折射出外交僵局的顽固。\n记法：blockade 与 block(阻挡)同根，加 -ade 表示『持续的动作』——把路堵起来不让过，就是封锁；贸易谈判中的经济封锁同样用这个词。",
+      "root": "词根 block(阻挡，中古荷兰语 blok 木块，同源 block/blockage) + 后缀 -ade(表动作或状态，法语) → 用障碍物堵住通道 → 封锁、禁运",
+      "d": "2026-10-29"
+    },
+    {
+      "w": "deadlock",
+      "ph": "/ˈdedlɒk/",
+      "m": "僵局；陷入僵持",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a situation where no progress is possible because sides cannot agree",
+      "defs": [
+        {
+          "cn": "僵局；僵持",
+          "en": "a standstill where neither side can win or move",
+          "pos": "n."
+        },
+        {
+          "cn": "使陷入僵局",
+          "en": "to bring negotiations to a complete standstill",
+          "pos": "v."
+        },
+        {
+          "cn": "僵持不下的",
+          "en": "describing talks or votes stuck with no majority",
+          "pos": "adj."
+        }
+      ],
+      "col": "break the deadlock 打破僵局 · reach a deadlock 陷入僵局 · political deadlock 政治僵局 · deadlock over talks 谈判僵局",
+      "ex": "Israel's election results show a deadlock, with Netanyahu still short of a majority needed to form a government.",
+      "exZh": "以色列大选结果显示陷入僵局，内塔尼亚胡仍缺组建政府所需的多数席位。",
+      "ex2": "Talks between the union and management ended in deadlock over pay.",
+      "ex2Zh": "工会与资方的谈判在薪酬问题上陷入僵局。",
+      "t": "时政热点里，以色列大选最终格局显示 deadlock，特殊选票初估低于预期，内塔尼亚胡组阁仍缺多数，政治僵局直接影响市场预期。\n职场同样适用：谈判卡在某个条款上就是 reach a deadlock，此时需要第三方调解或换议题，才能 break the deadlock（打破僵局）。",
+      "root": "dead(死的，古英语 dēad，同源 death) + lock(锁，古英语 loc，同源 lock/locker) → 像死锁一样转不动 → 僵局、僵持",
+      "d": "2026-10-29"
     }
   ],
   "preview": {
-    "hook": "某科技公司今日宣布新一轮[financing|financing]方案，管理层同时[reiterate|reiterate]将严控成本，并计划对部分业务线[downsize|downsize]以改善现金流；此前因数据合规争议被[custody|custody]的高管已获保释，公司与监管机构的[settlement|settlement]谈判进入关键阶段，董事会则向[shareholder|shareholder]承诺将重新审视[valuation|valuation]逻辑，并通过股权激励提升核心团队[retention|retention]率。",
+    "hook": "华盛顿最新一轮[blockade|blockade]式预算谈判再度陷入[deadlock|deadlock]，参院两党围绕拨款条款的全面堵塞已持续数周，白宫随即宣布对违规游说团体启动[crackdown|crackdown]；与此同时，美联储在短暂[pause|pause]加息后释放的信号令隔夜过夜拆借利率跳升，市场担忧若谈判破裂，新一轮经济封锁将波及跨境结算，而财长在其短暂[stint|stint]内首次公开警告政治僵持正侵蚀政策可信度。 疫情突然暴发后，政府连夜[封锁|lockdown]全城以遏制病毒扩散，但这道命令却让本就脆弱的交通瞬间陷入[僵局|gridlock]，许多市民的出行计划也在一夜之间[突然|overnight]被打乱。",
     "impact": ""
   }
 }

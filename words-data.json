@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-30",
   "quote": {
-    "en": "Skill is the one asset no headwind can repossess.",
-    "zh": "技能是唯一不会被逆风收回的资产。"
+    "en": "Learn the rules of the market before the market teaches you.",
+    "zh": "先学会市场的规则，别等市场来教你。"
   },
   "story": {
-    "en": "A [lockdown|lockdown] of uncertainty grips global markets as the Federal Reserve holds rates, delivering the expected [pause|pause] while two voters, including Cook, back a hike. Oil rose on the 28th, and domestic night futures closed mostly higher, energy leading. Diplomatically, the UN General Assembly passed its 34th resolution demanding the US end its [blockade|blockade] of Cuba, a long [deadlock|deadlock] unlikely to break soon. In the Middle East, the Kremlin said trilateral Russia-US-Ukraine talks will convene in Abu Dhabi after November 4, even as an Iranian parliamentary official said plans to exit the NPT are ready. Israel's election count leaves Netanyahu short of a majority, risking [gridlock|gridlock] in coalition talks. Spain's train collision killed 68, a grim toll. Beijing's autumn travel push now courts an [overnight|overnight] economy, urging visitors to stay a night rather than day-trip. A regulatory [crackdown|crackdown] theme runs through headlines on party discipline, though no single market rule dominates. Trump claimed Brazil's election was manipulated, offering no evidence. Closer to home, a 3.2-magnitude quake hit Baqing in Nagqu. Investors await the Abu Dhabi talks and any shift after the Fed's [stint|stint] of caution.",
-    "cn": "美联储如期按兵不动，重现分歧但鹰派减少，库克等两票委支持加息，市场将这一[暂停]([暂停行动|pause])解读为观望信号。国际油价28日上涨，国内商品期市夜盘多数上涨、能源品涨幅居前。联大连续第34次通过决议，要求美国终止对古巴[封锁]([封锁|blockade])，这一长期[僵局]([僵局|deadlock])短期难破。克宫宣布俄美乌三方会谈11月4日后在阿布扎比举行；伊朗议会官员称退出《不扩散核武器条约》计划已准备就绪。\n\n以色列大选最终格局仍待特殊选票初估，内塔尼亚胡组阁缺多数，联合谈判面临[僵局]([僵局、全面堵塞|gridlock])。西班牙列车相撞事故已致68死。北京京郊赏秋游从“当天往返”转向“多住一晚”，抢滩[过夜]([过夜的|overnight])经济。新闻中也可见从严治党、监管[严打]([严厉打击、集中整治|crackdown])的治理主题。\n\n特朗普称巴西大选被操纵却未选边站，无证据质疑选举公正性。西藏那曲市巴青县发生3.2级地震，震源深度6千米。市场正等待阿布扎比会谈，以及美联储这段谨慎[任期]([任职期|stint])后政策是否转向；此前多地紧急[封锁]([封锁|lockdown])的记忆仍影响风险偏好。"
+    "en": "Market nerves and political risk collided on Thursday as investors weighed a [volatile|volatile] session against a busy calendar of elections and security news. In Israel, the election countdown continued with Netanyahu's camp ahead but still short of a majority, leaving coalition talks exposed to special ballots and [credibility|credibility] concerns. Kyiv echoed with strong explosions, while media reported over 10 US military aircraft arriving at an Israeli air base, a signal that regional tensions could [escalate|escalate]. Domestically, Wuhan opened China's longest [municipal|municipal] metro loop line, a [resilient|resilient] infrastructure bet despite wider economic [disruption|disruption]. Oil slipped slightly on the 29th, and the ECB's Lagarde said underlying inflation was stable and financing conditions already tight, refusing to preset a rate path. Retail fuel prices were raised with state adjustment trimming the increase. Separately, a [vote|vote] of confidence in governance emerged as the CE defended accountability after the Tai Po fire. Investors should [leverage|leverage] these signals cautiously into year-end.",
+    "cn": "周四，市场情绪与政治风险交织。以色列大选进入倒计时，内塔尼亚胡阵营领先但仍缺多数，特殊选票可能改写组阁格局，联盟谈判的[信誉|credibility]面临考验。基辅响起强烈爆炸声，以媒称超10架美国军机飞抵以色列空军基地，地区紧张或进一步升级。\n\n国内方面，武汉开通国内最长地铁环线，这一市政工程展现基础设施韧性，但整体经济仍面临扰动。国际油价29日微跌；欧央行行长拉加德称基础通胀稳定、工资压力温和、融资条件已收紧，不预设利率路径。国内成品油零售价适当上调，国家再次调控压减涨幅。\n\n治理层面，大埔火灾后特首李家超表示带政府正视问题，问责成为一场信任[投票|vote]。投资者需在[剧烈波动的|volatile]环境中谨慎借力这些信号布局年底。 面对[市政的|municipal]预算压力不断[升级|escalate]，当局希望[利用|leverage]社会资本来缓冲[干扰|disruption]，从而打造更具[韧性的|resilient]公共服务体系。"
   },
   "words": [
     {
@@ -17181,10 +17181,159 @@
       "t": "时政热点里，以色列大选最终格局显示 deadlock，特殊选票初估低于预期，内塔尼亚胡组阁仍缺多数，政治僵局直接影响市场预期。\n职场同样适用：谈判卡在某个条款上就是 reach a deadlock，此时需要第三方调解或换议题，才能 break the deadlock（打破僵局）。",
       "root": "dead(死的，古英语 dēad，同源 death) + lock(锁，古英语 loc，同源 lock/locker) → 像死锁一样转不动 → 僵局、僵持",
       "d": "2026-10-29"
+    },
+    {
+      "w": "municipal",
+      "ph": "/mjuːˈnɪsɪpl/",
+      "m": "(adj.)市政的；地方政府的",
+      "c": "news",
+      "pos": "adj.",
+      "en": "relating to a city or town and its local government",
+      "defs": [
+        {
+          "cn": "市政的",
+          "en": "connected with a city's local government and services",
+          "pos": "adj."
+        },
+        {
+          "cn": "地方性的",
+          "en": "relating to local rather than national affairs",
+          "pos": "adj."
+        },
+        {
+          "cn": "市政债券",
+          "en": "bonds issued by a city government",
+          "pos": "adj."
+        }
+      ],
+      "col": "municipal government 市政府 · municipal bond 市政债券 · municipal services 市政服务 · municipal transport 城市交通",
+      "ex": "Wuhan's new municipal rail loop, the longest of its kind in China, opened to passengers this week.",
+      "exZh": "武汉新建的市政轨道环线本周开通，为中国同类线路最长。",
+      "ex2": "Municipal authorities in Tianjin staged a showcase for women speakers to highlight workplace stories.",
+      "ex2Zh": "天津市政部门举办巾帼宣讲员风采展示活动，讲述职场故事。",
+      "t": "国内最长地铁环线在湖北武汉开通，这条 municipal 级工程把城市多个片区串成闭环，被视为地方基建投资的样板。天津同日开展巾帼宣讲员风采展示活动。\n财经延伸：municipal bond(市政债)是地方融资的重要工具，读到市政新闻时顺手记住这个搭配，比单记\"市政的\"有用得多。",
+      "root": "词根 mun(公共职责，拉丁 munus，同源 community 社区、immune 豁免) + 词根 cip(取，拉丁 capere，同源 capture 捕获) + 后缀 -al → 承担公共职责的 → 市政的、地方自治的。",
+      "d": "2026-10-30"
+    },
+    {
+      "w": "vote",
+      "ph": "/vəʊt/",
+      "m": "(n./v.)投票；表决",
+      "c": "politics",
+      "en": "A formal choice in an election or meeting; to cast such a choice",
+      "defs": [
+        {
+          "cn": "投票",
+          "en": "a formal expression of choice in an election",
+          "pos": "n."
+        },
+        {
+          "cn": "表决权",
+          "en": "the right to cast a formal choice",
+          "pos": "n."
+        },
+        {
+          "cn": "投票决定",
+          "en": "to decide something by casting votes",
+          "pos": "v."
+        }
+      ],
+      "col": "cast a vote 投票 · vote of confidence 信任投票 · swing vote 摇摆票 · put to a vote 付诸表决",
+      "ex": "Israel's election countdown continues, with Netanyahu's camp ahead but still short of a majority as special votes are counted.",
+      "exZh": "以色列大选进入倒计时，内塔尼亚胡阵营领先但仍缺多数，特殊选票仍在统计。",
+      "ex2": "Shareholders will vote on the merger at next month's meeting.",
+      "ex2Zh": "股东将在下月会议上就合并投票表决。",
+      "t": "以色列大选今日进入结局倒计时：内塔尼亚胡阵营领先但仍缺多数，特殊选票或改写组阁格局——每一张 vote 都可能决定政策与市场的走向。\n市场逻辑：选举的经济影响常先反映在汇率与国债上，vote 未定，资金就先观望。",
+      "root": "源自拉丁 votum(誓言、愿望，同源 vow 誓言、devote 奉献) → 向神许愿 → 表达意愿 → 投票表决",
+      "d": "2026-10-30"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-30",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-30",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-30",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-30",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-30",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的",
+      "c": "work",
+      "d": "2026-10-30",
+      "ex": "Chip demand proved resilient despite the slowdown.",
+      "exZh": "尽管经济放缓，芯片需求仍展现出韧性。",
+      "t": "AI 芯片需求 resilient，跌了又回。",
+      "root": "前缀 re-(回) + 词根 sili(跳,拉丁 salire) + 后缀 -ent(形容词) → 能弹回的 → 有韧性的",
+      "pos": "adj.",
+      "en": "able to recover quickly from difficulties",
+      "col": "prove resilient · remain resilient · economic resilience"
     }
   ],
   "preview": {
-    "hook": "华盛顿最新一轮[blockade|blockade]式预算谈判再度陷入[deadlock|deadlock]，参院两党围绕拨款条款的全面堵塞已持续数周，白宫随即宣布对违规游说团体启动[crackdown|crackdown]；与此同时，美联储在短暂[pause|pause]加息后释放的信号令隔夜过夜拆借利率跳升，市场担忧若谈判破裂，新一轮经济封锁将波及跨境结算，而财长在其短暂[stint|stint]内首次公开警告政治僵持正侵蚀政策可信度。 疫情突然暴发后，政府连夜[封锁|lockdown]全城以遏制病毒扩散，但这道命令却让本就脆弱的交通瞬间陷入[僵局|gridlock]，许多市民的出行计划也在一夜之间[突然|overnight]被打乱。",
+    "hook": "今天，某市政当局推动的债券[vote|vote]因财政争议而升级为街头对峙，市场对[volatile|volatile]利率预期迅速升温，投资者担心高[leverage|leverage]的城投平台将面临融资[disruption|disruption]，而地方[credibility|credibility]能否守住成为焦点。 面对不断[升级|escalate]的财政压力，[市政的|municipal]部门正努力打造更具[韧性|resilient]的公共服务体系。",
     "impact": ""
   }
 }

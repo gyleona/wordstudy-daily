@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "quote": {
-    "en": "Learn the rules of the market before the market teaches you.",
-    "zh": "先学会市场的规则，别等市场来教你。"
+    "en": "Learn the rules before the market teaches you the cost.",
+    "zh": "先学会规则，别等市场来教你代价。"
   },
   "story": {
-    "en": "Market nerves and political risk collided on Thursday as investors weighed a [volatile|volatile] session against a busy calendar of elections and security news. In Israel, the election countdown continued with Netanyahu's camp ahead but still short of a majority, leaving coalition talks exposed to special ballots and [credibility|credibility] concerns. Kyiv echoed with strong explosions, while media reported over 10 US military aircraft arriving at an Israeli air base, a signal that regional tensions could [escalate|escalate]. Domestically, Wuhan opened China's longest [municipal|municipal] metro loop line, a [resilient|resilient] infrastructure bet despite wider economic [disruption|disruption]. Oil slipped slightly on the 29th, and the ECB's Lagarde said underlying inflation was stable and financing conditions already tight, refusing to preset a rate path. Retail fuel prices were raised with state adjustment trimming the increase. Separately, a [vote|vote] of confidence in governance emerged as the CE defended accountability after the Tai Po fire. Investors should [leverage|leverage] these signals cautiously into year-end.",
-    "cn": "周四，市场情绪与政治风险交织。以色列大选进入倒计时，内塔尼亚胡阵营领先但仍缺多数，特殊选票可能改写组阁格局，联盟谈判的[信誉|credibility]面临考验。基辅响起强烈爆炸声，以媒称超10架美国军机飞抵以色列空军基地，地区紧张或进一步升级。\n\n国内方面，武汉开通国内最长地铁环线，这一市政工程展现基础设施韧性，但整体经济仍面临扰动。国际油价29日微跌；欧央行行长拉加德称基础通胀稳定、工资压力温和、融资条件已收紧，不预设利率路径。国内成品油零售价适当上调，国家再次调控压减涨幅。\n\n治理层面，大埔火灾后特首李家超表示带政府正视问题，问责成为一场信任[投票|vote]。投资者需在[剧烈波动的|volatile]环境中谨慎借力这些信号布局年底。 面对[市政的|municipal]预算压力不断[升级|escalate]，当局希望[利用|leverage]社会资本来缓冲[干扰|disruption]，从而打造更具[韧性的|resilient]公共服务体系。"
+    "en": "Gold slid below $3,900 an ounce as a firmer dollar and fading haven demand added a clear headwind to bullion, while crude prices rose on the 30th, according to Xinhua. On the policy side, Washington moved to bar Chinese telecom firms from directly obtaining US phone numbers, a step that could reshape cross-border procurement contracts and invite a new tariff debate in Congress. Havana confirmed that its expelled UN diplomats had repatriated home after Washington ordered them out, keeping diplomatic friction on the agenda even as Beijing hosted German President Steinmeier and Swiss President Parmelin for talks with Premier Li Qiang. In the corporate world, service robots drew heavy overseas interest at the Canton Fair, pushing buyers to rethink outsourcing and supply-chain sanction exposure. Large pension funds are rotating into cash and bullion, and more engineers are going freelance to take cross-border projects. The week ahead will test whether policy tightening outweighs [resilient|resilient] demand. Also featured: [shipment|shipment]; [escalate|escalate]; [volatile|volatile]; [leverage|leverage]; [disruption|disruption]; [credibility|credibility]; [amplify|amplify].",
+    "cn": "市场被两条线索同时牵动。其一是贵金属与能源：国际金价跌破每盎司3900美元，美元走强与避险买盘退潮构成明显headwind，而国际油价30日反而上涨，资产分化[放大、加剧|amplify]。其二是监管与外交：美方拟禁止中国电信企业直接procurement美国电话号码，跨境通信的procurement合同面临重审，tariff争论也随之升温；古巴遭驱逐的外交官回国，人员repatriate与资金回流被同一个词串起。\n企业与职场层面同样热闹。广交会上服务机器人解锁出海新范式，海外买家把采购环节前移，outsourcing与合规风险成为谈判重点；大型养老基金在金价回调中调整仓位，久期与避险比例同步重估。\n就业端的变化更细微：跨境项目增多，不少工程师以自由职业身份承接海外调试与培训，收入更灵活也更不稳定。三条主线交织，机会藏在分化里。"
   },
   "words": [
     {
@@ -17330,10 +17330,141 @@
       "pos": "adj.",
       "en": "able to recover quickly from difficulties",
       "col": "prove resilient · remain resilient · economic resilience"
+    },
+    {
+      "w": "shipment",
+      "ph": "/ˈʃɪpmənt/",
+      "m": "(n.) 装运；一批货物；出货量",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a load of goods sent together, or the act of sending goods, in trade and logistics",
+      "defs": [
+        {
+          "cn": "装运；发货",
+          "en": "the act of sending goods by sea, air or road",
+          "pos": "n."
+        },
+        {
+          "cn": "一批货物",
+          "en": "a batch of goods dispatched together",
+          "pos": "n."
+        },
+        {
+          "cn": "出货量",
+          "en": "the volume of goods shipped in a period",
+          "pos": "n."
+        }
+      ],
+      "col": "a shipment of goods 一批货物 · delay a shipment 延误发货 · shipment volume 出货量 · receive a shipment 收货",
+      "ex": "Exporters at the Canton Fair are using service robots to speed up shipment handling and overseas delivery.",
+      "exZh": "广交会上的出口商正用服务机器人加快货物装运与海外交付。",
+      "ex2": "Please confirm the shipment date before the finance team releases the final payment.",
+      "ex2Zh": "请财务放最后一笔款前确认发货日期。",
+      "t": "广交会上服务机器人解锁出海新范式，从分拣到 shipment 环节都在被自动化重塑，出口商希望借此压低交付成本。\n记法：ship(船/运) + -ment(名词) = 装运这件事，也可指“一批货”，如 a large shipment of robots。",
+      "root": "词根 ship(船、运送，古英语 scip 船，同源 skipper 船长) + 后缀 -ment(名词化，拉丁 -mentum) → 装船运送的行为 → 装运、一批货物",
+      "d": "2026-10-31"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-10-31",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-10-31",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-10-31",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-10-31",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-10-31",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的",
+      "c": "work",
+      "d": "2026-10-31",
+      "ex": "Chip demand proved resilient despite the slowdown.",
+      "exZh": "尽管经济放缓，芯片需求仍展现出韧性。",
+      "t": "AI 芯片需求 resilient，跌了又回。",
+      "root": "前缀 re-(回) + 词根 sili(跳,拉丁 salire) + 后缀 -ent(形容词) → 能弹回的 → 有韧性的",
+      "pos": "adj.",
+      "en": "able to recover quickly from difficulties",
+      "col": "prove resilient · remain resilient · economic resilience"
+    },
+    {
+      "w": "amplify",
+      "ph": "/ˈæmplɪfaɪ/",
+      "m": "放大、加剧",
+      "c": "news",
+      "d": "2026-10-31",
+      "ex": "El Niño amplified the drought across Southeast Asia.",
+      "exZh": "厄尔尼诺加剧了东南亚的干旱。",
+      "t": "厄尔尼诺 amplify 了干旱。",
+      "root": "词根 ampl(大,拉丁 amplus) + 后缀 -fy(使…,源自 facere) → 使变大 → 放大、加剧",
+      "pos": "v.",
+      "en": "to increase in strength, size, or effect",
+      "col": "amplify fears/risks · amplify the impact · amplify demand"
     }
   ],
   "preview": {
-    "hook": "今天，某市政当局推动的债券[vote|vote]因财政争议而升级为街头对峙，市场对[volatile|volatile]利率预期迅速升温，投资者担心高[leverage|leverage]的城投平台将面临融资[disruption|disruption]，而地方[credibility|credibility]能否守住成为焦点。 面对不断[升级|escalate]的财政压力，[市政的|municipal]部门正努力打造更具[韧性|resilient]的公共服务体系。",
+    "hook": "今天的故事从一块金条讲起：国际金价跌破每盎司3900美元，美元走强叠加避险退潮，给多头浇了一盆 headwind；同一时间油价30日逆势上涨，资产分化让人不敢重仓。另一头，华盛顿拟禁止中国电信企业直接获取美国电话号码，跨境 procurement 合同被迫重审，tariff 争论随之升温；古巴遭驱逐的外交官 repatriate 回国，人员与资金两条线被同一个词串起。企业端，广交会上服务机器人出海走热，买家把 outsourcing 与 sanction 风险摆上谈判桌；大型 pension fund 在金价回调中重排仓位，工程师则越来越多以 freelance 身份接海外项目。规则在收紧，需求仍韧性十足，谁先读懂政策节奏，谁就能在这一轮分化里 outperform。",
     "impact": ""
   }
 }

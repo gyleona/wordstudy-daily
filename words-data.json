@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-01",
   "quote": {
-    "en": "Learn the rules before the market teaches you the cost.",
-    "zh": "先学会规则，别等市场来教你代价。"
+    "en": "Words are, in my not-so-humble opinion, our most inexhaustible form of magic.",
+    "zh": "依我所见，词语是我们取之不尽的魔法。"
   },
   "story": {
-    "en": "Gold slid below $3,900 an ounce as a firmer dollar and fading haven demand added a clear headwind to bullion, while crude prices rose on the 30th, according to Xinhua. On the policy side, Washington moved to bar Chinese telecom firms from directly obtaining US phone numbers, a step that could reshape cross-border procurement contracts and invite a new tariff debate in Congress. Havana confirmed that its expelled UN diplomats had repatriated home after Washington ordered them out, keeping diplomatic friction on the agenda even as Beijing hosted German President Steinmeier and Swiss President Parmelin for talks with Premier Li Qiang. In the corporate world, service robots drew heavy overseas interest at the Canton Fair, pushing buyers to rethink outsourcing and supply-chain sanction exposure. Large pension funds are rotating into cash and bullion, and more engineers are going freelance to take cross-border projects. The week ahead will test whether policy tightening outweighs [resilient|resilient] demand. Also featured: [shipment|shipment]; [escalate|escalate]; [volatile|volatile]; [leverage|leverage]; [disruption|disruption]; [credibility|credibility]; [amplify|amplify].",
-    "cn": "市场被两条线索同时牵动。其一是贵金属与能源：国际金价跌破每盎司3900美元，美元走强与避险买盘退潮构成明显headwind，而国际油价30日反而上涨，资产分化[放大、加剧|amplify]。其二是监管与外交：美方拟禁止中国电信企业直接procurement美国电话号码，跨境通信的procurement合同面临重审，tariff争论也随之升温；古巴遭驱逐的外交官回国，人员repatriate与资金回流被同一个词串起。\n企业与职场层面同样热闹。广交会上服务机器人解锁出海新范式，海外买家把采购环节前移，outsourcing与合规风险成为谈判重点；大型养老基金在金价回调中调整仓位，久期与避险比例同步重估。\n就业端的变化更细微：跨境项目增多，不少工程师以自由职业身份承接海外调试与培训，收入更灵活也更不稳定。三条主线交织，机会藏在分化里。"
+    "en": "Today we cover injunction, subpoena, writedown, liability, equity, bullish, bearish, deregulation and other useful words. Also featured: [escalate|escalate]; [volatile|volatile]; [leverage|leverage]; [disruption|disruption]; [credibility|credibility]; [resilient|resilient]; [amplify|amplify]; [sanction|sanction].",
+    "cn": "今天一起看 injunction、subpoena、writedown、liability、equity、bullish、bearish、deregulation 等实用词汇。"
   },
   "words": [
     {
@@ -17461,10 +17461,122 @@
       "pos": "v.",
       "en": "to increase in strength, size, or effect",
       "col": "amplify fears/risks · amplify the impact · amplify demand"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "（冲突）升级",
+      "c": "news",
+      "d": "2026-11-01",
+      "ex": "The conflict in the Strait of Hormuz could escalate into a wider war.",
+      "exZh": "霍尔木兹海峡的冲突可能升级为更大范围的战争。",
+      "t": "霍尔木兹海峡局势升级，新闻里天天见。",
+      "root": "前缀 e-(向外) + 词根 scal(梯子,拉丁 scala) + 后缀 -ate(动词) → 本义“爬上去”→ 升级",
+      "pos": "v.",
+      "en": "to increase or intensify, esp. conflict or tension",
+      "col": "escalate tensions/conflict · rapidly escalating · an escalation of prices"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "剧烈波动的",
+      "c": "econ",
+      "d": "2026-11-01",
+      "ex": "Global markets remain volatile as investors weigh rate bets.",
+      "exZh": "投资者权衡利率预期之际，全球市场依然剧烈波动。",
+      "t": "韩股杠杆抛售，行情 volatile 得很。",
+      "root": "词根 vol(飞,拉丁 volare) + 后缀 -ile(形容词,易…的) → 易飞的、转瞬即逝的 → 不稳定、波动的",
+      "pos": "adj.",
+      "en": "tending to change rapidly and unpredictably, esp. prices or markets",
+      "col": "a volatile market · highly volatile · volatility spikes"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；借力",
+      "c": "work",
+      "d": "2026-11-01",
+      "ex": "Start-ups leverage AI to cut costs and scale fast.",
+      "exZh": "初创公司借助 AI 降本并快速扩张。",
+      "t": "职场里 leverage 资源 = 四两拨千斤。",
+      "root": "词根 lev(举、轻,拉丁 levare) + 后缀 -age(名词) → 杠杆(能举起重量的工具) → 借力",
+      "pos": "v. / n.",
+      "en": "use of borrowed capital to magnify returns; to use sth to maximum advantage",
+      "col": "leverage resources · financial leverage · leverage AI to cut costs"
+    },
+    {
+      "w": "disruption",
+      "ph": "/dɪsˈrʌpʃən/",
+      "m": "中断、扰乱",
+      "c": "news",
+      "d": "2026-11-01",
+      "ex": "Red Sea shipping disruption has pushed up logistics costs.",
+      "exZh": "红海航运中断推高了物流成本。",
+      "t": "红海航运 disruption，物流延误。",
+      "root": "前缀 dis-(分开) + 词根 rupt(断裂,拉丁 rumpere) + 后缀 -ion(名词) → 断裂开 → 中断",
+      "pos": "n.",
+      "en": "disturbance or interruption to a system or process",
+      "col": "supply-chain disruption · cause disruption · disrupt the market"
+    },
+    {
+      "w": "credibility",
+      "ph": "/ˌkredəˈbɪləti/",
+      "m": "信誉",
+      "c": "econ",
+      "d": "2026-11-01",
+      "ex": "The Fed's credibility is being tested by sticky inflation.",
+      "exZh": "美联储的信誉正受到粘性通胀的考验。",
+      "t": "美债狂飙，市场质疑美联储 credibility。",
+      "root": "词根 cred(相信,拉丁 credere) + 后缀 -ibility(可…性) → 可信赖 → 信誉",
+      "pos": "n.",
+      "en": "the quality of being trusted or believed",
+      "col": "damage/loss of credibility · central-bank credibility · lend credibility to"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的",
+      "c": "work",
+      "d": "2026-11-01",
+      "ex": "Chip demand proved resilient despite the slowdown.",
+      "exZh": "尽管经济放缓，芯片需求仍展现出韧性。",
+      "t": "AI 芯片需求 resilient，跌了又回。",
+      "root": "前缀 re-(回) + 词根 sili(跳,拉丁 salire) + 后缀 -ent(形容词) → 能弹回的 → 有韧性的",
+      "pos": "adj.",
+      "en": "able to recover quickly from difficulties",
+      "col": "prove resilient · remain resilient · economic resilience"
+    },
+    {
+      "w": "amplify",
+      "ph": "/ˈæmplɪfaɪ/",
+      "m": "放大、加剧",
+      "c": "news",
+      "d": "2026-11-01",
+      "ex": "El Niño amplified the drought across Southeast Asia.",
+      "exZh": "厄尔尼诺加剧了东南亚的干旱。",
+      "t": "厄尔尼诺 amplify 了干旱。",
+      "root": "词根 ampl(大,拉丁 amplus) + 后缀 -fy(使…,源自 facere) → 使变大 → 放大、加剧",
+      "pos": "v.",
+      "en": "to increase in strength, size, or effect",
+      "col": "amplify fears/risks · amplify the impact · amplify demand"
+    },
+    {
+      "w": "sanction",
+      "ph": "/ˈsæŋkʃən/",
+      "m": "制裁",
+      "c": "econ",
+      "d": "2026-11-01",
+      "ex": "New energy sanctions sent oil prices swinging.",
+      "exZh": "新的能源制裁令油价剧烈震荡。",
+      "t": "对伊能源 sanction，油价跟着跳。",
+      "root": "词根 sanct(神圣,拉丁 sanctus) + 后缀 -ion(名词) → 本义“使神圣/不可侵犯”→ 引申出“批准”与“制裁”双重含义",
+      "pos": "n. / v.",
+      "en": "official permission; a penalty for breaking a law or rule (制裁)",
+      "col": "impose/lift sanctions · economic sanctions · under sanction"
     }
   ],
   "preview": {
-    "hook": "今天的故事从一块金条讲起：国际金价跌破每盎司3900美元，美元走强叠加避险退潮，给多头浇了一盆 headwind；同一时间油价30日逆势上涨，资产分化让人不敢重仓。另一头，华盛顿拟禁止中国电信企业直接获取美国电话号码，跨境 procurement 合同被迫重审，tariff 争论随之升温；古巴遭驱逐的外交官 repatriate 回国，人员与资金两条线被同一个词串起。企业端，广交会上服务机器人出海走热，买家把 outsourcing 与 sanction 风险摆上谈判桌；大型 pension fund 在金价回调中重排仓位，工程师则越来越多以 freelance 身份接海外项目。规则在收紧，需求仍韧性十足，谁先读懂政策节奏，谁就能在这一轮分化里 outperform。",
+    "hook": "今日精选词库：injunction、subpoena、writedown、liability、equity、bullish、bearish、deregulation 等，串起财经、职场、科技与生活的热词。",
     "impact": ""
   }
 }

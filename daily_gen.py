@@ -9479,7 +9479,7 @@ For EACH word, output ALL of these fields (every field is required). Use the "ST
 
   c: econ | work | news | politics | tech  (财经/时政主导：econ 最多(建议3-4), politics 1-2 个真实政策/贸易/外交新闻, work 1-3; tech 仅作补充最多 3 个; news 经济商业相关最多 2; entertainment/sports 仅在还凑不满 8 时作补充)
 - MARKERS (HARD REQUIREMENT): wrap EVERY one of the 8 words as [display|base] (square brackets, a pipe inside). Field-specific DISPLAY rules: story.en is English → display = the English word itself, e.g. [tariff|tariff]. hook and story.cn are CHINESE text → display = the word's CHINESE meaning, base = the English word, e.g. [关税|tariff]. In Chinese text NEVER write a bare English word and NEVER use an English word as the display part — always [中文含义|english]. NEVER output these fields without the markers. (preview.impact 是主线总结句，只需自然嵌入其中若干个词，不强制覆盖全部 8 词。)
-- LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 500-900 characters. Write full flowing paragraphs - never short summaries.
+- LENGTH (HARD REQUIREMENT): story.cn must be 310-400 Chinese characters; story.en must be 150-200 English words (about 900-1200 characters), written as 3 full flowing paragraphs - never short summaries.
 
 
 
@@ -11078,10 +11078,8 @@ def main():
 
 
     recent_set = get_recent_words(existing_words)
-    # 全局去重守卫：把全库已有词（所有历史日期）都并入 avoid 集合，
-    # 让 DeepSeek 尽量不生成任何已经出现过的词（不只最近 14 天）。
-    _all_hist = {w.get("w", "").lower() for w in existing_words if w.get("w")}
-    recent_set = (recent_set or set()) | _all_hist
+    # 2026-11-09 用户要求：去重窗口放宽为最近 14 天（DEDUP_DAYS），不再要求全库零重复。
+    # 保持 get_recent_words() 的两周窗口，避免 avoid 列表过长使模型反复吐回旧词。
 
 
 
@@ -11774,8 +11772,9 @@ def main():
 
 
     prev_words = [w for w in existing_words if w.get("d") != TODAY]
-    # ===== 全局去重兜底：今日新词不得与任何历史词重复，也避免今日内部重复 =====
-    _hist_set = {w.get("w", "").lower() for w in prev_words if w.get("w")}
+    # ===== 去重兜底：今日新词在最近 14 天内不得重复，也避免今日内部重复 =====
+    _dedup_cutoff = (datetime.now(timezone(timedelta(hours=8))) - timedelta(days=DEDUP_DAYS)).strftime("%Y-%m-%d")
+    _hist_set = {w.get("w", "").lower() for w in prev_words if w.get("w") and w.get("d", "") >= _dedup_cutoff}
     _seen = set()
     _deduped = []
     for _w in new_words:
@@ -13052,7 +13051,7 @@ REQUIRED WORDS (every one must appear):
 
 {news_instruction}
 
-story.en: English news dispatch, 480-560 characters. Tight article: opening lede, 2-3 sub-events with names/numbers/institutions, forward-looking close. Mark EVERY required word with [word|word] in BASE form. No unmarked bare occurrence of these words.
+story.en: English news dispatch, 150-200 English words (about 900-1200 characters), in 3 paragraphs. Tight article: opening lede, 2-3 sub-events with names/numbers/institutions, forward-looking close. Mark EVERY required word with [word|word] in BASE form. No unmarked bare occurrence of these words.
 
 story.cn: Chinese 热点综述, 320-380 字. 3 paragraphs covering real sub-events, naturally embedding each required word (English word in brackets or Chinese meaning). Do NOT write a 总体看/总体而言 summary sentence at the end.
 

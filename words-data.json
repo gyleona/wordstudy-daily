@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-10",
+  "updated_on": "2026-11-11",
   "quote": {
-    "en": "Steady hands and sharp eyes turn market storms into lessons.",
-    "zh": "稳住手、擦亮眼，市场的风暴终会变成你的功课。"
+    "en": "Curiosity asks the question; discipline stays for the answer.",
+    "zh": "好奇心提出问题，自律留下来等待答案。"
   },
   "story": {
-    "en": "Oil prices took a sharp [plunge|plunge] on Monday, with Brent crude down nearly 8% intraday, after reports that the US and Iran had reached agreement on uranium enrichment levels in nuclear talks, while President Trump played down the possibility of renewed strikes on Iran; international oil prices fell significantly on the 9th, and early trading saw a drop of more than 5%. The market [outlook|outlook] remains fragile as traders weigh diplomacy against supply risk. Elsewhere, Vice Premier He Lifeng co-chaired the second China-Canada Economic and Financial Strategic [dialogue|dialogue] with Canadian Finance Minister Francois-Philippe Champagne and International Trade Minister Maninder Sidhu, a forum meant to [stabilize|stabilize] economic ties and rebuild channels for cooperation.\n\nIn Berlin, German Chancellor Merz formally moved to [nominate|nominate] Aigner for the presidency, a step that will shape the country's political outlook in the months ahead. In China, October CPI rose 0.7% year on year and PPI 5.7%, data showing overall prices kept running steadily as policymakers seek to stabilize the cost of living.\n\nFinancial institutions are being pushed to [embed|embed] themselves more deeply in the tech innovation chain, with technology credit, tech insurance and long-term capital working together; firms are also expected to [streamline|streamline] their [procurement|procurement] processes to cut costs. Attention now turns to how the oil plunge feeds through into inflation and whether the China-Canada dialogue can deliver concrete follow-up.",
-    "cn": "在全球通胀降温、主要央行预期反复的背景下，市场情绪依旧谨慎，政策制定者与企业界正设法稳住信心，同时避免过度承诺。有关方面着手[提名|nominate]一位金融[稳定|stabilize]委员会新任负责人，被视为在不确定环境中保持机构连续性的举措；市场参与者则把短期[前景|outlook]形容为脆弱、高度依赖数据。\n\n近期股市与大宗商品波动显示，一旦流动性收紧、政策指引含糊，信心可能迅速[暴跌|plunge]。对此，多家机构围绕[采购|procurement]流程与供应商、监管方展开结构化[对话|dialogue]，力求[精简|streamline]审批链条、缓解跨境贸易融资瓶颈。分析人士指出，把风险控制[嵌入|embed]采购与资金管理系统内部的企业，往往在环境变化时反应更快。\n\n接下来，重点在于把短期协调转化为可持续框架：更清晰的沟通、更透明的规则与更充分的数据共享。若政策信号与操作性改革能够相互配合，即便波动仍在，市场也有望逐步找到更稳固的立足点。"
+    "en": "",
+    "cn": ""
   },
   "words": [
     {
@@ -18733,10 +18733,274 @@
       "t": "科技信贷、科技保险、长期资本协同发力，金融机构深度 embed 进科技创新链条；媒体峰会上，AI 也被 embed 进采编与分发环节。\n对比记忆：embed 强调“扎进去、融进去”，insert 只是“插进去”，深度差一截。",
       "root": "前缀 em-(=in 进入，拉丁，同源 embrace 拥抱) + 词根 bed(床、基座，古英语 bedd，同源 embed 嵌入) → 放进基座里 → 嵌入、深植",
       "d": "2026-11-10"
+    },
+    {
+      "w": "surge",
+      "ph": "/sɜːdʒ/",
+      "m": "(数量/价格)激增；急剧上升",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to increase suddenly and strongly, especially in prices, demand, or market activity",
+      "defs": [
+        {
+          "cn": "(数量/价格)激增",
+          "en": "to rise suddenly and by a large amount",
+          "pos": "v."
+        },
+        {
+          "cn": "激增；暴涨",
+          "en": "a sudden large increase in amount or value",
+          "pos": "n."
+        },
+        {
+          "cn": "涌动；奔涌",
+          "en": "to move forward in a strong wave, as crowds or water",
+          "pos": "v."
+        }
+      ],
+      "col": "price surge 价格暴涨 · demand surge 需求激增 · surge in inflation 通胀飙升 · cash surge 现金涌入",
+      "ex": "US October CPI came in above expectations again, and traders now bet a December rate hike is a done deal, sending short-term yields higher.",
+      "exZh": "美国10月CPI再度超预期，交易员押注12月加息已成定局，短端收益率随之走高。",
+      "ex2": "Anthropic's projected revenue surge to 685 billion by 2030 has revived investor appetite for AI listings.",
+      "ex2Zh": "Anthropic预计2030年营收激增至6850亿，重新点燃了投资者对AI上市的热情。",
+      "t": "美国10月CPI再度超预期，市场押注美联储12月加息几成定局，通胀数据的 surge 直接推高了短端利率预期。\n职场里也能用：旺季订单一来，demand 就会 surge，供应链部门必须提前排产，否则交付立刻吃紧。",
+      "root": "源自拉丁 surgere(升起、涌起，同源 source 源头、resource 资源) → 水向上涌 → 数量或价格突然大幅上升 → 激增、暴涨",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "tariff",
+      "ph": "/ˈtærɪf/",
+      "m": "关税；关税表",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a tax imposed by a government on imported or exported goods, used in trade policy",
+      "defs": [
+        {
+          "cn": "关税",
+          "en": "a tax charged on goods entering or leaving a country",
+          "pos": "n."
+        },
+        {
+          "cn": "关税表；税率表",
+          "en": "an official schedule listing such taxes",
+          "pos": "n."
+        },
+        {
+          "cn": "征收关税",
+          "en": "to impose a tax on imports",
+          "pos": "v."
+        }
+      ],
+      "col": "impose a tariff 加征关税 · tariff barrier 关税壁垒 · tariff schedule 关税表 · lift tariffs 取消关税",
+      "ex": "Trade negotiators in Washington and Brussels are still haggling over tariff levels on steel and electric vehicles.",
+      "exZh": "华盛顿与布鲁塞尔的贸易谈判代表仍在就钢铁和电动车关税水平讨价还价。",
+      "ex2": "A new tariff on imported components would raise costs for domestic manufacturers almost immediately.",
+      "ex2Zh": "对进口零部件加征新关税，几乎会立刻抬高本土制造商的成本。",
+      "t": "中美经贸摩擦持续，关税(tariff)始终是谈判桌上的核心筹码；企业财务部门不得不把 tariff 情景写进年度预算模型。\n记忆点：tariff 与 duty 近义，但 tariff 更常出现在政策与贸易协定语境，duty 更偏具体税种。",
+      "root": "源自阿拉伯语 ta'rif(通知、价目表，同源 tariff 经意大利语 tariffa 传入) → 公布的收费标准 → 政府对进出口货物征收的税 → 关税",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "inflation",
+      "ph": "/ɪnˈfleɪʃn/",
+      "m": "通货膨胀；物价上涨",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a general rise in prices and fall in the purchasing power of money, in economic contexts",
+      "defs": [
+        {
+          "cn": "通货膨胀",
+          "en": "a sustained rise in the general level of prices",
+          "pos": "n."
+        },
+        {
+          "cn": "膨胀；充气",
+          "en": "the act of filling something with air or gas",
+          "pos": "n."
+        },
+        {
+          "cn": "夸大；虚增",
+          "en": "the act of exaggerating or inflating something",
+          "pos": "n."
+        }
+      ],
+      "col": "core inflation 核心通胀 · inflation target 通胀目标 · curb inflation 抑制通胀 · inflation expectations 通胀预期",
+      "ex": "US October inflation beat forecasts again, reinforcing market bets that the Fed will raise rates in December.",
+      "exZh": "美国10月通胀再度高于预期，强化了市场对美联储12月加息的押注。",
+      "ex2": "Wage growth that outpaces inflation is the key metric HR teams now watch in pay reviews.",
+      "ex2Zh": "薪资增速跑赢通胀，已成为HR在调薪评审中关注的关键指标。",
+      "t": "美国10月CPI通胀再度超预期，市场押注美联储12月加息已成定局，inflation 重新成为全球资产定价的主线变量。\n职场对照：谈薪时说的\"实际购买力\"就是 nominal wage 减去 inflation 后的结果，涨薪不等于增收。",
+      "root": "前缀 in-(向内，拉丁，同源 inject 注入) + 词根 flat(吹，拉丁 flare，同源 inflate 充气) + 后缀 -ion(名词，拉丁) → 往里吹气 → 膨胀 → 物价普遍上涨",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "hike",
+      "ph": "/haɪk/",
+      "m": "(利率/价格)上调；徒步",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to raise rates, prices or taxes; also a long walk in the countryside",
+      "defs": [
+        {
+          "cn": "(利率/价格)上调",
+          "en": "to increase a rate, price or tax sharply",
+          "pos": "v."
+        },
+        {
+          "cn": "加息；提价",
+          "en": "an increase in interest rates or prices",
+          "pos": "n."
+        },
+        {
+          "cn": "徒步；远足",
+          "en": "a long walk, especially in the countryside",
+          "pos": "n."
+        }
+      ],
+      "col": "rate hike 加息 · price hike 提价 · wage hike 涨薪 · tax hike 加税",
+      "ex": "Markets now price in a December rate hike after October CPI surprised to the upside once more.",
+      "exZh": "10月CPI再度上行超预期后，市场已计入12月加息。",
+      "ex2": "The company announced a 6% price hike on its flagship cloud services starting next quarter.",
+      "ex2Zh": "该公司宣布下季度起旗舰云服务提价6%。",
+      "t": "美国10月CPI再度超预期，市场押注美联储12月加息(rate hike)已成定局，债券与成长股应声承压。\n注意区分：hike 作名词常与 rate/price/tax 搭配，比 increase 更强调幅度与突然性，新闻标题尤其偏爱。",
+      "root": "源自英语方言 hiken(用力拉起、猛拽，可能同源 hitch 钩住) → 猛地向上拉 → 价格或利率上调 → 加息、提价",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "lawsuit",
+      "ph": "/ˈlɔːsuːt/",
+      "m": "诉讼；官司",
+      "c": "news",
+      "pos": "n.",
+      "en": "a legal case brought by one party against another in a court of law",
+      "defs": [
+        {
+          "cn": "诉讼；官司",
+          "en": "a claim or complaint brought to a court",
+          "pos": "n."
+        },
+        {
+          "cn": "提起民事诉讼",
+          "en": "to file a civil action against someone",
+          "pos": "n."
+        },
+        {
+          "cn": "诉讼程序",
+          "en": "the legal process of resolving a dispute",
+          "pos": "n."
+        }
+      ],
+      "col": "file a lawsuit 提起诉讼 · face a lawsuit 面临诉讼 · settle a lawsuit 和解诉讼 · class-action lawsuit 集体诉讼",
+      "ex": "Nvidia is facing a lawsuit linked to espionage allegations involving its CEO, and its shares have already fallen nearly 5%.",
+      "exZh": "英伟达因涉及CEO的间谍指控面临诉讼，股价已下跌近5%。",
+      "ex2": "A former employee filed a lawsuit over unpaid overtime, prompting HR to review its time-tracking rules.",
+      "ex2Zh": "一名前员工就未付加班费提起诉讼，促使HR重审考勤制度。",
+      "t": "英伟达因黄仁勋涉谍案遭起诉，lawsuit 曝光之际股价已跌近5%，法律风险正被市场重新定价。\n职场提醒：公司一旦收到 lawsuit，法务与公关往往同步启动，员工对外发言需格外谨慎。",
+      "root": "源自古法语 law(法律，同源 legal 合法的) + suit(追随、请求，拉丁 sequi，同源 pursue 追求) → 依法提出的请求 → 诉讼、官司",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "indictment",
+      "ph": "/ɪnˈdaɪtmənt/",
+      "m": "起诉书；控告；(制度弊病的)明证",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a formal charge of a serious crime; also a sign that a system is deeply flawed",
+      "defs": [
+        {
+          "cn": "起诉书；控告",
+          "en": "a formal accusation of a serious crime",
+          "pos": "n."
+        },
+        {
+          "cn": "(弊病的)明证",
+          "en": "a strong sign that something is seriously wrong",
+          "pos": "n."
+        },
+        {
+          "cn": "刑事起诉",
+          "en": "the legal process of formally charging someone",
+          "pos": "n."
+        }
+      ],
+      "col": "bring an indictment 提起公诉 · criminal indictment 刑事起诉 · a damning indictment 严厉的控诉 · return an indictment 正式起诉",
+      "ex": "The impeachment push against Hegseth has become a political indictment of how Washington handles accountability.",
+      "exZh": "针对赫格塞思的弹劾推动，已成为华盛顿问责机制的政治控诉。",
+      "ex2": "Rising youth unemployment is a harsh indictment of the current training system.",
+      "ex2Zh": "青年失业率上升，是对现行培训体系的严厉控诉。",
+      "t": "美国国会两党围绕弹劾赫格塞思陷入棘手难题，indictment 一词在听证与党争报道中高频出现，法律与政治边界被反复拉扯。\n引申义很好用：a damning indictment of... 可用来评价制度缺陷，比 criticism 更有分量。",
+      "root": "前缀 in-(向内、对着，拉丁，同源 inject) + 词根 dict(说，拉丁 dicere，同源 dictate 口述) + 后缀 -ment(名词) → 对着某人正式宣告罪状 → 起诉书、控诉",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "suspicion",
+      "ph": "/səˈspɪʃn/",
+      "m": "怀疑；嫌疑",
+      "c": "news",
+      "pos": "n.",
+      "en": "a belief that something is probably true, especially that someone did wrong",
+      "defs": [
+        {
+          "cn": "怀疑；嫌疑",
+          "en": "a feeling that something is likely wrong or criminal",
+          "pos": "n."
+        },
+        {
+          "cn": "一丝；少许",
+          "en": "a very small amount of something",
+          "pos": "n."
+        },
+        {
+          "cn": "猜疑；不信任",
+          "en": "distrust of someone's motives",
+          "pos": "n."
+        }
+      ],
+      "col": "arouse suspicion 引起怀疑 · under suspicion 受到怀疑 · on suspicion of 因涉嫌 · dispel suspicion 消除疑虑",
+      "ex": "British police arrested a US soldier on suspicion of spying activities linked to Russia.",
+      "exZh": "英国警方以涉嫌从事与俄罗斯相关的间谍活动为由逮捕了一名美军士兵。",
+      "ex2": "A sudden jump in refund requests raised suspicion inside the finance team about internal fraud.",
+      "ex2Zh": "退款申请骤增，让财务团队内部对舞弊产生怀疑。",
+      "t": "英国警方称一名美军士兵因涉嫌从事与俄相关间谍活动在英被捕，suspicion 让原本平静的军事外交议题骤然升温。\n搭配记忆：on suspicion of 是新闻高频结构，后接罪名或行为，比 suspected of 更正式。",
+      "root": "前缀 sus-(=sub 在下，拉丁，同源 suspend 悬挂) + 词根 spic(看，拉丁 specere，同源 inspect 检查) + 后缀 -ion(名词) → 从下面偷偷看 → 起疑心 → 怀疑、嫌疑",
+      "d": "2026-11-11"
+    },
+    {
+      "w": "retaliate",
+      "ph": "/rɪˈtælieɪt/",
+      "m": "报复；回击",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to respond to an attack or unfair act by doing something similar in return",
+      "defs": [
+        {
+          "cn": "报复；回击",
+          "en": "to strike back after being harmed or attacked",
+          "pos": "v."
+        },
+        {
+          "cn": "(贸易)反制",
+          "en": "to impose counter-measures in a trade dispute",
+          "pos": "v."
+        },
+        {
+          "cn": "以牙还牙",
+          "en": "to answer an insult or injury in kind",
+          "pos": "v."
+        }
+      ],
+      "col": "retaliate against tariffs 对关税实施反制 · retaliate with sanctions 以制裁回击 · retaliate immediately 立即报复 · threaten to retaliate 威胁报复",
+      "ex": "Washington says it is pursuing economic pressure on Iran rather than large-scale military operations.",
+      "exZh": "华盛顿表示正通过经济施压而非大规模军事行动来实现对伊朗的目标。",
+      "ex2": "If a rival cuts prices, small suppliers often retaliate by offering longer payment terms.",
+      "ex2Zh": "若对手降价，小供应商常以延长账期作为回击。",
+      "t": "美国国务卿卢比奥称无需在伊朗开展大规模作战，美方正通过经济制裁实现目标；一旦对方 retaliate，能源与航运成本会立刻外溢到市场。\n职场版：客户投诉处理时，客服若 retaliate 情绪化回怼，只会把小事升级成公关危机。",
+      "root": "前缀 re-(回、向后，拉丁，同源 return 返回) + 词根 tali(报应、同等，拉丁 talis 这样的) + 后缀 -ate(动词) → 以同样的方式回敬 → 报复、反制",
+      "d": "2026-11-11"
     }
   ],
   "preview": {
-    "hook": "今天的故事从一组数字讲起：10月CPI同比涨0.7%、PPI涨5.7%，物价在努力 [stabilize|stabilize]，四季度 [outlook|outlook] 随之转暖，欧洲主要股指收盘普涨。可油市不买账——美伊核谈判据称就铀浓缩丰度达成一致，布油盘中 [plunge|plunge] 近8%，特朗普又淡化再袭伊朗的可能，早盘油价一度跌超5%。另一边，对话在推进：何立峰与加拿大财长、贸易部长共同主持第二次中加经济财金战略 [dialogue|dialogue]，德国总理默茨则正式 [nominate|nominate] 艾格纳竞选总统。企业层面更务实，媒体峰会释放AI赋能信号，编辑部想用AI [streamline|streamline] 流程，金融机构忙着把科技信贷与保险 [embed|embed] 进创新链条，[procurement|procurement] 部门也在用AI比价。价格要稳、油价在跌、流程在瘦身，这就是今天的底色。",
+    "hook": "今天的故事从一份数据开始：美国10月CPI再度超预期，市场把12月[hike|hike]当成定局，[inflation|inflation] 阴影下短端收益率走高。与此同时，华盛顿围绕弹劾赫格塞思的攻防让问责机制本身成了一场政治 [indictment|indictment]，卢比奥则称对伊朗无需大规模作战、靠经济制裁即可，一旦对方 [retaliate|retaliate]，能源与航运成本就会外溢。伦敦传来另一条消息：一名美军士兵因涉嫌与俄相关间谍活动被捕，[suspicion|suspicion] 蔓延；英伟达因CEO涉谍案面临 [lawsuit|lawsuit]，股价已跌近5%。贸易线上，钢铁与电动车 [tariff|tariff] 仍是谈判焦点；企业端，Anthropic上市在即，高盛预测其2030年营收将出现惊人 [surge|surge]，AI上市窗口重新打开。",
     "impact": ""
   }
 }

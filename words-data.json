@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-11",
+  "updated_on": "2026-11-12",
   "quote": {
-    "en": "Curiosity asks the question; discipline stays for the answer.",
-    "zh": "好奇心提出问题，自律留下来等待答案。"
+    "en": "Patience compounds quietly while noise fades fast; keep learning.",
+    "zh": "耐心在静默中复利，噪音终将消散；请坚持学习。"
   },
   "story": {
-    "en": "",
-    "cn": ""
+    "en": "Global markets opened the week with a [consolidate|consolidate] move as New York's three main stock indices rose sharply on November 11, though the broader corporate mood remained [stagnant|stagnant] amid mixed technology earnings. Nvidia shares fell 3.1% after hours following media reports about CEO Jensen Huang's personal conduct, raising questions about board [oversight|oversight] and what firms must [disclose|disclose] to investors. The [resumption|resumption] of U.S. naval blockade enforcement against Iran, confirmed by Central Command, added geopolitical risk to energy markets, while Russia and the U.S. reported a prisoner-exchange agreement following talks involving Ukraine.\n\nIn China, the 20th Central Committee's fifth plenum spirit continued to be promoted at the United Front Work Department, and Foreign Minister Wang Yi spoke by phone with U.S. Secretary of State Rubio. The 'Belt and Road' cooperation pushed toward new growth areas from goods trade to industrial collaboration. A western county's 'blood-making' revitalization after poverty alleviation was highlighted, and the 2026 Golden Rooster film festival featured AI-driven productions, with actress Gao Ye saying she aims to be an actor AI cannot replace.\n\nCorporate watchers are weighing [headcount|headcount] and [attrition|attrition] trends as AI adoption accelerates, while the [proximity|proximity] of year-end tariff deadlines and the APEC summit keeps diplomatic channels busy. Investors will watch whether earnings can break the stagnant pattern and whether regulatory oversight tightens after the Nvidia disclosure.",
+    "cn": "在全球通胀降温、主要央行释放放缓紧缩节奏信号的背景下，市场正密切关注跨境上市与公司活动能否出现持久复苏。分析人士指出，更严格的监管与更清晰的信息[披露|disclose]规则，是任何大规模发行得以实质性[恢复|resumption]的前提，投资者对估值仍持谨慎态度。\n\n企业层面，多家跨国公司着手[巩固|consolidate]重叠业务部门并削减成本，因主要市场需求持续停滞。人力资源数据显示，[员工人数|headcount]增长放缓，不少企业依靠[人员自然流失|attrition]而非新增招聘来控制开支。同时，企业面临更严格的信息披露压力，需就人力规划与风险敞口提供更多细节，这一趋势因报告标准趋严而强化。\n\n监管机构与投资者都更加关注上市公司与高风险供应链的[邻近|proximity]程度，将地理集中度视为治理问题而非单纯的运营问题。展望未来，市场参与者认为，改革节奏将决定资本流动能否在未来几个季度稳步回升。"
   },
   "words": [
     {
@@ -18997,10 +18997,269 @@
       "t": "美国国务卿卢比奥称无需在伊朗开展大规模作战，美方正通过经济制裁实现目标；一旦对方 retaliate，能源与航运成本会立刻外溢到市场。\n职场版：客户投诉处理时，客服若 retaliate 情绪化回怼，只会把小事升级成公关危机。",
       "root": "前缀 re-(回、向后，拉丁，同源 return 返回) + 词根 tali(报应、同等，拉丁 talis 这样的) + 后缀 -ate(动词) → 以同样的方式回敬 → 报复、反制",
       "d": "2026-11-11"
+    },
+    {
+      "w": "oversight",
+      "ph": "/ˈoʊvərsaɪt/",
+      "m": "(n.) 监督；监管；疏忽",
+      "c": "politics",
+      "pos": "n.",
+      "en": "supervision or regulation of an activity; also an unintentional failure to notice something",
+      "defs": [
+        {
+          "cn": "监督；监管",
+          "en": "official supervision of an industry or process",
+          "pos": "n."
+        },
+        {
+          "cn": "疏忽；漏看",
+          "en": "an accidental failure to notice or do something",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory oversight 监管监督 · congressional oversight 国会监督 · oversight of markets 市场监管 · an oversight 一时疏忽",
+      "ex": "Lawmakers demanded tighter oversight of cross-border data flows after the new rules took effect.",
+      "exZh": "新规生效后，议员们要求对跨境数据流动加强监督。",
+      "ex2": "The error was a simple oversight in the closing checklist, not a policy failure.",
+      "ex2Zh": "这个错误只是收尾清单里的一时疏忽，并非政策失误。",
+      "t": "中美经贸与外交互动持续升温，王毅同美国国务卿鲁比奥通电话，市场普遍关注双方在贸易与科技领域能否建立更清晰的 oversight 机制。\n职场里也常用：合规部门负责 oversight of the approval process（监督审批流程），而漏掉一行签字就只是 an oversight，两者一重一轻，别混。",
+      "root": "前缀 over-(在上、超越，古英语 ofer，同源 overhang 悬于上方) + 词根 sight(看，古英语 sihth，同源 sightsee 观光) → 从上方看着 → 监督、监管；引申为“没看见”的疏忽",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "resumption",
+      "ph": "/rɪˈzʌmpʃn/",
+      "m": "(n.) 恢复；重新开始",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of starting something again after a pause, common in trade and market contexts",
+      "defs": [
+        {
+          "cn": "恢复；重启",
+          "en": "the act of beginning again after an interruption",
+          "pos": "n."
+        },
+        {
+          "cn": "(贸易/谈判)恢复",
+          "en": "the restarting of trade talks or business activity",
+          "pos": "n."
+        },
+        {
+          "cn": "复职；复课",
+          "en": "returning to a job, class or duty",
+          "pos": "n."
+        }
+      ],
+      "col": "resumption of trade talks 贸易谈判重启 · resumption of production 复产 · resumption of flights 航班恢复 · smooth resumption 平稳恢复",
+      "ex": "Investors welcomed the resumption of high-level economic talks between Washington and Beijing.",
+      "exZh": "投资者对华盛顿与北京重启高层经济对话表示欢迎。",
+      "ex2": "The resumption of factory output lifted regional export figures in the third quarter.",
+      "ex2Zh": "工厂复产带动了该地区第三季度的出口数据。",
+      "t": "从货物贸易到产业协作，“一带一路”合作向新兴领域要增量，市场把它解读为跨境项目 resumption 与升级的信号，相关基建与物流板块随之活跃。\n对比记忆：resume 是动词“重新开始”，resumption 是名词；反义是 suspension（暂停），一停一起，正好成对。",
+      "root": "前缀 re-(再次，拉丁 re-，同源 return 返回) + 词根 sum(拿、取，拉丁 sumere，同源 assume 承担) + 后缀 -tion(名词化) → 再次拿起 → 重新开始、恢复",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "consolidate",
+      "ph": "/kənˈsɑːlɪdeɪt/",
+      "m": "(v.) 巩固；整合；合并",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to strengthen a position or combine several things into one, common in business and finance",
+      "defs": [
+        {
+          "cn": "巩固；加强",
+          "en": "to make a position or advantage stronger",
+          "pos": "v."
+        },
+        {
+          "cn": "整合；合并",
+          "en": "to combine companies, units or data into one",
+          "pos": "v."
+        },
+        {
+          "cn": "(股价)盘整",
+          "en": "to move sideways after a sharp price change",
+          "pos": "v."
+        }
+      ],
+      "col": "consolidate market share 巩固市场份额 · consolidate debts 整合债务 · consolidate gains 巩固涨幅 · industry consolidation 行业整合",
+      "ex": "New York stocks rose sharply on the 11th, giving firms a chance to consolidate recent gains.",
+      "exZh": "纽约股市11日显著上涨，让企业有机会巩固近期涨幅。",
+      "ex2": "The group plans to consolidate its three regional units into a single operating company.",
+      "ex2Zh": "该集团计划把三个区域部门整合为一家运营公司。",
+      "t": "纽约股市三大股指11日显著上涨，分析师提醒投资者趁反弹 consolidate gains（巩固涨幅），而不是追高；同时部分行业正借低估值推进并购整合。\n职场里 consolidate 也指“把零散信息汇总”：把三份周报 consolidate into one memo，比简单 combine 更强调“合并成一个更稳固的整体”。",
+      "root": "前缀 con-(共同，拉丁 com-，同源 connect 连接) + 词根 solid(坚实，拉丁 solidus，同源 solid 坚固的) + 后缀 -ate(动词化) → 使共同变坚实 → 巩固、整合",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "stagnant",
+      "ph": "/ˈstæɡnənt/",
+      "m": "(adj.) 停滞的；不景气的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "not growing or developing; used of economies, wages and markets that stay flat",
+      "defs": [
+        {
+          "cn": "停滞的；不景气的",
+          "en": "showing no growth or activity, as of an economy",
+          "pos": "adj."
+        },
+        {
+          "cn": "(水)不流动的",
+          "en": "not flowing or moving, as of water or air",
+          "pos": "adj."
+        },
+        {
+          "cn": "(职业)原地踏步的",
+          "en": "offering no chance of progress or promotion",
+          "pos": "adj."
+        }
+      ],
+      "col": "stagnant growth 增长停滞 · stagnant wages 工资停滞 · stagnant market 低迷市场 · remain stagnant 维持停滞",
+      "ex": "Economists warn that stagnant wage growth could weaken consumer spending next year.",
+      "exZh": "经济学家警告，工资增长停滞可能削弱明年的消费支出。",
+      "ex2": "After two years in a stagnant role, she moved into a data analytics team.",
+      "ex2Zh": "在一个原地踏步的岗位上待了两年后，她转入数据分析团队。",
+      "t": "全球贸易格局调整之际，部分传统制造业订单增长趋于 stagnant，企业转而向“一带一路”新兴领域寻找增量，产业协作成为新的突破口。\n职场高频：a stagnant career（职业停滞）常被拿来与 dead-end job 对比；反义词是 dynamic、thriving，一静一动，记忆更牢。",
+      "root": "词根 stagn(积水、停滞，拉丁 stagnum 池塘，同源 stagnant 同族 stagnate 停滞) + 后缀 -ant(形容词化) → 像死水一样不流动 → 停滞的、不景气的",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "headcount",
+      "ph": "/ˈhedkaʊnt/",
+      "m": "(n.) 员工人数；人员编制",
+      "c": "work",
+      "pos": "n.",
+      "en": "the number of employees in an organization; often used in hiring and layoff contexts",
+      "defs": [
+        {
+          "cn": "员工人数；编制",
+          "en": "the total number of people employed by a firm",
+          "pos": "n."
+        },
+        {
+          "cn": "(招聘)人头名额",
+          "en": "an approved slot for hiring one person",
+          "pos": "n."
+        },
+        {
+          "cn": "清点人数",
+          "en": "the act of counting people present",
+          "pos": "n."
+        }
+      ],
+      "col": "freeze headcount 冻结编制 · headcount reduction 裁员 · add headcount 增编 · headcount budget 人力预算",
+      "ex": "Several tech firms are holding headcount flat while shifting budgets toward AI tools.",
+      "exZh": "多家科技公司维持员工人数不变，同时把预算转向AI工具。",
+      "ex2": "The manager finally got approval to add two headcount to her team.",
+      "ex2Zh": "这位经理终于获批为团队增加两个编制名额。",
+      "t": "“双十一”迎来成年礼，李佳琦、罗永浩开卖Token月卡，把AI装进购物车；电商与内容团队一边压缩 headcount，一边把预算投向AI工具，岗位结构正在重排。\n职场提示：headcount 是“编制”而非“在职者”，所以 headcount freeze（冻结编制）不等于裁员，但往往意味着现有员工要承担更多工作。",
+      "root": "head(头、人，古英语 heafod，同源 header 标题) + count(计数，古英语 countian，同源 account 账目) → 数人头 → 员工人数、编制",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "attrition",
+      "ph": "/əˈtrɪʃn/",
+      "m": "(n.) 人员自然流失；消耗",
+      "c": "work",
+      "pos": "n.",
+      "en": "gradual reduction in staff through resignation or retirement rather than layoffs",
+      "defs": [
+        {
+          "cn": "人员自然流失",
+          "en": "staff reduction through quits and retirement, not firing",
+          "pos": "n."
+        },
+        {
+          "cn": "消耗；磨损",
+          "en": "gradual weakening or wearing down over time",
+          "pos": "n."
+        },
+        {
+          "cn": "(竞争)消耗战",
+          "en": "a war of attrition, slow wearing down of a rival",
+          "pos": "n."
+        }
+      ],
+      "col": "natural attrition 自然减员 · manage by attrition 靠自然流失减员 · attrition rate 流失率 · war of attrition 消耗战",
+      "ex": "The company said it would reduce roles through attrition rather than immediate layoffs.",
+      "exZh": "公司表示将通过自然流失而非立即裁员来缩减岗位。",
+      "ex2": "High attrition in junior positions is pushing firms to rethink onboarding.",
+      "ex2Zh": "初级岗位的高流失率正促使企业重新思考入职培训。",
+      "t": "面对成本压力，不少企业选择以 attrition 代替直接裁员：不补空缺、靠自然离职慢慢瘦身，既保住士气也控制赔偿支出。\n对比记忆：attrition 是“慢慢磨掉”，layoff 是“一次性裁掉”；attrition rate（流失率）是HR月度报表的常客，数字一高就要查薪酬与晋升通道。",
+      "root": "前缀 at-(=ad 朝向，拉丁 ad，同源 advance 前进) + 词根 trit(摩擦，拉丁 terere，同源 trite 陈腐的) + 后缀 -ion(名词化) → 摩擦磨损 → 人员逐渐流失、消耗",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "disclose",
+      "ph": "/dɪsˈkloʊz/",
+      "m": "(v.) 披露；公开（信息）",
+      "c": "news",
+      "pos": "v.",
+      "en": "to make information public, especially in filings, earnings reports or official statements",
+      "defs": [
+        {
+          "cn": "披露；公开",
+          "en": "to reveal information officially to the public",
+          "pos": "v."
+        },
+        {
+          "cn": "(公司)公示",
+          "en": "to publish details in a regulatory filing",
+          "pos": "v."
+        },
+        {
+          "cn": "透露(秘密)",
+          "en": "to uncover something previously kept secret",
+          "pos": "v."
+        }
+      ],
+      "col": "disclose earnings 披露业绩 · disclose details 公布细节 · fail to disclose 未披露 · full disclosure 完全披露",
+      "ex": "Nvidia shares fell 3.1% after hours as media reports raised questions about what the firm must disclose.",
+      "exZh": "媒体报道对公司必须披露哪些信息提出疑问后，英伟达盘后下跌3.1%。",
+      "ex2": "Listed firms must disclose material risks to investors within the required window.",
+      "ex2Zh": "上市公司必须在规定时限内向投资者披露重大风险。",
+      "t": "英伟达美股盘后跌3.1%，媒体报道称黄仁勋曾与高管有过婚外情，德语媒体则评论“婚外情”并不是他最大的失误——市场真正在意的是公司治理与信息披露是否到位。\n财经语境里 disclose 是合规动词：disclose earnings（披露业绩）、full disclosure（完全披露）；反义词 withhold（隐瞒），一公一藏，正好成对。",
+      "root": "前缀 dis-(相反、打开，拉丁 dis-，同源 dismiss 解散) + 词根 clos(关闭，拉丁 claudere，同源 close 关闭) → 把关闭的东西打开 → 披露、公开",
+      "d": "2026-11-12"
+    },
+    {
+      "w": "proximity",
+      "ph": "/prɑːkˈsɪməti/",
+      "m": "(n.) 邻近；接近程度",
+      "c": "tech",
+      "pos": "n.",
+      "en": "nearness in space, time or relationship; common in tech, logistics and networking",
+      "defs": [
+        {
+          "cn": "邻近；接近",
+          "en": "the state of being near in space or time",
+          "pos": "n."
+        },
+        {
+          "cn": "(地理)近距离优势",
+          "en": "the advantage of being physically close to something",
+          "pos": "n."
+        },
+        {
+          "cn": "(关系)亲近",
+          "en": "closeness in relationship or relevance",
+          "pos": "n."
+        }
+      ],
+      "col": "in close proximity 邻近 · proximity to markets 靠近市场 · proximity sensor 接近传感器 · geographic proximity 地理邻近",
+      "ex": "AI film projects in Songjiang benefit from their proximity to studios and tech suppliers.",
+      "exZh": "松江的AI影视项目受益于其靠近影视基地与技术供应商的优势。",
+      "ex2": "Warehouse planners value proximity to highways more than cheap land.",
+      "ex2Zh": "仓库规划者更看重靠近高速公路，而非土地便宜。",
+      "t": "“一人公司”拍出金鸡奖入围作品，AI影视精品从松江洞泾破土；小团队能跑赢大厂，靠的正是 proximity to 拍摄基地、算力与供应链，把地理与产业距离压到最短。\n职场里也常说 proximity bias（亲近偏误）：离老板近的人更容易被看见，远程员工常因此吃亏，值得警惕。",
+      "root": "词根 proxim(最近的，拉丁 proximus，同源 approximate 近似的) + 后缀 -ity(名词化) → 处于最近的状态 → 邻近、接近程度",
+      "d": "2026-11-12"
     }
   ],
   "preview": {
-    "hook": "今天的故事从一份数据开始：美国10月CPI再度超预期，市场把12月[hike|hike]当成定局，[inflation|inflation] 阴影下短端收益率走高。与此同时，华盛顿围绕弹劾赫格塞思的攻防让问责机制本身成了一场政治 [indictment|indictment]，卢比奥则称对伊朗无需大规模作战、靠经济制裁即可，一旦对方 [retaliate|retaliate]，能源与航运成本就会外溢。伦敦传来另一条消息：一名美军士兵因涉嫌与俄相关间谍活动被捕，[suspicion|suspicion] 蔓延；英伟达因CEO涉谍案面临 [lawsuit|lawsuit]，股价已跌近5%。贸易线上，钢铁与电动车 [tariff|tariff] 仍是谈判焦点；企业端，Anthropic上市在即，高盛预测其2030年营收将出现惊人 [surge|surge]，AI上市窗口重新打开。",
+    "hook": "今天的故事从纽约盘面讲起：三大股指11日显著上涨，资金忙着 [consolidate|consolidate] 涨幅，而英伟达盘后跌3.1%，市场追问这家芯片巨头到底该 [disclose|disclose] 什么、治理是否经得起 [oversight|oversight]。外交线上，王毅同鲁比奥通电话，交易员一边盯着关税，一边更在意跨境技术与数据流动的监管框架；“一带一路”从货物贸易转向产业协作，被解读为项目 [resumption|resumption] 的信号，可传统制造订单依旧 [stagnant|stagnant]。职场则是另一场静悄悄的调整：多家电商与科技公司冻结 [headcount|headcount]，靠 [attrition|attrition] 慢慢瘦身，把省下的预算投向AI；松江的AI影视小团队凭 [proximity|proximity] 拿下金鸡奖入围，证明离基地、算力与供应链越近，越有机会跑赢大厂。",
     "impact": ""
   }
 }

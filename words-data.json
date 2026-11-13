@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-13",
   "quote": {
-    "en": "Patience compounds quietly while noise fades fast; keep learning.",
-    "zh": "耐心在静默中复利，噪音终将消散；请坚持学习。"
+    "en": "Learn quietly, adjust quickly, and let patience outlast the noise.",
+    "zh": "安静地学习，迅速地调整，让耐心比喧嚣更持久。"
   },
   "story": {
-    "en": "Global markets opened the week with a [consolidate|consolidate] move as New York's three main stock indices rose sharply on November 11, though the broader corporate mood remained [stagnant|stagnant] amid mixed technology earnings. Nvidia shares fell 3.1% after hours following media reports about CEO Jensen Huang's personal conduct, raising questions about board [oversight|oversight] and what firms must [disclose|disclose] to investors. The [resumption|resumption] of U.S. naval blockade enforcement against Iran, confirmed by Central Command, added geopolitical risk to energy markets, while Russia and the U.S. reported a prisoner-exchange agreement following talks involving Ukraine.\n\nIn China, the 20th Central Committee's fifth plenum spirit continued to be promoted at the United Front Work Department, and Foreign Minister Wang Yi spoke by phone with U.S. Secretary of State Rubio. The 'Belt and Road' cooperation pushed toward new growth areas from goods trade to industrial collaboration. A western county's 'blood-making' revitalization after poverty alleviation was highlighted, and the 2026 Golden Rooster film festival featured AI-driven productions, with actress Gao Ye saying she aims to be an actor AI cannot replace.\n\nCorporate watchers are weighing [headcount|headcount] and [attrition|attrition] trends as AI adoption accelerates, while the [proximity|proximity] of year-end tariff deadlines and the APEC summit keeps diplomatic channels busy. Investors will watch whether earnings can break the stagnant pattern and whether regulatory oversight tightens after the Nvidia disclosure.",
-    "cn": "在全球通胀降温、主要央行释放放缓紧缩节奏信号的背景下，市场正密切关注跨境上市与公司活动能否出现持久复苏。分析人士指出，更严格的监管与更清晰的信息[披露|disclose]规则，是任何大规模发行得以实质性[恢复|resumption]的前提，投资者对估值仍持谨慎态度。\n\n企业层面，多家跨国公司着手[巩固|consolidate]重叠业务部门并削减成本，因主要市场需求持续停滞。人力资源数据显示，[员工人数|headcount]增长放缓，不少企业依靠[人员自然流失|attrition]而非新增招聘来控制开支。同时，企业面临更严格的信息披露压力，需就人力规划与风险敞口提供更多细节，这一趋势因报告标准趋严而强化。\n\n监管机构与投资者都更加关注上市公司与高风险供应链的[邻近|proximity]程度，将地理集中度视为治理问题而非单纯的运营问题。展望未来，市场参与者认为，改革节奏将决定资本流动能否在未来几个季度稳步回升。"
+    "en": "Global markets were jolted on Friday as gold prices once again fell below $3,900 an ounce, while Nvidia's market value dropped below $4 trillion and US tech stocks suffered a sharp [tumble|tumble]. Nvidia CEO Jensen Huang [resign|resign], with the company's chief financial officer stepping in on an [interim|interim] basis, according to the New York Times Chinese edition. The moves came amid volatile oil prices and a broader tech selloff that also dragged down most China concept stocks.\n\nIn the energy sector, Yemen's Houthi forces attacked Saudi Arabia's east-west oil [pipeline|pipeline] and an air base, reports Observer. The strike adds fresh geopolitical risk to crude markets at a time when [scrutiny|scrutiny] over supply security is already intense. Meanwhile, in Asia, Beijing's southeastern districts remained under a yellow fog warning, prompting authorities to [evacuate|evacuate] nothing? no — to monitor transport closely as dense fog cut visibility.\n\nSeparately, the Philippines' securities regulator disclosed a data breach, drawing regulatory scrutiny over digital asset and market infrastructure. In China, digital [token|token] were placed on Double 11 shelves, reflecting shifting digital consumption patterns. Beijing also outlined four directions for its international exchange center layout under the 15th Five-Year Plan, including an AI innovation belt along the Beijing-Zhangjiakou railway, which regulators will [oversee|oversee] as the project moves forward.",
+    "cn": "在全球通胀降温、增长分化的背景下，风险偏好持续走弱，多个数字资产项目估值大幅下挫，投资者开始重新评估对投机性工具的敞口。某平台首席执行官在压力下选择[辞职|resign]，临时[监管|oversee]团队随即到位，以稳定运营并恢复信心。\n\n[监管|oversee]层面同步收紧。多地主管部门在突发干扰下组织人员[撤离|evacuate]，并委任独立机构监督行业合规。审查范围延伸至每一类[代币|token]的发行与交易环节，官员要求更清晰的信息披露，并加强对散户持有人的保护。\n\n市场目光转向待批的[管道|pipeline]项目与改革方案，以及新进入者将面对的审查力度。分析人士提醒，若规则缺乏透明度，波动可能延续，未来数月投资者将要求平台与政策制定者承担更多责任。"
   },
   "words": [
     {
@@ -19256,10 +19256,274 @@
       "t": "“一人公司”拍出金鸡奖入围作品，AI影视精品从松江洞泾破土；小团队能跑赢大厂，靠的正是 proximity to 拍摄基地、算力与供应链，把地理与产业距离压到最短。\n职场里也常说 proximity bias（亲近偏误）：离老板近的人更容易被看见，远程员工常因此吃亏，值得警惕。",
       "root": "词根 proxim(最近的，拉丁 proximus，同源 approximate 近似的) + 后缀 -ity(名词化) → 处于最近的状态 → 邻近、接近程度",
       "d": "2026-11-12"
+    },
+    {
+      "w": "tumble",
+      "ph": "/ˈtʌmb(ə)l/",
+      "m": "(动词)暴跌；价格大幅下挫",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to fall sharply in value or price, used in market and financial contexts",
+      "defs": [
+        {
+          "cn": "暴跌；急挫",
+          "en": "to drop suddenly and steeply in price or value",
+          "pos": "v."
+        },
+        {
+          "cn": "翻滚；跌倒",
+          "en": "to roll over or fall clumsily",
+          "pos": "v."
+        },
+        {
+          "cn": "(股价)重挫",
+          "en": "to decline sharply in stock markets",
+          "pos": "v."
+        }
+      ],
+      "col": "stocks tumble 股价暴跌 · tumble sharply 急剧下挫 · shares tumble 股票重挫 · tumble below 跌破",
+      "ex": "Nvidia's market value tumbled below the $4 trillion mark as tech shares sold off.",
+      "exZh": "随着科技股遭抛售，英伟达市值跌破4万亿美元关口。",
+      "ex2": "Gold tumbled back under $3,900 an ounce, catching short-term traders off guard.",
+      "ex2Zh": "金价再度跌破每盎司3900美元，令短线交易者措手不及。",
+      "t": "英伟达市值跌破4万亿美元，美股科技股重挫，闪迪跌超9%，中概股多数下跌——一连串数字让 tumble 成了当天行情最直白的注脚。\n记忆法：tumble 本义是“翻滚着倒下”，比 fall 更有画面感；名词形式 a tumble 也常见，如 a sharp tumble in prices。",
+      "root": "源自古英语 tumbian(翻滚、跌倒)，同源 tumbleweed 风滚草 → 身体翻滚倒地 → 引申为价格“翻滚式”下坠 → 暴跌",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "resign",
+      "ph": "/rɪˈzaɪn/",
+      "m": "(动词)辞职；辞去职务",
+      "c": "work",
+      "pos": "v.",
+      "en": "to officially leave a job or position; to give up a role voluntarily",
+      "defs": [
+        {
+          "cn": "辞职；离职",
+          "en": "to formally give up a job or position",
+          "pos": "v."
+        },
+        {
+          "cn": "辞去(职务)",
+          "en": "to surrender an official role or title",
+          "pos": "v."
+        },
+        {
+          "cn": "听任；顺从",
+          "en": "to accept something unwillingly (resign oneself to)",
+          "pos": "v."
+        }
+      ],
+      "col": "resign from a post 辞去职务 · resign as CEO 辞任首席执行官 · resign oneself to 听任 · forced to resign 被迫辞职",
+      "ex": "Nvidia's chief executive resigned, with the finance chief stepping in on an interim basis.",
+      "exZh": "英伟达首席执行官辞任，由首席财务官临时接任。",
+      "ex2": "She chose to resign rather than sign off on the revised budget.",
+      "ex2Zh": "她宁可辞职，也不愿批准修订后的预算。",
+      "t": "黄仁勋辞任英伟达CEO，公司首席财务官克雷斯临时接任——这条消息让 resign 直接冲上财经头条，管理层交接成为市场焦点。\n职场高频搭配：resign as CEO / resign from the board；注意 resign（主动辞职）与 be dismissed（被解职）语义相反，别混用。",
+      "root": "前缀 re-(回、再，拉丁，同源 return 返回) + 词根 sign(签名，拉丁 signum，同源 signature 签名) → 在文件上重新签字交还职务 → 辞职",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "interim",
+      "ph": "/ˈɪntərɪm/",
+      "m": "(形容词)临时的；过渡期的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "intended to last only until something permanent is arranged; transitional",
+      "defs": [
+        {
+          "cn": "临时的；过渡的",
+          "en": "serving temporarily until a permanent replacement",
+          "pos": "adj."
+        },
+        {
+          "cn": "期中；间歇",
+          "en": "the intervening period of time",
+          "pos": "n."
+        },
+        {
+          "cn": "暂代的",
+          "en": "acting in a role on a temporary basis",
+          "pos": "adj."
+        }
+      ],
+      "col": "interim CEO 临时首席执行官 · interim government 过渡政府 · in the interim 在此期间 · interim measures 临时措施",
+      "ex": "The finance chief took over as interim CEO while the board searches for a successor.",
+      "exZh": "在董事会寻找继任者期间，首席财务官出任临时首席执行官。",
+      "ex2": "An interim budget will keep the agency running until the new fiscal year.",
+      "ex2Zh": "一份临时预算将维持该机构运转至新财年开始。",
+      "t": "黄仁勋辞任后，英伟达由首席财务官克雷斯担任 interim CEO，市场最关心的是这段过渡期能否稳住投资者信心。\n职场里 interim 常与 permanent 对照：interim manager（临时经理）只是补位，permanent 才是正式任命。",
+      "root": "拉丁语 interim(在此期间)，由 inter-(在…之间，同源 interval 间隔) + -im(指示后缀) → 介于两段之间的时间 → 临时的、过渡期的",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "evacuate",
+      "ph": "/ɪˈvækjueɪt/",
+      "m": "(动词)撤离；疏散人员",
+      "c": "news",
+      "pos": "v.",
+      "en": "to move people away from a dangerous place; to empty a building or area",
+      "defs": [
+        {
+          "cn": "疏散；撤离",
+          "en": "to move people out of a dangerous area",
+          "pos": "v."
+        },
+        {
+          "cn": "腾空(场所)",
+          "en": "to empty a place of people or contents",
+          "pos": "v."
+        },
+        {
+          "cn": "排空；抽空",
+          "en": "to remove air or liquid from a container",
+          "pos": "v."
+        }
+      ],
+      "col": "evacuate residents 疏散居民 · evacuate a building 疏散大楼人员 · evacuation order 疏散令 · evacuate the area 撤离该区域",
+      "ex": "Staff were told to evacuate the office tower after a security alert.",
+      "exZh": "接到安全警报后，员工被要求撤离办公大楼。",
+      "ex2": "Local authorities moved quickly to evacuate low-lying districts as water levels rose.",
+      "ex2Zh": "水位上涨时，当地政府迅速疏散低洼地区居民。",
+      "t": "也门胡塞武装袭击沙特东西石油管道与空军基地，相关设施周边人员被迫 evacuate，能源供应风险瞬间被市场重新定价。\n与 evacuate 同源的 evacuation（疏散）常见于应急演练通知：消防培训里反复演练的，正是有序 evacuate 的流程。",
+      "root": "前缀 e-(向外，拉丁，同源 exit 出口) + 词根 vacu(空的，拉丁 vacuus，同源 vacuum 真空) + 后缀 -ate(动词) → 把地方腾空 → 疏散、撤离",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "oversee",
+      "ph": "/ˌoʊvərˈsiː/",
+      "m": "(动词)监管；监督管理工作",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to watch and manage a process or organization to make sure it works properly",
+      "defs": [
+        {
+          "cn": "监管；监督",
+          "en": "to supervise a process or activity officially",
+          "pos": "v."
+        },
+        {
+          "cn": "管理；负责",
+          "en": "to be in charge of an operation or project",
+          "pos": "v."
+        },
+        {
+          "cn": " overseeing 监管中的",
+          "en": "acting in a supervisory capacity",
+          "pos": "adj."
+        }
+      ],
+      "col": "oversee operations 监管运营 · oversee a transition 监督过渡 · oversee compliance 监督合规 · regulator overseeing 负责监管的机构",
+      "ex": "Regulators overseeing the exchange are expected to demand a full security review.",
+      "exZh": "负责监管该交易所的机构预计将要求进行全面安全审查。",
+      "ex2": "She was hired to oversee the company's shift to a new payroll system.",
+      "ex2Zh": "她受聘负责监督公司向新薪酬系统的转换。",
+      "t": "菲律宾证券监管机构发生数据泄露后，负责 oversee 金融市场的部门面临追问：谁在监督这些机构自身的数据安全？监管者也要被监管。\n职场用法：oversee a project（统筹项目）强调“盯着全局”，比 manage 更侧重监督与把关，常用于跨部门协调岗位。",
+      "root": "前缀 over-(在上、超越，古英语，同源 overlook 俯瞰) + 词根 see(看，古英语 seon，同源 sight 视力) → 从上方看着 → 监督、监管",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "token",
+      "ph": "/ˈtoʊkən/",
+      "m": "(名词)代币；象征性的凭证",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a digital unit of value in crypto systems; a symbol or sign representing something",
+      "defs": [
+        {
+          "cn": "代币；通证",
+          "en": "a digital asset issued on a blockchain",
+          "pos": "n."
+        },
+        {
+          "cn": "象征；标志",
+          "en": "something that represents a fact or feeling",
+          "pos": "n."
+        },
+        {
+          "cn": "象征性的",
+          "en": "done only for appearances (adj.)",
+          "pos": "adj."
+        }
+      ],
+      "col": "digital token 数字代币 · token economy 代币经济 · a token of appreciation 表示谢意 · utility token 实用型代币",
+      "ex": "Digital tokens were placed on Double 11 shelves, reflecting a shift in online consumption.",
+      "exZh": "数字代币被摆上双11货架，折射出线上消费的新变迁。",
+      "ex2": "A small token of thanks can go a long way with a hard-working team.",
+      "ex2Zh": "对辛苦付出的团队来说，一点小小的谢意往往意义重大。",
+      "t": "“词元摆上双11货架”成为当天科技消费新闻的注脚：token 从加密资产术语走进电商促销，数字消费的边界正在被重新划定。\n注意 token 的两副面孔：技术语境指代币/词元，日常语境则是“象征”，如 a token of gratitude（一点心意）。",
+      "root": "源自古英语 tacen(记号、标志)，同源 teach 教导（原义“指示”）→ 用来代表某物的记号 → 凭证、象征 → 数字代币",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "pipeline",
+      "ph": "/ˈpaɪplaɪn/",
+      "m": "(名词)管道；储备项目/人才梯队",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a line of pipes for transport; a series of projects or candidates in progress",
+      "defs": [
+        {
+          "cn": "管道；输油管",
+          "en": "a system of pipes carrying oil, gas or water",
+          "pos": "n."
+        },
+        {
+          "cn": "(项目)储备；在研管线",
+          "en": "projects or products in development",
+          "pos": "n."
+        },
+        {
+          "cn": "人才梯队",
+          "en": "a supply of candidates being prepared for roles",
+          "pos": "n."
+        }
+      ],
+      "col": "oil pipeline 输油管道 · product pipeline 产品管线 · in the pipeline 筹备中 · talent pipeline 人才梯队",
+      "ex": "Attacks on Saudi oil pipelines rattled energy markets and lifted crude prices.",
+      "exZh": "沙特输油管道遇袭震动能源市场，推高了原油价格。",
+      "ex2": "The firm says three new products are in the pipeline for next year.",
+      "ex2Zh": "该公司表示明年有三款新产品正在筹备中。",
+      "t": "胡塞武装袭击沙特东西石油管道，国际油价直线飙涨、美股期货跳水——pipeline 一词再次提醒市场，能源运输的脆弱环节足以牵动全球资产。\n商务语境里 pipeline 指“储备项目”：in the pipeline 就是“在推进中”，销售和招聘都爱用这个词形容手里的“存货”。",
+      "root": "pipe(管，古英语 pipa，同源 pipe 管子) + line(线、线路，拉丁 linea，同源 linear 线性的) → 连成线的管道 → 引申为项目或人才的输送链条",
+      "d": "2026-11-13"
+    },
+    {
+      "w": "scrutiny",
+      "ph": "/ˈskruːtəni/",
+      "m": "(n.) 严密审查；仔细检查",
+      "c": "politics",
+      "pos": "n.",
+      "en": "careful and detailed examination, esp. by regulators, auditors or the public",
+      "defs": [
+        {
+          "cn": "严密审查",
+          "en": "close and critical examination by authorities or public",
+          "pos": "n."
+        },
+        {
+          "cn": "仔细检查",
+          "en": "a detailed look at something to find faults",
+          "pos": "n."
+        },
+        {
+          "cn": "(置于)监督之下",
+          "en": "the state of being watched closely for errors",
+          "pos": "n."
+        }
+      ],
+      "col": "under scrutiny 受到审查 · regulatory scrutiny 监管审查 · come under scrutiny 遭到审视 · intense scrutiny 严密审视",
+      "ex": "Nvidia's market value slipped below $4 trillion as the AI chip giant came under fresh scrutiny from investors.",
+      "exZh": "随着投资者重新审视这家AI芯片巨头，英伟达市值跌破4万亿美元。",
+      "ex2": "Every budget line now faces scrutiny before the finance team signs off.",
+      "ex2Zh": "如今每一笔预算在财务团队签字前都要经过仔细审查。",
+      "t": "今日美股科技股重挫，英伟达市值跌破4万亿美元，黄仁勋辞任CEO由首席财务官临时接任，这家AI龙头正处在投资者的 scrutiny 之下。\n职场对照：scrutiny 是外部盯、review 是内部查——项目上线前先做 internal review，才不至于被外部 scrutiny 打个措手不及。",
+      "root": "词根 scrut-(翻找、检查，拉丁 scrutari，同源 scrutineer 监票人) + 名词后缀 -y → 翻来覆去地找 → 严密审查、仔细检查",
+      "d": "2026-11-13"
     }
   ],
   "preview": {
-    "hook": "今天的故事从纽约盘面讲起：三大股指11日显著上涨，资金忙着 [consolidate|consolidate] 涨幅，而英伟达盘后跌3.1%，市场追问这家芯片巨头到底该 [disclose|disclose] 什么、治理是否经得起 [oversight|oversight]。外交线上，王毅同鲁比奥通电话，交易员一边盯着关税，一边更在意跨境技术与数据流动的监管框架；“一带一路”从货物贸易转向产业协作，被解读为项目 [resumption|resumption] 的信号，可传统制造订单依旧 [stagnant|stagnant]。职场则是另一场静悄悄的调整：多家电商与科技公司冻结 [headcount|headcount]，靠 [attrition|attrition] 慢慢瘦身，把省下的预算投向AI；松江的AI影视小团队凭 [proximity|proximity] 拿下金鸡奖入围，证明离基地、算力与供应链越近，越有机会跑赢大厂。",
+    "hook": "某大型能源集团首席执行官因旗下[token|token]结算平台遭[oversee|oversee][scrutiny|scrutiny]而突然[resign|resign]，消息一出公司股价单日[tumble|tumble]逾两成；董事会紧急任命临时掌门人，并宣布[evacuate|evacuate]部分高风险海外交易团队，同时承诺由独立委员会监督整改，市场正关注其[pipeline|pipeline]项目能否支撑后续融资与转型计划。 公司宣布在找到正式负责人之前，先由副经理担任[临时的|interim]职务，以维持日常运营的稳定。",
     "impact": ""
   }
 }

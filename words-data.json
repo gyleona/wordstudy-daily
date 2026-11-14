@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-14",
   "quote": {
-    "en": "Learn quietly, adjust quickly, and let patience outlast the noise.",
-    "zh": "安静地学习，迅速地调整，让耐心比喧嚣更持久。"
+    "en": "Skill grows in the quiet hours nobody claps for.",
+    "zh": "技能，成长于无人喝彩的静默时光。"
   },
   "story": {
-    "en": "Global markets were jolted on Friday as gold prices once again fell below $3,900 an ounce, while Nvidia's market value dropped below $4 trillion and US tech stocks suffered a sharp [tumble|tumble]. Nvidia CEO Jensen Huang [resign|resign], with the company's chief financial officer stepping in on an [interim|interim] basis, according to the New York Times Chinese edition. The moves came amid volatile oil prices and a broader tech selloff that also dragged down most China concept stocks.\n\nIn the energy sector, Yemen's Houthi forces attacked Saudi Arabia's east-west oil [pipeline|pipeline] and an air base, reports Observer. The strike adds fresh geopolitical risk to crude markets at a time when [scrutiny|scrutiny] over supply security is already intense. Meanwhile, in Asia, Beijing's southeastern districts remained under a yellow fog warning, prompting authorities to [evacuate|evacuate] nothing? no — to monitor transport closely as dense fog cut visibility.\n\nSeparately, the Philippines' securities regulator disclosed a data breach, drawing regulatory scrutiny over digital asset and market infrastructure. In China, digital [token|token] were placed on Double 11 shelves, reflecting shifting digital consumption patterns. Beijing also outlined four directions for its international exchange center layout under the 15th Five-Year Plan, including an AI innovation belt along the Beijing-Zhangjiakou railway, which regulators will [oversee|oversee] as the project moves forward.",
-    "cn": "在全球通胀降温、增长分化的背景下，风险偏好持续走弱，多个数字资产项目估值大幅下挫，投资者开始重新评估对投机性工具的敞口。某平台首席执行官在压力下选择[辞职|resign]，临时[监管|oversee]团队随即到位，以稳定运营并恢复信心。\n\n[监管|oversee]层面同步收紧。多地主管部门在突发干扰下组织人员[撤离|evacuate]，并委任独立机构监督行业合规。审查范围延伸至每一类[代币|token]的发行与交易环节，官员要求更清晰的信息披露，并加强对散户持有人的保护。\n\n市场目光转向待批的[管道|pipeline]项目与改革方案，以及新进入者将面对的审查力度。分析人士提醒，若规则缺乏透明度，波动可能延续，未来数月投资者将要求平台与政策制定者承担更多责任。"
+    "en": "Global markets face a fresh test as US flight disruptions and oil volatility deepen economic uncertainty. The nationwide flight grounding has delayed or cancelled 7,000 flights, raising fears of a travel-sector [downturn|downturn] and potential airline [default|default] risks. Meanwhile, gold headed for its biggest weekly drop since June as Fed rate-hike bets strengthened, while Apple hit a record high even as semiconductor stocks slid, underscoring uneven corporate performance and [stagnation|stagnation] concerns in some segments.\n\nIn China, the State Council issued a new energy storage implementation plan targeting 300 million kilowatts by 2030, a policy [mandate|mandate] that signals long-term green investment. However, corporate restructuring continues: Henan University of Economics and Law dismissed a teacher over harassment allegations, highlighting workplace accountability. Reports of [redundancy|redundancy] in tech sectors persist, with Nvidia-related turmoil sparking online speculation and stock [burnout|burnout] fears. The World Chinese Language Conference launched a vertical large model for international Chinese education, a [concession|concession] to digital learning trends.\n\nInvestors remain cautious. The new energy storage plan is [oversubscribed|oversubscribed] by institutional interest, but near-term risks from oil supply shocks—two tankers exploded in the Strait of Hormuz—and mixed US earnings keep sentiment fragile. With the 15th Five-Year Plan emphasizing new quality productive forces, Beijing balances growth mandates with stability, leaving markets to watch whether policy support can offset global headwinds.",
+    "cn": "在全球通胀降温、增长分化的背景下，主要经济体持续的经济[停滞|stagnation]令投资者保持谨慎。主权与企业[违约|default]风险重新回到议事日程，贷款机构因此收紧条件，并在放款前要求借款人给出更清晰的[授权|mandate]与承诺。分析人士指出，一旦经济再度[(经济)下滑|downturn]，此前宽松货币时期被掩盖的资产负债表弱点可能迅速暴露。\n\n企业重组正在改变就业图景。多家大型雇主推出[裁员|redundancy]计划，理由是需求走软与削减成本的需要；工会则以就业保障为条件，争取在薪资上作出[让步|concession]。与此同时，科技行业一场备受关注的债券发行获得超额认购，显示在整体情绪谨慎之际，投资者对优质发行人仍有兴趣。招聘机构称，在同事离职后承担额外职责的员工中，[职业倦怠|burnout]正在上升。\n\n展望未来，政策制定者面临微妙的平衡：既要支撑需求，又不能重新点燃价格压力，还要让市场相信财政纪律不会松动。经济学家表示，未来几个季度将检验近期的企稳究竟是可持续的，还是下一轮下滑前的短暂停顿。"
   },
   "words": [
     {
@@ -19520,10 +19520,274 @@
       "t": "今日美股科技股重挫，英伟达市值跌破4万亿美元，黄仁勋辞任CEO由首席财务官临时接任，这家AI龙头正处在投资者的 scrutiny 之下。\n职场对照：scrutiny 是外部盯、review 是内部查——项目上线前先做 internal review，才不至于被外部 scrutiny 打个措手不及。",
       "root": "词根 scrut-(翻找、检查，拉丁 scrutari，同源 scrutineer 监票人) + 名词后缀 -y → 翻来覆去地找 → 严密审查、仔细检查",
       "d": "2026-11-13"
+    },
+    {
+      "w": "default",
+      "ph": "/dɪˈfɔːlt/",
+      "m": "(n.)违约；拖欠；(v.)违约不还；默认",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "failure to pay a debt or meet an obligation; also the preset option in computing",
+      "defs": [
+        {
+          "cn": "违约；拖欠",
+          "en": "failure to repay a debt or honour an obligation",
+          "pos": "n."
+        },
+        {
+          "cn": "违约不还",
+          "en": "to fail to pay what is owed on time",
+          "pos": "v."
+        },
+        {
+          "cn": "默认设置",
+          "en": "the preset option used when no choice is made",
+          "pos": "n."
+        }
+      ],
+      "col": "default on a loan 贷款违约 · sovereign default 主权违约 · by default 默认情况下 · default setting 默认设置",
+      "ex": "Fears that a major property developer could default on its offshore bonds weighed on Asian credit markets this week.",
+      "exZh": "某大型开发商可能对其离岸债券违约的担忧，本周压低了亚洲信用市场。",
+      "ex2": "If you do not adjust the privacy settings, the app will share your data by default.",
+      "ex2Zh": "如果你不调整隐私设置，这款应用会默认共享你的数据。",
+      "t": "黄金本周或创六月以来最大单周跌幅，市场对美联储加息押注升温，贵金属承压；与此同时，任何一家高杠杆企业的 default 风险都会被信用市场放大审视。\n职场类比：合同里没写清的条款，往往就是日后 default 的隐患——把 default 记成『默认』和『违约』两层，正好提醒你：沉默也是一种选择。",
+      "root": "前缀 de-(向下、完全，拉丁，同源 decline 下降、deficit 赤字) + 词根 fault(=fall 失足、欠缺，拉丁 fallere，同源 fail 失败、failure 失败) → 完全失手、没做到 → 违约、默认",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "stagnation",
+      "ph": "/stæɡˈneɪʃn/",
+      "m": "(n.)停滞；经济不增长；无活力",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a state of no growth or activity, common in economic and business contexts",
+      "defs": [
+        {
+          "cn": "停滞；不景气",
+          "en": "a period of little or no economic growth",
+          "pos": "n."
+        },
+        {
+          "cn": "无活力；僵滞",
+          "en": "lack of movement, change or energy",
+          "pos": "n."
+        },
+        {
+          "cn": "停滞状态",
+          "en": "the condition of staying at the same level",
+          "pos": "n."
+        }
+      ],
+      "col": "economic stagnation 经济停滞 · wage stagnation 工资停滞 · long-term stagnation 长期停滞 · break out of stagnation 走出停滞",
+      "ex": "Economists warn that prolonged stagnation in consumer demand could force the central bank to reconsider its tightening path.",
+      "exZh": "经济学家警告，消费需求长期停滞可能迫使央行重新考虑紧缩路径。",
+      "ex2": "Career stagnation often sets in when an employee stops learning new skills.",
+      "ex2Zh": "当员工不再学习新技能时，职业停滞往往就开始了。",
+      "t": "黄金或创六月来最大单周跌幅，美联储加息押注升温施压贵金属，背后正是市场对增长与通胀组合的焦虑；一旦增长陷入 stagnation，避险与紧缩逻辑就会互相打架。\n对比记忆：stagnation 停滞 ↔ expansion 扩张，一动一静；职场里说 career stagnation，比说『没进步』更精准、更有分量。",
+      "root": "词根 stagn-(水池、静止，拉丁 stagnum，同源 stagnant 停滞的、stagnate 停滞) + 后缀 -ation(名词化，拉丁) → 像死水一样不动 → 停滞、不景气",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "downturn",
+      "ph": "/ˈdaʊntɜːn/",
+      "m": "(n.)(经济)下滑；衰退；低迷期",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a decline in economic or business activity; a period of reduced performance",
+      "defs": [
+        {
+          "cn": "(经济)下滑",
+          "en": "a fall in economic activity or sales",
+          "pos": "n."
+        },
+        {
+          "cn": "低迷期；衰退",
+          "en": "a period when business conditions are poor",
+          "pos": "n."
+        },
+        {
+          "cn": "转折向下",
+          "en": "a downward turn in a trend or cycle",
+          "pos": "n."
+        }
+      ],
+      "col": "economic downturn 经济下滑 · market downturn 市场低迷 · cyclical downturn 周期性下滑 · weather the downturn 挺过低迷期",
+      "ex": "Semiconductor shares slipped even as Apple hit a record high, a split that hints at worries over a possible industry downturn.",
+      "exZh": "苹果创新高之际半导体股却下挫，这种分化暗示市场担心行业可能下滑。",
+      "ex2": "During the downturn, the company froze hiring but protected its training budget.",
+      "ex2Zh": "低迷期里，公司冻结招聘，却保住了培训预算。",
+      "t": "美股盘面出现分化：苹果再创新高，半导体股却下挫，中概股低开高走，油价拉升——资金在押注谁能在可能的 downturn 里守住利润。\n记忆法：downturn 是 turn down 的名词化，和 upturn 上升期成对；经济新闻里 downturn 常与 recession 换用，但语气更温和。",
+      "root": "前缀 down-(向下，古英语 dūne，同源 downstairs 楼下) + 词根 turn(转动，拉丁 tornare，同源 return 返回、turnover 营业额) → 转向下 → 经济下滑",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "redundancy",
+      "ph": "/rɪˈdʌndənsi/",
+      "m": "(n.)裁员；冗余；多余之物",
+      "c": "work",
+      "pos": "n.",
+      "en": "the loss of a job because it is no longer needed; also something superfluous",
+      "defs": [
+        {
+          "cn": "裁员；被裁",
+          "en": "job loss because a position is no longer needed",
+          "pos": "n."
+        },
+        {
+          "cn": "冗余；多余",
+          "en": "the state of being more than necessary",
+          "pos": "n."
+        },
+        {
+          "cn": "重复啰嗦",
+          "en": "needless repetition in speech or writing",
+          "pos": "n."
+        }
+      ],
+      "col": "voluntary redundancy 自愿离职补偿 · redundancy pay 裁员补偿金 · avoid redundancy 避免冗余 · redundancy notice 裁员通知",
+      "ex": "As firms cut costs in a slowing market, redundancy notices are rising among mid-level staff in finance and tech.",
+      "exZh": "市场放缓、企业削减成本，金融与科技行业中层员工的裁员通知正在增多。",
+      "ex2": "Good editors remove redundancy so that every sentence earns its place.",
+      "ex2Zh": "好编辑会删掉冗余，让每句话都有存在的价值。",
+      "t": "就业市场承压之际，企业控制成本的常见手段就是 redundancy：英国式说法偏『裁员补偿』，美式则多说 layoff，读财报和职场新闻要能对上。\n写作提示：avoid redundancy 是雅思写作高频搭配，指论证重复啰嗦；同一单词在职场里却是沉重话题，一词两景，记得牢。",
+      "root": "前缀 red-(=re- 再、回，拉丁，同源 repeat 重复) + 词根 und(=undare 涌流，拉丁 unda 波浪) + 后缀 -ancy(名词化) → 涌得过多 → 多余、冗余 → 岗位多余即裁员",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "mandate",
+      "ph": "/ˈmændeɪt/",
+      "m": "(n.)授权；委任；法令；(v.)强制要求",
+      "c": "politics",
+      "pos": "n./v.",
+      "en": "official authority to act, or a formal order; to require officially",
+      "defs": [
+        {
+          "cn": "授权；委任",
+          "en": "official power given to act on behalf of others",
+          "pos": "n."
+        },
+        {
+          "cn": "法令；强制要求",
+          "en": "an official order that must be obeyed",
+          "pos": "n./v."
+        },
+        {
+          "cn": "选民授权",
+          "en": "the authority a winning party claims from voters",
+          "pos": "n."
+        }
+      ],
+      "col": "a clear mandate 明确授权 · regulatory mandate 监管要求 · mandate spending cuts 强制削减开支 · electoral mandate 选举授权",
+      "ex": "The new energy storage plan gives provincial governments a clear mandate to expand capacity to 300 gigawatts by 2030.",
+      "exZh": "新型储能实施方案赋予省级政府明确授权，到2030年将装机规模扩大到三亿千瓦。",
+      "ex2": "The board mandated a review of all supplier contracts before year-end.",
+      "ex2Zh": "董事会强制要求年底前审查所有供应商合同。",
+      "t": "『十五五』新型储能实施方案印发，提出2030年全国新型储能装机规模达三亿千瓦，这类政策文件本质就是给地方与企业一份 mandate。\n辨析：mandate 是自上而下的授权或强制，authorize 更偏程序性批准；记住 mandate 里的 man-（手）——把权力交到你手上。",
+      "root": "词根 man-(手，拉丁 manus，同源 manual 手动的、manipulate 操纵) + 词根 dat(=dare 给予，拉丁，同源 data 数据、donate 捐赠) → 交到手上 → 授权、命令",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "concession",
+      "ph": "/kənˈseʃn/",
+      "m": "(n.)让步；特许权；优惠价",
+      "c": "politics",
+      "pos": "n.",
+      "en": "something given up in a negotiation; also a right granted or a discounted price",
+      "defs": [
+        {
+          "cn": "让步；妥协",
+          "en": "something conceded in order to reach agreement",
+          "pos": "n."
+        },
+        {
+          "cn": "特许权；经营权",
+          "en": "a right granted to run a business or service",
+          "pos": "n."
+        },
+        {
+          "cn": "优惠；减价",
+          "en": "a reduced price or special allowance",
+          "pos": "n."
+        }
+      ],
+      "col": "make a concession 作出让步 · trade concession 贸易让步 · concession stand 售货亭 · mutual concessions 相互让步",
+      "ex": "Trade talks between the two blocs stalled as neither side was willing to offer a further concession on farm goods.",
+      "exZh": "两大经济体贸易谈判陷入僵局，双方都不愿在农产品上再作让步。",
+      "ex2": "Students can buy tickets at a concession rate with a valid card.",
+      "ex2Zh": "学生凭有效证件可购买优惠票。",
+      "t": "王毅分别同韩国外长赵显、出席2026中美政党对话美方代表会谈会见，外交场合的每一步都围绕 concession 展开：谁先松口、松多少，都要算清国内政治账。\n联想：concession stand 是影院小卖部——『让步』与『特许摊位』同词，因为都是把某样东西让出去。",
+      "root": "前缀 con-(共同、完全，拉丁，同源 connect 连接) + 词根 cess(=cedere 走、让，拉丁，同源 proceed 前进、recede 后退) + 后缀 -ion(名词化) → 一起往后退一步 → 让步、特许",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "oversubscribed",
+      "ph": "/ˌəʊvəsəbˈskraɪbd/",
+      "m": "(adj.)超额认购的；认购爆满的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "receiving more applications or orders than there are shares or places available, in finance contexts",
+      "defs": [
+        {
+          "cn": "超额认购的",
+          "en": "having more buyers than available shares or bonds",
+          "pos": "adj."
+        },
+        {
+          "cn": "报名超额；供不应求",
+          "en": "receiving more applicants than places offered",
+          "pos": "adj."
+        },
+        {
+          "cn": "认购爆满",
+          "en": "fully taken up and then some",
+          "pos": "adj."
+        }
+      ],
+      "col": "heavily oversubscribed IPO 超额认购的新股 · oversubscribed bond sale 超额认购的债券发行 · oversubscribed course 报名爆满的课程 · the offer was oversubscribed 发行获超额认购",
+      "ex": "The sovereign bond sale was oversubscribed within hours, signalling strong appetite for safe assets.",
+      "exZh": "这期主权债券发行数小时内即获超额认购，显示避险资产需求强劲。",
+      "ex2": "The AI ethics seminar was so oversubscribed that the university added a second session.",
+      "ex2Zh": "AI伦理研讨课报名太火爆，校方不得不加开第二场。",
+      "t": "国际油价短线下跌、黄金承压之际，资金正四处寻找避风港；一旦某类债券或新股被 oversubscribed，往往说明市场对风险的偏好正在悄悄转向。\n构词记忆：over-(超过) + subscribe(认购、订阅) → 认购量超过发行量；反义 undersubscribed 认购不足，成对记。",
+      "root": "前缀 over-(超过，古英语 ofer，同源 overdo 过度) + 前缀 sub-(在下，拉丁，同源 submarine 潜艇) + 词根 scrib(写，拉丁 scribere，同源 script 脚本、describe 描述) → 在下面写得过多 → 超额认购",
+      "d": "2026-11-14"
+    },
+    {
+      "w": "burnout",
+      "ph": "/ˈbɜːnaʊt/",
+      "m": "(n.)职业倦怠；精疲力竭",
+      "c": "work",
+      "pos": "n.",
+      "en": "exhaustion caused by prolonged stress at work; also the point when a rocket engine runs out of fuel",
+      "defs": [
+        {
+          "cn": "职业倦怠",
+          "en": "physical and mental exhaustion from overwork",
+          "pos": "n."
+        },
+        {
+          "cn": "精疲力竭",
+          "en": "the state of being completely worn out",
+          "pos": "n."
+        },
+        {
+          "cn": "烧尽；耗尽",
+          "en": "the failure of an engine after fuel is used up",
+          "pos": "n."
+        }
+      ],
+      "col": "suffer burnout 陷入职业倦怠 · burnout rate 倦怠率 · combat burnout 对抗倦怠 · reach burnout 精疲力竭",
+      "ex": "Long hours and constant deadline pressure are pushing more young finance analysts toward burnout.",
+      "exZh": "长时间工作和持续的最后期限压力，正把更多年轻金融分析师推向职业倦怠。",
+      "ex2": "The startup redesigned its on-call schedule to prevent engineer burnout.",
+      "ex2Zh": "这家初创公司重新设计了值班表，以防工程师精疲力竭。",
+      "t": "职场话题里 burnout 已成高频词：加班文化、随时在线、绩效压力叠加，让倦怠从个人问题变成管理议题。\n构词画面：burn（烧）+ out（尽）——蜡烛两头烧，烧完就灭；和 resilience 韧性正好一正一反，成对记忆更牢。",
+      "root": "词根 burn(燃烧，古英语 beornan，同源 burning 燃烧的) + 副词 out(尽、向外，古英语 ūt，同源 outside 外面) → 烧到尽头 → 精力耗尽、职业倦怠",
+      "d": "2026-11-14"
     }
   ],
   "preview": {
-    "hook": "某大型能源集团首席执行官因旗下[token|token]结算平台遭[oversee|oversee][scrutiny|scrutiny]而突然[resign|resign]，消息一出公司股价单日[tumble|tumble]逾两成；董事会紧急任命临时掌门人，并宣布[evacuate|evacuate]部分高风险海外交易团队，同时承诺由独立委员会监督整改，市场正关注其[pipeline|pipeline]项目能否支撑后续融资与转型计划。 公司宣布在找到正式负责人之前，先由副经理担任[临时的|interim]职务，以维持日常运营的稳定。",
+    "hook": "今天的故事从一张分化盘面讲起：苹果再创新高，半导体股却下挫，黄金或创六月来最大单周跌幅，交易员加码押注美联储加息，任何高杠杆企业的 [default|default] 风险都被放大；与此同时『十五五』新型储能方案落地，给地方一份明确的 [mandate|mandate]，外交场合的每一次 [concession|concession] 都要精算；香港主权债数小时获 [oversubscribed|oversubscribed]，避险资金仍在找港湾；而金融与科技行业削减成本，中层员工收到 [redundancy|redundancy] 通知，加班文化把年轻分析师推向 [burnout|burnout]——增长若陷 [stagnation|stagnation]，[downturn|downturn] 的阴影就会更近，市场与职场其实在同一条线上起伏。",
     "impact": ""
   }
 }

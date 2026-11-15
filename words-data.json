@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-14",
+  "updated_on": "2026-11-15",
   "quote": {
-    "en": "Skill grows in the quiet hours nobody claps for.",
-    "zh": "技能，成长于无人喝彩的静默时光。"
+    "en": "New skills are built slowly, but they outlast every shortcut.",
+    "zh": "新技能虽需慢慢积累，却比任何捷径都更持久。"
   },
   "story": {
-    "en": "Global markets face a fresh test as US flight disruptions and oil volatility deepen economic uncertainty. The nationwide flight grounding has delayed or cancelled 7,000 flights, raising fears of a travel-sector [downturn|downturn] and potential airline [default|default] risks. Meanwhile, gold headed for its biggest weekly drop since June as Fed rate-hike bets strengthened, while Apple hit a record high even as semiconductor stocks slid, underscoring uneven corporate performance and [stagnation|stagnation] concerns in some segments.\n\nIn China, the State Council issued a new energy storage implementation plan targeting 300 million kilowatts by 2030, a policy [mandate|mandate] that signals long-term green investment. However, corporate restructuring continues: Henan University of Economics and Law dismissed a teacher over harassment allegations, highlighting workplace accountability. Reports of [redundancy|redundancy] in tech sectors persist, with Nvidia-related turmoil sparking online speculation and stock [burnout|burnout] fears. The World Chinese Language Conference launched a vertical large model for international Chinese education, a [concession|concession] to digital learning trends.\n\nInvestors remain cautious. The new energy storage plan is [oversubscribed|oversubscribed] by institutional interest, but near-term risks from oil supply shocks—two tankers exploded in the Strait of Hormuz—and mixed US earnings keep sentiment fragile. With the 15th Five-Year Plan emphasizing new quality productive forces, Beijing balances growth mandates with stability, leaving markets to watch whether policy support can offset global headwinds.",
-    "cn": "在全球通胀降温、增长分化的背景下，主要经济体持续的经济[停滞|stagnation]令投资者保持谨慎。主权与企业[违约|default]风险重新回到议事日程，贷款机构因此收紧条件，并在放款前要求借款人给出更清晰的[授权|mandate]与承诺。分析人士指出，一旦经济再度[(经济)下滑|downturn]，此前宽松货币时期被掩盖的资产负债表弱点可能迅速暴露。\n\n企业重组正在改变就业图景。多家大型雇主推出[裁员|redundancy]计划，理由是需求走软与削减成本的需要；工会则以就业保障为条件，争取在薪资上作出[让步|concession]。与此同时，科技行业一场备受关注的债券发行获得超额认购，显示在整体情绪谨慎之际，投资者对优质发行人仍有兴趣。招聘机构称，在同事离职后承担额外职责的员工中，[职业倦怠|burnout]正在上升。\n\n展望未来，政策制定者面临微妙的平衡：既要支撑需求，又不能重新点燃价格压力，还要让市场相信财政纪律不会松动。经济学家表示，未来几个季度将检验近期的企稳究竟是可持续的，还是下一轮下滑前的短暂停顿。"
+    "en": "In today's [headline|headline] mix, Beijing spotlighted APEC cooperation on building an Asia-Pacific community, while climate finance took center stage at a COP31 China pavilion side event exploring low-carbon pathways. Separately, a central宣讲团 continued explaining the Fifth Plenum spirit in Jiangxi, and Premier Li Qiang joined Thailand's premier at a China-Thailand entrepreneurs' symposium, underscoring a [multilateral|multilateral] push.\n\nIn technology, Xinhua reported that the US Starship was for the first time captured and recovered by the launch tower's mechanical arms — a milestone for reusable spaceflight. On health policy, the 2026 national medical insurance catalog added 107 drugs, with CAR-T cancer therapies entering insurance for the first time, easing costs patients must otherwise [reimburse|reimburse] themselves. Labor-market analysts say such shifts, plus new-energy storage marketization, will force firms to [reskill|reskill] workers.\n\nDiplomacy stayed tense: EU institutions and five countries will represent Europe in Ukraine peace talks, while Zelensky said Putin does not support a ceasefire. Iran's Revolutionary Guard claimed it downed a US MQ-1 drone. As negotiators seek terms parties can [ratify|ratify], markets and governments must [recalibrate|recalibrate] expectations, and any fresh [subsidy|subsidy] for green industry will be watched closely in the weeks ahead. The documentary aims to [capture|capture] the daily struggles of ordinary workers.",
+    "cn": "随着全球通胀降温、劳动力市场趋紧，各国政府正面临[重新校准|recalibrate]产业政策的压力。经合组织最新发布的一份[标题|headline]指出，定向精准的[补贴|subsidy]计划只有在强有力的多边协调下才能提升生产率，而非单边的支出竞赛。\n\n对此，多个经济体正推动[正式批准|ratify]更新的贸易与投资协定，旨在夺取绿色技术供应链中更大的份额。同时，企业被要求[报销|reimburse]员工的培训费用，公共机构则承诺为受自动化冲击的员工进行[再培训、技能重塑|reskill]。其目标是公平分担调整成本，避免逐底竞争。\n\n展望未来，政策制定者需要在债务负担上升之际重新调整财政支持，确保每一笔补贴都带来可衡量的价值。更加[多边的|multilateral]方式——辅以透明规则和可信的批准承诺——有助于各经济体从贸易中获取收益，同时保护弱势劳动者。为员工报销培训费用并开展再培训的企业将更具竞争力，而关于共同责任的清晰头条信息对公众信任至关重要。"
   },
   "words": [
     {
@@ -19784,10 +19784,275 @@
       "t": "职场话题里 burnout 已成高频词：加班文化、随时在线、绩效压力叠加，让倦怠从个人问题变成管理议题。\n构词画面：burn（烧）+ out（尽）——蜡烛两头烧，烧完就灭；和 resilience 韧性正好一正一反，成对记忆更牢。",
       "root": "词根 burn(燃烧，古英语 beornan，同源 burning 燃烧的) + 副词 out(尽、向外，古英语 ūt，同源 outside 外面) → 烧到尽头 → 精力耗尽、职业倦怠",
       "d": "2026-11-14"
+    },
+    {
+      "w": "subsidy",
+      "ph": "/ˈsʌbsədi/",
+      "m": "(政府)补贴；补助金",
+      "c": "econ",
+      "pos": "n.",
+      "en": "money paid by a government to support an industry, lower costs, or encourage investment",
+      "defs": [
+        {
+          "cn": "(政府)补贴",
+          "en": "government money given to support an industry or activity",
+          "pos": "n."
+        },
+        {
+          "cn": "补助金",
+          "en": "a sum granted to reduce the cost of a service or good",
+          "pos": "n."
+        },
+        {
+          "cn": "补贴政策",
+          "en": "the policy system of granting such financial support",
+          "pos": "n."
+        }
+      ],
+      "col": "energy subsidy 能源补贴 · subsidy scheme 补贴方案 · cut a subsidy 削减补贴 · rely on subsidies 依赖补贴",
+      "ex": "Beijing's new five-year plan for energy storage may lean on targeted subsidies to draw private capital into market-based projects.",
+      "exZh": "北京新型储能的“十五五”规划可能借助定向补贴吸引民间资本进入市场化项目。",
+      "ex2": "Executives warned that any subsidy for green hydrogen must be predictable before companies commit billions.",
+      "ex2Zh": "高管们警告，绿氢补贴必须可预期，企业才会投入巨资。",
+      "t": "中国新型储能“十五五”规划正迈向市场化，《经济参考报》称多元“应用场”有望撬动万亿投资，补贴如何退坡成为关键。\n职场联想：subsidy 与 tax break（税收减免）常成对出现，前者是直接给钱，后者是少收钱，记忆时想“一张补贴支票”。",
+      "root": "前缀 sub-(在下、从下，拉丁 sub，同源 submarine 潜艇、subordinate 下级的) + 词根 sid(=sed 坐，拉丁 sedere，同源 sediment 沉淀、session 会期) + 后缀 -y(名词，拉丁 -ium 经法语) → 坐在下面托底 → 政府托底性补助、补贴",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "multilateral",
+      "ph": "/ˌmʌltiˈlætərəl/",
+      "m": "多边的；涉及多方的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "involving three or more countries or parties, especially in trade and diplomacy",
+      "defs": [
+        {
+          "cn": "多边的",
+          "en": "involving several countries or parties at once",
+          "pos": "adj."
+        },
+        {
+          "cn": "多方参与的",
+          "en": "conducted among multiple sides rather than two",
+          "pos": "adj."
+        },
+        {
+          "cn": "多边主义的",
+          "en": "supporting rules-based cooperation among many states",
+          "pos": "adj."
+        }
+      ],
+      "col": "multilateral talks 多边谈判 · multilateral framework 多边框架 · multilateral lender 多边贷款机构 · multilateral cooperation 多边合作",
+      "ex": "Leaders at the APEC meeting in the region stressed that multilateral cooperation remains the surest route to a shared Asia-Pacific community.",
+      "exZh": "出席亚太经合组织会议的领导人强调，多边合作仍是构建亚太共同体的最可靠路径。",
+      "ex2": "Small exporters prefer multilateral rules because bilateral deals leave them at the mercy of bigger partners.",
+      "ex2Zh": "小型出口商更青睐多边规则，因为双边协议让他们受制于更大伙伴。",
+      "t": "亚太经合组织会议聚焦“构建亚太共同体”，多边协商被反复提及；与此同时，欧洲多国机构将代表欧洲参与乌克兰和平谈判，也是多边机制的延伸。\n对比记忆：multilateral 多边 ↔ bilateral 双边 ↔ unilateral 单边，三个词一起背，谈判场景立刻清晰。",
+      "root": "前缀 multi-(多，拉丁 multus，同源 multiple 多个的、multiply 乘) + 词根 later(=latus 边、侧，拉丁 latus，同源 lateral 侧面的) + 后缀 -al(形容词) → 多边的 → 多方参与的、多边主义的",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "ratify",
+      "ph": "/ˈrætɪfaɪ/",
+      "m": "正式批准；签署使生效",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to give formal approval to an agreement or treaty so that it becomes legally valid",
+      "defs": [
+        {
+          "cn": "正式批准(条约)",
+          "en": "to formally approve a treaty or agreement",
+          "pos": "v."
+        },
+        {
+          "cn": "使生效",
+          "en": "to make a signed document legally binding",
+          "pos": "v."
+        },
+        {
+          "cn": "追认、核准",
+          "en": "to confirm an act retrospectively with authority",
+          "pos": "v."
+        }
+      ],
+      "col": "ratify a treaty 批准条约 · ratify an agreement 核准协议 · fail to ratify 未能批准 · ratification process 批准程序",
+      "ex": "Any peace framework discussed with European representatives will still need parliaments to ratify it before it binds anyone.",
+      "exZh": "与欧洲代表讨论的任何和平框架，仍需各国议会批准才能产生约束力。",
+      "ex2": "The board must ratify the joint venture before the factory in Thailand can break ground.",
+      "ex2Zh": "董事会必须批准这家合资企业，泰国的工厂才能动工。",
+      "t": "欧洲机构及五国将代表欧洲参与乌克兰和平谈判，但任何文本最终都要回到各国议会 ratify 才算落地，程序漫长。\n职场用法：董事会 ratify a decision（追认一项决定），比 approve 更强调“程序上的正式确认”，语气更硬。",
+      "root": "词根 rat(=ratus 确定的、计算好的，拉丁 reri 的过去分词，同源 rate 比率、reason 理性) + 后缀 -ify(使……，拉丁 facere 做，同源 verify 核实) → 使确定下来 → 正式批准、核准生效",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "capture",
+      "ph": "/ˈkæptʃə(r)/",
+      "m": "捕获；夺取(市场份额)；记录",
+      "c": "tech",
+      "pos": "v.",
+      "en": "to catch or seize something; to record or represent; to win a share of a market",
+      "defs": [
+        {
+          "cn": "捕获、抓住",
+          "en": "to catch a moving object or person",
+          "pos": "v."
+        },
+        {
+          "cn": "夺取(份额)",
+          "en": "to win control of a market or audience",
+          "pos": "v."
+        },
+        {
+          "cn": "记录、呈现",
+          "en": "to record an image or express a mood faithfully",
+          "pos": "v."
+        }
+      ],
+      "col": "capture a moment 捕捉瞬间 · capture market share 抢占市场份额 · capture an image 拍摄图像 · capture attention 吸引注意",
+      "ex": "The Starship booster was captured by the launch tower's mechanical arms for the first time, a milestone for reusable rockets.",
+      "exZh": "“星舰”助推器首次被发射塔机械臂捕获回收，这是可重复使用火箭的里程碑。",
+      "ex2": "Chinese brands are racing to capture share in the premium EV segment before rivals cut prices.",
+      "ex2Zh": "中国品牌正抢在对手降价前夺取高端电动车市场份额。",
+      "t": "美国“星舰”飞船首次被发射塔机械臂“捕获”回收，可回收技术再进一步，直接压低单次发射成本。\n一词多义：capture 既可指“抓住画面”（capture a moment），也可指“抢占市场”（capture share），从物理抓取引申到商业夺取。",
+      "root": "词根 capt(=capere 抓、拿，拉丁，同源 captive 俘虏、accept 接受) + 后缀 -ure(名词/动词后缀，拉丁 -ura) → 抓住的动作 → 捕获、夺取、记录",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "reimburse",
+      "ph": "/ˌriːɪmˈbɜːs/",
+      "m": "报销；偿还(费用)",
+      "c": "work",
+      "pos": "v.",
+      "en": "to pay someone back for money they have spent, especially on behalf of an employer",
+      "defs": [
+        {
+          "cn": "报销(费用)",
+          "en": "to refund expenses someone paid on your behalf",
+          "pos": "v."
+        },
+        {
+          "cn": "偿还、补偿",
+          "en": "to repay a sum owed to a person or firm",
+          "pos": "v."
+        },
+        {
+          "cn": "(保险)赔付",
+          "en": "for an insurer to pay back a covered cost",
+          "pos": "v."
+        }
+      ],
+      "col": "reimburse expenses 报销费用 · reimburse staff 向员工报销 · fully reimburse 全额报销 · reimbursement policy 报销政策",
+      "ex": "Firms tightening budgets now ask staff to submit receipts within days so finance can reimburse travel costs faster.",
+      "exZh": "压缩预算的企业如今要求员工几天内提交票据，以便财务更快报销差旅费。",
+      "ex2": "The insurer agreed to reimburse the full cost of the CAR-T therapy now listed in the national drug catalogue.",
+      "ex2Zh": "这款CAR-T疗法进入国家医保目录后，保险公司同意全额赔付其费用。",
+      "t": "百万级抗癌药 CAR-T 首次进入医保，2026 年国家医保目录新增 107 种药物，患者自付与商保 reimburse 的分担方式成为焦点。\n职场高频：reimburse 与 refund（退款）不同，前者是“你垫付、我补给你”，报销单上常见。",
+      "root": "前缀 re-(回、再，拉丁 re，同源 return 返回、refund 退款) + 词根 im(=in 进入，拉丁 in) + 词根 burs(=bursa 钱袋，拉丁，同源 bursar 财务主管) → 把钱重新放回钱袋 → 报销、偿还",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "headline",
+      "ph": "/ˈhedlaɪn/",
+      "m": "(新闻)标题；头条新闻",
+      "c": "news",
+      "pos": "n.",
+      "en": "the title of a news story; the main news item of the day",
+      "defs": [
+        {
+          "cn": "(新闻)标题",
+          "en": "the large title printed above a news report",
+          "pos": "n."
+        },
+        {
+          "cn": "头条新闻",
+          "en": "a top-ranked news item given prominence",
+          "pos": "n."
+        },
+        {
+          "cn": "成为焦点",
+          "en": "to be the leading topic of coverage",
+          "pos": "v."
+        }
+      ],
+      "col": "make headlines 登上头条 · front-page headline 头版标题 · headline news 头条新闻 · grab headlines 抢尽风头",
+      "ex": "The Starship recovery made headlines worldwide, but analysts said the bigger story is falling launch costs.",
+      "exZh": "“星舰”回收登上全球头条，但分析师称更大的故事是发射成本下降。",
+      "ex2": "The drug catalogue update dominated headlines in health and business pages alike.",
+      "ex2Zh": "医保目录更新同时占据了健康版和商业版头条。",
+      "t": "“星舰”被机械臂捕获回收、CAR-T 首次进医保，两条消息同一天登上 headline，科技与民生在版面上正面相遇。\n辨析：headline 是标题本身，headlines 作复数常指“新闻摘要”，如 morning headlines 早间新闻摘要。",
+      "root": "复合词：head(头，古英语 heafod，同源 headship 领导地位) + line(行、线，拉丁 linea 同源 linear 线性的) → 排在最上面的一行 → 标题、头条",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "reskill",
+      "ph": "/ˌriːˈskɪl/",
+      "m": "(为员工)再培训、技能重塑",
+      "c": "work",
+      "pos": "v.",
+      "en": "to teach someone new skills, especially so they can do a different job",
+      "defs": [
+        {
+          "cn": "再培训、技能重塑",
+          "en": "to train workers in new skills for new roles",
+          "pos": "v."
+        },
+        {
+          "cn": "(个人)转行学习",
+          "en": "for an individual to learn skills for a new field",
+          "pos": "v."
+        },
+        {
+          "cn": "重新培训员工",
+          "en": "for a firm to retrain its existing staff",
+          "pos": "v."
+        }
+      ],
+      "col": "reskill the workforce 重塑劳动力技能 · reskill staff 培训员工新技能 · reskill for AI 为AI转型再培训 · large-scale reskilling 大规模再培训",
+      "ex": "As AI tools spread through offices, employers are under pressure to reskill staff rather than simply cut roles.",
+      "exZh": "随着AI工具在办公室普及，雇主面临压力，需培训员工新技能而非简单裁员。",
+      "ex2": "Governments in Europe and Asia are funding programmes to reskill workers for energy-storage and battery jobs.",
+      "ex2Zh": "欧亚多国政府正出资开展再培训，让工人胜任储能与电池岗位。",
+      "t": "新型储能迈向市场化、万亿投资待落地，行业最缺的不是钱而是人，企业不得不 reskill 现有员工转入电池与运维岗位。\n构词联想：re-(再) + skill(技能)，与 upskill(提升技能) 成对：reskill 是换赛道，upskill 是把本行做深。",
+      "root": "前缀 re-(再、重新，拉丁 re，同源 rebuild 重建、renew 更新) + 词根 skill(技能，古诺斯语 skil 判断力，同源 skillful 熟练的) → 重新赋予技能 → 再培训、技能重塑",
+      "d": "2026-11-15"
+    },
+    {
+      "w": "recalibrate",
+      "ph": "/ˌriːˈkælɪbreɪt/",
+      "m": "(v.) 重新校准；重新调整（预期、策略）",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to adjust a plan, expectation or strategy again after new information; in market/policy contexts",
+      "defs": [
+        {
+          "cn": "重新校准",
+          "en": "to calibrate again, esp. instruments or models",
+          "pos": "v."
+        },
+        {
+          "cn": "重新调整(预期/策略)",
+          "en": "to revise expectations or strategy after new data",
+          "pos": "v."
+        },
+        {
+          "cn": "重新定位(政策)",
+          "en": "to reposition policy in light of changed conditions",
+          "pos": "v."
+        }
+      ],
+      "col": "recalibrate expectations 重新调整预期 · recalibrate the model 重新校准模型 · recalibrate strategy 重新调整策略 · force investors to recalibrate 迫使投资者重新评估",
+      "ex": "With COP31 side events unlocking climate finance, banks are recalibrating their low-carbon lending targets.",
+      "exZh": "随着COP31边会打开气候投融资新路径，银行正重新校准其低碳放贷目标。",
+      "ex2": "After the new round of talks, the team had to recalibrate its quarterly hiring plan.",
+      "ex2Zh": "新一轮谈判之后，团队不得不重新调整季度招聘计划。",
+      "t": "COP31中国角边会讨论气候投融资新路径，资金成本与政策口径一变，机构就得 recalibrate 低碳资产配置。\n职场里说 recalibrate your expectations（重新标定预期），比 change 更有依据，暗示是参照新数据做出的调整。",
+      "root": "前缀 re-(再、重新，拉丁，同源 return/revise) + 词根 calib(口径、量规，阿拉伯语 qālib 模具，同源 caliber) + 后缀 -ate(动词化，拉丁) → 重新量口径 → 重新校准、重新调整",
+      "story": null,
+      "d": "2026-11-15"
     }
   ],
   "preview": {
-    "hook": "今天的故事从一张分化盘面讲起：苹果再创新高，半导体股却下挫，黄金或创六月来最大单周跌幅，交易员加码押注美联储加息，任何高杠杆企业的 [default|default] 风险都被放大；与此同时『十五五』新型储能方案落地，给地方一份明确的 [mandate|mandate]，外交场合的每一次 [concession|concession] 都要精算；香港主权债数小时获 [oversubscribed|oversubscribed]，避险资金仍在找港湾；而金融与科技行业削减成本，中层员工收到 [redundancy|redundancy] 通知，加班文化把年轻分析师推向 [burnout|burnout]——增长若陷 [stagnation|stagnation]，[downturn|downturn] 的阴影就会更近，市场与职场其实在同一条线上起伏。",
+    "hook": "今日头条头条聚焦欧盟委员会拟对绿色产业追加[subsidy|subsidy]并推动多边框架落地，但多国议会迟迟不愿批准相关协定，使政策前景蒙上阴影；与此同时，亚洲出口商正加速夺取欧洲市场份额，企业则要求政府[reimburse|reimburse]合规改造费用，并呼吁为工人开展[reskill|reskill]以应对产业链重构，市场预期被迫[recalibrate|recalibrate]。 在[多边的|multilateral]贸易谈判中，各国代表终于[正式批准|ratify]了这份协议，媒体随即[捕捉|capture]到这一消息，并将其作为[头条新闻|headline]发布。",
     "impact": ""
   }
 }

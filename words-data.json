@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-18",
   "quote": {
-    "en": "Steady effort compounds quietly, and patient learners outlast every rally.",
-    "zh": "稳定的努力会悄然累积，耐心的学习者总能走得更远。"
+    "en": "Patience outlasts the loudest rally; keep learning through the noise.",
+    "zh": "耐心比最喧闹的反弹更持久，在噪音中坚持学习。"
   },
   "story": {
-    "en": "China's economic planners are pushing to [diversify|diversify] growth drivers as October data showed the national economy operating steadily on new [momentum|momentum], while trade officials [negotiate|negotiate] upgraded rules across the region. In Beijing, the Ministry of Commerce's Li Chenggang said digital and smart economic cooperation is the area with the strongest cooperative atmosphere among APEC parties, signaling a push to [expedite|expedite] cross-border digital trade. The China-ASEAN Free Trade Area 3.0 upgrade protocol took effect, with the commerce ministry answering press questions on implementation and [compliance|compliance] for firms.\n\nOn the financial front, the Federal Reserve is modeling AI's potential impact on the economy even as the three major New York stock indexes fell on November 16. Iran said several oil tankers struck mines in the Strait of Hormuz, adding volatility to global markets. The 14th Central China Investment and Trade Expo will open in Zhengzhou, aiming to attract [outbound|outbound] investment and expand [outlay|outlay] on industrial upgrading. A new [levy|levy] debate is not on the agenda, officials said, but fiscal discipline remains key.\n\nDiplomatically, a historic meeting between the Chinese, Russian and U.S. heads of state is expected, with experts stressing strategic communication among major powers. Britain's Prime Minister Burnham said Brexit's costs outweigh benefits. As winter cold fronts hit Beijing with gusts up to force 7, the focus stays on steady growth, with October's 70-city home price declines narrowing and new growth momentum building.",
-    "cn": "随着全球通胀降温、增长分化加剧，投资者正[加快|expedite]分散配置，从拥挤的科技仓位转向更均衡的组合，市场呈现选择性回暖的态势。资产管理机构表示，此举意在分散风险而非追逐单一主题，主要股指仍保持温和的上涨[势头|momentum]，因市场预期主要央行将放慢收紧步伐。\n\n在贸易政策层面，各方仍在就跨境关税安排的细节进行[谈判|negotiate]，企业则密切关注[合规|compliance]成本的变化。多个经济体的海关部门着手加快出境货物的通关流程，同时政府部门权衡是否对部分进口商品征收新费用以保护本土产业。分析人士指出，物流与法律审查方面的任何新增[支出|outlay]都可能挤压本已利润微薄的中小出口商。\n\n展望后市，关注点在于供应链调整的速度，以及资本开支能否从少数行业扩散开来。当前加大韧性投入的企业，或更能消化政策变化带来的冲击，但所需支出规模仍是企业规划来年的关键变量，投资者也需继续通过[多元化|diversify]布局来平衡风险与回报。"
+    "en": "Shenzhen's APEC week opened at full speed on Tuesday, with President Xi Jinping holding six meetings in a single day as leaders converged on the city. Vietnam's State President Luong Cuong and Chile's President Gabriel Boric both arrived in Shenzhen, while Russian President Vladimir Putin also reached the host city, turning the [summit|summit] into a dense diplomatic calendar. A US [delegation|delegation] of more than 15 government officials, including Secretary of State Marco Rubio and Treasury Secretary Scott Bessent, will accompany President Trump on his Asia trip, according to a published roster, though the [itinerary|itinerary] details remain closely watched.\n\nMarkets, meanwhile, told a different story. New York's three main [indices|indices] fell sharply on the 17th, London stocks also declined, and Chinese A-share listed companies stepped up [buyback|buyback] programs, with institutions saying downside risk is converging. The moves came as investors weighed whether a year-end [rally|rally] can still take hold across global equities.\n\nIn aviation and technology, US officials said the FAA urgently suspended new [router|router] installations after nationwide flight groundings, with suspect equipment sent to a laboratory for examination. Nvidia's [teleconference|teleconference] drew attention as its board chairman said the company's strength stands out and that restoring Jensen Huang as CEO is not planned. With more APEC sessions ahead, attention now turns to whether policy signals from Shenzhen can steady markets through the coming weeks.",
+    "cn": "全球市场风险偏好回暖，多地主要股指出现普涨式[回升|rally]，市场寄望通胀降温能减轻央行压力。企业层面同样积极，越来越多上市公司公布[股份回购|buyback]计划，以支撑估值并向股东返还现金。\n\n政策日程同样密集。一场高层经济[峰会|summit]预计将吸引多国[代表团|delegation]与会，聚焦贸易与投资合作；主办方已分发详细[行程|itinerary]，涵盖双边会谈与实地考察。大量筹备协调通过安全[电话会议|teleconference]完成，而非线下会面，既反映差旅预算收紧，也体现远程外交的便利。\n\n在幕后，交易所与券商正升级基础设施，随着交投升温，每台交易[路由器|router]都在处理不断增长的订单量。分析人士提醒，市场情绪依然脆弱，任何政策意外都可能迅速逆转涨幅。投资者将密切关注即将公布的数据与官方表态基调，因为这轮[回升|rally]能否持续，更多取决于盈利与流动性能否跟上预期，而非单纯的热情。"
   },
   "words": [
     {
@@ -20557,10 +20557,274 @@
       "t": "中国—东盟自贸区3.0版升级议定书生效实施，加上第十四届中博会在郑州筹办，区域内 outbound 投资与出口物流成为企业关注焦点；纽约股市三大股指16日下跌，也提醒外向型企业留意海外需求。\n日常用法：机场大屏上 outbound 与 inbound 成对出现，出境走 outbound，入境走 inbound，一眼分清方向。",
       "root": "前缀 out-(向外，古英语 ūt，同源 outdo 超过、outlet 出口) + 词根 bound(去往某地，源自古诺斯语 búinn 准备好的，同源 bound for 开往) → 向外去 → 出境的、外发的",
       "d": "2026-11-17"
+    },
+    {
+      "w": "rally",
+      "ph": "/ˈræli/",
+      "m": "(股市)回升；反弹；集会",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a recovery in prices after a fall; to recover in value, esp. in stock-market contexts",
+      "defs": [
+        {
+          "cn": "(股市)回升",
+          "en": "a rebound in share or asset prices after declines",
+          "pos": "n."
+        },
+        {
+          "cn": "反弹；回升",
+          "en": "to recover in value after a period of falling",
+          "pos": "v."
+        },
+        {
+          "cn": "集会；集结",
+          "en": "a large public meeting or gathering of people",
+          "pos": "n."
+        }
+      ],
+      "col": "stock market rally 股市反弹 · a rally in tech shares 科技股回升 · rally from lows 自低位反弹 · stage a rally 发动反弹",
+      "ex": "Chinese listed firms stepped up buybacks, and institutions said the downside risk for A-shares was narrowing, setting the stage for a possible rally.",
+      "exZh": "A股上市公司加大回购，机构称市场下行风险收敛，为可能的反弹埋下伏笔。",
+      "ex2": "After three weak sessions, the New York stock indices fell sharply again on the 17th, leaving traders unsure when a rally would begin.",
+      "ex2Zh": "在连续三个疲弱交易日后，纽约股市三大股指17日再度显著下跌，交易员不确定反弹何时到来。",
+      "t": "今日盘面：A股上市公司积极回购，机构判断市场向下风险收敛，为潜在的 rally 积蓄能量；而纽约股市三大股指17日显著下跌、伦敦股市同日走低，说明反弹并非全球同步。\n职场联想：团队士气也能 rally——项目受挫后一次坦诚复盘，往往就是士气从低谷 rally 的起点，和股价一样需要真实买盘支撑。",
+      "root": "源自古法语 rallier(重新集合、重整队伍)，re-(再，拉丁，同源 return/revive) + allier(联合，拉丁 ligare 捆绑，同源 ally/league) → 重新聚拢力量 → 价格或士气重新回升",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "buyback",
+      "ph": "/ˈbaɪbæk/",
+      "m": "(公司)股份回购；回购",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a company's repurchase of its own shares, often to support the price; common in market/finance contexts",
+      "defs": [
+        {
+          "cn": "(公司)股份回购",
+          "en": "a firm buying back its own stock from the market",
+          "pos": "n."
+        },
+        {
+          "cn": "回购行为",
+          "en": "the act of repurchasing something previously sold",
+          "pos": "n."
+        },
+        {
+          "cn": "回购计划",
+          "en": "a announced program of share repurchases",
+          "pos": "n."
+        }
+      ],
+      "col": "share buyback 股份回购 · announce a buyback 宣布回购 · buyback program 回购计划 · fund a buyback 为回购提供资金",
+      "ex": "A-share listed companies have been actively launching buybacks, a signal that managers see their shares as undervalued.",
+      "exZh": "A股上市公司正积极启动回购，释放出管理层认为股价被低估的信号。",
+      "ex2": "The board approved a buyback to return surplus cash to shareholders instead of raising the dividend.",
+      "ex2Zh": "董事会批准了一项回购，用多余现金回报股东，而非提高股息。",
+      "t": "今日A股一条明确信号：多家上市公司积极回购，机构据此认为市场向下风险正在收敛，buyback 成了稳定预期的实招。\n记忆点：buy(买) + back(回来)——把卖出去的股份买回来；与 dividend(分红) 同属回报股东的工具，但 buyback 直接减少流通股数。",
+      "root": "复合词：buy(买，古英语 bycgan，同源 abide 中的 by-) + back(回来，古英语 bæc，同源 backward) → 把股份买回来 → 股份回购",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "indices",
+      "ph": "/ˈɪndɪsiːz/",
+      "m": "指数(复数)；指标",
+      "c": "econ",
+      "pos": "n.",
+      "en": "plural of index; statistical measures of market or price performance, common in financial reporting",
+      "defs": [
+        {
+          "cn": "指数(复数)",
+          "en": "plural of index; measures tracking market performance",
+          "pos": "n."
+        },
+        {
+          "cn": "指标；标志",
+          "en": "signs or indicators of a condition or trend",
+          "pos": "n."
+        },
+        {
+          "cn": "索引(复数)",
+          "en": "alphabetical lists in books, plural form",
+          "pos": "n."
+        }
+      ],
+      "col": "stock indices 股指 · the three major indices 三大股指 · price indices 价格指数 · index futures 股指期货",
+      "ex": "New York's three major stock indices fell notably on the 17th, while London shares also closed lower.",
+      "exZh": "纽约股市三大股指17日显著下跌，伦敦股市同日也收低。",
+      "ex2": "Economists track several price indices to judge whether cost pressures are easing.",
+      "ex2Zh": "经济学家跟踪多项价格指数，以判断成本压力是否缓解。",
+      "t": "今日外盘：纽约股市三大 indices 17日显著下跌，伦敦股市同日走低，全球风险偏好明显收缩，给亚太市场开盘蒙上阴影。\n易错点：index 的复数是 indices(金融常用)或 indexes(通用)；说“三大股指”就是 the three major indices，比 the three indexes 更专业。",
+      "root": "拉丁 index(指示者、食指，来自 indicare 指出，同源 indicate/indicator) → 用来“指出”市场状况的数值 → 指数；复数 indices 保留拉丁词尾 -ices",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "summit",
+      "ph": "/ˈsʌmɪt/",
+      "m": "峰会；最高层会议；顶峰",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a high-level meeting of leaders; also the highest point of a mountain or career",
+      "defs": [
+        {
+          "cn": "峰会；最高层会议",
+          "en": "a meeting of top political or business leaders",
+          "pos": "n."
+        },
+        {
+          "cn": "顶峰；顶点",
+          "en": "the highest point of a mountain or of achievement",
+          "pos": "n."
+        },
+        {
+          "cn": "举行峰会",
+          "en": "to hold a top-level meeting, as a verb in journalism",
+          "pos": "v."
+        }
+      ],
+      "col": "APEC summit APEC峰会 · hold a summit 举行峰会 · summit meeting 首脑会议 · reach the summit 登顶",
+      "ex": "Shenzhen is hosting the APEC summit, with leaders from Vietnam, Chile and Russia arriving for a packed schedule of meetings.",
+      "exZh": "深圳正举办APEC峰会，越南、智利和俄罗斯领导人陆续抵达，日程密集。",
+      "ex2": "The two firms will hold a supplier summit to reset pricing terms for next year.",
+      "ex2Zh": "两家公司将举行供应商峰会，重新设定明年的定价条款。",
+      "t": "今日时政焦点：深圳APEC summit 期间，习主席一天之内安排六场会见，越南国家主席苏林、智利总统卡斯特、俄罗斯总统普京相继抵达，特朗普亦公布15名以上官员的随行名单。\n职场用法：公司也开 summit——年度供应商峰会、管理层峰会，本质是把最高层拉到同一张桌子上拍板。",
+      "root": "源自古法语 som(最高点，拉丁 summum，同源 sum/summary 的 sum-) → 山的最高处 → 引申为最高层级的会议",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "delegation",
+      "ph": "/ˌdelɪˈɡeɪʃn/",
+      "m": "代表团；授权；委派",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a group of people representing an organization or country; also the act of assigning authority",
+      "defs": [
+        {
+          "cn": "代表团",
+          "en": "a group sent to represent a country or body",
+          "pos": "n."
+        },
+        {
+          "cn": "授权；委派",
+          "en": "the act of giving duties or authority to others",
+          "pos": "n."
+        },
+        {
+          "cn": "分权管理",
+          "en": "assigning tasks to subordinates in management",
+          "pos": "n."
+        }
+      ],
+      "col": "trade delegation 贸易代表团 · lead a delegation 率领代表团 · business delegation 商务代表团 · delegation of authority 授权",
+      "ex": "Trump's Asia trip will be joined by a delegation of more than 15 US officials, including the secretary of state and the treasury secretary.",
+      "exZh": "特朗普的亚洲之行将由15名以上美国官员组成的代表团随行，包括国务卿和财政部长。",
+      "ex2": "Good managers practise delegation, handing routine decisions to the team instead of hoarding them.",
+      "ex2Zh": "优秀的管理者善于授权，把日常决策交给团队而不是独揽。",
+      "t": "今日时政：特朗普出访亚洲的随行名单公布，一支15名以上官员的 delegation 涵盖国务卿鲁比奥、财政部长贝森特，规格之高凸显经贸议题的分量。\n职场同词：delegation 也是“授权”——manager 会不会 delegation，往往决定团队能不能跑起来；delegate 是动词，delegation 是名词，成对记。",
+      "root": "前缀 de-(向下、离开，拉丁，同源 descend) + 词根 leg(派遣、法律，拉丁 legare，同源 legacy/legal) + 后缀 -ation(名词) → 被派出去的一群人 → 代表团；把权力派下去 → 授权",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "itinerary",
+      "ph": "/aɪˈtɪnərəri/",
+      "m": "行程；旅行路线安排",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a planned route or schedule of a journey, common in travel, diplomacy and business contexts",
+      "defs": [
+        {
+          "cn": "行程；路线安排",
+          "en": "a detailed plan or route of a journey",
+          "pos": "n."
+        },
+        {
+          "cn": "日程表",
+          "en": "a schedule listing places to visit and times",
+          "pos": "n."
+        },
+        {
+          "cn": "旅行指南",
+          "en": "a document describing a travel route",
+          "pos": "n."
+        }
+      ],
+      "col": "a packed itinerary 紧凑的行程 · travel itinerary 旅行日程 · draw up an itinerary 拟定行程 · on the itinerary 在行程之列",
+      "ex": "The US president's Asia itinerary is packed, with a large official delegation accompanying him throughout.",
+      "exZh": "美国总统的亚洲行程十分紧凑，一支庞大的官方代表团全程随行。",
+      "ex2": "Before the client visit, the assistant circulated a detailed itinerary covering flights, hotels and meetings.",
+      "ex2Zh": "客户来访前，助理发了一份涵盖航班、酒店和会谈的详细行程。",
+      "t": "今日时政场景：特朗普亚洲行的 itinerary 已排得满满当当，15名以上官员随行，国务卿与财政部长均在列，每一站都对应着贸易与外交议题。\n日常用法：出差前把 itinerary 发给团队，是职场基本礼仪；它比 plan 更具体，强调“路线+时间”的完整安排。",
+      "root": "源自拉丁 itinerarium(旅程记录)，词根 iter(旅程、道路，拉丁，同源 itinerant 巡回的) + 后缀 -ary(名词/形容词) → 关于道路与行程的记录 → 行程表",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "teleconference",
+      "ph": "/ˈtelikɒnfərəns/",
+      "m": "电话会议；远程会议",
+      "c": "work",
+      "pos": "n.",
+      "en": "a meeting held by phone or video link rather than in person, common in corporate settings",
+      "defs": [
+        {
+          "cn": "电话会议",
+          "en": "a meeting conducted by telephone among distant participants",
+          "pos": "n."
+        },
+        {
+          "cn": "远程会议",
+          "en": "a virtual meeting held via audio or video links",
+          "pos": "n."
+        },
+        {
+          "cn": "召开电话会议",
+          "en": "to hold such a meeting, used as a verb informally",
+          "pos": "v."
+        }
+      ],
+      "col": "hold a teleconference 召开电话会议 · join a teleconference 参加电话会议 · earnings teleconference 财报电话会 · daily teleconference 每日例会",
+      "ex": "Nvidia's earnings teleconference drew close attention as the board chairman said the company's strength stood out.",
+      "exZh": "英伟达的财报电话会备受关注，董事会主席称公司实力超群。",
+      "ex2": "With offices in three time zones, the team relies on a weekly teleconference to align priorities.",
+      "ex2Zh": "团队办公室横跨三个时区，靠每周一次的电话会议对齐优先级。",
+      "t": "今日财经现场：英伟达的财报 teleconference 上，董事会主席称公司实力超群，并明确不打算恢复黄仁勋的CEO职务，一句话搅动市场预期。\n职场提示：跨时区团队靠 teleconference 对齐节奏；它与 video call 近义，但 teleconference 更强调多方的正式会议场景。",
+      "root": "前缀 tele-(远，希腊 tele，同源 telephone/telescope) + conference(会议，拉丁 conferre 聚到一起，同源 confer) → 相隔很远仍聚在一起开会 → 电话会议",
+      "d": "2026-11-18"
+    },
+    {
+      "w": "router",
+      "ph": "/ˈruːtə(r)/",
+      "m": "路由器；转发设备",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a networking device that forwards data between networks; also a cutting tool in woodworking",
+      "defs": [
+        {
+          "cn": "路由器",
+          "en": "a device that directs data traffic between networks",
+          "pos": "n."
+        },
+        {
+          "cn": "转发设备",
+          "en": "hardware that forwards packets along a network",
+          "pos": "n."
+        },
+        {
+          "cn": "(木工)铣刀",
+          "en": "a tool for hollowing out wood or metal",
+          "pos": "n."
+        }
+      ],
+      "col": "wireless router 无线路由器 · install a router 安装路由器 · router settings 路由器设置 · edge router 边缘路由器",
+      "ex": "After the nationwide flight halt, the FAA urgently suspended new router installations while the suspect device was sent to a lab.",
+      "exZh": "全美航班停飞事件后，FAA紧急暂停新路由器安装，嫌疑设备已被送往实验室。",
+      "ex2": "Our home network kept dropping until we replaced the ageing router.",
+      "ex2Zh": "家里网络老是掉线，直到我们换掉了那台老旧路由器。",
+      "t": "今日科技新闻：全美航班停飞后续发酵，FAA 紧急暂停新 router 安装，嫌疑设备已送实验室“解剖”，网络安全与基础设施风险再次被摆上台面。\n记忆点：route(路线)+ -er(工具)→ 给数据选路线的设备；和 switch(交换机) 常一起出现，但 router 负责跨网络转发。",
+      "root": "词根 route(路线，古法语 rute，源自拉丁 rupta via 开辟的道路，同源 routine) + 后缀 -er(工具、执行者，古英语) → 为数据挑选路线的设备 → 路由器",
+      "d": "2026-11-18"
     }
   ],
   "preview": {
-    "hook": "多国税务与贸易主管部门同步收紧跨境资金与货物申报规则，企业为分散投资风险加速调整全球布局，但前期抢出口形成的增长惯性仍在延续；与此同时，监管机构就新申报条款与行业代表展开密集[negotiate|negotiate]，并强调[compliance|compliance]审查将覆盖全部申报环节，为[expedite|expedite]通关与退税流程，多国试点电子化一站式通道，企业则重新核算设备采购与人力开支，评估新规下对部分进口商品征收附加税费的影响，尤其关注出境货物在口岸的查验与放行效率。 为降低单一市场风险，这家外贸企业借海外需求增长的[势头|momentum]积极[多元化|diversify]布局，尽管前期[支出|outlay]不小、还要缴纳新的[税款|levy]，其对[出境|outbound]业务的投入仍在加大。",
+    "hook": "今天的故事从盘面讲起：纽约三大 stock [indices|indices] 17日显著下跌、伦敦股市同步走低，而A股上市公司却在密集 [buyback|buyback]，机构说下行风险正在收敛，一场 [rally|rally] 或许正在酝酿。镜头转到深圳，APEC [summit|summit] 一天排下六场会见，越南、智利、俄罗斯领导人陆续抵达；特朗普的亚洲行则由15名以上官员组成的 [delegation|delegation] 随行，[itinerary|itinerary] 塞满贸易与外交议题。企业端同样热闹，英伟达在财报 [teleconference|teleconference] 上强调实力超群，FAA 却因航班停飞紧急叫停新 [router|router] 安装。市场与政策、企业与基础设施彼此牵动，谁能读懂这层联动，谁就更可能在下一轮 rally 里占得先机。",
     "impact": ""
   }
 }

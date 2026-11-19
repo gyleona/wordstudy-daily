@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-19",
   "quote": {
-    "en": "Patience outlasts the loudest rally; keep learning through the noise.",
-    "zh": "耐心比最喧闹的反弹更持久，在噪音中坚持学习。"
+    "en": "Read the minutes closely; patience is the trader's quiet edge.",
+    "zh": "细读纪要，耐心才是交易者无声的优势。"
   },
   "story": {
-    "en": "Shenzhen's APEC week opened at full speed on Tuesday, with President Xi Jinping holding six meetings in a single day as leaders converged on the city. Vietnam's State President Luong Cuong and Chile's President Gabriel Boric both arrived in Shenzhen, while Russian President Vladimir Putin also reached the host city, turning the [summit|summit] into a dense diplomatic calendar. A US [delegation|delegation] of more than 15 government officials, including Secretary of State Marco Rubio and Treasury Secretary Scott Bessent, will accompany President Trump on his Asia trip, according to a published roster, though the [itinerary|itinerary] details remain closely watched.\n\nMarkets, meanwhile, told a different story. New York's three main [indices|indices] fell sharply on the 17th, London stocks also declined, and Chinese A-share listed companies stepped up [buyback|buyback] programs, with institutions saying downside risk is converging. The moves came as investors weighed whether a year-end [rally|rally] can still take hold across global equities.\n\nIn aviation and technology, US officials said the FAA urgently suspended new [router|router] installations after nationwide flight groundings, with suspect equipment sent to a laboratory for examination. Nvidia's [teleconference|teleconference] drew attention as its board chairman said the company's strength stands out and that restoring Jensen Huang as CEO is not planned. With more APEC sessions ahead, attention now turns to whether policy signals from Shenzhen can steady markets through the coming weeks.",
-    "cn": "全球市场风险偏好回暖，多地主要股指出现普涨式[回升|rally]，市场寄望通胀降温能减轻央行压力。企业层面同样积极，越来越多上市公司公布[股份回购|buyback]计划，以支撑估值并向股东返还现金。\n\n政策日程同样密集。一场高层经济[峰会|summit]预计将吸引多国[代表团|delegation]与会，聚焦贸易与投资合作；主办方已分发详细[行程|itinerary]，涵盖双边会谈与实地考察。大量筹备协调通过安全[电话会议|teleconference]完成，而非线下会面，既反映差旅预算收紧，也体现远程外交的便利。\n\n在幕后，交易所与券商正升级基础设施，随着交投升温，每台交易[路由器|router]都在处理不断增长的订单量。分析人士提醒，市场情绪依然脆弱，任何政策意外都可能迅速逆转涨幅。投资者将密切关注即将公布的数据与官方表态基调，因为这轮[回升|rally]能否持续，更多取决于盈利与流动性能否跟上预期，而非单纯的热情。"
+    "en": "Fed [minutes|minutes] released today signaled a [hawkish|hawkish] stance, contrasting with earlier [dovish|dovish] expectations, as markets weighed the policy path. The readout underscored divisions among officials on the pace of tightening, with some urging caution while others pushed for firmer action. Investors parsed the text for clues on future rate moves, and the tone shift rippled through asset pricing.\n\nIn Asia, the second phase of China-South Korea free trade negotiations was [substantively|substantively] completed, the Ministry of Commerce announced, marking a [bilateral|bilateral] breakthrough. Meanwhile, U.S. Democrats moved to [appoint|appoint] Hakeem Jeffries as House Speaker, a leadership decision that could shape legislative priorities. Separately, Nvidia's board chairman said at an employee meeting that Jensen Huang will not return, a notable development for the [chipmaker|chipmaker] as it navigates governance questions.\n\nGeopolitical tensions also drew focus: Iran launched attacks on Kuwait and Bahrain, escalating regional risks, while the U.S. Homeland Security secretary testified before Congress on nationwide flight suspensions. The political backdrop remains charged, with references to the January 6 [insurrection|insurrection] still echoing in Washington debates. Looking ahead, markets will watch for further Fed signals and trade follow-through, while the Jeffries nomination and Nvidia's leadership clarity could set the tone for policy and tech sectors in the coming weeks.",
+    "cn": "美联储今日公布的会议纪要([[纪要|minutes]])释放偏鹰派([[偏鹰派的|hawkish]])信号，与市场此前偏鸽派([[偏鸽派的|dovish]])的预期形成对比，官员们对紧缩节奏的分歧受到关注。部分官员主张谨慎，另一些则推动更强硬举措，投资者细读文本以寻找未来利率路径线索，基调变化波及资产定价。\n\n亚洲方面，商务部宣布中韩自贸协定第二阶段谈判实质性([[实质性地|substantively]])完成，标志着双边([[双边的|bilateral]])突破。同时，美国民主党提名([[任命|appoint]])杰弗里斯为众议院议长，这一领导层决定可能影响立法优先事项。此外，英伟达董事会主席在员工大会上表示黄仁勋不会回归，这对该芯片制造商([[芯片制造商|chipmaker]])在治理问题上的走向值得关注。\n\n地缘紧张同样牵动视线：伊朗对科威特和巴林发动袭击，地区风险升级；美国土安全部长就全美停飞在国会作证。政治背景依然敏感，围绕1月6日叛乱([[叛乱|insurrection]])的提法仍在华盛顿辩论中回响。展望后市，市场将关注美联储进一步信号与贸易后续进展，而杰弗里斯提名与英伟达领导层明朗化可能为未来数周的政策与科技板块定下基调。"
   },
   "words": [
     {
@@ -20821,10 +20821,274 @@
       "t": "今日科技新闻：全美航班停飞后续发酵，FAA 紧急暂停新 router 安装，嫌疑设备已送实验室“解剖”，网络安全与基础设施风险再次被摆上台面。\n记忆点：route(路线)+ -er(工具)→ 给数据选路线的设备；和 switch(交换机) 常一起出现，但 router 负责跨网络转发。",
       "root": "词根 route(路线，古法语 rute，源自拉丁 rupta via 开辟的道路，同源 routine) + 后缀 -er(工具、执行者，古英语) → 为数据挑选路线的设备 → 路由器",
       "d": "2026-11-18"
+    },
+    {
+      "w": "hawkish",
+      "ph": "/ˈhɔːkɪʃ/",
+      "m": "(政策)偏鹰派的；主张强硬的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "favoring tighter monetary policy or a hardline stance, esp. in central-bank contexts",
+      "defs": [
+        {
+          "cn": "(央行)偏鹰派的",
+          "en": "favoring higher interest rates and tighter policy",
+          "pos": "adj."
+        },
+        {
+          "cn": "主张强硬的",
+          "en": "advocating a tough, uncompromising position",
+          "pos": "adj."
+        },
+        {
+          "cn": "好斗的",
+          "en": "aggressive or warlike in manner",
+          "pos": "adj."
+        }
+      ],
+      "col": "hawkish signal 鹰派信号 · hawkish stance 强硬立场 · turn hawkish 转向鹰派 · hawkish minutes 鹰派纪要",
+      "ex": "Fed minutes released today carried a hawkish signal, dampening hopes for early rate cuts.",
+      "exZh": "今日公布的美联储纪要释放鹰派信号，削弱了市场对提前降息的期待。",
+      "ex2": "The new governor is seen as more hawkish than her predecessor on regulatory matters.",
+      "ex2Zh": "这位新行长在监管事务上被认为比前任更强硬。",
+      "t": "央广财经早报11月19日提到，美联储纪要释放鹰派信号，市场对宽松路径的预期随即收敛，美元与美债收益率短线走强。\n职场联想：hawkish 对 dovish(鸽派)，一鹰一鸽成对记；开会时主张严控预算的同事也可戏称 hawkish on budget。",
+      "root": "词根 hawk(鹰，古英语 hafoc，同源德语 Habicht 鹰) + 后缀 -ish(具有…性质的，古英语 -isc，同源英语 childish 孩子气的) → 像鹰一样凶猛 → 政策上主张强硬的、偏鹰派的",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "dovish",
+      "ph": "/ˈdʌvɪʃ/",
+      "m": "(政策)偏鸽派的；主张温和的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "favoring lower interest rates or a softer, more conciliatory stance",
+      "defs": [
+        {
+          "cn": "(央行)偏鸽派的",
+          "en": "favoring lower rates and looser monetary policy",
+          "pos": "adj."
+        },
+        {
+          "cn": "主张温和的",
+          "en": "advocating a gentle, conciliatory approach",
+          "pos": "adj."
+        },
+        {
+          "cn": "鸽派的",
+          "en": "peaceable or non-confrontational in tone",
+          "pos": "adj."
+        }
+      ],
+      "col": "dovish tilt 鸽派倾向 · dovish pivot 转向鸽派 · dovish comments 鸽派言论 · more dovish than expected 比预期更鸽派",
+      "ex": "With the Fed minutes sounding hawkish, a dovish pivot looks unlikely before next year.",
+      "exZh": "鉴于美联储纪要偏鹰派，明年之前转向鸽派的可能性不大。",
+      "ex2": "Investors hoping for a dovish surprise were disappointed by the latest guidance.",
+      "ex2Zh": "期待鸽派惊喜的投资者对最新指引感到失望。",
+      "t": "同一天的财经早报里，鹰派信号压过了市场期待的鸽派转向，降息押注被迫后移，金价暴跌逼近3780美元，机构却仍在画4500的“饼”。\n记忆法：dove(鸽子)象征和平，dovish 就是“鸽”；与 hawkish 相对，一柔一刚，读财经新闻必备的一对形容词。",
+      "root": "词根 dove(鸽子，古英语 dufe，同源德语 Taube 鸽) + 后缀 -ish(具有…性质的，古英语 -isc，同源英语 foolish 愚蠢的) → 像鸽子一样温和 → 政策上主张宽松、偏鸽派的",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "minutes",
+      "ph": "/ˈmɪnɪts/",
+      "m": "(会议)纪要；会议记录",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the official written record of a meeting, esp. a central bank's policy discussion",
+      "defs": [
+        {
+          "cn": "(会议)纪要",
+          "en": "official written record of a meeting's proceedings",
+          "pos": "n."
+        },
+        {
+          "cn": "会议记录",
+          "en": "notes taken to document what was discussed",
+          "pos": "n."
+        },
+        {
+          "cn": "分钟(复数)",
+          "en": "units of time, sixty seconds each",
+          "pos": "n."
+        }
+      ],
+      "col": "Fed minutes 美联储纪要 · meeting minutes 会议纪要 · release the minutes 公布纪要 · read the minutes 研读纪要",
+      "ex": "The Fed minutes published today showed officials leaning toward holding rates steady.",
+      "exZh": "今日公布的美联储纪要显示，官员们倾向于维持利率不变。",
+      "ex2": "Please circulate the minutes of yesterday's board meeting before Friday.",
+      "ex2Zh": "请在周五前传阅昨天董事会的会议纪要。",
+      "t": "央广财经早报11月19日的头条之一，就是美联储纪要释放鹰派信号，交易员逐字研读 minutes，寻找降息时点的线索。\n职场高频：会后发 minutes 是基本礼仪，比 notes 更正式；minutes 作“分钟”时读音相同，靠语境区分。",
+      "root": "源自拉丁 minuta(细小之物，同源 minute 微小的、diminish 减少) → 把发言“摘小”记录下来 → 会议纪要；与“分钟”同形异义，靠语境分辨",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "bilateral",
+      "ph": "/ˌbaɪˈlætərəl/",
+      "m": "双边的；双方的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "involving two parties, esp. two countries, in trade or diplomacy",
+      "defs": [
+        {
+          "cn": "双边的",
+          "en": "concerning two countries or two parties",
+          "pos": "adj."
+        },
+        {
+          "cn": "双方的",
+          "en": "involving mutual relations between two sides",
+          "pos": "adj."
+        },
+        {
+          "cn": "两侧的",
+          "en": "relating to two sides, as in anatomy",
+          "pos": "adj."
+        }
+      ],
+      "col": "bilateral trade 双边贸易 · bilateral talks 双边会谈 · bilateral agreement 双边协定 · bilateral relations 双边关系",
+      "ex": "Beijing said the second phase of bilateral FTA talks with Seoul had been substantially completed.",
+      "exZh": "北京表示，中韩自贸协定第二阶段双边谈判已实质性完成。",
+      "ex2": "The two banks signed a bilateral lending facility to fund green projects.",
+      "ex2Zh": "两家银行签署双边贷款安排，为绿色项目融资。",
+      "t": "新华网报道，商务部称中韩自贸协定第二阶段谈判实质性完成，这一 bilateral 进展为区域贸易注入确定性，也呼应了 APEC 峰会上的经贸议题。\n构词联想：bi-(二)+lateral(边)，与 unilateral 单边、multilateral 多边构成一组，谈判新闻里常三词连用。",
+      "root": "前缀 bi-(二、双，拉丁 bis，同源英语 binary 二进制的、bicycle 自行车) + 词根 later(边、侧，拉丁 latus，同源英语 lateral 侧面的) → 两边的 → 双边的",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "substantively",
+      "ph": "/səbˈstæntɪvli/",
+      "m": "实质性地；在实质上",
+      "c": "politics",
+      "pos": "adv.",
+      "en": "in a meaningful, substantial way rather than merely in form",
+      "defs": [
+        {
+          "cn": "实质性地",
+          "en": "in a real and meaningful manner, not superficially",
+          "pos": "adv."
+        },
+        {
+          "cn": "在内容上",
+          "en": "with regard to substance or content",
+          "pos": "adv."
+        },
+        {
+          "cn": "重大地",
+          "en": "to a considerable or significant degree",
+          "pos": "adv."
+        }
+      ],
+      "col": "substantively complete 实质性完成 · substantively different 本质不同 · respond substantively 实质回应 · substantively engaged 实质性参与",
+      "ex": "The commerce ministry said the second-phase FTA talks had been substantively completed.",
+      "exZh": "商务部表示，自贸协定第二阶段谈判已实质性完成。",
+      "ex2": "The revised proposal is substantively the same as the original one.",
+      "ex2Zh": "修订后的方案与原始版本在实质上相同。",
+      "t": "商务部用“实质性完成”描述中韩自贸协定第二阶段谈判，英文报道常译作 substantively completed，强调不是形式上的签字，而是内容落地。\n职场用法：回复邮件时要求 respond substantively，意思是别只回“收到”，要给出有内容、有分量的答复。",
+      "root": "词根 substant(实体、实质，拉丁 substantia，同源英语 substance 物质、substantial 大量的) + 后缀 -ive(形容词) + -ly(副词) → 以实体方式 → 实质性地",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "appoint",
+      "ph": "/əˈpɔɪnt/",
+      "m": "任命；委派；约定(时间)",
+      "c": "work",
+      "pos": "v.",
+      "en": "to officially choose someone for a job or role; to fix a time or place",
+      "defs": [
+        {
+          "cn": "任命、委派",
+          "en": "to officially assign someone to a position",
+          "pos": "v."
+        },
+        {
+          "cn": "约定(时间地点)",
+          "en": "to fix or arrange a time or place",
+          "pos": "v."
+        },
+        {
+          "cn": "指定",
+          "en": "to designate something for a purpose",
+          "pos": "v."
+        }
+      ],
+      "col": "appoint a CEO 任命首席执行官 · newly appointed 新上任的 · appoint a committee 设立委员会 · at the appointed time 在约定时间",
+      "ex": "Democrats moved to appoint Jeffries as House speaker after the caucus vote.",
+      "exZh": "民主党在党团投票后着手提名杰弗里斯出任众议院议长。",
+      "ex2": "The board appointed a new chief financial officer effective next quarter.",
+      "ex2Zh": "董事会任命了一位新首席财务官，下季度生效。",
+      "t": "央视网报道，美国民主党提名杰弗里斯为众议院议长，英文新闻常用 appoint/nominate 描述这一人事安排，牵动财政与监管议程。\n职场高频：appoint 比 choose 更正式，任命、委任均可用；反义可记 dismiss 解职，一进一出成对记。",
+      "root": "前缀 ap-(=ad 朝向，拉丁 ad，同源英语 advance 前进) + 词根 point(点、指定，拉丁 punctum，同源英语 point 点、punctual 准时的) → 指向某一点 → 指定人选或时间 → 任命、约定",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "chipmaker",
+      "ph": "/ˈtʃɪpmeɪkə(r)/",
+      "m": "芯片制造商",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a company that designs or manufactures semiconductor chips",
+      "defs": [
+        {
+          "cn": "芯片制造商",
+          "en": "a firm producing semiconductor chips",
+          "pos": "n."
+        },
+        {
+          "cn": "芯片企业",
+          "en": "a company in the chip design or foundry business",
+          "pos": "n."
+        },
+        {
+          "cn": "半导体厂商",
+          "en": "a semiconductor manufacturer broadly",
+          "pos": "n."
+        }
+      ],
+      "col": "leading chipmaker 领先芯片制造商 · chipmaker shares 芯片股 · AI chipmaker AI芯片厂商 · chipmaker earnings 芯片企业财报",
+      "ex": "Nvidia's board chairman told staff that Jensen Huang would not return, a rare twist for a top chipmaker.",
+      "exZh": "英伟达董事会主席在员工大会上表示黄仁勋不会回归，这对顶级芯片制造商而言颇为罕见。",
+      "ex2": "The chipmaker reported record data-center revenue, lifting the whole sector.",
+      "ex2Zh": "这家芯片制造商公布数据中心业务创纪录营收，带动整个板块上涨。",
+      "t": "东方财富报道，英伟达董事会主席在员工大会上表示黄仁勋不会回归，这家 AI chipmaker 的人事悬念成为市场焦点，算力叙事再添变数。\n构词联想：chip(芯片)+maker(制造者)，同类还有 carmaker 车企、filmmaker 制片人，-maker 后缀表示“制造者”。",
+      "root": "词根 chip(碎片、芯片，古英语 cipp 木片，同源英语 chip 薯条) + 词根 make(制造，古英语 macian，同源英语 maker 制造者) + 后缀 -er(人/物) → 造芯片者 → 芯片制造商",
+      "d": "2026-11-19"
+    },
+    {
+      "w": "insurrection",
+      "ph": "/ˌɪnsəˈrekʃn/",
+      "m": "(政治)叛乱；暴动；武装反抗",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a violent uprising against an established government or authority; used in political and legal news",
+      "defs": [
+        {
+          "cn": "叛乱；暴动",
+          "en": "a violent uprising against authority or government",
+          "pos": "n."
+        },
+        {
+          "cn": "武装反抗行为",
+          "en": "the act of rising in open revolt",
+          "pos": "n."
+        },
+        {
+          "cn": "(引申)内部反叛",
+          "en": "figurative revolt within an organization",
+          "pos": "n."
+        }
+      ],
+      "col": "armed insurrection 武装叛乱 · quell an insurrection 平息暴动 · incite insurrection 煽动叛乱",
+      "ex": "Security analysts said the unrest in the region could be described as an insurrection rather than isolated protests.",
+      "exZh": "安全分析人士称，该地区的动荡更像一场叛乱，而非孤立的抗议。",
+      "ex2": "The board feared that a shareholder insurrection could topple the chief executive at the annual meeting.",
+      "ex2Zh": "董事会担心股东「造反」可能在年会上推翻首席执行官。",
+      "t": "美国政坛今日也有看点：民主党提名杰弗里斯为众议院议长，国会山围绕停飞与安全政策的听证火药味十足，政治对抗被一些评论形容为一场 insurrection 式的内部撕裂。\n记忆锚点：insurrection 比 protest 重得多，含「武装、推翻」意味；新闻里慎用，正式报道多用 uprising 或 revolt 近义替换。",
+      "root": "前缀 in-(向上、朝向，拉丁 in，同源 inspire 激发) + 词根 surrect(=surge 升起，拉丁 surgere，同源 surge 涌起) + 后缀 -ion(名词，拉丁) → 起身反抗 → 叛乱、暴动",
+      "d": "2026-11-19"
     }
   ],
   "preview": {
-    "hook": "今天的故事从盘面讲起：纽约三大 stock [indices|indices] 17日显著下跌、伦敦股市同步走低，而A股上市公司却在密集 [buyback|buyback]，机构说下行风险正在收敛，一场 [rally|rally] 或许正在酝酿。镜头转到深圳，APEC [summit|summit] 一天排下六场会见，越南、智利、俄罗斯领导人陆续抵达；特朗普的亚洲行则由15名以上官员组成的 [delegation|delegation] 随行，[itinerary|itinerary] 塞满贸易与外交议题。企业端同样热闹，英伟达在财报 [teleconference|teleconference] 上强调实力超群，FAA 却因航班停飞紧急叫停新 [router|router] 安装。市场与政策、企业与基础设施彼此牵动，谁能读懂这层联动，谁就更可能在下一轮 rally 里占得先机。",
+    "hook": "美联储今日公布的最新会议[minutes|minutes]显示，决策层内部就后续利率路径分歧加剧，多位官员倾向鹰派立场、强调通胀黏性仍高，而另一派则持鸽派观点、主张谨慎行事，与此同时华盛顿与北京围绕半导体供应链展开新一轮双边磋商，双方表示愿[substantively|substantively]推进对话，并传出将[appoint|appoint]一位资深贸易官员牵头后续谈判，而美国本土最大[chipmaker|chipmaker]则警告出口管制与政策不确定性正侵蚀其订单前景，叠加此前国会山[insurrection|insurrection]事件相关调查持续发酵，市场情绪在政策信号与政治风险之间反复摇摆。 在最新一轮[双边|bilateral]经贸磋商中，分析人士注意到，央行内部[鹰派|hawkish]委员主张继续收紧货币以压制通胀，而[鸽派|dovish]官员则担心过快加息会拖累复苏。",
     "impact": ""
   }
 }

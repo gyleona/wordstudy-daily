@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-19",
+  "updated_on": "2026-11-20",
   "quote": {
-    "en": "Read the minutes closely; patience is the trader's quiet edge.",
-    "zh": "细读纪要，耐心才是交易者无声的优势。"
+    "en": "Small steps taken daily quietly outgrow any sudden leap of luck.",
+    "zh": "每天迈出的一小步，终会悄悄超过偶然的一次飞跃。"
   },
   "story": {
-    "en": "Fed [minutes|minutes] released today signaled a [hawkish|hawkish] stance, contrasting with earlier [dovish|dovish] expectations, as markets weighed the policy path. The readout underscored divisions among officials on the pace of tightening, with some urging caution while others pushed for firmer action. Investors parsed the text for clues on future rate moves, and the tone shift rippled through asset pricing.\n\nIn Asia, the second phase of China-South Korea free trade negotiations was [substantively|substantively] completed, the Ministry of Commerce announced, marking a [bilateral|bilateral] breakthrough. Meanwhile, U.S. Democrats moved to [appoint|appoint] Hakeem Jeffries as House Speaker, a leadership decision that could shape legislative priorities. Separately, Nvidia's board chairman said at an employee meeting that Jensen Huang will not return, a notable development for the [chipmaker|chipmaker] as it navigates governance questions.\n\nGeopolitical tensions also drew focus: Iran launched attacks on Kuwait and Bahrain, escalating regional risks, while the U.S. Homeland Security secretary testified before Congress on nationwide flight suspensions. The political backdrop remains charged, with references to the January 6 [insurrection|insurrection] still echoing in Washington debates. Looking ahead, markets will watch for further Fed signals and trade follow-through, while the Jeffries nomination and Nvidia's leadership clarity could set the tone for policy and tech sectors in the coming weeks.",
-    "cn": "美联储今日公布的会议纪要([[纪要|minutes]])释放偏鹰派([[偏鹰派的|hawkish]])信号，与市场此前偏鸽派([[偏鸽派的|dovish]])的预期形成对比，官员们对紧缩节奏的分歧受到关注。部分官员主张谨慎，另一些则推动更强硬举措，投资者细读文本以寻找未来利率路径线索，基调变化波及资产定价。\n\n亚洲方面，商务部宣布中韩自贸协定第二阶段谈判实质性([[实质性地|substantively]])完成，标志着双边([[双边的|bilateral]])突破。同时，美国民主党提名([[任命|appoint]])杰弗里斯为众议院议长，这一领导层决定可能影响立法优先事项。此外，英伟达董事会主席在员工大会上表示黄仁勋不会回归，这对该芯片制造商([[芯片制造商|chipmaker]])在治理问题上的走向值得关注。\n\n地缘紧张同样牵动视线：伊朗对科威特和巴林发动袭击，地区风险升级；美国土安全部长就全美停飞在国会作证。政治背景依然敏感，围绕1月6日叛乱([[叛乱|insurrection]])的提法仍在华盛顿辩论中回响。展望后市，市场将关注美联储进一步信号与贸易后续进展，而杰弗里斯提名与英伟达领导层明朗化可能为未来数周的政策与科技板块定下基调。"
+    "en": "BEIJING — A day of high-stakes summitry between Xi Jinping, Donald Trump and Vladimir Putin risks [brinkmanship|brinkmanship] even as it may [embolden|embolden] trade hawks on both sides. Xi chaired the China-Russia-US trilateral meeting and later met Trump, while the APEC leaders' summit closed with a joint statement pledging an Asia-Pacific community, according to People's Daily and Voice of America.\n\nYet the economic backdrop carries a clear [headwind|headwind]. The Commerce Ministry reported that January-October sales on key platforms of smart glasses doubled and embodied-AI robot sales rose 25.2%, but Fed official Goolsbee warned inflation remains high and did not rule out an above-normal single rate hike, the Wall Street Journal's Chinese service reported. Rising [protectionism|protectionism] could choke that demand, and a [backlog|backlog] of unresolved tariff disputes still clouds exporters.\n\nOn the ground, foreign guests thronged Shenzhen's Huaqiangbei, where daily foot traffic exceeds 750,000, Star Island Headline said — a [lucrative|lucrative] channel for consumer electronics. But many service counters remain [understaffed|understaffed] as demand outpaces hiring. Officials hope cultural and tourism exhibitions can [revive|revive] spending; a Ne Zha-themed event and pinyin-as-word cultural exports were cited by Economic Daily. Whether summit pledges translate into relief before winter cold fronts hit Zhejiang — where lows near 0°C are forecast — remains the open question.",
+    "cn": "全球市场正进入一段紧张时期，贸易摩擦与供应链压力持续考验决策者的定力。在全球通胀降温、增长分化的背景下，不断抬头的[保护主义|protectionism]可能使一些倾向以关税代替谈判的政府更加有恃无恐，而围绕关税期限反复上演的[边缘政策|brinkmanship]令出口商难以判断形势，也推迟了投资决策。\n\n制造商反映，由于工厂人手不足、运费居高不下，延迟发货的[积压订单|backlog]不断增加。对许多企业而言，曾经用来对冲内需疲软的[赚钱的|lucrative]出口贸易，如今反而成为主要的[逆风|headwind]，迫使企业重新审视采购与库存安排。各国央行与贸易部门面临压力，希望在年底预算周期前推动停滞的谈判重新复苏，但很少有人预期会迅速取得突破。\n\n分析人士认为，未来数周将十分关键：若关税威胁进一步升级，企业信心可能走弱，招聘计划也可能收缩。不过，也有人认为，如果谈判方从对抗转向具体让步，仍存在妥协空间，让企业有机会清理订单簿，并在进入新一年时恢复增长动能。"
   },
   "words": [
     {
@@ -21085,10 +21085,274 @@
       "t": "美国政坛今日也有看点：民主党提名杰弗里斯为众议院议长，国会山围绕停飞与安全政策的听证火药味十足，政治对抗被一些评论形容为一场 insurrection 式的内部撕裂。\n记忆锚点：insurrection 比 protest 重得多，含「武装、推翻」意味；新闻里慎用，正式报道多用 uprising 或 revolt 近义替换。",
       "root": "前缀 in-(向上、朝向，拉丁 in，同源 inspire 激发) + 词根 surrect(=surge 升起，拉丁 surgere，同源 surge 涌起) + 后缀 -ion(名词，拉丁) → 起身反抗 → 叛乱、暴动",
       "d": "2026-11-19"
+    },
+    {
+      "w": "embolden",
+      "ph": "/ɪmˈbəʊldən/",
+      "m": "使有胆量；助长(某种行为)",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to give someone courage or confidence to act; often in political and diplomatic contexts, sometimes with a negative tone",
+      "defs": [
+        {
+          "cn": "使有胆量",
+          "en": "to make someone braver or more confident to act",
+          "pos": "v."
+        },
+        {
+          "cn": "助长(气焰)",
+          "en": "to encourage behaviour that others see as risky",
+          "pos": "v."
+        },
+        {
+          "cn": "给…壮胆",
+          "en": "to give a person courage before a difficult step",
+          "pos": "v."
+        }
+      ],
+      "col": "embolden investors 给投资者壮胆 · embolden rivals 助长对手气焰 · be emboldened by 因…而有恃无恐 · politically emboldened 政治上更加强硬",
+      "ex": "Cheaper borrowing costs could embolden smaller firms to expand before demand is confirmed.",
+      "exZh": "融资成本下降可能让中小企业有胆量在需求确认前扩张。",
+      "ex2": "A strong quarterly report emboldened the board to press ahead with the overseas listing.",
+      "ex2Zh": "强劲的季报给了董事会底气，推进海外上市。",
+      "t": "APEC 领导人峰会闭幕并发表联合声明，誓言建设亚太共同体；同一周中美元首会晤，外界担心贸易缓和会 embolden 部分出口企业推迟转型。\n反义联想：embolden 是「给胆」，intimidate 是「吓退」；老板一句肯定，往往比奖金更能 embolden 新人。",
+      "root": "前缀 em-(=in，使…进入，拉丁，同源 enable/empower) + 词根 bold(勇敢的，古英语 beald，同源 boldness 大胆) + 后缀 -en(使动，古英语) → 使人变勇敢 → 壮胆、助长",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "backlog",
+      "ph": "/ˈbæklɒɡ/",
+      "m": "积压订单；待办积压",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a pile of uncompleted orders or tasks that have built up; common in manufacturing, services and office contexts",
+      "defs": [
+        {
+          "cn": "积压订单",
+          "en": "orders received but not yet fulfilled",
+          "pos": "n."
+        },
+        {
+          "cn": "待办积压",
+          "en": "work that has accumulated and remains undone",
+          "pos": "n."
+        },
+        {
+          "cn": "积压量",
+          "en": "the size of such an accumulated pile",
+          "pos": "n."
+        }
+      ],
+      "col": "order backlog 订单积压 · clear the backlog 清理积压 · backlog of work 工作积压 · a growing backlog 不断增长的积压",
+      "ex": "Factory orders rose again, and the backlog now stretches into the second quarter of next year.",
+      "exZh": "工厂订单再度上升，积压订单已排到明年二季度。",
+      "ex2": "After two staff left, the team faced a backlog of unanswered client emails.",
+      "ex2Zh": "两名员工离职后，团队积压了大量未回复的客户邮件。",
+      "t": "商务部数据显示，1—10 月重点平台智能眼镜销售额增长 1 倍、具身智能机器人销售额增长 25.2%，厂商产能吃紧，backlog 一路排到明年。\n职场对照：backlog 是「越堆越多」，buffer 是「留出余量」，一个是欠账，一个是储备，别混用。",
+      "root": "back(后面，古英语 bæc，同源 backward) + log(原木、记录簿，古英语 lōg，同源 logbook 航海日志) → 早年指壁炉后的大原木，后指积在后面的订单 → 积压",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "headwind",
+      "ph": "/ˈhedwɪnd/",
+      "m": "逆风；不利因素",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a wind blowing against you; figuratively, a factor that slows growth or progress in business and markets",
+      "defs": [
+        {
+          "cn": "逆风",
+          "en": "a wind blowing directly against a traveller",
+          "pos": "n."
+        },
+        {
+          "cn": "不利因素",
+          "en": "a condition that slows growth or progress",
+          "pos": "n."
+        },
+        {
+          "cn": "阻力",
+          "en": "an obstacle that makes an effort harder",
+          "pos": "n."
+        }
+      ],
+      "col": "face headwinds 遭遇逆风 · macro headwinds 宏观逆风 · strong headwinds 强劲阻力 · turn headwinds into tailwinds 化逆风为顺风",
+      "ex": "Retailers selling imported goods face fresh headwinds as shipping and currency costs climb.",
+      "exZh": "航运与汇率成本上升，销售进口商品的零售商面临新的逆风。",
+      "ex2": "The new manager inherited headwinds: a tight budget and a demoralised team.",
+      "ex2Zh": "新经理接手的是逆风局面：预算吃紧、团队士气低落。",
+      "t": "美联储官员再放鹰、通胀居高不下，叠加伦敦股市 19 日下跌，全球风险资产正面对利率与估值双重 headwind；亚太市场则在 APEC 联合声明后寻找支撑。\n反义配对：headwind 逆风 ↔ tailwind 顺风，路演里常说「把 headwind 讲成 tailwind」，就是化阻力为卖点。",
+      "root": "head(头、前端，古英语 hēafod，同源 header) + wind(风，古英语 wind，同源 windy) → 迎面吹来的风 → 引申为阻碍前进的因素",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "lucrative",
+      "ph": "/ˈluːkrətɪv/",
+      "m": "赚钱的；利润丰厚的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "producing a lot of money or profit; used of jobs, contracts and markets",
+      "defs": [
+        {
+          "cn": "赚钱的",
+          "en": "producing a large amount of money",
+          "pos": "adj."
+        },
+        {
+          "cn": "利润丰厚的",
+          "en": "highly profitable for a business or investor",
+          "pos": "adj."
+        },
+        {
+          "cn": "报酬优渥的",
+          "en": "well paid, said of a job or role",
+          "pos": "adj."
+        }
+      ],
+      "col": "lucrative contract 利润丰厚的合同 · lucrative career 高薪职业 · highly lucrative 极为赚钱 · lucrative niche 赚钱的细分市场",
+      "ex": "Cross-border e-commerce has become a lucrative niche for small exporters in Shenzhen.",
+      "exZh": "跨境电商已成为深圳小出口商眼中赚钱的细分市场。",
+      "ex2": "Learning data skills turned out to be a lucrative move for mid-career staff.",
+      "ex2Zh": "对中年职场人来说，掌握数据技能是笔划算的投资。",
+      "t": "外宾扎堆华强北「血拼」，日均客流逾 75 万人次，电子配件与智能硬件成了 lucrative 的生意；与此同时智能眼镜、机器人销售翻倍，渠道商利润水涨船高。\n职场提示：lucrative 强调「能赚钱」，不等于 rewarding（有成就感）——选工作时两者常要权衡。",
+      "root": "词根 lucr-(收益、获利，拉丁 lucrum，同源 lucre 钱财) + 后缀 -ative(形容词，拉丁) → 能带来收益的 → 赚钱的、利润丰厚的",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "understaffed",
+      "ph": "/ˌʌndəˈstɑːft/",
+      "m": "人手不足的；编制不够的",
+      "c": "work",
+      "pos": "adj.",
+      "en": "having fewer workers than needed; common in hospitals, retail and service workplaces",
+      "defs": [
+        {
+          "cn": "人手不足的",
+          "en": "having too few workers for the workload",
+          "pos": "adj."
+        },
+        {
+          "cn": "编制不够的",
+          "en": "lacking enough approved positions to operate",
+          "pos": "adj."
+        },
+        {
+          "cn": "缺人的",
+          "en": "short of staff at a busy moment",
+          "pos": "adj."
+        }
+      ],
+      "col": "chronically understaffed 长期人手不足 · understaffed ward 人手不足的病房 · badly understaffed 严重缺人 · understaffed team 缺人的团队",
+      "ex": "Clinics running free screening days are often understaffed and rely on volunteers.",
+      "exZh": "举办免费筛查日的诊所常常人手不足，只能依靠志愿者。",
+      "ex2": "The store was understaffed during the holiday rush, so queues stretched outside.",
+      "ex2Zh": "节假日高峰门店人手不足，队伍排到了门外。",
+      "t": "四川省人民医院开展慢阻肺义诊，提醒咳嗽喘气别大意；这类公益门诊往往 understaffed，靠医护加班支撑，也折射出老龄化战略下医疗人力的缺口。\n近义辨析：understaffed 是「人不够」，overworked 是「人太累」，前者讲编制，后者讲负荷。",
+      "root": "前缀 under-(不足、在下，古英语 under，同源 underestimate 低估) + staff(全体职员，古英语 stæf 杖→支撑者，同源 staffer 职员) + 后缀 -ed(形容词) → 职员配备不足的",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "revive",
+      "ph": "/rɪˈvaɪv/",
+      "m": "使复苏；重新兴起",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to bring something back to life, activity or popularity; used of demand, industries and cultural exports",
+      "defs": [
+        {
+          "cn": "使复苏",
+          "en": "to bring demand or activity back to life",
+          "pos": "v."
+        },
+        {
+          "cn": "重新兴起",
+          "en": "to become popular or active again",
+          "pos": "v."
+        },
+        {
+          "cn": "重振",
+          "en": "to restore something to a healthy state",
+          "pos": "v."
+        }
+      ],
+      "col": "revive demand 提振需求 · revive an industry 重振产业 · revive consumer spending 拉动消费 · help revive 助力复苏",
+      "ex": "Local governments are using exhibitions and concerts to revive consumer spending in city centres.",
+      "exZh": "地方政府正借演出与展览拉动市中心的消费。",
+      "ex2": "Pinyin words entering English dictionaries may revive interest in Chinese culture abroad.",
+      "ex2Zh": "拼音成为英文单词，可能重新点燃海外对中文文化的兴趣。",
+      "t": "从政策到产业、从演出到展览，文商旅体展正联手 revive 消费活力；另一条线索是「拼音成单词」，文化出海为软实力再添新符号。\n联想记忆：revive 里有 viv（生命），同族 survive 活下来、vivid 鲜活——「让活过来」就是复苏。",
+      "root": "前缀 re-(再，拉丁，同源 return) + 词根 viv-(生命、活，拉丁 vivere，同源 survive/vivid) → 再活一次 → 复苏、重振",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "brinkmanship",
+      "ph": "/ˈbrɪŋkmənʃɪp/",
+      "m": "(n.) 边缘政策；在危机边缘施压以逼对方让步",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the practice of pushing a dangerous situation to the limit to force concessions; used in diplomacy and trade contexts",
+      "defs": [
+        {
+          "cn": "边缘政策",
+          "en": "pushing a crisis to the edge to win concessions",
+          "pos": "n."
+        },
+        {
+          "cn": "极限施压手法",
+          "en": "a negotiating style based on threats and risk-taking",
+          "pos": "n."
+        },
+        {
+          "cn": "铤而走险的政治博弈",
+          "en": "reckless political manoeuvring near a breaking point",
+          "pos": "n."
+        }
+      ],
+      "col": "diplomatic brinkmanship 外交边缘政策 · trade brinkmanship 贸易极限施压 · resort to brinkmanship 诉诸边缘政策 · brinkmanship tactics 边缘策略",
+      "ex": "Analysts warn that continued brinkmanship over trade rules could unsettle global supply chains before the year ends.",
+      "exZh": "分析人士警告，围绕贸易规则的持续边缘政策可能在年底前扰乱全球供应链。",
+      "ex2": "Her brinkmanship in the salary review won a bigger raise but strained relations with the team.",
+      "ex2Zh": "她在薪资评审中的极限施压争取到了更高加薪，却让团队关系变得紧张。",
+      "t": "APEC领导人峰会闭幕、联合声明誓言建设亚太共同体之际，中美元首会晤成为焦点；市场担心若各方重回brinkmanship，刚露暖意的贸易预期又会打折。\n职场版：谈薪时把离职当筹码就是brinkmanship——短期或有效，长期伤信任。与negotiation（谈判）对记：一个靠施压，一个靠交换。",
+      "root": "词根brink(边缘，中古低地德语/古英语同源，同源break断裂处的边沿) + 后缀-man(人，古英语mann，同源man) + 后缀-ship(状态、技艺，古英语-scipe，同源friendship) → 站在边缘的人之术 → 边缘政策、极限施压",
+      "d": "2026-11-20"
+    },
+    {
+      "w": "protectionism",
+      "ph": "/prəˈtekʃənɪzəm/",
+      "m": "(n.) 保护主义；以关税壁垒护本国产业",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the policy of shielding domestic industries from foreign competition, typically through tariffs and quotas",
+      "defs": [
+        {
+          "cn": "保护主义",
+          "en": "policy of protecting domestic industry from imports",
+          "pos": "n."
+        },
+        {
+          "cn": "贸易保护倾向",
+          "en": "a tendency to restrict foreign trade for local benefit",
+          "pos": "n."
+        },
+        {
+          "cn": "产业护盘政策",
+          "en": "measures shielding strategic sectors from outside rivals",
+          "pos": "n."
+        }
+      ],
+      "col": "rising protectionism 保护主义抬头 · trade protectionism 贸易保护主义 · creeping protectionism 渐进式保护主义 · resist protectionism 抵制保护主义",
+      "ex": "Economists say creeping protectionism could slow cross-border investment just as APEC leaders pledge a closer Asia-Pacific community.",
+      "exZh": "经济学家表示，渐进式保护主义可能在APEC领导人承诺建设更紧密亚太共同体之际拖慢跨境投资。",
+      "ex2": "The factory blamed protectionism abroad for its shrinking export orders this quarter.",
+      "ex2Zh": "这家工厂把本季度出口订单萎缩归咎于海外保护主义。",
+      "t": "APEC峰会联合声明誓言建设亚太共同体，但现实中各国产业政策加码，protectionism的阴影仍笼罩贸易谈判桌，企业因此加快多地布局。\n记忆法：protect（保护）+ism（主义）——嘴上说开放、手上筑高墙。与free trade（自由贸易）成对记，一收一放。",
+      "root": "词根protect(保护，拉丁protectus，同源protection保护) + 后缀-ion(名词，拉丁，同源action) + 后缀-ism(主义，希腊/拉丁，同源capitalism资本主义) → 以保护为名的主义 → 保护主义",
+      "d": "2026-11-20"
     }
   ],
   "preview": {
-    "hook": "美联储今日公布的最新会议[minutes|minutes]显示，决策层内部就后续利率路径分歧加剧，多位官员倾向鹰派立场、强调通胀黏性仍高，而另一派则持鸽派观点、主张谨慎行事，与此同时华盛顿与北京围绕半导体供应链展开新一轮双边磋商，双方表示愿[substantively|substantively]推进对话，并传出将[appoint|appoint]一位资深贸易官员牵头后续谈判，而美国本土最大[chipmaker|chipmaker]则警告出口管制与政策不确定性正侵蚀其订单前景，叠加此前国会山[insurrection|insurrection]事件相关调查持续发酵，市场情绪在政策信号与政治风险之间反复摇摆。 在最新一轮[双边|bilateral]经贸磋商中，分析人士注意到，央行内部[鹰派|hawkish]委员主张继续收紧货币以压制通胀，而[鸽派|dovish]官员则担心过快加息会拖累复苏。",
+    "hook": "美国以[brinkmanship|brinkmanship]再度加征关税，[protectionism|protectionism]升温，反而助长了各国报复性措施，令全球制造业订单积压难消；企业本就人手不足，又遇需求[headwind|headwind]，原本[lucrative|lucrative]出口业务受挫，市场寄望政策转向以[revive|revive]景气。 医院人手不足又积压了大量待办事务，这反而[使有胆量|embolden]管理层加快招聘，以免延误继续恶化。",
     "impact": ""
   }
 }

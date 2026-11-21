@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-21",
   "quote": {
-    "en": "Small steps taken daily quietly outgrow any sudden leap of luck.",
-    "zh": "每天迈出的一小步，终会悄悄超过偶然的一次飞跃。"
+    "en": "Markets punish the loud, but quiet learners keep compounding.",
+    "zh": "市场惩罚喧嚣者，而默默学习者持续复利。"
   },
   "story": {
-    "en": "BEIJING — A day of high-stakes summitry between Xi Jinping, Donald Trump and Vladimir Putin risks [brinkmanship|brinkmanship] even as it may [embolden|embolden] trade hawks on both sides. Xi chaired the China-Russia-US trilateral meeting and later met Trump, while the APEC leaders' summit closed with a joint statement pledging an Asia-Pacific community, according to People's Daily and Voice of America.\n\nYet the economic backdrop carries a clear [headwind|headwind]. The Commerce Ministry reported that January-October sales on key platforms of smart glasses doubled and embodied-AI robot sales rose 25.2%, but Fed official Goolsbee warned inflation remains high and did not rule out an above-normal single rate hike, the Wall Street Journal's Chinese service reported. Rising [protectionism|protectionism] could choke that demand, and a [backlog|backlog] of unresolved tariff disputes still clouds exporters.\n\nOn the ground, foreign guests thronged Shenzhen's Huaqiangbei, where daily foot traffic exceeds 750,000, Star Island Headline said — a [lucrative|lucrative] channel for consumer electronics. But many service counters remain [understaffed|understaffed] as demand outpaces hiring. Officials hope cultural and tourism exhibitions can [revive|revive] spending; a Ne Zha-themed event and pinyin-as-word cultural exports were cited by Economic Daily. Whether summit pledges translate into relief before winter cold fronts hit Zhejiang — where lows near 0°C are forecast — remains the open question.",
-    "cn": "全球市场正进入一段紧张时期，贸易摩擦与供应链压力持续考验决策者的定力。在全球通胀降温、增长分化的背景下，不断抬头的[保护主义|protectionism]可能使一些倾向以关税代替谈判的政府更加有恃无恐，而围绕关税期限反复上演的[边缘政策|brinkmanship]令出口商难以判断形势，也推迟了投资决策。\n\n制造商反映，由于工厂人手不足、运费居高不下，延迟发货的[积压订单|backlog]不断增加。对许多企业而言，曾经用来对冲内需疲软的[赚钱的|lucrative]出口贸易，如今反而成为主要的[逆风|headwind]，迫使企业重新审视采购与库存安排。各国央行与贸易部门面临压力，希望在年底预算周期前推动停滞的谈判重新复苏，但很少有人预期会迅速取得突破。\n\n分析人士认为，未来数周将十分关键：若关税威胁进一步升级，企业信心可能走弱，招聘计划也可能收缩。不过，也有人认为，如果谈判方从对抗转向具体让步，仍存在妥协空间，让企业有机会清理订单簿，并在进入新一年时恢复增长动能。"
+    "en": "Wall Street suffered a sharp [slump|slump] on Friday as the AI trade met a fierce [sell-off|sell-off]: the Nasdaq plunged 5% and the Philadelphia Semiconductor Index fell by double digits, with Nvidia tumbling 14%, Caixin reported. The pain spread to newly public names — Anthropic, in its second day of [listing|listing], dived intraday to within five cents of its issue price, a sign of what the Wall Street Journal described as a buyer's strike.\n\nNvidia moved to steady staff, with its board reaching out to Arm's CEO and telling employees that Jensen Huang will not return, ZAKER News said — a message meant to lift [morale|morale] amid the rout. Some analysts may [downgrade|downgrade] AI-linked names after the losses. Abroad, Beijing and Jakarta signed a [memorandum|memorandum] of understanding to launch [negotiation|negotiation] on a comprehensive economic partnership agreement, Zhonghong Net reported.\n\nSeparately, President Trump said he wants to bar US firms from building data centers overseas, aiming to keep ahead of China in the superintelligence race, Voice of America reported, while calling the China-Russia-US leaders' meeting \"unprecedented.\" The question now is whether policymakers can [deploy|deploy] capital and rules fast enough to calm markets before the next session opens.",
+    "cn": "全球市场情绪依旧脆弱，投资者在广泛的股市[暴跌|slump]与主要央行释放的混杂信号之间反复权衡。最新一轮[抛售|sell-off]集中在科技与利率敏感板块，这些领域在长期上涨后估值显得偏高。基金经理形容当前气氛是谨慎而非恐慌，但成交量显示市场确有不安。\n\n企业层面，区域内一场备受关注的[上市|listing]定价处于区间低端，反映需求疲弱。分析师迅速下调该发行人的展望，理由是订单簿偏薄。与此同时，围绕跨境贸易规则的高层[谈判|negotiation]仍在闭门进行，官员表示若[谈判|negotiation]取得进展，可能签署一份不具约束力的[备忘录|memorandum]。决策者还承诺[部署|deploy]有针对性的流动性工具，以稳定融资市场。\n\n交易台内部，数周波动之后[士气|morale]受到打击，不过多数交易台坚称纪律仍在。展望后市，焦点转向即将公布的通胀数据，以及近期压力是否只是暂时现象。官员强调，在市场寻找底部之际，透明度与稳定沟通最为关键。"
   },
   "words": [
     {
@@ -21349,10 +21349,274 @@
       "t": "APEC峰会联合声明誓言建设亚太共同体，但现实中各国产业政策加码，protectionism的阴影仍笼罩贸易谈判桌，企业因此加快多地布局。\n记忆法：protect（保护）+ism（主义）——嘴上说开放、手上筑高墙。与free trade（自由贸易）成对记，一收一放。",
       "root": "词根protect(保护，拉丁protectus，同源protection保护) + 后缀-ion(名词，拉丁，同源action) + 后缀-ism(主义，希腊/拉丁，同源capitalism资本主义) → 以保护为名的主义 → 保护主义",
       "d": "2026-11-20"
+    },
+    {
+      "w": "slump",
+      "ph": "/slʌmp/",
+      "m": "(价格/销量)暴跌；骤降",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a sudden sharp fall in prices, sales or activity; the act of falling steeply in economic contexts",
+      "defs": [
+        {
+          "cn": "(价格/销量)暴跌",
+          "en": "a sudden steep decline in prices or sales",
+          "pos": "n."
+        },
+        {
+          "cn": "骤降；大幅下滑",
+          "en": "to fall sharply in value or demand",
+          "pos": "v."
+        },
+        {
+          "cn": "低迷期",
+          "en": "a period of poor economic performance",
+          "pos": "n."
+        }
+      ],
+      "col": "market slump 市场低迷 · sales slump 销量骤降 · slump into recession 陷入衰退 · post-holiday slump 节后低迷",
+      "ex": "Wall Street endured a brutal session as AI stocks sold off and the Nasdaq slumped 5%, with Nvidia dropping 14%.",
+      "exZh": "华尔街遭遇惨烈交易日，AI股遭抛售，纳指暴跌5%，英伟达重挫14%。",
+      "ex2": "After the festival, foot traffic at the mall entered its usual seasonal slump.",
+      "ex2Zh": "节日过后，商场客流进入惯常的季节性低迷。",
+      "t": "今日美股最刺眼的一幕：AI交易遭遇猛烈抛售，纳指重挫5%，费城半导体指数跌两位数，英伟达狂泻14%。slump 是财经报道里描写\"断崖式下跌\"的常用词，比 fall 更狠、更有画面感。\n职场版：季度业绩一出，老板皱眉说 sales slumped（销量骤降），比说 went down 更显分量。记住 slump 常与 market、sales、demand 搭配。",
+      "root": "源自中古英语 slompen（突然倒下、塌陷，或拟声词，模拟重物落地之声）→ 物体猛然塌下 → 引申为价格、销量\"塌方式\"下跌，与 stumble（绊倒）同属\"失足\"意象。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "sell-off",
+      "ph": "/ˈsel ɒf/",
+      "m": "(大规模)抛售；甩卖",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a rapid selling of large amounts of shares or assets, driving prices down, in financial contexts",
+      "defs": [
+        {
+          "cn": "(大规模)抛售",
+          "en": "a rapid sale of many shares or assets",
+          "pos": "n."
+        },
+        {
+          "cn": "甩卖；降价清仓",
+          "en": "a sale at reduced prices to clear stock",
+          "pos": "n."
+        },
+        {
+          "cn": "抛售潮",
+          "en": "a wave of selling that pushes prices lower",
+          "pos": "n."
+        }
+      ],
+      "col": "AI sell-off AI抛售潮 · broad sell-off 全面抛售 · trigger a sell-off 引发抛售 · bond sell-off 债券抛售",
+      "ex": "The AI sell-off wiped billions off chipmakers, and even Anthropic's second trading day saw a steep drop.",
+      "exZh": "AI抛售潮令芯片股蒸发数十亿美元，Anthropic上市次日也大幅下挫。",
+      "ex2": "Retailers announced a year-end sell-off to clear unsold inventory.",
+      "ex2Zh": "零售商宣布年底甩卖以清理滞销库存。",
+      "t": "今日盘面关键词：AI交易遭遇猛烈抛售，纳指重挫5%，英伟达狂泻14%；Anthropic上市次日暴跌，盘中一度离破发仅差5美分，被形容为买方\"罢工\"。sell-off 精准描摹这种集中出货的恐慌。\n易混提醒：sell-off（名词，抛售）↔ sell out（卖光/背叛）↔ buyback（回购）。财经标题里看到 sell-off，先想到\"跌\"。",
+      "root": "由动词短语 sell off（卖掉、清仓）名词化而来：sell（古英语 sellan 交付、出售）+ off（古英语 of，表示\"离开、脱离\"）→ 把资产\"脱手\" → 大规模抛售。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "listing",
+      "ph": "/ˈlɪstɪŋ/",
+      "m": "(公司)上市；挂牌；清单",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the act of a company's shares being admitted to trade on a stock exchange; an item on a list",
+      "defs": [
+        {
+          "cn": "(公司)上市",
+          "en": "admission of a company's shares to a stock exchange",
+          "pos": "n."
+        },
+        {
+          "cn": "挂牌；上市交易",
+          "en": "the state of being traded publicly",
+          "pos": "n."
+        },
+        {
+          "cn": "清单；列表项",
+          "en": "an item appearing on a list",
+          "pos": "n."
+        }
+      ],
+      "col": "stock exchange listing 交易所上市 · listing day 上市首日 · delisting 退市 · go public via listing 通过上市挂牌",
+      "ex": "Anthropic's listing drew huge attention, yet its shares fell sharply on the second day of trading.",
+      "exZh": "Anthropic上市备受瞩目，但其股价在第二个交易日大幅下挫。",
+      "ex2": "The startup is preparing a listing on a Hong Kong exchange next year.",
+      "ex2Zh": "这家初创公司正筹备明年在香港交易所挂牌。",
+      "t": "今日焦点：Anthropic 上市次日暴跌，盘中一度离破发仅差5美分，市场称之为AI交易的\"买方罢工\"。listing 是财经版高频词，指公司股票正式挂牌交易的那一刻。\n对比记忆：listing（上市）↔ delisting（退市）；IPO 是\"首次公开发行\"，listing 更强调\"挂牌交易\"这个动作。",
+      "root": "源自动词 list（古英语 liste 边条、清单，与古法语 liste 同源）+ 后缀 -ing（构成名词，古英语 -ung）→ 列入清单 → 引申为证券\"挂牌上市\"。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "downgrade",
+      "ph": "/ˈdaʊnɡreɪd/",
+      "m": "下调(评级/预期)；降级",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to lower the rating, status or forecast of something, esp. in finance or employment",
+      "defs": [
+        {
+          "cn": "下调(评级)",
+          "en": "to lower a credit or analyst rating",
+          "pos": "v."
+        },
+        {
+          "cn": "降级；贬职",
+          "en": "to move someone to a lower rank or job",
+          "pos": "v."
+        },
+        {
+          "cn": "降级；下调",
+          "en": "an act of lowering status or rating",
+          "pos": "n."
+        }
+      ],
+      "col": "downgrade a rating 下调评级 · credit downgrade 信用降级 · downgrade growth forecast 下调增长预期 · job downgrade 岗位降级",
+      "ex": "Analysts rushed to downgrade AI-linked stocks after the Nasdaq's 5% plunge.",
+      "exZh": "纳指暴跌5%后，分析师纷纷下调AI相关股票评级。",
+      "ex2": "The employee feared a downgrade after the restructuring.",
+      "ex2Zh": "重组后，这名员工担心自己被降职。",
+      "t": "今日AI板块剧烈震荡，纳指重挫5%、英伟达狂泻14%，多家机构紧急 downgrade 相关个股评级，资金加速撤离。财经语境里，downgrade 往往先于价格下跌发出预警。\n职场版：组织调整中有人被 downgrade（降职），与其相对的 upgrade 则是升职或升级设备。一词两面，涨跌尽在其中。",
+      "root": "前缀 down-（向下，古英语 dūne，同源 down/downward）+ 词根 grade（等级、台阶，拉丁 gradus，同源 gradual/graduate）→ 把等级往下挪 → 降级、下调。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "negotiation",
+      "ph": "/nɪˌɡəʊʃiˈeɪʃn/",
+      "m": "谈判；协商",
+      "c": "politics",
+      "pos": "n.",
+      "en": "formal discussion aimed at reaching an agreement, esp. in trade, diplomacy or business",
+      "defs": [
+        {
+          "cn": "谈判；协商",
+          "en": "formal talks to reach an agreement",
+          "pos": "n."
+        },
+        {
+          "cn": "(贸易/外交)磋商",
+          "en": "trade or diplomatic bargaining",
+          "pos": "n."
+        },
+        {
+          "cn": "议价过程",
+          "en": "the process of bargaining over terms",
+          "pos": "n."
+        }
+      ],
+      "col": "trade negotiation 贸易谈判 · enter negotiations 进入谈判 · negotiation round 谈判轮次 · contract negotiation 合同谈判",
+      "ex": "China and Indonesia signed a memorandum to launch negotiations on a comprehensive economic partnership agreement.",
+      "exZh": "中国与印尼签署谅解备忘录，启动全面经济伙伴关系协定谈判。",
+      "ex2": "Salary negotiation is a skill every job seeker should practise.",
+      "ex2Zh": "薪资谈判是每个求职者都该练习的技能。",
+      "t": "今日时政头条之一：中印尼签署关于启动全面经济伙伴关系协定谈判的谅解备忘录，negotiation 正式登场，区域经贸格局再添变量。\n职场同样高频：面试最后一关常是 salary negotiation（薪资谈判），谈得好坏直接影响入职待遇。记法：negotiate 是动词，negotiation 是名词。",
+      "root": "源自拉丁 negotiari（做生意，neg- 否定 + otium 闲暇，即\"不得闲\"）+ 后缀 -tion（名词化，拉丁 -tio）→ 忙于交易 → 讨价还价、谈判。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "memorandum",
+      "ph": "/ˌmeməˈrændəm/",
+      "m": "备忘录；谅解备忘录",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a written record or informal diplomatic/business document recording an agreement or understanding",
+      "defs": [
+        {
+          "cn": "备忘录",
+          "en": "a written note or record for future reference",
+          "pos": "n."
+        },
+        {
+          "cn": "谅解备忘录",
+          "en": "an informal document recording mutual understanding",
+          "pos": "n."
+        },
+        {
+          "cn": "(机构内部)通报",
+          "en": "an internal written communication",
+          "pos": "n."
+        }
+      ],
+      "col": "sign a memorandum 签署备忘录 · memorandum of understanding 谅解备忘录 · internal memorandum 内部备忘录 · memorandum of agreement 协议备忘录",
+      "ex": "The two governments signed a memorandum to begin talks on a comprehensive economic partnership.",
+      "exZh": "两国政府签署备忘录，启动全面经济伙伴关系谈判。",
+      "ex2": "The manager circulated a memorandum outlining the new remote-work policy.",
+      "ex2Zh": "经理分发了一份概述新远程办公政策的备忘录。",
+      "t": "今日中印尼签署关于启动全面经济伙伴关系协定谈判的谅解备忘录，memorandum 是外交与商务场合的\"轻量级协议\"，虽不具强约束力，却是正式谈判的起点。\n职场版：公司内部常用 memo（memorandum 的缩写）发布政策通知，如新的考勤或远程办公规定。记住缩写 memo 即可。",
+      "root": "拉丁 memor（记得，同源 memory/memorable）+ 后缀 -andum（应被……的，拉丁动形词尾）→ 应被记住之事 → 备忘记录 → 备忘录。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "deploy",
+      "ph": "/dɪˈplɔɪ/",
+      "m": "部署；调配(资源/技术)",
+      "c": "work",
+      "pos": "v.",
+      "en": "to put resources, technology or people into effective use; to position forces or tools for action",
+      "defs": [
+        {
+          "cn": "部署；调配",
+          "en": "to put resources or tools into use",
+          "pos": "v."
+        },
+        {
+          "cn": "运用(技术/策略)",
+          "en": "to apply technology or tactics effectively",
+          "pos": "v."
+        },
+        {
+          "cn": "派驻；展开",
+          "en": "to position people or equipment",
+          "pos": "v."
+        }
+      ],
+      "col": "deploy AI tools 部署AI工具 · deploy capital 配置资本 · deploy staff 调配人员 · deploy resources 调配资源",
+      "ex": "Firms are racing to deploy AI tools across workflows to cut costs and speed up decisions.",
+      "exZh": "企业正竞相在工作流程中部署AI工具，以降低成本、加快决策。",
+      "ex2": "The retailer deployed extra staff to handle the holiday rush.",
+      "ex2Zh": "这家零售商调配了额外人手应对节日高峰。",
+      "t": "今日AI交易遭遇猛烈抛售、纳指重挫5%，但企业端的AI落地并未停步：从深圳APEC的\"AI赋能\"到各大公司加速 deploy 大模型工具，技术部署仍是主线。\n职场版：老板说 deploy the new system（部署新系统），意味着从试点走向全员使用。deploy 强调\"投入实战\"，比 use 更有行动感。",
+      "root": "源自法语 déployer（展开、铺开：dé- 解开 + ployer 折叠，拉丁 plicare，同源 employ/exploit）→ 把部队\"展开\"成阵 → 部署、调配。",
+      "d": "2026-11-21"
+    },
+    {
+      "w": "morale",
+      "ph": "/məˈrɑːl/",
+      "m": "士气；斗志",
+      "c": "work",
+      "pos": "n.",
+      "en": "the level of confidence, enthusiasm and discipline of a person or group, esp. at work",
+      "defs": [
+        {
+          "cn": "士气；斗志",
+          "en": "confidence and enthusiasm of a group",
+          "pos": "n."
+        },
+        {
+          "cn": "团队精神",
+          "en": "the spirit of a team or workforce",
+          "pos": "n."
+        },
+        {
+          "cn": "(军队)士气",
+          "en": "the fighting spirit of troops",
+          "pos": "n."
+        }
+      ],
+      "col": "boost morale 提振士气 · low morale 士气低落 · staff morale 员工士气 · morale booster 士气提振剂",
+      "ex": "After the restructuring and layoffs, managers worked hard to lift team morale.",
+      "exZh": "重组与裁员之后，管理者努力提振团队士气。",
+      "ex2": "A small win on the project gave the whole department a morale boost.",
+      "ex2Zh": "项目上的一点小胜利让整个部门士气大振。",
+      "t": "今日英伟达向员工传递\"稳定信号\"、明确黄仁勋不会回归，董事会还接触Arm CEO——高层动荡之下，morale 成为科技公司最需要守护的资产。\n职场版：连续加班、目标反复，团队 morale 就会走低；一句公开表扬、一次及时沟通，往往就是 morale booster。士气看不见，却决定产出。",
+      "root": "源自法语 morale（道德、风纪，拉丁 moralis，同源 moral/morality）→ 由\"道德风纪\"引申为群体的\"精神状态\" → 士气、斗志。",
+      "d": "2026-11-21"
     }
   ],
   "preview": {
-    "hook": "美国以[brinkmanship|brinkmanship]再度加征关税，[protectionism|protectionism]升温，反而助长了各国报复性措施，令全球制造业订单积压难消；企业本就人手不足，又遇需求[headwind|headwind]，原本[lucrative|lucrative]出口业务受挫，市场寄望政策转向以[revive|revive]景气。 医院人手不足又积压了大量待办事务，这反而[使有胆量|embolden]管理层加快招聘，以免延误继续恶化。",
+    "hook": "今天的故事从华尔街的恐慌开场：AI交易遭遇猛烈 [sell-off|sell-off]，纳指重挫5%，英伟达狂泻14%，连刚完成 [listing|listing] 的Anthropic次日也一度逼近破发，分析师连夜 [downgrade|downgrade] 评级。镜头转向政策面，中印尼签署 [memorandum|memorandum] 启动全面经济伙伴关系 [negotiation|negotiation]，深圳APEC上习近平会见阿尔巴尼斯，AI赋能成为会场关键词。企业端则是另一番景象：尽管市场在跌，公司仍在加速 [deploy|deploy] AI工具，而英伟达向员工喊话稳定军心，提醒人们高层动荡时 [morale|morale] 才是最贵的资产。一边是价格 [slump|slump]，一边是战略推进，今天的市场教人分清噪音与信号。",
     "impact": ""
   }
 }

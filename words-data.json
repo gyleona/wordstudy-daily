@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-22",
   "quote": {
-    "en": "Markets punish the loud, but quiet learners keep compounding.",
-    "zh": "市场惩罚喧嚣者，而默默学习者持续复利。"
+    "en": "Markets may rout the impatient, but steady learners compound quietly.",
+    "zh": "市场或许会击溃急躁者，但沉稳的学习者会悄悄积累复利。"
   },
   "story": {
-    "en": "Wall Street suffered a sharp [slump|slump] on Friday as the AI trade met a fierce [sell-off|sell-off]: the Nasdaq plunged 5% and the Philadelphia Semiconductor Index fell by double digits, with Nvidia tumbling 14%, Caixin reported. The pain spread to newly public names — Anthropic, in its second day of [listing|listing], dived intraday to within five cents of its issue price, a sign of what the Wall Street Journal described as a buyer's strike.\n\nNvidia moved to steady staff, with its board reaching out to Arm's CEO and telling employees that Jensen Huang will not return, ZAKER News said — a message meant to lift [morale|morale] amid the rout. Some analysts may [downgrade|downgrade] AI-linked names after the losses. Abroad, Beijing and Jakarta signed a [memorandum|memorandum] of understanding to launch [negotiation|negotiation] on a comprehensive economic partnership agreement, Zhonghong Net reported.\n\nSeparately, President Trump said he wants to bar US firms from building data centers overseas, aiming to keep ahead of China in the superintelligence race, Voice of America reported, while calling the China-Russia-US leaders' meeting \"unprecedented.\" The question now is whether policymakers can [deploy|deploy] capital and rules fast enough to calm markets before the next session opens.",
-    "cn": "全球市场情绪依旧脆弱，投资者在广泛的股市[暴跌|slump]与主要央行释放的混杂信号之间反复权衡。最新一轮[抛售|sell-off]集中在科技与利率敏感板块，这些领域在长期上涨后估值显得偏高。基金经理形容当前气氛是谨慎而非恐慌，但成交量显示市场确有不安。\n\n企业层面，区域内一场备受关注的[上市|listing]定价处于区间低端，反映需求疲弱。分析师迅速下调该发行人的展望，理由是订单簿偏薄。与此同时，围绕跨境贸易规则的高层[谈判|negotiation]仍在闭门进行，官员表示若[谈判|negotiation]取得进展，可能签署一份不具约束力的[备忘录|memorandum]。决策者还承诺[部署|deploy]有针对性的流动性工具，以稳定融资市场。\n\n交易台内部，数周波动之后[士气|morale]受到打击，不过多数交易台坚称纪律仍在。展望后市，焦点转向即将公布的通胀数据，以及近期压力是否只是暂时现象。官员强调，在市场寻找底部之际，透明度与稳定沟通最为关键。"
+    "en": "Wall Street's AI trade suffered a violent [rout|rout] on Friday, with the Nasdaq sinking 5% and the Philadelphia Semiconductor Index falling by double digits as Nvidia plunged 14%, Caixin reported. The selloff threatens to [precipitate|precipitate] a broader repricing of technology assets and accelerate capital [outflow|outflow] from crowded positions, while the surge in Federal Reserve rate-hike expectations pushed New York gold to a weekly [plummet|plummet] of nearly 9%, according to China Financial Information Network.\n\nIn Asia, Xi Jinping's remarks at the APEC Shenzhen meetings drew warm global response, and international observers praised the historic China-Russia-US summit for building a new model of major-power coordination. Li Qiang held talks with Singapore's Prime Minister Lawrence Wong. Britain's defense secretary visited Kyiv to reaffirm long-term support for Ukraine, while Japan saw tens of thousands sign against nuclear submarines.\n\nEnergy and health technology advanced: China's first hydrogen pipeline exceeding 100 kilometers entered operation with approval to carry 100,000 tonnes annually, and China secured the world's second license for printable tablets. Investors should [redeploy|redeploy] capital cautiously as volatility [ratchet|ratchet] higher; contracts [stipulate|stipulate] fresh risk limits, and boards weigh [remuneration|remuneration] against uncertain returns.",
+    "cn": "全球通胀降温的背景下，估值偏高与政策信号不一正在放大市场波动，并可能加速风险资产的剧烈调整。部分新兴市场的本币债券出现突然的[溃败|rout]，基金经理被迫重新评估久期风险；持续的[外流|outflow]则对汇率形成压力，并抽走较小市场的流动性。\n\n银行业方面，长期国债收益率再度下滑令银行股在早盘[暴跌|plummet]，让人回想起此前的存款流失。主要经济体的监管机构[规定|stipulate]更严格的流动性缓冲，监管层也推动银行逐步提高资本规划要求，而不是依赖临时纾困。资产管理机构则被要求[重新部署|redeploy]人员和风险预算，把更多资源投向压力测试与信用监测。\n\n[报酬|remuneration]方面，董事会正面临投资者对高管[报酬|remuneration]的更严格审视，代理顾问要求把奖金与长期韧性更清晰地挂钩。未来数周将检验政策制定者能否在不扼杀增长的前提下稳定市场情绪；在增加风险敞口之前，投资者应关注融资利差、外汇储备与银行信息披露是否出现企稳迹象。"
   },
   "words": [
     {
@@ -21613,10 +21613,274 @@
       "t": "今日英伟达向员工传递\"稳定信号\"、明确黄仁勋不会回归，董事会还接触Arm CEO——高层动荡之下，morale 成为科技公司最需要守护的资产。\n职场版：连续加班、目标反复，团队 morale 就会走低；一句公开表扬、一次及时沟通，往往就是 morale booster。士气看不见，却决定产出。",
       "root": "源自法语 morale（道德、风纪，拉丁 moralis，同源 moral/morality）→ 由\"道德风纪\"引申为群体的\"精神状态\" → 士气、斗志。",
       "d": "2026-11-21"
+    },
+    {
+      "w": "precipitate",
+      "ph": "/prɪˈsɪpɪteɪt/",
+      "m": "(使)突然发生；加速(坏事)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to cause something, especially something bad, to happen suddenly or sooner; in economic contexts, to trigger a sharp market move",
+      "defs": [
+        {
+          "cn": "使突然发生",
+          "en": "to cause an event, often unpleasant, to happen suddenly",
+          "pos": "v."
+        },
+        {
+          "cn": "加速(恶化)",
+          "en": "to make a situation deteriorate more quickly",
+          "pos": "v."
+        },
+        {
+          "cn": "沉淀物",
+          "en": "a solid substance separated from a solution",
+          "pos": "n."
+        }
+      ],
+      "col": "precipitate a sell-off 引发抛售 · precipitate a crisis 加速危机 · precipitate action 仓促行动",
+      "ex": "The AI trading rout on Wall Street helped precipitate a 5% plunge in the Nasdaq, with Nvidia tumbling 14%.",
+      "exZh": "华尔街AI交易溃败助推纳指暴跌5%，英伟达狂泻14%。",
+      "ex2": "A sudden hike in rate expectations could precipitate capital outflows from emerging markets.",
+      "ex2Zh": "加息预期骤升可能加速新兴市场资本外流。",
+      "t": "今日美股AI交易遭遇猛烈抛售，纳指重挫5%，费半跌两位数，英伟达狂泻14%——这轮抛售由估值担忧precipitate，恐慌情绪迅速蔓延。\n职场中也可用：一个仓促决定可能precipitate团队危机，提醒我们决策前多评估风险，别让冲动成为催化剂。",
+      "root": "前缀 pre-(在前，拉丁 prae，同源 predict 预测) + 词根 cipit(头，拉丁 caput，同源 capital 资本) + 后缀 -ate(动词) → 头朝前冲 → 突然发生、加速",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "rout",
+      "ph": "/raʊt/",
+      "m": "溃败；彻底击败",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "a decisive defeat; to defeat an opponent completely, often used for market sell-offs",
+      "defs": [
+        {
+          "cn": "溃败",
+          "en": "a crushing defeat in a battle or competition",
+          "pos": "n."
+        },
+        {
+          "cn": "彻底击败",
+          "en": "to defeat someone completely and decisively",
+          "pos": "v."
+        },
+        {
+          "cn": "市场暴跌",
+          "en": "a sharp, widespread market decline",
+          "pos": "n."
+        }
+      ],
+      "col": "market rout 市场溃败 · suffer a rout 遭遇惨败 · rout the bears 击溃空头",
+      "ex": "The AI trading rout wiped billions off tech stocks, with the Nasdaq sinking 5% in a single session.",
+      "exZh": "AI交易溃败令科技股市值蒸发数十亿，纳指单日重挫5%。",
+      "ex2": "The home team suffered a humiliating rout in the final, losing 4-0.",
+      "ex2Zh": "主队在决赛中遭遇0比4的耻辱性溃败。",
+      "t": "美股收盘：AI交易遭遇猛烈抛售，纳指重挫5%，费半跌两位数，英伟达狂泻14%——这场rout让科技股多头损失惨重。\n记忆点：rout与route(路线)形近，可联想“溃败的军队四处逃窜，找不到route”，职场中项目惨败也可说a project rout。",
+      "root": "源自古法语 route(队伍、溃退)，与拉丁 rupta(断裂)同源，同源词 route 路线 → 队伍被击散 → 溃败",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "outflow",
+      "ph": "/ˈaʊtfləʊ/",
+      "m": "外流；流出量",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the movement of money, people, or resources out of a place or system; opposite of inflow",
+      "defs": [
+        {
+          "cn": "资金外流",
+          "en": "money leaving a country or market",
+          "pos": "n."
+        },
+        {
+          "cn": "流出量",
+          "en": "the amount that flows out",
+          "pos": "n."
+        },
+        {
+          "cn": "人才外流",
+          "en": "the departure of skilled workers",
+          "pos": "n."
+        }
+      ],
+      "col": "capital outflow 资本外流 · net outflow 净流出 · talent outflow 人才外流",
+      "ex": "Rising Fed rate expectations could trigger capital outflow from emerging markets.",
+      "exZh": "美联储加息预期升温可能引发新兴市场资本外流。",
+      "ex2": "The company reported a net outflow of $2 billion in the third quarter.",
+      "ex2Zh": "该公司第三季度报告净流出20亿美元。",
+      "t": "美联储加息预期升温，纽约金价单周跌幅近9%，市场担忧资本outflow从新兴市场加速撤离，美元资产吸引力上升。\n职场中，人才outflow也是HR头疼的问题：核心员工流失会削弱团队竞争力，需及时用激励措施留住人。",
+      "root": "前缀 out-(向外，古英语 ūt，同源 out) + 词根 flow(流动，古英语 flōwan，同源 flood 洪水) → 向外流 → 外流",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "plummet",
+      "ph": "/ˈplʌmɪt/",
+      "m": "暴跌；垂直落下",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to fall or drop suddenly and steeply in value or amount; often used for prices, shares, or temperatures",
+      "defs": [
+        {
+          "cn": "暴跌",
+          "en": "to decrease rapidly in value or amount",
+          "pos": "v."
+        },
+        {
+          "cn": "垂直落下",
+          "en": "to fall straight down at high speed",
+          "pos": "v."
+        },
+        {
+          "cn": "铅锤",
+          "en": "a weight attached to a line, used for measuring depth",
+          "pos": "n."
+        }
+      ],
+      "col": "plummet to a record low 跌至历史低点 · shares plummet 股价暴跌 · temperatures plummet 气温骤降",
+      "ex": "Nvidia shares plummeted 14% as AI-related stocks faced a fierce sell-off.",
+      "exZh": "英伟达股价暴跌14%，AI相关股票遭遇猛烈抛售。",
+      "ex2": "Consumer confidence plummeted after the unexpected rate hike.",
+      "ex2Zh": "意外加息后消费者信心骤降。",
+      "t": "受AI交易抛售拖累，英伟达股价plummet 14%，纳指重挫5%，费城半导体指数跌两位数，市场恐慌情绪蔓延。\n对比记忆：plummet强调“直线下坠”，比fall更剧烈；职场中也可说morale plummeted(士气暴跌)，形象生动。",
+      "root": "来自古法语 plommet(小铅锤)，词根 plomb(铅，拉丁 plumbum，同源 plumber 水管工) → 像铅锤一样直坠 → 暴跌",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "stipulate",
+      "ph": "/ˈstɪpjuleɪt/",
+      "m": "规定；明确要求",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to state clearly and firmly as a requirement, especially in a contract or agreement",
+      "defs": [
+        {
+          "cn": "规定",
+          "en": "to specify a condition in an agreement",
+          "pos": "v."
+        },
+        {
+          "cn": "明确要求",
+          "en": "to demand something as part of an arrangement",
+          "pos": "v."
+        },
+        {
+          "cn": "约定",
+          "en": "to arrange or agree formally",
+          "pos": "v."
+        }
+      ],
+      "col": "stipulate that 规定…… · as stipulated 按照规定 · contract stipulates 合同规定",
+      "ex": "The trade agreement stipulates that tariffs will be reduced over five years.",
+      "exZh": "该贸易协定规定关税将在五年内逐步降低。",
+      "ex2": "The job offer stipulates a six-month probation period.",
+      "ex2Zh": "录用通知规定六个月试用期。",
+      "t": "李强同新加坡总理黄循财会谈，双方可能stipulate新的双边合作条款，涵盖贸易、投资与数字经济领域，为区域合作注入确定性。\n职场中，合同常stipulate保密义务和竞业限制，签字前务必逐条读懂，避免日后纠纷。",
+      "root": "词根 stipul(交易、约定，拉丁 stipulari，同源 stipulation 条款) + 后缀 -ate(动词) → 正式约定 → 规定、明确要求",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "ratchet",
+      "ph": "/ˈrætʃɪt/",
+      "m": "棘轮；(使)单向逐步变动",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "to increase or decrease something in a series of small steps that cannot easily be reversed; a mechanism that allows movement in one direction only",
+      "defs": [
+        {
+          "cn": "逐步上调",
+          "en": "to raise something in incremental, often irreversible steps",
+          "pos": "v."
+        },
+        {
+          "cn": "棘轮",
+          "en": "a device that permits motion in one direction only",
+          "pos": "n."
+        },
+        {
+          "cn": "单向加剧",
+          "en": "to intensify a situation step by step",
+          "pos": "v."
+        }
+      ],
+      "col": "ratchet up pressure 逐步加大压力 · ratchet down 逐步降低 · ratchet effect 棘轮效应",
+      "ex": "The central bank may ratchet up interest rates if inflation expectations continue to rise.",
+      "exZh": "若通胀预期持续升温，央行可能逐步上调利率。",
+      "ex2": "Both sides agreed to ratchet down trade tensions through dialogue.",
+      "ex2Zh": "双方同意通过对话逐步缓和贸易紧张。",
+      "t": "美联储加息预期升温，纽约金价单周跌幅近9%，市场担心央行会继续ratchet up利率，进一步压制金价。\n职场中，绩效目标常被ratchet up，员工需持续提升技能才能达标，棘轮效应提醒我们：标准只会越来越高。",
+      "root": "来自法语 rochet(棘轮)，词根 roche(纺车) → 只能单向转动的齿轮 → 逐步单向变动",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "redeploy",
+      "ph": "/ˌriːdɪˈplɔɪ/",
+      "m": "重新部署；调派",
+      "c": "work",
+      "pos": "v.",
+      "en": "to move employees, resources, or funds to a different place or task in order to use them more effectively",
+      "defs": [
+        {
+          "cn": "重新部署",
+          "en": "to move resources to a new position or purpose",
+          "pos": "v."
+        },
+        {
+          "cn": "调派(员工)",
+          "en": "to reassign staff to different roles",
+          "pos": "v."
+        },
+        {
+          "cn": "重新配置",
+          "en": "to reallocate funds or assets",
+          "pos": "v."
+        }
+      ],
+      "col": "redeploy staff 调派员工 · redeploy capital 重新配置资本 · redeploy resources 重新部署资源",
+      "ex": "The company plans to redeploy 200 engineers to its AI division next quarter.",
+      "exZh": "该公司计划下季度将200名工程师调派至AI部门。",
+      "ex2": "Governments may redeploy fiscal resources to support green energy projects.",
+      "ex2Zh": "政府可能重新配置财政资源以支持绿色能源项目。",
+      "t": "在AI交易遭遇猛烈抛售之际，多家科技巨头宣布将redeploy部分工程师至AI基础设施团队，以应对算力需求激增。\n职场启示：员工应主动适应岗位调整，redeploy不是降级，而是重新配置人才，抓住新领域的机会。",
+      "root": "前缀 re-(再次，拉丁 re-，同源 return 返回) + 词根 deploy(展开，法语 déployer，同源 display 展示) → 再次展开 → 重新部署",
+      "d": "2026-11-22"
+    },
+    {
+      "w": "remuneration",
+      "ph": "/rɪˌmjuːnəˈreɪʃn/",
+      "m": "报酬；薪酬",
+      "c": "work",
+      "pos": "n.",
+      "en": "payment or compensation received for work or services; salary and benefits",
+      "defs": [
+        {
+          "cn": "薪酬",
+          "en": "money paid for work, including salary and bonuses",
+          "pos": "n."
+        },
+        {
+          "cn": "报酬",
+          "en": "reward for effort or service",
+          "pos": "n."
+        },
+        {
+          "cn": "酬金",
+          "en": "a sum of money paid for a service",
+          "pos": "n."
+        }
+      ],
+      "col": "competitive remuneration 有竞争力的薪酬 · remuneration package 薪酬方案 · executive remuneration 高管薪酬",
+      "ex": "Tech firms are offering competitive remuneration packages to attract AI talent.",
+      "exZh": "科技公司正提供有竞争力的薪酬方案以吸引AI人才。",
+      "ex2": "The board approved a new remuneration policy for senior executives.",
+      "ex2Zh": "董事会批准了新的高管薪酬政策。",
+      "t": "随着AI人才争夺战加剧，硅谷科技公司纷纷提高remuneration package，部分岗位年薪突破百万美元，以留住顶尖工程师。\n职场中，remuneration不仅指工资，还包括奖金、股权和福利，谈offer时要综合评估整体报酬。",
+      "root": "前缀 re-(回，拉丁 re-) + 词根 muner(礼物、服务，拉丁 munus，同源 municipal 市政的) + 后缀 -ation(名词) → 回赠的礼物 → 报酬",
+      "d": "2026-11-22"
     }
   ],
   "preview": {
-    "hook": "今天的故事从华尔街的恐慌开场：AI交易遭遇猛烈 [sell-off|sell-off]，纳指重挫5%，英伟达狂泻14%，连刚完成 [listing|listing] 的Anthropic次日也一度逼近破发，分析师连夜 [downgrade|downgrade] 评级。镜头转向政策面，中印尼签署 [memorandum|memorandum] 启动全面经济伙伴关系 [negotiation|negotiation]，深圳APEC上习近平会见阿尔巴尼斯，AI赋能成为会场关键词。企业端则是另一番景象：尽管市场在跌，公司仍在加速 [deploy|deploy] AI工具，而英伟达向员工喊话稳定军心，提醒人们高层动荡时 [morale|morale] 才是最贵的资产。一边是价格 [slump|slump]，一边是战略推进，今天的市场教人分清噪音与信号。",
+    "hook": "今天的故事从华尔街的一场[rout|rout]说起：AI交易遭遇猛烈抛售，纳指重挫5%，英伟达股价[plummet|plummet] 14%，恐慌情绪迅速[precipitate|precipitate]全球风险资产回调。与此同时，美联储加息预期升温令金价单周跌幅近9%，市场担忧资本[outflow|outflow]从新兴市场加速，央行可能继续[ratchet|ratchet] up利率。外交层面，李强同新加坡总理黄循财会谈，双方有望[stipulate|stipulate]新的合作条款；职场中，科技巨头则忙着[redeploy|redeploy]工程师至AI团队，并用有竞争力的[remuneration|remuneration] package争夺人才。波动与重配并行，机会藏在分化里。",
     "impact": ""
   }
 }

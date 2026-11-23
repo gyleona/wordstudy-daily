@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-22",
+  "updated_on": "2026-11-23",
   "quote": {
-    "en": "Markets may rout the impatient, but steady learners compound quietly.",
-    "zh": "市场或许会击溃急躁者，但沉稳的学习者会悄悄积累复利。"
+    "en": "Rules change fast; the learners who adapt keep their edge.",
+    "zh": "规则变得很快，持续学习的人才能守住优势。"
   },
   "story": {
-    "en": "Wall Street's AI trade suffered a violent [rout|rout] on Friday, with the Nasdaq sinking 5% and the Philadelphia Semiconductor Index falling by double digits as Nvidia plunged 14%, Caixin reported. The selloff threatens to [precipitate|precipitate] a broader repricing of technology assets and accelerate capital [outflow|outflow] from crowded positions, while the surge in Federal Reserve rate-hike expectations pushed New York gold to a weekly [plummet|plummet] of nearly 9%, according to China Financial Information Network.\n\nIn Asia, Xi Jinping's remarks at the APEC Shenzhen meetings drew warm global response, and international observers praised the historic China-Russia-US summit for building a new model of major-power coordination. Li Qiang held talks with Singapore's Prime Minister Lawrence Wong. Britain's defense secretary visited Kyiv to reaffirm long-term support for Ukraine, while Japan saw tens of thousands sign against nuclear submarines.\n\nEnergy and health technology advanced: China's first hydrogen pipeline exceeding 100 kilometers entered operation with approval to carry 100,000 tonnes annually, and China secured the world's second license for printable tablets. Investors should [redeploy|redeploy] capital cautiously as volatility [ratchet|ratchet] higher; contracts [stipulate|stipulate] fresh risk limits, and boards weigh [remuneration|remuneration] against uncertain returns.",
-    "cn": "全球通胀降温的背景下，估值偏高与政策信号不一正在放大市场波动，并可能加速风险资产的剧烈调整。部分新兴市场的本币债券出现突然的[溃败|rout]，基金经理被迫重新评估久期风险；持续的[外流|outflow]则对汇率形成压力，并抽走较小市场的流动性。\n\n银行业方面，长期国债收益率再度下滑令银行股在早盘[暴跌|plummet]，让人回想起此前的存款流失。主要经济体的监管机构[规定|stipulate]更严格的流动性缓冲，监管层也推动银行逐步提高资本规划要求，而不是依赖临时纾困。资产管理机构则被要求[重新部署|redeploy]人员和风险预算，把更多资源投向压力测试与信用监测。\n\n[报酬|remuneration]方面，董事会正面临投资者对高管[报酬|remuneration]的更严格审视，代理顾问要求把奖金与长期韧性更清晰地挂钩。未来数周将检验政策制定者能否在不扼杀增长的前提下稳定市场情绪；在增加风险敞口之前，投资者应关注融资利差、外汇储备与银行信息披露是否出现企稳迹象。"
+    "en": "A quiet but telling convergence of regulatory and political signals is shaping markets this week. Beijing's move to lower the minimum [margin|margin] for margin financing in Shanghai, Shenzhen and Beijing to 80%, effective November 30, is a clear [proponent|proponent] signal that policymakers want to steady [leveraged|leveraged] trading. The same announcement paired the cut with synchronized fee reductions, a [fiscal|fiscal] gesture aimed at easing costs for retail investors rather than a broad stimulus.\n\nThe [derivative|derivative] market's reaction will be watched closely, since lower collateral requirements can amplify leveraged positions and raise questions about risk controls. At the same time, official commentary stressed strengthening the [enforcement|enforcement] of party rules and regulations, with a call to break hidden practices. That is a [protocol|protocol] issue as much as a political one: rules must be applied uniformly, not selectively.\n\nElsewhere, the [novelty|novelty] of AI-driven claims — including a reported 250,000-page proof of the Riemann Hypothesis — is forcing institutions to ask who gets credit and how verification works. The Bank of Japan's quake in Kumamoto and Antalya climate talks closing add to a busy news day. Investors should watch whether the margin cut lifts volumes without inviting excess.",
+    "cn": "本周，监管与政治信号悄然交汇，影响市场情绪。沪深北交易所宣布将融资[[保证金|margin]]下限降至80%，自11月30日起实施，并同步降费。这一举措被视作政策制定者希望稳住[[高杠杆的|leveraged]]交易的明确信号，也是一项旨在降低散户成本的[[财政的|fiscal]]安排，而非全面刺激。\n\n[[衍生品|derivative]]市场的反应值得关注：抵押要求降低可能放大杠杆头寸，并引发风险控制疑问。与此同时，官方评论强调增强党内法规制度[[执行|enforcement]力]，大力破除潜规则。这既是政治问题，也是[[协议、规程|protocol]]问题——规则必须统一适用，不能选择性执行。\n\n此外，AI驱动主张的[[新奇、新颖|novelty]性]——包括据称25万页的黎曼猜想证明——正迫使机构追问署名与验证机制。日本熊本县4.1级地震、联合国气候变化安塔利亚大会闭幕，也让今日新闻格外密集。作为该政策的[[支持者|proponent]]，市场参与者应观察降保证金能否提升成交而不引发过度投机。"
   },
   "words": [
     {
@@ -21877,10 +21877,270 @@
       "t": "随着AI人才争夺战加剧，硅谷科技公司纷纷提高remuneration package，部分岗位年薪突破百万美元，以留住顶尖工程师。\n职场中，remuneration不仅指工资，还包括奖金、股权和福利，谈offer时要综合评估整体报酬。",
       "root": "前缀 re-(回，拉丁 re-) + 词根 muner(礼物、服务，拉丁 munus，同源 municipal 市政的) + 后缀 -ation(名词) → 回赠的礼物 → 报酬",
       "d": "2026-11-22"
+    },
+    {
+      "w": "derivative",
+      "ph": "/dɪˈrɪvətɪv/",
+      "m": "(金融)衍生品；派生的、缺乏原创的",
+      "c": "econ",
+      "pos": "n./adj.",
+      "en": "a financial product whose value depends on an underlying asset; also adj. copied from something else rather than original",
+      "defs": [
+        {
+          "cn": "(金融)衍生品",
+          "en": "a financial instrument priced from an underlying asset",
+          "pos": "n."
+        },
+        {
+          "cn": "派生的、非原创的",
+          "en": "copied or developed from something else, not original",
+          "pos": "adj."
+        },
+        {
+          "cn": "衍生物",
+          "en": "something produced from another substance or source",
+          "pos": "n."
+        }
+      ],
+      "col": "derivative market 衍生品市场 · equity derivatives 股票衍生品 · highly derivative 缺乏原创 · derivative of 由……派生",
+      "ex": "Lower margin requirements are expected to revive trading in equity derivatives on the Shanghai and Shenzhen exchanges.",
+      "exZh": "保证金要求下调，预计将激活沪深两市的股票衍生品交易。",
+      "ex2": "Critics say the sequel feels derivative, recycling plots from the original film.",
+      "ex2Zh": "批评者称这部续集缺乏原创，重复了原作的情节。",
+      "t": "融资保证金下限降至80%、交易所同步降费，最直接受益的正是衍生品与两融交易，derivative 市场的活跃度被普遍看好。\n记忆钩子：derivative 本义“派生的”，金融衍生品的价格就是从股票、利率这些“母体”派生出来的。",
+      "root": "前缀 de-(向下、离开，拉丁，同源 decline 下降) + 词根 riv(=river 河流，拉丁，同源 river) + 后缀 -ative(形容词/名词，拉丁) → 从源头引流而出 → 派生的、衍生品",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "fiscal",
+      "ph": "/ˈfɪskl/",
+      "m": "财政的；国库的、财税相关的",
+      "c": "politics",
+      "pos": "adj.",
+      "en": "relating to government revenue, taxes and public spending; connected to a country's budget",
+      "defs": [
+        {
+          "cn": "财政的",
+          "en": "relating to government money, taxes and spending",
+          "pos": "adj."
+        },
+        {
+          "cn": "财税的",
+          "en": "concerning taxation and public revenue policy",
+          "pos": "adj."
+        },
+        {
+          "cn": "国库的",
+          "en": "connected with a state treasury or public funds",
+          "pos": "adj."
+        }
+      ],
+      "col": "fiscal policy 财政政策 · fiscal year 财年 · fiscal deficit 财政赤字 · fiscal stimulus 财政刺激",
+      "ex": "Local fiscal officials in Jiangxi were promoted to the provincial standing committee, signalling a focus on budget execution.",
+      "exZh": "江西财政系统官员升任省委常委，释放出重视预算执行的信号。",
+      "ex2": "The company closes its fiscal year in March, so bonuses arrive in April.",
+      "ex2Zh": "公司在三月结束财年，因此奖金四月发放。",
+      "t": "江西省财政厅厅长许南吉升任省委常委，财政系统干部进入决策核心，fiscal 政策与地方债务、预算执行的关系被市场反复解读。\n搭配提醒：fiscal 管“钱怎么收怎么花”，monetary 管“利率与货币”，两个词常成对出现。",
+      "root": "词根 fisc(=fiscus 钱篮、国库，拉丁，同源 confiscate 充公) + 后缀 -al(形容词，拉丁) → 与国库钱篮相关 → 财政的",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "protocol",
+      "ph": "/ˈprəʊtəkɒl/",
+      "m": "协议、规程；(外交)礼仪、议定书",
+      "c": "work",
+      "pos": "n.",
+      "en": "an official set of rules or procedures; a formal agreement between parties; also ceremonial etiquette",
+      "defs": [
+        {
+          "cn": "规程、操作规范",
+          "en": "an official set of rules for a process or system",
+          "pos": "n."
+        },
+        {
+          "cn": "(外交)议定书",
+          "en": "a formal written agreement between states or bodies",
+          "pos": "n."
+        },
+        {
+          "cn": "礼仪、礼节",
+          "en": "formal rules of ceremony and etiquette",
+          "pos": "n."
+        }
+      ],
+      "col": "safety protocol 安全规程 · breach of protocol 违反规程 · diplomatic protocol 外交礼仪 · follow protocol 按流程执行",
+      "ex": "Korean universities now require exam aprons as an anti-cheating protocol against AI devices.",
+      "exZh": "韩国多所高校要求考试穿围裙，作为防范AI作弊的新规程。",
+      "ex2": "Please follow the standard protocol before escalating a client complaint.",
+      "ex2Zh": "升级客户投诉前，请先按标准流程执行。",
+      "t": "韩国部分高校因AI作弊频发，要求考生考试时穿围裙、遮挡智能设备，这套看似古怪的 protocol 实为应对生成式AI的应急之举。\n职场延伸：公司里的 protocol 是不成文却必须遵守的流程，打破它比做错事更容易得罪人。",
+      "root": "前缀 proto-(第一、最初，希腊，同源 prototype 原型) + 词根 col(=kolla 胶水、粘贴，希腊) → 最初粘在卷轴上的首页 → 公文原件、议定书 → 规程",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "novelty",
+      "ph": "/ˈnɒvlti/",
+      "m": "新奇、新颖；新奇的事物",
+      "c": "tech",
+      "pos": "n.",
+      "en": "the quality of being new and unusual; also a new or unfamiliar thing or experience",
+      "defs": [
+        {
+          "cn": "新奇、新颖",
+          "en": "the quality of being new, original or unusual",
+          "pos": "n."
+        },
+        {
+          "cn": "新奇事物",
+          "en": "a new and unfamiliar object or experience",
+          "pos": "n."
+        },
+        {
+          "cn": "新鲜感",
+          "en": "the excitement that comes from something new",
+          "pos": "n."
+        }
+      ],
+      "col": "a sense of novelty 新鲜感 · novelty value 新奇价值 · lose its novelty 不再新鲜 · novelty product 新奇产品",
+      "ex": "Global brain-computer interface firms multiplied this year, though many still sell novelty rather than clinical value.",
+      "exZh": "全球脑机接口企业今年数量快速增长，但不少卖的还是新奇而非临床价值。",
+      "ex2": "The novelty of remote work wore off once meetings filled every hour.",
+      "ex2Zh": "当会议填满每个小时，远程工作的新鲜感就消失了。",
+      "t": "2026年全球脑机接口企业数量较快增长，行业热度高企，但 novelty 与真实临床价值之间的落差仍是投资人的核心疑问。\n记忆法：novel 作形容词是“新奇的”，作名词是“小说”，novelty 则是它的名词化——新意本身。",
+      "root": "词根 nov(=new 新，拉丁，同源 novel 新奇的、innovate 创新) + 后缀 -el(形容词) + -ty(名词化，拉丁) → 新的性质 → 新奇、新意",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "margin",
+      "ph": "/ˈmɑːdʒɪn/",
+      "m": "(金融)保证金；利润率；差额",
+      "c": "econ",
+      "pos": "n.",
+      "en": "money deposited as security in trading; the difference between cost and revenue; an edge or buffer",
+      "defs": [
+        {
+          "cn": "(金融)保证金",
+          "en": "collateral deposited to secure a trading position",
+          "pos": "n."
+        },
+        {
+          "cn": "利润率；毛利",
+          "en": "the difference between selling price and cost",
+          "pos": "n."
+        },
+        {
+          "cn": "余地；差额",
+          "en": "an amount of space or difference allowed",
+          "pos": "n."
+        }
+      ],
+      "col": "margin requirement 保证金要求 · profit margin 利润率 · on the margin 在边缘/临界处 · margin call 追加保证金通知",
+      "ex": "Shanghai and Shenzhen bourses will cut the minimum margin for securities financing to 80% from November 30, alongside synchronized fee reductions.",
+      "exZh": "微薄的利润率迫使几家中型出口商本季度重新谈判运费合同。",
+      "ex2": "Thin profit margins forced several mid-sized exporters to renegotiate freight contracts this quarter.",
+      "t": "今日沪深北交易所宣布融资保证金下限降至80%，11月30日起实施，并同步降费——这是监管层给杠杆资金松绑的明确信号，市场流动性预期随之升温。\n职场里 margin 也常指\"余地\"：leave some margin for error（留点容错空间），比只说 space 更专业。",
+      "root": "词根 marg-(边缘、边界，拉丁 margo，同源 marginal 边缘的、marginally 略微) + 名词后缀 -in → 边缘处留出的部分 → 差额、保证金、余地",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "leveraged",
+      "ph": "/ˈliːvərɪdʒd/",
+      "m": "(金融)高杠杆的；举债经营的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "financed largely with borrowed money; in finance, using debt to magnify exposure",
+      "defs": [
+        {
+          "cn": "(金融)高杠杆的",
+          "en": "using borrowed funds to magnify investment exposure",
+          "pos": "adj."
+        },
+        {
+          "cn": "举债经营的",
+          "en": "of a company, financed heavily by debt",
+          "pos": "adj."
+        },
+        {
+          "cn": "借助…的",
+          "en": "using something as a tool to gain advantage",
+          "pos": "adj."
+        }
+      ],
+      "col": "highly leveraged 高杠杆的 · leveraged buyout 杠杆收购 · leveraged fund 杠杆基金 · deleveraged 去杠杆的",
+      "ex": "Lower margin requirements could encourage more leveraged positions in the A-share market, regulators warn.",
+      "exZh": "高杠杆房地产开发商仍是今年银行业最大的风险来源。",
+      "ex2": "Highly leveraged property developers remain the biggest risk to the banking sector this year.",
+      "t": "融资保证金下限从100%降至80%，意味着同样的本金可撬动更多仓位，杠杆资金活跃度或明显回升，市场对\"leveraged 交易\"的争论也随之升温。\n对比记忆：leveraged 加杠杆 ↔ deleveraged 去杠杆，一加一减，正是监管松紧的两面。",
+      "root": "词根 lev-(举起，拉丁 levare，同源 elevate 提升、lever 杠杆) + 后缀 -erage(工具、手段) + 形容词后缀 -ed → 用杠杆撬起来的 → 高杠杆的、举债的",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "enforcement",
+      "ph": "/ɪnˈfɔːsmənt/",
+      "m": "(法律/制度)执行；强制执行",
+      "c": "politics",
+      "pos": "n.",
+      "en": "the act of making people obey a law, rule or regulation; compulsory implementation",
+      "defs": [
+        {
+          "cn": "(法律)执行",
+          "en": "the process of making people comply with rules",
+          "pos": "n."
+        },
+        {
+          "cn": "强制执行",
+          "en": "compulsory carrying out of a court order or penalty",
+          "pos": "n."
+        },
+        {
+          "cn": "落实力度",
+          "en": "the strength with which a policy is actually applied",
+          "pos": "n."
+        }
+      ],
+      "col": "law enforcement 执法 · enforcement action 执法行动 · strict enforcement 严格执行 · enforcement mechanism 执行机制",
+      "ex": "Officials pledged to strengthen the enforcement of internal Party regulations and break hidden informal rules.",
+      "exZh": "信息披露规则执行不力，长期令该地区中小股东不满。",
+      "ex2": "Weak enforcement of disclosure rules has long frustrated minority shareholders in the region.",
+      "t": "今日\"天天学习\"栏目强调，要完善党内法规制度体系、增强制度执行力、大力破除潜规则——enforcement 正是从纸面规则走向实际约束的关键一环，制度若无执行就是空文。\n职场同款：policy enforcement（政策落地）比只说 carry out 更有制度感，也更能体现\"动真格\"。",
+      "root": "前缀 en-(使…，法语，同源 enable 使能够) + 词根 force(力量，拉丁 fortis，同源 fortify 加固、fortress 堡垒) + 名词后缀 -ment → 使规则有力量 → 执行、强制实施",
+      "d": "2026-11-23"
+    },
+    {
+      "w": "proponent",
+      "ph": "/prəˈpəʊnənt/",
+      "m": "支持者；倡导者；主张者",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a person who argues in favour of a policy, idea or reform",
+      "defs": [
+        {
+          "cn": "支持者",
+          "en": "someone who backs a proposal or policy",
+          "pos": "n."
+        },
+        {
+          "cn": "倡导者",
+          "en": "a public advocate of a cause or reform",
+          "pos": "n."
+        },
+        {
+          "cn": "主张者",
+          "en": "a person who puts forward an idea for debate",
+          "pos": "n."
+        }
+      ],
+      "col": "a strong proponent 坚定支持者 · proponent of reform 改革倡导者 · leading proponent 主要倡导者 · vocal proponent 高声疾呼的支持者",
+      "ex": "Analysts who are proponents of the margin cut argue it will revive trading activity without stoking excessive risk.",
+      "exZh": "她已成为公司内部弹性工作安排的积极倡导者。",
+      "ex2": "She has become a vocal proponent of flexible work arrangements inside the company.",
+      "t": "围绕融资保证金下调与同步降费，市场出现两派声音：proponent 认为这是稳市场、提信心的及时之举，反对者则担忧杠杆回潮。政策辩论中，立场鲜明的支持者往往决定舆论走向。\n近义辨析：proponent 支持者 ↔ opponent 反对者，成对记忆，讨论任何政策都能用上。",
+      "root": "前缀 pro-(向前、支持，拉丁，同源 promote 促进、pro-) + 词根 pon(放置，拉丁 ponere，同源 component 组成部分、postpone 推迟) + 后缀 -ent(人) → 把主张摆到前面的人 → 支持者、倡导者",
+      "d": "2026-11-23"
     }
   ],
   "preview": {
-    "hook": "今天的故事从华尔街的一场[rout|rout]说起：AI交易遭遇猛烈抛售，纳指重挫5%，英伟达股价[plummet|plummet] 14%，恐慌情绪迅速[precipitate|precipitate]全球风险资产回调。与此同时，美联储加息预期升温令金价单周跌幅近9%，市场担忧资本[outflow|outflow]从新兴市场加速，央行可能继续[ratchet|ratchet] up利率。外交层面，李强同新加坡总理黄循财会谈，双方有望[stipulate|stipulate]新的合作条款；职场中，科技巨头则忙着[redeploy|redeploy]工程师至AI团队，并用有竞争力的[remuneration|remuneration] package争夺人才。波动与重配并行，机会藏在分化里。",
+    "hook": "监管层针对场外[derivative|derivative]市场发布新一轮财政风险提示，并同步更新跨境交易的[protocol|protocol]模板；多位市场人士指出，此轮新规的[novelty|novelty]性在于把[margin|margin]覆盖率与[enforcement|enforcement]细则绑定，而对高杠杆策略的[proponent|proponent]而言，这意味着融资成本与合规压力将同步上升，部分机构已开始重新评估持仓结构与清算安排。 面对[财政|fiscal]压力，这家[高杠杆的|leveraged]企业不得不重新审视债务结构。",
     "impact": ""
   }
 }

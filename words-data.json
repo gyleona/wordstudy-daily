@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-23",
+  "updated_on": "2026-11-24",
   "quote": {
-    "en": "Rules change fast; the learners who adapt keep their edge.",
-    "zh": "规则变得很快，持续学习的人才能守住优势。"
+    "en": "Ambition sets the direction; discipline decides how far you travel.",
+    "zh": "抱负定方向，纪律决定你能走多远。"
   },
   "story": {
-    "en": "A quiet but telling convergence of regulatory and political signals is shaping markets this week. Beijing's move to lower the minimum [margin|margin] for margin financing in Shanghai, Shenzhen and Beijing to 80%, effective November 30, is a clear [proponent|proponent] signal that policymakers want to steady [leveraged|leveraged] trading. The same announcement paired the cut with synchronized fee reductions, a [fiscal|fiscal] gesture aimed at easing costs for retail investors rather than a broad stimulus.\n\nThe [derivative|derivative] market's reaction will be watched closely, since lower collateral requirements can amplify leveraged positions and raise questions about risk controls. At the same time, official commentary stressed strengthening the [enforcement|enforcement] of party rules and regulations, with a call to break hidden practices. That is a [protocol|protocol] issue as much as a political one: rules must be applied uniformly, not selectively.\n\nElsewhere, the [novelty|novelty] of AI-driven claims — including a reported 250,000-page proof of the Riemann Hypothesis — is forcing institutions to ask who gets credit and how verification works. The Bank of Japan's quake in Kumamoto and Antalya climate talks closing add to a busy news day. Investors should watch whether the margin cut lifts volumes without inviting excess.",
-    "cn": "本周，监管与政治信号悄然交汇，影响市场情绪。沪深北交易所宣布将融资[[保证金|margin]]下限降至80%，自11月30日起实施，并同步降费。这一举措被视作政策制定者希望稳住[[高杠杆的|leveraged]]交易的明确信号，也是一项旨在降低散户成本的[[财政的|fiscal]]安排，而非全面刺激。\n\n[[衍生品|derivative]]市场的反应值得关注：抵押要求降低可能放大杠杆头寸，并引发风险控制疑问。与此同时，官方评论强调增强党内法规制度[[执行|enforcement]力]，大力破除潜规则。这既是政治问题，也是[[协议、规程|protocol]]问题——规则必须统一适用，不能选择性执行。\n\n此外，AI驱动主张的[[新奇、新颖|novelty]性]——包括据称25万页的黎曼猜想证明——正迫使机构追问署名与验证机制。日本熊本县4.1级地震、联合国气候变化安塔利亚大会闭幕，也让今日新闻格外密集。作为该政策的[[支持者|proponent]]，市场参与者应观察降保证金能否提升成交而不引发过度投机。"
+    "en": "Markets opened the week [volatile|volatile] as gold, after several days of declines, staged a [rebound|rebound], Xinhua reported. The move came as brokers moved in orderly fashion to implement counter-cyclical margin-trading measures, a signal that financing channels may [replenish|replenish] liquidity rather than drain it. Investors watching the metals tape are also weighing how much [leverage|leverage] to deploy after last week's slide, with the [dismissal|dismissal] of a straight-line recovery narrative leaving room for sharper swings.\n\nIn corporate news, Nvidia shares jumped 31%, adding nearly a trillion in market value in a single session as Jensen Huang retook the helm, Wall Street CN reported. The rally helped [accelerate|accelerate] appetite for AI-linked exposure, while Morgan Asset Management said it will deploy about 500 million yuan of its own capital into the first batch of active ETFs to list, Cailian reported. The [aspiration|aspiration] among fund houses is to seed new products before flows arrive.\n\nThe broader backdrop remains uneven. COP31 ended without an agreement, VOA reported, and Trump hinted that strikes on Iran could continue next year if talks fail. Against that, China's foreign ministry reiterated that dialogue and negotiation are the only viable path out of the Ukraine crisis. With [volatility|volatility] likely to persist, positioning discipline matters more than conviction.",
+    "cn": "全球市场持续剧烈波动，投资者在通胀降温与企业盈利分化之间反复权衡，多个主要交易所在同一交易时段内大幅震荡。分析人士指出，股市此前的[反弹|rebound]往往难以持续，基金经理面临压力，需要[补充|replenish]年内已被消耗的现金缓冲。监管机构对散户交易账户中使用[杠杆|leverage]的情况加强审查，警告称放大后的头寸在行情突变时可能加剧亏损。\n\n企业层面，一家大型工业集团高管的[解雇|dismissal]引发外界对公司治理与继任安排的质疑，尽管公司坚称战略不变。与此同时，央行面临微妙平衡：过快[加速|accelerate]反通胀进程可能使经济陷入收缩，而过慢则可能固化物价持续上涨的预期。政策制定者强调，其[抱负|aspiration]是实现软着陆，而非急剧放缓。\n\n展望后市，策略师提醒，随着下一个财报季临近，[波动性|volatility]可能延续，外汇与债券市场同样对利率预期变化高度敏感。投资者被建议分散配置、避免对单日行情过度反应，并在年底临近之际密切关注流动性状况与信用利差。"
   },
   "words": [
     {
@@ -22137,10 +22137,274 @@
       "t": "围绕融资保证金下调与同步降费，市场出现两派声音：proponent 认为这是稳市场、提信心的及时之举，反对者则担忧杠杆回潮。政策辩论中，立场鲜明的支持者往往决定舆论走向。\n近义辨析：proponent 支持者 ↔ opponent 反对者，成对记忆，讨论任何政策都能用上。",
       "root": "前缀 pro-(向前、支持，拉丁，同源 promote 促进、pro-) + 词根 pon(放置，拉丁 ponere，同源 component 组成部分、postpone 推迟) + 后缀 -ent(人) → 把主张摆到前面的人 → 支持者、倡导者",
       "d": "2026-11-23"
+    },
+    {
+      "w": "volatile",
+      "ph": "/ˈvɒlətaɪl/",
+      "m": "(市场/价格)剧烈波动的；不稳定的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "likely to change suddenly and unpredictably, esp. in markets or prices",
+      "defs": [
+        {
+          "cn": "(市场)剧烈波动的",
+          "en": "changing rapidly and unpredictably, as in prices",
+          "pos": "adj."
+        },
+        {
+          "cn": "不稳定的；易变的",
+          "en": "unstable and liable to sudden change",
+          "pos": "adj."
+        },
+        {
+          "cn": "易怒的；情绪化的",
+          "en": "liable to change mood quickly; temperamental",
+          "pos": "adj."
+        }
+      ],
+      "col": "volatile market 波动剧烈的市场 · highly volatile prices 价格大起大落 · volatile trading session 震荡交易日 · remain volatile 持续动荡",
+      "ex": "Gold remained volatile for days before rebounding, testing the nerves of investors who had piled into safe havens.",
+      "exZh": "金价连续数日剧烈波动后才反弹，考验着涌入避险资产的投资者神经。",
+      "ex2": "A volatile schedule makes it hard for the team to plan long-term projects.",
+      "ex2Zh": "变幻不定的日程让团队很难规划长期项目。",
+      "t": "今日财经线索之一就是金价：连跌数日后国际金价反弹，走势依旧 volatile，避险资金进进出出，谁都不敢重仓押方向。\n职场同样如此：项目节奏 volatile 时，先定优先级再谈细节，比一味赶工更稳。近义词 unstable，反义 steady。",
+      "root": "词根 vol-(飞、飞掠，拉丁 volare，同源 volley 齐射、volant 飞行的) + -atile(易…的，拉丁形容词后缀) → 会飞的、飘忽不定的 → 价格与情绪剧烈波动",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "rebound",
+      "ph": "/rɪˈbaʊnd/",
+      "m": "(价格)反弹；回升；恢复",
+      "c": "econ",
+      "pos": "v./n.",
+      "en": "to rise again after a fall, esp. of prices or markets; a recovery",
+      "defs": [
+        {
+          "cn": "(价格)反弹",
+          "en": "to rise again after a decline, as prices do",
+          "pos": "v."
+        },
+        {
+          "cn": "回升；恢复",
+          "en": "to recover after a setback or low point",
+          "pos": "v."
+        },
+        {
+          "cn": "反弹；回升",
+          "en": "an upward movement after a fall",
+          "pos": "n."
+        }
+      ],
+      "col": "rebound sharply 大幅反弹 · rebound from a low 自低位反弹 · a strong rebound 强劲回升 · rebound in demand 需求回升",
+      "ex": "After several consecutive losing sessions, international gold prices rebounded, drawing buyers back into the market.",
+      "exZh": "在连跌数个交易日后，国际金价反弹，吸引买家重回市场。",
+      "ex2": "The team rebounded from a failed launch with a clearer product roadmap.",
+      "ex2Zh": "团队在发布失利后凭更清晰的产品路线图重振旗鼓。",
+      "t": "黄金连跌数日后终于 rebound，国际金价重新站上关键位置，市场情绪随之缓和，前期观望的资金开始试探性回补。\n对比记忆：rebound 反弹 ↔ slump 暴跌，一上一下成对记；职场里说 rebound from a setback，就是从挫折中回弹。",
+      "root": "前缀 re-(再、回，拉丁，同源 return 返回、recall 召回) + 词根 bound(弹跳，源自古法语 bondir 跳跃，同源 bound 跳跃) → 再弹回来 → 价格反弹、状态回升",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "replenish",
+      "ph": "/rɪˈplenɪʃ/",
+      "m": "补充；重新填满(资金/库存)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to fill something up again or restore a supply, esp. funds or inventory",
+      "defs": [
+        {
+          "cn": "补充；重新填满",
+          "en": "to fill or build up a supply again",
+          "pos": "v."
+        },
+        {
+          "cn": "补充(资金/库存)",
+          "en": "to restore funds, stock or reserves",
+          "pos": "v."
+        },
+        {
+          "cn": "恢复(精力)",
+          "en": "to restore energy or strength",
+          "pos": "v."
+        }
+      ],
+      "col": "replenish reserves 补充储备 · replenish inventory 补充库存 · replenish funds 补充资金 · replenish supplies 补给物资",
+      "ex": "Morgan Asset Management plans to put about 500 million yuan of its own capital to work as the first active ETFs list.",
+      "exZh": "摩根资产管理拟以约5亿元自有资金投资，配合首批主动ETF上市。",
+      "ex2": "Warehouse managers replenish shelves overnight so morning orders ship on time.",
+      "ex2Zh": "仓库管理员夜间补货，确保早间订单准时发出。",
+      "t": "首批主动ETF上市，摩根资产管理将运用约5亿元自有资金投资，等于用真金白银 replenish 产品的流动性底盘，给市场吃下定心丸。\n生活版：冰箱空了要 replenish，团队预算见底也要 replenish；名词形式 replenishment 常见于库存管理。",
+      "root": "前缀 re-(再，拉丁，同源 repeat 重复、restore 恢复) + 词根 plen(满，拉丁 plenus，同源 plenty 充足、complete 完整) + -ish(动词后缀) → 再次使满 → 补充、填满",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "leverage",
+      "ph": "/ˈliːvərɪdʒ/",
+      "m": "杠杆；利用(资源/优势)",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "the use of borrowed money to increase returns; to use something to maximum advantage",
+      "defs": [
+        {
+          "cn": "杠杆；借贷放大",
+          "en": "use of borrowed capital to magnify returns",
+          "pos": "n."
+        },
+        {
+          "cn": "利用；借助",
+          "en": "to use a resource or advantage effectively",
+          "pos": "v."
+        },
+        {
+          "cn": "影响力；筹码",
+          "en": "power to influence a situation or negotiation",
+          "pos": "n."
+        }
+      ],
+      "col": "financial leverage 财务杠杆 · leverage ratios 杠杆率 · leverage technology 借助技术 · gain leverage 获得筹码",
+      "ex": "Brokerages are adjusting margin-trading rules to keep leverage from building up too fast in a rising market.",
+      "exZh": "券商调整两融规则，防止上涨行情中杠杆过快累积。",
+      "ex2": "She leveraged her bilingual skills to lead the cross-border client team.",
+      "ex2Zh": "她借助双语能力领导跨境客户团队。",
+      "t": "券商推进两融逆周期调节，核心就是管住 leverage：行情热时收紧、冷时放松，避免杠杆资金把波动放大成风险。\n职场里 leverage 是褒义动词：leverage your network（借力人脉）、leverage data（用数据说话），比单纯 use 更有策略感。",
+      "root": "词根 lev-(举起、轻，拉丁 levare 举起，同源 elevate 提升、relieve 减轻) + -er(工具) + -age(名词后缀，法语) → 撬起物体的杆 → 杠杆 → 借力放大",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "dismissal",
+      "ph": "/dɪsˈmɪsl/",
+      "m": "解雇；驳回；不予考虑",
+      "c": "work",
+      "pos": "n.",
+      "en": "the act of removing someone from a job; the rejection of an idea or claim",
+      "defs": [
+        {
+          "cn": "解雇；免职",
+          "en": "ending someone's employment",
+          "pos": "n."
+        },
+        {
+          "cn": "驳回；不予受理",
+          "en": "rejection of a claim or case by authority",
+          "pos": "n."
+        },
+        {
+          "cn": "不予考虑；轻视",
+          "en": "treating an idea as unworthy of attention",
+          "pos": "n."
+        }
+      ],
+      "col": "wrongful dismissal 不当解雇 · dismissal of a claim 驳回诉求 · summary dismissal 立即解雇 · face dismissal 面临解雇",
+      "ex": "The report warns that careless dismissal of junior staff feedback can quietly erode a team's morale.",
+      "exZh": "报告警告，轻率忽视初级员工的反馈会悄然侵蚀团队士气。",
+      "ex2": "His dismissal of the risk turned out to be costly for the whole department.",
+      "ex2Zh": "他对风险的轻视最终让整个部门付出代价。",
+      "t": "重庆首份聚焦人才金融的专题报告发布，人才流动与职业保障被摆上台面，dismissal 的合规成本与再就业支持成了讨论重点。\n词义要分流：dismissal 既指“解雇”，也指“驳回/不予考虑”；法庭上 dismissal of a case 是撤诉，别和裁员混为一谈。",
+      "root": "前缀 dis-(分开、离开，拉丁，同源 dismiss 解散、displace 取代) + 词根 miss(送、放，拉丁 mittere，同源 mission 使命、submit 提交) + -al(名词后缀) → 送走 → 解雇；把诉求送回去 → 驳回",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "accelerate",
+      "ph": "/əkˈseləreɪt/",
+      "m": "加速；促进(进程)",
+      "c": "tech",
+      "pos": "v.",
+      "en": "to go faster or make something happen sooner, esp. in tech and business contexts",
+      "defs": [
+        {
+          "cn": "加速；加快",
+          "en": "to increase speed or rate of progress",
+          "pos": "v."
+        },
+        {
+          "cn": "促进；推动提前",
+          "en": "to make an event happen sooner",
+          "pos": "v."
+        },
+        {
+          "cn": "(车辆)提速",
+          "en": "to increase the speed of a vehicle",
+          "pos": "v."
+        }
+      ],
+      "col": "accelerate growth 加速增长 · accelerate adoption 加快采用 · accelerate the timeline 提前时间表 · accelerate innovation 推动创新",
+      "ex": "Nvidia shares jumped 31% in a single session as investors bet the company would accelerate its AI roadmap.",
+      "exZh": "英伟达股价单日暴涨31%，投资者押注公司将加速其AI路线图。",
+      "ex2": "Automating routine reports can accelerate a team's weekly review cycle.",
+      "ex2Zh": "将例行报告自动化能加快团队的每周复盘节奏。",
+      "t": "黄仁勋重掌英伟达帅印，股价暴涨31%、市值单日增长近万亿，市场押注公司会 accelerate AI 芯片与生态布局。\n职场用法：accelerate the process（加快流程）比 speed up 更书面；反义 decelerate，注意双写 c 的拼写。",
+      "root": "前缀 ac-(=ad 向、趋，拉丁，同源 advance 前进、access 接近) + 词根 celer(快，拉丁 celer，同源 celerity 迅速) + -ate(动词后缀) → 使变快 → 加速、促进",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "aspiration",
+      "ph": "/ˌæspəˈreɪʃn/",
+      "m": "抱负；志向；渴望",
+      "c": "work",
+      "pos": "n.",
+      "en": "a strong hope or ambition to achieve something, esp. in career contexts",
+      "defs": [
+        {
+          "cn": "抱负；志向",
+          "en": "a strong desire to achieve something great",
+          "pos": "n."
+        },
+        {
+          "cn": "渴望；愿望",
+          "en": "an earnest hope or aim",
+          "pos": "n."
+        },
+        {
+          "cn": "(呼吸)吸入",
+          "en": "the act of breathing in, in medical use",
+          "pos": "n."
+        }
+      ],
+      "col": "career aspirations 职业抱负 · fulfill an aspiration 实现志向 · rising aspirations 日益增长的期望 · shared aspirations 共同愿景",
+      "ex": "The talent-finance report highlights how young professionals' career aspirations shape where capital and skills flow.",
+      "exZh": "这份人才金融报告揭示了青年职业抱负如何影响资本与技能的流向。",
+      "ex2": "Her aspiration to lead a regional team kept her studying after hours.",
+      "ex2Zh": "想领导区域团队的抱负让她坚持下班后学习。",
+      "t": "重庆首份人才金融专题报告发布，青年人才的 aspiration 被量化：他们想要什么岗位、什么回报，正重塑资本与技能流向。\n与 ambition 近义，但 aspiration 更强调“向往”而非“野心”；形容词 aspirational 常形容品牌或生活方式令人向往。",
+      "root": "前缀 ad-(向，拉丁，同源 advance 前进、approach 接近) + 词根 spir(呼吸，拉丁 spirare，同源 inspire 激励、spirit 精神) + -ation(名词后缀) → 朝着目标呼气、渴求 → 抱负、渴望",
+      "d": "2026-11-24"
+    },
+    {
+      "w": "volatility",
+      "ph": "/ˌvɒləˈtɪləti/",
+      "m": "(市场)波动性；反复无常",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the quality of changing often and unpredictably, esp. in markets and prices",
+      "defs": [
+        {
+          "cn": "(市场)波动性",
+          "en": "the tendency of prices or markets to fluctuate sharply",
+          "pos": "n."
+        },
+        {
+          "cn": "反复无常",
+          "en": "the quality of being unstable or unpredictable",
+          "pos": "n."
+        },
+        {
+          "cn": "波动率(金融指标)",
+          "en": "a statistical measure of price dispersion in finance",
+          "pos": "n."
+        }
+      ],
+      "col": "market volatility 市场波动性 · curb volatility 抑制波动 · volatility index 波动率指数 · rising volatility 波动加剧",
+      "ex": "Gold rebounded after several days of losses, a sign that volatility remains high across commodity markets.",
+      "exZh": "国际金价连跌数日后反弹，显示大宗商品市场的波动性依然高企。",
+      "ex2": "Treasury desks hire analysts who can stay calm when volatility spikes.",
+      "ex2Zh": "债券交易部门会聘用那些在波动骤升时仍能保持冷静的分析师。",
+      "t": "今日金价连跌数日后反弹，正是 volatility 的教科书式注脚：避险与获利了结两股力量反复拉扯，价格上蹿下跳。\n职场里也常用：项目排期充满 volatility，团队就得留出缓冲，而不是把计划钉死。",
+      "root": "词根 vol-(飞、意愿，拉丁 velle，同源 volition 意志) + -at- + -ility(名词后缀，拉丁) → 能飞动、会变 → 价格反复起落、波动性",
+      "d": "2026-11-24"
     }
   ],
   "preview": {
-    "hook": "监管层针对场外[derivative|derivative]市场发布新一轮财政风险提示，并同步更新跨境交易的[protocol|protocol]模板；多位市场人士指出，此轮新规的[novelty|novelty]性在于把[margin|margin]覆盖率与[enforcement|enforcement]细则绑定，而对高杠杆策略的[proponent|proponent]而言，这意味着融资成本与合规压力将同步上升，部分机构已开始重新评估持仓结构与清算安排。 面对[财政|fiscal]压力，这家[高杠杆的|leveraged]企业不得不重新审视债务结构。",
+    "hook": "全球市场在[volatile|volatile]行情中反复拉锯：布伦特原油期货早盘因供应担忧急挫，午后却迅速[rebound|rebound]，交易员一边[replenish|replenish]保证金头寸，一边权衡高[leverage|leverage]头寸在利率高企下的风险；与此同时，某大型资管机构对明星基金经理的突然[dismissal|dismissal]引发热议，市场担心其旗舰基金赎回压力或[accelerate|accelerate]资金外流，而年轻一代投资者对稳健收益的[aspiration|aspiration]正被持续的[volatility|volatility]反复考验。",
     "impact": ""
   }
 }

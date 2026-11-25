@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-25",
   "quote": {
-    "en": "Ambition sets the direction; discipline decides how far you travel.",
-    "zh": "抱负定方向，纪律决定你能走多远。"
+    "en": "Quiet practice builds the skill that loud markets cannot take away.",
+    "zh": "安静的练习铸就的技能，喧嚣的市场夺不走。"
   },
   "story": {
-    "en": "Markets opened the week [volatile|volatile] as gold, after several days of declines, staged a [rebound|rebound], Xinhua reported. The move came as brokers moved in orderly fashion to implement counter-cyclical margin-trading measures, a signal that financing channels may [replenish|replenish] liquidity rather than drain it. Investors watching the metals tape are also weighing how much [leverage|leverage] to deploy after last week's slide, with the [dismissal|dismissal] of a straight-line recovery narrative leaving room for sharper swings.\n\nIn corporate news, Nvidia shares jumped 31%, adding nearly a trillion in market value in a single session as Jensen Huang retook the helm, Wall Street CN reported. The rally helped [accelerate|accelerate] appetite for AI-linked exposure, while Morgan Asset Management said it will deploy about 500 million yuan of its own capital into the first batch of active ETFs to list, Cailian reported. The [aspiration|aspiration] among fund houses is to seed new products before flows arrive.\n\nThe broader backdrop remains uneven. COP31 ended without an agreement, VOA reported, and Trump hinted that strikes on Iran could continue next year if talks fail. Against that, China's foreign ministry reiterated that dialogue and negotiation are the only viable path out of the Ukraine crisis. With [volatility|volatility] likely to persist, positioning discipline matters more than conviction.",
-    "cn": "全球市场持续剧烈波动，投资者在通胀降温与企业盈利分化之间反复权衡，多个主要交易所在同一交易时段内大幅震荡。分析人士指出，股市此前的[反弹|rebound]往往难以持续，基金经理面临压力，需要[补充|replenish]年内已被消耗的现金缓冲。监管机构对散户交易账户中使用[杠杆|leverage]的情况加强审查，警告称放大后的头寸在行情突变时可能加剧亏损。\n\n企业层面，一家大型工业集团高管的[解雇|dismissal]引发外界对公司治理与继任安排的质疑，尽管公司坚称战略不变。与此同时，央行面临微妙平衡：过快[加速|accelerate]反通胀进程可能使经济陷入收缩，而过慢则可能固化物价持续上涨的预期。政策制定者强调，其[抱负|aspiration]是实现软着陆，而非急剧放缓。\n\n展望后市，策略师提醒，随着下一个财报季临近，[波动性|volatility]可能延续，外汇与债券市场同样对利率预期变化高度敏感。投资者被建议分散配置、避免对单日行情过度反应，并在年底临近之际密切关注流动性状况与信用利差。"
+    "en": "Global markets showed a mixed [appetite|appetite] for risk on Tuesday, as New York's three main indices closed unevenly on November 24 while international oil prices rose and most domestic futures night-session contracts gained, according to Xinhua and Phoenix Finance. The trading mood was shaped by expectations of further [stimulus|stimulus] from Beijing and by a regulatory [clampdown|clampdown] on speculative flows in several sectors, though no specific measures were detailed in the headlines.\n\nIn the Greater Bay Area, investment in \"AI plus culture\" is heating up, with intelligent hardware terminals becoming a key focus, Sohu reported, a trend that could accelerate [outsourcing|outsourcing] of content production and hardware assembly to regional partners. Meanwhile, local governments in multiple cities have clarified their \"road maps\" for urban renewal, a push that may [curb|curb] unregulated construction and reshape land-use planning. On the social side, Britain recorded a record high in heat-related deaths in summer 2026, China News Service said, adding pressure on public health budgets and [pension|pension] systems.\n\nThe cultural calendar offered a bright spot: the premiere of \"The Sound of Malan Flowers,\" named best children's film at the Golden Rooster Awards, marked a notable [debut|debut] for the production team, China News Service reported. Looking ahead, investors will watch whether an [influx|influx] of fresh capital into AI-linked and green projects can sustain momentum, and whether policy signals from the APEC Shenzhen meeting translate into concrete support for urban renewal and cross-border cooperation.",
+    "cn": "纽约股市三大股指涨跌不一，国际油价上涨，国内期货夜盘主力合约多数上涨，市场对风险资产的[胃口|appetite]呈现分化。投资者密切关注北京可能推出的进一步[刺激措施|stimulus]，同时留意多领域针对投机资金的[严厉打击|clampdown]信号，但具体举措尚未在头条中披露。\n\n粤港澳大湾区“AI+文化”投资升温，智能硬件终端成为重点，这一趋势可能加快内容生产与硬件组装的[外包|outsourcing]进程。多地明确城市更新“路线图”，相关举措或[遏制|curb]无序建设、重塑土地利用规划。社会层面，英国2026年夏季高温致死人数创新高，给公共卫生预算和[养老金|pension]体系带来压力。\n\n文化领域传来亮点：金鸡奖最佳儿童片《马兰花开的声音》举办首映礼，成为制作团队的一次重要亮相。展望后市，投资者将关注[涌入|influx]人工智能与绿色项目的新资金能否延续势头，以及亚太经合组织深圳会议释放的政策信号能否转化为对城市更新和跨境合作的具体支持。 这部备受期待的电影在电影节上完成了它的[首次亮相|debut]，随即引发观众热议。"
   },
   "words": [
     {
@@ -22401,10 +22401,295 @@
       "t": "今日金价连跌数日后反弹，正是 volatility 的教科书式注脚：避险与获利了结两股力量反复拉扯，价格上蹿下跳。\n职场里也常用：项目排期充满 volatility，团队就得留出缓冲，而不是把计划钉死。",
       "root": "词根 vol-(飞、意愿，拉丁 velle，同源 volition 意志) + -at- + -ility(名词后缀，拉丁) → 能飞动、会变 → 价格反复起落、波动性",
       "d": "2026-11-24"
+    },
+    {
+      "w": "stimulus",
+      "ph": "/ˈstɪmjələs/",
+      "m": "(经济)刺激措施；刺激物",
+      "c": "econ",
+      "pos": "n.",
+      "en": "government spending or tax measures meant to boost economic activity; something that provokes growth",
+      "defs": [
+        {
+          "cn": "(经济)刺激措施",
+          "en": "government action to boost demand and growth",
+          "pos": "n."
+        },
+        {
+          "cn": "刺激物；促进因素",
+          "en": "something that encourages activity or response",
+          "pos": "n."
+        },
+        {
+          "cn": "刺激(信号)",
+          "en": "a signal that triggers a reaction",
+          "pos": "n."
+        }
+      ],
+      "col": "fiscal stimulus 财政刺激 · stimulus package 刺激方案 · provide stimulus 提供刺激 · stimulus for growth 增长动力",
+      "ex": "Investors debated whether Beijing would add fresh stimulus as the APEC Shenzhen meeting set the tone for regional trade.",
+      "exZh": "投资者争论北京是否会推出新一轮刺激措施，而亚太经合组织深圳会议为区域贸易定下基调。",
+      "ex2": "A small stimulus can revive a stalled team, much like a pep talk before a launch.",
+      "ex2Zh": "小小的激励能让停滞的团队重焕活力，就像发布前的一次动员。",
+      "t": "今日财经焦点之一是政策空间：亚太经合组织深圳会议释放合作信号，市场随即讨论中国是否需要更多 stimulus 来稳住增长预期。\n职场版用法：老板一句公开表扬就是团队的 stimulus，比加薪更快见效，但不如制度性激励持久。",
+      "root": "词根 stimuli-(刺、刺激，拉丁 stimulus，同源 stimulate 刺激、stimulant 兴奋剂) + 后缀 -us(名词结尾) → 用尖刺去戳 → 引发反应之物 → 刺激措施",
+      "story": "APEC's Shenzhen meeting gave Asia a fresh framework for cooperation, and markets read it as a possible [stimulus|stimulus] for cross-border trade.",
+      "hook": "今天的故事从深圳讲起：亚太经合组织会议刚落下帷幕，市场就在猜北京会不会再给一剂 stimulus，而纽约三大股指24日涨跌不一、国际油价24日上涨，资金在增长与安全之间反复权衡。",
+      "impact": "深圳会议定调合作，市场押注stimulus，油价与股指分化中藏着资金的新算盘。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "clampdown",
+      "ph": "/ˈklæmpdaʊn/",
+      "m": "(官方)严厉打击；镇压式整治",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a strict official action to stop or control something, often regulation or enforcement",
+      "defs": [
+        {
+          "cn": "(官方)严厉打击",
+          "en": "strict official action to suppress an activity",
+          "pos": "n."
+        },
+        {
+          "cn": "整治行动",
+          "en": "a campaign to tighten rules and enforcement",
+          "pos": "n."
+        },
+        {
+          "cn": "压制",
+          "en": "harsh suppression of dissent or excess",
+          "pos": "n."
+        }
+      ],
+      "col": "regulatory clampdown 监管整治 · crackdown on speculation 打击投机 · launch a clampdown 发起整治 · ease the clampdown 放松整治",
+      "ex": "Analysts warned that a regulatory clampdown on cross-border data could slow the Greater Bay Area's AI hardware boom.",
+      "exZh": "分析师警告，对跨境数据的监管整治可能拖慢大湾区智能硬件热潮。",
+      "ex2": "The company tightened expense rules after a clampdown on wasteful travel spending.",
+      "ex2Zh": "在整治铺张差旅开支后，公司收紧了费用规定。",
+      "t": "时政线索方面，多地明确城市更新“路线图”，同时监管层对资本与数据流动的 clampdown 预期升温，投资者开始重估合规成本。\n记忆法：clamp 是“夹紧”，down 是“压下”，合起来就是“夹住不让乱动”——比 ban 温和，比 rule 强硬。",
+      "root": "动词 clamp(夹紧，古英语 clam，同源 clamper 夹钳) + 副词 down(向下，古英语 dūn) → 向下夹紧 → 官方出手压制 → 严厉打击",
+      "story": "A widening [clampdown|clampdown] on speculative property deals is reshaping how developers plan urban renewal.",
+      "hook": "监管口径在收紧：从城市更新到跨境数据，clampdown 的风声让企业重算合规账，也让资金流向更谨慎。",
+      "impact": "clampdown预期升温，合规成本被重估，资本开始向确定性资产靠拢。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "outsourcing",
+      "ph": "/ˈaʊtsɔːsɪŋ/",
+      "m": "外包；业务外判",
+      "c": "work",
+      "pos": "n.",
+      "en": "the practice of hiring outside firms or workers to do tasks once done in-house",
+      "defs": [
+        {
+          "cn": "外包；业务外判",
+          "en": "contracting work to external providers",
+          "pos": "n."
+        },
+        {
+          "cn": "外购(服务)",
+          "en": "buying services from outside suppliers",
+          "pos": "n."
+        },
+        {
+          "cn": "职能转移",
+          "en": "shifting internal functions to partners",
+          "pos": "n."
+        }
+      ],
+      "col": "IT outsourcing IT外包 · outsourcing contract 外包合同 · offshore outsourcing 离岸外包 · reverse outsourcing 回流外包",
+      "ex": "Firms in the Greater Bay Area are weighing outsourcing hardware production as AI investment heats up.",
+      "exZh": "随着AI投资升温，大湾区企业正在权衡将硬件生产外包。",
+      "ex2": "Outsourcing payroll saved the startup time, but it lost some control over data.",
+      "ex2Zh": "外包薪资发放为这家初创公司省了时间，但也失去部分数据控制权。",
+      "t": "职场主线：大湾区“AI+文化”投资升温、智能硬件终端成重点，不少公司选择 outsourcing 组装与测试环节，把资源压在算法与内容上。\n对比记忆：outsourcing 是“把活交给外面”，offshoring 是“把活搬到海外”，两者常叠加出现。",
+      "root": "前缀 out-(向外，古英语 ūt，同源 outer 外部的) + 词根 source(来源，古法语 sourse，同源 resource 资源) + 后缀 -ing(动名词) → 向外部找来源 → 外包",
+      "story": "Cheaper [outsourcing|outsourcing] of hardware assembly lets AI-culture startups focus capital on content and chips.",
+      "hook": "大湾区“AI+文化”投资升温，智能硬件终端成重点，企业一边做 outsourcing 一边抢算法人才，职场技能结构被迫重排。",
+      "impact": "AI硬件热潮下，outsourcing与自研并行，人才争夺成为新的胜负手。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "pension",
+      "ph": "/ˈpenʃn/",
+      "m": "养老金；退休金",
+      "c": "econ",
+      "pos": "n.",
+      "en": "regular payments made to a retired person, or the fund that provides them",
+      "defs": [
+        {
+          "cn": "养老金；退休金",
+          "en": "regular income paid after retirement",
+          "pos": "n."
+        },
+        {
+          "cn": "养老基金",
+          "en": "a fund that pays retirement benefits",
+          "pos": "n."
+        },
+        {
+          "cn": "(动词)发养老金",
+          "en": "to pay a pension to someone",
+          "pos": "v."
+        }
+      ],
+      "col": "pension fund 养老基金 · state pension 国家养老金 · pension reform 养老金改革 · draw a pension 领取养老金",
+      "ex": "Pension funds are rebalancing toward AI hardware plays as the Greater Bay Area attracts fresh capital.",
+      "exZh": "随着大湾区吸引新资本，养老基金正重新平衡持仓、转向AI硬件标的。",
+      "ex2": "She reviewed her pension plan before deciding to retire early.",
+      "ex2Zh": "她在决定提前退休前仔细查看了自己的养老金计划。",
+      "t": "财经主线：亚太经合组织深圳会议与城市更新路线图共同推高长期资金配置话题，pension 基金对智能硬件与绿色项目的兴趣明显上升。\n职场联想：谈薪酬时别只盯月薪，pension 与补充养老才是“隐形工资”，越早规划越占优。",
+      "root": "词根 pens-(称重、支付，拉丁 pendere，同源 compensate 补偿、pensive 沉思) + 后缀 -ion(名词) → 称量后付出的钱 → 定期支付的养老金",
+      "story": "Long-horizon [pension|pension] money is slowly rotating into AI hardware and green projects.",
+      "hook": "长期资金在动：pension 基金重新配置，一边看深圳会议的贸易信号，一边盯智能硬件与绿色项目，稳健与进取在拉扯。",
+      "impact": "pension长钱转向AI与绿色资产，稳健配置与增长渴望正面碰撞。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "curb",
+      "ph": "/kɜːb/",
+      "m": "遏制；限制(措施)",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to restrain or limit something; a check or restriction",
+      "defs": [
+        {
+          "cn": "遏制；限制",
+          "en": "to restrain or keep something in check",
+          "pos": "v."
+        },
+        {
+          "cn": "限制措施",
+          "en": "an official check on an activity",
+          "pos": "n."
+        },
+        {
+          "cn": "(路边)路缘",
+          "en": "the raised edge of a pavement",
+          "pos": "n."
+        }
+      ],
+      "col": "curb inflation 遏制通胀 · curb spending 限制开支 · impose curbs 施加限制 · curb emissions 减排",
+      "ex": "Policymakers are weighing new steps to curb speculative flows after oil prices rose on the 24th.",
+      "exZh": "在24日油价上涨后，政策制定者正权衡新举措以遏制投机资金。",
+      "ex2": "The team agreed to curb overtime to protect staff from burnout cycles.",
+      "ex2Zh": "团队同意限制加班，以免员工陷入疲惫循环。",
+      "t": "时政与市场交汇：国际油价24日上涨、期市夜盘多数上涨，监管层讨论用新规 curb 投机性交易，防止价格信号失真。\n职场用法：curb your enthusiasm 是“收着点热情”，而 curb costs 是“控成本”，同一动词两种温度。",
+      "root": "源自古法语 courbe(弯曲，拉丁 curvus，同源 curve 曲线) → 使弯曲、勒住 → 引申为遏制、限制",
+      "story": "Regulators may [curb|curb] speculative trading as oil prices climb and futures open higher.",
+      "hook": "油价24日上涨、期市夜盘多数飘红，监管在考虑 curb 投机盘，市场情绪一时紧绷。",
+      "impact": "curb投机与油价上行并行，价格信号与政策信号互相试探。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "appetite",
+      "ph": "/ˈæpɪtaɪt/",
+      "m": "(投资)胃口；欲望；食欲",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a strong desire for something, especially risk, food, or investment",
+      "defs": [
+        {
+          "cn": "(投资)胃口；欲望",
+          "en": "strong desire, esp. for risk or returns",
+          "pos": "n."
+        },
+        {
+          "cn": "食欲",
+          "en": "the physical desire for food",
+          "pos": "n."
+        },
+        {
+          "cn": "兴趣；偏好",
+          "en": "a liking or inclination for something",
+          "pos": "n."
+        }
+      ],
+      "col": "risk appetite 风险偏好 · appetite for bonds 债券需求 · whet the appetite 吊起胃口 · lose appetite 失去兴趣",
+      "ex": "Risk appetite improved slightly as the APEC Shenzhen meeting signaled steadier trade ties.",
+      "exZh": "随着亚太经合组织深圳会议释放更稳定的贸易信号，风险偏好略有改善。",
+      "ex2": "Her appetite for learning new tools grew after the team adopted AI assistants.",
+      "ex2Zh": "团队采用AI助手后，她学习新工具的兴趣更浓了。",
+      "t": "市场情绪：纽约股市三大股指24日涨跌不一，投资者 appetite 分化——有人追AI硬件，有人守现金，油价上涨又添一层不确定。\n记忆法：appetite 是“想吃”，risk appetite 是“想吃风险”，胃口好不代表消化好，仓位管理才是胃药。",
+      "root": "前缀 ad-(朝向，拉丁 ad，同源 advance 前进) + 词根 pet(追求，拉丁 petere，同源 compete 竞争、petition 请愿) + 后缀 -ite → 朝某物追求 → 欲望、胃口",
+      "story": "A cautious [appetite|appetite] for risk returned as trade signals steadied and oil edged up.",
+      "hook": "纽约股指24日涨跌不一，risk appetite 时好时坏，油价一涨，投资者的胃口又缩了半寸。",
+      "impact": "appetite反复，股指分化，油价成为风险偏好的即时温度计。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "debut",
+      "ph": "/ˈdeɪbjuː/",
+      "m": "首次亮相；处女作",
+      "c": "news",
+      "pos": "n.",
+      "en": "a first public appearance or launch, especially of a product or performer",
+      "defs": [
+        {
+          "cn": "首次亮相；处女作",
+          "en": "a first public appearance or launch",
+          "pos": "n."
+        },
+        {
+          "cn": "(动词)初次登台",
+          "en": "to appear or launch for the first time",
+          "pos": "v."
+        },
+        {
+          "cn": "首发",
+          "en": "the first release of a product",
+          "pos": "n."
+        }
+      ],
+      "col": "make a debut 首次亮相 · debut album 首张专辑 · market debut 上市首秀 · debut performance 首演",
+      "ex": "The AI film unit made its market debut as investors weighed whether offshore demand can lift cinemas.",
+      "exZh": "这家AI影视公司完成上市首秀，投资者在权衡海外需求能否提振院线。",
+      "ex2": "His debut in the new role went smoothly despite a tight deadline.",
+      "ex2Zh": "尽管期限紧张，他在新岗位上的首秀仍很顺利。",
+      "t": "文娱与资本交叉：出海高景气与院线价值重估下，AI影视能否“深V”反弹成为话题，相关公司 debut 表现被放大解读，金鸡奖新片首映也添热度。\n职场联想：新人的 debut 不必完美，第一次汇报讲清三件事，比讲满三十页更得分。",
+      "root": "源自法语 début(开始，法语 débuter 开始，同源 debutant 初学者) → 第一次出场 → 首次亮相",
+      "story": "An AI film venture's market [debut|debut] drew attention as cinema valuations were reassessed.",
+      "hook": "AI影视公司迎来 market debut，院线价值被重估，出海景气与票房想象力一起被摆上台面。",
+      "impact": "AI影视debut受瞩目，院线重估与出海景气共同定义新估值。",
+      "d": "2026-11-25"
+    },
+    {
+      "w": "influx",
+      "ph": "/ˈɪnflʌks/",
+      "m": "(n.)涌入；大量流入(资金、人流)",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a large arrival or flow of money, people or goods into a place; common in market and migration contexts",
+      "defs": [
+        {
+          "cn": "(资金)大量流入",
+          "en": "a large flow of money into a market or sector",
+          "pos": "n."
+        },
+        {
+          "cn": "涌入；汇集",
+          "en": "the arrival of many people or things at once",
+          "pos": "n."
+        },
+        {
+          "cn": "(货物)输入",
+          "en": "an inward flow of goods or supplies",
+          "pos": "n."
+        }
+      ],
+      "col": "capital influx 资本涌入 · a sudden influx of funds 资金突然流入 · influx of tourists 游客涌入 · manage the influx 应对涌入",
+      "ex": "An influx of capital into Greater Bay Area AI and cultural projects has made smart hardware terminals a priority for investors.",
+      "exZh": "资本涌入大湾区“AI+文化”项目，使智能硬件终端成为投资重点。",
+      "ex2": "The new metro line brought a daily influx of commuters to the once-quiet business district.",
+      "ex2Zh": "新地铁线让曾经安静的商务区每天涌入大量通勤者。",
+      "t": "据搜狐报道，粤港澳大湾区“AI+文化”投资升温，智能硬件终端成重点，资本 influx 正从概念转向可落地的硬件赛道。\n记忆法：in-(向内) + flux(流动)，与 outflow 外流成对记；钱往哪里流，哪里的估值就先动。",
+      "root": "前缀 in-(向内，拉丁，同源 inflow 流入) + 词根 flux(=flow 流动，拉丁 fluere，同源 fluent 流利的) → 向内流动 → 涌入、大量流入",
+      "d": "2026-11-25"
     }
   ],
   "preview": {
-    "hook": "全球市场在[volatile|volatile]行情中反复拉锯：布伦特原油期货早盘因供应担忧急挫，午后却迅速[rebound|rebound]，交易员一边[replenish|replenish]保证金头寸，一边权衡高[leverage|leverage]头寸在利率高企下的风险；与此同时，某大型资管机构对明星基金经理的突然[dismissal|dismissal]引发热议，市场担心其旗舰基金赎回压力或[accelerate|accelerate]资金外流，而年轻一代投资者对稳健收益的[aspiration|aspiration]正被持续的[volatility|volatility]反复考验。",
+    "hook": "北京今日宣布新一轮[stimulus|stimulus]并同步启动对跨境资本流动的[clampdown|clampdown]，市场随即传出多家外资机构收缩在华[outsourcing|outsourcing]业务、地方[pension|pension]投资范围拟扩大权益配置的消息，监管层试图以[curb|curb]投机性资金为名重塑规则，而海外长线基金对A股新经济板块的投资[appetite|appetite]却在人民币汇率企稳后明显回暖，首批互认基金产品今日[debut|debut]即获超额认购，叠加南向资金与外资的[influx|influx]，港股与内地债市同步走强。",
     "impact": ""
   }
 }

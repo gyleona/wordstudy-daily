@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-25",
+  "updated_on": "2026-11-26",
   "quote": {
-    "en": "Quiet practice builds the skill that loud markets cannot take away.",
-    "zh": "安静的练习铸就的技能，喧嚣的市场夺不走。"
+    "en": "Markets test your nerve; steady learning builds the edge that lasts.",
+    "zh": "市场考验你的胆识，持续学习才能锻造持久的优势。"
   },
   "story": {
-    "en": "Global markets showed a mixed [appetite|appetite] for risk on Tuesday, as New York's three main indices closed unevenly on November 24 while international oil prices rose and most domestic futures night-session contracts gained, according to Xinhua and Phoenix Finance. The trading mood was shaped by expectations of further [stimulus|stimulus] from Beijing and by a regulatory [clampdown|clampdown] on speculative flows in several sectors, though no specific measures were detailed in the headlines.\n\nIn the Greater Bay Area, investment in \"AI plus culture\" is heating up, with intelligent hardware terminals becoming a key focus, Sohu reported, a trend that could accelerate [outsourcing|outsourcing] of content production and hardware assembly to regional partners. Meanwhile, local governments in multiple cities have clarified their \"road maps\" for urban renewal, a push that may [curb|curb] unregulated construction and reshape land-use planning. On the social side, Britain recorded a record high in heat-related deaths in summer 2026, China News Service said, adding pressure on public health budgets and [pension|pension] systems.\n\nThe cultural calendar offered a bright spot: the premiere of \"The Sound of Malan Flowers,\" named best children's film at the Golden Rooster Awards, marked a notable [debut|debut] for the production team, China News Service reported. Looking ahead, investors will watch whether an [influx|influx] of fresh capital into AI-linked and green projects can sustain momentum, and whether policy signals from the APEC Shenzhen meeting translate into concrete support for urban renewal and cross-border cooperation.",
-    "cn": "纽约股市三大股指涨跌不一，国际油价上涨，国内期货夜盘主力合约多数上涨，市场对风险资产的[胃口|appetite]呈现分化。投资者密切关注北京可能推出的进一步[刺激措施|stimulus]，同时留意多领域针对投机资金的[严厉打击|clampdown]信号，但具体举措尚未在头条中披露。\n\n粤港澳大湾区“AI+文化”投资升温，智能硬件终端成为重点，这一趋势可能加快内容生产与硬件组装的[外包|outsourcing]进程。多地明确城市更新“路线图”，相关举措或[遏制|curb]无序建设、重塑土地利用规划。社会层面，英国2026年夏季高温致死人数创新高，给公共卫生预算和[养老金|pension]体系带来压力。\n\n文化领域传来亮点：金鸡奖最佳儿童片《马兰花开的声音》举办首映礼，成为制作团队的一次重要亮相。展望后市，投资者将关注[涌入|influx]人工智能与绿色项目的新资金能否延续势头，以及亚太经合组织深圳会议释放的政策信号能否转化为对城市更新和跨境合作的具体支持。 这部备受期待的电影在电影节上完成了它的[首次亮相|debut]，随即引发观众热议。"
+    "en": "Global markets swung sharply on November 25 as the Nasdaq 100 fell more than 4% intraday, with Nvidia dropping 7%, while the Dow turned positive and gold and silver slumped. The [divergence|divergence] reflected a flight to safety: investors moved into US Treasuries as a [haven|haven] amid fears of a tech-led bear market. London stocks also closed lower the same day, underscoring the cross-market strain.\n\nThe technology selloff carries implications for Asia's [semiconductor|semiconductor] supply chains, while trade policy remains a live variable. Any new US [tariff|tariff] or [sanction|sanction] measure could reshape cross-border flows and corporate [procurement|procurement] plans, forcing firms to revisit sourcing and compliance [guideline|guideline] frameworks. Analysts say balance-sheet [resilience|resilience] will separate winners from laggards as companies absorb higher input costs and tighter financing.\n\nLooking ahead, the Shenzhen APEC meetings are framed by First Financial as opening a new chapter for the Asia-Pacific economic order, and China's push for COP31 cooperation is seen as creating fresh openings for green-industry exports. Both tracks point to a policy calendar that could steady sentiment if trade tensions ease. For now, investors are watching whether Treasury demand holds and whether chip-sector weakness deepens into a broader risk-off wave.",
+    "cn": "全球市场正经历政策[分化|divergence]加剧的局面，贸易措施与投资规则正在重塑供应链。主要经济体围绕[关税|tariff]的新一轮讨论令出口商保持谨慎，而潜在的新[制裁|sanction]机制也为跨境资本流动增添摩擦。分析人士指出，[半导体|semiconductor]行业仍是焦点，各国政府收紧外资审查，并呼吁关键零部件[采购|procurement]多元化。\n\n尽管不确定性上升，企业的[韧性|resilience]超出预期。不少公司通过分散供应商、建立缓冲库存以及修订内部合规[指导方针|guideline]来适应规则变化。投资者则转向黄金和短期政府债券等传统[避风港|haven]资产，以规避风险市场的波动。\n\n展望未来，市场参与者将关注政策协调能否改善，还是碎片化进一步加深。若科技相关投资与贸易形成更清晰的框架，不确定性有望下降，但各地区变化节奏并不均衡。目前，谨慎布局与灵活的供应链规划似乎仍是主流策略。"
   },
   "words": [
     {
@@ -22686,10 +22686,274 @@
       "t": "据搜狐报道，粤港澳大湾区“AI+文化”投资升温，智能硬件终端成重点，资本 influx 正从概念转向可落地的硬件赛道。\n记忆法：in-(向内) + flux(流动)，与 outflow 外流成对记；钱往哪里流，哪里的估值就先动。",
       "root": "前缀 in-(向内，拉丁，同源 inflow 流入) + 词根 flux(=flow 流动，拉丁 fluere，同源 fluent 流利的) → 向内流动 → 涌入、大量流入",
       "d": "2026-11-25"
+    },
+    {
+      "w": "tariff",
+      "ph": "/ˈtærɪf/",
+      "m": "(n.)关税；关税表",
+      "c": "politics",
+      "pos": "n.",
+      "en": "a tax imposed on imported or exported goods, often used as a trade-policy tool",
+      "defs": [
+        {
+          "cn": "关税",
+          "en": "a tax on imports or exports, used in trade policy",
+          "pos": "n."
+        },
+        {
+          "cn": "价目表",
+          "en": "a schedule of rates or charges for services",
+          "pos": "n."
+        },
+        {
+          "cn": "征收关税",
+          "en": "to impose duties on goods entering a country",
+          "pos": "v."
+        }
+      ],
+      "col": "impose a tariff 征收关税 · tariff barrier 关税壁垒 · retaliatory tariff 报复性关税",
+      "ex": "Fresh tariff threats overshadowed the Shenzhen APEC gathering on Asia-Pacific trade.",
+      "exZh": "新的关税威胁给深圳APEC亚太贸易会议蒙上阴影。",
+      "ex2": "Retailers warned that a new tariff on imported parts would lift appliance prices.",
+      "ex2Zh": "零售商警告说，进口零部件的新关税将推高家电价格。",
+      "t": "深圳APEC刚为亚太经济秩序写下新篇章，华盛顿方面新的 tariff 风声就让谈判桌气氛转紧，企业纷纷重算进口成本。\n职场里也有 tariff 式思维：部门间调拨资源时先算一笔'内部关税'，谁都不想被白白抽成。",
+      "root": "源自阿拉伯语 ta'rif(通知、价目表)，经意大利语 tariffa 进入英语 → 原指'公布的费用表' → 引申为政府对进出口货物公布的征税表 → 关税",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "sanction",
+      "ph": "/ˈsæŋkʃn/",
+      "m": "(n./v.)制裁；批准，认可",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official penalty imposed on a country or entity; also formal approval or authorization",
+      "defs": [
+        {
+          "cn": "制裁",
+          "en": "an official penalty imposed to enforce rules or pressure a state",
+          "pos": "n."
+        },
+        {
+          "cn": "批准，认可",
+          "en": "formal permission or approval for an action",
+          "pos": "n."
+        },
+        {
+          "cn": "批准；实施制裁",
+          "en": "to authorize officially, or to impose a penalty",
+          "pos": "v."
+        }
+      ],
+      "col": "impose sanctions 实施制裁 · lift sanctions 解除制裁 · official sanction 正式批准",
+      "ex": "Energy traders weighed whether new sanction measures would tighten global oil supply.",
+      "exZh": "能源交易员在权衡新制裁措施是否会收紧全球石油供应。",
+      "ex2": "The committee gave its sanction to the revised budget before year-end.",
+      "ex2Zh": "委员会在年底前批准了修订后的预算。",
+      "t": "也门胡塞武装称袭击沙特炼油厂与金融中心，市场随即评估后续 sanction 风险，油价与避险资产同步波动。\n注意一词两面：sanction 既是'制裁'也是'批准'，语境决定褒贬，就像公司 policy 既能约束也能授权。",
+      "root": "词根 sanct-(神圣，拉丁 sanctus，同源 sanctify 使神圣、sanctuary 圣所) + 后缀 -ion(名词) → 使具有神圣约束力 → 教会批准 → 引申为官方批准与法律制裁",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "resilience",
+      "ph": "/rɪˈzɪliəns/",
+      "m": "(n.)韧性；恢复力",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the capacity to recover quickly from shocks or setbacks, in markets or people",
+      "defs": [
+        {
+          "cn": "韧性",
+          "en": "the ability to withstand and recover from shocks",
+          "pos": "n."
+        },
+        {
+          "cn": "恢复力",
+          "en": "capacity to return to a previous good state quickly",
+          "pos": "n."
+        },
+        {
+          "cn": "弹性",
+          "en": "the quality of bending without breaking",
+          "pos": "n."
+        }
+      ],
+      "col": "economic resilience 经济韧性 · build resilience 增强韧性 · resilience to shocks 抗冲击能力",
+      "ex": "Despite a Nasdaq-100 slide of over 4%, analysts stressed the resilience of corporate earnings.",
+      "exZh": "尽管纳指100一度跌超4%，分析师仍强调企业盈利的韧性。",
+      "ex2": "Team resilience mattered more than individual speed during the product launch crunch.",
+      "ex2Zh": "产品发布冲刺期，团队韧性比个人速度更重要。",
+      "t": "纳指100一度跌超4%、英伟达重挫7%，避险资金涌入美债，但机构仍用 resilience 形容企业盈利对冲击的承受力。\n职场同理：项目延期时，团队 resilience 决定能否按期交付；形容词 resilient 与名词同根，一起记更牢。",
+      "root": "前缀 re-(回，拉丁，同源 return 返回) + 词根 sil(=salire 跳，拉丁，同源 salient 突出的) + 后缀 -ence(名词) → 跳回来 → 受冲击后弹回原状 → 韧性",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "procurement",
+      "ph": "/prəˈkjʊəmənt/",
+      "m": "(n.)采购；获得",
+      "c": "work",
+      "pos": "n.",
+      "en": "the process of buying goods or services for an organization; the act of obtaining",
+      "defs": [
+        {
+          "cn": "采购",
+          "en": "the business process of sourcing and buying supplies",
+          "pos": "n."
+        },
+        {
+          "cn": "获得，取得",
+          "en": "the act of obtaining something with effort",
+          "pos": "n."
+        },
+        {
+          "cn": "采购部门",
+          "en": "the function or team responsible for buying",
+          "pos": "n."
+        }
+      ],
+      "col": "procurement process 采购流程 · public procurement 公共采购 · procurement cost 采购成本",
+      "ex": "Firms are reworking procurement plans as import costs shift with trade tensions.",
+      "exZh": "随着贸易紧张改变进口成本，企业正重做采购计划。",
+      "ex2": "She moved from procurement into supply-chain strategy after three years.",
+      "ex2Zh": "三年后她从采购转岗到供应链战略。",
+      "t": "关税与运费波动之下，跨国公司的 procurement 团队重新比价、重签长约，采购从后台职能变成利润守门人。\n职场提示：procure 是动词'设法获得'，procurement 是名词；简历上写 led procurement 比写 buying 更专业。",
+      "root": "前缀 pro-(向前，拉丁，同源 proceed 前进) + 词根 cur(=curare 照料，拉丁，同源 cure 治疗) + 后缀 -ment(名词) → 用心去张罗 → 设法取得 → 组织采购",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "guideline",
+      "ph": "/ˈɡaɪdlaɪn/",
+      "m": "(n.)指导方针；准则",
+      "c": "politics",
+      "pos": "n.",
+      "en": "an official recommendation or rule that guides decisions and conduct",
+      "defs": [
+        {
+          "cn": "指导方针",
+          "en": "an official principle that guides decisions",
+          "pos": "n."
+        },
+        {
+          "cn": "准则",
+          "en": "a recommended standard of conduct or practice",
+          "pos": "n."
+        },
+        {
+          "cn": "参考线",
+          "en": "a line drawn to guide alignment or design",
+          "pos": "n."
+        }
+      ],
+      "col": "issue guidelines 发布准则 · follow guidelines 遵循准则 · regulatory guideline 监管指引",
+      "ex": "Regulators issued new guidelines on how banks should disclose climate risk.",
+      "exZh": "监管机构就银行如何披露气候风险发布了新准则。",
+      "ex2": "The design team used grid guidelines to keep the layout consistent.",
+      "ex2Zh": "设计团队用网格参考线保持版式一致。",
+      "t": "从央行到行业监管，guideline 是政策落地的软工具：先出指引、再谈强制，市场据此调整预期。\n与 rule 对比：guideline 是'建议性准则'，rule 是'硬性规则'；职场邮件里写 per the guidelines 显得专业有据。",
+      "root": "guide(引导，法语 guider，同源 guidebook 指南) + line(线，古英语 līne，同源 line) → 引导用的线 → 指导方针、准则",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "semiconductor",
+      "ph": "/ˌsemikənˈdʌktə/",
+      "m": "(n.)半导体；芯片材料",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a material such as silicon used in chips; the chip industry itself",
+      "defs": [
+        {
+          "cn": "半导体",
+          "en": "a material that conducts electricity under conditions",
+          "pos": "n."
+        },
+        {
+          "cn": "芯片产业",
+          "en": "the industry producing chips and related devices",
+          "pos": "n."
+        },
+        {
+          "cn": "半导体器件",
+          "en": "an electronic component built from such material",
+          "pos": "n."
+        }
+      ],
+      "col": "semiconductor industry 半导体产业 · semiconductor chip 半导体芯片 · semiconductor supply chain 半导体供应链",
+      "ex": "Nvidia's 7% slide dragged the wider semiconductor sector lower on Wednesday.",
+      "exZh": "英伟达7%的跌幅拖累整个半导体板块走低。",
+      "ex2": "The plant will produce semiconductor components for electric vehicles.",
+      "ex2Zh": "该工厂将为电动车生产半导体元件。",
+      "t": "英伟达重挫7%，纳指100一度跌超4%，semiconductor 板块成为这轮抛售的风暴眼，供应链订单预期随之松动。\n构词好记：semi(半)+conductor(导体)，与 conductor 导体、insulator 绝缘体三件套一起背。",
+      "root": "前缀 semi-(半，拉丁，同源 semifinal 半决赛) + conductor(导体，拉丁 conducere 引导，同源 conduct 传导) → 半导电的材料 → 半导体",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "divergence",
+      "ph": "/daɪˈvɜːdʒəns/",
+      "m": "(市场/政策)分化；背离",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a difference or separation between things that usually move together, esp. in markets or policy",
+      "defs": [
+        {
+          "cn": "(市场)分化",
+          "en": "a gap between assets or sectors that usually move together",
+          "pos": "n."
+        },
+        {
+          "cn": "背离；偏离",
+          "en": "a departure from an expected path or standard",
+          "pos": "n."
+        },
+        {
+          "cn": "分歧",
+          "en": "a difference of opinion or interest between parties",
+          "pos": "n."
+        }
+      ],
+      "col": "market divergence 市场分化 · policy divergence 政策分化 · growing divergence 日益扩大的背离 · divergence from expectations 与预期的背离",
+      "ex": "The divergence between the Nasdaq 100 and the Dow widened as Nvidia slumped 7% while blue chips turned higher.",
+      "exZh": "纳指100与道指走势分化加剧：英伟达重挫7%，蓝筹股却转涨。",
+      "ex2": "Analysts warned of a growing divergence between headline growth and actual hiring in the tech sector.",
+      "ex2Zh": "分析师警告，科技行业表面增长与实际招聘之间的分化正在扩大。",
+      "t": "今日美股把 divergence 演到极致：纳指100一度跌超4%恐陷熊市，英伟达重挫7%，道指却转涨，金银大跌、避险资金涌入美债。\n职场里也讲 divergence：团队目标与个人 KPI 一旦背离，越努力越偏，及早对齐胜过事后解释。",
+      "root": "前缀 di-(分开，拉丁 dis-，同源 divide 分开) + 词根 verg(=转，拉丁 vertere，同源 reverse 反转) + 后缀 -ence(名词) → 朝不同方向转开 → 分歧、背离",
+      "d": "2026-11-26"
+    },
+    {
+      "w": "haven",
+      "ph": "/ˈheɪvn/",
+      "m": "避风港；避险资产",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a place of safety; in finance, an asset investors turn to in times of stress",
+      "defs": [
+        {
+          "cn": "避风港",
+          "en": "a safe place offering shelter from danger",
+          "pos": "n."
+        },
+        {
+          "cn": "避险资产",
+          "en": "an asset sought when markets are stressed",
+          "pos": "n."
+        },
+        {
+          "cn": "庇护所",
+          "en": "a refuge or shelter for people in need",
+          "pos": "n."
+        }
+      ],
+      "col": "safe haven 避险资产 · haven for investors 投资者的避风港 · seek haven 寻求避险 · tax haven 避税天堂",
+      "ex": "With the Nasdaq 100 down more than 4% intraday, money rushed into the Treasury market as a haven.",
+      "exZh": "纳指100盘中跌超4%，资金纷纷涌入美债市场避险。",
+      "ex2": "The small coastal town has become a haven for remote workers escaping big-city rents.",
+      "ex2Zh": "这座海滨小镇已成为逃离大城市高房租的远程办公者的避风港。",
+      "t": "避险情绪主导今日盘面：纳指100一度跌超4%恐陷熊市，英伟达重挫7%，金银大跌，避险资金涌入美债，美债成了当日最硬的 haven。\n记忆法：haven 与 heaven 只差一个字母——风暴里先找避风港，再谈上天堂；投资组合里留一份现金，就是给自己留个 haven。",
+      "root": "源自古英语 hæfen(港口、停泊处)，与 have(持有、保住)同源 → 船停靠保命之处 → 引申为避风港、避险资产",
+      "d": "2026-11-26"
     }
   ],
   "preview": {
-    "hook": "北京今日宣布新一轮[stimulus|stimulus]并同步启动对跨境资本流动的[clampdown|clampdown]，市场随即传出多家外资机构收缩在华[outsourcing|outsourcing]业务、地方[pension|pension]投资范围拟扩大权益配置的消息，监管层试图以[curb|curb]投机性资金为名重塑规则，而海外长线基金对A股新经济板块的投资[appetite|appetite]却在人民币汇率企稳后明显回暖，首批互认基金产品今日[debut|debut]即获超额认购，叠加南向资金与外资的[influx|influx]，港股与内地债市同步走强。",
+    "hook": "华盛顿最新一轮[tariff|tariff]清单与[sanction|sanction]措施同步落地，覆盖范围首次延伸至先进[semiconductor|semiconductor]设备与关键矿产的[procurement|procurement]环节，市场随即出现明显[divergence|divergence]：美国本土芯片股走强，而依赖出口的亚洲供应商承压；与此同时，部分资金流向黄金与瑞郎等传统[haven|haven]，显示投资者在评估政策[resilience|resilience]时更看重企业供应链的实际调整能力，而非短期喊话，多家跨国企业已开始依据新[guideline|guideline]重排订单与库存节奏。",
     "impact": ""
   }
 }

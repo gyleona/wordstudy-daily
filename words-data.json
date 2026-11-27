@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-26",
+  "updated_on": "2026-11-27",
   "quote": {
-    "en": "Markets test your nerve; steady learning builds the edge that lasts.",
-    "zh": "市场考验你的胆识，持续学习才能锻造持久的优势。"
+    "en": "Learn like a builder: lay one brick, then another, until the wall stands.",
+    "zh": "像建造者那样学习：砌一块砖，再砌一块，直到墙立起来。"
   },
   "story": {
-    "en": "Global markets swung sharply on November 25 as the Nasdaq 100 fell more than 4% intraday, with Nvidia dropping 7%, while the Dow turned positive and gold and silver slumped. The [divergence|divergence] reflected a flight to safety: investors moved into US Treasuries as a [haven|haven] amid fears of a tech-led bear market. London stocks also closed lower the same day, underscoring the cross-market strain.\n\nThe technology selloff carries implications for Asia's [semiconductor|semiconductor] supply chains, while trade policy remains a live variable. Any new US [tariff|tariff] or [sanction|sanction] measure could reshape cross-border flows and corporate [procurement|procurement] plans, forcing firms to revisit sourcing and compliance [guideline|guideline] frameworks. Analysts say balance-sheet [resilience|resilience] will separate winners from laggards as companies absorb higher input costs and tighter financing.\n\nLooking ahead, the Shenzhen APEC meetings are framed by First Financial as opening a new chapter for the Asia-Pacific economic order, and China's push for COP31 cooperation is seen as creating fresh openings for green-industry exports. Both tracks point to a policy calendar that could steady sentiment if trade tensions ease. For now, investors are watching whether Treasury demand holds and whether chip-sector weakness deepens into a broader risk-off wave.",
-    "cn": "全球市场正经历政策[分化|divergence]加剧的局面，贸易措施与投资规则正在重塑供应链。主要经济体围绕[关税|tariff]的新一轮讨论令出口商保持谨慎，而潜在的新[制裁|sanction]机制也为跨境资本流动增添摩擦。分析人士指出，[半导体|semiconductor]行业仍是焦点，各国政府收紧外资审查，并呼吁关键零部件[采购|procurement]多元化。\n\n尽管不确定性上升，企业的[韧性|resilience]超出预期。不少公司通过分散供应商、建立缓冲库存以及修订内部合规[指导方针|guideline]来适应规则变化。投资者则转向黄金和短期政府债券等传统[避风港|haven]资产，以规避风险市场的波动。\n\n展望未来，市场参与者将关注政策协调能否改善，还是碎片化进一步加深。若科技相关投资与贸易形成更清晰的框架，不确定性有望下降，但各地区变化节奏并不均衡。目前，谨慎布局与灵活的供应链规划似乎仍是主流策略。"
+    "en": "Trade tensions looked set to [escalate|escalate] on Friday after Washington proposed Section 301 tariffs on 14 economies, with China's Commerce Ministry saying it firmly opposes the move while other trading partners' frictions with Beijing may increase, DW.com reported. The same day, Xinhua said China and the Asian Development Bank will push their partnership to a higher level, a [reciprocal|reciprocal] arrangement the two sides framed as upgrading cooperation. Separately, the four major state-owned banks have signed stock buyback and increase loan contracts with listed companies worth over 600 billion yuan, Wall Street Journal-affiliated Cailianshe reported, a step meant to [incentivize|incentivize] listed firms to stabilize share prices.\n\nOn the technology front, hard-tech frontier results were showcased at the China Hi-Tech Fair, displaying the country's capacity for innovation, Xinhua said, while Beijing again topped a global science-city ranking as Chinese cities swept the top three for the first time, Guangming Online reported. The reports did not detail any specific [prototype|prototype] or [mentorship|mentorship] program, though both themes are central to such innovation drives.\n\nIn Beijing, strong winds returned with falling temperatures, prompting reminders to keep warm, Weather.com.cn said. Analysts said the economy must stay [resilient|resilient] as tariff pressure and trade friction build, and called for a broader [overhaul|overhaul] of support measures to manage the [workload|workload] on exporters and small firms in the months ahead.",
+    "cn": "在全球通胀降温、劳动力市场趋紧的背景下，政策制定者与企业负责人正在讨论如何[升级]([升级|escalate])生产率提升，同时避免重新推高物价压力。争论焦点集中在一种[互惠的]([互惠的|reciprocal])技能培养模式上：投入培训的企业期待可衡量的回报，员工则期待获得可携带的资质认证作为对等交换。\n\n多家机构正在试点如何[全面改革]([全面改革|overhaul])内部人才体系，以[激励]([激励|incentivize])员工持续学习。试点项目将模块化短周期课程的[原型]([原型|prototype])与结构化的[导师指导]([导师指导|mentorship])相结合，力求让团队在技术快速变化中保持[韧性]([有韧性的|resilient])。管理者表示，培训周适当减轻[工作量]([工作量|workload])至关重要，因为负担过重的员工很少能完成自愿参加的课程模块。\n\n下一阶段的重点在于评估：这类方案是否真正提升留任率与产出，以及成本如何在雇主与公共资金之间分担。分析人士提醒，若缺乏清晰证据，热情可能超出预算承受能力。方向已经明确：技能政策正从一次性课程转向持续、相互负责的投资，即将到来的预算周期将检验这一承诺能否兑现。"
   },
   "words": [
     {
@@ -22950,10 +22950,274 @@
       "t": "避险情绪主导今日盘面：纳指100一度跌超4%恐陷熊市，英伟达重挫7%，金银大跌，避险资金涌入美债，美债成了当日最硬的 haven。\n记忆法：haven 与 heaven 只差一个字母——风暴里先找避风港，再谈上天堂；投资组合里留一份现金，就是给自己留个 haven。",
       "root": "源自古英语 hæfen(港口、停泊处)，与 have(持有、保住)同源 → 船停靠保命之处 → 引申为避风港、避险资产",
       "d": "2026-11-26"
+    },
+    {
+      "w": "escalate",
+      "ph": "/ˈeskəleɪt/",
+      "m": "(局势/争端)升级；逐步扩大",
+      "c": "politics",
+      "pos": "v.",
+      "en": "to make a conflict, dispute or problem more serious or intense; to increase in scale",
+      "defs": [
+        {
+          "cn": "(冲突)升级",
+          "en": "to become more serious or intense, esp. a dispute",
+          "pos": "v."
+        },
+        {
+          "cn": "逐步扩大",
+          "en": "to grow or expand step by step in scale",
+          "pos": "v."
+        },
+        {
+          "cn": "使事态恶化",
+          "en": "to make a situation worse by adding pressure",
+          "pos": "v."
+        }
+      ],
+      "col": "escalate tensions 加剧紧张 · escalate a dispute 使争端升级 · escalate costs 成本攀升 · risk of escalation 升级风险",
+      "ex": "Washington's plan to impose Section 301 duties on 14 economies could escalate trade friction with partners already wary of new barriers.",
+      "exZh": "美国拟对14个经济体加征301关税，可能使与本就警惕新壁垒的伙伴之间的贸易摩擦升级。",
+      "ex2": "If the two departments keep trading blame over the delayed launch, the internal dispute may escalate into a formal review.",
+      "ex2Zh": "如果两个部门继续就发布延迟互相指责，这场内部争议可能升级为正式审查。",
+      "t": "美国拟对14个经济体加征301关税，中国商务部明确表示坚决反对，其他贸易伙伴与中国的摩擦也可能增多。一词之重，在于它描述的是“往上走”的趋势：摩擦一旦escalate，谈判空间就被压缩。\n职场对照记：escalate 是“升级”，de-escalate 是“降级缓和”；把客户投诉 escalate 给上级，就是把问题往上抬一层。",
+      "root": "词根 escal-(梯子，拉丁 scala，同源 scale 刻度/规模、scan 攀登) + 后缀 -ate(动词化，拉丁 -atus) → 沿梯而上 → 逐级上升、升级",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "reciprocal",
+      "ph": "/rɪˈsɪprəkl/",
+      "m": "互惠的；相互的；对等的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "involving mutual exchange, given by each side to the other; matching or equivalent in trade and diplomacy",
+      "defs": [
+        {
+          "cn": "互惠的",
+          "en": "involving benefits given by both sides equally",
+          "pos": "adj."
+        },
+        {
+          "cn": "相互的",
+          "en": "felt or done by each party toward the other",
+          "pos": "adj."
+        },
+        {
+          "cn": "对等的(措施)",
+          "en": "matching measures taken in return for another's",
+          "pos": "adj."
+        }
+      ],
+      "col": "reciprocal trade 互惠贸易 · reciprocal measures 对等措施 · reciprocal agreement 互惠协定 · on a reciprocal basis 在对等基础上",
+      "ex": "Beijing and the Asian Development Bank pledged to upgrade their partnership, stressing reciprocal benefits for regional infrastructure projects.",
+      "exZh": "中国与亚洲开发银行承诺推动伙伴关系提质升级，强调区域基建项目的互惠效益。",
+      "ex2": "When one team shares data openly, a reciprocal flow from the other side keeps the collaboration alive.",
+      "ex2Zh": "当一个团队公开共享数据时，另一方的对等回馈才能让合作持续。",
+      "t": "中国与亚行将推动合作伙伴关系提质升级，这类表述背后常见的词就是 reciprocal——不是单方面让利，而是双向受益。贸易摩擦升温时，各方也更爱谈“对等措施”。\n记忆钩子：reciprocal 与“回报”同根，像打乒乓球，你发一球我回一球；单向叫 unilateral，双向才叫 reciprocal。",
+      "root": "前缀 re-(回，拉丁，同源 return 返回) + 词根 cip(=cap 拿取，拉丁 capere，同源 capture 捕获) + 后缀 -rocal(形容词，拉丁 -cus) → 拿回来给对方 → 相互的、互惠的",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "overhaul",
+      "ph": "/ˌəʊvəˈhɔːl/",
+      "m": "(制度/系统)全面改革；彻底检修",
+      "c": "politics",
+      "pos": "v./n.",
+      "en": "to examine and repair or completely change a system, organization or machine",
+      "defs": [
+        {
+          "cn": "全面改革",
+          "en": "to change a system or policy thoroughly",
+          "pos": "v."
+        },
+        {
+          "cn": "彻底检修",
+          "en": "to take apart and repair equipment completely",
+          "pos": "v."
+        },
+        {
+          "cn": "大修；彻底改造",
+          "en": "a thorough examination and repair or redesign",
+          "pos": "n."
+        }
+      ],
+      "col": "overhaul the tax system 全面改革税制 · major overhaul 重大改革 · engine overhaul 发动机大修 · regulatory overhaul 监管重构",
+      "ex": "Policymakers in several economies are weighing an overhaul of trade rules after the new Section 301 duties were announced.",
+      "exZh": "新的301关税宣布后，多个经济体的政策制定者正考虑对贸易规则进行全面改革。",
+      "ex2": "The plant shut down for a week to overhaul its radar-assembly line after repeated quality complaints.",
+      "ex2Zh": "因质量问题反复被投诉，工厂停产一周对雷达装配线进行彻底检修。",
+      "t": "美国拟对14个经济体加征301关税，中国商务部坚决反对，多国开始讨论是否 overhaul 现有贸易规则与供应链布局。改革与检修同词，颇有意味：制度也像机器，需要定期拆开看看。\n职场联想：公司说“组织架构 overhaul”，往往意味着汇报线重画、岗位重排；听到这个词，先问“改什么、谁受益”。",
+      "root": "前缀 over-(过度、全面，古英语 ofer，同源 over 在上) + 词根 haul(拖、拉，古法语 haler，同源 haulage 拖运) → 全部拆开翻检 → 彻底检修、全面改革",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "incentivize",
+      "ph": "/ɪnˈsentɪvaɪz/",
+      "m": "激励；以奖励促使(某人做事)",
+      "c": "econ",
+      "pos": "v.",
+      "en": "to motivate or encourage someone to act by offering rewards or benefits",
+      "defs": [
+        {
+          "cn": "激励；鼓励",
+          "en": "to motivate someone by offering rewards",
+          "pos": "v."
+        },
+        {
+          "cn": "以利益驱动",
+          "en": "to make an action more attractive through benefits",
+          "pos": "v."
+        },
+        {
+          "cn": "设计激励机制",
+          "en": "to structure rewards so desired behavior follows",
+          "pos": "v."
+        }
+      ],
+      "col": "incentivize investment 激励投资 · incentivize lenders 激励放贷机构 · tax-incentivize 以税收激励 · poorly incentivized 激励设计不当",
+      "ex": "Four major state banks have signed stock buyback and increase loan contracts with listed firms worth over 600 billion yuan, a tool designed to incentivize long-term holding.",
+      "exZh": "四大商业银行已与上市公司签订超6000亿元股票回购增持贷款合同，这一工具旨在激励长期持有。",
+      "ex2": "Managers who want faster reporting should incentivize accuracy, not just speed.",
+      "ex2Zh": "想要更快报表的管理者，应当激励准确性，而不只是速度。",
+      "t": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元，本质是用低成本资金 incentivize 大股东与公司增持，稳住市场预期。金价在3570美元附近停滞，也说明资金在寻找更有“激励”的方向。\n辨析：incentive 是名词“激励”，incentivize 是动词“去激励”；激励错方向，比不激励更糟。",
+      "root": "前缀 in-(向内、使，拉丁，同源 inject 注入) + 词根 cent(=cant 唱，拉丁 canere，同源 chant 吟唱) + 后缀 -ivize(使动，拉丁 -ivus) → 用歌声鼓动 → 激励、驱动",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "resilient",
+      "ph": "/rɪˈzɪliənt/",
+      "m": "有韧性的；能迅速恢复的",
+      "c": "econ",
+      "pos": "adj.",
+      "en": "able to recover quickly from shocks, or to keep functioning under pressure",
+      "defs": [
+        {
+          "cn": "有韧性的",
+          "en": "able to withstand shocks without breaking down",
+          "pos": "adj."
+        },
+        {
+          "cn": "能迅速恢复的",
+          "en": "quick to bounce back after a setback",
+          "pos": "adj."
+        },
+        {
+          "cn": "(材料)有弹性的",
+          "en": "able to spring back into shape after bending",
+          "pos": "adj."
+        }
+      ],
+      "col": "resilient economy 有韧性的经济 · resilient supply chain 韧性供应链 · resilient workforce 抗压员工队伍 · remain resilient 保持韧性",
+      "ex": "The onshore yuan closed at 6.6609 per dollar, up 72 points from the previous night, a sign that the currency remains resilient despite tariff talk.",
+      "exZh": "在岸人民币兑美元收报6.6609元，较前夜收盘涨72点，显示尽管有关税言论，人民币仍具韧性。",
+      "ex2": "A resilient team treats a failed launch as data, not as a verdict on its ability.",
+      "ex2Zh": "有韧性的团队把发布失败当作数据，而不是对自身能力的判决。",
+      "t": "在岸人民币兑美元收报6.6609元，较周三夜盘涨72点；在美国拟加征301关税的背景下，市场仍用 resilient 形容人民币与出口链的承压能力。金价停滞、美股观望，都在测试这份韧性。\n对比记：resilient 强调“受压后回弹”，robust 强调“本身结实”；人可以说 resilient，但少说 robust。",
+      "root": "前缀 re-(回，拉丁，同源 return 返回) + 词根 sil(=sal 跳，拉丁 salire，同源 assault 猛扑) + 后缀 -ient(形容词，拉丁 -iens) → 跳回来 → 有弹性、能恢复",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "workload",
+      "ph": "/ˈwɜːkləʊd/",
+      "m": "工作量；工作负担",
+      "c": "work",
+      "pos": "n.",
+      "en": "the amount of work a person or machine has to do in a given period",
+      "defs": [
+        {
+          "cn": "工作量",
+          "en": "the amount of work assigned to someone",
+          "pos": "n."
+        },
+        {
+          "cn": "工作负担",
+          "en": "the pressure created by the volume of tasks",
+          "pos": "n."
+        },
+        {
+          "cn": "(系统)负载",
+          "en": "the demand placed on a machine or system",
+          "pos": "n."
+        }
+      ],
+      "col": "heavy workload 繁重工作量 · manage workload 管理工作量 · workload balance 工作量平衡 · share the workload 分担工作",
+      "ex": "As banks push buyback loans, branch staff report a heavier workload tied to reviewing corporate applications.",
+      "exZh": "随着银行推进回购贷款，网点员工反映与企业申请审核相关的工作量加重。",
+      "ex2": "Splitting the audit workload across two teams kept the deadline realistic.",
+      "ex2Zh": "把审计工作量分给两个团队，让截止日期变得现实可行。",
+      "t": "四大行与上市公司签订超6000亿元回购增持贷款合同，一线信贷与风控人员的 workload 随之上升；科技展会上硬科技成果集中亮相，也意味着工程师排期更满。\n记忆法：work + load 就是“背在身上的活”。同事说“share the workload”，不是客气话，是分工请求；说“manage your workload”时，重点在排序而非加班。",
+      "root": "work(工作，古英语 weorc，同源 energy 中的 ergon 劳作) + load(负担，古英语 lād，同源 laden 装载) → 背负的工作量 → 工作负担",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "prototype",
+      "ph": "/ˈprəʊtətaɪp/",
+      "m": "原型；样机；初版模型",
+      "c": "tech",
+      "pos": "n.",
+      "en": "a first model of a product used to test and develop the final version",
+      "defs": [
+        {
+          "cn": "原型；样机",
+          "en": "an early model built to test a design",
+          "pos": "n."
+        },
+        {
+          "cn": "初版；试制品",
+          "en": "a first version used before mass production",
+          "pos": "n."
+        },
+        {
+          "cn": "典型；范例",
+          "en": "an original example that later versions follow",
+          "pos": "n."
+        }
+      ],
+      "col": "build a prototype 制作原型 · working prototype 可运行样机 · prototype stage 原型阶段 · fast prototype 快速打样",
+      "ex": "Hard-tech firms showed prototypes at the Hi-Tech Fair, from new materials to advanced equipment, signaling China's push toward innovation.",
+      "exZh": "硬科技企业在高交会上展示从新材料到先进装备的样机，显示中国推动创新的方向。",
+      "ex2": "Before rewriting the whole report template, draft a prototype for one section and test it with readers.",
+      "ex2Zh": "在重写整个报告模板前，先为其中一节做个原型，并让读者试用。",
+      "t": "硬科技前沿成果集中亮相高交会，展现中国“向新力”，从新材料到先进装备，不少展品仍是 prototype，却已吸引产业资本围观。同期我国首次包揽全球科研城市榜单前三，创新链条正被拉长。\n职场用法：做方案先出 prototype，比开会争论一个月便宜；原型不是成品，它的价值是尽快暴露问题。",
+      "root": "前缀 proto-(最初，希腊 protos，同源 protocol 原始记录) + 词根 typ(模型、印记，希腊 typos，同源 type 类型) → 最初的模型 → 原型、样机",
+      "d": "2026-11-27"
+    },
+    {
+      "w": "mentorship",
+      "ph": "/ˈmentɔːʃɪp/",
+      "m": "导师指导；师徒式培养",
+      "c": "work",
+      "pos": "n.",
+      "en": "guidance given by an experienced person to help someone develop skills and career",
+      "defs": [
+        {
+          "cn": "导师指导",
+          "en": "guidance from a more experienced person",
+          "pos": "n."
+        },
+        {
+          "cn": "师徒培养关系",
+          "en": "a sustained relationship of teaching and support",
+          "pos": "n."
+        },
+        {
+          "cn": "辅导机制",
+          "en": "a structured program pairing juniors with seniors",
+          "pos": "n."
+        }
+      ],
+      "col": "offer mentorship 提供导师指导 · mentorship program 导师计划 · under someone's mentorship 在某人的指导下 · peer mentorship 同伴辅导",
+      "ex": "With a heavier workload in lending teams, banks are leaning on mentorship to bring junior analysts up to speed faster.",
+      "exZh": "贷款团队工作量加重，银行更依赖导师指导来让初级分析师更快上手。",
+      "ex2": "Good mentorship asks questions before giving answers.",
+      "ex2Zh": "好的导师指导是先提问，再给答案。",
+      "t": "四大行回购增持贷款合同超6000亿元，信贷与风控人手吃紧，不少机构把 mentorship 当作缩短新人上手期的办法；科研城市榜单前三被我国包揽，也让“谁带谁”的培养机制更受关注。\n对照记：mentorship 是长期陪伴式指导，training 是集中授课；前者慢，却更能留住人。",
+      "root": "词根 ment(=mind 心智，拉丁 mens，同源 mental 心智的) + 后缀 -or(人，拉丁 -or) + 后缀 -ship(关系、状态，古英语 -scipe，同源 friendship 友谊) → 以心智引导者的身份相伴 → 导师关系、指导",
+      "d": "2026-11-27"
     }
   ],
   "preview": {
-    "hook": "华盛顿最新一轮[tariff|tariff]清单与[sanction|sanction]措施同步落地，覆盖范围首次延伸至先进[semiconductor|semiconductor]设备与关键矿产的[procurement|procurement]环节，市场随即出现明显[divergence|divergence]：美国本土芯片股走强，而依赖出口的亚洲供应商承压；与此同时，部分资金流向黄金与瑞郎等传统[haven|haven]，显示投资者在评估政策[resilience|resilience]时更看重企业供应链的实际调整能力，而非短期喊话，多家跨国企业已开始依据新[guideline|guideline]重排订单与库存节奏。",
+    "hook": "今天的故事从一份关税清单讲起：美国拟对14个经济体加征301关税，中国商务部称坚决反对，市场担心摩擦继续 [escalate|escalate]；另一边，中国与亚行强调 [reciprocal|reciprocal] 的伙伴关系提质升级，多国开始讨论对贸易规则做 [overhaul|overhaul]。资金端，四大行与上市公司签下超6000亿元回购增持贷款合同，意在 [incentivize|incentivize] 长期持有，在岸人民币收报6.6609元仍显 [resilient|resilient]。落到办公室，信贷审核让一线 [workload|workload] 明显加重，高交会上的 [prototype|prototype] 与机构里的 [mentorship|mentorship] 成了对冲人手紧张的两张牌。",
     "impact": ""
   }
 }

@@ -1,12 +1,12 @@
 {
-  "updated_on": "2026-11-27",
+  "updated_on": "2026-11-28",
   "quote": {
-    "en": "Learn like a builder: lay one brick, then another, until the wall stands.",
-    "zh": "像建造者那样学习：砌一块砖，再砌一块，直到墙立起来。"
+    "en": "Learn steadily, adjust swiftly, and let quiet practice outlast every sudden shock.",
+    "zh": "稳步学习，快速调整，让安静的练习比每一次突发冲击都更持久。"
   },
   "story": {
-    "en": "Trade tensions looked set to [escalate|escalate] on Friday after Washington proposed Section 301 tariffs on 14 economies, with China's Commerce Ministry saying it firmly opposes the move while other trading partners' frictions with Beijing may increase, DW.com reported. The same day, Xinhua said China and the Asian Development Bank will push their partnership to a higher level, a [reciprocal|reciprocal] arrangement the two sides framed as upgrading cooperation. Separately, the four major state-owned banks have signed stock buyback and increase loan contracts with listed companies worth over 600 billion yuan, Wall Street Journal-affiliated Cailianshe reported, a step meant to [incentivize|incentivize] listed firms to stabilize share prices.\n\nOn the technology front, hard-tech frontier results were showcased at the China Hi-Tech Fair, displaying the country's capacity for innovation, Xinhua said, while Beijing again topped a global science-city ranking as Chinese cities swept the top three for the first time, Guangming Online reported. The reports did not detail any specific [prototype|prototype] or [mentorship|mentorship] program, though both themes are central to such innovation drives.\n\nIn Beijing, strong winds returned with falling temperatures, prompting reminders to keep warm, Weather.com.cn said. Analysts said the economy must stay [resilient|resilient] as tariff pressure and trade friction build, and called for a broader [overhaul|overhaul] of support measures to manage the [workload|workload] on exporters and small firms in the months ahead.",
-    "cn": "在全球通胀降温、劳动力市场趋紧的背景下，政策制定者与企业负责人正在讨论如何[升级]([升级|escalate])生产率提升，同时避免重新推高物价压力。争论焦点集中在一种[互惠的]([互惠的|reciprocal])技能培养模式上：投入培训的企业期待可衡量的回报，员工则期待获得可携带的资质认证作为对等交换。\n\n多家机构正在试点如何[全面改革]([全面改革|overhaul])内部人才体系，以[激励]([激励|incentivize])员工持续学习。试点项目将模块化短周期课程的[原型]([原型|prototype])与结构化的[导师指导]([导师指导|mentorship])相结合，力求让团队在技术快速变化中保持[韧性]([有韧性的|resilient])。管理者表示，培训周适当减轻[工作量]([工作量|workload])至关重要，因为负担过重的员工很少能完成自愿参加的课程模块。\n\n下一阶段的重点在于评估：这类方案是否真正提升留任率与产出，以及成本如何在雇主与公共资金之间分担。分析人士提醒，若缺乏清晰证据，热情可能超出预算承受能力。方向已经明确：技能政策正从一次性课程转向持续、相互负责的投资，即将到来的预算周期将检验这一承诺能否兑现。"
+    "en": "Central bank cuts the subscription [threshold|threshold] for large-denomination certificates of [deposit|deposit] and removes the upper and lower limits on the loan [penalty|penalty] interest rate, a policy shift that lowers the bar for savers and borrowers alike. The move reshapes how banks price their deposit products and how they charge for overdue credit.\n\nIn the energy arena, Qatar's foreign ministry condemned in the strongest terms the Houthi attack on Saudi Arabia's Jizan [refinery|refinery], while Iran said an oil tanker struck a mine and exploded in the Strait of Hormuz. The incidents sharpen concern over crude [supply|supply] and shipping security in the Gulf, even as international oil prices edged slightly lower on the 27th.\n\nOn trade, US farmers worry that Trump's tariff measures will block [export|export] and raise costs. Separately, Nvidia has suspended deliveries of AI servers to four Southeast Asian countries, and analysts warn the global supply [shortage|shortage] could widen. Markets took the news in stride: the three major New York indices rose markedly on the 27th. Beijing said it successfully launched the Yaogan-50 04 satellite for land surveys, crop estimation and disaster relief. As officials [dispatch|dispatch] teams to brief on the Fifth Plenum's spirit, investors will watch whether easing deposit rules and Gulf tensions tilt the next round of pricing.",
+    "cn": "央行下调大额存单认购起点，并取消贷款[罚息|penalty]利率上下限，此举降低了储户与借款人的[门槛|threshold]，也重塑银行对[存款|deposit]产品的定价与逾期信贷的收费方式。\n\n能源方面，卡塔尔外交部以最强烈措辞谴责胡塞武装对沙特吉赞[炼油厂|refinery]的袭击；伊朗称一艘油轮在霍尔木兹海峡触雷爆炸。事件加剧了市场对海湾原油[供给|supply]与航运安全的担忧，尽管27日国际油价微跌。\n\n贸易领域，美国农民担忧特朗普关税措施将阻碍[出口|export]并推高成本。英伟达暂停向东南亚四国交付AI服务器，分析人士警告全球供给[短缺|shortage]或将扩大。纽约股市三大股指27日显著上涨。我国成功发射遥感五十号04星，用于国土普查、农作物估产和防灾减灾。随着各地[派遣|dispatch]宣讲团宣讲党的二十届五中全会精神，投资者将关注存款新规与海湾局势如何影响下一轮定价。"
   },
   "words": [
     {
@@ -23214,10 +23214,264 @@
       "t": "四大行回购增持贷款合同超6000亿元，信贷与风控人手吃紧，不少机构把 mentorship 当作缩短新人上手期的办法；科研城市榜单前三被我国包揽，也让“谁带谁”的培养机制更受关注。\n对照记：mentorship 是长期陪伴式指导，training 是集中授课；前者慢，却更能留住人。",
       "root": "词根 ment(=mind 心智，拉丁 mens，同源 mental 心智的) + 后缀 -or(人，拉丁 -or) + 后缀 -ship(关系、状态，古英语 -scipe，同源 friendship 友谊) → 以心智引导者的身份相伴 → 导师关系、指导",
       "d": "2026-11-27"
+    },
+    {
+      "w": "deposit",
+      "ph": "/dɪˈpɒzɪt/",
+      "m": "n. 存款；押金 v. 存入；存放",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "money placed in a bank account; a sum paid as security; to place money somewhere for safekeeping",
+      "defs": [
+        {
+          "cn": "存款；存入",
+          "en": "money put into a bank account, or the act of putting it there",
+          "pos": "n./v."
+        },
+        {
+          "cn": "押金；定金",
+          "en": "a partial payment made as security for a purchase",
+          "pos": "n."
+        },
+        {
+          "cn": "沉淀物；沉积",
+          "en": "a layer of material that settles at the bottom of a liquid",
+          "pos": "n."
+        }
+      ],
+      "col": "large-denomination deposit 大额存单 · deposit threshold 认购起点 · make a deposit 存款 · security deposit 押金",
+      "ex": "The central bank lowered the subscription threshold for large-denomination deposits and scrapped the floor and cap on penalty interest for loans.",
+      "exZh": "央行下调大额存单认购起点，并取消贷款罚息利率上下限。",
+      "ex2": "Landlords in big cities often ask for one month's rent as a security deposit before handing over the keys.",
+      "ex2Zh": "大城市的房东通常要求先付一个月租金作为押金才交钥匙。",
+      "t": "今日东方财富消息，央行下调大额存单认购起点，同时取消贷款罚息利率上下限，等于给银行的存款与贷款定价同时松了绑。\n职场类比：谈合同时先付的定金也叫 deposit，和银行存款同词不同场景，记住“先放进去的钱”这一核心画面即可。",
+      "root": "前缀 de-(向下，拉丁，同源 descend 下降) + 词根 posit(放置，拉丁 ponere，同源 position 位置、compose 组成) → 向下放置 → 存放、存款、沉积物",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "threshold",
+      "ph": "/ˈθreʃhəʊld/",
+      "m": "n. 门槛；起点；临界值",
+      "c": "econ",
+      "pos": "n.",
+      "en": "the level at which something starts to happen; the minimum amount needed to qualify",
+      "defs": [
+        {
+          "cn": "门槛；起点",
+          "en": "the minimum level or amount required to enter or qualify",
+          "pos": "n."
+        },
+        {
+          "cn": "临界值；阈值",
+          "en": "a point at which a reaction or change is triggered",
+          "pos": "n."
+        },
+        {
+          "cn": "门口；入门处",
+          "en": "the strip at the bottom of a doorway",
+          "pos": "n."
+        }
+      ],
+      "col": "subscription threshold 认购起点 · cross a threshold 越过临界点 · income threshold 收入门槛 · pain threshold 痛感阈值",
+      "ex": "Lowering the subscription threshold for large-denomination certificates of deposit may pull some household savings back into banks.",
+      "exZh": "下调大额存单认购起点，可能把部分居民储蓄重新拉回银行。",
+      "ex2": "Applicants whose scores fall below the threshold are automatically filtered out by the recruiting system.",
+      "ex2Zh": "分数低于门槛的申请人会被招聘系统自动筛掉。",
+      "t": "央行此番下调大额存单认购起点，本质是把普通储户进入高息存款的 threshold 压低，让更多小额资金也能拿到相对高的利息。\n对比记忆：threshold 是“进门的坎”，ceiling 是“天花板”，一个管下限一个管上限，政策文件里常成对出现。",
+      "root": "源自古英语 threscold(门槛、踏脚处)，与 thresh(踩踏、打谷)同源 → 脚踩的那块木板 → 引申为进入某状态的最低界线、阈值",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "penalty",
+      "ph": "/ˈpenəlti/",
+      "m": "n. 罚息；罚款；处罚",
+      "c": "econ",
+      "pos": "n.",
+      "en": "a punishment, especially a sum of money charged for breaking a rule or paying late",
+      "defs": [
+        {
+          "cn": "罚息；罚款",
+          "en": "extra money charged for late payment or rule-breaking",
+          "pos": "n."
+        },
+        {
+          "cn": "处罚；惩罚",
+          "en": "a punishment imposed for an offence",
+          "pos": "n."
+        },
+        {
+          "cn": "不利后果",
+          "en": "a disadvantage suffered as a result of an action",
+          "pos": "n."
+        }
+      ],
+      "col": "penalty interest 罚息 · pay a penalty 缴纳罚款 · penalty rate 罚息利率 · early-withdrawal penalty 提前支取罚息",
+      "ex": "Removing the floor and cap on penalty interest rates gives banks more room to price late loan repayments.",
+      "exZh": "取消罚息利率上下限，给了银行更大的逾期贷款定价空间。",
+      "ex2": "The supplier agreed to pay a penalty if delivery slipped past the agreed date.",
+      "ex2Zh": "供应商同意若交货晚于约定日期就支付违约金。",
+      "t": "央行取消贷款罚息利率上下限，意味着逾期还款的 penalty 不再被统一框住，银行可按客户风险自行定价。\n职场延伸：合同里的违约金、项目延期的扣款都叫 penalty，和 reward 相对，看到“罚”字先想 penalty。",
+      "root": "词根 pen-(惩罚，拉丁 poena，同源 punish 惩罚、pain 痛苦) + 后缀 -alty(名词，拉丁 -alitas) → 所受的惩罚 → 罚款、罚息、不利后果",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "export",
+      "ph": "/ɪkˈspɔːt/",
+      "m": "n. 出口；出口商品 v. 出口；输出",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "goods sold to another country; to send goods or services abroad for sale",
+      "defs": [
+        {
+          "cn": "出口；出口商品",
+          "en": "goods or services sold to buyers in another country",
+          "pos": "n."
+        },
+        {
+          "cn": "出口；输出",
+          "en": "to send goods abroad for sale",
+          "pos": "v."
+        },
+        {
+          "cn": "传播；输出(观念)",
+          "en": "to spread ideas or culture to other places",
+          "pos": "v."
+        }
+      ],
+      "col": "export earnings 出口收入 · export market 出口市场 · curb exports 抑制出口 · export-oriented 外向型的",
+      "ex": "American farmers worry that new tariff measures will block their exports and push up input costs.",
+      "exZh": "美国农民担心新的关税措施会阻碍其出口并推高成本。",
+      "ex2": "The firm plans to export its warehouse robots to Southeast Asian logistics operators next year.",
+      "ex2Zh": "该公司计划明年把仓储机器人出口给东南亚物流运营商。",
+      "t": "据 RFI 报道，美国农民担忧特朗普的关税措施将使出口受阻、成本上升，export 通道一紧，农业带的现金流最先承压。\n反义联想：export 出口 ↔ import 进口，一进一出构成贸易账本的两端。",
+      "root": "前缀 ex-(向外，拉丁，同源 exit 出口、exclude 排除) + 词根 port(搬运，拉丁 portare，同源 transport 运输、portable 便携的) → 往外搬运 → 出口、输出",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "supply",
+      "ph": "/səˈplaɪ/",
+      "m": "n. 供给；供应量 v. 供应；提供",
+      "c": "econ",
+      "pos": "n./v.",
+      "en": "the amount of a good available; to provide something that is needed",
+      "defs": [
+        {
+          "cn": "供给；供应量",
+          "en": "the quantity of goods or services available in a market",
+          "pos": "n."
+        },
+        {
+          "cn": "供应；提供",
+          "en": "to give or provide what is needed",
+          "pos": "v."
+        },
+        {
+          "cn": "补给品；日用品",
+          "en": "goods such as food or equipment kept for use",
+          "pos": "n."
+        }
+      ],
+      "col": "supply gap 供给缺口 · supply chain 供应链 · in short supply 供应短缺 · supply and demand 供求",
+      "ex": "Nvidia has paused AI server deliveries to four Southeast Asian countries, and the global supply gap may widen.",
+      "exZh": "英伟达暂停向东南亚四国交付 AI 服务器，全球供给缺口或将扩大。",
+      "ex2": "When coffee beans are in short supply, roasters pass the extra cost on to cafés.",
+      "ex2Zh": "咖啡豆供应短缺时，烘焙商会把额外成本转嫁给咖啡馆。",
+      "t": "钛媒体报道，英伟达暂停向东南亚四国交付 AI 服务器，全球 supply 缺口或将扩大，算力租赁价格随之看涨。\n经济学固定搭配 supply and demand 供求关系，supply 在前 demand 在后，顺序别颠倒。",
+      "root": "前缀 sup-(=sub 在下，拉丁，同源 support 支撑、subway 地铁) + 词根 ply(填满，拉丁 plere，同源 complete 完成、plenty 充足) → 从下面填满 → 补给、供应",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "refinery",
+      "ph": "/rɪˈfaɪnəri/",
+      "m": "n. 炼油厂；精炼厂",
+      "c": "news",
+      "pos": "n.",
+      "en": "an industrial plant where crude oil or other raw material is purified and processed",
+      "defs": [
+        {
+          "cn": "炼油厂",
+          "en": "a plant that turns crude oil into petrol and other products",
+          "pos": "n."
+        },
+        {
+          "cn": "精炼厂",
+          "en": "a facility that purifies metals, sugar or other materials",
+          "pos": "n."
+        }
+      ],
+      "col": "oil refinery 炼油厂 · refinery capacity 炼油产能 · refinery outage 炼厂停工 · run a refinery 运营炼厂",
+      "ex": "Qatar's foreign ministry condemned in the strongest terms the attack on a Saudi refinery in Jizan.",
+      "exZh": "卡塔尔外交部以最强烈措辞谴责胡塞武装对沙特吉赞炼油厂的袭击。",
+      "ex2": "A single refinery outage can lift regional fuel prices within days.",
+      "ex2Zh": "一家炼油厂停工，几天内就能推高区域燃油价格。",
+      "t": "卡塔尔外交部以最强烈措辞谴责胡塞武装对沙特吉赞炼油厂的袭击，refinery 一旦受损，成品油供应与油价预期立刻被扰动。\n构词联想：refine 精炼 + -ery 场所 → 精炼的地方，bakery 面包房、brewery 啤酒厂同理。",
+      "root": "前缀 re-(再、反复，拉丁，同源 repeat 重复) + 词根 fine(纯净、精细，法语 fin，同源 fine 精细的) + 后缀 -ery(场所，拉丁 -aria) → 反复提纯的场所 → 炼油厂、精炼厂",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "shortage",
+      "ph": "/ˈʃɔːtɪdʒ/",
+      "m": "n. 短缺；不足",
+      "c": "work",
+      "pos": "n.",
+      "en": "a situation in which there is not enough of something that people need",
+      "defs": [
+        {
+          "cn": "短缺；不足",
+          "en": "a lack of something needed, such as goods or staff",
+          "pos": "n."
+        },
+        {
+          "cn": "匮乏状态",
+          "en": "the condition of being in short supply",
+          "pos": "n."
+        }
+      ],
+      "col": "labour shortage 劳动力短缺 · supply shortage 供应短缺 · skills shortage 技能缺口 · acute shortage 严重短缺",
+      "ex": "A widening AI server supply gap could turn into a global shortage of computing capacity.",
+      "exZh": "AI 服务器供给缺口扩大，可能演变成全球算力短缺。",
+      "ex2": "Hospitals in the region report a chronic shortage of night-shift nurses.",
+      "ex2Zh": "该地区医院报告夜班护士长期短缺。",
+      "t": "英伟达暂停对东南亚四国交付 AI 服务器，市场担心 supply shortage 从区域扩散到全球，云厂商的排产计划被迫重排。\n职场高频：skills shortage 技能短缺、labour shortage 用工荒，都是招聘季新闻里的常客。",
+      "root": "short(短的、不足的，古英语 sceort，同源 shorten 缩短) + 后缀 -age(状态，法语 -age，同源 shortage 之外的 breakage 破损) → 处于不足的状态 → 短缺",
+      "d": "2026-11-28"
+    },
+    {
+      "w": "dispatch",
+      "ph": "/dɪˈspætʃ/",
+      "m": "v. 派遣；发送 n. 快讯；调度",
+      "c": "news",
+      "pos": "v./n.",
+      "en": "to send someone or something somewhere quickly; a news report sent from a place",
+      "defs": [
+        {
+          "cn": "派遣；发送",
+          "en": "to send goods, messages or people to a destination",
+          "pos": "v."
+        },
+        {
+          "cn": "快讯；电讯",
+          "en": "a news report filed by a correspondent",
+          "pos": "n."
+        },
+        {
+          "cn": "调度；处理效率",
+          "en": "the act of dealing with something promptly",
+          "pos": "n."
+        }
+      ],
+      "col": "dispatch goods 发货 · news dispatch 新闻快讯 · dispatch centre 调度中心 · dispatch a team 派遣团队",
+      "ex": "The chipmaker suspended dispatches of AI servers to four Southeast Asian countries this week.",
+      "exZh": "这家芯片厂商本周暂停向东南亚四国发送 AI 服务器。",
+      "ex2": "Our newsroom receives a dispatch from the correspondent in Phnom Penh every morning.",
+      "ex2Zh": "我们编辑部每天早上都会收到金边记者的快讯。",
+      "t": "英伟达暂停向东南亚四国 dispatch AI 服务器，物流与交付链条同步踩了刹车，客户只能转向其他算力来源。\n易混提醒：dispatch 强调“快速发出”，deliver 强调“送到手上”，前者重动作、后者重结果。",
+      "root": "前缀 dis-(分开，拉丁，同源 divide 分开) + 词根 patch(脚镣、束缚，意大利语 impacciare 阻碍) → 解开束缚、迅速放行 → 派遣、发送、快讯",
+      "d": "2026-11-28"
     }
   ],
   "preview": {
-    "hook": "今天的故事从一份关税清单讲起：美国拟对14个经济体加征301关税，中国商务部称坚决反对，市场担心摩擦继续 [escalate|escalate]；另一边，中国与亚行强调 [reciprocal|reciprocal] 的伙伴关系提质升级，多国开始讨论对贸易规则做 [overhaul|overhaul]。资金端，四大行与上市公司签下超6000亿元回购增持贷款合同，意在 [incentivize|incentivize] 长期持有，在岸人民币收报6.6609元仍显 [resilient|resilient]。落到办公室，信贷审核让一线 [workload|workload] 明显加重，高交会上的 [prototype|prototype] 与机构里的 [mentorship|mentorship] 成了对冲人手紧张的两张牌。",
+    "hook": "今天的故事从央行的一纸调整讲起：大额存单的 subscription [threshold|threshold] 被下调，贷款 [penalty|penalty] 利率的上下限也被取消，储户的 [deposit|deposit] 门槛低了，银行的定价空间大了。镜头一转，美国农民正担心关税让 [export|export] 通道受阻、成本抬升；中东一座 Saudi [refinery|refinery] 遇袭，又提醒市场能源供给有多脆弱。科技线上，英伟达暂停向东南亚四国 [dispatch|dispatch] AI 服务器，[supply|supply] 缺口眼看要变成全球 [shortage|shortage]。三条线索看似分散，其实都在讲同一件事——门槛、通道与供给的重新定价，谁先读懂，谁就先站稳。",
     "impact": ""
   }
 }
